@@ -42,6 +42,11 @@ a { color: var(--accent); }
 .top { border-bottom: 1px solid var(--line); padding: 20px 0 14px; margin-bottom: 16px; }
 .top h1 { margin: 0 0 4px; font-size: 22px; }
 .sub { margin: 0; color: var(--muted); font-size: 14px; }
+.tabs { display: flex; gap: 6px; margin: 12px 0 6px; flex-wrap: wrap; }
+.tabs button { border-radius: 999px; padding: 6px 14px; }
+.tabs button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.s-none { color: var(--muted); border-style: dashed; }
+.more-wrap { text-align: center; }
 
 .filters { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
 .row { display: flex; flex-wrap: wrap; gap: 10px 12px; }

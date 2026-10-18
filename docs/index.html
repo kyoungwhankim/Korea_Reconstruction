@@ -4,15 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>수도권 재건축 현황</title>
-<meta name="description" content="서울·경기·인천 아파트 재건축 사업의 진행 단계와 단지 지표를 공공데이터로 매일 갱신해 검색합니다.">
+<meta name="description" content="서울·경기·인천 아파트 재건축 사업과 30년 이상 노후 단지를 공공데이터로 매일 갱신해 검색합니다.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="top">
   <div class="wrap">
     <h1>수도권 재건축 현황</h1>
-    <p class="sub">서울·경기·인천 아파트 재건축 사업장 <b id="total">–</b>곳 · 데이터 갱신 <b id="updated">–</b>
+    <p class="sub">서울·경기·인천 <b id="total">–</b> · 데이터 갱신 <b id="updated">–</b>
       · <a href="https://github.com/kyoungwhankim/Korea_Reconstruction">출처·원본 데이터</a></p>
+    <nav id="viewTabs" class="tabs" aria-label="보기">
+      <button type="button" data-view="projects" aria-pressed="true">재건축 사업장</button>
+      <button type="button" data-view="apartments" aria-pressed="false">30년 이상 노후 단지</button>
+    </nav>
+    <p id="viewNote" class="sub"></p>
   </div>
 </header>
 
@@ -34,7 +39,7 @@
     </div>
 
     <fieldset class="stages">
-      <legend>진행 단계</legend>
+      <legend>재건축 단계</legend>
       <div id="stageChips" class="chips"></div>
     </fieldset>
 
@@ -56,7 +61,8 @@
       <tbody id="body"></tbody>
     </table>
   </div>
-  <p id="empty" class="empty" hidden>조건에 맞는 사업장이 없습니다.</p>
+  <p id="empty" class="empty" hidden>조건에 맞는 곳이 없습니다.</p>
+  <p class="more-wrap"><button type="button" id="moreBtn" hidden></button></p>
 
   <section class="notes">
     <h2>읽는 법</h2>
@@ -67,6 +73,10 @@
         <b>세대당 구역면적</b>(구역면적 ÷ 기존 세대수)은 도로·공원이 포함될 수 있어 실제 대지지분보다 큰 참고치입니다.</li>
       <li><b>실거래가</b>는 국토교통부 아파트 매매 실거래가(최근 12개월, 해제 거래 제외)를 지번·단지명으로 사업장에 연결한 값입니다.
         평당가는 전용면적 기준(만원/3.3㎡)입니다. 준공된 사업장은 새 아파트의 거래입니다.</li>
+      <li><b>30년 이상 노후 단지</b>는 건축물대장(법정동별 단지 목록, 분기마다 갱신)과 실거래가(준공연도)로 모은 수도권 아파트 단지입니다.
+        같은 단지가 지번별로 나뉘어 보일 수 있고, 거래가 없고 대장에 사용승인일이 없는 단지는 빠질 수 있습니다.
+        재건축 사업장의 대표 지번과 같은 단지에는 사업 단계가 표시됩니다.
+        준공연도는 실거래의 건축년도를 우선하고, 없으면 건축물대장 사용승인일을 씁니다(대장 값에는 오기가 있을 수 있습니다).</li>
       <li>노후계획도시(1기 신도시: 분당·일산·평촌·산본·중동) 단지는 특별정비구역으로 지정된 곳만 공공 데이터에 나오며, 구성 단지 목록이 없어 구역 이름으로만 표시됩니다.</li>
       <li>공공데이터를 자동으로 모은 자료로 실제와 다를 수 있습니다. 중요한 판단 전에는 해당 지자체·조합 자료를 확인하세요.</li>
     </ul>

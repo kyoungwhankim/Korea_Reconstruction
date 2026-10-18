@@ -299,8 +299,24 @@ def fetch_trades(sgg: str, ym: str) -> list[dict]:
         page += 1
 
 
-def match_trades(trades: list[dict], lots: dict[str, dict], names: dict[str, set[str]]) -> list[dict]:
-    """같은 시군구·법정동에서 ① 지번이 같으면 연결, ② 아니면 단지명이 충분히 비슷하고 후보가 하나일 때만 연결."""
+OLD_AGE = 30  # 노후 단지 기준(년)
+
+
+def old_cutoff(today: str) -> int:
+    """이 해 이전(포함)에 지어진 단지를 노후 단지로 본다: 2026년 → 1996년 이전."""
+    return int(today[:4]) - OLD_AGE
+
+
+@lru_cache(maxsize=1)
+def capital_sggs() -> tuple[str, ...]:
+    """수도권(서울·인천·경기) 실거래 조회용 시군구 코드 — 동을 직접 가진 코드만(구가 있는 시는 구 코드)."""
+    return tuple(sorted({c[:5] for c, _ in bjd_table() if c[:2] in ("11", "28", "41")}))
+
+
+def match_trades(trades: list[dict], lots: dict[str, dict], names: dict[str, set[str]],
+                 old_before: int | None = None) -> list[dict]:
+    """같은 시군구·법정동에서 ① 지번이 같으면 연결, ② 아니면 단지명이 충분히 비슷하고 후보가 하나일 때만 연결.
+    old_before가 있으면 사업장에 연결되지 않은 거래도 그 해 이전에 지어진 단지(노후 단지)면 남긴다."""
     by_dong: dict[tuple, list[str]] = {}
     for pid, lot in lots.items():
         by_dong.setdefault((lot["sigungu_cd"], lot["dong"]), []).append(pid)
@@ -321,6 +337,8 @@ def match_trades(trades: list[dict], lots: dict[str, dict], names: dict[str, set
                 pid, how = hits[0], "단지명"
         if pid:
             out.append({**t, "project_id": pid, "match": how})
+        elif old_before and t.get("built") and t["built"] <= old_before:
+            out.append({**t, "project_id": None, "match": None})
     return out
 
 
@@ -328,7 +346,8 @@ def update_trades(lots: dict[str, dict], names: dict[str, set[str]], today: str,
     months = months_back(today, TRADE_WINDOW)
     fresh = set(months[:TRADE_REFRESH])
     state = json.loads(TRADE_MONTHS_FILE.read_text(encoding="utf-8")) if TRADE_MONTHS_FILE.exists() else {}
-    sggs = sorted({lot["sigungu_cd"] for lot in lots.values()})
+    sggs = sorted(set(capital_sggs()) | {lot["sigungu_cd"] for lot in lots.values()})  # 노후 단지까지: 수도권 전체
+    cutoff = old_cutoff(today)
     # 시군구의 사업장 지번 구성이 바뀌면(새 사업장 등) 그 시군구는 기간 전체를 다시 받아 다시 연결한다
     lots_sig = {s: hashlib.sha1(json.dumps(sorted((p, lot_key(l)) for p, l in lots.items() if l["sigungu_cd"] == s),
                                            ensure_ascii=False).encode()).hexdigest()[:12] for s in sggs}
@@ -356,9 +375,10 @@ def update_trades(lots: dict[str, dict], names: dict[str, set[str]], today: str,
     done = set(fetched)
     ym_of = lambda t: t["date"][:7].replace("-", "")  # noqa: E731
     keep = [t for t in old if (t["sgg"], ym_of(t)) not in done and ym_of(t) in months]
-    keep = match_trades(keep, lots, names)  # 저장된 거래도 현재 규칙·지번으로 다시 연결(규칙이 바뀌어도 일관되게)
-    new = match_trades([t for rows in fetched.values() for t in rows], lots, names)
-    merged = sorted(keep + new, key=lambda t: (t["project_id"], t["date"], t["area"], t["floor"], t["price"], t["apt"]))
+    keep = match_trades(keep, lots, names, cutoff)  # 저장된 거래도 현재 규칙·지번으로 다시 연결(규칙이 바뀌어도 일관되게)
+    new = match_trades([t for rows in fetched.values() for t in rows], lots, names, cutoff)
+    merged = sorted(keep + new, key=lambda t: (t["project_id"] or "", t["sgg"], t["dong"], t["jibun"], t["apt"],
+                                                t["date"], t["area"], t["floor"], t["price"]))
     before, after = _count(old), _count(merged)
     for pid in sorted(after):
         if after[pid] > before.get(pid, 0):
@@ -372,7 +392,8 @@ def update_trades(lots: dict[str, dict], names: dict[str, set[str]], today: str,
     _write_jsonl(TRADES_FILE, merged)
     TRADE_MONTHS_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=1, sort_keys=True) + "\n",
                                  encoding="utf-8", newline="\n")
-    print(f"[실거래] 연결된 거래 {len(merged)}건 (사업장 {len(after)}곳)")
+    print(f"[실거래] 저장 {len(merged)}건 — 사업장 연결 {sum(after.values())}건({len(after)}곳), "
+          f"노후 단지(≤{cutoff}년 준공) {sum(1 for t in merged if not t['project_id'])}건")
     if errors:
         failed.append(f"실거래 {len(errors)}건 실패 (예: {errors[0]})")
     return merged != old
@@ -381,7 +402,8 @@ def update_trades(lots: dict[str, dict], names: dict[str, set[str]], today: str,
 def _count(trades) -> dict[str, int]:
     out: dict[str, int] = {}
     for t in trades:
-        out[t["project_id"]] = out.get(t["project_id"], 0) + 1
+        if t["project_id"]:
+            out[t["project_id"]] = out.get(t["project_id"], 0) + 1
     return out
 
 
@@ -422,7 +444,8 @@ def fields(records: dict[str, dict]) -> dict[str, dict]:
                                 if k not in ("project_id", "lot", "fetched_at", "found") and v is not None}
     by_pid: dict[str, list[dict]] = {}
     for t in _read_jsonl(TRADES_FILE):
-        by_pid.setdefault(t["project_id"], []).append(t)
+        if t["project_id"]:
+            by_pid.setdefault(t["project_id"], []).append(t)
     for pid, ts in by_pid.items():
         rec = records.get(pid, {})
         if rec.get("stage") == "준공":

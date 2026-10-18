@@ -39,6 +39,7 @@ import pandas as pd
 import requests
 
 import collect_reconstruction as cr
+import complexes
 import enrich
 
 STATE = cr.BASE / "state"
@@ -364,6 +365,8 @@ def export(con: sqlite3.Connection, log: list, today: str) -> None:
     recs = [r for r in recs if active_rows(con, r["project_id"]) or r.get("status") == "출처에서 사라짐"]
     res, excluded = cr.records_frame(recs)
     cr.write_outputs(res, excluded, "latest")
+    if complexes.REGISTRY_FILE.exists() or enrich.TRADES_FILE.exists():  # 30년 이상 노후 단지 목록
+        complexes.write(complexes.build(today, recs, enrich.project_lots(con)), today)
     if log:
         CHANGES.mkdir(parents=True, exist_ok=True)
         path = CHANGES / f"changes_{today.replace('-', '')}.csv"
@@ -408,6 +411,7 @@ def main() -> None:
     elif enrich.api_key():
         try:
             enriched = enrich.update(con, args.date, log, failed)
+            enriched = complexes.update(args.date, failed) or enriched
         except Exception as e:  # 보강이 실패해도 사업장 데이터 갱신은 그대로 반영한다
             failed.append(f"보강(건축물대장·실거래가): {e}")
     else:
