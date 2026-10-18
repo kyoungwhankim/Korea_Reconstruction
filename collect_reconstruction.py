@@ -296,6 +296,8 @@ def load_seoul_status() -> pd.DataFrame:
         "address": x["addr_jibun"],
         "existing_units": pd.to_numeric(x["existing_units"], errors="coerce"),
         "planned_units": pd.to_numeric(x["planned_units"], errors="coerce"),
+        "units_sale": pd.to_numeric(x["units_sale"], errors="coerce"),
+        "units_rent": pd.to_numeric(x["units_rent"], errors="coerce"),
         "designated_at": d("designated_first"),
         "designated_changed_at": d("designated_at"),
         "committee_at": d("committee_at"),
@@ -340,6 +342,16 @@ def load_seoul_plan() -> pd.DataFrame:
         "address": d["사업위치"],
         "planned_units": pd.to_numeric(d["공급세대"], errors="coerce"),
         "homepage": d["사업장 홈페이지 주소"],
+        "site_area_m2": num(d["사업면적"]),
+        "zoning_before": d["용도지역_기존"],
+        "zoning_after": d["용도지역_변경"],
+        "gfa_planned_m2": num(d["연면적"]),
+        "far_planned": num(d["용적률"]),
+        "bcr_planned": num(d["건폐률"]),
+        "floors_planned": floors_above(d["층수"]),
+        "height_planned_m": num(d["높이(m)"]),
+        "units_sale": num(d["분양"]),
+        "units_rent": num(d["임대(장기전세)"]),
         "source_pk": d["기본정보_pk"],
         "source": "서울시_서울플랜+정비사업현황(OA-23112)",
         "source_updated_at": date.today().isoformat(),
@@ -371,6 +383,32 @@ def parse_date(v):
 
 def dates(series: pd.Series) -> pd.Series:
     return series.map(parse_date)
+
+
+def num(series: pd.Series) -> pd.Series:
+    """'268.32' / '40이하' / '1,234' / ' ' → 첫 숫자(float). 0이나 빈 값은 '모름'으로 본다."""
+    def one(v):
+        m = re.search(r"\d[\d,]*(?:\.\d+)?", str(v)) if v is not None else None
+        x = float(m.group(0).replace(",", "")) if m else None
+        return x if x else None
+    return series.map(one)
+
+
+def floors_above(series: pd.Series) -> pd.Series:
+    """층수 표기('2/33', '지하4층/지상49층', '12동/23층', '35') → 지상 최고층."""
+    def one(v):
+        if v is None or (isinstance(v, float) and pd.isna(v)):
+            return None
+        t = str(v)
+        m = re.search(r"지상\s*(\d+)", t) or re.search(r"(\d+)\s*층", t) or re.search(r"/\s*(\d+)", t) \
+            or re.fullmatch(r"\s*(\d+)\s*", t)
+        return int(m.group(1)) if m else None
+    return series.map(one)
+
+
+def buildings(series: pd.Series) -> pd.Series:
+    """'12동/23층' → 12"""
+    return series.map(lambda v: int(m.group(1)) if (m := re.search(r"(\d+)\s*동", str(v))) else None)
 
 
 # ---------------------------------------------------------------- 출처 4: 경기도 일반정비사업
@@ -406,6 +444,15 @@ def load_gyeonggi() -> pd.DataFrame:
         "stage_raw": g["사업단계"],
         "address": g["위치"],
         "existing_units": pd.to_numeric(g["(기존주택)세대수"], errors="coerce"),
+        "existing_built_year": num(g["(기존주택)준공년도"]),
+        "existing_buildings": num(g["(기존주택)동수"]),
+        "site_area_m2": num(g["구역면적(㎡)"]),
+        "far_existing": num(g["(기존)용적률"]),
+        "far_planned": num(g["(신축)용적률"]),
+        "units_sale": num(g["일반분양세대수"]),
+        "units_rent": num(g["임대세대수"]),
+        "owners_count": num(g["토지등소유자수(명)"]),
+        "members_count": num(g["조합원수(명)"]),
         "planned_units": pd.to_numeric(g["사업시행세대수총계"], errors="coerce"),
         "designated_at": dates(g["정비구역지정일자(최초지정)"]),
         "designated_changed_at": dates(g["정비구역지정일자(변경지정)"]),
@@ -453,6 +500,13 @@ def load_bucheon() -> pd.DataFrame:
         "stage_raw": clean(x["stage"]),
         "address": clean(x["loc"]).str.replace(r"\s*\(.*$", "", regex=True),
         "planned_units": pd.to_numeric(x["units"], errors="coerce"),
+        "units_sale": pd.to_numeric(x["units_sale"], errors="coerce"),
+        "units_rent": pd.to_numeric(x["units_rent"], errors="coerce"),
+        "site_area_m2": num(x["loc"].astype(str).str.extract(r"\(([\d,\.]+)\)")[0]),
+        "buildings_planned": buildings(x["bldg"]),
+        "floors_planned": floors_above(x["bldg"]),
+        "bcr_planned": num(x["bcr"]),
+        "far_planned": num(x["far"]),
         "committee_at": dates(x["committee"]),
         "designated_at": dates(x["designated"]),
         "union_approved_at": dates(x["union"]),
@@ -481,6 +535,30 @@ def load_incheon() -> pd.DataFrame:
         "stage_raw": d["진행단계"],
         "address": d["위치"],
         "source": "인천시_도시및주거환경정비사업추진현황",
+        "source_updated_at": date_from_title(title),
+    })
+
+
+def load_incheon_detail() -> pd.DataFrame:
+    """인천시 추정분담금정보시스템 정비사업개요: 면적·동수·세대수·건폐율·용적률(계획)."""
+    b, title = datagokr_file("15080866")
+    save("incheon_detail.csv", b)
+    d = read_csv_any(b)
+    d.columns = [c.replace(" ", "").strip() for c in d.columns]
+    d = d[d["사업유형"].str.contains("재건축", na=False)]
+    return pd.DataFrame({
+        "region_sido": "인천광역시",
+        "region_sigungu": d["구별"].str.strip(),
+        "zone_name": d["구역명"].str.strip(),
+        "project_type": "재건축",
+        "stage_raw": d["추진단계"],
+        "address": d["위치"],
+        "site_area_m2": num(d["면적(제곱미터)"]),
+        "buildings_planned": num(d["동수"]),
+        "planned_units": num(d["세대수"]),
+        "bcr_planned": num(d["건폐율(퍼센트)"]),
+        "far_planned": num(d["용적률(퍼센트)"]),
+        "source": "인천시_정비사업개요(추정분담금)",
         "source_updated_at": date_from_title(title),
     })
 
@@ -564,6 +642,8 @@ SOURCES = [
     Source("bucheon", "부천시_정비사업추진현황", load_bucheon, probe_bucheon, host="www.bucheon.go.kr"),
     Source("gyeonggi", "경기도_일반정비사업추진현황", load_gyeonggi, host="data.gg.go.kr"),               # 〃
     Source("incheon", "인천시_도시및주거환경정비사업추진현황", load_incheon, lambda: _probe_datagokr("15055212"), host="www.data.go.kr"),
+    Source("incheon_detail", "인천시_정비사업개요(추정분담금)", load_incheon_detail,
+           lambda: _probe_datagokr("15080866"), host="www.data.go.kr"),
     Source("michuhol", "미추홀구_정비사업추진현황", load_michuhol, lambda: _probe_datagokr("15150904"), host="www.data.go.kr"),
     Source("yeonsu", "연수구_도시정비사업현황", load_yeonsu, lambda: _probe_datagokr("15039862"), host="www.data.go.kr"),
     Source("molit", "국토부_전국도시정비사업통합데이터", load_molit, lambda: _probe_datagokr("15160169"), host="www.data.go.kr"),
@@ -635,11 +715,15 @@ def rows_frame(items: list[tuple[str, dict]]) -> pd.DataFrame:
 STAGE_DATE_COL = {"정비구역지정": "designated_at", "추진위구성": "committee_at", "조합설립인가": "union_approved_at",
                   "건축심의": "arch_review_at", "사업시행인가": "plan_approved_at", "관리처분인가": "mgmt_approved_at",
                   "착공": "started_at", "준공": "completed_at"}
+DETAIL_COLS = [  # 단지·사업 지표 (planned = 정비계획상 신축 계획값, existing = 현재 단지)
+    "site_area_m2", "zoning_before", "zoning_after", "far_existing", "far_planned", "bcr_planned",
+    "gfa_planned_m2", "floors_planned", "height_planned_m", "buildings_planned", "units_sale", "units_rent",
+    "existing_built_year", "existing_buildings", "owners_count", "members_count"]
 DATE_COLS = ["designated_at", "committee_at", "union_approved_at", "arch_review_at", "plan_approved_at",
              "mgmt_approved_at", "relocation_started_at", "started_at", "completed_at"]
 OUT_COLS = ["project_id", "region_sido", "region_sigungu", "zone_name", "aliases", "name_variants", "project_type",
             "stage", "stage_order", "stage_date", *DATE_COLS, "designated_changed_at", "existing_units",
-            "planned_units", "operator_type", "address", "homepage", "type_basis",
+            "planned_units", *DETAIL_COLS, "operator_type", "address", "homepage", "type_basis",
             "stage_by_source", "sources", "source_updated_at", "match_note", "status", "search_keys"]
 
 
@@ -789,7 +873,8 @@ def records_frame(recs: list[dict]) -> tuple[pd.DataFrame, pd.DataFrame]:
         columns=["project_id", "region_sido", "region_sigungu", "zone_name", "name_variants", "project_type",
                  "stage", "sources"])
     res = res[res["_apartment"].astype(bool)].reindex(columns=OUT_COLS + ["_aliases"])
-    for c in ["stage_order", "existing_units", "planned_units"]:
+    for c in ["stage_order", "existing_units", "planned_units", "units_sale", "units_rent", "floors_planned",
+              "buildings_planned", "existing_built_year", "existing_buildings", "owners_count", "members_count"]:
         res[c] = pd.to_numeric(res[c], errors="coerce").astype("Int64")
     res = res.sort_values(["region_sido", "region_sigungu", "stage_order", "zone_name", "project_id"],
                           ascending=[False, True, False, True, True])
@@ -804,6 +889,32 @@ def write_outputs(res: pd.DataFrame, excluded: pd.DataFrame, tag: str) -> None:
     at.to_csv(OUT / f"reconstruction_aliases_{tag}.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
     excluded.to_csv(OUT / f"excluded_single_house_{tag}.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
     print(f"[저장] 사업장 {len(res)}개 → {path.name}, 별칭 {len(at)}개, 제외 {len(excluded)}개")
+    if tag == "latest":
+        write_site_data(res)
+
+
+SITE_DATA = BASE / "docs" / "data" / "projects.json"
+SITE_FIELDS = ["project_id", "region_sido", "region_sigungu", "zone_name", "name_variants", "project_type", "stage",
+               "stage_order", "stage_date", *DATE_COLS, "existing_units", "planned_units", *DETAIL_COLS,
+               "operator_type", "address", "homepage", "sources", "source_updated_at", "search_keys"]
+
+
+def write_site_data(res: pd.DataFrame) -> None:
+    """정적 페이지(docs/)가 읽는 JSON. 빈 값은 빼서 크기를 줄이고, 키 순서를 고정해 diff가 작게 나오게 한다."""
+    rows = []
+    for _, r in res.iterrows():
+        row = {c: jsonable(r.get(c)) for c in SITE_FIELDS}
+        row["aliases"] = [a for a, _ in r["_aliases"]]
+        # 세대당 구역면적: 대지지분의 참고치(구역에 도로·공원이 포함될 수 있어 실제 대지지분보다 클 수 있음)
+        if row.get("site_area_m2") and row.get("existing_units"):
+            row["site_area_per_unit_m2"] = round(row["site_area_m2"] / row["existing_units"], 1)
+        rows.append({k: v for k, v in row.items() if v not in (None, "", [])})
+    data = {"generated_at": date.today().isoformat(), "count": len(rows), "projects": rows,
+            "sources": [{"key": s.key, "name": s.name} for s in SOURCES]}
+    SITE_DATA.parent.mkdir(parents=True, exist_ok=True)
+    SITE_DATA.write_text(json.dumps(data, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n",
+                         encoding="utf-8", newline="\n")
+    print(f"[저장] 페이지 데이터 {len(rows)}개 → {SITE_DATA.relative_to(BASE)}")
 
 
 def full_build(sources: list[Source] = SOURCES) -> tuple[dict[str, dict[str, dict]], pd.Series, list[dict]]:

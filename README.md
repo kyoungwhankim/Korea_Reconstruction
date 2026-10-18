@@ -2,14 +2,21 @@
 
 수도권(서울·경기·인천) **아파트 재건축 사업 진행 현황** 데이터. 정부·지자체가 공개한 자료만 모아 사업장 단위로 합치고, GitHub Actions가 매일 바뀐 부분만 갱신한다.
 
+## 검색 페이지
+
+**https://kyoungwhankim.github.io/Korea_Reconstruction/** — 단지명·별칭, 시도·시군구, 주소, 진행 단계, 용적률·건폐율·세대수·구역면적·준공연도 등 필드별 조건으로 검색. 검색 조건은 주소(URL)에 남아 그대로 공유할 수 있다. 페이지는 `docs/`에 있고 `docs/data/projects.json`을 읽는다(매일 갱신 때 함께 커밋).
+
 ## 데이터 (`output/`)
 
 | 파일 | 내용 |
 |---|---|
-| `capital_area_apartment_reconstruction_latest.csv` | 사업장당 1행. 현재 단계, 단계별 일자(구역지정·추진위·조합설립·건축심의·사업시행·관리처분·착공·준공), 세대수, 출처별 단계 |
+| `capital_area_apartment_reconstruction_latest.csv` | 사업장당 1행. 현재 단계, 단계별 일자(구역지정·추진위·조합설립·건축심의·사업시행·관리처분·착공·준공), 세대수, 단지·사업 지표(아래), 출처별 단계 |
 | `reconstruction_aliases_latest.csv` | 별칭 1개당 1행(`alias` → `project_id`). 같은 단지의 여러 이름(출처별 표기·띄어쓰기·동 이름·구성 단지 등) |
 | `excluded_single_house_latest.csv` | 단독주택 재건축이라 제외한 사업장 |
 | `changes/changes_YYYYMMDD.csv` | 그날 바뀐 내용(사업장·항목·이전 값·이후 값) |
+
+단지·사업 지표 열 — `planned`는 정비계획상 신축 계획값, `existing`은 현재 단지 값(출처가 제공하는 경우만):
+`site_area_m2`(구역면적), `zoning_before/after`(용도지역), `far_existing`·`far_planned`(용적률), `bcr_planned`(건폐율), `gfa_planned_m2`(연면적), `floors_planned`(지상 최고층), `height_planned_m`, `buildings_planned`·`existing_buildings`(동수), `units_sale`·`units_rent`(분양·임대), `existing_built_year`(기존 준공연도), `owners_count`(토지등소유자), `members_count`(조합원).
 
 `project_id`는 한 번 정해지면 바뀌지 않는다. 이름이 바뀌거나 출처가 추가돼도 같은 사업장은 같은 ID로 남는다.
 
@@ -22,6 +29,7 @@
 | 경기 | 경기도 일반 정비 사업 추진 현황 (경기데이터드림) | 분기 | O |
 | 경기 | 부천시 정비사업 추진현황 | 분기 | O |
 | 인천 | 인천시 도시 및 주거환경 정비사업 추진현황 (data.go.kr 15055212) | 월 | X |
+| 인천 | 인천시 정비사업개요(추정분담금정보시스템, data.go.kr 15080866) — 면적·동수·건폐율·용적률 | 수시 | X |
 | 인천 | 미추홀구·연수구 정비사업 추진현황 (data.go.kr 15150904, 15039862) | 수시 | O |
 | 전국 | 국토부 전국 도시정비사업 통합 데이터 (data.go.kr 15160169) | 수시 | X |
 
@@ -45,6 +53,8 @@ pip install -r requirements.txt
 python search_reconstruction.py 은마          # 어떤 이름으로든 검색 (--all: 단계별 일자)
 python update_daily.py --dry-run              # 지금 갱신하면 무엇이 바뀌는지만 확인
 python collect_reconstruction.py              # (검증용) 상태와 무관하게 전체를 새로 구축 → output/*_full_*.csv
+python update_daily.py --migrate              # 수집 열을 늘린 뒤 1회: 새 열 때문에 생긴 변경은 이력에서 제외
+python -m http.server 8000 --directory docs   # 검색 페이지 로컬 확인 → http://localhost:8000
 ```
 
 `manual_aliases.csv`에 행을 추가하면 자동으로 못 묶은 같은 사업장을 합치거나, 공식 자료에 없는 통칭(예: `압구정 현대`)을 별칭으로 붙일 수 있다. 다음 실행 때 반영된다.

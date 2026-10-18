@@ -42,7 +42,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git add state output
+          git add state output docs/data
           if git diff --cached --quiet; then
             echo "변경 없음 — 커밋하지 않음"
             exit 0

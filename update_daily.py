@@ -378,6 +378,8 @@ def main() -> None:
     ap.add_argument("--init", action="store_true", help="최초 전체 구축")
     ap.add_argument("--force", action="store_true", help="probe를 무시하고 모든 출처를 내려받아 비교")
     ap.add_argument("--dry-run", action="store_true", help="변경 내용만 출력하고 저장하지 않음")
+    ap.add_argument("--migrate", action="store_true",
+                    help="수집 열을 늘린 뒤 1회 실행: 모든 출처를 다시 받아 반영하되, 새 열 때문에 생긴 변경은 이력에서 뺀다")
     ap.add_argument("--date", default=date.today().isoformat(), help="기록용 날짜(테스트용)")
     args = ap.parse_args()
 
@@ -387,7 +389,9 @@ def main() -> None:
         export(con, [], args.date)
         return
     failed: list[str] = []
-    log = update(con, args.date, force=args.force, failed=failed)
+    log = update(con, args.date, force=args.force or args.migrate, failed=failed)
+    if args.migrate:
+        log = migration_log(log, args.date)
     if args.dry_run:
         for row in log:
             print("  ", row)
@@ -396,12 +400,22 @@ def main() -> None:
     con.commit()
     save_state(con)
     latest = cr.OUT / "capital_area_apartment_reconstruction_latest.csv"
-    if log or not latest.exists():
+    if log or args.migrate or not latest.exists():
         export(con, log, args.date)
     print(f"[완료] 변경 {len(log)}건" + ("" if log else " — 출력 파일은 그대로 둠"))
     write_summary(log, failed, args.date)
     if failed:  # 성공한 출처의 변경은 저장했지만, 실패가 있었음을 종료 코드로 알린다(Actions에서 빨간불)
         sys.exit(1)
+
+
+def migration_log(log: list[tuple], today: str) -> list[tuple]:
+    """스키마 확장 실행의 이력: 행 추가·삭제와 단계·일자 변경만 남기고, 새 열이 채워지며 생긴 변경은 한 줄로 요약."""
+    row_kinds = {"출처 행 추가", "출처에서 삭제", "신규 사업장", "모든 출처에서 사라짐", "수동 병합"}
+    keep_fields = {"stage", "status", *cr.DATE_COLS}
+    kept = [r for r in log if r[2] in row_kinds or r[3] in keep_fields]
+    note = (today, "*", "스키마 확장", "columns", None, ", ".join(cr.DETAIL_COLS), "")
+    print(f"[migrate] 변경 {len(log)}건 중 {len(kept)}건만 이력에 남김 (나머지는 새 열 채움)")
+    return [note, *kept]
 
 
 def write_summary(log: list[tuple], failed: list[str], today: str) -> None:

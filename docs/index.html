@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>수도권 재건축 현황</title>
+<meta name="description" content="서울·경기·인천 아파트 재건축 사업의 진행 단계와 단지 지표를 공공데이터로 매일 갱신해 검색합니다.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>수도권 재건축 현황</h1>
+    <p class="sub">서울·경기·인천 아파트 재건축 사업장 <b id="total">–</b>곳 · 데이터 갱신 <b id="updated">–</b>
+      · <a href="https://github.com/kyoungwhankim/Korea_Reconstruction">출처·원본 데이터</a></p>
+  </div>
+</header>
+
+<main class="wrap">
+  <form id="filters" class="filters" autocomplete="off">
+    <div class="row">
+      <label class="grow">단지명·별칭
+        <input type="search" name="q" placeholder="예: 은마, 압구정 3구역, 잠실5단지, 목동 7단지">
+      </label>
+      <label>시도
+        <select name="sido"><option value="">전체</option></select>
+      </label>
+      <label>시군구
+        <select name="sgg"><option value="">전체</option></select>
+      </label>
+      <label class="grow">주소
+        <input type="search" name="addr" placeholder="예: 대치동, 산곡동">
+      </label>
+    </div>
+
+    <fieldset class="stages">
+      <legend>진행 단계</legend>
+      <div id="stageChips" class="chips"></div>
+    </fieldset>
+
+    <details class="more" id="moreFilters">
+      <summary>지표 조건 (용적률·건폐율·세대수 등)</summary>
+      <div id="rangeFilters" class="ranges"></div>
+    </details>
+
+    <div class="actions">
+      <button type="button" id="resetBtn">조건 초기화</button>
+      <button type="button" id="downloadBtn">검색 결과 CSV 받기</button>
+      <span id="count" class="count" aria-live="polite"></span>
+    </div>
+  </form>
+
+  <div class="table-wrap">
+    <table id="results">
+      <thead><tr id="headRow"></tr></thead>
+      <tbody id="body"></tbody>
+    </table>
+  </div>
+  <p id="empty" class="empty" hidden>조건에 맞는 사업장이 없습니다.</p>
+
+  <section class="notes">
+    <h2>읽는 법</h2>
+    <ul>
+      <li><b>현재 단계</b>는 여러 공공 출처 중 가장 진전된 단계입니다. 출처별 단계는 상세 정보에서 볼 수 있습니다.</li>
+      <li><b>계획</b> 용적률·건폐율·층수는 정비계획상 신축 계획값, <b>기존</b> 용적률은 현재 단지 값입니다(출처가 제공하는 경우만).</li>
+      <li><b>세대당 구역면적</b> = 구역면적 ÷ 기존 세대수. 구역에 도로·공원이 포함될 수 있어 실제 대지지분보다 클 수 있는 참고치입니다.</li>
+      <li>공공데이터를 자동으로 모은 자료로 실제와 다를 수 있습니다. 중요한 판단 전에는 해당 지자체·조합 자료를 확인하세요.</li>
+    </ul>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

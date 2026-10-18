@@ -5,3 +5,4 @@ __pycache__/
 raw/
 logs/
 output/*_full_*.csv
+.claude/
