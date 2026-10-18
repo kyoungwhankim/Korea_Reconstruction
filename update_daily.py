@@ -118,9 +118,30 @@ def save_state(con: sqlite3.Connection) -> None:
         {"project_id": pid, "area": a, "record": json.loads(r), "created_at": c, "updated_at": u}
         for pid, a, r, c, u in con.execute(
             "SELECT project_id, area, record, created_at, updated_at FROM projects ORDER BY project_id")))
+    save_meta(con)
+
+
+def save_meta(con: sqlite3.Connection) -> None:
     (STATE / "meta.json").write_text(json.dumps(dict(con.execute("SELECT key, value FROM meta ORDER BY key")),
                                                 ensure_ascii=False, indent=1, sort_keys=True) + "\n",
                                      encoding="utf-8", newline="\n")
+
+
+def failure_ages(con: sqlite3.Connection, failed: list[str], today: str) -> dict[str, int]:
+    """실패한 출처마다 언제부터 실패 중인지(meta의 fail_since:<이름>)를 기록하고 오늘로 며칠째인지 돌려준다.
+    성공한 출처의 기록은 지운다 → 실패가 시작되거나 끝날 때만 상태 파일이 바뀐다."""
+    names = [f.split(":", 1)[0].strip() for f in failed]
+    for (key,) in con.execute("SELECT key FROM meta WHERE key LIKE 'fail_since:%'").fetchall():
+        if key[len("fail_since:"):] not in names:
+            con.execute("DELETE FROM meta WHERE key=?", (key,))
+    ages = {}
+    for name in names:
+        row = con.execute("SELECT value FROM meta WHERE key=?", (f"fail_since:{name}",)).fetchone()
+        if not row:
+            con.execute("INSERT INTO meta VALUES (?, ?)", (f"fail_since:{name}", today))
+        since = row[0] if row else today
+        ages[name] = (date.fromisoformat(today) - date.fromisoformat(since)).days + 1
+    return ages
 
 
 def manual_hash() -> str:
@@ -141,6 +162,7 @@ def content_hash(payloads: dict[str, dict]) -> str:
 NETWORK_ERRORS = (requests.exceptions.ConnectionError, requests.exceptions.Timeout)
 RETRY_WAITS = (60, 180)  # 실패한 출처는 1분 뒤, 다시 실패하면 3분 뒤 한 번 더 시도
 SHRINK_LIMIT = 0.3       # 살아 있는 행의 30%가 넘게 한꺼번에 사라지면 부분 응답으로 보고 반영하지 않는다(--accept-shrink로 허용)
+GRACE_DAYS = 3           # 출처가 실패해도 3일째까지는 경고만(해외 IP 차단 같은 일시 장애), 그 뒤로 계속 실패하면 실행을 실패로 표시
 
 
 def safe_probe(src: cr.Source) -> str | None:
@@ -453,8 +475,15 @@ def main() -> None:
     if log or enriched or args.migrate or not latest.exists():
         export(con, log, args.date)
     print(f"[완료] 변경 {len(log)}건" + ("" if log else " — 출력 파일은 그대로 둠"))
-    write_summary(log, failed, args.date)
-    if failed:  # 성공한 출처의 변경은 저장했지만, 실패가 있었음을 종료 코드로 알린다(Actions에서 빨간불)
+    ages = failure_ages(con, failed, args.date)
+    con.commit()
+    save_meta(con)
+    write_summary(log, failed, args.date, ages)
+    stale = [n for n, d in ages.items() if d > GRACE_DAYS]
+    for f in failed:
+        n = f.split(":", 1)[0].strip()
+        print(f"[{'계속 실패' if n in stale else '일시 실패'}] {n} — {ages[n]}일째, 이전 데이터 유지", file=sys.stderr)
+    if stale:  # 성공한 출처의 변경은 저장했다. 며칠째 계속 실패하는 출처가 있을 때만 종료 코드로 알린다(Actions에서 빨간불)
         sys.exit(1)
 
 
@@ -486,15 +515,18 @@ def migration_log(log: list[tuple], today: str) -> list[tuple]:
     return [note, *kept]
 
 
-def write_summary(log: list[tuple], failed: list[str], today: str) -> None:
+def write_summary(log: list[tuple], failed: list[str], today: str, ages: dict[str, int] | None = None) -> None:
     """GitHub Actions 실행 화면에 보일 요약(GITHUB_STEP_SUMMARY)."""
     path = os.environ.get("GITHUB_STEP_SUMMARY")
     if not path:
         return
+    ages = ages or {}
     kinds = pd.Series([r[2] for r in log]).value_counts() if log else pd.Series(dtype=int)
     lines = [f"## 재건축 데이터 갱신 {today}", "", f"- 변경 {len(log)}건"]
     lines += [f"  - {k}: {v}건" for k, v in kinds.items()]
-    lines += [f"- ❌ 실패: {f}" for f in failed]
+    for f in failed:
+        d = ages.get(f.split(":", 1)[0].strip(), 1)
+        lines.append((f"- ❌ 계속 실패({d}일째, 확인 필요): " if d > GRACE_DAYS else f"- ⚠️ 일시 실패({d}일째, 이전 데이터 유지): ") + f)
     stages = [r for r in log if r[3] == "stage"]
     if stages:
         lines += ["", "| 사업장 | 변경 | 이전 | 이후 |", "|---|---|---|---|"]

@@ -54,8 +54,8 @@ jobs:
           git commit -m "data: $(date +%F) 재건축 현황 갱신"
           git push
 
-      - name: Fail if any source failed
+      - name: Fail if a source keeps failing
         if: steps.update.outcome == 'failure'
         run: |
-          echo "::error::일부 출처 갱신 실패 — 'Incremental update' 단계 로그 확인"
+          echo "::error::며칠째 계속 실패하는 출처가 있음(요약의 ❌) — 'Incremental update' 단계 로그 확인"
           exit 1
