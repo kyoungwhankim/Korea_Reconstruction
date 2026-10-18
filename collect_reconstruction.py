@@ -46,32 +46,43 @@ UA = {"User-Agent": "Mozilla/5.0 (reconstruction-status-collector)"}
 # ---------------------------------------------------------------- 표준 단계
 STAGES = [
     (0, "예정구역·후보지"),   # 기본계획상 정비예정구역, 신속통합기획·인천 후보지 선정
-    (1, "정비계획수립"),      # 신통 기획완료 / 정비계획 입안·열람공고
-    (2, "정비구역지정"),
-    (3, "추진위구성"),
-    (4, "조합설립인가"),      # 공공·신탁 방식은 사업시행자 지정
-    (5, "건축심의"),
-    (6, "사업시행인가"),
-    (7, "관리처분인가"),
-    (8, "착공"),
-    (9, "준공"),
+    (1, "안전진단"),          # 재건축 안전진단 추진·통과 (정비계획 전)
+    (2, "정비계획수립"),      # 신통 기획완료 / 정비계획 입안·열람공고
+    (3, "정비구역지정"),
+    (4, "추진위구성"),
+    (5, "조합설립인가"),      # 공공·신탁 방식은 사업시행자 지정
+    (6, "건축심의"),
+    (7, "사업시행인가"),
+    (8, "관리처분인가"),
+    (9, "이주·철거"),
+    (10, "착공"),
+    (11, "분양"),             # 일반분양 (착공 후)
+    (12, "준공"),
+    (13, "이전고시·청산"),    # 이전고시, 조합 해산·청산
 ]
+# 단계 이름을 바꾸거나 쪼갠 이력 — 스키마 변경 실행(--migrate) 때 '단계 변경'으로 세지 않는다
+RENAMED_STAGES = {("정비계획수립", "안전진단"), ("관리처분인가", "이주·철거"), ("착공", "분양"), ("준공", "이전고시·청산")}
 STAGE_ORDER = {name: i for i, name in STAGES}
 STAGE_ALIASES = {
     "대상지선정": "예정구역·후보지", "예정구역": "예정구역·후보지", "후보지": "예정구역·후보지",
     "사업지선정": "예정구역·후보지",
-    "기획완료": "정비계획수립", "열람공고": "정비계획수립", "정비계획수립": "정비계획수립",
-    "안전진단": "정비계획수립", "재건축진단": "정비계획수립", "기본계획": "정비계획수립",
+    "기획완료": "정비계획수립", "열람공고": "정비계획수립", "정비계획수립": "정비계획수립", "정비계획": "정비계획수립",
+    "안전진단": "안전진단", "재건축진단": "안전진단", "예비안전진단": "안전진단", "정밀안전진단": "안전진단",
+    "안전진단통과": "안전진단", "기본계획": "정비계획수립", "기본계획수립": "정비계획수립",
     "구역지정": "정비구역지정", "정비구역지정": "정비구역지정", "정비계획수립및구역지정": "정비구역지정",
-    "정비구역": "정비구역지정", "추진위승인": "추진위구성",
+    "정비구역": "정비구역지정",
     "추진위": "추진위구성", "추진위구성": "추진위구성", "추진위원회": "추진위구성", "추진위원회승인": "추진위구성",
+    "조합설립추진위원회승인": "추진위구성", "추진위승인": "추진위구성",
     "조합설립": "조합설립인가", "조합설립인가": "조합설립인가", "사업시행자지정": "조합설립인가",
     "건축심의": "건축심의",
     "사업시행": "사업시행인가", "사업시행인가": "사업시행인가", "사업시행계획인가": "사업시행인가",
     "관리처분": "관리처분인가", "관리처분인가": "관리처분인가", "관리처분계획인가": "관리처분인가",
-    "이주": "관리처분인가", "철거": "관리처분인가",
-    "착공": "착공", "공사중": "착공",
-    "준공": "준공", "준공(일부)": "준공", "준공인가": "준공", "이전고시": "준공", "청산": "준공", "해산": "준공",
+    "이주": "이주·철거", "철거": "이주·철거", "이주·철거": "이주·철거",
+    "착공": "착공", "공사중": "착공", "착공신고": "착공",
+    "분양": "분양", "일반분양": "분양", "분양승인": "분양",
+    "준공": "준공", "준공(일부)": "준공", "준공인가": "준공", "부분준공인가": "준공", "부분준공": "준공",
+    "이전고시": "이전고시·청산", "청산": "이전고시·청산", "해산": "이전고시·청산", "조합해산": "이전고시·청산",
+    "조합청산": "이전고시·청산", "이전고시·청산": "이전고시·청산",
 }
 
 
@@ -151,8 +162,8 @@ def _score(a: str, b: str) -> float:
     from difflib import SequenceMatcher
     if not a or not b:
         return 0.0
-    if a == b or sorted(a) == sorted(b):                      # 서빙고신동아 ↔ 신동아서빙고
-        return 1.0
+    if a == b or (sorted(a) == sorted(b) and re.findall(r"\d+", a) == re.findall(r"\d+", b)):
+        return 1.0                                            # 서빙고신동아 ↔ 신동아서빙고 (신반포12 ≠ 신반포21)
     short, long_ = sorted((a, b), key=len)
     rest = long_[: -len(short)]
     if long_.endswith(short) and len(short) >= 2 and len(rest) <= 4 and not re.search(r"\d", rest):
@@ -310,6 +321,65 @@ def load_seoul_status() -> pd.DataFrame:
         "seoul_code": x["code"],
         "source": "서울시_정비사업추진현황(OA-22856)",
         "source_updated_at": asof,
+    })
+
+
+# ---------------------------------------------------------------- 출처 2b: 서울 정비사업 정보몽땅 사업현황
+MONGTTANG_LIST = "https://cleanup.seoul.go.kr/cleanup/bsnssttus/lscrMainIndx.do"
+
+
+def load_seoul_mongttang() -> pd.DataFrame:
+    """정비사업 정보몽땅 '사업현황' 공개 목록: 서울 전체 사업장의 현재 진행단계·조합원수·조합 카페 주소.
+
+    분기 엑셀(OA-22856)보다 자주 바뀌고 안전진단·분양·이전고시·해산 같은 단계도 있어 서울 '현재 단계'의 1차 출처.
+    공개 목록 페이지만 읽고(약 12쪽), 요청 사이에 쉰다. 재건축(공동·단독 미구분)만 가져온다.
+    """
+    import html as html_mod
+    import time
+    rows, page = [], 1
+    while True:
+        text = http_get(MONGTTANG_LIST, params={"cpage": page, "pageSize": 100}).text
+        got = 0
+        for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", text, re.S):
+            cells = [html_mod.unescape(re.sub(r"<[^>]+>|\s+", " ", c)).strip() for c in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)]
+            if len(cells) < 8:
+                continue
+            got += 1
+            cafe = re.search(r"cafeOpenPopup\('([^']+)'\)", tr)
+            rows.append({"no": cells[0], "gu": cells[1], "kind": cells[2], "name": cells[3], "addr": cells[4],
+                         "stage": cells[5], "members": cells[6], "cafe": cafe.group(1) if cafe else None})
+        if got < 100 or page > 40:
+            break
+        page += 1
+        time.sleep(0.7)
+    d = pd.DataFrame(rows)
+    save("seoul_mongttang.csv", d.to_csv(index=False).encode("utf-8-sig"))
+    d = d[d["kind"].eq("재건축")].copy()
+    d["zone"] = (d["name"].str.replace(r"\((?:신탁|사업대행|공공)[^)]*\)", "", regex=True)
+                 .str.replace(r"\s*(주택)?\s*재건축\s*(정비)?\s*사업(\s*조합(\s*설립\s*추진위원회)?)?(\s*청산위원회)?\s*$", "", regex=True)
+                 .str.replace(r"\s*정비사업\s*$", "", regex=True).str.strip())
+    # 같은 사업장이 두 번 실린 경우: 자치구 + 대표지번 + 이름이 같으면 가장 진전된 단계(같으면 조합원 많은 쪽) 하나만 남긴다
+    d["_key"] = d["gu"] + "|" + d["addr"].str.replace(r"\s+", "", regex=True) + "|" + d["zone"].map(zone_key)
+    d["_order"] = d["stage"].map(lambda s: STAGE_ORDER.get(norm_stage(s) or "", -1))
+    d["_members"] = pd.to_numeric(d["members"].str.replace(r"[^\d]", "", regex=True), errors="coerce").fillna(0)
+    d = d.sort_values(["_key", "_order", "_members"], ascending=[True, False, False])
+    alt = d.groupby("_key")["cafe"].agg(lambda s: ", ".join(c for c in s.tolist()[1:] if c))
+    d = d.drop_duplicates("_key", keep="first")
+    d["alt_cafes"] = d["_key"].map(alt).replace("", None)
+    return pd.DataFrame({
+        "region_sido": "서울특별시",
+        "region_sigungu": d["gu"].str.strip(),
+        "zone_name": d["zone"],
+        "project_type": "재건축",
+        "type_basis": "정보몽땅은 공동/단독 미구분",
+        "stage_raw": d["stage"].str.strip(),
+        "address": d["addr"].str.strip(),
+        "members_count": pd.to_numeric(d["members"].str.replace(r"[^\d]", "", regex=True), errors="coerce"),
+        "homepage": d["cafe"].map(lambda c: f"https://cleanup.seoul.go.kr/cafe/mainIndx.do?cafeUrl={c}" if c else None),
+        "alt_cafes": d["alt_cafes"],
+        "source_pk": d["cafe"].where(d["cafe"].notna(), "no" + d["no"]),
+        "source": "서울시_정비사업정보몽땅_사업현황",
+        "source_updated_at": None,  # 목록 페이지에 기준일이 없다(매일 확인). 날짜를 넣으면 레코드가 매일 바뀐다
     })
 
 
@@ -639,6 +709,7 @@ def probe_bucheon() -> str | None:
 SOURCES = [
     Source("seoul_status", "서울시_정비사업추진현황(OA-22856)", load_seoul_status, probe_seoul_status, host="data.seoul.go.kr"),
     Source("seoul_plan", "서울시_서울플랜+정비사업현황(OA-23112)", load_seoul_plan, host="datafile.seoul.go.kr"),   # 갱신일 메타데이터가 없어 내용 해시로 판단
+    Source("seoul_mongttang", "서울시_정비사업정보몽땅_사업현황", load_seoul_mongttang, host="cleanup.seoul.go.kr"),
     Source("bucheon", "부천시_정비사업추진현황", load_bucheon, probe_bucheon, host="www.bucheon.go.kr"),
     Source("gyeonggi", "경기도_일반정비사업추진현황", load_gyeonggi, host="data.gg.go.kr"),               # 〃
     Source("incheon", "인천시_도시및주거환경정비사업추진현황", load_incheon, lambda: _probe_datagokr("15055212"), host="www.data.go.kr"),
@@ -730,7 +801,8 @@ DATE_COLS = ["designated_at", "committee_at", "union_approved_at", "arch_review_
 OUT_COLS = ["project_id", "region_sido", "region_sigungu", "zone_name", "aliases", "name_variants", "project_type",
             "stage", "stage_order", "stage_date", *DATE_COLS, "designated_changed_at", "existing_units",
             "planned_units", *DETAIL_COLS, *ENRICH_COLS, "operator_type", "address", "homepage", "type_basis",
-            "stage_by_source", "sources", "source_updated_at", "match_note", "status", "search_keys"]
+            "stage_by_source", "stage_source", "stage_evidence", "sources", "source_updated_at", "match_note",
+            "status", "search_keys"]
 
 
 MANUAL_FILE = BASE / "manual_aliases.csv"
@@ -842,6 +914,8 @@ def build_record(g: pd.DataFrame, manual: pd.DataFrame) -> dict:
         best = g_st.loc[g_st["stage_std"].map(STAGE_ORDER).idxmax()]
         rec["stage"] = best["stage_std"]
         rec["stage_order"] = STAGE_ORDER[best["stage_std"]]
+        rec["stage_source"] = best["source"]                       # 이 단계를 알려준 출처
+        rec["stage_evidence"] = best.get("homepage") if "정보몽땅" in best["source"] else None
         # 최신 단계를 알려준 출처(서울플랜+ 등)의 단계 일자로 비어 있는 단계별 일자를 채운다
         col = STAGE_DATE_COL.get(best["stage_std"])
         if col and not rec.get(col) and pd.notna(best.get("stage_date")):
@@ -905,7 +979,8 @@ SITE_DATA = BASE / "docs" / "data" / "projects.json"
 SITE_FIELDS = ["project_id", "region_sido", "region_sigungu", "zone_name", "name_variants", "project_type", "stage",
                "stage_order", "stage_date", *DATE_COLS, "existing_units", "planned_units", *DETAIL_COLS,
                *[c for c in ENRICH_COLS if c != "trades_by_area_text"], "trades_by_area",
-               "operator_type", "address", "homepage", "sources", "source_updated_at", "search_keys"]
+               "operator_type", "address", "homepage", "stage_source", "stage_evidence", "stage_by_source",
+               "sources", "source_updated_at", "search_keys"]
 
 
 def write_site_data(res: pd.DataFrame) -> None:

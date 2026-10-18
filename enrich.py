@@ -34,12 +34,17 @@ def api_key() -> str | None:
 
 # ---------------------------------------------------------------- 주소 → 법정동코드·지번
 @lru_cache(maxsize=1)
-def bjd_table() -> list[tuple[str, str]]:
-    """[(10자리 법정동코드, '서울특별시 강남구 대치동')] — 현재 존재하는 동·리만."""
+def bjd_table_all() -> list[tuple[str, str, str]]:
+    """[(10자리 법정동코드, '서울특별시 강남구 대치동', '존재'|'폐지')] — 시도·시군구 단위 코드 포함."""
     b, _ = cr.datagokr_file("15123287")  # 국토교통부_법정동코드
     d = cr.read_csv_any(b)
-    d = d[d["폐지여부"].eq("존재") & ~d["법정동코드"].str.endswith("00000")]
-    return list(zip(d["법정동코드"], d["법정동명"]))
+    return list(zip(d["법정동코드"], d["법정동명"], d["폐지여부"]))
+
+
+@lru_cache(maxsize=1)
+def bjd_table() -> list[tuple[str, str]]:
+    """[(10자리 법정동코드, '서울특별시 강남구 대치동')] — 현재 존재하는 동·리만."""
+    return [(c, n) for c, n, st in bjd_table_all() if st == "존재" and not c.endswith("00000")]
 
 
 # 동 이름: '대치동', '산곡1동'(행정동), '성수동1가', '종로6가', '와우리'
@@ -290,6 +295,8 @@ def fetch_trades(sgg: str, ym: str) -> list[dict]:
             rows.append({"sgg": g.get("sggCd") or sgg, "dong": g.get("umdNm"), "jibun": g.get("jibun"),
                          "apt": g.get("aptNm"), "area": round(_num(g.get("excluUseAr")), 2),
                          "price": int(_num(g.get("dealAmount"))), "floor": int(_num(g.get("floor"))),
+                         "dong_no": (g.get("aptDong") or "").strip() or None,
+                         "deal_type": (g.get("dealingGbn") or "").strip() or None,
                          "date": f"{g.get('dealYear')}-{int(_num(g.get('dealMonth'))):02d}"
                                  f"-{int(_num(g.get('dealDay'))):02d}",
                          "built": int(_num(g.get("buildYear"))) or None})
@@ -379,6 +386,7 @@ def update_trades(lots: dict[str, dict], names: dict[str, set[str]], today: str,
     new = match_trades([t for rows in fetched.values() for t in rows], lots, names, cutoff)
     merged = sorted(keep + new, key=lambda t: (t["project_id"] or "", t["sgg"], t["dong"], t["jibun"], t["apt"],
                                                 t["date"], t["area"], t["floor"], t["price"]))
+    assign_complexes(merged)
     before, after = _count(old), _count(merged)
     for pid in sorted(after):
         if after[pid] > before.get(pid, 0):
@@ -397,6 +405,17 @@ def update_trades(lots: dict[str, dict], names: dict[str, set[str]], today: str,
     if errors:
         failed.append(f"실거래 {len(errors)}건 실패 (예: {errors[0]})")
     return merged != old
+
+
+def assign_complexes(trades: list[dict]) -> None:
+    """거래마다 부동산원 단지(identity)를 붙인다: 같은 지번에 단지가 하나면 그대로, 여럿이면 단지명 → 동 번호 순."""
+    import identity  # enrich를 import하는 모듈이라 여기서 늦게 불러온다
+    if not identity.REB_FILE.exists():
+        return
+    idx = identity.Index()
+    for t in trades:
+        lot = identity.jibun_key(t["sgg"], t["dong"], t["jibun"])
+        t["complex_id"], t["complex_match"] = idx.match_trade(lot, t["apt"], t.get("dong_no"))
 
 
 def _count(trades) -> dict[str, int]:

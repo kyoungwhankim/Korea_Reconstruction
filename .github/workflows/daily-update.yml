@@ -21,7 +21,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 25      # 재시도 대기(1분+3분) 포함 최악의 경우도 넉넉히
+    timeout-minutes: 50      # 재시도 대기 + 보강(K-apt·식별정보 일 예산) 포함
     env:
       TZ: Asia/Seoul          # 변경 이력의 날짜를 한국 날짜로
       PYTHONUTF8: "1"

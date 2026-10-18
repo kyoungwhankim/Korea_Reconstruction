@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS changes(
     run_date TEXT, project_id TEXT, kind TEXT, field TEXT, old TEXT, new TEXT, source TEXT);
 CREATE TABLE IF NOT EXISTS meta(key TEXT PRIMARY KEY, value TEXT);
 """
-IGNORE_FIELDS = {"search_keys", "_aliases"}  # 이력에 남길 필요 없는 파생 필드(aliases 열로 충분)
+IGNORE_FIELDS = {"search_keys", "_aliases", "source_updated_at"}  # 이력에 남길 필요 없는 파생 필드
 LINK_THRESHOLD = 0.75
 
 
@@ -187,24 +187,44 @@ def link_row(con, source: str, payload: dict, manual: pd.DataFrame, today: str) 
     area = f"{payload['region_sido']}|{cr.sgg_key(payload['region_sigungu'], payload['region_sido'])}"
     tag = f"{source}/{payload.get('project_type') or ''}"
     mine = cr.name_keys([payload["zone_name"]])
+    my_lot = _lot_of(payload)
     scored = []
     for (pid,) in con.execute("SELECT project_id FROM projects WHERE area=? ORDER BY project_id", (area,)):
         rows = active_rows(con, pid)
-        if not rows or any(f"{s}/{p.get('project_type') or ''}" == tag for s, _, p in rows):
-            continue  # 같은 출처에 이미 다른 행으로 실린 사업장 = 다른 사업장
+        if not rows:
+            continue
         names = [p["zone_name"] for _, _, p in rows]
+        if any(f"{s}/{p.get('project_type') or ''}" == tag for s, _, p in rows) and not (mine & cr.name_keys(names)):
+            continue  # 같은 출처에 이미 다른 행으로 실린 사업장 = 다른 사업장 (이름이 완전히 같으면 같은 사업장의 중복 등재로 본다)
         keys = cr.name_keys(names) | set(manual.loc[manual["_area"].eq(area) & manual["name_key"].isin(
             {cr.zone_key(n) for n in names}), "alias_key"])
-        scored.append((max(cr._score(a, b) for a in mine for b in keys), pid))
+        same_lot = bool(my_lot) and any(_lot_of(p) == my_lot for _, _, p in rows)
+        scored.append((max(cr._score(a, b) for a in mine for b in keys), same_lot, pid))
     scored.sort(reverse=True)
-    if scored and scored[0][0] >= LINK_THRESHOLD and (len(scored) == 1 or scored[1][0] < scored[0][0] - 0.03):
-        return scored[0][1], f"기존 사업장에 연결(유사도 {scored[0][0]:.2f})"
+    if scored and scored[0][0] >= LINK_THRESHOLD:
+        best, runner = scored[0], (scored[1] if len(scored) > 1 else None)
+        clear = runner is None or runner[0] < best[0] - 0.03
+        if clear or (best[1] and not runner[1]):  # 이름 점수가 비슷하면 대표지번이 같은 쪽
+            how = f"유사도 {best[0]:.2f}" + (" · 지번 일치" if best[1] else "")
+            return best[2], f"기존 사업장에 연결({how})"
     used = {r[0] for r in con.execute("SELECT project_id FROM projects")}
     pid = cr.unique_project_id(payload, used)
     con.execute("INSERT INTO projects VALUES (?,?,?,?,?)", (pid, area, "{}", today, today))
     note = "새 사업장" if not scored or scored[0][0] < LINK_THRESHOLD else \
-        f"새 사업장(후보 {scored[0][1]}·{scored[1][1]} 모호 — 확인 필요)"
+        f"새 사업장(후보 {scored[0][2]}·{scored[1][2]} 모호 — 확인 필요)"
     return pid, note
+
+
+_LOT_CACHE: dict[tuple, tuple | None] = {}
+
+
+def _lot_of(payload: dict) -> tuple | None:
+    """출처 행의 주소 → (법정동코드, 산, 본번, 부번). 같은 사업장인지 가릴 때 쓴다."""
+    key = (payload.get("region_sido"), payload.get("region_sigungu"), payload.get("address"))
+    if key not in _LOT_CACHE:
+        lot = enrich.parse_lot(*key) if key[2] else None
+        _LOT_CACHE[key] = (lot["bjd"], lot["plat_gb"], lot["bun"], lot["ji"]) if lot else None
+    return _LOT_CACHE[key]
 
 
 # ---------------------------------------------------------------- 사업장 재계산
@@ -396,7 +416,10 @@ def main() -> None:
         return
     failed: list[str] = []
     log = update(con, args.date, force=args.force or args.migrate, failed=failed)
-    if args.migrate:
+    if args.migrate:  # 계산 규칙·열이 바뀌었을 수 있으니 모든 사업장을 다시 계산한다(바뀐 것만 이력에 남는다)
+        manual = cr.load_manual()
+        for (pid,) in con.execute("SELECT project_id FROM projects").fetchall():
+            recompute(con, pid, manual, args.date, log)
         log = migration_log(log, args.date)
     if args.dry_run:
         for row in log:
@@ -411,7 +434,8 @@ def main() -> None:
     elif enrich.api_key():
         try:
             enriched = enrich.update(con, args.date, log, failed)
-            enriched = complexes.update(args.date, failed) or enriched
+            project_lots = {enrich.lot_key(l) for l in enrich.project_lots(con).values()}
+            enriched = complexes.update(args.date, failed, project_lots) or enriched
         except Exception as e:  # 보강이 실패해도 사업장 데이터 갱신은 그대로 반영한다
             failed.append(f"보강(건축물대장·실거래가): {e}")
     else:
@@ -446,7 +470,8 @@ def migration_log(log: list[tuple], today: str) -> list[tuple]:
     """스키마 확장 실행의 이력: 행 추가·삭제와 단계·일자 변경만 남기고, 새 열이 채워지며 생긴 변경은 한 줄로 요약."""
     row_kinds = {"출처 행 추가", "출처에서 삭제", "신규 사업장", "모든 출처에서 사라짐", "수동 병합"}
     keep_fields = {"stage", "status", *cr.DATE_COLS}
-    kept = [r for r in log if r[2] in row_kinds or r[3] in keep_fields]
+    kept = [r for r in log if (r[2] in row_kinds or r[3] in keep_fields)
+            and not (r[3] == "stage" and (r[4], r[5]) in cr.RENAMED_STAGES)]  # 단계 이름만 바뀐 것은 변경이 아니다
     note = (today, "*", "스키마 확장", "columns", None, ", ".join(cr.DETAIL_COLS), "")
     print(f"[migrate] 변경 {len(log)}건 중 {len(kept)}건만 이력에 남김 (나머지는 새 열 채움)")
     return [note, *kept]

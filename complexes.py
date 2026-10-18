@@ -8,17 +8,21 @@
   - 아파트 매매 실거래가(enrich.py가 수도권 전체를 받아 둔 것) → 준공연도·거래가
   - 준공연도가 어디에도 없는 큰 단지는 동별 표제부로 사용승인일을 채운다(매일 YEAR_BUDGET개까지)
   - K-apt(공동주택관리정보시스템) 단지 목록(분기)·기본정보(단지별 1회) → 공식 단지명·사용승인일·세대수·동수·최고층·난방·시공사
+  - 부동산원 단지 식별정보(identity.py) → 단지 구분의 기준, 이름 3개·옛 이름, 동 목록, 세대수, 사용승인일
 """
 from __future__ import annotations
 
 import json
 import re
+import threading
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache
 
 import collect_reconstruction as cr
 import enrich as en
+import identity
+from identity import Index, complex_key, jibun_key  # noqa: F401
 
 REGISTRY_FILE = en.STATE / "complexes" / "registry.jsonl"
 DONGS_FILE = en.STATE / "complexes" / "registry_dongs.json"
@@ -28,7 +32,7 @@ MIN_HOUSEHOLDS = 20   # 이보다 작은 공동주택(소규모 다세대 등)�
 DONG_BUDGET = 100     # 하루에 새로 받는 법정동 수 (≈2,900곳 → 약 한 달에 한 바퀴, 분기마다 반복)
 YEAR_BUDGET = 150     # 하루에 사용승인일을 채우는 단지 수
 MIN_YEAR = 1960      # 이보다 이른 준공연도는 오기로 본다
-KAPT_BUDGET = 1500   # 하루에 K-apt 기본정보를 새로 받는 단지 수(처음 한 번은 전부)
+KAPT_BUDGET = 3000   # 하루에 K-apt 기본정보를 새로 받는 단지 수(서비스별 일 한도 5,000건, 초당 5건 → 약 10분)
 
 
 # ---------------------------------------------------------------- 법정동
@@ -40,33 +44,8 @@ def capital_dongs() -> tuple[tuple[str, str], ...]:
     return tuple((c, n) for c, n in rows if not (c[8:] == "00" and c[:8] in has_ri))
 
 
-@lru_cache(maxsize=1)
-def dong_index() -> dict[tuple[str, str], str]:
-    """(시군구코드 5자리, 법정동명) → 법정동코드 10자리. 실거래 레코드(sggCd, umdNm)를 코드로 바꿀 때 쓴다."""
-    out = {}
-    for code, name in en.bjd_table():
-        if code[:2] in ("11", "28", "41"):
-            out[(code[:5], name.split()[-1])] = code
-            if code[8:] != "00":  # 리: '봉담읍 와우리'처럼 읍면+리로도 찾을 수 있게
-                out[(code[:5], " ".join(name.split()[-2:]))] = code
-    return out
-
-
 def quarter(today: str) -> str:
-    return f"{today[:4]}Q{(int(today[5:7]) - 1) // 3 + 1}"
-
-
-def complex_key(bjd: str, bun: int, ji: int, plat_gb: str = "0") -> str:
-    """enrich.lot_key와 같은 형식: 사업장 대표 지번과 그대로 비교할 수 있다."""
-    return f"{bjd}-{plat_gb}-{bun:04d}-{ji:04d}"
-
-
-def jibun_key(sgg: str, dong: str, jibun: str) -> str | None:
-    code = dong_index().get((sgg, dong))
-    m = re.fullmatch(r"\s*(산)?\s*(\d+)(?:-(\d+))?\s*", jibun or "")
-    if not code or not m:
-        return None
-    return complex_key(code, int(m.group(2)), int(m.group(3) or 0), "1" if m.group(1) else "0")
+    return identity.quarter(today)
 
 
 # ---------------------------------------------------------------- 건축물대장: 법정동 단위 나열
@@ -151,7 +130,8 @@ def update_registry(today: str, failed: list, budget: int | None = DONG_BUDGET) 
 def fill_years(today: str, failed: list, budget: int | None = YEAR_BUDGET) -> bool:
     """총괄표제부에 사용승인일이 없고 거래 기록에도 준공연도가 없는 단지는 동별 표제부에서 가장 이른 사용승인일을 찾는다."""
     rows = {r["key"]: r for r in en._read_jsonl(REGISTRY_FILE)}
-    trade_years = {k for k, _ in _trade_groups()} | {r["key"] for r in en._read_jsonl(KAPT_FILE) if r.get("use_apr")}
+    trade_years = {k for k, _ in _trade_groups()} | {r["key"] for r in en._read_jsonl(KAPT_FILE) if r.get("use_apr")} \
+        | {r["lot"] for r in en._read_jsonl(identity.REB_FILE) if r.get("use_apr")}  # 부동산원이 아는 지번은 제외
     todo = [r for r in rows.values() if not r.get("use_apr") and "use_apr_title" not in r and r["key"] not in trade_years
             and r["households"] >= 100]
     todo = sorted(todo, key=lambda r: -r["households"])
@@ -183,7 +163,8 @@ def fill_years(today: str, failed: list, budget: int | None = YEAR_BUDGET) -> bo
 
 
 # ---------------------------------------------------------------- 목록 만들기
-def _trade_groups() -> dict[str, list[dict]]:
+def _trade_groups():
+    """지번 키 → 거래 목록."""
     groups: dict[str, list[dict]] = {}
     for t in en._read_jsonl(en.TRADES_FILE):
         k = jibun_key(t["sgg"], t["dong"], t["jibun"])
@@ -192,81 +173,206 @@ def _trade_groups() -> dict[str, list[dict]]:
     return groups.items()
 
 
+_SUFFIXED = re.compile(r"(아파트|APT|맨션|맨숀|빌라|타운|하우스|파크|빌|캐슬|팰리스|자이|힐스|뷰|시티|프라자|연립)$", re.I)
+
+
+def _clean(n) -> str:
+    """부동산원 이름의 '은마아파트(29동)' 같은 꼬리를 뗀다."""
+    return re.sub(r"\s*\(\d+\s*동\)\s*$", "", str(n or "")).strip()
+
+
+def unit_alias(nm1: str, dong_numbers: set[str], kapt_name: str | None) -> str | None:
+    """'가야주공' + 동 501~516 + K-apt '가야1차' → '가야주공5단지1차'.
+
+    1기 신도시 등 대단지 주공은 동 번호의 백 자리가 단지 번호인 관행이 뚜렷하다(501동 = 5단지).
+    101~1xx동은 보통 단지와 무관한 일반 번호라 백 자리 1은 쓰지 않는다. 추정값이므로 별칭 종류를 '동번호 추정'으로 둔다.
+    """
+    if "주공" not in nm1 or re.search(r"\d+\s*단지", nm1):
+        return None
+    nums = sorted(int(n) for n in dong_numbers if n.isdigit())
+    if len(nums) < 2 or nums[-1] - nums[0] >= 100:
+        return None
+    hund = {n // 100 for n in nums}
+    if len(hund) != 1:
+        return None
+    h = next(iter(hund))
+    if not 2 <= h <= 20:
+        return None
+    base = re.sub(r"\d+(?=주공)", "", re.sub(r"\(.*?\)", "", nm1)).strip()
+    paren = "".join(re.findall(r"\(.*?\)", nm1))
+    m = re.search(r"(\d+)\s*차", kapt_name or "")
+    return f"{base}{h}단지{m.group(1) + '차' if m else ''}{paren}"
+
+
+def complex_names(reb_names: list[str], hist_names: list[str], kapt_name: str | None,
+                  trade_names: list[str], reg_name: str | None, dong_numbers: set[str]) -> tuple[str, list[tuple[str, str]]]:
+    """(보여줄 이름, [(별칭, 종류)]) — 'N단지'·'N차'가 들어간 이름을 우선 보여준다."""
+    nm1 = _clean(reb_names[0]) if reb_names else None
+    guess = unit_alias(nm1, dong_numbers, kapt_name) if nm1 else None
+    # 보여줄 이름: ① 동 번호로 추정한 'N단지N차'(차수까지 있을 때) ② 'N단지'·'N차'가 든 이름 ③ 부동산원 1순위 이름
+    ordered = ([guess] if guess and re.search(r"\d+\s*차", guess) else []) + [_clean(n) for n in reb_names[1:]] + [kapt_name]
+    unitish = [n for n in ordered if n and re.search(r"\d+\s*(단지|차)", n)]
+    display = unitish[0] if unitish else (nm1 or kapt_name or (trade_names or [reg_name or "?"])[0])
+    if display == nm1 and nm1 and not _SUFFIXED.search(nm1) and not re.search(r"\(.*\)$", nm1):
+        display = nm1 + "아파트"
+    aliases: dict[str, str] = {}
+
+    def add(n, kind):
+        n = _clean(n)
+        if n and n not in aliases:
+            aliases[n] = kind
+    for n in reb_names:
+        add(n, "부동산원")
+    for n in hist_names:
+        add(n, "옛 이름")
+    if kapt_name:
+        add(kapt_name, "K-apt")
+    for n in trade_names:
+        add(n, "실거래")
+    if reg_name:
+        add(reg_name, "건축물대장")
+    if guess:
+        add(guess, "동번호 추정")
+        if kapt_name and re.search(r"\d+\s*차", kapt_name):
+            add(re.sub(r"\d+\s*단지", "", guess), "동번호 추정")  # '가야주공1차'
+    base_names = list(aliases)
+    for n in base_names:  # 표기 변형: 띄어쓰기, '아파트' 붙이기/떼기
+        add(n.replace(" ", ""), "표기 변형")
+        if not _SUFFIXED.search(n) and not re.search(r"\(.*\)$", n):
+            add(n + "아파트", "표기 변형")
+    return display, list(aliases.items())
+
+
 def build(today: str, projects: list[dict], lots: dict[str, dict]) -> list[dict]:
-    """노후 단지 목록. projects: 내보내는 사업장 레코드, lots: 사업장 대표 지번(enrich.project_lots)."""
+    """노후 단지 목록. 단지 1개 = 부동산원 단지(아파트). 부동산원에 없는 지번은 지번 단위 항목으로 남긴다.
+    projects: 내보내는 사업장 레코드, lots: 사업장 대표 지번(enrich.project_lots)."""
     cutoff = en.old_cutoff(today)
+    idx = Index()
     reg = {r["key"]: r for r in en._read_jsonl(REGISTRY_FILE)}
-    kapt = {r["key"]: r for r in en._read_jsonl(KAPT_FILE) if r.get("key")}
-    trades = dict(_trade_groups())
-    by_lot = {en.lot_key(l): pid for pid, l in lots.items()}
+    kapt_by_lot: dict[str, list[dict]] = {}
+    for k in en._read_jsonl(KAPT_FILE):
+        if k.get("key"):
+            kapt_by_lot.setdefault(k["key"], []).append(k)
+    trades_cx: dict[str, list[dict]] = {}
+    trades_lot: dict[str, list[dict]] = {}   # 단지를 못 정한 거래(지번 공통)
+    for t in en._read_jsonl(en.TRADES_FILE):
+        lot = jibun_key(t["sgg"], t["dong"], t["jibun"])
+        if not lot:
+            continue
+        if t.get("complex_id"):
+            trades_cx.setdefault(t["complex_id"], []).append(t)
+        else:
+            trades_lot.setdefault(lot, []).append(t)
+    proj_lot = {en.lot_key(l): pid for pid, l in lots.items()}
     proj = {p["project_id"]: p for p in projects}
-    names = {c: n for c, n in en.bjd_table()}
+    bjd_names = {c: n for c, n in en.bjd_table()}
+
+    entries: list[tuple[str, dict | None, str]] = [(r["pk"], r, r["lot"]) for r in idx.by_pk.values()
+                                                   if r["type"] == "아파트" and r["lot"]]
+    reb_lots = set(idx.by_lot)
+    for lot in sorted(set(reg) | set(trades_lot)):  # 부동산원에 없는 지번(소규모·누락) → 지번 단위 항목
+        if lot not in reb_lots:
+            entries.append((f"lot:{lot}", None, lot))
+
     out = []
-    for key in sorted(set(reg) | set(trades) | set(kapt)):
-        r, ts, k = reg.get(key, {}), trades.get(key, []), kapt.get(key, {})
-        # 준공연도: 실거래 건축년도·K-apt 사용승인일을 우선(건축물대장 사용승인일에는 '1937' 같은 오기가 있다).
-        # 아파트는 1960년대부터 지어졌으므로 그 이전 값은 버린다.
-        good_years = [t["built"] for t in ts if t.get("built") and t["built"] >= MIN_YEAR]
-        good_years += [int(k["use_apr"][:4])] if k.get("use_apr") and int(k["use_apr"][:4]) >= MIN_YEAR else []
-        reg_years = [y for y in (int(d[:4]) for d in (r.get("use_apr"), r.get("use_apr_title")) if d) if y >= MIN_YEAR]
-        if not (good_years or reg_years):
+    for cid, r, lot in entries:
+        siblings = idx.apartments_on(lot)
+        regrow = reg.get(lot, {})
+        ts = list(trades_cx.get(cid, []))
+        shared = trades_lot.get(lot, [])
+        if r is None:
+            ts += shared
+        # K-apt: 같은 지번의 등록 단지 중 이름이 맞는 것
+        kapt = None
+        for k in kapt_by_lot.get(lot, []):
+            if (r is None and len(kapt_by_lot[lot]) == 1) or (r is not None and idx.match_name(lot, k["name"]) == cid):
+                kapt = k
+                break
+        # 준공연도: 부동산원 사용승인일 > K-apt > 실거래 건축년도 > 건축물대장
+        year = None
+        for cand in ([r.get("use_apr")] if r else []) + ([kapt.get("use_apr")] if kapt else []):
+            if cand and int(cand[:4]) >= MIN_YEAR:
+                year = int(cand[:4])
+                break
+        if year is None:
+            tyears = [t["built"] for t in ts if t.get("built") and t["built"] >= MIN_YEAR]
+            ryears = [int(d[:4]) for d in (regrow.get("use_apr"), regrow.get("use_apr_title")) if d and int(d[:4]) >= MIN_YEAR]
+            year = min(tyears) if tyears else (min(ryears) if ryears else None)
+        if year is None or year > cutoff:
             continue
-        year = min(good_years) if good_years else min(reg_years)
-        if year > cutoff:
+        units = (r or {}).get("units") or (kapt or {}).get("households") or (regrow.get("households") if len(siblings) <= 1 else None)
+        if units is not None and units < MIN_HOUSEHOLDS:
             continue
-        bjd, plat, bun, ji = key.split("-")
-        parts = names.get(bjd, "").split()
-        trade_names = Counter(t["apt"] for t in ts)
-        pid = by_lot.get(key) or next((t["project_id"] for t in ts if t.get("project_id")), None)
+        bjd, plat, bun, ji = lot.split("-")
+        parts = bjd_names.get(bjd, "").split()
+        if len(parts) < 2:  # 폐지된 법정동 코드 등 — 지역을 알 수 없으면 뺀다
+            continue
+        trade_names = [n for n, _ in Counter(t["apt"] for t in ts).most_common()]
+        hist = [h.get(k) for h in idx.extra.get(cid, {}).get("hist", []) for k in ("old", "new")]
+        name, aliases = complex_names((r or {}).get("names", []), [h for h in hist if h], (kapt or {}).get("name"),
+                                      trade_names, regrow.get("name"), idx.dong_numbers(cid))
+        sib_units = [s.get("units") for s in siblings]
+        land = regrow.get("land_area_m2")
+        land_share = round(land / sum(sib_units), 1) if land and siblings and all(sib_units) else \
+            (round(land / units, 1) if land and units and not siblings else None)
+        pid = proj_lot.get(lot) or next((t["project_id"] for t in ts if t.get("project_id")), None)
         if pid and pid not in proj:
             pid = None
-        name = k.get("name") or r.get("name") or (trade_names.most_common(1)[0][0] if trade_names else None)
         row = {
-            "complex_id": key, "name": name or f"{parts[-1] if parts else ''} {int(bun)}",
-            "name_variants": " | ".join(dict.fromkeys(x for x in [k.get("name"), r.get("name"), *trade_names] if x)),
+            "complex_id": cid, "name": name, "aliases": [a for a, _ in aliases],
+            "name_variants": " | ".join(dict.fromkeys([name, *(a for a, k in aliases if k != "표기 변형")])),
             "region_sido": parts[0] if parts else None,
             "region_sigungu": " ".join(parts[1:-1]) if len(parts) > 2 else None,
             "dong": parts[-1] if parts else None,
             "jibun": ("산 " if plat == "1" else "") + str(int(bun)) + (f"-{int(ji)}" if int(ji) else ""),
+            "lot": lot, "siblings": len(siblings) if r is not None else 0,
+            "sibling_names": " | ".join(_clean(s["names"][0]) for s in siblings if s["pk"] != cid and s.get("names")) or None,
+            "dong_range": idx.dong_range(cid) if r is not None else None,
+            "road_address": (r or {}).get("road_address") or (kapt or {}).get("road_address"),
             "built_year": year, "age": int(today[:4]) - year,
-            "households": k.get("households") or r.get("households"),
-            "buildings": k.get("buildings") or r.get("buildings"),
-            "top_floor": k.get("top_floor"), "heating": k.get("heating"), "builder": k.get("builder"),
-            "road_address": k.get("road_address"), "kapt_code": k.get("kapt_code"),
-            "land_area_m2": r.get("land_area_m2"), "far": r.get("far"), "bcr": r.get("bcr"),
-            "land_share_m2": round(r["land_area_m2"] / r["households"], 1)
-            if r.get("land_area_m2") and r.get("households") else None,
+            "households": units, "buildings": (r or {}).get("dong_cnt") or (kapt or {}).get("buildings") or regrow.get("buildings"),
+            "land_area_m2": land, "land_share_m2": land_share,
+            "far": regrow.get("far"), "bcr": regrow.get("bcr"),
+            "top_floor": (kapt or {}).get("top_floor"), "heating": (kapt or {}).get("heating"),
+            "builder": (kapt or {}).get("builder"), "kapt_code": (kapt or {}).get("kapt_code"),
+            "reb_pk": (r or {}).get("pk"),
             "project_id": pid, "stage": proj[pid].get("stage") if pid else None,
             "project_name": proj[pid].get("zone_name") if pid else None,
-            "sources": " · ".join(s for s, ok in [("K-apt", bool(k)), ("건축물대장", bool(r)), ("실거래", bool(ts))] if ok),
+            "sources": " · ".join(s for s, ok in [("부동산원", r is not None), ("K-apt", bool(kapt)),
+                                                 ("건축물대장", bool(regrow)), ("실거래", bool(ts))] if ok),
+            "shared_trades": len(shared) if r is not None and siblings and len(siblings) > 1 else 0,
         }
         if ts:
-            row.update(en.trade_summary(ts))
+            row.update(en.trade_summary(ts), trade_basis="단지" if r is not None else "지번")
+        elif shared and r is not None:
+            row.update(en.trade_summary(shared), trade_basis="지번 공통(동 미상)")
         out.append(row)
     return out
 
 
 def write(rows: list[dict], today: str) -> None:
     import pandas as pd
-    keys = [k for k in rows[0] if k != "trades_by_area"] if rows else []
+    keys = [k for k in rows[0] if k not in ("trades_by_area", "aliases")] if rows else []
     pd.DataFrame(rows).reindex(columns=keys).to_csv(CSV_FILE, index=False, encoding="utf-8-sig", lineterminator="\n")
     site = []
     for r in rows:
         x = {k: cr.jsonable(v) for k, v in r.items() if k != "trades_by_area_text"}
-        x["search_keys"] = " ".join(dict.fromkeys(
-            cr.search_key(n) for n in re.split(r"\s*\|\s*", r.get("name_variants") or r["name"]) if n))
-        site.append({k: v for k, v in x.items() if v not in (None, "", [])})
+        x["search_keys"] = " ".join(dict.fromkeys(k for k in (cr.search_key(n) for n in [r["name"], *r["aliases"]]) if k))
+        site.append({k: v for k, v in x.items() if v not in (None, "", [], 0) or k in ("siblings", "shared_trades")})
     data = {"generated_at": today, "count": len(site), "old_before": en.old_cutoff(today), "apartments": site}
     SITE_FILE.parent.mkdir(parents=True, exist_ok=True)
     SITE_FILE.write_text(json.dumps(data, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n",
                          encoding="utf-8", newline="\n")
     linked = sum(1 for r in rows if r.get("project_id"))
-    print(f"[노후단지] {len(rows)}곳 (사업장 연결 {linked}곳) → {SITE_FILE.relative_to(cr.BASE)}, {CSV_FILE.name}")
+    print(f"[노후단지] {len(rows)}곳 (사업장 연결 {linked}곳, 부동산원 기준 {sum(1 for r in rows if r.get('reb_pk'))}곳)"
+          f" → {SITE_FILE.relative_to(cr.BASE)}, {CSV_FILE.name}")
 
 
-def update(today: str, failed: list, dong_budget: int | None = DONG_BUDGET,
-           year_budget: int | None = YEAR_BUDGET, kapt_budget: int | None = KAPT_BUDGET) -> bool:
-    changed = update_registry(today, failed, dong_budget)
+def update(today: str, failed: list, project_lots=frozenset(), dong_budget: int | None = DONG_BUDGET,
+           year_budget: int | None = YEAR_BUDGET, kapt_budget: int | None = KAPT_BUDGET,
+           reb_dong_budget: int | None = identity.DONG_BUDGET) -> bool:
+    changed = identity.update(today, failed, set(project_lots), reb_dong_budget)
+    changed = update_registry(today, failed, dong_budget) or changed
     changed = update_kapt(today, failed, kapt_budget) or changed
     return fill_years(today, failed, year_budget) or changed
 
@@ -276,23 +382,49 @@ KAPT_API = "https://apis.data.go.kr/1613000/"
 KAPT_LIST_FILE = en.STATE / "complexes" / "kapt_list.jsonl"
 KAPT_FILE = en.STATE / "complexes" / "kapt.jsonl"
 KAPT_STATE_FILE = en.STATE / "complexes" / "kapt_state.json"
+_kapt_local = threading.local()
 
 
 class KaptUnavailable(Exception):
     """인증키가 아직 K-apt 서비스에 등록되지 않음(활용신청 승인 전·반영 대기)."""
 
 
+class KaptQuotaExceeded(Exception):
+    """K-apt 일일 호출 한도(개발계정 서비스별 5,000건) 소진 — 오늘은 더 호출하지 않는다."""
+
+
+def _kapt_session():
+    """429(한도 초과)는 재시도해도 소용없으므로 5xx만 재시도하는 전용 세션."""
+    if not hasattr(_kapt_local, "s"):
+        from requests.adapters import HTTPAdapter
+        from urllib3.util.retry import Retry
+        s = cr.make_session()
+        s.mount("https://", HTTPAdapter(max_retries=Retry(
+            total=3, connect=1, read=1, status=3, backoff_factor=2, status_forcelist=(500, 502, 503, 504),
+            allowed_methods=None, raise_on_status=False)))
+        _kapt_local.s = s
+    return _kapt_local.s
+
+
 def _kapt(op: str, params: dict) -> tuple[list[dict], int]:
-    """K-apt 응답(JSON/XML 어느 쪽이든) → (item 목록, totalCount)."""
+    """K-apt 응답(JSON/XML 어느 쪽이든) → (item 목록, totalCount). data.go.kr 공통 오류 본문은 HTTP 200으로도 온다."""
     key = en.api_key()
     en._throttle()
     try:
-        r = en._session().get(KAPT_API + op, params={"serviceKey": key, **params}, timeout=cr.TIMEOUT)
+        r = _kapt_session().get(KAPT_API + op, params={"serviceKey": key, **params}, timeout=cr.TIMEOUT)
     except Exception as e:
         raise en.ApiError(str(e).replace(key or "\0", "***")) from None
     text = r.text.strip()
-    if "SERVICE_KEY_IS_NOT_REGISTERED" in text:
-        raise KaptUnavailable(op)
+    err = re.search(r'"errMsg"\s*:\s*"([^"]+)"|<errMsg>([^<]+)</errMsg>', text)
+    if err or r.status_code == 429:
+        msg = (err.group(1) or err.group(2)) if err else "HTTP 429"
+        rc = re.search(r'"returnReasonCode"\s*:\s*"(\d+)"|<returnReasonCode>(\d+)<', text)
+        rc = (rc.group(1) or rc.group(2)) if rc else ""
+        if "LIMITED_NUMBER" in msg or rc == "22" or r.status_code == 429:
+            raise KaptQuotaExceeded(f"{op}: {msg}")
+        if "NOT_REGISTERED" in msg or rc == "30":
+            raise KaptUnavailable(f"{op}: {msg}")
+        raise en.ApiError(f"{op}: {rc} {msg}")
     if r.status_code != 200:
         raise en.ApiError(f"{op}: HTTP {r.status_code} {text[:120]}")
     if text.startswith("{"):
@@ -312,41 +444,62 @@ def _kapt(op: str, params: dict) -> tuple[list[dict], int]:
     return items, int(root.findtext(".//totalCount") or len(items))
 
 
+def _kapt_state() -> dict:
+    return json.loads(KAPT_STATE_FILE.read_text(encoding="utf-8")) if KAPT_STATE_FILE.exists() else {}
+
+
+def _save_kapt_state(st: dict) -> None:
+    KAPT_STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    KAPT_STATE_FILE.write_text(json.dumps(st, ensure_ascii=False, sort_keys=True, indent=1) + "\n",
+                               encoding="utf-8", newline="\n")
+
+
 def update_kapt_list(today: str, failed: list) -> bool:
-    """분기마다 수도권 시군구별 K-apt 단지 목록(단지코드·이름·법정동코드)을 새로 받는다."""
-    st = json.loads(KAPT_STATE_FILE.read_text(encoding="utf-8")) if KAPT_STATE_FILE.exists() else {}
-    if st.get("list_quarter") == quarter(today) and KAPT_LIST_FILE.exists():
+    """분기마다 수도권 시군구별 K-apt 단지 목록(단지코드·이름·법정동코드)을 받는다. 시군구 단위로 완료를 기록해
+    한도에 걸리면 다음 날 이어서 받는다."""
+    st = _kapt_state()
+    done = st.setdefault("list", {})
+    todo = [s for s in en.capital_sggs() if done.get(s) != quarter(today)]
+    if not todo:
         return False
-    rows, errors = [], []
-    for sgg in en.capital_sggs():
-        page = 1
-        while True:
-            try:
-                items, total = _kapt("AptListService4/getSigunguAptList4",
-                                     {"sigunguCode": sgg, "numOfRows": "1000", "pageNo": str(page)})
-            except en.ApiError as e:
-                errors.append(f"{sgg}: {e}")
-                break
-            rows += [{"kapt_code": i.get("kaptCode"), "name": i.get("kaptName"), "bjd": i.get("bjdCode"),
-                      "sgg": sgg} for i in items if i.get("kaptCode")]
-            if page * 1000 >= total or not items:
-                break
-            page += 1
+    rows = {r["kapt_code"]: r for r in en._read_jsonl(KAPT_LIST_FILE)}
+    errors, got = [], 0
+    try:
+        for sgg in todo:
+            page, fresh = 1, []
+            while True:
+                try:
+                    items, total = _kapt("AptListService4/getSigunguAptList4",
+                                         {"sigunguCode": sgg, "numOfRows": "1000", "pageNo": str(page)})
+                except en.ApiError as e:
+                    errors.append(f"{sgg}: {e}")
+                    fresh = None
+                    break
+                fresh += [{"kapt_code": i.get("kaptCode"), "name": i.get("kaptName"), "bjd": i.get("bjdCode"),
+                           "sgg": sgg} for i in items if i.get("kaptCode")]
+                if page * 1000 >= total or not items:
+                    break
+                page += 1
+            if fresh is None:
+                continue
+            for k in [k for k, r in rows.items() if r.get("sgg") == sgg]:  # 그 시군구의 이전 행은 새 결과로 교체
+                rows.pop(k)
+            for r in fresh:
+                rows[r["kapt_code"]] = r
+            done[sgg] = quarter(today)
+            got += 1
+    except KaptQuotaExceeded as e:
+        print(f"[K-apt] 단지 목록: 일일 한도 도달 — 내일 이어서 ({e})")
+    en._write_jsonl(KAPT_LIST_FILE, (rows[k] for k in sorted(rows)))
+    _save_kapt_state(st)
     if errors:
         failed.append(f"K-apt 단지 목록 {len(errors)}곳 실패 (예: {errors[0]})")
-        if not rows:
-            return False
-    rows = sorted({r["kapt_code"]: r for r in rows}.values(), key=lambda r: r["kapt_code"])
-    en._write_jsonl(KAPT_LIST_FILE, rows)
-    if not errors:
-        st["list_quarter"] = quarter(today)
-    KAPT_STATE_FILE.write_text(json.dumps(st, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
-    print(f"[K-apt] 수도권 단지 목록 {len(rows)}곳")
-    return True
+    print(f"[K-apt] 수도권 단지 목록 {len(rows)}곳 (이번에 {got}개 시군구 갱신, 남은 곳 {len(todo) - got})")
+    return got > 0
 
 
 def _kapt_key(bjd: str | None, addr: str | None) -> str | None:
-    """'서울특별시 강남구 대치동 316 은마아파트' + 법정동코드 → 단지 키(법정동코드-산-본번-부번)."""
+    """'서울특별시 강남구 대치동 316 은마아파트' + 법정동코드 → 지번 키(법정동코드-산-본번-부번)."""
     if not bjd or len(str(bjd)) != 10 or not addr:
         return None
     m = re.search(r"(?:동|가|리)\s*(산)?\s*(\d+)(?:-(\d+))?(?=\s|$|[^\d-])", str(addr))
@@ -354,18 +507,25 @@ def _kapt_key(bjd: str | None, addr: str | None) -> str | None:
 
 
 def update_kapt_info(today: str, failed: list, budget: int | None = KAPT_BUDGET) -> bool:
-    """기본정보(사용승인일·세대수·동수·최고층·난방·시공사·주소)를 아직 없는 단지만 받는다."""
+    """기본정보(사용승인일·세대수·동수·최고층·난방·시공사·주소)를 아직 없는 단지만, 하루 budget개까지 받는다.
+    한도에 걸리면 받은 것까지 저장하고 멈춘다."""
     have = {r["kapt_code"]: r for r in en._read_jsonl(KAPT_FILE)}
     todo = [r for r in en._read_jsonl(KAPT_LIST_FILE) if r["kapt_code"] not in have]
     todo = todo if budget is None else todo[:budget]
     if not todo:
         return False
     print(f"[K-apt] 기본정보 {len(todo)}곳 조회")
-    errors = []
+    errors: list[str] = []
+    stop = threading.Event()
 
     def job(r):
+        if stop.is_set():
+            return None
         try:
             items, _ = _kapt("AptBasisInfoServiceV5/getAphusBassInfoV5", {"kaptCode": r["kapt_code"]})
+        except KaptQuotaExceeded:
+            stop.set()
+            return None
         except en.ApiError as e:
             errors.append(f"{r['kapt_code']}: {e}")
             return None
@@ -379,16 +539,24 @@ def update_kapt_info(today: str, failed: list, budget: int | None = KAPT_BUDGET)
                 "buildings": int(en._num(i.get("kaptDongCnt"))) or None,
                 "top_floor": int(en._num(i.get("kaptTopFloor"))) or None,
                 "heating": i.get("codeHeatNm") or None, "builder": i.get("kaptBcompany") or None,
+                "units_60": int(en._num(i.get("kaptMparea60"))) or None,
+                "units_85": int(en._num(i.get("kaptMparea85"))) or None,
+                "units_135": int(en._num(i.get("kaptMparea135"))) or None,
+                "units_136": int(en._num(i.get("kaptMparea136"))) or None,
                 "key": _kapt_key(bjd, i.get("kaptAddr")), "fetched": today[:7]}
 
+    got = 0
     with ThreadPoolExecutor(en.WORKERS) as ex:
         for rec in ex.map(job, todo):
             if rec:
                 have[rec["kapt_code"]] = rec
+                got += 1
     en._write_jsonl(KAPT_FILE, (have[k] for k in sorted(have)))
+    if stop.is_set():
+        print(f"[K-apt] 기본정보: 일일 한도 도달 — {got}곳 저장, 내일 이어서")
     if errors:
         failed.append(f"K-apt 기본정보 {len(errors)}곳 실패 (예: {errors[0]})")
-    return True
+    return got > 0
 
 
 def update_kapt(today: str, failed: list, budget: int | None = KAPT_BUDGET) -> bool:
@@ -397,4 +565,7 @@ def update_kapt(today: str, failed: list, budget: int | None = KAPT_BUDGET) -> b
         return update_kapt_info(today, failed, budget) or changed
     except KaptUnavailable:
         print("[K-apt] 인증키가 아직 K-apt API에 등록되지 않음 — 건너뜀")
+        return False
+    except KaptQuotaExceeded as e:
+        print(f"[K-apt] 일일 한도 도달 — 내일 이어서 ({e})")
         return False

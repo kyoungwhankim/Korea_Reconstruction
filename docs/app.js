@@ -2,9 +2,10 @@
 
 // 단계(표준) — 순서·색 구분. '사업 미지정'은 노후 단지 보기에서 아직 재건축 사업이 없는 단지
 const STAGES = [
-  ["예정구역·후보지", "s-early"], ["정비계획수립", "s-early"], ["정비구역지정", "s-early"], ["추진위구성", "s-early"],
-  ["조합설립인가", "s-mid"], ["건축심의", "s-mid"], ["사업시행인가", "s-mid"],
-  ["관리처분인가", "s-late"], ["착공", "s-late"], ["준공", "s-done"], ["사업 미지정", "s-none"],
+  ["예정구역·후보지", "s-early"], ["안전진단", "s-early"], ["정비계획수립", "s-early"], ["정비구역지정", "s-early"],
+  ["추진위구성", "s-early"], ["조합설립인가", "s-mid"], ["건축심의", "s-mid"], ["사업시행인가", "s-mid"],
+  ["관리처분인가", "s-late"], ["이주·철거", "s-late"], ["착공", "s-late"], ["분양", "s-late"],
+  ["준공", "s-done"], ["이전고시·청산", "s-done"], ["사업 미지정", "s-none"],
 ];
 const STAGE_CLASS = Object.fromEntries(STAGES);
 const NO_PROJECT = "사업 미지정";
@@ -65,7 +66,7 @@ const VIEWS = {
       ["land_area_m2", "대지면적", "㎡"], ["land_share_m2", "대지지분", "㎡"], ...TRADE_RANGES,
     ],
     detail: apartmentDetail,
-    csv: ["complex_id", "region_sido", "region_sigungu", "dong", "jibun", "name", "stage", "project_name",
+    csv: ["complex_id", "region_sido", "region_sigungu", "dong", "jibun", "dong_range", "siblings", "name", "stage", "project_name",
       "built_year", "age", "households", "buildings", "top_floor", "heating", "builder", "land_area_m2", "land_share_m2", "far", "bcr",
       "trade_count_12m", "trade_latest_date", "trade_latest_price", "trade_median_ppp", "name_variants", "sources"],
   },
@@ -131,7 +132,7 @@ async function load(name) {
     stage: p.stage || (name === "apartments" ? NO_PROJECT : p.stage),
     stage_order: p.stage_order ?? (p.stage ? STAGES.findIndex(([s]) => s === p.stage) : -1),
     _keys: (p.search_keys || "").split(" ").filter(Boolean),
-    _names: [p[v.name], ...(p.aliases || []), p.name_variants || ""].join(" ").toLowerCase(),
+    _names: [p[v.name], ...(p.aliases || []), p.name_variants || "", p.sibling_names || ""].join(" ").toLowerCase(),
   }));
   return (CACHE[name] = data);
 }
@@ -243,8 +244,12 @@ function nameScore(p, q) {
   const nq = normalize(q);
   let best = p._names.includes(q.toLowerCase()) ? 1 : 0;
   if (!nq) return best;
+  const sortedQ = [...nq].sort().join(""), digitsQ = nq.replace(/\D/g, "");
   for (const k of p._keys) {
     if (k === nq) return 3;
+    if (k.length === nq.length && k.replace(/\D/g, "") === digitsQ && [...k].sort().join("") === sortedQ) {
+      best = Math.max(best, 2.5);  // 어순만 다름: 세종주공6 ↔ 주공6세종 (숫자 순서는 같아야: 신반포12 ≠ 신반포21)
+    }
     if (k.startsWith(nq)) best = Math.max(best, 2);
     else if (k.includes(nq)) best = Math.max(best, 1);
     else if (k.length >= 3 && k.length >= nq.length * 0.6 && nq.includes(k)) best = Math.max(best, 0.5);
@@ -321,7 +326,8 @@ function tradeTable(p) {
   const rows = p.trades_by_area.map(a => `<tr><td>${a.area}㎡ <small>(${a.pyeong}평)</small></td><td class="num">${a.n}</td>
     <td class="num">${eok(a.median)}</td><td class="num">${eok(a.min)} ~ ${eok(a.max)}</td>
     <td class="num">${eok(a.latest_price)} <small>${esc(a.latest_date)} · ${a.latest_floor}층</small></td></tr>`).join("");
-  const note = p.trade_basis === "준공 후 신축" ? " — 준공 후 새 아파트의 거래" : "";
+  const note = p.trade_basis === "준공 후 신축" ? " — 준공 후 새 아파트의 거래"
+    : p.trade_basis === "지번 공통(동 미상)" ? " — 같은 지번의 다른 단지 거래가 섞여 있을 수 있음" : "";
   return `<h3 class="sub-h">전용면적별 실거래 (최근 12개월${note})</h3>
     <div class="mini-wrap"><table class="mini"><thead><tr><th>전용면적</th><th class="num">건수</th><th class="num">중위가</th>
     <th class="num">최저 ~ 최고</th><th class="num">최근 거래</th></tr></thead><tbody>${rows}</tbody></table></div>`;
@@ -357,6 +363,7 @@ function projectDetail(p) {
       ["bld_approved", "사용승인일"], ["bld_buildings", "주거동 수"],
       ["stage_by_source", "출처별 단계"], ["source_updated_at", "출처 기준일"],
     ])}
+    <p class="aliases">현재 단계 근거: ${esc(p.stage_source || "–")}${p.stage_evidence ? ` · <a href="${esc(p.stage_evidence)}" target="_blank" rel="noopener">정보몽땅 사업장 페이지</a>` : ""}</p>
     ${tradeTable(p)}
     <p class="aliases">다른 이름: ${esc((p.aliases || []).slice(0, 30).join(" · "))}</p>
     ${home}
@@ -368,16 +375,20 @@ function apartmentDetail(p) {
     ? `<p>재건축 사업: <a href="?view=projects&q=${encodeURIComponent(p.project_name || "")}">${esc(p.project_name || p.project_id)}</a>
        <span class="stage ${STAGE_CLASS[p.stage] || ""}">${esc(p.stage)}</span></p>`
     : `<p class="aliases">공공데이터에서 확인된 재건축 사업이 없습니다(추진 준비 단계이거나 아직 사업이 없음).</p>`;
+  const lotNote = p.siblings > 1
+    ? `<p class="aliases">같은 지번(${esc(p.jibun)})에 단지 ${p.siblings}개: ${esc(p.sibling_names || "")} — 대지면적·용적률은 지번 전체 값이고, 동 번호가 없는 거래 ${fmt.format(p.shared_trades || 0)}건은 단지를 가리지 못했습니다.</p>`
+    : "";
   return wrapDetail(`
     ${project}
+    ${lotNote}
     ${grid(p, [
-      ["jibun", "지번"], ["road_address", "도로명 주소"], ["built_year", "준공연도"], ["age", "경과 연수"],
+      ["jibun", "지번"], ["dong_range", "동"], ["road_address", "도로명 주소"], ["built_year", "준공연도"], ["age", "경과 연수"],
       ["households", "세대수"], ["buildings", "동수"], ["top_floor", "최고층"], ["heating", "난방"],
       ["builder", "시공사"], ["land_area_m2", "대지면적(㎡)"], ["land_share_m2", "평균 대지지분(㎡)"],
-      ["far", "용적률(%)"], ["bcr", "건폐율(%)"], ["sources", "출처"],
+      ["far", "용적률(%)"], ["bcr", "건폐율(%)"], ["trade_basis", "거래 기준"], ["sources", "출처"],
     ])}
     ${tradeTable(p)}
-    <p class="aliases">다른 이름: ${esc(p.name_variants || "")}</p>`);
+    <p class="aliases">다른 이름: ${esc((p.aliases || []).slice(0, 20).join(" · ") || p.name_variants || "")}</p>`);
 }
 
 function writeUrl(c) {
