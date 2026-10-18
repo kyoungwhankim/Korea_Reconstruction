@@ -336,22 +336,46 @@ def load_seoul_mongttang() -> pd.DataFrame:
     """
     import html as html_mod
     import time
-    rows, page = [], 1
-    while True:
-        text = http_get(MONGTTANG_LIST, params={"cpage": page, "pageSize": 100}).text
-        got = 0
+
+    def parse(text: str) -> list[dict]:
+        out = []
         for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", text, re.S):
             cells = [html_mod.unescape(re.sub(r"<[^>]+>|\s+", " ", c)).strip() for c in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)]
             if len(cells) < 8:
                 continue
-            got += 1
             cafe = re.search(r"cafeOpenPopup\('([^']+)'\)", tr)
-            rows.append({"no": cells[0], "gu": cells[1], "kind": cells[2], "name": cells[3], "addr": cells[4],
-                         "stage": cells[5], "members": cells[6], "cafe": cafe.group(1) if cafe else None})
-        if got < 100 or page > 40:
+            out.append({"no": cells[0], "gu": cells[1], "kind": cells[2], "name": cells[3], "addr": cells[4],
+                        "stage": cells[5], "members": cells[6], "cafe": cafe.group(1) if cafe else None})
+        return out
+
+    # 쪽 수는 1쪽의 쪽 번호 링크에서, 전체 건수는 1쪽 첫 행의 번호에서 읽는다(번호는 전체 건수부터 내려간다).
+    # 마지막 쪽이 아닌데 100행이 안 오거나(차단·빈 응답), 앞 쪽과 같은 내용이 오면(쪽 반복) 다시 받고, 끝내 못 받으면
+    # 예외를 올린다 → 이번 회차는 반영하지 않고 기존 행을 지킨다. GitHub Actions(해외 IP)에서 5쪽부터 빈 응답이 와
+    # 목록이 1/3만 남았던 적이 있어, "짧은 쪽 = 끝"으로 보지 않는다.
+    rows, page, size, last_page, total, prev_first = [], 1, 100, None, None, None
+    while True:
+        for attempt in range(4):
+            text = http_get(MONGTTANG_LIST, params={"cpage": page, "pageSize": size}).text
+            got = parse(text)
+            if page == 1 and got:
+                total = int(re.sub(r"\D", "", got[0]["no"]) or 0)
+                last_page = max([int(n) for n in re.findall(r"cpage=(\d+)", text)] + [1])
+            first = (got[0]["gu"], got[0]["name"], got[0]["addr"]) if got else None
+            if got and (len(got) == size or page == last_page) and first != prev_first:
+                break
+            why = "앞 쪽과 같은 내용" if got and first == prev_first else f"{len(got)}행"
+            print(f"[정보몽땅] {page}/{last_page}쪽 응답 이상({why}) — {attempt + 1}번째 다시 시도")
+            time.sleep((3, 8, 15, 0)[attempt])
+        else:
+            raise RuntimeError(f"정보몽땅 목록 {page}/{last_page}쪽을 온전히 받지 못함 — 이번 회차는 반영하지 않음")
+        rows.extend(got)
+        prev_first = first
+        if page >= last_page:
             break
         page += 1
-        time.sleep(0.7)
+        time.sleep(1.0)
+    if len(rows) != total:
+        raise RuntimeError(f"정보몽땅 목록 불완전: 전체 {total}건인데 {len(rows)}건 받음 — 이번 회차는 반영하지 않음")
     d = pd.DataFrame(rows)
     save("seoul_mongttang.csv", d.to_csv(index=False).encode("utf-8-sig"))
     d = d[d["kind"].eq("재건축")].copy()
@@ -377,7 +401,7 @@ def load_seoul_mongttang() -> pd.DataFrame:
         "members_count": pd.to_numeric(d["members"].str.replace(r"[^\d]", "", regex=True), errors="coerce"),
         "homepage": d["cafe"].map(lambda c: f"https://cleanup.seoul.go.kr/cafe/mainIndx.do?cafeUrl={c}" if c else None),
         "alt_cafes": d["alt_cafes"],
-        "source_pk": d["cafe"].where(d["cafe"].notna(), "no" + d["no"]),
+        "source_pk": d["cafe"].where(d["cafe"].notna(), "k:" + d["_key"]),
         "source": "서울시_정비사업정보몽땅_사업현황",
         "source_updated_at": None,  # 목록 페이지에 기준일이 없다(매일 확인). 날짜를 넣으면 레코드가 매일 바뀐다
     })

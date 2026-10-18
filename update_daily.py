@@ -140,6 +140,7 @@ def content_hash(payloads: dict[str, dict]) -> str:
 
 NETWORK_ERRORS = (requests.exceptions.ConnectionError, requests.exceptions.Timeout)
 RETRY_WAITS = (60, 180)  # 실패한 출처는 1분 뒤, 다시 실패하면 3분 뒤 한 번 더 시도
+SHRINK_LIMIT = 0.3       # 살아 있는 행의 30%가 넘게 한꺼번에 사라지면 부분 응답으로 보고 반영하지 않는다(--accept-shrink로 허용)
 
 
 def safe_probe(src: cr.Source) -> str | None:
@@ -262,7 +263,7 @@ def _s(v):
 
 # ---------------------------------------------------------------- 매일 갱신
 def update(con: sqlite3.Connection, today: str, force: bool = False,
-           failed: list[str] | None = None) -> list[tuple]:
+           failed: list[str] | None = None, accept_shrink: bool = False) -> list[tuple]:
     if not con.execute("SELECT COUNT(*) FROM projects").fetchone()[0]:
         sys.exit("상태가 비어 있습니다. 먼저 `python update_daily.py --init` 을 실행하세요.")
     manual = cr.load_manual()
@@ -283,7 +284,7 @@ def update(con: sqlite3.Connection, today: str, force: bool = False,
                 still.append(src)
                 continue
             try:
-                sync_source(con, src, today, force, manual, dirty, log)
+                sync_source(con, src, today, force, manual, dirty, log, accept_shrink)
                 errors.pop(src.name, None)
             except Exception as e:
                 errors[src.name] = str(e)
@@ -311,8 +312,11 @@ def update(con: sqlite3.Connection, today: str, force: bool = False,
 
 
 def sync_source(con, src: cr.Source, today: str, force: bool, manual: pd.DataFrame,
-                dirty: set[str], log: list) -> None:
-    """출처 하나를 확인해 바뀐 행만 반영한다. 내려받기 실패는 예외로 올린다(호출 쪽에서 재시도)."""
+                dirty: set[str], log: list, accept_shrink: bool = False) -> None:
+    """출처 하나를 확인해 바뀐 행만 반영한다. 내려받기 실패는 예외로 올린다(호출 쪽에서 재시도).
+
+    행이 한꺼번에 많이 사라진 응답(목록 일부만 온 경우 등)도 실패로 본다 — 지운 행을 되살리는 비용이 훨씬 크다.
+    """
     stored = con.execute("SELECT fingerprint, content_hash FROM sources WHERE name=?", (src.name,)).fetchone()
     fp = safe_probe(src)
     if not force and fp and stored and stored[0] == fp:
@@ -332,6 +336,9 @@ def sync_source(con, src: cr.Source, today: str, force: bool, manual: pd.DataFra
     removed = sorted(live - payloads.keys())
     added = sorted(k for k in payloads if k not in live)
     changed = sorted(k for k in payloads if k in live and old[k][0] != cr.row_hash(payloads[k]))
+    if len(live) >= 20 and len(removed) > SHRINK_LIMIT * len(live) and not accept_shrink:
+        raise RuntimeError(f"행 수 급감: 살아 있는 {len(live)}행 중 {len(removed)}행이 한꺼번에 사라짐 — "
+                           f"부분 응답으로 보고 반영하지 않음(실제 축소면 --accept-shrink)")
     print(f"[변경] {src.name}: 추가 {len(added)} · 수정 {len(changed)} · 삭제 {len(removed)}")
 
     for k in removed:  # 삭제를 먼저 반영해야 이름이 바뀐 행(삭제+추가)이 같은 사업장에 다시 붙는다
@@ -406,6 +413,8 @@ def main() -> None:
     ap.add_argument("--migrate", action="store_true",
                     help="수집 열을 늘린 뒤 1회 실행: 모든 출처를 다시 받아 반영하되, 새 열 때문에 생긴 변경은 이력에서 뺀다")
     ap.add_argument("--skip-enrich", action="store_true", help="건축물대장·실거래가 보강을 건너뜀")
+    ap.add_argument("--accept-shrink", action="store_true",
+                    help="출처의 행이 30%% 넘게 사라져도 반영(기본은 부분 응답으로 보고 실패 처리)")
     ap.add_argument("--date", default=date.today().isoformat(), help="기록용 날짜(테스트용)")
     args = ap.parse_args()
 
@@ -415,7 +424,7 @@ def main() -> None:
         export(con, [], args.date)
         return
     failed: list[str] = []
-    log = update(con, args.date, force=args.force or args.migrate, failed=failed)
+    log = update(con, args.date, force=args.force or args.migrate, failed=failed, accept_shrink=args.accept_shrink)
     if args.migrate:  # 계산 규칙·열이 바뀌었을 수 있으니 모든 사업장을 다시 계산한다(바뀐 것만 이력에 남는다)
         manual = cr.load_manual()
         for (pid,) in con.execute("SELECT project_id FROM projects").fetchall():
