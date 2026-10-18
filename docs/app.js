@@ -61,12 +61,12 @@ const VIEWS = {
     ],
     ranges: [
       ["built_year", "준공연도", "년"], ["age", "경과 연수", "년"], ["households", "세대수", "세대"],
-      ["buildings", "동수", "동"], ["far", "용적률(건축물대장)", "%"], ["bcr", "건폐율(건축물대장)", "%"],
+      ["buildings", "동수", "동"], ["top_floor", "최고층", "층"], ["far", "용적률(건축물대장)", "%"], ["bcr", "건폐율(건축물대장)", "%"],
       ["land_area_m2", "대지면적", "㎡"], ["land_share_m2", "대지지분", "㎡"], ...TRADE_RANGES,
     ],
     detail: apartmentDetail,
     csv: ["complex_id", "region_sido", "region_sigungu", "dong", "jibun", "name", "stage", "project_name",
-      "built_year", "age", "households", "buildings", "land_area_m2", "land_share_m2", "far", "bcr",
+      "built_year", "age", "households", "buildings", "top_floor", "heating", "builder", "land_area_m2", "land_share_m2", "far", "bcr",
       "trade_count_12m", "trade_latest_date", "trade_latest_price", "trade_median_ppp", "name_variants", "sources"],
   },
 };
@@ -371,8 +371,9 @@ function apartmentDetail(p) {
   return wrapDetail(`
     ${project}
     ${grid(p, [
-      ["jibun", "지번"], ["built_year", "준공연도"], ["age", "경과 연수"], ["households", "세대수"],
-      ["buildings", "동수"], ["land_area_m2", "대지면적(㎡)"], ["land_share_m2", "평균 대지지분(㎡)"],
+      ["jibun", "지번"], ["road_address", "도로명 주소"], ["built_year", "준공연도"], ["age", "경과 연수"],
+      ["households", "세대수"], ["buildings", "동수"], ["top_floor", "최고층"], ["heating", "난방"],
+      ["builder", "시공사"], ["land_area_m2", "대지면적(㎡)"], ["land_share_m2", "평균 대지지분(㎡)"],
       ["far", "용적률(%)"], ["bcr", "건폐율(%)"], ["sources", "출처"],
     ])}
     ${tradeTable(p)}
