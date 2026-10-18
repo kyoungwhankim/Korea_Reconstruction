@@ -1,0 +1,50 @@
+[
+ {
+  "changed_at": "2026-10-18",
+  "content_hash": "bb60efb2e9ff4994bfb2796139e7e109ca4f7ce3",
+  "fingerprint": null,
+  "name": "경기도_일반정비사업추진현황"
+ },
+ {
+  "changed_at": "2026-10-18",
+  "content_hash": "39686c252644cdbd89c041d98a5cd95f15d4c422",
+  "fingerprint": "FILE_000000003667489#1|국토교통부_전국 도시정비사업 통합 데이터_20260518",
+  "name": "국토부_전국도시정비사업통합데이터"
+ },
+ {
+  "changed_at": "2026-10-18",
+  "content_hash": "9613c49b78b778d82f9104318e5c6fcbf34cedac",
+  "fingerprint": "FILE_000000003685953#1|인천광역시 미추홀구_정비사업 추진현황_20260630",
+  "name": "미추홀구_정비사업추진현황"
+ },
+ {
+  "changed_at": "2026-10-18",
+  "content_hash": "a08cad3e9bd2b84bbbc0b03d5590bf9e48fff72f",
+  "fingerprint": "%E2%98%85%EC%A0%95%EB%B9%84%EC%82%AC%EC%97%85%EC%B6%94%EC%A7%84%ED%98%84%ED%99%A9%282026.6.30.%EC%B5%9C%EC%A2%85.%29.xlsx",
+  "name": "부천시_정비사업추진현황"
+ },
+ {
+  "changed_at": "2026-10-18",
+  "content_hash": "fcc7852f8d209819bb3cfbc74aed9e864ac325bc",
+  "fingerprint": null,
+  "name": "서울시_서울플랜+정비사업현황(OA-23112)"
+ },
+ {
+  "changed_at": "2026-10-18",
+  "content_hash": "8caa009d25bb69459e25d16db8fce52d67884907",
+  "fingerprint": "★(26년 6월기준) 서울시 정비사업 추진현황.xlsx|2",
+  "name": "서울시_정비사업추진현황(OA-22856)"
+ },
+ {
+  "changed_at": "2026-10-18",
+  "content_hash": "1502a138695706c3f7c279f4c110d7eaee601e0d",
+  "fingerprint": "FILE_000000003181623#1|인천광역시 연수구_도시정비사업 현황_20250630",
+  "name": "연수구_도시정비사업현황"
+ },
+ {
+  "changed_at": "2026-10-18",
+  "content_hash": "d74e0462da8aff81b9a34f76a59868ce52506623",
+  "fingerprint": "FILE_000000007713770#1|인천광역시_도시 및 주거환경 정비사업 추진현황_20260930",
+  "name": "인천시_도시및주거환경정비사업추진현황"
+ }
+]

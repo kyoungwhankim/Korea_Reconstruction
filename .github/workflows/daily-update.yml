@@ -1,0 +1,58 @@
+name: Daily reconstruction update
+
+on:
+  schedule:
+    - cron: "30 22 * * *"   # 매일 07:30 KST (UTC 22:30). GitHub 사정으로 수십 분 늦어질 수 있음
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "probe를 무시하고 모든 출처를 내려받아 비교"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TZ: Asia/Seoul          # 변경 이력의 날짜를 한국 날짜로
+      PYTHONUTF8: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Incremental update
+        id: update
+        continue-on-error: true   # 일부 출처가 실패해도 성공한 출처의 변경은 커밋한다
+        run: python update_daily.py ${{ inputs.force && '--force' || '' }}
+
+      - name: Commit changes
+        run: |
+          git add state output
+          if git diff --cached --quiet; then
+            echo "변경 없음 — 커밋하지 않음"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: $(date +%F) 재건축 현황 갱신"
+          git push
+
+      - name: Fail if any source failed
+        if: steps.update.outcome == 'failure'
+        run: |
+          echo "::error::일부 출처 갱신 실패 — 'Incremental update' 단계 로그 확인"
+          exit 1

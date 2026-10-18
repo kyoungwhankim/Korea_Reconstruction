@@ -1,0 +1,7 @@
+# 데이터·상태 파일은 Windows/Linux(Actions) 어디서 만들어도 LF로 — 줄바꿈 차이로 diff가 생기지 않게
+*.csv   text eol=lf
+*.jsonl text eol=lf
+*.json  text eol=lf
+*.py    text eol=lf
+*.yml   text eol=lf
+*.md    text eol=lf

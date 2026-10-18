@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+# 원본 다운로드(엑셀·CSV)는 매번 새로 받으므로 커밋하지 않는다
+raw/
+logs/
+output/*_full_*.csv
