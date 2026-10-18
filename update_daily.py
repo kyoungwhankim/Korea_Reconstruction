@@ -31,10 +31,12 @@ import json
 import os
 import sqlite3
 import sys
+import time
 from datetime import date
 from pathlib import Path
 
 import pandas as pd
+import requests
 
 import collect_reconstruction as cr
 
@@ -134,11 +136,18 @@ def content_hash(payloads: dict[str, dict]) -> str:
     return hashlib.sha1("\n".join(f"{k}\t{cr.row_hash(p)}" for k, p in sorted(payloads.items())).encode()).hexdigest()
 
 
+NETWORK_ERRORS = (requests.exceptions.ConnectionError, requests.exceptions.Timeout)
+RETRY_WAITS = (60, 180)  # 실패한 출처는 1분 뒤, 다시 실패하면 3분 뒤 한 번 더 시도
+
+
 def safe_probe(src: cr.Source) -> str | None:
+    """probe 값. 접속 자체가 안 되면 예외를 그대로 올려 다운로드 시도도 하지 않는다(어차피 같은 서버)."""
     if not src.probe:
         return None
     try:
         return src.probe()
+    except NETWORK_ERRORS:
+        raise
     except Exception as e:
         print(f"   ! probe 실패({e}) → 내려받아 비교", file=sys.stderr)
         return None
@@ -233,60 +242,38 @@ def _s(v):
 def update(con: sqlite3.Connection, today: str, force: bool = False,
            failed: list[str] | None = None) -> list[tuple]:
     if not con.execute("SELECT COUNT(*) FROM projects").fetchone()[0]:
-        sys.exit("상태 DB가 비어 있습니다. 먼저 `python update_daily.py --init` 을 실행하세요.")
+        sys.exit("상태가 비어 있습니다. 먼저 `python update_daily.py --init` 을 실행하세요.")
     manual = cr.load_manual()
     dirty: set[str] = set()
     log: list[tuple] = []
-    for src in cr.SOURCES:
-        stored = con.execute("SELECT fingerprint, content_hash FROM sources WHERE name=?", (src.name,)).fetchone()
-        fp = safe_probe(src)
-        if not force and fp and stored and stored[0] == fp:
-            print(f"[그대로] {src.name} (probe 동일 — 다운로드 생략)")
-            con.execute("UPDATE sources SET checked_at=? WHERE name=?", (today, src.name))
-            continue
-        try:
-            payloads = cr.fetch_payloads(src)
-        except Exception as e:
-            print(f"[실패] {src.name}: {e} — 이전 데이터 유지", file=sys.stderr)
-            if failed is not None:
-                failed.append(f"{src.name}: {e}")
-            continue
-        ch = content_hash(payloads)
-        if stored and stored[1] == ch:
-            print(f"[그대로] {src.name} (내용 동일)")
-            con.execute("UPDATE sources SET fingerprint=?, checked_at=? WHERE name=?", (fp, today, src.name))
-            continue
-
-        old = {k: (h, pid, removed) for k, h, pid, removed in con.execute(
-            "SELECT row_key, row_hash, project_id, removed_at FROM source_rows WHERE source=?", (src.name,))}
-        live = {k for k, v in old.items() if v[2] is None}
-        removed = sorted(live - payloads.keys())
-        added = sorted(k for k in payloads if k not in live)
-        changed = sorted(k for k in payloads if k in live and old[k][0] != cr.row_hash(payloads[k]))
-        print(f"[변경] {src.name}: 추가 {len(added)} · 수정 {len(changed)} · 삭제 {len(removed)}")
-
-        for k in removed:  # 삭제를 먼저 반영해야 이름이 바뀐 행(삭제+추가)이 같은 사업장에 다시 붙는다
-            con.execute("UPDATE source_rows SET removed_at=? WHERE source=? AND row_key=?", (today, src.name, k))
-            dirty.add(old[k][1])
-            log.append((today, old[k][1], "출처에서 삭제", "row", k, None, src.name))
-        for k in changed:
-            p = payloads[k]
-            con.execute("UPDATE source_rows SET row_hash=?, payload=?, last_changed=? WHERE source=? AND row_key=?",
-                        (cr.row_hash(p), dumps(p), today, src.name, k))
-            dirty.add(old[k][1])
-        for k in added:
-            p = payloads[k]
-            if k in old:  # 예전에 사라졌다가 다시 나타난 행 → 원래 사업장으로
-                pid, note = old[k][1], "다시 나타남"
-                con.execute("UPDATE source_rows SET row_hash=?, payload=?, last_changed=?, removed_at=NULL "
-                            "WHERE source=? AND row_key=?", (cr.row_hash(p), dumps(p), today, src.name, k))
-            else:
-                pid, note = link_row(con, src.name, p, manual, today)
-                con.execute("INSERT INTO source_rows VALUES (?,?,?,?,?,?,?,NULL)",
-                            (src.name, k, pid, cr.row_hash(p), dumps(p), today, today))
-            dirty.add(pid)
-            log.append((today, pid, "출처 행 추가", "row", None, f"{k} ({note})", src.name))
-        con.execute("INSERT OR REPLACE INTO sources VALUES (?,?,?,?,?)", (src.name, fp, ch, today, today))
+    pending, errors = list(cr.SOURCES), {}
+    for attempt, wait in enumerate((0, *RETRY_WAITS)):
+        if not pending:
+            break
+        if wait:
+            print(f"[재시도 {attempt}/{len(RETRY_WAITS)}] {len(pending)}개 출처 — {wait}초 후")
+            time.sleep(wait)
+        down_hosts: set[str] = set()  # 이번 회차에 접속이 안 된 서버 → 같은 서버의 다른 출처는 건너뜀
+        still = []
+        for src in pending:
+            if src.host and src.host in down_hosts:
+                errors[src.name] = f"{src.host} 접속 실패로 건너뜀"
+                still.append(src)
+                continue
+            try:
+                sync_source(con, src, today, force, manual, dirty, log)
+                errors.pop(src.name, None)
+            except Exception as e:
+                errors[src.name] = str(e)
+                print(f"[실패] {src.name}: {e}", file=sys.stderr)
+                if isinstance(e, NETWORK_ERRORS) and src.host:
+                    down_hosts.add(src.host)
+                still.append(src)
+        pending = still
+    for src in pending:  # 끝까지 실패한 출처는 이전 데이터를 그대로 둔다
+        print(f"[포기] {src.name} — 이전 데이터 유지", file=sys.stderr)
+        if failed is not None:
+            failed.append(f"{src.name}: {errors.get(src.name)}")
 
     # 수동 별칭표가 바뀌었으면: 지정된 병합을 적용하고 해당 지역 사업장을 다시 계산
     mh = manual_hash()
@@ -299,6 +286,54 @@ def update(con: sqlite3.Connection, today: str, force: bool = False,
         recompute(con, pid, manual, today, log)
     con.executemany("INSERT INTO changes VALUES (?,?,?,?,?,?,?)", log)
     return log
+
+
+def sync_source(con, src: cr.Source, today: str, force: bool, manual: pd.DataFrame,
+                dirty: set[str], log: list) -> None:
+    """출처 하나를 확인해 바뀐 행만 반영한다. 내려받기 실패는 예외로 올린다(호출 쪽에서 재시도)."""
+    stored = con.execute("SELECT fingerprint, content_hash FROM sources WHERE name=?", (src.name,)).fetchone()
+    fp = safe_probe(src)
+    if not force and fp and stored and stored[0] == fp:
+        print(f"[그대로] {src.name} (probe 동일 — 다운로드 생략)")
+        con.execute("UPDATE sources SET checked_at=? WHERE name=?", (today, src.name))
+        return
+    payloads = cr.fetch_payloads(src)
+    ch = content_hash(payloads)
+    if stored and stored[1] == ch:
+        print(f"[그대로] {src.name} (내용 동일)")
+        con.execute("UPDATE sources SET fingerprint=?, checked_at=? WHERE name=?", (fp, today, src.name))
+        return
+
+    old = {k: (h, pid, removed) for k, h, pid, removed in con.execute(
+        "SELECT row_key, row_hash, project_id, removed_at FROM source_rows WHERE source=?", (src.name,))}
+    live = {k for k, v in old.items() if v[2] is None}
+    removed = sorted(live - payloads.keys())
+    added = sorted(k for k in payloads if k not in live)
+    changed = sorted(k for k in payloads if k in live and old[k][0] != cr.row_hash(payloads[k]))
+    print(f"[변경] {src.name}: 추가 {len(added)} · 수정 {len(changed)} · 삭제 {len(removed)}")
+
+    for k in removed:  # 삭제를 먼저 반영해야 이름이 바뀐 행(삭제+추가)이 같은 사업장에 다시 붙는다
+        con.execute("UPDATE source_rows SET removed_at=? WHERE source=? AND row_key=?", (today, src.name, k))
+        dirty.add(old[k][1])
+        log.append((today, old[k][1], "출처에서 삭제", "row", k, None, src.name))
+    for k in changed:
+        p = payloads[k]
+        con.execute("UPDATE source_rows SET row_hash=?, payload=?, last_changed=? WHERE source=? AND row_key=?",
+                    (cr.row_hash(p), dumps(p), today, src.name, k))
+        dirty.add(old[k][1])
+    for k in added:
+        p = payloads[k]
+        if k in old:  # 예전에 사라졌다가 다시 나타난 행 → 원래 사업장으로
+            pid, note = old[k][1], "다시 나타남"
+            con.execute("UPDATE source_rows SET row_hash=?, payload=?, last_changed=?, removed_at=NULL "
+                        "WHERE source=? AND row_key=?", (cr.row_hash(p), dumps(p), today, src.name, k))
+        else:
+            pid, note = link_row(con, src.name, p, manual, today)
+            con.execute("INSERT INTO source_rows VALUES (?,?,?,?,?,?,?,NULL)",
+                        (src.name, k, pid, cr.row_hash(p), dumps(p), today, today))
+        dirty.add(pid)
+        log.append((today, pid, "출처 행 추가", "row", None, f"{k} ({note})", src.name))
+    con.execute("INSERT OR REPLACE INTO sources VALUES (?,?,?,?,?)", (src.name, fp, ch, today, today))
 
 
 def apply_manual(con, manual: pd.DataFrame, today: str, log: list) -> set[str]:

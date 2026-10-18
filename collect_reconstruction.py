@@ -172,14 +172,34 @@ APT_HINT = re.compile(r"아파트|APT|단지|주공|맨션|차$|\d차|현대|한
 
 
 # ---------------------------------------------------------------- 다운로드
+# 접속(connect)은 짧게 기다리고 응답(read)은 넉넉히: 해외 IP를 막는 사이트에서 1분씩 멈추지 않게 한다.
+TIMEOUT = (10, 90)
+
+
+def make_session() -> requests.Session:
+    """요청 단위 재시도(접속 실패·5xx·429 → 1~2회, 지수 대기)가 걸린 세션."""
+    from requests.adapters import HTTPAdapter
+    from urllib3.util.retry import Retry
+    retry = Retry(total=2, connect=1, read=1, status=2, backoff_factor=3,
+                  status_forcelist=(429, 500, 502, 503, 504), allowed_methods=None, raise_on_status=False)
+    s = requests.Session()
+    s.headers.update(UA)
+    s.mount("https://", HTTPAdapter(max_retries=retry))
+    s.mount("http://", HTTPAdapter(max_retries=retry))
+    return s
+
+
+SESSION = make_session()
+
+
 def http_get(url: str, **kw) -> requests.Response:
-    r = requests.get(url, headers=UA, timeout=60, **kw)
+    r = SESSION.get(url, timeout=TIMEOUT, **kw)
     r.raise_for_status()
     return r
 
 
 def http_post(url: str, data: dict, referer: str) -> requests.Response:
-    r = requests.post(url, data=data, headers={**UA, "Referer": referer}, timeout=120)
+    r = SESSION.post(url, data=data, headers={"Referer": referer}, timeout=TIMEOUT)
     r.raise_for_status()
     return r
 
@@ -359,16 +379,16 @@ GG_INF_ID = "S62GFEEN7JMLMA0PH6CF19108891"
 
 def load_gyeonggi() -> pd.DataFrame:
     """경기데이터드림 시트 조회 API(웹 화면이 쓰는 것과 동일, 로그인 불필요)로 전체 행을 받는다."""
-    s = requests.Session()
-    s.headers.update(UA)
+    s = make_session()  # CSRF 토큰이 쿠키 세션에 묶여 있어 전용 세션을 쓴다
     page = f"https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId={GG_INF_ID}&infSeq=1"
-    html = s.get(page, timeout=60).text
+    html = s.get(page, timeout=TIMEOUT).text
     token = re.search(r'name="_csrf" content="([^"]+)"', html).group(1)
     meta = s.get("https://data.gg.go.kr/portal/data/sheet/selectSheetMeta.do",
-                 params={"infId": GG_INF_ID, "infSeq": 1}, timeout=60).json()
+                 params={"infId": GG_INF_ID, "infSeq": 1}, timeout=TIMEOUT).json()
     r = s.post("https://data.gg.go.kr/portal/data/sheet/searchSheetData.do?page=1",
                data={"_csrf": token, "CSRFToken": token, "rows": 20000, "infId": GG_INF_ID, "infSeq": 1},
-               headers={"X-CSRF-TOKEN": token, "X-Requested-With": "XMLHttpRequest", "Referer": page}, timeout=120)
+               headers={"X-CSRF-TOKEN": token, "X-Requested-With": "XMLHttpRequest", "Referer": page},
+               timeout=TIMEOUT)
     r.raise_for_status()
     save("gyeonggi_general.json", r.content)
     cols = {c["SaveName"]: c["Header"] for c in meta["columns"] if c["SaveName"] != "number"}
@@ -517,6 +537,7 @@ class Source:
     name: str                                   # 각 loader가 채우는 source 열 값과 같아야 한다
     load: Callable[[], pd.DataFrame]
     probe: Callable[[], str | None] | None = None  # 파일을 받지 않고 '바뀌었는지'만 알려주는 값(파일ID·파일명 등)
+    host: str = ""                              # 접속 실패 시 같은 호스트의 다른 출처는 이번 회차에 건너뛴다
 
 
 def _probe_datagokr(page_id: str) -> str | None:
@@ -538,14 +559,14 @@ def probe_bucheon() -> str | None:
 
 
 SOURCES = [
-    Source("seoul_status", "서울시_정비사업추진현황(OA-22856)", load_seoul_status, probe_seoul_status),
-    Source("seoul_plan", "서울시_서울플랜+정비사업현황(OA-23112)", load_seoul_plan),   # 갱신일 메타데이터가 없어 내용 해시로 판단
-    Source("bucheon", "부천시_정비사업추진현황", load_bucheon, probe_bucheon),
-    Source("gyeonggi", "경기도_일반정비사업추진현황", load_gyeonggi),               # 〃
-    Source("incheon", "인천시_도시및주거환경정비사업추진현황", load_incheon, lambda: _probe_datagokr("15055212")),
-    Source("michuhol", "미추홀구_정비사업추진현황", load_michuhol, lambda: _probe_datagokr("15150904")),
-    Source("yeonsu", "연수구_도시정비사업현황", load_yeonsu, lambda: _probe_datagokr("15039862")),
-    Source("molit", "국토부_전국도시정비사업통합데이터", load_molit, lambda: _probe_datagokr("15160169")),
+    Source("seoul_status", "서울시_정비사업추진현황(OA-22856)", load_seoul_status, probe_seoul_status, host="data.seoul.go.kr"),
+    Source("seoul_plan", "서울시_서울플랜+정비사업현황(OA-23112)", load_seoul_plan, host="datafile.seoul.go.kr"),   # 갱신일 메타데이터가 없어 내용 해시로 판단
+    Source("bucheon", "부천시_정비사업추진현황", load_bucheon, probe_bucheon, host="www.bucheon.go.kr"),
+    Source("gyeonggi", "경기도_일반정비사업추진현황", load_gyeonggi, host="data.gg.go.kr"),               # 〃
+    Source("incheon", "인천시_도시및주거환경정비사업추진현황", load_incheon, lambda: _probe_datagokr("15055212"), host="www.data.go.kr"),
+    Source("michuhol", "미추홀구_정비사업추진현황", load_michuhol, lambda: _probe_datagokr("15150904"), host="www.data.go.kr"),
+    Source("yeonsu", "연수구_도시정비사업현황", load_yeonsu, lambda: _probe_datagokr("15039862"), host="www.data.go.kr"),
+    Source("molit", "국토부_전국도시정비사업통합데이터", load_molit, lambda: _probe_datagokr("15160169"), host="www.data.go.kr"),
 ]
 PRIORITY = {s.name: i for i, s in enumerate(SOURCES)}  # 앞일수록 우선(일자·세대수 등은 앞 출처 값을 쓴다)
 
