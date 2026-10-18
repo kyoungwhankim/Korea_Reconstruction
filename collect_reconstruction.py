@@ -661,6 +661,8 @@ def jsonable(v):
         return None
     if isinstance(v, bool):
         return v
+    if isinstance(v, (list, dict)):
+        return v
     if isinstance(v, numbers.Integral):
         return int(v)
     if isinstance(v, numbers.Real):
@@ -719,11 +721,15 @@ DETAIL_COLS = [  # 단지·사업 지표 (planned = 정비계획상 신축 계�
     "site_area_m2", "zoning_before", "zoning_after", "far_existing", "far_planned", "bcr_planned",
     "gfa_planned_m2", "floors_planned", "height_planned_m", "buildings_planned", "units_sale", "units_rent",
     "existing_built_year", "existing_buildings", "owners_count", "members_count"]
+ENRICH_COLS = [  # 오픈API 보강(enrich.py): 건축물대장·실거래가 — 상태 레코드와 따로 저장, 내보낼 때만 붙인다
+    "bld_name", "land_area_m2", "bld_households", "land_share_m2", "bld_far", "bld_bcr", "bld_approved",
+    "bld_buildings", "trade_basis", "trade_count_12m", "trade_latest_date", "trade_latest_price",
+    "trade_latest_area", "trade_median_ppp", "trades_by_area_text"]
 DATE_COLS = ["designated_at", "committee_at", "union_approved_at", "arch_review_at", "plan_approved_at",
              "mgmt_approved_at", "relocation_started_at", "started_at", "completed_at"]
 OUT_COLS = ["project_id", "region_sido", "region_sigungu", "zone_name", "aliases", "name_variants", "project_type",
             "stage", "stage_order", "stage_date", *DATE_COLS, "designated_changed_at", "existing_units",
-            "planned_units", *DETAIL_COLS, "operator_type", "address", "homepage", "type_basis",
+            "planned_units", *DETAIL_COLS, *ENRICH_COLS, "operator_type", "address", "homepage", "type_basis",
             "stage_by_source", "sources", "source_updated_at", "match_note", "status", "search_keys"]
 
 
@@ -872,9 +878,11 @@ def records_frame(recs: list[dict]) -> tuple[pd.DataFrame, pd.DataFrame]:
     excluded = res[~res["_apartment"].astype(bool)].reindex(
         columns=["project_id", "region_sido", "region_sigungu", "zone_name", "name_variants", "project_type",
                  "stage", "sources"])
-    res = res[res["_apartment"].astype(bool)].reindex(columns=OUT_COLS + ["_aliases"])
+    res = res[res["_apartment"].astype(bool)].reindex(columns=OUT_COLS + ["_aliases", "trades_by_area"])
     for c in ["stage_order", "existing_units", "planned_units", "units_sale", "units_rent", "floors_planned",
-              "buildings_planned", "existing_built_year", "existing_buildings", "owners_count", "members_count"]:
+              "buildings_planned", "existing_built_year", "existing_buildings", "owners_count", "members_count",
+              "bld_households", "bld_buildings", "trade_count_12m", "trade_latest_price", "trade_latest_area",
+              "trade_median_ppp"]:
         res[c] = pd.to_numeric(res[c], errors="coerce").astype("Int64")
     res = res.sort_values(["region_sido", "region_sigungu", "stage_order", "zone_name", "project_id"],
                           ascending=[False, True, False, True, True])
@@ -884,7 +892,7 @@ def records_frame(recs: list[dict]) -> tuple[pd.DataFrame, pd.DataFrame]:
 def write_outputs(res: pd.DataFrame, excluded: pd.DataFrame, tag: str) -> None:
     OUT.mkdir(exist_ok=True)
     path = OUT / f"capital_area_apartment_reconstruction_{tag}.csv"
-    res.drop(columns="_aliases").to_csv(path, index=False, encoding="utf-8-sig", lineterminator="\n")
+    res.drop(columns=["_aliases", "trades_by_area"]).to_csv(path, index=False, encoding="utf-8-sig", lineterminator="\n")
     at = alias_table(res)
     at.to_csv(OUT / f"reconstruction_aliases_{tag}.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
     excluded.to_csv(OUT / f"excluded_single_house_{tag}.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
@@ -896,6 +904,7 @@ def write_outputs(res: pd.DataFrame, excluded: pd.DataFrame, tag: str) -> None:
 SITE_DATA = BASE / "docs" / "data" / "projects.json"
 SITE_FIELDS = ["project_id", "region_sido", "region_sigungu", "zone_name", "name_variants", "project_type", "stage",
                "stage_order", "stage_date", *DATE_COLS, "existing_units", "planned_units", *DETAIL_COLS,
+               *[c for c in ENRICH_COLS if c != "trades_by_area_text"], "trades_by_area",
                "operator_type", "address", "homepage", "sources", "source_updated_at", "search_keys"]
 
 

@@ -104,6 +104,12 @@ tr.detail td { background: var(--panel); white-space: normal; }
 .timeline span { font-size: 12px; padding: 2px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); }
 .timeline span.on { border-color: var(--accent); }
 .aliases { color: var(--muted); font-size: 13px; }
+.sub-h { font-size: 14px; margin: 12px 0 6px; }
+table.mini { width: auto; font-size: 13px; border: 1px solid var(--line); background: var(--bg); }
+table.mini th { position: static; cursor: default; }
+table.mini td, table.mini th { padding: 4px 10px; white-space: nowrap; }
+.mini-wrap { overflow-x: auto; max-width: 100%; }
+small { color: var(--muted); }
 
 .empty { color: var(--muted); text-align: center; padding: 24px; }
 .notes { color: var(--muted); font-size: 13px; margin: 28px 0 40px; }

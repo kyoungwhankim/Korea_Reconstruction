@@ -38,6 +38,8 @@ jobs:
       - name: Incremental update
         id: update
         continue-on-error: true   # 일부 출처가 실패해도 성공한 출처의 변경은 커밋한다
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}   # 건축물대장·실거래가 오픈API (없으면 보강만 건너뜀)
         run: python update_daily.py ${{ inputs.force && '--force' || '' }}
 
       - name: Commit changes

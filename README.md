@@ -35,6 +35,19 @@
 
 현재 단계는 출처들 중 가장 진전된 단계를 쓴다. 출처별 값은 `stage_by_source` 열에 있다.
 
+### 오픈API 보강 (`enrich.py`, 인증키 필요)
+
+사업장 주소를 법정동코드·지번으로 바꿔(국토교통부 법정동코드 파일) 아래 두 API로 조회한다. 결과는 `state/buildings.jsonl`, `state/trades.jsonl`에 따로 저장하고 내보낼 때만 사업장에 붙인다.
+
+| API | 쓰는 값 | 갱신 |
+|---|---|---|
+| 국토교통부 건축HUB 건축물대장정보 (총괄표제부·표제부) | 대지면적·세대수 → 평균 대지지분(`land_share_m2`), 기존 용적률·건폐율(`bld_far`, `bld_bcr`), 사용승인일 | 지번이 새로 생기거나 바뀐 사업장만 |
+| 국토교통부 아파트 매매 실거래가 | 최근 12개월 거래(해제 제외)를 지번·단지명으로 연결 → 전용면적별 건수·중위·최저·최고·최근가, 전용 평당가 | 매일 최근 3개월만 다시 받음(신고 기한 30일) |
+
+- 오래된 건축물대장은 대지면적이 비어 있는 경우가 많아 대지지분은 일부 사업장만 나온다.
+- 준공된 사업장의 지번에는 새 아파트가 있어 `trade_basis = 준공 후 신축`으로 구분한다. 진행 중인 사업장에서 기존 단지보다 훨씬 늦게 지어진 건물의 거래는 뺀다.
+- 인증키: GitHub Actions는 secret `DATA_GO_KR_KEY`(Decoding 키), 로컬은 `.env`(커밋 안 됨)에 `DATA_GO_KR_KEY=...`. 키가 없으면 보강만 건너뛴다. 요청은 초당 5건으로 제한한다(넘으면 429).
+
 ## 매일 갱신 (`.github/workflows/daily-update.yml`)
 
 매일 07:30 KST에 `update_daily.py`가 실행되고, 바뀐 것이 있을 때만 커밋한다.
@@ -55,6 +68,7 @@ python update_daily.py --dry-run              # 지금 갱신하면 무엇이 �
 python collect_reconstruction.py              # (검증용) 상태와 무관하게 전체를 새로 구축 → output/*_full_*.csv
 python update_daily.py --migrate              # 수집 열을 늘린 뒤 1회: 새 열 때문에 생긴 변경은 이력에서 제외
 python -m http.server 8000 --directory docs   # 검색 페이지 로컬 확인 → http://localhost:8000
+python update_daily.py --skip-enrich          # 오픈API 보강 없이 출처만 갱신
 ```
 
 `manual_aliases.csv`에 행을 추가하면 자동으로 못 묶은 같은 사업장을 합치거나, 공식 자료에 없는 통칭(예: `압구정 현대`)을 별칭으로 붙일 수 있다. 다음 실행 때 반영된다.

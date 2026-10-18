@@ -6,3 +6,5 @@ raw/
 logs/
 output/*_full_*.csv
 .claude/
+# 로컬 테스트용 API 키 (절대 커밋하지 않음)
+.env

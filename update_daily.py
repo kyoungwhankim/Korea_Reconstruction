@@ -39,6 +39,7 @@ import pandas as pd
 import requests
 
 import collect_reconstruction as cr
+import enrich
 
 STATE = cr.BASE / "state"
 CHANGES = cr.OUT / "changes"
@@ -359,6 +360,7 @@ def apply_manual(con, manual: pd.DataFrame, today: str, log: list) -> set[str]:
 # ---------------------------------------------------------------- 내보내기
 def export(con: sqlite3.Connection, log: list, today: str) -> None:
     recs = [json.loads(r) for (r,) in con.execute("SELECT record FROM projects WHERE record != '{}'")]
+    recs = with_enrichment(recs)
     recs = [r for r in recs if active_rows(con, r["project_id"]) or r.get("status") == "출처에서 사라짐"]
     res, excluded = cr.records_frame(recs)
     cr.write_outputs(res, excluded, "latest")
@@ -380,6 +382,7 @@ def main() -> None:
     ap.add_argument("--dry-run", action="store_true", help="변경 내용만 출력하고 저장하지 않음")
     ap.add_argument("--migrate", action="store_true",
                     help="수집 열을 늘린 뒤 1회 실행: 모든 출처를 다시 받아 반영하되, 새 열 때문에 생긴 변경은 이력에서 뺀다")
+    ap.add_argument("--skip-enrich", action="store_true", help="건축물대장·실거래가 보강을 건너뜀")
     ap.add_argument("--date", default=date.today().isoformat(), help="기록용 날짜(테스트용)")
     args = ap.parse_args()
 
@@ -399,13 +402,40 @@ def main() -> None:
         return
     con.commit()
     save_state(con)
+    enriched = False
+    if args.skip_enrich:
+        print("[보강] --skip-enrich: 건축물대장·실거래가 건너뜀")
+    elif enrich.api_key():
+        try:
+            enriched = enrich.update(con, args.date, log, failed)
+        except Exception as e:  # 보강이 실패해도 사업장 데이터 갱신은 그대로 반영한다
+            failed.append(f"보강(건축물대장·실거래가): {e}")
+    else:
+        print("[보강] DATA_GO_KR_KEY 없음 — 건축물대장·실거래가 건너뜀")
     latest = cr.OUT / "capital_area_apartment_reconstruction_latest.csv"
-    if log or args.migrate or not latest.exists():
+    if log or enriched or args.migrate or not latest.exists():
         export(con, log, args.date)
     print(f"[완료] 변경 {len(log)}건" + ("" if log else " — 출력 파일은 그대로 둠"))
     write_summary(log, failed, args.date)
     if failed:  # 성공한 출처의 변경은 저장했지만, 실패가 있었음을 종료 코드로 알린다(Actions에서 빨간불)
         sys.exit(1)
+
+
+def with_enrichment(recs: list[dict]) -> list[dict]:
+    """건축물대장·실거래가(enrich.py가 state/에 저장)를 사업장 레코드에 붙인다.
+    출처에 없는 기존 단지 값(세대수·용적률·준공연도)은 건축물대장 값으로 채운다."""
+    extra = enrich.fields({r["project_id"]: r for r in recs})
+    out = []
+    for r in recs:
+        e = extra.get(r["project_id"], {})
+        r = {**r, **e}
+        if r.get("stage") != "준공":  # 준공 후 지번의 건축물대장은 새 아파트 것이라 '기존 단지' 값으로 쓰지 않는다
+            r["existing_units"] = r.get("existing_units") or e.get("bld_households")
+            r["far_existing"] = r.get("far_existing") or e.get("bld_far")
+            r["existing_built_year"] = r.get("existing_built_year") or (
+                int(e["bld_approved"][:4]) if e.get("bld_approved") else None)
+        out.append(r)
+    return out
 
 
 def migration_log(log: list[tuple], today: str) -> list[tuple]:

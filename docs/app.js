@@ -21,6 +21,11 @@ const RANGES = [
   ["floors_planned", "계획 최고층", "층"],
   ["height_planned_m", "계획 높이", "m"],
   ["owners_count", "토지등소유자", "명"],
+  ["land_share_m2", "대지지분(건축물대장)", "㎡"],
+  ["bld_bcr", "기존 건폐율", "%"],
+  ["trade_latest_price", "최근 거래가", "만원"],
+  ["trade_median_ppp", "평당가(전용, 1년 중위)", "만원"],
+  ["trade_count_12m", "1년 거래 건수", "건"],
 ];
 
 // 표 열: [필드, 제목, 숫자 여부]
@@ -31,12 +36,13 @@ const COLUMNS = [
   ["planned_units", "계획 세대", true],
   ["far_existing", "기존 용적률", true],
   ["far_planned", "계획 용적률", true],
-  ["bcr_planned", "계획 건폐율", true],
-  ["site_area_m2", "구역면적(㎡)", true],
+  ["land_share_m2", "대지지분(㎡)", true],
   ["site_area_per_unit_m2", "세대당 구역면적(㎡)", true],
+  ["trade_latest_price", "최근 거래가", true],
+  ["trade_median_ppp", "평당가(전용)", true],
   ["existing_built_year", "준공연도", true],
-  ["floors_planned", "계획 층수", true],
 ];
+const MONEY = new Set(["trade_latest_price"]);  // 만원 → '34.0억' 표시
 
 const DATE_FIELDS = [
   ["designated_at", "정비구역지정"], ["committee_at", "추진위구성"], ["union_approved_at", "조합설립인가"],
@@ -50,6 +56,9 @@ const DETAIL_FIELDS = [
   ["gfa_planned_m2", "계획 연면적(㎡)"], ["height_planned_m", "계획 높이(m)"],
   ["units_sale", "분양 세대"], ["units_rent", "임대 세대"],
   ["owners_count", "토지등소유자(명)"], ["members_count", "조합원(명)"],
+  ["bld_name", "건축물대장 단지명"], ["land_area_m2", "대지면적(㎡)"], ["bld_households", "건축물대장 세대수"],
+  ["land_share_m2", "평균 대지지분(㎡)"], ["bld_far", "기존 용적률(대장, %)"], ["bld_bcr", "기존 건폐율(대장, %)"],
+  ["bld_approved", "사용승인일"], ["bld_buildings", "주거동 수"],
   ["stage_by_source", "출처별 단계"], ["source_updated_at", "출처 기준일"],
 ];
 
@@ -240,7 +249,24 @@ function cell(p, k, isNum) {
   }
   const v = p[k];
   if (v == null) return `<td class="num na">–</td>`;
+  if (MONEY.has(k)) return `<td class="num" title="${esc(p.trade_latest_date || "")} · 전용 ${esc(p.trade_latest_area || "")}㎡">${eok(v)}</td>`;
   return `<td class="num">${k === "existing_built_year" ? v : fmt.format(v)}</td>`;
+}
+
+// 만원 → '34.0억' / '9,500만'
+function eok(v) {
+  return v >= 10000 ? `${(v / 10000).toFixed(1)}억` : `${fmt.format(v)}만`;
+}
+
+function tradeTable(p) {
+  if (!p.trades_by_area?.length) return "";
+  const rows = p.trades_by_area.map(a => `<tr><td>${a.area}㎡ <small>(${a.pyeong}평)</small></td><td class="num">${a.n}</td>
+    <td class="num">${eok(a.median)}</td><td class="num">${eok(a.min)} ~ ${eok(a.max)}</td>
+    <td class="num">${eok(a.latest_price)} <small>${esc(a.latest_date)} · ${a.latest_floor}층</small></td></tr>`).join("");
+  const note = p.trade_basis === "준공 후 신축" ? " — 준공 후 새 아파트의 거래" : "";
+  return `<h3 class="sub-h">전용면적별 실거래 (최근 12개월${note})</h3>
+    <div class="mini-wrap"><table class="mini"><thead><tr><th>전용면적</th><th class="num">건수</th><th class="num">중위가</th>
+    <th class="num">최저 ~ 최고</th><th class="num">최근 거래</th></tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
 function detailRow(p) {
@@ -254,6 +280,7 @@ function detailRow(p) {
   tr.innerHTML = `<td colspan="${COLUMNS.length}"><div class="detail-inner">
     <div class="timeline">${steps}</div>
     <dl class="detail-grid">${items}</dl>
+    ${tradeTable(p)}
     <p class="aliases">다른 이름: ${esc((p.aliases || []).slice(0, 30).join(" · "))}</p>
     ${home}
     <p class="aliases">출처: ${esc(p.sources || "")}</p>
