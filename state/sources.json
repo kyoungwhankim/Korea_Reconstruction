@@ -1,6 +1,12 @@
 [
  {
   "changed_at": "2026-10-19",
+  "content_hash": "b65b52c1f061c5e5d9f666b2cd80649cd0d30551",
+  "fingerprint": "4f27cb6414befe7c8fd5922f2db3814201dd74f0",
+  "name": "auto_projects.csv"
+ },
+ {
+  "changed_at": "2026-10-19",
   "content_hash": "ee174dee98e4fe18f7631f13e53f013799bfee51",
   "fingerprint": "ba34aa8d0ca3150006bd28007a5d241bb45252c5",
   "name": "manual_projects.csv"

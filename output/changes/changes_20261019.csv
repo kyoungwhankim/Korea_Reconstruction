@@ -625,3 +625,79 @@
 2026-10-19,서울-용산구-이촌1,이촌1,변경,members_count,1370,1372,
 2026-10-19,서울-용산구-후암1,후암1,변경,members_count,452,453,
 2026-10-19,서울-서초구-신반포18337동,신반포18차337동,변경,members_count,1432,1434,
+2026-10-19,서울-도봉구-주공19창동리버타운,주공19단지(창동리버타운),출처 행 추가,row,,pk:11320100050301 (새 사업장),auto_projects.csv
+2026-10-19,서울-노원구-상계주공7,상계주공7단지,출처 행 추가,row,,pk:11350100002513 (기존 사업장에 연결(유사도 1.00)),auto_projects.csv
+2026-10-19,경기-광명-철산주공12,철산주공12단지,단계 진전,stage,추진위구성,조합설립인가,auto_stage.csv
+2026-10-19,경기-광명-철산주공12,철산주공12단지,변경,stage_by_source,경기도=추진위원회; 국토부=3)추진위구성,경기도=추진위원회; 국토부=3)추진위구성; 자동=조합설립인가(2026-09-05),auto_stage.csv
+2026-10-19,경기-광명-철산주공12,철산주공12단지,변경,stage_date,,2026-09-05,auto_stage.csv
+2026-10-19,경기-광명-철산주공12,철산주공12단지,변경,stage_evidence,,https://news.google.com/rss/articles/CBMiakFVX3lxTE92dXVDTHJnNW5sRUlOZjZ5Nm9vRDN2a3hLZDFsQk8yd3ZxbUxYSG1qMWVlbXBzQVpEOS1KTDMyUTVsT0RScU5KYVJtX2NDdlBwZElRNWFIWEVrZzRMcDBZSk82d0lZUXVNb2fSAW5BVV95cUxQU1dhUXdVeGI1S05ILU83ZDNLd3IwRDRMRFJTSjdOYmx5RlFEQ0RZTF80Z1ptNmtObmctR2c2TktTYmJ0RWRlV3REVDh5VVNvVnBTZ0J5THhpWHFGWnpmc05vRUVmcUI1NVB4MGIxdw?oc=5,auto_stage.csv
+2026-10-19,경기-광명-철산주공12,철산주공12단지,변경,stage_order,4,5,auto_stage.csv
+2026-10-19,경기-광명-철산주공12,철산주공12단지,변경,stage_source,경기도_일반정비사업추진현황,자동(뉴스),auto_stage.csv
+2026-10-19,경기-광명-철산주공12,철산주공12단지,변경,union_approved_at,,2026-09-05,
+2026-10-19,서울-강남구-개포우성7,개포우성7차,변경,arch_review_at,,2026-09-04,
+2026-10-19,서울-강남구-개포우성7,개포우성7차,단계 진전,stage,조합설립인가,건축심의,auto_stage.csv
+2026-10-19,서울-강남구-개포우성7,개포우성7차,변경,stage_by_source,서울시=조합설립; 서울시=조합설립인가; 서울시=조합설립인가; 국토부=4)조합설립인가,서울시=조합설립; 서울시=조합설립인가; 서울시=조합설립인가; 국토부=4)조합설립인가; 자동=건축심의(2026-09-04),auto_stage.csv
+2026-10-19,서울-강남구-개포우성7,개포우성7차,변경,stage_date,2024-02-02,2026-09-04,auto_stage.csv
+2026-10-19,서울-강남구-개포우성7,개포우성7차,변경,stage_evidence,,https://n.news.naver.com/mnews/article/009/0005730363?sid=101,auto_stage.csv
+2026-10-19,서울-강남구-개포우성7,개포우성7차,변경,stage_order,5,6,auto_stage.csv
+2026-10-19,서울-강남구-개포우성7,개포우성7차,변경,stage_source,서울시_정비사업추진현황(OA-22856),자동(뉴스),auto_stage.csv
+2026-10-19,서울-강남구-개포주공6_7,"개포주공6,7단지",변경,mgmt_approved_at,,2026-10-09,
+2026-10-19,서울-강남구-개포주공6_7,"개포주공6,7단지",단계 진전,stage,사업시행인가,관리처분인가,auto_stage.csv
+2026-10-19,서울-강남구-개포주공6_7,"개포주공6,7단지",변경,stage_by_source,서울시=사업시행; 서울시=사업시행인가; 서울시=사업시행인가; 국토부=5)사업시행인가,서울시=사업시행; 서울시=사업시행인가; 서울시=사업시행인가; 국토부=5)사업시행인가; 자동=관리처분인가(2026-10-09),auto_stage.csv
+2026-10-19,서울-강남구-개포주공6_7,"개포주공6,7단지",변경,stage_date,2024-11-11,2026-10-09,auto_stage.csv
+2026-10-19,서울-강남구-개포주공6_7,"개포주공6,7단지",변경,stage_evidence,,https://realty.chosun.com/site/data/html_dir/2026/10/09/2026100901374.html,auto_stage.csv
+2026-10-19,서울-강남구-개포주공6_7,"개포주공6,7단지",변경,stage_order,7,8,auto_stage.csv
+2026-10-19,서울-강남구-개포주공6_7,"개포주공6,7단지",변경,stage_source,서울시_정비사업추진현황(OA-22856),자동(뉴스),auto_stage.csv
+2026-10-19,서울-노원구-상계주공7,상계주공7단지,변경,aliases,상계주공7단지 | 상계주공7단지아파트 | 상계주공7단지 재건축 | 상계주공7 | 상계7단지 | 주공7단지,상계주공7단지 | 상계주공7단지아파트 | 상계주공7단지 재건축 | 상계주공7 | 상계7단지 | 주공7단지 | 상계주공7(고층) | 고층 | 상계주공7 재건축 | 상계7 | 주공7 | 노원 상계주공7 | 상계주공아파트 | 상계주공7단지(고층),
+2026-10-19,서울-노원구-상계주공7,상계주공7단지,변경,existing_buildings,,21,
+2026-10-19,서울-노원구-상계주공7,상계주공7단지,변경,existing_built_year,,1988,
+2026-10-19,서울-노원구-상계주공7,상계주공7단지,변경,existing_units,,2634,
+2026-10-19,서울-노원구-상계주공7,상계주공7단지,변경,match_note,단일 출처,2개 출처 병합,
+2026-10-19,서울-노원구-상계주공7,상계주공7단지,변경,name_variants,상계주공7단지,상계주공7단지 | 상계주공7(고층),
+2026-10-19,서울-노원구-상계주공7,상계주공7단지,변경,project_type,재건축,재건축 / 재건축(자동 등록),
+2026-10-19,서울-노원구-상계주공7,상계주공7단지,변경,sources,서울시_정비사업정보몽땅_사업현황,서울시_정비사업정보몽땅_사업현황; auto_projects.csv,
+2026-10-19,서울-노원구-상계주공7,상계주공7단지,변경,stage_by_source,서울시=추진위원회승인,서울시=추진위원회승인; 자동등록=추진위구성,
+2026-10-19,서울-노원구-상계주공7,상계주공7단지,변경,stage_date,,2026-09-10,
+2026-10-19,서울-노원구-상계한신3,상계한신3차,변경,designated_at,,2026-09-08,
+2026-10-19,서울-노원구-상계한신3,상계한신3차,단계 진전,stage,예정구역·후보지,정비구역지정,auto_stage.csv
+2026-10-19,서울-노원구-상계한신3,상계한신3차,변경,stage_by_source,서울시=대상지선정,서울시=대상지선정; 자동=정비구역지정(2026-09-08),auto_stage.csv
+2026-10-19,서울-노원구-상계한신3,상계한신3차,변경,stage_date,2025-07-04,2026-09-08,auto_stage.csv
+2026-10-19,서울-노원구-상계한신3,상계한신3차,변경,stage_evidence,,https://www.cnbizm.com/news/articleView.html?idxno=314393,auto_stage.csv
+2026-10-19,서울-노원구-상계한신3,상계한신3차,변경,stage_order,0,3,auto_stage.csv
+2026-10-19,서울-노원구-상계한신3,상계한신3차,변경,stage_source,서울시_서울플랜+정비사업현황(OA-23112),자동(뉴스),auto_stage.csv
+2026-10-19,서울-노원구-중계주공4,중계주공4단지,변경,committee_at,,2026-08-25,
+2026-10-19,서울-노원구-중계주공4,중계주공4단지,단계 진전,stage,정비계획수립,추진위구성,auto_stage.csv
+2026-10-19,서울-노원구-중계주공4,중계주공4단지,변경,stage_by_source,서울시=정비계획 수립,서울시=정비계획 수립; 자동=추진위구성(2026-08-25),auto_stage.csv
+2026-10-19,서울-노원구-중계주공4,중계주공4단지,변경,stage_date,,2026-08-25,auto_stage.csv
+2026-10-19,서울-노원구-중계주공4,중계주공4단지,변경,stage_evidence,https://cleanup.seoul.go.kr/cafe/mainIndx.do?cafeUrl=junggye4,https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oazlrQ05yVDE5S1hEdnNsXzRud1I5V2RfU1lCSlpXcTRmbmFvenh4czlrakd2VWMySmppRk5Od1J4VUhxcU9mY2NkZjY3b2tHTjZVVjR3?oc=5,auto_stage.csv
+2026-10-19,서울-노원구-중계주공4,중계주공4단지,변경,stage_order,2,4,auto_stage.csv
+2026-10-19,서울-노원구-중계주공4,중계주공4단지,변경,stage_source,서울시_정비사업정보몽땅_사업현황,자동(뉴스),auto_stage.csv
+2026-10-19,서울-도봉구-주공19창동리버타운,주공19단지(창동리버타운),신규 사업장(자동 등록),stage,,추진위구성,auto_projects.csv
+2026-10-19,서울-서초구-신반포4,신반포4차,변경,arch_review_at,,2026-08-21,
+2026-10-19,서울-서초구-신반포4,신반포4차,단계 진전,stage,조합설립인가,건축심의,auto_stage.csv
+2026-10-19,서울-서초구-신반포4,신반포4차,변경,stage_by_source,서울시=조합설립; 서울시=조합설립인가; 서울시=조합설립인가; 국토부=4)조합설립인가,서울시=조합설립; 서울시=조합설립인가; 서울시=조합설립인가; 국토부=4)조합설립인가; 자동=건축심의(2026-08-21),auto_stage.csv
+2026-10-19,서울-서초구-신반포4,신반포4차,변경,stage_date,2019-12-31,2026-08-21,auto_stage.csv
+2026-10-19,서울-서초구-신반포4,신반포4차,변경,stage_evidence,,https://news.google.com/rss/articles/CBMif0FVX3lxTE5SMmN4NTdad1c1WmVTelNsMTRBZzJtbmNBUzJweUFWWHNJTjdEOExIeHJNMDRDOW9EWnZ3SE55OHdBVzJBV2hyWUFFRk9oUXBpMkxQVWtRNFhwNVhMS0pLVms1Z05DNUJyMTYyd0VPSDJmN3BHdWZyVjNzT2kzdGvSAXNBVV95cUxPVGZVLTN5c3ZBQ2dyUDVpX3RZM1p3S3FEMUd6MDVoUUJubmVwYnFjbzNMN2FRQzloWV9xbndOWDNHSS16MWtzVW0ya2JoajFGVW9HSkNZcHZmZlc0NGNBQkdvYTNIa3ZmdVoyamhSck85T09j?oc=5,auto_stage.csv
+2026-10-19,서울-서초구-신반포4,신반포4차,변경,stage_order,5,6,auto_stage.csv
+2026-10-19,서울-서초구-신반포4,신반포4차,변경,stage_source,서울시_정비사업추진현황(OA-22856),자동(뉴스),auto_stage.csv
+2026-10-19,서울-양천구-목동9,목동9단지,변경,arch_review_at,,2026-09-22,
+2026-10-19,서울-양천구-목동9,목동9단지,단계 진전,stage,조합설립인가,건축심의,auto_stage.csv
+2026-10-19,서울-양천구-목동9,목동9단지,변경,stage_by_source,서울시=조합설립; 서울시=조합설립인가; 서울시=대상지선정; 서울시=조합설립인가; 국토부=4)조합설립인가,서울시=조합설립; 서울시=조합설립인가; 서울시=대상지선정; 서울시=조합설립인가; 국토부=4)조합설립인가; 자동=건축심의(2026-09-22),auto_stage.csv
+2026-10-19,서울-양천구-목동9,목동9단지,변경,stage_date,2025-10-30,2026-09-22,auto_stage.csv
+2026-10-19,서울-양천구-목동9,목동9단지,변경,stage_evidence,,https://n.news.naver.com/mnews/article/014/0005579483?sid=101,auto_stage.csv
+2026-10-19,서울-양천구-목동9,목동9단지,변경,stage_order,5,6,auto_stage.csv
+2026-10-19,서울-양천구-목동9,목동9단지,변경,stage_source,서울시_정비사업추진현황(OA-22856),자동(뉴스),auto_stage.csv
+2026-10-19,서울-영등포구-당산현대3,당산현대3차,변경,designated_at,,2026-10-04,
+2026-10-19,서울-영등포구-당산현대3,당산현대3차,단계 진전,stage,안전진단,정비구역지정,auto_stage.csv
+2026-10-19,서울-영등포구-당산현대3,당산현대3차,변경,stage_by_source,서울시=대상지선정; 서울시=안전진단,서울시=대상지선정; 서울시=안전진단; 자동=정비구역지정(2026-10-04),auto_stage.csv
+2026-10-19,서울-영등포구-당산현대3,당산현대3차,변경,stage_date,2025-09-15,2026-10-04,auto_stage.csv
+2026-10-19,서울-영등포구-당산현대3,당산현대3차,변경,stage_evidence,https://cleanup.seoul.go.kr/cafe/mainIndx.do?cafeUrl=dshyundai3,https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ad21fQ01zS01NNjNaYldhOG5vbXJUazVZNHQta3RNcDdUMmh0c2V5bnVicWhweDM3Q0ctZ2FCN1hPOVVzOWZHU3dEMHhZZmFCT1dpYXdnOGVlYnVUV1JSODdwRGllVkhR?oc=5,auto_stage.csv
+2026-10-19,서울-영등포구-당산현대3,당산현대3차,변경,stage_order,1,3,auto_stage.csv
+2026-10-19,서울-영등포구-당산현대3,당산현대3차,변경,stage_source,서울시_정비사업정보몽땅_사업현황,자동(뉴스),auto_stage.csv
+2026-10-19,서울-영등포구-여의도시범,여의도시범아파트,변경,plan_approved_at,,2026-10-14,
+2026-10-19,서울-영등포구-여의도시범,여의도시범아파트,단계 진전,stage,건축심의,사업시행인가,auto_stage.csv
+2026-10-19,서울-영등포구-여의도시범,여의도시범아파트,변경,stage_by_source,서울시=건축심의; 서울시=기획완료; 서울시=건축심의; 서울시=추진위원회승인; 서울시=조합설립인가; 국토부=4)조합설립인가,서울시=건축심의; 서울시=기획완료; 서울시=건축심의; 서울시=추진위원회승인; 서울시=조합설립인가; 국토부=4)조합설립인가; 자동=사업시행인가(2026-10-14),auto_stage.csv
+2026-10-19,서울-영등포구-여의도시범,여의도시범아파트,변경,stage_date,2022-11-07,2026-10-14,auto_stage.csv
+2026-10-19,서울-영등포구-여의도시범,여의도시범아파트,변경,stage_evidence,,https://news.google.com/rss/articles/CBMiaEFVX3lxTE1meWZ5UlV0eElKM3dTZWk5ejVEamtEajBZVERWSWlLY3JGRUUyNGVWUVdyZjhsWHkwSjVnX0s2LTZxVWNURnh5ZHZURE5XYk5vZC1fWWlvcEtyc29PM1ctdnNSbEk3Vk05?oc=5,auto_stage.csv
+2026-10-19,서울-영등포구-여의도시범,여의도시범아파트,변경,stage_order,6,7,auto_stage.csv
+2026-10-19,서울-영등포구-여의도시범,여의도시범아파트,변경,stage_source,서울시_정비사업추진현황(OA-22856),자동(뉴스),auto_stage.csv
