@@ -1,0 +1,11 @@
+{"id":"11140100000104",
+"name":"평화아파트",
+"basis":"단지",
+"by_area":[{"area":58,"pyeong":17.5,"n":1,"median":49000,"min":49000,"max":49000,"latest_price":49000,"latest_date":"2026-10-06","latest_floor":1}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-11-12",58.02,5,59700,"1","중개거래",1976],
+["2025-05-15",58.02,1,44800,"1","중개거래",1976],
+["2026-10-06",58.02,1,49000,null,"중개거래",1976]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

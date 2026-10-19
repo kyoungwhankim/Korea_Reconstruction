@@ -1,0 +1,13 @@
+{"id":"41171100006575",
+"name":"미주아파트",
+"basis":"단지",
+"by_area":[{"area":51,"pyeong":15.4,"jeonse_n":2,"wolse_n":0,"jeonse_median":14000,"jeonse_min":12000,"jeonse_max":16000,"jeonse_latest":12000,"jeonse_latest_date":"2026-09-28"},{"area":54,"pyeong":16.3,"jeonse_n":1,"wolse_n":1,"jeonse_median":13000,"jeonse_min":13000,"jeonse_max":13000,"jeonse_latest":13000,"jeonse_latest_date":"2025-12-20","wolse_deposit_median":2000,"wolse_monthly_median":75}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-07-17",53.55,5,16500,null,"직거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-20",53.55,5,13000,0,"신규","26.02~28.02",null],
+["2026-08-26",50.76,4,16000,0,"신규","26.09~28.09",null],
+["2026-09-28",50.76,1,12000,0,"갱신","26.09~28.09",null],
+["2026-10-03",53.55,4,2000,75,"신규","26.12~28.12",null]
+]}}

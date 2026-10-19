@@ -1,0 +1,13 @@
+{"id":"41220100007244",
+"name":"바우아파트",
+"basis":"단지",
+"by_area":[{"area":73,"pyeong":22.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":75},{"area":77,"pyeong":23.3,"jeonse_n":1,"wolse_n":0,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2025-11-24"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-04-25",77.4,2,16000,null,"중개거래",1991],
+["2025-05-27",77.4,5,15500,null,"중개거래",1991],
+["2025-10-19",74.52,5,13000,null,"직거래",1991]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-24",77.4,3,10000,0,"신규","25.11~27.11",null],
+["2026-04-15",72.6,7,1000,75,"신규","26.04~27.04",null]
+]}}

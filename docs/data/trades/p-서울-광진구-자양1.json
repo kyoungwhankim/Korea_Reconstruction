@@ -1,0 +1,11 @@
+{"id":"서울-광진구-자양1",
+"name":"자양1",
+"basis":"준공 후 신축",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]},
+"silv":{"cols":["date","area","floor","price","kind","type"],"rows":[
+["2024-11-22",84.99,12,222100,"분양권","직거래"]
+]}}

@@ -1,0 +1,17 @@
+{"id":"41410100007584",
+"name":"성균아파트",
+"basis":"단지",
+"by_area":[{"area":61,"pyeong":18.5,"n":1,"median":40000,"min":40000,"max":40000,"latest_price":40000,"latest_date":"2026-07-16","latest_floor":5},{"area":71,"pyeong":21.5,"n":1,"median":37500,"min":37500,"max":37500,"latest_price":37500,"latest_date":"2026-08-11","latest_floor":4},{"area":72,"pyeong":21.8,"n":1,"median":46000,"min":46000,"max":46000,"latest_price":46000,"latest_date":"2026-07-18","latest_floor":4,"jeonse_n":1,"wolse_n":0,"jeonse_median":21000,"jeonse_min":21000,"jeonse_max":21000,"jeonse_latest":21000,"jeonse_latest_date":"2025-11-03","jeonse_ratio":45.7},{"area":73,"pyeong":22.1,"n":1,"median":38200,"min":38200,"max":38200,"latest_price":38200,"latest_date":"2026-01-20","latest_floor":4},{"area":82,"pyeong":24.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3000,"wolse_monthly_median":90},{"area":85,"pyeong":25.7,"n":1,"median":47000,"min":47000,"max":47000,"latest_price":47000,"latest_date":"2026-08-27","latest_floor":3}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-11-15",68.19,4,40000,"가","중개거래",1986],
+["2025-08-08",84.84,3,45000,"가","중개거래",1986],
+["2026-01-20",72.92,4,38200,"나","중개거래",1986],
+["2026-07-16",61.11,5,40000,null,"중개거래",1986],
+["2026-07-18",72.36,4,46000,"나","중개거래",1986],
+["2026-08-11",71.4,4,37500,"가","중개거래",1986],
+["2026-08-27",84.84,3,47000,null,"중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-03",72.36,4,21000,0,"신규","26.01~28.01",null],
+["2026-05-04",81.9,2,3000,90,"신규","26.06~28.06",null]
+]}}

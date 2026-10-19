@@ -1,0 +1,11 @@
+{"id":"11350120033264",
+"name":"시영3단지목련아파트",
+"basis":null,
+"by_area":[{"area":25,"pyeong":7.6,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2646,"wolse_monthly_median":11},{"area":33,"pyeong":10.0,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2663,"wolse_monthly_median":18},{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3328,"wolse_monthly_median":32}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-09",32.76,14,2663,18,"갱신","25.12~27.11",null],
+["2026-02-05",39.82,15,3328,32,"갱신","26.03~28.02",null],
+["2026-03-26",25.2,12,2646,11,"갱신","26.04~28.03",null]
+]}}

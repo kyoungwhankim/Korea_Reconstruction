@@ -1,0 +1,15 @@
+{"id":"11545100003496",
+"name":"호정타워아파트",
+"basis":"단지",
+"by_area":[{"area":59,"pyeong":17.8,"n":2,"median":33000,"min":31000,"max":35000,"latest_price":35000,"latest_date":"2026-08-08","latest_floor":4,"jeonse_n":1,"wolse_n":1,"jeonse_median":25000,"jeonse_min":25000,"jeonse_max":25000,"jeonse_latest":25000,"jeonse_latest_date":"2026-03-18","jeonse_ratio":75.8,"wolse_deposit_median":15000,"wolse_monthly_median":40},{"area":68,"pyeong":20.6,"n":1,"median":30000,"min":30000,"max":30000,"latest_price":30000,"latest_date":"2026-04-26","latest_floor":4}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-05-29",67.08,7,35000,null,"중개거래",1993],
+["2025-06-14",67.08,12,35000,null,"중개거래",1993],
+["2026-04-20",59.44,7,31000,null,"중개거래",1993],
+["2026-04-26",67.98,4,30000,null,"중개거래",1993],
+["2026-08-08",59.44,4,35000,null,"중개거래",1993]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-10",59.44,5,15000,40,"신규","26.04~28.04",null],
+["2026-03-18",59.44,6,25000,0,"신규","26.05~28.05",null]
+]}}

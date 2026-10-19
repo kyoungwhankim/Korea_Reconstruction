@@ -1,0 +1,16 @@
+{"id":"41480100050446",
+"name":"동문2차아파트501동아파트",
+"basis":"단지",
+"by_area":[{"area":59,"pyeong":17.8,"n":4,"median":13950,"min":13200,"max":15000,"latest_price":14400,"latest_date":"2026-10-15","latest_floor":3,"jeonse_n":1,"wolse_n":0,"jeonse_median":14000,"jeonse_min":14000,"jeonse_max":14000,"jeonse_latest":14000,"jeonse_latest_date":"2025-11-17","jeonse_ratio":100.4},{"area":85,"pyeong":25.7,"n":1,"median":20000,"min":20000,"max":20000,"latest_price":20000,"latest_date":"2026-03-18","latest_floor":6,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":80}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-10-11",59.34,7,14000,"501","중개거래",1995],
+["2025-12-29",59.34,7,13500,"501","중개거래",1995],
+["2026-03-18",84.99,6,20000,"501","중개거래",1995],
+["2026-03-28",59.34,4,13200,"501","중개거래",1995],
+["2026-06-08",59.34,1,15000,"501","중개거래",1995],
+["2026-10-15",59.34,3,14400,null,"중개거래",1995]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-17",59.34,2,14000,0,"신규","25.12~27.12",null],
+["2026-07-05",84.99,6,2000,80,"신규","26.07~28.07",null]
+]}}

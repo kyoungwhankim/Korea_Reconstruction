@@ -1,0 +1,11 @@
+{"id":"41250100253652",
+"name":"태양아파트",
+"basis":"단지",
+"by_area":[{"area":44,"pyeong":13.3,"n":1,"median":6000,"min":6000,"max":6000,"latest_price":6000,"latest_date":"2026-05-27","latest_floor":2},{"area":64,"pyeong":19.4,"n":1,"median":5000,"min":5000,"max":5000,"latest_price":5000,"latest_date":"2026-02-09","latest_floor":6}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-11-10",44.02,6,6000,"1","직거래",1990],
+["2026-02-09",64.26,6,5000,"1","중개거래",1990],
+["2026-05-27",44.02,2,6000,null,"중개거래",1990]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

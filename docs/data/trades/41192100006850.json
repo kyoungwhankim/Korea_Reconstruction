@@ -1,0 +1,11 @@
+{"id":"41192100006850",
+"name":"대진2단지아파트",
+"basis":"단지",
+"by_area":[{"area":53,"pyeong":16.0,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":12000,"wolse_monthly_median":15}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-05-15",55.08,1,22000,"나","중개거래",1983],
+["2025-05-28",52.74,4,17500,"가","중개거래",1983]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-06-03",52.74,3,12000,15,"갱신","26.06~28.06",null]
+]}}

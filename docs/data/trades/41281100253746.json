@@ -1,0 +1,15 @@
+{"id":"41281100253746",
+"name":"윤창주택(634-45)",
+"basis":"단지",
+"by_area":[{"area":47,"pyeong":14.2,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":2000,"wolse_monthly_median":60},{"area":54,"pyeong":16.3,"jeonse_n":1,"wolse_n":0,"jeonse_median":12000,"jeonse_min":12000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-09-14"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-05-28",47.43,4,16500,null,"중개거래",1989],
+["2024-11-12",47.43,6,12000,null,"중개거래",1989],
+["2025-01-14",47.43,4,17800,null,"중개거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-02",47.43,5,4000,45,"신규","26.02~28.02",null],
+["2026-04-04",47.43,5,1000,65,"신규","26.04~28.04",null],
+["2026-07-02",47.43,2,2000,60,"신규","26.08~28.08",null],
+["2026-09-14",53.85,1,12000,0,"신규","26.12~28.12",null]
+]}}

@@ -1,0 +1,11 @@
+{"id":"11620100002124",
+"name":"삼성아파트",
+"basis":"단지",
+"by_area":[{"area":64,"pyeong":19.4,"n":2,"median":28750,"min":28000,"max":29500,"latest_price":29500,"latest_date":"2026-06-13","latest_floor":2},{"area":68,"pyeong":20.6,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":800,"wolse_monthly_median":95}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-05-07",64.12,3,28000,null,"중개거래",1974],
+["2026-06-13",64.12,2,29500,null,"중개거래",1974]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-08-08",68.08,1,800,95,"신규","26.09~27.06",null]
+]}}

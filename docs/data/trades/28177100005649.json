@@ -1,0 +1,13 @@
+{"id":"28177100005649",
+"name":"프린스아파트",
+"basis":"단지",
+"by_area":[{"area":87,"pyeong":26.3,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-10-23",87.38,1,10000,"N","중개거래",1978],
+["2025-02-15",87.38,3,13800,"N","중개거래",1978],
+["2025-04-10",84.41,2,13000,"S","직거래",1978],
+["2025-06-18",84.41,1,13000,"S","중개거래",1978]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-24",87.38,2,2000,50,"신규","26.02~28.02",null]
+]}}

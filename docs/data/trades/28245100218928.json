@@ -1,0 +1,13 @@
+{"id":"28245100218928",
+"name":"대신아파트",
+"basis":"단지",
+"by_area":[{"area":55,"pyeong":16.6,"n":2,"median":17650,"min":17000,"max":18300,"latest_price":18300,"latest_date":"2026-06-09","latest_floor":2,"jeonse_n":1,"wolse_n":0,"jeonse_median":9000,"jeonse_min":9000,"jeonse_max":9000,"jeonse_latest":9000,"jeonse_latest_date":"2026-06-04","jeonse_ratio":51.0}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-04-29",54.54,4,16000,null,"중개거래",1986],
+["2024-07-09",54.54,2,16000,null,"중개거래",1986],
+["2026-02-21",54.54,4,17000,null,"중개거래",1986],
+["2026-06-09",54.54,2,18300,null,"중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-06-04",54.54,5,9000,0,"신규","26.07~28.07",null]
+]}}

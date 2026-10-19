@@ -1,0 +1,17 @@
+{"id":"11140100000095",
+"name":"경서아파트",
+"basis":"단지",
+"by_area":[{"area":30,"pyeong":9.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":50},{"area":37,"pyeong":11.2,"n":1,"median":28900,"min":28900,"max":28900,"latest_price":28900,"latest_date":"2026-04-21","latest_floor":6},{"area":50,"pyeong":15.1,"jeonse_n":1,"wolse_n":0,"jeonse_median":25000,"jeonse_min":25000,"jeonse_max":25000,"jeonse_latest":25000,"jeonse_latest_date":"2026-01-09"},{"area":56,"pyeong":16.9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":60}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-02-23",35.85,3,25500,null,"중개거래",1970],
+["2025-01-16",37.69,5,28250,null,"중개거래",1970],
+["2025-01-16",37.69,5,28250,null,"중개거래",1970],
+["2025-04-10",56.11,4,39000,null,"중개거래",1970],
+["2025-06-18",37.69,6,31000,null,"중개거래",1970],
+["2026-04-21",36.58,6,28900,null,"중개거래",1970]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-09",50.15,7,25000,0,"신규","26.03~28.03",null],
+["2026-03-19",55.8,7,500,60,"신규","26.04~28.04",null],
+["2026-09-29",29.7,2,500,50,"신규","26.10~28.10",null]
+]}}

@@ -1,0 +1,10 @@
+{"id":"서울-서초구-신반포18337동",
+"name":"신반포18차337동",
+"basis":"준공 후 신축",
+"by_area":[{"area":53,"pyeong":16.0,"jeonse_n":1,"wolse_n":1,"jeonse_median":72000,"jeonse_min":72000,"jeonse_max":72000,"jeonse_latest":72000,"jeonse_latest_date":"2026-06-14","wolse_deposit_median":70000,"wolse_monthly_median":160}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-06-14",53.39,3,72000,0,null,null,null],
+["2026-07-04",53.39,3,70000,160,null,null,null]
+]}}

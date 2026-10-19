@@ -1,0 +1,14 @@
+{"id":"41820100008177",
+"name":"유성아파트",
+"basis":"단지",
+"by_area":[{"area":59,"pyeong":17.8,"n":2,"median":6850,"min":6400,"max":7300,"latest_price":7300,"latest_date":"2026-07-05","latest_floor":6,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":40},{"area":60,"pyeong":18.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":45}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-12-26",58.77,3,7090,"2","직거래",1993],
+["2025-02-10",58.77,3,8000,"1","중개거래",1993],
+["2025-12-27",58.77,5,6400,"1","중개거래",1993],
+["2026-07-05",58.77,6,7300,"2","직거래",1993]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-20",59.89,5,500,45,"신규","25.12~27.12",null],
+["2025-12-20",58.77,6,1000,40,"신규","25.12~27.12",null]
+]}}

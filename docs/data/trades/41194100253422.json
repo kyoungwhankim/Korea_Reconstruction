@@ -1,0 +1,10 @@
+{"id":"41194100253422",
+"name":"현대(88-0)",
+"basis":"단지",
+"by_area":[{"area":56,"pyeong":16.9,"n":1,"median":15000,"min":15000,"max":15000,"latest_price":15000,"latest_date":"2026-04-20","latest_floor":5}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-19",47.38,1,15400,null,"중개거래",1986],
+["2026-04-20",55.57,5,15000,null,"직거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

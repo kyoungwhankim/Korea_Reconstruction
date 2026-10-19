@@ -1,0 +1,12 @@
+{"id":"41196100007010",
+"name":"보화아파트",
+"basis":"단지",
+"by_area":[{"area":46,"pyeong":13.9,"jeonse_n":1,"wolse_n":1,"jeonse_median":9800,"jeonse_min":9800,"jeonse_max":9800,"jeonse_latest":9800,"jeonse_latest_date":"2026-05-13","wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-02-04",46.32,2,16000,null,"직거래",1989],
+["2024-10-04",46.32,3,16000,null,"중개거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-07",46.32,4,1000,50,"신규","26.01~28.01",null],
+["2026-05-13",46.32,5,9800,0,"신규","26.06~28.06",null]
+]}}

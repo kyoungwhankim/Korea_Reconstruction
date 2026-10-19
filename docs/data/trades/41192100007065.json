@@ -1,0 +1,10 @@
+{"id":"41192100007065",
+"name":"범양아파트",
+"basis":"단지",
+"by_area":[{"area":51,"pyeong":15.4,"n":1,"median":22500,"min":22500,"max":22500,"latest_price":22500,"latest_date":"2026-10-12","latest_floor":4,"jeonse_n":1,"wolse_n":0,"jeonse_median":11500,"jeonse_min":11500,"jeonse_max":11500,"jeonse_latest":11500,"jeonse_latest_date":"2026-08-31","jeonse_ratio":51.1}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-10-12",51.3,4,22500,null,"중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-08-31",51.3,4,11500,0,"갱신","26.08~28.08",null]
+]}}

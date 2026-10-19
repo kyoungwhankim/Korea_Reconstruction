@@ -1,0 +1,11 @@
+{"id":"41281120430740",
+"name":"장미아파트(마동)",
+"basis":"단지",
+"by_area":[{"area":43,"pyeong":13.0,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":750,"wolse_monthly_median":65}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-07-22",42.93,2,26000,"마","중개거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-01",42.93,4,1000,65,"신규","26.04~28.04",null],
+["2026-05-30",42.93,3,500,65,"신규","26.06~28.06",null]
+]}}

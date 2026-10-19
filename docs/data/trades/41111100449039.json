@@ -1,0 +1,12 @@
+{"id":"41111100449039",
+"name":"경성B아파트",
+"basis":"단지",
+"by_area":[{"area":53,"pyeong":16.0,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":70},{"area":57,"pyeong":17.2,"n":1,"median":20000,"min":20000,"max":20000,"latest_price":20000,"latest_date":"2026-02-27","latest_floor":1},{"area":58,"pyeong":17.5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":75}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-06-16",58.23,3,17000,"비","중개거래",1987],
+["2026-02-27",57.24,1,20000,"비","중개거래",1987]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-02",58.23,1,2000,75,"신규","26.01~28.01",null],
+["2025-12-08",52.56,4,2000,70,"신규","26.02~28.02",null]
+]}}

@@ -1,0 +1,13 @@
+{"id":"41410100007524",
+"name":"풍성1아파트",
+"basis":"단지",
+"by_area":[{"area":43,"pyeong":13.0,"jeonse_n":1,"wolse_n":0,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-03-24"},{"area":44,"pyeong":13.3,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":5000,"wolse_monthly_median":35},{"area":45,"pyeong":13.6,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":0,"wolse_monthly_median":40}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-11-17",45.36,3,22800,"A동","중개거래",1986],
+["2025-06-09",43.83,1,22000,"B동","직거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-09",45.36,2,0,40,"신규","26.03~28.03",null],
+["2026-03-24",42.84,5,10000,0,"갱신","26.03~28.03",null],
+["2026-06-25",43.83,4,5000,35,"갱신","26.07~28.07",null]
+]}}

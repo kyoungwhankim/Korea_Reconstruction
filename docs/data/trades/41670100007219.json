@@ -1,0 +1,12 @@
+{"id":"41670100007219",
+"name":"대우아파트",
+"basis":"단지",
+"by_area":[{"area":64,"pyeong":19.4,"jeonse_n":1,"wolse_n":1,"jeonse_median":7000,"jeonse_min":7000,"jeonse_max":7000,"jeonse_latest":7000,"jeonse_latest_date":"2026-01-22","wolse_deposit_median":500,"wolse_monthly_median":65},{"area":65,"pyeong":19.7,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":65},{"area":68,"pyeong":20.6,"n":1,"median":8500,"min":8500,"max":8500,"latest_price":8500,"latest_date":"2025-11-25","latest_floor":5}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-11-25",67.86,5,8500,null,"중개거래",1991]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-22",64.26,5,7000,0,"신규","26.03~28.03",null],
+["2026-03-11",64.26,1,500,65,"신규","26.05~28.05",null],
+["2026-08-03",65.34,2,500,65,"신규","26.08~28.08",null]
+]}}

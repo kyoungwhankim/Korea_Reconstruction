@@ -1,0 +1,11 @@
+{"id":"서울-강남구-도곡삼호",
+"name":"도곡삼호",
+"basis":"기존 단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]},
+"silv":{"cols":["date","area","floor","price","kind","type"],"rows":[
+["2026-06-25",84.98,18,260000,"입주권","중개거래"]
+]}}

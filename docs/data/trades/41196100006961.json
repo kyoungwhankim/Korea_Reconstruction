@@ -1,0 +1,14 @@
+{"id":"41196100006961",
+"name":"태진아파트",
+"basis":"단지",
+"by_area":[{"area":54,"pyeong":16.3,"n":1,"median":17000,"min":17000,"max":17000,"latest_price":17000,"latest_date":"2026-05-23","latest_floor":5,"jeonse_n":3,"wolse_n":0,"jeonse_median":14100,"jeonse_min":13800,"jeonse_max":14500,"jeonse_latest":13800,"jeonse_latest_date":"2026-06-20","jeonse_ratio":82.9},{"area":59,"pyeong":17.8,"n":2,"median":20350,"min":19200,"max":21500,"latest_price":19200,"latest_date":"2026-06-13","latest_floor":4}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-04-13",58.69,3,21500,"1","중개거래",1993],
+["2026-05-23",54.28,5,17000,"1","중개거래",1993],
+["2026-06-13",58.69,4,19200,"1","중개거래",1993]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-13",54.28,5,14100,0,"신규","26.01~28.01",null],
+["2025-11-13",54.28,5,14500,0,"신규","26.01~28.01",null],
+["2026-06-20",54.28,5,13800,0,"신규","26.07~28.07",null]
+]}}

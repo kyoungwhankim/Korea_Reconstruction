@@ -1,0 +1,13 @@
+{"id":"41360100008695",
+"name":"제일아파트",
+"basis":"단지",
+"by_area":[{"area":65,"pyeong":19.7,"n":2,"median":34000,"min":24000,"max":44000,"latest_price":44000,"latest_date":"2026-09-21","latest_floor":2,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":10500,"wolse_monthly_median":37}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-02-24",65.22,1,34300,"102","중개거래",1988],
+["2025-12-24",65.22,5,24000,"103","직거래",1988],
+["2026-09-21",65.22,2,44000,null,"중개거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-12",65.22,3,10500,37,"갱신","26.01~27.01",null],
+["2026-01-12",65.22,3,10500,37,"갱신","26.01~27.01",null]
+]}}

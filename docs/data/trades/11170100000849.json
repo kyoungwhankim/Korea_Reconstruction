@@ -1,0 +1,16 @@
+{"id":"11170100000849",
+"name":"로얄맨숀",
+"basis":"단지",
+"by_area":[{"area":141,"pyeong":42.7,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":10000,"wolse_monthly_median":420},{"area":148,"pyeong":44.8,"jeonse_n":2,"wolse_n":0,"jeonse_median":120000,"jeonse_min":105000,"jeonse_max":135000,"jeonse_latest":135000,"jeonse_latest_date":"2026-07-18"},{"area":158,"pyeong":47.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":70000,"wolse_monthly_median":160}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-05-25",186.12,2,190000,null,"중개거래",1972],
+["2025-03-16",147.74,4,188900,null,"중개거래",1972],
+["2025-05-03",147.74,7,187900,null,"중개거래",1972],
+["2025-08-12",186.12,5,280000,null,"중개거래",1972]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-08",140.79,1,10000,420,"신규","26.02~28.02",null],
+["2026-02-13",147.74,12,105000,0,"갱신","26.03~28.03",true],
+["2026-03-31",157.59,1,70000,160,"신규","26.06~28.06",null],
+["2026-07-18",147.74,10,135000,0,"신규","26.09~28.09",null]
+]}}

@@ -1,0 +1,11 @@
+{"id":"41390100009273",
+"name":"무궁화아파트",
+"basis":"단지",
+"by_area":[{"area":45,"pyeong":13.6,"n":1,"median":15000,"min":15000,"max":15000,"latest_price":15000,"latest_date":"2026-09-03","latest_floor":4}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-30",44.91,4,20000,"A","중개거래",1988],
+["2024-08-29",44.91,4,17000,"B","중개거래",1988],
+["2026-09-03",44.91,4,15000,"A","중개거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

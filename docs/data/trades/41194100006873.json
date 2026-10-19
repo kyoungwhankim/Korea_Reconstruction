@@ -1,0 +1,10 @@
+{"id":"41194100006873",
+"name":"대성아파트",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-12-16",41.76,3,15000,null,"직거래",1986],
+["2025-05-13",41.76,1,18000,null,"중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

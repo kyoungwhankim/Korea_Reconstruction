@@ -1,0 +1,13 @@
+{"id":"41196100007008",
+"name":"라이프동주1동2동아파트",
+"basis":"단지",
+"by_area":[{"area":53,"pyeong":16.0,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-05-28",52.64,3,15000,"2","직거래",1991],
+["2025-05-08",52.64,4,15700,"2","직거래",1991]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-30",52.64,4,1000,50,"신규","26.04~28.04",null],
+["2026-05-08",52.64,3,1000,60,"신규","26.05~27.05",null],
+["2026-07-06",52.64,4,500,40,"신규","26.08~28.08",null]
+]}}

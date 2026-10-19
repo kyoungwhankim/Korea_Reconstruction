@@ -1,0 +1,16 @@
+{"id":"41133100255449",
+"name":"금광아파트",
+"basis":"단지",
+"by_area":[{"area":64,"pyeong":19.4,"n":1,"median":34000,"min":34000,"max":34000,"latest_price":34000,"latest_date":"2026-06-03","latest_floor":3,"jeonse_n":1,"wolse_n":2,"jeonse_median":20000,"jeonse_min":20000,"jeonse_max":20000,"jeonse_latest":20000,"jeonse_latest_date":"2026-09-19","jeonse_ratio":58.8,"wolse_deposit_median":6500,"wolse_monthly_median":80},{"area":69,"pyeong":20.9,"n":2,"median":37650,"min":35500,"max":39800,"latest_price":39800,"latest_date":"2026-05-08","latest_floor":3}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-12-28",69.3,4,31300,"B동","중개거래",1990],
+["2025-07-30",64.26,3,30500,"A동","중개거래",1990],
+["2026-02-27",69.3,5,35500,"B동","중개거래",1990],
+["2026-05-08",69.3,3,39800,"B동","직거래",1990],
+["2026-06-03",64.26,3,34000,"A동","중개거래",1990]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-09",64.26,5,6500,80,"신규","26.02~28.02",null],
+["2025-12-09",64.26,5,6500,80,"신규","26.02~28.02",null],
+["2026-09-19",64.26,3,20000,0,"갱신","26.09~28.09",null]
+]}}

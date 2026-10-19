@@ -1,0 +1,15 @@
+{"id":"41410100007523",
+"name":"진우아파트",
+"basis":"단지",
+"by_area":[{"area":55,"pyeong":16.6,"jeonse_n":2,"wolse_n":4,"jeonse_median":15900,"jeonse_min":14800,"jeonse_max":17000,"jeonse_latest":14800,"jeonse_latest_date":"2026-09-29","wolse_deposit_median":2500,"wolse_monthly_median":55}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-10-29",55.47,2,24900,null,"중개거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-04",55.47,1,13000,10,"신규","25.12~27.12",null],
+["2026-01-22",55.47,6,1000,60,"신규","26.01~28.01",null],
+["2026-03-14",55.47,3,17000,0,"신규","26.05~28.05",null],
+["2026-06-20",55.47,3,3000,50,"신규","26.07~28.07",null],
+["2026-09-29",55.47,6,14800,0,"신규","26.12~28.12",null],
+["2026-10-08",55.47,5,2000,60,"신규","26.10~28.10",null]
+]}}

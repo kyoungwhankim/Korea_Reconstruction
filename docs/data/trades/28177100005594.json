@@ -1,0 +1,13 @@
+{"id":"28177100005594",
+"name":"미성아파트",
+"basis":"단지",
+"by_area":[{"area":64,"pyeong":19.4,"n":1,"median":20000,"min":20000,"max":20000,"latest_price":20000,"latest_date":"2026-04-15","latest_floor":3,"jeonse_n":2,"wolse_n":1,"jeonse_median":12000,"jeonse_min":12000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-10-13","jeonse_ratio":60.0,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-05-25",64.41,3,16500,null,"중개거래",1984],
+["2026-04-15",64.41,3,20000,null,"직거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-18",64.41,2,1000,50,"신규","26.06~28.06",null],
+["2026-09-04",64.41,3,12000,0,"신규","26.10~28.10",null],
+["2026-10-13",64.41,3,12000,0,"신규","26.11~28.11",null]
+]}}

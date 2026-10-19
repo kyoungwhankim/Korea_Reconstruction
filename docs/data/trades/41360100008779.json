@@ -1,0 +1,15 @@
+{"id":"41360100008779",
+"name":"인정하이츠아파트1단지103동",
+"basis":"단지",
+"by_area":[{"area":49,"pyeong":14.8,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":750,"wolse_monthly_median":40},{"area":59,"pyeong":17.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":40},{"area":60,"pyeong":18.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":65}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-08-31",49.08,1,41200,"102","중개거래",1987],
+["2025-01-16",59.82,4,45700,"103","중개거래",1987],
+["2025-04-04",59.82,2,51000,"103","중개거래",1987]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-14",58.68,1,500,40,"신규","26.01~27.01",null],
+["2026-02-10",59.82,2,1000,65,"신규","26.02~27.02",null],
+["2026-02-20",49.08,1,1000,50,"신규","26.03~27.03",null],
+["2026-07-03",49.08,4,500,30,"신규","26.07~27.07",null]
+]}}

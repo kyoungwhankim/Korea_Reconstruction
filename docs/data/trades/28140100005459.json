@@ -1,0 +1,13 @@
+{"id":"28140100005459",
+"name":"만석3차아파트",
+"basis":"단지",
+"by_area":[{"area":42,"pyeong":12.7,"n":1,"median":9500,"min":9500,"max":9500,"latest_price":9500,"latest_date":"2026-07-22","latest_floor":4,"jeonse_n":1,"wolse_n":1,"jeonse_median":5000,"jeonse_min":5000,"jeonse_max":5000,"jeonse_latest":5000,"jeonse_latest_date":"2026-07-03","jeonse_ratio":52.6,"wolse_deposit_median":500,"wolse_monthly_median":35}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-07-23",42.19,2,6000,null,"직거래",1991],
+["2025-09-08",42.19,1,7000,null,"중개거래",1991],
+["2026-07-22",42.19,4,9500,null,"직거래",1991]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-01",42.19,4,500,35,"신규","26.03~28.03",null],
+["2026-07-03",42.19,1,5000,0,"신규","26.08~28.08",null]
+]}}

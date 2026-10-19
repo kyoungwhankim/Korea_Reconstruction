@@ -1,0 +1,12 @@
+{"id":"11620100002156",
+"name":"동마아파트",
+"basis":"단지",
+"by_area":[{"area":60,"pyeong":18.1,"n":1,"median":39500,"min":39500,"max":39500,"latest_price":39500,"latest_date":"2026-05-10","latest_floor":7,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":8750,"wolse_monthly_median":87}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-16",59.99,5,42750,null,"중개거래",1995],
+["2026-05-10",59.99,7,39500,null,"중개거래",1995]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-22",59.99,13,6000,100,"신규","26.01~28.01",null],
+["2026-09-11",59.99,2,11500,75,"신규","26.10~28.10",null]
+]}}

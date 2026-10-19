@@ -1,0 +1,13 @@
+{"id":"28245100009494",
+"name":"인우아파트",
+"basis":"단지",
+"by_area":[{"area":55,"pyeong":16.6,"n":1,"median":14700,"min":14700,"max":14700,"latest_price":14700,"latest_date":"2026-03-14","latest_floor":2},{"area":63,"pyeong":19.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":65}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-08-30",62.85,4,19500,"가","중개거래",1984],
+["2024-12-10",54.93,2,18000,"나","중개거래",1984],
+["2025-04-24",62.85,3,23800,"가","중개거래",1984],
+["2026-03-14",54.93,2,14700,"나","중개거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-30",62.85,1,2000,65,"신규","26.08~28.07",null]
+]}}

@@ -1,0 +1,13 @@
+{"id":"41194100253395",
+"name":"원진아파트",
+"basis":"단지",
+"by_area":[{"area":49,"pyeong":14.8,"n":2,"median":14950,"min":12000,"max":17900,"latest_price":17900,"latest_date":"2026-07-25","latest_floor":2}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-06-13",61.83,5,16000,null,"직거래",1986],
+["2024-07-30",48.84,2,17000,null,"중개거래",1986],
+["2024-10-30",48.03,5,14950,null,"중개거래",1986],
+["2026-06-15",48.84,1,12000,null,"직거래",1986],
+["2026-07-25",48.84,2,17900,null,"중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

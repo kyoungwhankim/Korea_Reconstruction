@@ -1,0 +1,563 @@
+{"apt": "태영(B동)", "area": 74.52, "built": 1995, "date": "2023-11-02", "deal_type": "직거래", "dong": "모현읍 초부리", "floor": 5, "jibun": "808-8", "price": 8500}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2023-11-04", "deal_type": "직거래", "dong": "마평동", "dong_no": "103", "floor": 2, "jibun": "650-1", "price": 27000}
+{"apt": "라이프타워", "area": 59.82, "built": 1995, "date": "2023-11-08", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 7, "jibun": "56-4", "price": 13300}
+{"apt": "현대그린(102동)", "area": 84.98, "built": 1996, "date": "2023-11-10", "deal_type": "중개거래", "dong": "포곡읍 삼계리", "dong_no": "102", "floor": 5, "jibun": "115-4", "price": 11500}
+{"apt": "원일", "area": 74.73, "built": 1996, "date": "2023-11-10", "deal_type": "중개거래", "dong": "포곡읍 전대리", "dong_no": "1", "floor": 5, "jibun": "152-5", "price": 9350}
+{"apt": "라이프", "area": 58.1, "built": 1993, "date": "2023-11-11", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 2, "jibun": "605-1", "price": 16700}
+{"apt": "역북신원아침도시", "area": 59.2, "built": 2019, "date": "2023-11-11", "deal_type": "중개거래", "dong": "역북동", "dong_no": "101동", "floor": 2, "jibun": "795", "price": 34500}
+{"apt": "김량장동어울림", "area": 58.31, "built": 2009, "date": "2023-11-14", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 8, "jibun": "526", "price": 34500}
+{"apt": "동아", "area": 59.4, "built": 1993, "date": "2023-11-16", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 6, "jibun": "118-1", "price": 16000}
+{"apt": "인정프린스2", "area": 59.4, "built": 1995, "date": "2023-11-17", "deal_type": "직거래", "dong": "유방동", "dong_no": "2003", "floor": 4, "jibun": "1007-50", "price": 19000}
+{"apt": "역북신원아침도시", "area": 59.2, "built": 2019, "date": "2023-11-18", "deal_type": "중개거래", "dong": "역북동", "dong_no": "103동", "floor": 12, "jibun": "795", "price": 39700}
+{"apt": "도시공간", "area": 60.57, "built": 1988, "date": "2023-11-22", "deal_type": "직거래", "dong": "역북동", "floor": 4, "jibun": "423-4", "price": 12600}
+{"apt": "영구(101동)", "area": 84.81, "built": 1996, "date": "2023-11-23", "deal_type": "직거래", "dong": "원삼면 좌항리", "floor": 9, "jibun": "106-42", "price": 21000}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2023-11-23", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 18, "jibun": "1007-51", "price": 20500}
+{"apt": "한우리2차", "area": 51.04, "built": 1993, "date": "2023-11-26", "deal_type": "중개거래", "dong": "역북동", "floor": 5, "jibun": "280-3", "price": 15400}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2023-11-30", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 10, "jibun": "4-2", "price": 25700}
+{"apt": "한우리1차", "area": 82.14, "built": 1991, "date": "2023-11-30", "deal_type": "중개거래", "dong": "역북동", "floor": 3, "jibun": "470-7", "price": 18250}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2023-11-30", "deal_type": "중개거래", "dong": "역북동", "dong_no": "102동", "floor": 2, "jibun": "795", "price": 43000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2023-12-01", "deal_type": "직거래", "dong": "김량장동", "dong_no": "102", "floor": 20, "jibun": "4-2", "price": 24000}
+{"apt": "태영", "area": 57.15, "built": 1995, "date": "2023-12-04", "deal_type": "직거래", "dong": "포곡읍 둔전리", "floor": 3, "jibun": "175", "price": 9500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2023-12-06", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "104", "floor": 16, "jibun": "4-2", "price": 23000}
+{"apt": "조양아파트(6차)", "area": 59.79, "built": 1995, "date": "2023-12-06", "deal_type": "직거래", "dong": "포곡읍 전대리", "dong_no": "1", "floor": 9, "jibun": "368", "price": 15000}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2023-12-08", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 17, "jibun": "650-1", "price": 28500}
+{"apt": "조양(338-0)", "area": 84.6, "built": 1992, "date": "2023-12-09", "deal_type": "중개거래", "dong": "김량장동", "floor": 4, "jibun": "338", "price": 17500}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2023-12-09", "deal_type": "중개거래", "dong": "역북동", "dong_no": "104동", "floor": 17, "jibun": "795", "price": 39800}
+{"apt": "일진그린맨션", "area": 78.99, "built": 1990, "date": "2023-12-11", "deal_type": "직거래", "dong": "역북동", "floor": 4, "jibun": "380", "price": 9990}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2023-12-11", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1004", "floor": 4, "jibun": "1007-1", "price": 17000}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2023-12-12", "deal_type": "중개거래", "dong": "역북동", "dong_no": "104동", "floor": 4, "jibun": "795", "price": 40500}
+{"apt": "목화", "area": 74.04, "built": 1996, "date": "2023-12-13", "deal_type": "중개거래", "dong": "포곡읍 둔전리", "floor": 3, "jibun": "362-2", "price": 10400}
+{"apt": "라이프", "area": 84.99, "built": 1993, "date": "2023-12-23", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 10, "jibun": "605-1", "price": 23800}
+{"apt": "청수라이프", "area": 84.84, "built": 1993, "date": "2023-12-25", "deal_type": "중개거래", "dong": "역북동", "floor": 4, "jibun": "418-3", "price": 21400}
+{"apt": "김량장동어울림", "area": 59.0, "built": 2009, "date": "2024-01-01", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 9, "jibun": "526", "price": 35200}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2024-01-02", "deal_type": "중개거래", "dong": "역북동", "dong_no": "102동", "floor": 12, "jibun": "795", "price": 47000}
+{"apt": "재원(105동)", "area": 82.08, "built": 1996, "date": "2024-01-02", "deal_type": "직거래", "dong": "포곡읍 삼계리", "dong_no": "105", "floor": 1, "jibun": "275-21", "price": 9500}
+{"apt": "삼보라이프상가", "area": 51.28, "built": 1996, "date": "2024-01-05", "deal_type": "직거래", "dong": "김량장동", "floor": 7, "jibun": "321", "price": 12000}
+{"apt": "에버랜드", "area": 52.8, "built": 1990, "date": "2024-01-05", "deal_type": "중개거래", "dong": "역북동", "floor": 4, "jibun": "426", "price": 17700}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-01-09", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1002", "floor": 8, "jibun": "1007-1", "price": 18800}
+{"apt": "대명(3동)", "area": 83.91, "built": 1997, "date": "2024-01-10", "deal_type": "중개거래", "dong": "포곡읍 삼계리", "floor": 3, "jibun": "369-12", "price": 8000}
+{"apt": "김량장동어울림", "area": 84.95, "built": 2009, "date": "2024-01-11", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "107", "floor": 10, "jibun": "526", "price": 40000}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-01-11", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 6, "jibun": "1007-51", "price": 19500}
+{"apt": "동아", "area": 78.3, "built": 1993, "date": "2024-01-13", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 9, "jibun": "118-1", "price": 20800}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-01-16", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 14, "jibun": "4-2", "price": 24500}
+{"apt": "유장아트맨션(3동)", "area": 81.9, "built": 1990, "date": "2024-01-18", "deal_type": "중개거래", "dong": "역북동", "floor": 2, "jibun": "417-13", "price": 13000}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-01-19", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 1, "jibun": "1007-51", "price": 20500}
+{"apt": "상부목련아파트(2동)", "area": 75.0, "built": 1995, "date": "2024-01-25", "deal_type": "직거래", "dong": "포곡읍 둔전리", "floor": 3, "jibun": "121-2", "price": 13000}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-01-27", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 11, "jibun": "1007-51", "price": 17000}
+{"apt": "한우리2차", "area": 51.04, "built": 1993, "date": "2024-01-29", "deal_type": "중개거래", "dong": "역북동", "floor": 7, "jibun": "280-3", "price": 16700}
+{"apt": "진흥5차", "area": 73.98, "built": 1995, "date": "2024-01-30", "deal_type": "직거래", "dong": "김량장동", "floor": 5, "jibun": "328-5", "price": 10000}
+{"apt": "인정프린스2", "area": 59.4, "built": 1995, "date": "2024-01-31", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2001", "floor": 9, "jibun": "1007-50", "price": 20000}
+{"apt": "광휘주택(가동)", "area": 68.88, "built": 1992, "date": "2024-01-31", "deal_type": "직거래", "dong": "포곡읍 둔전리", "dong_no": "가", "floor": 3, "jibun": "171-7", "price": 10300}
+{"apt": "동산7차", "area": 84.69, "built": 1990, "date": "2024-02-01", "deal_type": "중개거래", "dong": "역북동", "floor": 2, "jibun": "467-25", "price": 17250}
+{"apt": "삼호아파트", "area": 84.63, "built": 1995, "date": "2024-02-03", "deal_type": "중개거래", "dong": "고림동", "floor": 1, "jibun": "488-10", "price": 12800}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2024-02-05", "deal_type": "중개거래", "dong": "역북동", "dong_no": "104동", "floor": 1, "jibun": "795", "price": 35700}
+{"apt": "청광", "area": 74.97, "built": 1991, "date": "2024-02-08", "deal_type": "중개거래", "dong": "역북동", "dong_no": "(1동)", "floor": 1, "jibun": "271-1", "price": 14500}
+{"apt": "인정프린스2", "area": 59.4, "built": 1995, "date": "2024-02-08", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2001", "floor": 2, "jibun": "1007-50", "price": 15250}
+{"apt": "라이프타워", "area": 84.96, "built": 1995, "date": "2024-02-09", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 16, "jibun": "56-4", "price": 22500}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-02-14", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 17, "jibun": "1007-51", "price": 19400}
+{"apt": "우성", "area": 134.87, "built": 1996, "date": "2024-02-15", "deal_type": "중개거래", "dong": "마평동", "dong_no": "103", "floor": 7, "jibun": "650-1", "price": 31000}
+{"apt": "삼아", "area": 45.74, "built": 1987, "date": "2024-02-15", "deal_type": "중개거래", "dong": "역북동", "dong_no": "나", "floor": 3, "jibun": "438-1", "price": 9500}
+{"apt": "영구(101동)", "area": 84.81, "built": 1996, "date": "2024-02-15", "deal_type": "중개거래", "dong": "원삼면 좌항리", "floor": 1, "jibun": "106-42", "price": 16000}
+{"apt": "이화", "area": 31.09, "built": 1990, "date": "2024-02-16", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 4, "jibun": "92-5", "price": 8200}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-02-18", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 1, "jibun": "4-2", "price": 23000}
+{"apt": "동아", "area": 59.4, "built": 1993, "date": "2024-02-21", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 13, "jibun": "118-1", "price": 15000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-02-22", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1002", "floor": 1, "jibun": "1007-1", "price": 16650}
+{"apt": "조양아파트(6차)", "area": 59.79, "built": 1995, "date": "2024-02-23", "deal_type": "중개거래", "dong": "포곡읍 전대리", "dong_no": "1", "floor": 1, "jibun": "368", "price": 14000}
+{"apt": "동은", "area": 51.18, "built": 1994, "date": "2024-02-24", "deal_type": "중개거래", "dong": "백암면 근창리", "floor": 2, "jibun": "28-1", "price": 8300}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2024-02-24", "deal_type": "중개거래", "dong": "역북동", "dong_no": "103동", "floor": 9, "jibun": "795", "price": 38500}
+{"apt": "양지", "area": 42.66, "built": 1987, "date": "2024-02-25", "deal_type": "중개거래", "dong": "양지읍 양지리", "dong_no": "1", "floor": 5, "jibun": "594-3", "price": 5700}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2024-02-26", "deal_type": "중개거래", "dong": "역북동", "dong_no": "103동", "floor": 9, "jibun": "795", "price": 38500}
+{"apt": "유장아트맨션(2동)", "area": 69.63, "built": 1990, "date": "2024-02-27", "deal_type": "중개거래", "dong": "역북동", "floor": 2, "jibun": "418-1", "price": 14500}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2024-02-28", "deal_type": "중개거래", "dong": "역북동", "dong_no": "102동", "floor": 3, "jibun": "795", "price": 43000}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-02-28", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 13, "jibun": "1007-51", "price": 17800}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-03-04", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 17, "jibun": "1007-51", "price": 20900}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2024-03-05", "deal_type": "중개거래", "dong": "마평동", "dong_no": "103", "floor": 1, "jibun": "650-1", "price": 23500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-03-06", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 18, "jibun": "4-2", "price": 23500}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2024-03-06", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 15, "jibun": "650-1", "price": 18300}
+{"apt": "광휘주택(가동)", "area": 68.88, "built": 1992, "date": "2024-03-06", "deal_type": "중개거래", "dong": "포곡읍 둔전리", "dong_no": "가", "floor": 1, "jibun": "171-7", "price": 8000}
+{"apt": "라이프", "area": 75.58, "built": 1993, "date": "2024-03-08", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 15, "jibun": "605-1", "price": 21800}
+{"apt": "에버랜드", "area": 52.8, "built": 1990, "date": "2024-03-09", "deal_type": "중개거래", "dong": "역북동", "floor": 2, "jibun": "426", "price": 18000}
+{"apt": "삼아", "area": 45.74, "built": 1987, "date": "2024-03-09", "deal_type": "중개거래", "dong": "역북동", "dong_no": "가", "floor": 4, "jibun": "438-1", "price": 12600}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-03-09", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 18, "jibun": "1007-51", "price": 19700}
+{"apt": "용인", "area": 63.08, "built": 1979, "date": "2024-03-11", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "1", "floor": 2, "jibun": "342-5", "price": 14000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-03-12", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 4, "jibun": "4-2", "price": 23000}
+{"apt": "라이프", "area": 58.1, "built": 1993, "date": "2024-03-12", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 8, "jibun": "605-1", "price": 18000}
+{"apt": "재원(106동)", "area": 84.11, "built": 1996, "date": "2024-03-13", "deal_type": "중개거래", "dong": "포곡읍 삼계리", "dong_no": "106", "floor": 4, "jibun": "275-14", "price": 12800}
+{"apt": "인정프린스2", "area": 84.87, "built": 1995, "date": "2024-03-14", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2002", "floor": 12, "jibun": "1007-50", "price": 26000}
+{"apt": "삼보라이프상가", "area": 58.7, "built": 1996, "date": "2024-03-15", "deal_type": "중개거래", "dong": "김량장동", "floor": 4, "jibun": "321", "price": 15500}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-03-15", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1002", "floor": 10, "jibun": "1007-1", "price": 17900}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-03-16", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 11, "jibun": "4-2", "price": 25500}
+{"apt": "한우리1차", "area": 82.14, "built": 1991, "date": "2024-03-16", "deal_type": "중개거래", "dong": "역북동", "floor": 2, "jibun": "470-7", "price": 17000}
+{"apt": "현대그린(103동)", "area": 84.85, "built": 1996, "date": "2024-03-17", "deal_type": "중개거래", "dong": "포곡읍 삼계리", "dong_no": "103", "floor": 3, "jibun": "116-3", "price": 12000}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2024-03-18", "deal_type": "중개거래", "dong": "역북동", "dong_no": "103동", "floor": 18, "jibun": "795", "price": 38000}
+{"apt": "현대아파트", "area": 84.36, "built": 1995, "date": "2024-03-20", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "106", "floor": 19, "jibun": "4-2", "price": 33300}
+{"apt": "장미", "area": 42.84, "built": 1989, "date": "2024-03-21", "deal_type": "직거래", "dong": "포곡읍 전대리", "floor": 4, "jibun": "191-5", "price": 8100}
+{"apt": "김량장동어울림", "area": 106.86, "built": 2009, "date": "2024-03-26", "deal_type": "직거래", "dong": "김량장동", "dong_no": "107", "floor": 4, "jibun": "526", "price": 37000}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2024-03-27", "deal_type": "중개거래", "dong": "역북동", "dong_no": "103동", "floor": 10, "jibun": "795", "price": 38000}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2024-03-27", "deal_type": "중개거래", "dong": "역북동", "dong_no": "105동", "floor": 6, "jibun": "795", "price": 46600}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2024-03-27", "deal_type": "중개거래", "dong": "역북동", "dong_no": "102동", "floor": 17, "jibun": "795", "price": 44000}
+{"apt": "장미맨션", "area": 84.33, "built": 1997, "date": "2024-03-29", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 5, "jibun": "584-52", "price": 12500}
+{"apt": "진흥", "area": 69.69, "built": 1995, "date": "2024-04-01", "deal_type": "중개거래", "dong": "김량장동", "floor": 3, "jibun": "350-15", "price": 13300}
+{"apt": "수정빌라", "area": 99.61, "built": 1994, "date": "2024-04-02", "deal_type": "직거래", "dong": "김량장동", "dong_no": "A", "floor": 2, "jibun": "199-1", "price": 20500}
+{"apt": "김량장동어울림", "area": 59.0, "built": 2009, "date": "2024-04-03", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 7, "jibun": "526", "price": 36500}
+{"apt": "김량장동어울림", "area": 59.0, "built": 2009, "date": "2024-04-03", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 11, "jibun": "526", "price": 35000}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2024-04-03", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 7, "jibun": "650-1", "price": 28000}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2024-04-05", "deal_type": "중개거래", "dong": "마평동", "dong_no": "103", "floor": 15, "jibun": "650-1", "price": 29500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-04-06", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 10, "jibun": "4-2", "price": 24200}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-04-06", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 10, "jibun": "4-2", "price": 25000}
+{"apt": "양지", "area": 42.66, "built": 1987, "date": "2024-04-06", "deal_type": "중개거래", "dong": "양지읍 양지리", "dong_no": "1", "floor": 5, "jibun": "594-3", "price": 6800}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2024-04-08", "deal_type": "중개거래", "dong": "역북동", "dong_no": "101동", "floor": 18, "jibun": "795", "price": 38400}
+{"apt": "재원(107동)", "area": 84.74, "built": 1996, "date": "2024-04-08", "deal_type": "직거래", "dong": "포곡읍 삼계리", "floor": 2, "jibun": "275-12", "price": 13000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-04-09", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 7, "jibun": "4-2", "price": 26500}
+{"apt": "김량장동어울림", "area": 58.31, "built": 2009, "date": "2024-04-09", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 18, "jibun": "526", "price": 32500}
+{"apt": "삼성", "area": 71.73, "built": 1989, "date": "2024-04-09", "deal_type": "중개거래", "dong": "역북동", "dong_no": "에이", "floor": 4, "jibun": "381", "price": 15000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-04-10", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1002", "floor": 8, "jibun": "1007-1", "price": 18250}
+{"apt": "현대아파트", "area": 84.36, "built": 1995, "date": "2024-04-11", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "107", "floor": 15, "jibun": "4-2", "price": 35800}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-04-12", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 17, "jibun": "1007-51", "price": 18800}
+{"apt": "광휘주택(가동)", "area": 68.88, "built": 1992, "date": "2024-04-12", "deal_type": "직거래", "dong": "포곡읍 둔전리", "dong_no": "가", "floor": 1, "jibun": "171-7", "price": 8500}
+{"apt": "유장아름맨션", "area": 84.9, "built": 1994, "date": "2024-04-13", "deal_type": "중개거래", "dong": "역북동", "floor": 1, "jibun": "427-10", "price": 18000}
+{"apt": "인정프린스1", "area": 49.36, "built": 1994, "date": "2024-04-13", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1003", "floor": 12, "jibun": "1007-1", "price": 14500}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2024-04-14", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 10, "jibun": "650-1", "price": 19000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-04-15", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 11, "jibun": "4-2", "price": 22500}
+{"apt": "라이프", "area": 58.1, "built": 1993, "date": "2024-04-15", "deal_type": "직거래", "dong": "마평동", "dong_no": "102", "floor": 3, "jibun": "605-1", "price": 16000}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2024-04-15", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 14, "jibun": "650-1", "price": 18700}
+{"apt": "삼호아파트", "area": 66.96, "built": 1995, "date": "2024-04-18", "deal_type": "중개거래", "dong": "고림동", "floor": 3, "jibun": "488-10", "price": 9000}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2024-04-18", "deal_type": "중개거래", "dong": "역북동", "dong_no": "103동", "floor": 17, "jibun": "795", "price": 38500}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-04-18", "deal_type": "직거래", "dong": "유방동", "dong_no": "3001", "floor": 13, "jibun": "1007-51", "price": 19000}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2024-04-20", "deal_type": "직거래", "dong": "역북동", "dong_no": "102동", "floor": 4, "jibun": "795", "price": 36000}
+{"apt": "상부목련아파트(6동)", "area": 76.2, "built": 1996, "date": "2024-04-25", "deal_type": "중개거래", "dong": "포곡읍 둔전리", "dong_no": "6", "floor": 1, "jibun": "122-7", "price": 10500}
+{"apt": "그랜드맨션(2동)", "area": 76.99, "built": 1997, "date": "2024-04-26", "deal_type": "중개거래", "dong": "고림동", "dong_no": "2", "floor": 1, "jibun": "820-141", "price": 13500}
+{"apt": "청광", "area": 74.97, "built": 1991, "date": "2024-04-26", "deal_type": "직거래", "dong": "역북동", "dong_no": "(1동)", "floor": 3, "jibun": "271-1", "price": 15800}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2024-04-27", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 6, "jibun": "650-1", "price": 18650}
+{"apt": "김량장동어울림", "area": 84.95, "built": 2009, "date": "2024-04-29", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 13, "jibun": "526", "price": 40000}
+{"apt": "역북신원아침도시", "area": 59.2, "built": 2019, "date": "2024-04-29", "deal_type": "중개거래", "dong": "역북동", "dong_no": "103동", "floor": 16, "jibun": "795", "price": 39000}
+{"apt": "대명(3동)", "area": 83.91, "built": 1997, "date": "2024-04-29", "deal_type": "중개거래", "dong": "포곡읍 삼계리", "floor": 5, "jibun": "369-12", "price": 10450}
+{"apt": "수정빌라", "area": 99.61, "built": 1994, "date": "2024-04-30", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "A", "floor": 3, "jibun": "199-1", "price": 21800}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-04-30", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 11, "jibun": "1007-51", "price": 19300}
+{"apt": "이화", "area": 31.09, "built": 1990, "date": "2024-04-30", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 1, "jibun": "92-5", "price": 8080}
+{"apt": "김량장동어울림", "area": 106.86, "built": 2009, "date": "2024-05-02", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "107", "floor": 18, "jibun": "526", "price": 55000}
+{"apt": "김량장동어울림", "area": 58.31, "built": 2009, "date": "2024-05-04", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 15, "jibun": "526", "price": 34000}
+{"apt": "삼성", "area": 73.26, "built": 1989, "date": "2024-05-07", "deal_type": "중개거래", "dong": "역북동", "dong_no": "에이", "floor": 5, "jibun": "381", "price": 10900}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-05-07", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1002", "floor": 3, "jibun": "1007-1", "price": 16250}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2024-05-09", "deal_type": "중개거래", "dong": "역북동", "dong_no": "103동", "floor": 4, "jibun": "795", "price": 38900}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2024-05-13", "deal_type": "중개거래", "dong": "역북동", "dong_no": "103동", "floor": 14, "jibun": "795", "price": 46000}
+{"apt": "신양", "area": 66.92, "built": 1996, "date": "2024-05-20", "deal_type": "중개거래", "dong": "김량장동", "floor": 5, "jibun": "353-5", "price": 12500}
+{"apt": "삼보라이프상가", "area": 48.19, "built": 1996, "date": "2024-05-21", "deal_type": "중개거래", "dong": "김량장동", "floor": 6, "jibun": "321", "price": 11400}
+{"apt": "태영(A동)", "area": 50.85, "built": 1995, "date": "2024-05-21", "deal_type": "직거래", "dong": "모현읍 초부리", "floor": 2, "jibun": "808-2", "price": 5600}
+{"apt": "라이프타워", "area": 59.82, "built": 1995, "date": "2024-05-21", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 8, "jibun": "56-4", "price": 12500}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2024-05-24", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 13, "jibun": "650-1", "price": 26000}
+{"apt": "일봉아파트", "area": 68.88, "built": 1992, "date": "2024-05-24", "deal_type": "직거래", "dong": "포곡읍 둔전리", "floor": 1, "jibun": "166-2", "price": 16000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-05-25", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 19, "jibun": "4-2", "price": 26500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-05-26", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 21, "jibun": "4-2", "price": 21500}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2024-05-27", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 9, "jibun": "650-1", "price": 19300}
+{"apt": "상부목련아파트(3동)", "area": 79.36, "built": 1995, "date": "2024-05-27", "deal_type": "중개거래", "dong": "포곡읍 둔전리", "floor": 3, "jibun": "121-4", "price": 10700}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-05-29", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "104", "floor": 4, "jibun": "4-2", "price": 23500}
+{"apt": "조양맨션(1동)", "area": 74.93, "built": 1988, "date": "2024-05-30", "deal_type": "직거래", "dong": "역북동", "floor": 1, "jibun": "412-9", "price": 22000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-06-01", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 4, "jibun": "4-2", "price": 22500}
+{"apt": "영동2차아파트", "area": 68.56, "built": 1995, "date": "2024-06-03", "deal_type": "직거래", "dong": "역북동", "floor": 5, "jibun": "385-11", "price": 9000}
+{"apt": "광휘주택(가동)", "area": 68.88, "built": 1992, "date": "2024-06-03", "deal_type": "중개거래", "dong": "포곡읍 둔전리", "dong_no": "가", "floor": 4, "jibun": "171-7", "price": 9200}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-06-08", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "104", "floor": 11, "jibun": "4-2", "price": 24500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-06-09", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 1, "jibun": "4-2", "price": 23000}
+{"apt": "인정프린스2", "area": 84.87, "built": 1995, "date": "2024-06-10", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2003", "floor": 11, "jibun": "1007-50", "price": 29000}
+{"apt": "유장(434-42)", "area": 84.9, "built": 1995, "date": "2024-06-11", "deal_type": "중개거래", "dong": "역북동", "floor": 3, "jibun": "434-42", "price": 15500}
+{"apt": "김량장동어울림", "area": 59.0, "built": 2009, "date": "2024-06-12", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "104", "floor": 5, "jibun": "526", "price": 35700}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2024-06-12", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 18, "jibun": "650-1", "price": 23500}
+{"apt": "광휘주택(가동)", "area": 68.88, "built": 1992, "date": "2024-06-12", "deal_type": "직거래", "dong": "포곡읍 둔전리", "dong_no": "가", "floor": 1, "jibun": "171-7", "price": 13000}
+{"apt": "대명(11동)", "area": 65.85, "built": 1997, "date": "2024-06-13", "deal_type": "직거래", "dong": "포곡읍 삼계리", "dong_no": "11", "floor": 1, "jibun": "368", "price": 11800}
+{"apt": "인정프린스2", "area": 84.87, "built": 1995, "date": "2024-06-14", "deal_type": "직거래", "dong": "유방동", "dong_no": "2002", "floor": 9, "jibun": "1007-50", "price": 28500}
+{"apt": "김량장동어울림", "area": 84.53, "built": 2009, "date": "2024-06-15", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "106", "floor": 17, "jibun": "526", "price": 41000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-06-15", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1002", "floor": 1, "jibun": "1007-1", "price": 16900}
+{"apt": "인정프린스2", "area": 59.4, "built": 1995, "date": "2024-06-15", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2001", "floor": 5, "jibun": "1007-50", "price": 17000}
+{"apt": "동남(A,B동)", "area": 50.73, "built": 1986, "date": "2024-06-16", "deal_type": "중개거래", "dong": "마평동", "dong_no": "A", "floor": 2, "jibun": "730-8", "price": 12800}
+{"apt": "김량장동어울림", "area": 84.53, "built": 2009, "date": "2024-06-17", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 6, "jibun": "526", "price": 40300}
+{"apt": "한우리1차", "area": 82.14, "built": 1991, "date": "2024-06-17", "deal_type": "직거래", "dong": "역북동", "floor": 1, "jibun": "470-7", "price": 16500}
+{"apt": "목화", "area": 74.04, "built": 1996, "date": "2024-06-17", "deal_type": "중개거래", "dong": "포곡읍 둔전리", "floor": 4, "jibun": "362-2", "price": 8500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-06-19", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 5, "jibun": "4-2", "price": 27650}
+{"apt": "동남(C동)", "area": 53.52, "built": 1986, "date": "2024-06-19", "deal_type": "직거래", "dong": "마평동", "dong_no": "C", "floor": 2, "jibun": "730", "price": 12000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-06-19", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1001", "floor": 13, "jibun": "1007-1", "price": 17000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-06-20", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1002", "floor": 1, "jibun": "1007-1", "price": 16600}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-06-20", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1001", "floor": 2, "jibun": "1007-1", "price": 16800}
+{"apt": "성산그린", "area": 98.49, "built": 1996, "date": "2024-06-21", "deal_type": "중개거래", "dong": "백암면 근창리", "floor": 5, "jibun": "89-8", "price": 9000}
+{"apt": "진흥5차", "area": 73.98, "built": 1995, "date": "2024-06-24", "deal_type": "직거래", "dong": "김량장동", "floor": 5, "jibun": "328-5", "price": 10000}
+{"apt": "인정프린스2", "area": 59.4, "built": 1995, "date": "2024-06-25", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2001", "floor": 7, "jibun": "1007-50", "price": 17400}
+{"apt": "인정프린스2", "area": 84.87, "built": 1995, "date": "2024-06-25", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2003", "floor": 17, "jibun": "1007-50", "price": 27300}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-06-25", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 15, "jibun": "1007-51", "price": 19000}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2024-06-27", "deal_type": "중개거래", "dong": "마평동", "dong_no": "103", "floor": 16, "jibun": "650-1", "price": 27000}
+{"apt": "김량장동어울림", "area": 58.81, "built": 2009, "date": "2024-06-29", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 15, "jibun": "526", "price": 33000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-06-29", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1004", "floor": 11, "jibun": "1007-1", "price": 17500}
+{"apt": "조양아파트(6차)", "area": 59.79, "built": 1995, "date": "2024-06-30", "deal_type": "중개거래", "dong": "포곡읍 전대리", "dong_no": "1", "floor": 11, "jibun": "368", "price": 14000}
+{"apt": "김량장동어울림", "area": 84.95, "built": 2009, "date": "2024-07-01", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "106", "floor": 18, "jibun": "526", "price": 40000}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2024-07-01", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 15, "jibun": "650-1", "price": 18700}
+{"apt": "김량장동어울림", "area": 84.53, "built": 2009, "date": "2024-07-02", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "106", "floor": 14, "jibun": "526", "price": 42300}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-07-02", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 14, "jibun": "1007-51", "price": 18500}
+{"apt": "김량장동어울림", "area": 84.95, "built": 2009, "date": "2024-07-03", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 14, "jibun": "526", "price": 41000}
+{"apt": "삼아", "area": 45.74, "built": 1987, "date": "2024-07-04", "deal_type": "중개거래", "dong": "역북동", "dong_no": "나", "floor": 4, "jibun": "438-1", "price": 11000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-07-04", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1002", "floor": 3, "jibun": "1007-1", "price": 16400}
+{"apt": "김량장동어울림", "area": 84.53, "built": 2009, "date": "2024-07-06", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 17, "jibun": "526", "price": 42000}
+{"apt": "김량장동어울림", "area": 106.86, "built": 2009, "date": "2024-07-06", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "107", "floor": 14, "jibun": "526", "price": 56500}
+{"apt": "상부목련아파트(3동)", "area": 79.36, "built": 1995, "date": "2024-07-06", "deal_type": "중개거래", "dong": "포곡읍 둔전리", "floor": 4, "jibun": "121-4", "price": 10150}
+{"apt": "강림", "area": 83.82, "built": 1990, "date": "2024-07-07", "deal_type": "직거래", "dong": "백암면 근창리", "floor": 1, "jibun": "11-4", "price": 10000}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2024-07-10", "deal_type": "중개거래", "dong": "마평동", "dong_no": "103", "floor": 7, "jibun": "650-1", "price": 28700}
+{"apt": "목련", "area": 56.97, "built": 1990, "date": "2024-07-11", "deal_type": "중개거래", "dong": "마평동", "floor": 3, "jibun": "597-1", "price": 8500}
+{"apt": "삼보라이프상가", "area": 38.39, "built": 1996, "date": "2024-07-12", "deal_type": "중개거래", "dong": "김량장동", "floor": 9, "jibun": "321", "price": 11500}
+{"apt": "라이프", "area": 75.58, "built": 1993, "date": "2024-07-13", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 10, "jibun": "605-1", "price": 18000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-07-13", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1001", "floor": 10, "jibun": "1007-1", "price": 17900}
+{"apt": "인정프린스2", "area": 59.4, "built": 1995, "date": "2024-07-15", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2001", "floor": 19, "jibun": "1007-50", "price": 17000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-07-16", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 21, "jibun": "4-2", "price": 26300}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2024-07-16", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 3, "jibun": "650-1", "price": 18500}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-07-19", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 10, "jibun": "1007-51", "price": 19000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-07-20", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 10, "jibun": "4-2", "price": 23500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-07-20", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 13, "jibun": "4-2", "price": 23300}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-07-20", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "104", "floor": 20, "jibun": "4-2", "price": 24000}
+{"apt": "삼호아파트", "area": 73.32, "built": 1995, "date": "2024-07-24", "deal_type": "중개거래", "dong": "고림동", "floor": 4, "jibun": "488-10", "price": 9500}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-07-24", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1004", "floor": 3, "jibun": "1007-1", "price": 17500}
+{"apt": "인정프린스2", "area": 59.4, "built": 1995, "date": "2024-07-24", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2003", "floor": 5, "jibun": "1007-50", "price": 16800}
+{"apt": "김량장동어울림", "area": 58.81, "built": 2009, "date": "2024-07-27", "deal_type": "직거래", "dong": "김량장동", "dong_no": "103", "floor": 4, "jibun": "526", "price": 32750}
+{"apt": "역북신원아침도시", "area": 59.2, "built": 2019, "date": "2024-07-27", "deal_type": "중개거래", "dong": "역북동", "dong_no": "101동", "floor": 14, "jibun": "795", "price": 40000}
+{"apt": "광휘주택(가동)", "area": 68.88, "built": 1992, "date": "2024-07-29", "deal_type": "중개거래", "dong": "포곡읍 둔전리", "dong_no": "가", "floor": 5, "jibun": "171-7", "price": 7600}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-07-31", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 9, "jibun": "4-2", "price": 25400}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2024-08-01", "deal_type": "중개거래", "dong": "역북동", "dong_no": "104동", "floor": 23, "jibun": "795", "price": 39000}
+{"apt": "역북신원아침도시", "area": 59.2, "built": 2019, "date": "2024-08-02", "deal_type": "중개거래", "dong": "역북동", "dong_no": "104동", "floor": 11, "jibun": "795", "price": 40000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-08-04", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 4, "jibun": "4-2", "price": 24900}
+{"apt": "라이프", "area": 58.1, "built": 1993, "date": "2024-08-06", "deal_type": "직거래", "dong": "마평동", "dong_no": "102", "floor": 6, "jibun": "605-1", "price": 13000}
+{"apt": "청광", "area": 74.97, "built": 1991, "date": "2024-08-06", "deal_type": "중개거래", "dong": "역북동", "dong_no": "(1동)", "floor": 2, "jibun": "271-1", "price": 15800}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2024-08-06", "deal_type": "중개거래", "dong": "역북동", "dong_no": "102동", "floor": 2, "jibun": "795", "price": 37600}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-08-08", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 13, "jibun": "4-2", "price": 25000}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2024-08-08", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 3, "jibun": "650-1", "price": 27300}
+{"apt": "김량장동어울림", "area": 58.81, "built": 2009, "date": "2024-08-10", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 9, "jibun": "526", "price": 32500}
+{"apt": "진흥", "area": 69.69, "built": 1995, "date": "2024-08-12", "deal_type": "중개거래", "dong": "김량장동", "floor": 5, "jibun": "350-15", "price": 9800}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-08-12", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 17, "jibun": "4-2", "price": 25000}
+{"apt": "현대아파트", "area": 84.36, "built": 1995, "date": "2024-08-15", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "106", "floor": 10, "jibun": "4-2", "price": 34500}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2024-08-16", "deal_type": "중개거래", "dong": "마평동", "dong_no": "103", "floor": 5, "jibun": "650-1", "price": 23250}
+{"apt": "동아", "area": 84.9, "built": 1993, "date": "2024-08-16", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 5, "jibun": "118-1", "price": 24200}
+{"apt": "라이프미성", "area": 84.97, "built": 1991, "date": "2024-08-19", "deal_type": "중개거래", "dong": "김량장동", "floor": 12, "jibun": "193", "price": 20000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-08-19", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1001", "floor": 5, "jibun": "1007-1", "price": 16500}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-08-19", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 15, "jibun": "1007-51", "price": 18800}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-08-20", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 13, "jibun": "1007-51", "price": 21000}
+{"apt": "유장아트맨션(2동)", "area": 69.63, "built": 1990, "date": "2024-08-23", "deal_type": "직거래", "dong": "역북동", "floor": 5, "jibun": "418-1", "price": 12500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-08-27", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 8, "jibun": "4-2", "price": 27200}
+{"apt": "라이프", "area": 58.1, "built": 1993, "date": "2024-08-27", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 15, "jibun": "605-1", "price": 16500}
+{"apt": "조양맨션(1동)", "area": 74.93, "built": 1988, "date": "2024-08-27", "deal_type": "직거래", "dong": "역북동", "floor": 4, "jibun": "412-9", "price": 19000}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-08-27", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 5, "jibun": "1007-51", "price": 17500}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-08-27", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 18, "jibun": "1007-51", "price": 21500}
+{"apt": "진흥", "area": 68.98, "built": 1993, "date": "2024-08-28", "deal_type": "중개거래", "dong": "고림동", "floor": 1, "jibun": "796-2", "price": 12500}
+{"apt": "현대아파트", "area": 84.36, "built": 1995, "date": "2024-08-28", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "106", "floor": 1, "jibun": "4-2", "price": 30000}
+{"apt": "조양맨션(2,3동)", "area": 75.28, "built": 1989, "date": "2024-08-28", "deal_type": "직거래", "dong": "역북동", "dong_no": "3", "floor": 5, "jibun": "412-2", "price": 18000}
+{"apt": "한우리1차", "area": 82.14, "built": 1991, "date": "2024-08-29", "deal_type": "중개거래", "dong": "역북동", "floor": 7, "jibun": "470-7", "price": 19500}
+{"apt": "현대아파트", "area": 84.36, "built": 1995, "date": "2024-08-30", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "106", "floor": 16, "jibun": "4-2", "price": 33000}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2024-08-30", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 2, "jibun": "650-1", "price": 18500}
+{"apt": "일봉아파트", "area": 68.88, "built": 1992, "date": "2024-08-31", "deal_type": "중개거래", "dong": "포곡읍 둔전리", "floor": 1, "jibun": "166-2", "price": 14100}
+{"apt": "삼보라이프상가", "area": 58.7, "built": 1996, "date": "2024-09-03", "deal_type": "중개거래", "dong": "김량장동", "floor": 4, "jibun": "321", "price": 14000}
+{"apt": "삼보라이프상가", "area": 58.7, "built": 1996, "date": "2024-09-03", "deal_type": "중개거래", "dong": "김량장동", "floor": 4, "jibun": "321", "price": 14000}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-09-03", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 18, "jibun": "1007-51", "price": 19500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-09-05", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 8, "jibun": "4-2", "price": 23900}
+{"apt": "현대아파트", "area": 84.36, "built": 1995, "date": "2024-09-05", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "106", "floor": 9, "jibun": "4-2", "price": 32000}
+{"apt": "라이프", "area": 84.99, "built": 1993, "date": "2024-09-05", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 3, "jibun": "605-1", "price": 20900}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-09-05", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1002", "floor": 9, "jibun": "1007-1", "price": 17400}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2024-09-06", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 14, "jibun": "650-1", "price": 19000}
+{"apt": "김량장동어울림", "area": 59.0, "built": 2009, "date": "2024-09-07", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 5, "jibun": "526", "price": 36000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-09-07", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1001", "floor": 10, "jibun": "1007-1", "price": 17000}
+{"apt": "김량장동어울림", "area": 59.0, "built": 2009, "date": "2024-09-10", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 14, "jibun": "526", "price": 37000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-09-14", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "104", "floor": 13, "jibun": "4-2", "price": 23500}
+{"apt": "성산그린", "area": 66.9, "built": 1996, "date": "2024-09-20", "deal_type": "중개거래", "dong": "백암면 근창리", "floor": 4, "jibun": "89-8", "price": 8500}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2024-09-21", "deal_type": "중개거래", "dong": "역북동", "dong_no": "101동", "floor": 10, "jibun": "795", "price": 47000}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2024-09-22", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 15, "jibun": "650-1", "price": 26500}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-09-22", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 18, "jibun": "1007-51", "price": 18400}
+{"apt": "서광맨션", "area": 60.93, "built": 1995, "date": "2024-09-23", "deal_type": "중개거래", "dong": "포곡읍 둔전리", "floor": 2, "jibun": "152-15", "price": 9500}
+{"apt": "양지", "area": 53.01, "built": 1987, "date": "2024-09-24", "deal_type": "직거래", "dong": "양지읍 양지리", "dong_no": "1", "floor": 2, "jibun": "594-3", "price": 9700}
+{"apt": "양지", "area": 62.46, "built": 1987, "date": "2024-09-25", "deal_type": "중개거래", "dong": "양지읍 양지리", "dong_no": "1", "floor": 5, "jibun": "594-3", "price": 10500}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2024-09-25", "deal_type": "중개거래", "dong": "역북동", "dong_no": "102동", "floor": 13, "jibun": "795", "price": 38900}
+{"apt": "역북신원아침도시", "area": 59.2, "built": 2019, "date": "2024-09-25", "deal_type": "중개거래", "dong": "역북동", "dong_no": "101동", "floor": 4, "jibun": "795", "price": 38500}
+{"apt": "인정프린스2", "area": 84.87, "built": 1995, "date": "2024-09-26", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2003", "floor": 16, "jibun": "1007-50", "price": 26000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-09-28", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 8, "jibun": "4-2", "price": 24500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-09-29", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 20, "jibun": "4-2", "price": 25400}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-09-30", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 17, "jibun": "4-2", "price": 24850}
+{"apt": "에버랜드", "area": 52.8, "built": 1990, "date": "2024-09-30", "deal_type": "중개거래", "dong": "역북동", "floor": 5, "jibun": "426", "price": 16000}
+{"apt": "우성", "area": 134.87, "built": 1996, "date": "2024-10-01", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 10, "jibun": "650-1", "price": 34500}
+{"apt": "수성", "area": 70.83, "built": 1996, "date": "2024-10-02", "deal_type": "중개거래", "dong": "포곡읍 전대리", "floor": 1, "jibun": "150-21", "price": 14700}
+{"apt": "동화", "area": 63.45, "built": 1997, "date": "2024-10-02", "deal_type": "직거래", "dong": "포곡읍 전대리", "floor": 4, "jibun": "150-3", "price": 11000}
+{"apt": "김량장동어울림", "area": 59.0, "built": 2009, "date": "2024-10-03", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 6, "jibun": "526", "price": 34000}
+{"apt": "김량장동어울림", "area": 106.86, "built": 2009, "date": "2024-10-04", "deal_type": "직거래", "dong": "김량장동", "dong_no": "107", "floor": 5, "jibun": "526", "price": 41000}
+{"apt": "우성", "area": 134.87, "built": 1996, "date": "2024-10-05", "deal_type": "중개거래", "dong": "마평동", "dong_no": "103", "floor": 6, "jibun": "650-1", "price": 33000}
+{"apt": "유장(335-2)", "area": 84.75, "built": 1990, "date": "2024-10-07", "deal_type": "직거래", "dong": "김량장동", "floor": 5, "jibun": "335-2", "price": 9000}
+{"apt": "강림", "area": 50.16, "built": 1990, "date": "2024-10-07", "deal_type": "중개거래", "dong": "백암면 근창리", "floor": 5, "jibun": "11-4", "price": 8000}
+{"apt": "김량장동어울림", "area": 58.81, "built": 2009, "date": "2024-10-09", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 11, "jibun": "526", "price": 33000}
+{"apt": "라이프", "area": 84.99, "built": 1993, "date": "2024-10-09", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 9, "jibun": "605-1", "price": 26500}
+{"apt": "목련", "area": 63.45, "built": 1990, "date": "2024-10-12", "deal_type": "중개거래", "dong": "마평동", "floor": 3, "jibun": "597-1", "price": 11800}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2024-10-12", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 3, "jibun": "650-1", "price": 19000}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2024-10-12", "deal_type": "중개거래", "dong": "역북동", "dong_no": "105동", "floor": 6, "jibun": "795", "price": 45000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-10-15", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "104", "floor": 10, "jibun": "4-2", "price": 26000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-10-15", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 16, "jibun": "4-2", "price": 24700}
+{"apt": "이화", "area": 31.09, "built": 1990, "date": "2024-10-17", "deal_type": "직거래", "dong": "이동읍 천리", "floor": 1, "jibun": "92-5", "price": 7500}
+{"apt": "성산그린", "area": 82.35, "built": 1996, "date": "2024-10-21", "deal_type": "직거래", "dong": "백암면 근창리", "floor": 4, "jibun": "89-8", "price": 7000}
+{"apt": "삼호아파트", "area": 84.63, "built": 1995, "date": "2024-10-22", "deal_type": "중개거래", "dong": "고림동", "floor": 4, "jibun": "488-10", "price": 12000}
+{"apt": "진흥5차", "area": 73.98, "built": 1995, "date": "2024-10-22", "deal_type": "직거래", "dong": "김량장동", "floor": 5, "jibun": "328-5", "price": 8000}
+{"apt": "라이프", "area": 84.99, "built": 1993, "date": "2024-10-22", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 7, "jibun": "605-1", "price": 23500}
+{"apt": "조양맨션(2,3동)", "area": 75.28, "built": 1989, "date": "2024-10-23", "deal_type": "중개거래", "dong": "역북동", "dong_no": "3", "floor": 1, "jibun": "412-2", "price": 17600}
+{"apt": "역북신원아침도시", "area": 59.2, "built": 2019, "date": "2024-10-24", "deal_type": "중개거래", "dong": "역북동", "dong_no": "104동", "floor": 5, "jibun": "795", "price": 39500}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2024-10-28", "deal_type": "중개거래", "dong": "역북동", "dong_no": "101동", "floor": 2, "jibun": "795", "price": 38000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-10-30", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "104", "floor": 9, "jibun": "4-2", "price": 25000}
+{"apt": "조양맨션(1동)", "area": 74.93, "built": 1988, "date": "2024-10-31", "deal_type": "중개거래", "dong": "역북동", "floor": 1, "jibun": "412-9", "price": 19000}
+{"apt": "라이프", "area": 58.1, "built": 1993, "date": "2024-11-02", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 3, "jibun": "605-1", "price": 16500}
+{"apt": "한우리1차", "area": 82.14, "built": 1991, "date": "2024-11-02", "deal_type": "중개거래", "dong": "역북동", "floor": 8, "jibun": "470-7", "price": 18900}
+{"apt": "라이프", "area": 58.1, "built": 1993, "date": "2024-11-04", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 8, "jibun": "605-1", "price": 20000}
+{"apt": "라이프", "area": 58.1, "built": 1993, "date": "2024-11-04", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 10, "jibun": "605-1", "price": 16500}
+{"apt": "김량장동어울림", "area": 106.86, "built": 2009, "date": "2024-11-06", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "107", "floor": 7, "jibun": "526", "price": 58000}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-11-07", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 5, "jibun": "1007-51", "price": 19500}
+{"apt": "라이프미성", "area": 84.97, "built": 1991, "date": "2024-11-09", "deal_type": "중개거래", "dong": "김량장동", "floor": 5, "jibun": "193", "price": 19500}
+{"apt": "삼아", "area": 45.74, "built": 1987, "date": "2024-11-09", "deal_type": "중개거래", "dong": "역북동", "dong_no": "가", "floor": 4, "jibun": "438-1", "price": 10500}
+{"apt": "동산7차", "area": 84.69, "built": 1990, "date": "2024-11-09", "deal_type": "중개거래", "dong": "역북동", "floor": 2, "jibun": "467-25", "price": 18500}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2024-11-09", "deal_type": "중개거래", "dong": "역북동", "dong_no": "102동", "floor": 18, "jibun": "795", "price": 39900}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-11-11", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1002", "floor": 12, "jibun": "1007-1", "price": 17500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-11-14", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 2, "jibun": "4-2", "price": 22900}
+{"apt": "현대아파트", "area": 84.36, "built": 1995, "date": "2024-11-19", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "107", "floor": 17, "jibun": "4-2", "price": 33200}
+{"apt": "현대아파트", "area": 84.36, "built": 1995, "date": "2024-11-21", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "106", "floor": 6, "jibun": "4-2", "price": 33400}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2024-11-23", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 19, "jibun": "1007-51", "price": 17800}
+{"apt": "용인", "area": 63.08, "built": 1979, "date": "2024-11-28", "deal_type": "직거래", "dong": "김량장동", "dong_no": "1", "floor": 1, "jibun": "342-5", "price": 14500}
+{"apt": "도시공간", "area": 60.57, "built": 1988, "date": "2024-11-28", "deal_type": "중개거래", "dong": "역북동", "floor": 2, "jibun": "423-4", "price": 14300}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2024-11-29", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 8, "jibun": "650-1", "price": 19000}
+{"apt": "라이프미성", "area": 84.97, "built": 1991, "date": "2024-11-30", "deal_type": "중개거래", "dong": "김량장동", "floor": 10, "jibun": "193", "price": 21000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-11-30", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 10, "jibun": "4-2", "price": 24000}
+{"apt": "동산7차", "area": 84.69, "built": 1990, "date": "2024-12-03", "deal_type": "중개거래", "dong": "역북동", "floor": 5, "jibun": "467-25", "price": 13000}
+{"apt": "상부목련아파트(8동)", "area": 68.0, "built": 1996, "date": "2024-12-04", "deal_type": "직거래", "dong": "포곡읍 둔전리", "dong_no": "8", "floor": 5, "jibun": "122-11", "price": 10000}
+{"apt": "유장파크맨션", "area": 84.73, "built": 1991, "date": "2024-12-05", "deal_type": "직거래", "dong": "김량장동", "floor": 1, "jibun": "290", "price": 14800}
+{"apt": "현대아파트", "area": 84.36, "built": 1995, "date": "2024-12-05", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "106", "floor": 11, "jibun": "4-2", "price": 34000}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2024-12-12", "deal_type": "중개거래", "dong": "역북동", "dong_no": "103동", "floor": 12, "jibun": "795", "price": 46200}
+{"apt": "에버랜드", "area": 52.8, "built": 1990, "date": "2024-12-13", "deal_type": "중개거래", "dong": "역북동", "floor": 1, "jibun": "426", "price": 16800}
+{"apt": "상부목련아파트(2동)", "area": 73.47, "built": 1995, "date": "2024-12-19", "deal_type": "직거래", "dong": "포곡읍 둔전리", "floor": 2, "jibun": "121-2", "price": 12800}
+{"apt": "동아", "area": 59.4, "built": 1993, "date": "2024-12-20", "deal_type": "직거래", "dong": "이동읍 천리", "floor": 13, "jibun": "118-1", "price": 16000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2024-12-21", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "104", "floor": 2, "jibun": "4-2", "price": 24900}
+{"apt": "대성1차", "area": 58.05, "built": 1990, "date": "2024-12-23", "deal_type": "직거래", "dong": "양지읍 양지리", "floor": 3, "jibun": "465-1", "price": 8000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2024-12-27", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1004", "floor": 9, "jibun": "1007-1", "price": 17500}
+{"apt": "광휘주택(가동)", "area": 68.88, "built": 1992, "date": "2024-12-30", "deal_type": "중개거래", "dong": "포곡읍 둔전리", "dong_no": "가", "floor": 4, "jibun": "171-7", "price": 13300}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2025-01-02", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 5, "jibun": "650-1", "price": 17600}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-01-06", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 6, "jibun": "1007-51", "price": 18300}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-01-08", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 13, "jibun": "4-2", "price": 28000}
+{"apt": "역북신원아침도시", "area": 59.2, "built": 2019, "date": "2025-01-08", "deal_type": "중개거래", "dong": "역북동", "dong_no": "104동", "floor": 8, "jibun": "795", "price": 39000}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-01-08", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 13, "jibun": "1007-51", "price": 18400}
+{"apt": "유장파크맨션", "area": 84.73, "built": 1991, "date": "2025-01-09", "deal_type": "중개거래", "dong": "김량장동", "floor": 5, "jibun": "290", "price": 14900}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-01-13", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 3, "jibun": "1007-51", "price": 18500}
+{"apt": "현대그린(102동)", "area": 84.98, "built": 1996, "date": "2025-01-13", "deal_type": "중개거래", "dong": "포곡읍 삼계리", "dong_no": "102", "floor": 2, "jibun": "115-4", "price": 11500}
+{"apt": "영구(101동)", "area": 70.11, "built": 1996, "date": "2025-01-14", "deal_type": "직거래", "dong": "원삼면 좌항리", "floor": 3, "jibun": "106-42", "price": 15910}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-01-14", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 18, "jibun": "1007-51", "price": 18600}
+{"apt": "라이프미성", "area": 84.97, "built": 1991, "date": "2025-01-15", "deal_type": "중개거래", "dong": "김량장동", "floor": 1, "jibun": "193", "price": 18500}
+{"apt": "유장파크맨션2동", "area": 118.57, "built": 1992, "date": "2025-01-15", "deal_type": "중개거래", "dong": "김량장동", "floor": 5, "jibun": "290-11", "price": 17900}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2025-01-15", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 6, "jibun": "650-1", "price": 18000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2025-01-15", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1002", "floor": 12, "jibun": "1007-1", "price": 19000}
+{"apt": "조양(338-0)", "area": 84.6, "built": 1992, "date": "2025-01-17", "deal_type": "중개거래", "dong": "김량장동", "floor": 9, "jibun": "338", "price": 13500}
+{"apt": "진흥아파트", "area": 72.09, "built": 1992, "date": "2025-01-18", "deal_type": "중개거래", "dong": "고림동", "floor": 3, "jibun": "794-15", "price": 11500}
+{"apt": "삼아", "area": 45.74, "built": 1987, "date": "2025-01-18", "deal_type": "중개거래", "dong": "역북동", "dong_no": "나", "floor": 1, "jibun": "438-1", "price": 11500}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2025-01-21", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 6, "jibun": "650-1", "price": 19400}
+{"apt": "동은", "area": 77.04, "built": 1994, "date": "2025-01-21", "deal_type": "중개거래", "dong": "백암면 근창리", "floor": 3, "jibun": "28-1", "price": 14500}
+{"apt": "양지", "area": 62.46, "built": 1987, "date": "2025-01-23", "deal_type": "직거래", "dong": "양지읍 양지리", "dong_no": "1", "floor": 2, "jibun": "594-3", "price": 10500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-01-24", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 17, "jibun": "4-2", "price": 24500}
+{"apt": "현대아파트", "area": 84.36, "built": 1995, "date": "2025-01-24", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "107", "floor": 16, "jibun": "4-2", "price": 34500}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-01-24", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 13, "jibun": "1007-51", "price": 18200}
+{"apt": "라이프", "area": 75.58, "built": 1993, "date": "2025-02-02", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 14, "jibun": "605-1", "price": 18800}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-02-08", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 16, "jibun": "4-2", "price": 24700}
+{"apt": "김량장동어울림", "area": 84.95, "built": 2009, "date": "2025-02-08", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "107", "floor": 9, "jibun": "526", "price": 42900}
+{"apt": "라이프", "area": 58.1, "built": 1993, "date": "2025-02-08", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 2, "jibun": "605-1", "price": 15300}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-02-08", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 16, "jibun": "1007-51", "price": 19100}
+{"apt": "조양맨션(2,3동)", "area": 75.28, "built": 1989, "date": "2025-02-10", "deal_type": "중개거래", "dong": "역북동", "dong_no": "3", "floor": 5, "jibun": "412-2", "price": 15000}
+{"apt": "대성1차", "area": 47.34, "built": 1990, "date": "2025-02-12", "deal_type": "중개거래", "dong": "양지읍 양지리", "floor": 2, "jibun": "465-1", "price": 8600}
+{"apt": "동은", "area": 59.76, "built": 1994, "date": "2025-02-14", "deal_type": "중개거래", "dong": "백암면 근창리", "floor": 5, "jibun": "28-1", "price": 8600}
+{"apt": "한우리2차", "area": 51.04, "built": 1993, "date": "2025-02-14", "deal_type": "중개거래", "dong": "역북동", "floor": 5, "jibun": "280-3", "price": 16500}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-02-15", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 15, "jibun": "1007-51", "price": 19500}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2025-02-16", "deal_type": "중개거래", "dong": "역북동", "dong_no": "101동", "floor": 7, "jibun": "795", "price": 39500}
+{"apt": "역북신원아침도시", "area": 59.2, "built": 2019, "date": "2025-02-16", "deal_type": "중개거래", "dong": "역북동", "dong_no": "101동", "floor": 10, "jibun": "795", "price": 41800}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-02-17", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 5, "jibun": "4-2", "price": 24800}
+{"apt": "에버랜드", "area": 52.8, "built": 1990, "date": "2025-02-19", "deal_type": "중개거래", "dong": "역북동", "floor": 2, "jibun": "426", "price": 17300}
+{"apt": "동남(A,B동)", "area": 50.73, "built": 1986, "date": "2025-02-20", "deal_type": "중개거래", "dong": "마평동", "dong_no": "B", "floor": 4, "jibun": "730-8", "price": 11000}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2025-02-22", "deal_type": "중개거래", "dong": "역북동", "dong_no": "104동", "floor": 22, "jibun": "795", "price": 39500}
+{"apt": "인정프린스2", "area": 59.4, "built": 1995, "date": "2025-02-23", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2003", "floor": 4, "jibun": "1007-50", "price": 16500}
+{"apt": "인정프린스2", "area": 84.87, "built": 1995, "date": "2025-02-23", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2003", "floor": 6, "jibun": "1007-50", "price": 24500}
+{"apt": "도시공간", "area": 60.57, "built": 1988, "date": "2025-02-25", "deal_type": "직거래", "dong": "역북동", "floor": 2, "jibun": "423-4", "price": 16000}
+{"apt": "라이프타워", "area": 84.96, "built": 1995, "date": "2025-03-02", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 8, "jibun": "56-4", "price": 18000}
+{"apt": "유장(335-2)", "area": 82.5, "built": 1990, "date": "2025-03-03", "deal_type": "중개거래", "dong": "김량장동", "floor": 5, "jibun": "335-2", "price": 9000}
+{"apt": "한우리1차", "area": 82.14, "built": 1991, "date": "2025-03-03", "deal_type": "중개거래", "dong": "역북동", "floor": 2, "jibun": "470-7", "price": 17600}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2025-03-05", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1004", "floor": 2, "jibun": "1007-1", "price": 17000}
+{"apt": "동아", "area": 78.3, "built": 1993, "date": "2025-03-05", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 5, "jibun": "118-1", "price": 17500}
+{"apt": "이화", "area": 31.09, "built": 1990, "date": "2025-03-06", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 3, "jibun": "92-5", "price": 8200}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-03-08", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 12, "jibun": "4-2", "price": 24500}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2025-03-08", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1004", "floor": 2, "jibun": "1007-1", "price": 17500}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-03-08", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 1, "jibun": "1007-51", "price": 17000}
+{"apt": "동아", "area": 59.4, "built": 1993, "date": "2025-03-08", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 12, "jibun": "118-1", "price": 13500}
+{"apt": "신양", "area": 75.05, "built": 1996, "date": "2025-03-10", "deal_type": "중개거래", "dong": "김량장동", "floor": 2, "jibun": "353-5", "price": 14700}
+{"apt": "김량장동어울림", "area": 84.95, "built": 2009, "date": "2025-03-10", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "107", "floor": 5, "jibun": "526", "price": 42000}
+{"apt": "김량장동어울림", "area": 59.0, "built": 2009, "date": "2025-03-11", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 15, "jibun": "526", "price": 33500}
+{"apt": "조양(338-0)", "area": 84.6, "built": 1992, "date": "2025-03-12", "deal_type": "중개거래", "dong": "김량장동", "floor": 11, "jibun": "338", "price": 15400}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2025-03-12", "deal_type": "중개거래", "dong": "역북동", "dong_no": "104동", "floor": 5, "jibun": "795", "price": 44500}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-03-13", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 14, "jibun": "1007-51", "price": 19200}
+{"apt": "현대그린(105동)", "area": 84.93, "built": 1996, "date": "2025-03-13", "deal_type": "중개거래", "dong": "포곡읍 삼계리", "dong_no": "105", "floor": 4, "jibun": "116", "price": 11500}
+{"apt": "김량장동어울림", "area": 84.95, "built": 2009, "date": "2025-03-14", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 17, "jibun": "526", "price": 42300}
+{"apt": "삼아", "area": 45.74, "built": 1987, "date": "2025-03-14", "deal_type": "중개거래", "dong": "역북동", "dong_no": "가", "floor": 5, "jibun": "438-1", "price": 10800}
+{"apt": "라이프", "area": 58.1, "built": 1993, "date": "2025-03-15", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 17, "jibun": "605-1", "price": 17000}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2025-03-15", "deal_type": "중개거래", "dong": "역북동", "dong_no": "104동", "floor": 9, "jibun": "795", "price": 46000}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2025-03-19", "deal_type": "중개거래", "dong": "역북동", "dong_no": "105동", "floor": 1, "jibun": "795", "price": 44400}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-03-19", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 8, "jibun": "1007-51", "price": 19900}
+{"apt": "진흥아파트", "area": 86.27, "built": 1992, "date": "2025-03-20", "deal_type": "직거래", "dong": "고림동", "floor": 1, "jibun": "794-15", "price": 15000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-03-20", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 14, "jibun": "4-2", "price": 24200}
+{"apt": "김량장동어울림", "area": 84.95, "built": 2009, "date": "2025-03-22", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 7, "jibun": "526", "price": 41000}
+{"apt": "이화", "area": 31.09, "built": 1990, "date": "2025-03-22", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 1, "jibun": "92-5", "price": 7500}
+{"apt": "라이프타워", "area": 59.82, "built": 1995, "date": "2025-03-24", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 15, "jibun": "56-4", "price": 15200}
+{"apt": "신양", "area": 75.05, "built": 1996, "date": "2025-03-26", "deal_type": "중개거래", "dong": "김량장동", "floor": 1, "jibun": "353-5", "price": 15300}
+{"apt": "양지", "area": 42.66, "built": 1987, "date": "2025-03-26", "deal_type": "중개거래", "dong": "양지읍 양지리", "dong_no": "1", "floor": 1, "jibun": "594-3", "price": 8000}
+{"apt": "김량장동어울림", "area": 58.31, "built": 2009, "date": "2025-03-28", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 8, "jibun": "526", "price": 33000}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2025-03-28", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 16, "jibun": "650-1", "price": 26500}
+{"apt": "한우리2차", "area": 59.86, "built": 1993, "date": "2025-03-28", "deal_type": "중개거래", "dong": "역북동", "floor": 11, "jibun": "280-3", "price": 14900}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2025-03-29", "deal_type": "중개거래", "dong": "역북동", "dong_no": "102동", "floor": 6, "jibun": "795", "price": 47800}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-03-30", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 13, "jibun": "4-2", "price": 24800}
+{"apt": "청광", "area": 69.84, "built": 1991, "date": "2025-04-01", "deal_type": "중개거래", "dong": "역북동", "dong_no": "(2동)", "floor": 1, "jibun": "271-1", "price": 10000}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-04-01", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 4, "jibun": "1007-51", "price": 19000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-04-03", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "104", "floor": 20, "jibun": "4-2", "price": 23500}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-04-03", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 14, "jibun": "1007-51", "price": 18800}
+{"apt": "역북신원아침도시", "area": 59.2, "built": 2019, "date": "2025-04-10", "deal_type": "중개거래", "dong": "역북동", "dong_no": "103동", "floor": 4, "jibun": "795", "price": 40800}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-04-11", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 4, "jibun": "4-2", "price": 23800}
+{"apt": "삼아", "area": 45.74, "built": 1987, "date": "2025-04-11", "deal_type": "중개거래", "dong": "역북동", "dong_no": "가", "floor": 1, "jibun": "438-1", "price": 11700}
+{"apt": "유장파크맨션2동", "area": 70.68, "built": 1992, "date": "2025-04-12", "deal_type": "중개거래", "dong": "김량장동", "floor": 3, "jibun": "290-11", "price": 13700}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2025-04-12", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1002", "floor": 5, "jibun": "1007-1", "price": 17500}
+{"apt": "유장(335-2)", "area": 84.39, "built": 1990, "date": "2025-04-14", "deal_type": "중개거래", "dong": "김량장동", "floor": 2, "jibun": "335-2", "price": 14000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-04-14", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 16, "jibun": "4-2", "price": 25500}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2025-04-16", "deal_type": "중개거래", "dong": "마평동", "dong_no": "103", "floor": 11, "jibun": "650-1", "price": 25000}
+{"apt": "역북신원아침도시", "area": 59.2, "built": 2019, "date": "2025-04-16", "deal_type": "중개거래", "dong": "역북동", "dong_no": "103동", "floor": 13, "jibun": "795", "price": 41000}
+{"apt": "라이프미성", "area": 84.97, "built": 1991, "date": "2025-04-17", "deal_type": "중개거래", "dong": "김량장동", "floor": 6, "jibun": "193", "price": 18700}
+{"apt": "조양(338-0)", "area": 67.5, "built": 1992, "date": "2025-04-18", "deal_type": "중개거래", "dong": "김량장동", "floor": 13, "jibun": "338", "price": 15500}
+{"apt": "김량장동어울림", "area": 58.81, "built": 2009, "date": "2025-04-19", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 16, "jibun": "526", "price": 34000}
+{"apt": "김량장동어울림", "area": 84.95, "built": 2009, "date": "2025-04-21", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "106", "floor": 11, "jibun": "526", "price": 42000}
+{"apt": "청광", "area": 74.97, "built": 1991, "date": "2025-04-21", "deal_type": "중개거래", "dong": "역북동", "dong_no": "(1동)", "floor": 1, "jibun": "271-1", "price": 16800}
+{"apt": "이화", "area": 31.09, "built": 1990, "date": "2025-04-21", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 3, "jibun": "92-5", "price": 8500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-04-22", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 14, "jibun": "4-2", "price": 23800}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2025-04-22", "deal_type": "중개거래", "dong": "마평동", "dong_no": "103", "floor": 10, "jibun": "650-1", "price": 28500}
+{"apt": "삼아", "area": 45.74, "built": 1987, "date": "2025-04-23", "deal_type": "중개거래", "dong": "역북동", "dong_no": "가", "floor": 4, "jibun": "438-1", "price": 12000}
+{"apt": "현대아파트", "area": 84.36, "built": 1995, "date": "2025-04-24", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "107", "floor": 14, "jibun": "4-2", "price": 33500}
+{"apt": "대명(2동)", "area": 81.19, "built": 1996, "date": "2025-04-25", "deal_type": "중개거래", "dong": "포곡읍 삼계리", "floor": 1, "jibun": "369-5", "price": 10900}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2025-04-30", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 12, "jibun": "650-1", "price": 19000}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-05-02", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 10, "jibun": "1007-51", "price": 17900}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-05-02", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 16, "jibun": "1007-51", "price": 21000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2025-05-03", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1004", "floor": 7, "jibun": "1007-1", "price": 18500}
+{"apt": "인정프린스2", "area": 84.87, "built": 1995, "date": "2025-05-03", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2003", "floor": 2, "jibun": "1007-50", "price": 25600}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-05-08", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 16, "jibun": "1007-51", "price": 20800}
+{"apt": "동산6차", "area": 75.6, "built": 1990, "date": "2025-05-14", "deal_type": "중개거래", "dong": "역북동", "floor": 1, "jibun": "467-4", "price": 15000}
+{"apt": "삼보라이프상가", "area": 58.7, "built": 1996, "date": "2025-05-15", "deal_type": "중개거래", "dong": "김량장동", "floor": 5, "jibun": "321", "price": 14100}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2025-05-16", "deal_type": "중개거래", "dong": "역북동", "dong_no": "104동", "floor": 10, "jibun": "795", "price": 40750}
+{"apt": "조양아파트(6차)", "area": 59.79, "built": 1995, "date": "2025-05-17", "deal_type": "중개거래", "dong": "포곡읍 전대리", "dong_no": "1", "floor": 3, "jibun": "368", "price": 14000}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2025-05-19", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 1, "jibun": "650-1", "price": 26000}
+{"apt": "유장", "area": 50.45, "built": 1991, "date": "2025-05-20", "deal_type": "중개거래", "dong": "김량장동", "floor": 5, "jibun": "335-10", "price": 6500}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2025-05-20", "deal_type": "중개거래", "dong": "역북동", "dong_no": "102동", "floor": 22, "jibun": "795", "price": 40700}
+{"apt": "인정프린스2", "area": 59.4, "built": 1995, "date": "2025-05-20", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2002", "floor": 5, "jibun": "1007-50", "price": 18500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-05-23", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 20, "jibun": "4-2", "price": 24500}
+{"apt": "동남(A,B동)", "area": 50.73, "built": 1986, "date": "2025-05-23", "deal_type": "중개거래", "dong": "마평동", "dong_no": "B", "floor": 1, "jibun": "730-8", "price": 12700}
+{"apt": "한우리1차", "area": 82.14, "built": 1991, "date": "2025-05-23", "deal_type": "중개거래", "dong": "역북동", "floor": 7, "jibun": "470-7", "price": 18700}
+{"apt": "유장(434-42)", "area": 84.9, "built": 1995, "date": "2025-05-24", "deal_type": "직거래", "dong": "역북동", "floor": 2, "jibun": "434-42", "price": 15500}
+{"apt": "삼아", "area": 45.74, "built": 1987, "date": "2025-05-24", "deal_type": "중개거래", "dong": "역북동", "dong_no": "나", "floor": 4, "jibun": "438-1", "price": 12000}
+{"apt": "한우리2차", "area": 59.86, "built": 1993, "date": "2025-05-25", "deal_type": "중개거래", "dong": "역북동", "floor": 3, "jibun": "280-3", "price": 17000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-05-27", "deal_type": "직거래", "dong": "김량장동", "dong_no": "101", "floor": 21, "jibun": "4-2", "price": 24000}
+{"apt": "양지", "area": 44.82, "built": 1987, "date": "2025-05-30", "deal_type": "중개거래", "dong": "양지읍 양지리", "dong_no": "1", "floor": 5, "jibun": "594-3", "price": 7000}
+{"apt": "조양아파트(6차)", "area": 59.79, "built": 1995, "date": "2025-05-31", "deal_type": "중개거래", "dong": "포곡읍 전대리", "dong_no": "1", "floor": 11, "jibun": "368", "price": 15600}
+{"apt": "유장(434-42)", "area": 84.9, "built": 1995, "date": "2025-06-04", "deal_type": "직거래", "dong": "역북동", "floor": 5, "jibun": "434-42", "price": 13000}
+{"apt": "한우리1차", "area": 65.5, "built": 1991, "date": "2025-06-06", "deal_type": "중개거래", "dong": "역북동", "floor": 2, "jibun": "470-7", "price": 15000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2025-06-06", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1004", "floor": 14, "jibun": "1007-1", "price": 18300}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-06-06", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 8, "jibun": "1007-51", "price": 19500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-06-09", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 16, "jibun": "4-2", "price": 24000}
+{"apt": "목련", "area": 56.97, "built": 1990, "date": "2025-06-09", "deal_type": "중개거래", "dong": "마평동", "floor": 2, "jibun": "597-1", "price": 9000}
+{"apt": "우성", "area": 134.87, "built": 1996, "date": "2025-06-10", "deal_type": "중개거래", "dong": "마평동", "dong_no": "103", "floor": 10, "jibun": "650-1", "price": 32500}
+{"apt": "삼보라이프상가", "area": 44.49, "built": 1996, "date": "2025-06-11", "deal_type": "중개거래", "dong": "김량장동", "floor": 10, "jibun": "321", "price": 11300}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2025-06-11", "deal_type": "중개거래", "dong": "마평동", "dong_no": "103", "floor": 10, "jibun": "650-1", "price": 25300}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2025-06-12", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 5, "jibun": "650-1", "price": 19000}
+{"apt": "김량장동어울림", "area": 58.81, "built": 2009, "date": "2025-06-14", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 16, "jibun": "526", "price": 34200}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2025-06-16", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 12, "jibun": "650-1", "price": 20000}
+{"apt": "현대그린(102동)", "area": 84.98, "built": 1996, "date": "2025-06-16", "deal_type": "중개거래", "dong": "포곡읍 삼계리", "dong_no": "102", "floor": 1, "jibun": "115-4", "price": 9000}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2025-06-18", "deal_type": "중개거래", "dong": "마평동", "dong_no": "103", "floor": 10, "jibun": "650-1", "price": 27700}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2025-06-19", "deal_type": "직거래", "dong": "유방동", "dong_no": "1001", "floor": 4, "jibun": "1007-1", "price": 17500}
+{"apt": "라이프", "area": 84.99, "built": 1993, "date": "2025-06-22", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 8, "jibun": "605-1", "price": 24500}
+{"apt": "한우리1차", "area": 82.14, "built": 1991, "date": "2025-06-22", "deal_type": "중개거래", "dong": "역북동", "floor": 10, "jibun": "470-7", "price": 19700}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-06-23", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 21, "jibun": "4-2", "price": 23800}
+{"apt": "인정프린스2", "area": 84.87, "built": 1995, "date": "2025-06-23", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2003", "floor": 12, "jibun": "1007-50", "price": 24000}
+{"apt": "조양맨션(2,3동)", "area": 75.28, "built": 1989, "date": "2025-06-24", "deal_type": "중개거래", "dong": "역북동", "dong_no": "3", "floor": 2, "jibun": "412-2", "price": 18000}
+{"apt": "인정프린스1", "area": 49.36, "built": 1994, "date": "2025-06-24", "deal_type": "직거래", "dong": "유방동", "dong_no": "1003", "floor": 12, "jibun": "1007-1", "price": 15200}
+{"apt": "김량장동어울림", "area": 59.0, "built": 2009, "date": "2025-06-27", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 16, "jibun": "526", "price": 36000}
+{"apt": "라이프", "area": 84.99, "built": 1993, "date": "2025-06-30", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 5, "jibun": "605-1", "price": 28500}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2025-06-30", "deal_type": "중개거래", "dong": "역북동", "dong_no": "102동", "floor": 10, "jibun": "795", "price": 48800}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-07-01", "deal_type": "직거래", "dong": "김량장동", "dong_no": "105", "floor": 21, "jibun": "4-2", "price": 28000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2025-07-01", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1002", "floor": 10, "jibun": "1007-1", "price": 19800}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2025-07-02", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 16, "jibun": "650-1", "price": 19000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-07-03", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 15, "jibun": "4-2", "price": 24700}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-07-05", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "104", "floor": 2, "jibun": "4-2", "price": 23500}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2025-07-08", "deal_type": "중개거래", "dong": "역북동", "dong_no": "104동", "floor": 21, "jibun": "795", "price": 40800}
+{"apt": "라이프", "area": 58.1, "built": 1993, "date": "2025-07-14", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 4, "jibun": "605-1", "price": 15500}
+{"apt": "동남(C동)", "area": 53.52, "built": 1986, "date": "2025-07-14", "deal_type": "직거래", "dong": "마평동", "dong_no": "C", "floor": 4, "jibun": "730", "price": 8000}
+{"apt": "대성2차", "area": 84.78, "built": 1991, "date": "2025-07-14", "deal_type": "중개거래", "dong": "양지읍 양지리", "floor": 4, "jibun": "462-2", "price": 11700}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-07-15", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 2, "jibun": "4-2", "price": 24000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2025-07-17", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1001", "floor": 5, "jibun": "1007-1", "price": 18250}
+{"apt": "현대아파트", "area": 84.36, "built": 1995, "date": "2025-07-18", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "107", "floor": 10, "jibun": "4-2", "price": 31900}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2025-07-18", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 18, "jibun": "650-1", "price": 18500}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-07-21", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 11, "jibun": "4-2", "price": 25300}
+{"apt": "라이프미성", "area": 84.97, "built": 1991, "date": "2025-07-25", "deal_type": "중개거래", "dong": "김량장동", "floor": 9, "jibun": "193", "price": 19000}
+{"apt": "라이프", "area": 58.1, "built": 1993, "date": "2025-07-25", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 18, "jibun": "605-1", "price": 18500}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2025-07-25", "deal_type": "중개거래", "dong": "마평동", "dong_no": "103", "floor": 5, "jibun": "650-1", "price": 29200}
+{"apt": "동남(A,B동)", "area": 50.73, "built": 1986, "date": "2025-07-28", "deal_type": "직거래", "dong": "마평동", "dong_no": "B", "floor": 5, "jibun": "730-8", "price": 10000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-07-30", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "104", "floor": 3, "jibun": "4-2", "price": 24700}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2025-07-30", "deal_type": "중개거래", "dong": "역북동", "dong_no": "101동", "floor": 12, "jibun": "795", "price": 41000}
+{"apt": "그랜드맨션(2동)", "area": 78.49, "built": 1997, "date": "2025-07-31", "deal_type": "중개거래", "dong": "고림동", "dong_no": "2", "floor": 4, "jibun": "820-141", "price": 12900}
+{"apt": "김량장동어울림", "area": 84.95, "built": 2009, "date": "2025-08-01", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 15, "jibun": "526", "price": 43000}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2025-08-04", "deal_type": "중개거래", "dong": "역북동", "dong_no": "103동", "floor": 11, "jibun": "795", "price": 41000}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2025-08-04", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1001", "floor": 12, "jibun": "1007-1", "price": 18500}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2025-08-06", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 2, "jibun": "650-1", "price": 20700}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-08-08", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 6, "jibun": "4-2", "price": 24000}
+{"apt": "대연", "area": 52.29, "built": 1987, "date": "2025-08-09", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "B", "floor": 4, "jibun": "291", "price": 9800}
+{"apt": "김량장동어울림", "area": 84.95, "built": 2009, "date": "2025-08-12", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "107", "floor": 2, "jibun": "526", "price": 39000}
+{"apt": "재원(105동)", "area": 82.08, "built": 1996, "date": "2025-08-12", "deal_type": "중개거래", "dong": "포곡읍 삼계리", "dong_no": "105", "floor": 3, "jibun": "275-21", "price": 11900}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-08-14", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 1, "jibun": "4-2", "price": 24000}
+{"apt": "김량장동어울림", "area": 58.81, "built": 2009, "date": "2025-08-18", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 18, "jibun": "526", "price": 35000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-08-21", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 10, "jibun": "4-2", "price": 25800}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-08-22", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 5, "jibun": "4-2", "price": 27950}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-08-24", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 10, "jibun": "4-2", "price": 27900}
+{"apt": "동아", "area": 84.9, "built": 1993, "date": "2025-08-25", "deal_type": "직거래", "dong": "이동읍 천리", "floor": 16, "jibun": "118-1", "price": 16800}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2025-08-26", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 4, "jibun": "650-1", "price": 19300}
+{"apt": "유장(335-2)", "area": 84.75, "built": 1990, "date": "2025-08-29", "deal_type": "직거래", "dong": "김량장동", "floor": 5, "jibun": "335-2", "price": 10100}
+{"apt": "김량장동어울림", "area": 58.31, "built": 2009, "date": "2025-08-30", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "103", "floor": 8, "jibun": "526", "price": 36500}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-08-30", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 14, "jibun": "1007-51", "price": 20800}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-09-02", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 12, "jibun": "4-2", "price": 24800}
+{"apt": "조양아파트(6차)", "area": 59.79, "built": 1995, "date": "2025-09-02", "deal_type": "직거래", "dong": "포곡읍 전대리", "dong_no": "1", "floor": 7, "jibun": "368", "price": 15000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-09-03", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 5, "jibun": "4-2", "price": 24800}
+{"apt": "삼보라이프상가", "area": 51.28, "built": 1996, "date": "2025-09-04", "deal_type": "중개거래", "dong": "김량장동", "floor": 3, "jibun": "321", "price": 10300}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-09-04", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 13, "jibun": "4-2", "price": 28500}
+{"apt": "인정프린스1", "area": 59.93, "built": 1994, "date": "2025-09-04", "deal_type": "직거래", "dong": "유방동", "dong_no": "1001", "floor": 6, "jibun": "1007-1", "price": 16500}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2025-09-05", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 1, "jibun": "650-1", "price": 19000}
+{"apt": "성산그린", "area": 98.49, "built": 1996, "date": "2025-09-08", "deal_type": "중개거래", "dong": "백암면 근창리", "floor": 5, "jibun": "89-8", "price": 9600}
+{"apt": "현대아파트", "area": 84.36, "built": 1995, "date": "2025-09-09", "deal_type": "직거래", "dong": "김량장동", "dong_no": "107", "floor": 4, "jibun": "4-2", "price": 28000}
+{"apt": "김량장동어울림", "area": 59.0, "built": 2009, "date": "2025-09-10", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "101", "floor": 4, "jibun": "526", "price": 33300}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-09-11", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "105", "floor": 14, "jibun": "4-2", "price": 25000}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-09-11", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "104", "floor": 18, "jibun": "4-2", "price": 25300}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-09-15", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3002", "floor": 7, "jibun": "1007-51", "price": 21500}
+{"apt": "인정프린스3", "area": 60.0, "built": 1996, "date": "2025-09-16", "deal_type": "중개거래", "dong": "유방동", "dong_no": "3001", "floor": 17, "jibun": "1007-51", "price": 20700}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2025-09-18", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 4, "jibun": "650-1", "price": 24000}
+{"apt": "삼아", "area": 45.74, "built": 1987, "date": "2025-09-18", "deal_type": "중개거래", "dong": "역북동", "dong_no": "나", "floor": 1, "jibun": "438-1", "price": 11000}
+{"apt": "한우리2차", "area": 59.86, "built": 1993, "date": "2025-09-22", "deal_type": "중개거래", "dong": "역북동", "floor": 2, "jibun": "280-3", "price": 16500}
+{"apt": "동아", "area": 59.4, "built": 1993, "date": "2025-09-24", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 6, "jibun": "118-1", "price": 16000}
+{"apt": "성림아파트", "area": 64.44, "built": 1990, "date": "2025-09-29", "deal_type": "중개거래", "dong": "고림동", "dong_no": "2", "floor": 4, "jibun": "748-6", "price": 12750}
+{"apt": "우성", "area": 134.87, "built": 1996, "date": "2025-09-30", "deal_type": "중개거래", "dong": "마평동", "dong_no": "102", "floor": 8, "jibun": "650-1", "price": 33500}
+{"apt": "역북신원아침도시", "area": 59.2, "built": 2019, "date": "2025-09-30", "deal_type": "중개거래", "dong": "역북동", "dong_no": "104동", "floor": 23, "jibun": "795", "price": 41900}
+{"apt": "우림", "area": 50.22, "built": 1995, "date": "2025-10-01", "deal_type": "중개거래", "dong": "유방동", "floor": 1, "jibun": "289-4", "price": 11100}
+{"apt": "인정프린스2", "area": 84.87, "built": 1995, "date": "2025-10-03", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2002", "floor": 11, "jibun": "1007-50", "price": 27500}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2025-10-08", "deal_type": "중개거래", "dong": "마평동", "dong_no": "103", "floor": 2, "jibun": "650-1", "price": 25500}
+{"apt": "인정프린스2", "area": 59.4, "built": 1995, "date": "2025-10-09", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2001", "floor": 6, "jibun": "1007-50", "price": 18300}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-10-10", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "102", "floor": 16, "jibun": "4-2", "price": 27200}
+{"apt": "대성1차", "area": 62.19, "built": 1990, "date": "2025-10-13", "deal_type": "중개거래", "dong": "양지읍 양지리", "floor": 4, "jibun": "465-1", "price": 8100}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2025-10-13", "deal_type": "중개거래", "dong": "역북동", "dong_no": "104동", "floor": 17, "jibun": "795", "price": 42800}
+{"apt": "인정프린스2", "area": 59.4, "built": 1995, "date": "2025-10-14", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2001", "floor": 19, "jibun": "1007-50", "price": 19000}
+{"apt": "우성", "area": 84.86, "built": 1996, "date": "2025-10-16", "deal_type": "직거래", "dong": "마평동", "dong_no": "102", "floor": 16, "jibun": "650-1", "price": 27900}
+{"apt": "역북신원아침도시", "area": 74.02, "built": 2019, "date": "2025-10-16", "deal_type": "중개거래", "dong": "역북동", "dong_no": "102동", "floor": 14, "jibun": "795", "price": 51000}
+{"apt": "우성", "area": 59.52, "built": 1996, "date": "2025-10-18", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 10, "jibun": "650-1", "price": 20200}
+{"apt": "인정프린스2", "area": 59.4, "built": 1995, "date": "2025-10-18", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2002", "floor": 17, "jibun": "1007-50", "price": 19200}
+{"apt": "동아", "area": 59.4, "built": 1993, "date": "2025-10-18", "deal_type": "중개거래", "dong": "이동읍 천리", "floor": 3, "jibun": "118-1", "price": 14000}
+{"apt": "역북신원아침도시", "area": 59.03, "built": 2019, "date": "2025-10-20", "deal_type": "중개거래", "dong": "역북동", "dong_no": "101동", "floor": 20, "jibun": "795", "price": 43000}
+{"apt": "인정프린스2", "area": 84.87, "built": 1995, "date": "2025-10-21", "deal_type": "중개거래", "dong": "유방동", "dong_no": "2003", "floor": 9, "jibun": "1007-50", "price": 26200}
+{"apt": "양지", "area": 42.66, "built": 1987, "date": "2025-10-22", "deal_type": "중개거래", "dong": "양지읍 양지리", "dong_no": "1", "floor": 4, "jibun": "594-3", "price": 8200}
+{"apt": "현대아파트", "area": 59.98, "built": 1995, "date": "2025-10-24", "deal_type": "중개거래", "dong": "김량장동", "dong_no": "104", "floor": 12, "jibun": "4-2", "price": 27000}
+{"apt": "강림", "area": 77.88, "built": 1990, "date": "2025-10-24", "deal_type": "직거래", "dong": "백암면 근창리", "floor": 1, "jibun": "11-4", "price": 13500}
+{"apt": "라이프", "area": 84.99, "built": 1993, "date": "2025-10-25", "deal_type": "중개거래", "dong": "마평동", "dong_no": "101", "floor": 6, "jibun": "605-1", "price": 24900}
+{"apt": "인정프린스1", "area": 49.36, "built": 1994, "date": "2025-10-25", "deal_type": "중개거래", "dong": "유방동", "dong_no": "1003", "floor": 15, "jibun": "1007-1", "price": 17500}
+{"apt": "그랜드맨션(2동)", "area": 84.86, "built": 1997, "date": "2025-10-28", "deal_type": "중개거래", "dong": "고림동", "dong_no": "2", "floor": 1, "jibun": "820-141", "price": 12500}
+{"apt": "대성2차", "area": 84.78, "built": 1991, "date": "2025-10-28", "deal_type": "중개거래", "dong": "양지읍 양지리", "floor": 4, "jibun": "462-2", "price": 9500}
+{"apt": "라이프미성", "area": 84.97, "built": 1991, "date": "2025-10-30", "deal_type": "중개거래", "dong": "김량장동", "floor": 6, "jibun": "193", "price": 18000}

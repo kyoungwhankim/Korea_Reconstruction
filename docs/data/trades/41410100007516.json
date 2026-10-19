@@ -1,0 +1,13 @@
+{"id":"41410100007516",
+"name":"은성(746-22)",
+"basis":"단지",
+"by_area":[{"area":48,"pyeong":14.5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":49,"pyeong":14.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":60},{"area":53,"pyeong":16.0,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":60}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-04-19",55.63,2,21500,null,"중개거래",1986],
+["2025-03-18",55.63,4,17800,null,"중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-17",47.53,5,1000,50,"신규","26.04~28.04",null],
+["2026-05-12",52.74,2,2000,60,"신규","26.05~28.05",null],
+["2026-08-10",48.6,4,2000,60,"신규","26.09~28.09",null]
+]}}

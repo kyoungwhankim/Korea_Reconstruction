@@ -1,0 +1,9 @@
+{"id":"11140100000118",
+"name":"대림상가아파트",
+"basis":null,
+"by_area":[{"area":83,"pyeong":25.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":125}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-05",83.31,5,2000,125,"신규","26.03~31.03",null]
+]}}

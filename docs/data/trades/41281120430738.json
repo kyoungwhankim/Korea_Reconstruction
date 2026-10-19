@@ -1,0 +1,11 @@
+{"id":"41281120430738",
+"name":"미미아파트(라동)",
+"basis":"단지",
+"by_area":[{"area":56,"pyeong":16.9,"jeonse_n":1,"wolse_n":1,"jeonse_median":19000,"jeonse_min":19000,"jeonse_max":19000,"jeonse_latest":19000,"jeonse_latest_date":"2026-08-01","wolse_deposit_median":8000,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-01-08",56.08,5,28000,"라","중개거래",1992]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-22",56.08,3,8000,50,"신규","26.03~27.03",null],
+["2026-08-01",56.08,2,19000,0,"신규","26.10~28.10",null]
+]}}

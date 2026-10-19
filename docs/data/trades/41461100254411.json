@@ -1,0 +1,14 @@
+{"id":"41461100254411",
+"name":"조양(338-0)",
+"basis":"단지",
+"by_area":[{"area":85,"pyeong":25.7,"n":1,"median":18000,"min":18000,"max":18000,"latest_price":18000,"latest_date":"2026-05-10","latest_floor":8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2500,"wolse_monthly_median":90}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-12-09",84.6,4,17500,null,"중개거래",1992],
+["2025-01-17",84.6,9,13500,null,"중개거래",1992],
+["2025-03-12",84.6,11,15400,null,"중개거래",1992],
+["2025-04-18",67.5,13,15500,null,"중개거래",1992],
+["2026-05-10",84.6,8,18000,null,"중개거래",1992]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-08",84.6,5,2500,90,"신규","26.01~28.01",null]
+]}}

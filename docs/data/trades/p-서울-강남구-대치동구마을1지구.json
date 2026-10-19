@@ -1,0 +1,11 @@
+{"id":"서울-강남구-대치동구마을1지구",
+"name":"대치동구마을1지구",
+"basis":"기존 단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]},
+"silv":{"cols":["date","area","floor","price","kind","type"],"rows":[
+["2024-09-06",59.98,14,232000,"분양권","중개거래"]
+]}}

@@ -1,0 +1,17 @@
+{"id":"41410100007600",
+"name":"화남(6차)",
+"basis":"단지",
+"by_area":[{"area":53,"pyeong":16.0,"n":2,"median":30310,"min":30120,"max":30500,"latest_price":30500,"latest_date":"2026-04-08","latest_floor":2,"jeonse_n":2,"wolse_n":0,"jeonse_median":15875,"jeonse_min":15750,"jeonse_max":16000,"jeonse_latest":15750,"jeonse_latest_date":"2026-01-17","jeonse_ratio":52.4},{"area":57,"pyeong":17.2,"n":1,"median":32000,"min":32000,"max":32000,"latest_price":32000,"latest_date":"2026-05-30","latest_floor":2,"jeonse_n":1,"wolse_n":0,"jeonse_median":14000,"jeonse_min":14000,"jeonse_max":14000,"jeonse_latest":14000,"jeonse_latest_date":"2026-03-07","jeonse_ratio":43.8},{"area":73,"pyeong":22.1,"jeonse_n":1,"wolse_n":1,"jeonse_median":22000,"jeonse_min":22000,"jeonse_max":22000,"jeonse_latest":22000,"jeonse_latest_date":"2026-09-19","wolse_deposit_median":2000,"wolse_monthly_median":80}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-07-21",57.0,5,24000,null,"중개거래",1985],
+["2025-12-05",53.31,1,30120,null,"중개거래",1985],
+["2026-04-08",53.31,2,30500,null,"중개거래",1985],
+["2026-05-30",57.0,2,32000,null,"중개거래",1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-10",53.31,1,16000,0,"신규","26.01~28.01",null],
+["2025-12-28",72.75,3,2000,80,"신규","26.02~28.02",null],
+["2026-01-17",53.31,2,15750,0,"갱신","26.01~28.01",null],
+["2026-03-07",57.0,5,14000,0,"신규","26.04~28.04",null],
+["2026-09-19",72.75,3,22000,0,"신규","26.12~28.12",null]
+]}}

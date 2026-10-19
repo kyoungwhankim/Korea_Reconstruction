@@ -1,0 +1,9 @@
+{"id":"41173112153289",
+"name":"부흥관악아파트",
+"basis":null,
+"by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":272,"wolse_monthly_median":5}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-20",26.37,3,272,5,"신규","25.11~27.12",null]
+]}}

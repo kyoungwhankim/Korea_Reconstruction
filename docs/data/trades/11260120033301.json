@@ -1,0 +1,10 @@
+{"id":"11260120033301",
+"name":"신내아파트(12단지)",
+"basis":null,
+"by_area":[{"area":27,"pyeong":8.2,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":2808,"wolse_monthly_median":6}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-31",27.38,6,5406,9,"갱신","26.01~27.12",null],
+["2026-01-14",27.38,1,210,4,"신규","26.01~28.03",null]
+]}}

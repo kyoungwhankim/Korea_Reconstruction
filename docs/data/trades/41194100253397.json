@@ -1,0 +1,11 @@
+{"id":"41194100253397",
+"name":"현대부러운아파트",
+"basis":"단지",
+"by_area":[{"area":53,"pyeong":16.0,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":300,"wolse_monthly_median":60}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-02-24",53.46,4,16000,null,"중개거래",1984],
+["2025-07-29",53.46,1,16000,null,"직거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-19",53.46,1,300,60,"신규","26.02~27.02",null]
+]}}

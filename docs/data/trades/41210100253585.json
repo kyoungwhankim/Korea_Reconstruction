@@ -1,0 +1,9 @@
+{"id":"41210100253585",
+"name":"하안주공13단지아파트",
+"basis":null,
+"by_area":[{"area":31,"pyeong":9.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":326,"wolse_monthly_median":6}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-06-09",31.32,8,326,6,"신규","26.06~28.07",null]
+]}}

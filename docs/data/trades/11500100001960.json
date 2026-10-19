@@ -1,0 +1,15 @@
+{"id":"11500100001960",
+"name":"한오아파트",
+"basis":"단지",
+"by_area":[{"area":47,"pyeong":14.2,"n":2,"median":29950,"min":29900,"max":30000,"latest_price":30000,"latest_date":"2026-09-10","latest_floor":2,"jeonse_n":2,"wolse_n":1,"jeonse_median":15750,"jeonse_min":15000,"jeonse_max":16500,"jeonse_latest":15000,"jeonse_latest_date":"2026-05-02","jeonse_ratio":52.6,"wolse_deposit_median":5000,"wolse_monthly_median":48}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-04-23",47.42,4,32000,null,"중개거래",1988],
+["2024-05-01",47.06,2,26300,null,"직거래",1988],
+["2026-06-10",47.42,2,29900,null,"중개거래",1988],
+["2026-09-10",47.42,2,30000,null,"중개거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-17",47.06,3,16500,0,"갱신","26.03~28.03",true],
+["2026-05-02",47.06,3,15000,0,"신규","26.06~28.06",null],
+["2026-10-04",47.06,3,5000,48,"갱신","26.11~28.10",true]
+]}}

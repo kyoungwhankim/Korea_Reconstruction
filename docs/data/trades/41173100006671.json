@@ -1,0 +1,15 @@
+{"id":"41173100006671",
+"name":"남광아파트",
+"basis":"단지",
+"by_area":[{"area":72,"pyeong":21.8,"n":3,"median":71500,"min":60000,"max":73000,"latest_price":71500,"latest_date":"2026-06-16","latest_floor":6,"jeonse_n":2,"wolse_n":0,"jeonse_median":23000,"jeonse_min":21000,"jeonse_max":25000,"jeonse_latest":21000,"jeonse_latest_date":"2026-07-29","jeonse_ratio":32.2}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-02-08",72.36,3,51000,null,"중개거래",1984],
+["2025-08-14",72.36,5,65500,null,"중개거래",1984],
+["2026-04-13",72.36,4,60000,null,"중개거래",1984],
+["2026-06-08",72.36,5,73000,null,"중개거래",1984],
+["2026-06-16",72.36,6,71500,null,"중개거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-04",72.36,1,25000,0,"신규","26.06~28.06",null],
+["2026-07-29",72.36,3,21000,0,"갱신","26.08~28.08",true]
+]}}

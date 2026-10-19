@@ -1,0 +1,12 @@
+{"id":"41570100008557",
+"name":"태산아파트",
+"basis":"단지",
+"by_area":[{"area":59,"pyeong":17.8,"n":1,"median":12800,"min":12800,"max":12800,"latest_price":12800,"latest_date":"2026-06-20","latest_floor":5,"jeonse_n":1,"wolse_n":0,"jeonse_median":9500,"jeonse_min":9500,"jeonse_max":9500,"jeonse_latest":9500,"jeonse_latest_date":"2026-05-09","jeonse_ratio":74.2}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-01-13",58.61,4,12250,null,"중개거래",1986],
+["2025-04-18",58.61,5,15000,null,"직거래",1986],
+["2026-06-20",58.61,5,12800,null,"중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-09",58.61,5,9500,0,"신규","26.06~28.06",null]
+]}}

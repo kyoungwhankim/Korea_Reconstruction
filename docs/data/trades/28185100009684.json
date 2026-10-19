@@ -1,0 +1,15 @@
+{"id":"28185100009684",
+"name":"청학국민아파트",
+"basis":"단지",
+"by_area":[{"area":52,"pyeong":15.7,"n":2,"median":13750,"min":12500,"max":15000,"latest_price":12500,"latest_date":"2026-09-04","latest_floor":4,"jeonse_n":2,"wolse_n":1,"jeonse_median":10500,"jeonse_min":10000,"jeonse_max":11000,"jeonse_latest":11000,"jeonse_latest_date":"2026-01-21","jeonse_ratio":76.4,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-01-11",52.41,2,17400,null,"중개거래",1984],
+["2024-02-02",52.41,5,13800,null,"중개거래",1984],
+["2026-04-21",52.41,2,15000,null,"중개거래",1984],
+["2026-09-04",52.41,4,12500,null,"중개거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-21",52.41,2,10000,0,"갱신","26.01~28.01",true],
+["2026-01-21",52.41,2,11000,0,"갱신","26.01~28.01",true],
+["2026-09-14",52.41,1,1000,50,"신규","26.09~28.09",null]
+]}}

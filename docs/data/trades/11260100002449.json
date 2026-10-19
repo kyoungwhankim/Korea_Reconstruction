@@ -1,0 +1,9 @@
+{"id":"11260100002449",
+"name":"용마프라자",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-07-15",59.28,5,32500,null,"직거래",1995]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

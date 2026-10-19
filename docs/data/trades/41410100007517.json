@@ -1,0 +1,10 @@
+{"id":"41410100007517",
+"name":"장미아파트",
+"basis":"단지",
+"by_area":[{"area":51,"pyeong":15.4,"n":1,"median":20000,"min":20000,"max":20000,"latest_price":20000,"latest_date":"2026-06-10","latest_floor":2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":13000,"wolse_monthly_median":10}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-06-10",50.76,2,20000,null,"중개거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-25",50.76,1,13000,10,"신규","25.12~27.12",null]
+]}}

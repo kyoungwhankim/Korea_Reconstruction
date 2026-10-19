@@ -1,0 +1,13 @@
+{"id":"28245100009499",
+"name":"경신아파트",
+"basis":"단지",
+"by_area":[{"area":68,"pyeong":20.6,"jeonse_n":1,"wolse_n":0,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-07-07"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-12-05",68.37,1,14500,null,"중개거래",1985],
+["2024-03-02",71.4,2,17800,null,"중개거래",1985],
+["2025-05-19",71.4,3,16900,null,"중개거래",1985],
+["2025-09-05",71.4,1,15000,null,"중개거래",1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-07-07",68.37,5,10000,0,"신규","26.08~28.08",null]
+]}}

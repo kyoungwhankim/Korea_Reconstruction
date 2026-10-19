@@ -1,0 +1,14 @@
+{"id":"서울-동대문구-제기1경동미주",
+"name":"제기1(경동미주아파트)",
+"basis":"기존 단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-08-26",96.96,2,70000,"비","중개거래",1977]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]},
+"silv":{"cols":["date","area","floor","price","kind","type"],"rows":[
+["2026-02-03",59.92,12,81000,"입주권","중개거래"],
+["2026-03-09",51.32,9,81909,"입주권","중개거래"],
+["2026-06-13",76.51,27,110000,"입주권","중개거래"]
+]}}

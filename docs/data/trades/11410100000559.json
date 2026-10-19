@@ -1,0 +1,15 @@
+{"id":"11410100000559",
+"name":"백련미라보아파트",
+"basis":"단지",
+"by_area":[{"area":37,"pyeong":11.2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":70},{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3000,"wolse_monthly_median":95},{"area":59,"pyeong":17.8,"n":1,"median":39000,"min":39000,"max":39000,"latest_price":39000,"latest_date":"2026-06-20","latest_floor":5,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":6000,"wolse_monthly_median":105}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-06-27",56.57,3,44000,null,"중개거래",1992],
+["2025-06-30",57.79,10,38500,null,"중개거래",1992],
+["2026-06-20",59.27,5,39000,null,"중개거래",1992]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-12",36.86,3,1000,70,"신규","25.11~27.11",null],
+["2025-11-14",59.27,6,5000,110,"신규","25.12~27.12",null],
+["2026-02-07",59.27,2,7000,100,"신규","26.04~27.04",null],
+["2026-09-19",39.69,6,3000,95,"신규","26.10~28.10",null]
+]}}

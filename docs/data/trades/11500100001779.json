@@ -1,0 +1,15 @@
+{"id":"11500100001779",
+"name":"두보아파트",
+"basis":"단지",
+"by_area":[{"area":59,"pyeong":17.8,"n":2,"median":46250,"min":45000,"max":47500,"latest_price":47500,"latest_date":"2026-06-19","latest_floor":2,"jeonse_n":2,"wolse_n":1,"jeonse_median":32750,"jeonse_min":31500,"jeonse_max":34000,"jeonse_latest":34000,"jeonse_latest_date":"2026-03-14","jeonse_ratio":70.8,"wolse_deposit_median":0,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-07-06",59.49,7,42500,null,"중개거래",1991],
+["2024-07-30",59.49,7,46900,null,"중개거래",1991],
+["2026-03-30",59.49,1,45000,null,"중개거래",1991],
+["2026-06-19",59.49,2,47500,null,"중개거래",1991]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-13",59.49,7,31500,0,"갱신","26.02~28.02",true],
+["2026-03-09",59.49,2,0,50,"신규","26.03~26.04",null],
+["2026-03-14",59.49,5,34000,0,"신규","26.05~28.05",null]
+]}}

@@ -1,0 +1,13 @@
+{"id":"11650100002951",
+"name":"두원아파트",
+"basis":"단지",
+"by_area":[{"area":59,"pyeong":17.8,"jeonse_n":1,"wolse_n":0,"jeonse_median":46000,"jeonse_min":46000,"jeonse_max":46000,"jeonse_latest":46000,"jeonse_latest_date":"2025-11-12"},{"area":85,"pyeong":25.7,"jeonse_n":2,"wolse_n":0,"jeonse_median":70500,"jeonse_min":69000,"jeonse_max":72000,"jeonse_latest":69000,"jeonse_latest_date":"2026-03-21"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-07-02",84.87,3,226000,null,"중개거래",1996],
+["2025-02-22",84.87,4,250000,null,"중개거래",1996]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-12",59.27,5,46000,0,"갱신","25.12~27.12",true],
+["2026-02-10",84.87,3,72000,0,"갱신","26.04~28.04",true],
+["2026-03-21",84.87,8,69000,0,"갱신","26.04~28.04",true]
+]}}

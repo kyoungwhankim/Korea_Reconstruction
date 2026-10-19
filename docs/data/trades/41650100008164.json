@@ -1,0 +1,12 @@
+{"id":"41650100008164",
+"name":"리버아파트",
+"basis":"단지",
+"by_area":[{"area":60,"pyeong":18.1,"n":1,"median":7200,"min":7200,"max":7200,"latest_price":7200,"latest_date":"2026-01-07","latest_floor":12}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-06-01",74.38,4,8000,null,"중개거래",1994],
+["2024-07-15",59.62,10,7500,null,"중개거래",1994],
+["2024-09-21",59.62,7,7500,null,"중개거래",1994],
+["2026-01-07",59.62,12,7200,null,"중개거래",1994]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

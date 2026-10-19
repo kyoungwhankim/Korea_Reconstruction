@@ -1,0 +1,11 @@
+{"id":"41196100253539",
+"name":"방배(383-7)",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-02-28",44.73,3,20300,null,"중개거래",1985],
+["2024-09-30",44.73,5,19500,null,"중개거래",1985],
+["2025-08-26",44.73,4,15000,null,"중개거래",1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

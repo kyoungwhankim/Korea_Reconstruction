@@ -1,0 +1,14 @@
+{"id":"11710100002338",
+"name":"보화2차아파트",
+"basis":"단지",
+"by_area":[{"area":40,"pyeong":12.1,"n":3,"median":108000,"min":100000,"max":108500,"latest_price":108500,"latest_date":"2026-05-22","latest_floor":6,"jeonse_n":1,"wolse_n":1,"jeonse_median":16000,"jeonse_min":16000,"jeonse_max":16000,"jeonse_latest":16000,"jeonse_latest_date":"2026-07-22","jeonse_ratio":14.8,"wolse_deposit_median":5000,"wolse_monthly_median":45},{"area":41,"pyeong":12.4,"n":1,"median":105000,"min":105000,"max":105000,"latest_price":105000,"latest_date":"2026-06-05","latest_floor":5}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-01-16",40.38,6,100000,null,"중개거래",1988],
+["2026-02-27",40.38,1,108000,null,"중개거래",1988],
+["2026-05-22",40.38,6,108500,null,"중개거래",1988],
+["2026-06-05",40.77,5,105000,null,"중개거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-12",40.38,6,5000,45,"신규","26.01~28.01",null],
+["2026-07-22",40.38,2,16000,0,"갱신","26.07~28.07",null]
+]}}

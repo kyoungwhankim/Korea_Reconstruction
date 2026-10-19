@@ -1,0 +1,10 @@
+{"id":"41111100005981",
+"name":"익주아파트",
+"basis":"단지",
+"by_area":[{"area":58,"pyeong":17.5,"n":1,"median":23700,"min":23700,"max":23700,"latest_price":23700,"latest_date":"2025-11-27","latest_floor":4}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-10-10",58.28,5,11700,null,"직거래",1995],
+["2025-11-27",58.28,4,23700,null,"중개거래",1995]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

@@ -1,0 +1,15 @@
+{"id":"41281100007829",
+"name":"무궁화아파트",
+"basis":"단지",
+"by_area":[{"area":74,"pyeong":22.4,"n":1,"median":31500,"min":31500,"max":31500,"latest_price":31500,"latest_date":"2026-07-15","latest_floor":7,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3000,"wolse_monthly_median":90},{"area":84,"pyeong":25.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":5800,"wolse_monthly_median":95},{"area":98,"pyeong":29.6,"n":1,"median":36000,"min":36000,"max":36000,"latest_price":36000,"latest_date":"2025-11-17","latest_floor":3},{"area":113,"pyeong":34.2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3000,"wolse_monthly_median":100}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-10-18",97.59,2,36000,"3","중개거래",1993],
+["2025-01-04",74.94,7,35000,"5","중개거래",1993],
+["2025-11-17",97.59,3,36000,"3","중개거래",1993],
+["2026-07-15",73.8,7,31500,"7","중개거래",1993]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-31",112.68,2,3000,100,"신규","26.03~28.03",null],
+["2026-02-20",83.56,1,5800,95,"갱신","26.02~28.02",null],
+["2026-03-07",73.8,6,3000,90,"신규","26.04~28.04",null]
+]}}

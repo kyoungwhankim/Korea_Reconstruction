@@ -1,0 +1,13 @@
+{"id":"28177100050173",
+"name":"광명9아파트",
+"basis":"단지",
+"by_area":[{"area":71,"pyeong":21.5,"jeonse_n":1,"wolse_n":3,"jeonse_median":12900,"jeonse_min":12900,"jeonse_max":12900,"jeonse_latest":12900,"jeonse_latest_date":"2025-11-28","wolse_deposit_median":3000,"wolse_monthly_median":60}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-10-11",71.28,3,19000,"8","직거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-22",71.28,4,2000,50,"신규","25.11~27.11",null],
+["2025-11-28",71.28,6,12900,0,"신규","26.01~28.01",null],
+["2026-01-21",71.28,2,3000,60,"신규","26.02~28.02",null],
+["2026-01-21",71.28,2,3000,60,"신규","26.02~28.02",null]
+]}}

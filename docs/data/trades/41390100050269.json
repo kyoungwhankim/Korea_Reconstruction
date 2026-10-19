@@ -1,0 +1,14 @@
+{"id":"41390100050269",
+"name":"명성아파트",
+"basis":"단지",
+"by_area":[{"area":48,"pyeong":14.5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3000,"wolse_monthly_median":40},{"area":50,"pyeong":15.1,"n":1,"median":11000,"min":11000,"max":11000,"latest_price":11000,"latest_date":"2026-07-01","latest_floor":5},{"area":61,"pyeong":18.5,"n":1,"median":12300,"min":12300,"max":12300,"latest_price":12300,"latest_date":"2026-02-28","latest_floor":5}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-10-09",50.04,2,13000,null,"직거래",1984],
+["2025-05-09",50.04,3,12800,null,"중개거래",1984],
+["2025-08-27",61.2,3,13500,null,"중개거래",1984],
+["2026-02-28",61.2,5,12300,null,"중개거래",1984],
+["2026-07-01",50.04,5,11000,null,"중개거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-10",48.24,1,3000,40,"신규","26.04~28.03",null]
+]}}

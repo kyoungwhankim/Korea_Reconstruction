@@ -1,0 +1,13 @@
+{"id":"41111100005887",
+"name":"무진아파트",
+"basis":"단지",
+"by_area":[{"area":85,"pyeong":25.7,"n":1,"median":30000,"min":30000,"max":30000,"latest_price":30000,"latest_date":"2026-05-14","latest_floor":2,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":4000,"wolse_monthly_median":95}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-02-16",84.87,3,30000,null,"중개거래",1994],
+["2026-05-14",84.87,2,30000,null,"중개거래",1994]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-20",84.87,5,3000,100,"신규","26.03~28.03",null],
+["2026-02-13",84.87,5,4000,95,"신규","26.03~28.03",null],
+["2026-02-13",84.87,5,4000,95,"신규","26.03~28.03",null]
+]}}

@@ -1,0 +1,12 @@
+{"id":"41480100007697",
+"name":"청도훼미리맨션",
+"basis":"단지",
+"by_area":[{"area":104,"pyeong":31.5,"n":1,"median":16500,"min":16500,"max":16500,"latest_price":16500,"latest_date":"2026-03-25","latest_floor":8}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-01-16",104.04,7,16100,null,"중개거래",1994],
+["2025-02-26",104.04,9,12000,null,"중개거래",1994],
+["2025-09-24",120.0,13,17300,null,"중개거래",1994],
+["2026-03-25",104.04,8,16500,null,"중개거래",1994]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

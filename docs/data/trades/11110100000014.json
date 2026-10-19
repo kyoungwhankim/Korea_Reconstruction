@@ -1,0 +1,14 @@
+{"id":"11110100000014",
+"name":"세종로대우아파트",
+"basis":"단지",
+"by_area":[{"area":67,"pyeong":20.3,"jeonse_n":1,"wolse_n":1,"jeonse_median":60000,"jeonse_min":60000,"jeonse_max":60000,"jeonse_latest":60000,"jeonse_latest_date":"2026-02-28","wolse_deposit_median":50000,"wolse_monthly_median":30},{"area":110,"pyeong":33.3,"jeonse_n":2,"wolse_n":0,"jeonse_median":92500,"jeonse_min":90000,"jeonse_max":95000,"jeonse_latest":90000,"jeonse_latest_date":"2026-05-13"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-05-25",66.96,14,83200,null,"중개거래",1994],
+["2025-10-16",109.91,10,135000,null,"중개거래",1994]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-20",66.96,10,50000,30,"신규","26.02~28.02",null],
+["2026-02-28",66.96,15,60000,0,"신규","26.04~28.04",null],
+["2026-03-28",109.91,10,95000,0,"신규","26.06~28.06",null],
+["2026-05-13",109.91,10,90000,0,"갱신","26.08~28.08",null]
+]}}

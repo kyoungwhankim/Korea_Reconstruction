@@ -1,0 +1,15 @@
+{"id":"41150100006524",
+"name":"동남장미2차아파트",
+"basis":"단지",
+"by_area":[{"area":81,"pyeong":24.5,"jeonse_n":2,"wolse_n":3,"jeonse_median":12500,"jeonse_min":10000,"jeonse_max":15000,"jeonse_latest":10000,"jeonse_latest_date":"2026-06-20","wolse_deposit_median":300,"wolse_monthly_median":40},{"area":84,"pyeong":25.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":65}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-09-16",84.21,5,28000,"102","중개거래",1990]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-12",81.12,5,1000,50,"신규","26.01~28.01",null],
+["2026-03-06",81.12,1,15000,0,"신규","26.04~28.04",null],
+["2026-03-19",81.12,5,300,40,"신규","26.04~28.04",null],
+["2026-03-19",81.12,5,300,40,"신규","26.04~28.04",null],
+["2026-06-20",81.12,5,10000,0,"갱신","26.10~28.10",true],
+["2026-07-13",84.21,2,2000,65,"신규","26.09~28.09",null]
+]}}

@@ -1,0 +1,9 @@
+{"id":"11440120033332",
+"name":"성산임대아파트",
+"basis":null,
+"by_area":[{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":753,"wolse_monthly_median":10}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-08-26",39.82,4,753,10,"갱신","26.09~28.08",null]
+]}}

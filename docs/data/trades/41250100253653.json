@@ -1,0 +1,11 @@
+{"id":"41250100253653",
+"name":"대진아파트",
+"basis":"단지",
+"by_area":[{"area":59,"pyeong":17.8,"n":2,"median":5850,"min":5200,"max":6500,"latest_price":6500,"latest_date":"2026-08-25","latest_floor":4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":0,"wolse_monthly_median":46}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-03-16",59.04,1,5200,null,"중개거래",1988],
+["2026-08-25",59.04,4,6500,null,"중개거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-08-21",59.04,2,0,46,"신규","26.10~27.10",null]
+]}}

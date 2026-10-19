@@ -1,0 +1,412 @@
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2023-11-01", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "103", "floor": 12, "jibun": "336", "price": 10000}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2023-11-02", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "107", "floor": 7, "jibun": "336", "price": 10800}
+{"apt": "우신", "area": 59.76, "built": 1997, "date": "2023-11-03", "deal_type": "중개거래", "dong": "신북면 계류리", "floor": 3, "jibun": "29-4", "price": 5700}
+{"apt": "포천예원프라자", "area": 81.99, "built": 1997, "date": "2023-11-03", "deal_type": "직거래", "dong": "신읍동", "floor": 7, "jibun": "43-18", "price": 9000}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2023-11-05", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "107", "floor": 8, "jibun": "336", "price": 10700}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2023-11-06", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2동", "floor": 6, "jibun": "392-13", "price": 13300}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2023-11-06", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 8, "jibun": "227-8", "price": 12680}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2023-11-07", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1동", "floor": 15, "jibun": "392-13", "price": 17000}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2023-11-13", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1동", "floor": 12, "jibun": "392-13", "price": 19000}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2023-11-20", "deal_type": "직거래", "dong": "신읍동", "dong_no": "101", "floor": 11, "jibun": "227-8", "price": 12000}
+{"apt": "원일산호", "area": 82.05, "built": 1993, "date": "2023-11-21", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "103", "floor": 3, "jibun": "150", "price": 17500}
+{"apt": "골든주택", "area": 60.48, "built": 1990, "date": "2023-11-24", "deal_type": "중개거래", "dong": "신북면 가채리", "floor": 4, "jibun": "829-6", "price": 5500}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2023-11-25", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "103", "floor": 13, "jibun": "336", "price": 10500}
+{"apt": "원일5차", "area": 44.64, "built": 1996, "date": "2023-11-28", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "501", "floor": 2, "jibun": "430-10", "price": 10200}
+{"apt": "원풍", "area": 73.53, "built": 1990, "date": "2023-12-06", "deal_type": "중개거래", "dong": "일동면 기산리", "dong_no": "B", "floor": 1, "jibun": "78-22", "price": 7400}
+{"apt": "은하", "area": 54.9, "built": 1985, "date": "2023-12-08", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "A", "floor": 1, "jibun": "167-4", "price": 7000}
+{"apt": "골든", "area": 84.24, "built": 1993, "date": "2023-12-13", "deal_type": "직거래", "dong": "신읍동", "dong_no": "가", "floor": 7, "jibun": "9-4", "price": 11300}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2023-12-16", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "106", "floor": 1, "jibun": "336", "price": 9000}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2023-12-23", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2", "floor": 1, "jibun": "222-51", "price": 13500}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2023-12-30", "deal_type": "직거래", "dong": "소흘읍 초가팔리", "dong_no": "101", "floor": 13, "jibun": "336", "price": 11500}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-01-02", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "9동", "floor": 1, "jibun": "392-13", "price": 16700}
+{"apt": "일신", "area": 59.86, "built": 1993, "date": "2024-01-02", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2", "floor": 10, "jibun": "505-8", "price": 12900}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-01-02", "deal_type": "직거래", "dong": "소흘읍 초가팔리", "dong_no": "106", "floor": 9, "jibun": "336", "price": 13000}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-01-04", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "101", "floor": 9, "jibun": "101-6", "price": 5800}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-01-08", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "101", "floor": 7, "jibun": "101-6", "price": 5300}
+{"apt": "천보", "area": 84.88, "built": 1992, "date": "2024-01-08", "deal_type": "중개거래", "dong": "영북면 운천리", "dong_no": "C", "floor": 5, "jibun": "481-5", "price": 5000}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2024-01-11", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2", "floor": 19, "jibun": "222-51", "price": 14800}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-01-13", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1동", "floor": 2, "jibun": "392-13", "price": 17500}
+{"apt": "현대", "area": 84.97, "built": 1996, "date": "2024-01-13", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 11, "jibun": "235-11", "price": 14800}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-01-14", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "102", "floor": 15, "jibun": "101-6", "price": 5450}
+{"apt": "동영", "area": 59.99, "built": 1991, "date": "2024-01-18", "deal_type": "직거래", "dong": "영북면 운천리", "dong_no": "나", "floor": 1, "jibun": "554-70", "price": 4500}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-01-20", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "104", "floor": 13, "jibun": "336", "price": 12800}
+{"apt": "한국", "area": 67.2, "built": 1993, "date": "2024-01-20", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 1, "jibun": "295-23", "price": 8800}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2024-01-22", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "105", "floor": 7, "jibun": "150", "price": 13000}
+{"apt": "원일산호2", "area": 59.95, "built": 1995, "date": "2024-01-22", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "201", "floor": 4, "jibun": "430-8", "price": 15300}
+{"apt": "한신", "area": 84.98, "built": 1997, "date": "2024-01-23", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 18, "jibun": "227-8", "price": 15500}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2024-01-24", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2", "floor": 5, "jibun": "222-51", "price": 13500}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-01-27", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 3, "jibun": "336", "price": 9700}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-01-27", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "106", "floor": 13, "jibun": "336", "price": 11500}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-01-29", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 1, "jibun": "336", "price": 8600}
+{"apt": "한신", "area": 78.02, "built": 1997, "date": "2024-02-01", "deal_type": "직거래", "dong": "신읍동", "dong_no": "102", "floor": 17, "jibun": "227-8", "price": 14500}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-02-02", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "5동", "floor": 12, "jibun": "392-13", "price": 14100}
+{"apt": "은하", "area": 54.9, "built": 1985, "date": "2024-02-06", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "A", "floor": 5, "jibun": "167-4", "price": 6450}
+{"apt": "원일산호", "area": 82.05, "built": 1993, "date": "2024-02-13", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "104", "floor": 12, "jibun": "150", "price": 19400}
+{"apt": "한국", "area": 69.84, "built": 1993, "date": "2024-02-13", "deal_type": "직거래", "dong": "신읍동", "dong_no": "102", "floor": 12, "jibun": "295-23", "price": 6000}
+{"apt": "일신", "area": 84.72, "built": 1993, "date": "2024-02-15", "deal_type": "직거래", "dong": "소흘읍 송우리", "dong_no": "2", "floor": 4, "jibun": "505-8", "price": 22000}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2024-02-15", "deal_type": "직거래", "dong": "신읍동", "dong_no": "101", "floor": 1, "jibun": "295-23", "price": 8300}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2024-02-17", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "105", "floor": 6, "jibun": "150", "price": 13900}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-02-18", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "3동", "floor": 9, "jibun": "392-13", "price": 13500}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-02-19", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "105", "floor": 10, "jibun": "336", "price": 12000}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2024-02-19", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "103", "floor": 12, "jibun": "101-6", "price": 6000}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2024-02-20", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 1, "jibun": "227-8", "price": 11500}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-02-24", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "102", "floor": 6, "jibun": "101-6", "price": 5700}
+{"apt": "금용로얄(305,306동)", "area": 61.44, "built": 1989, "date": "2024-02-25", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "305", "floor": 1, "jibun": "222-23", "price": 12800}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2024-02-26", "deal_type": "직거래", "dong": "신북면 기지리", "dong_no": "103", "floor": 12, "jibun": "101-6", "price": 5500}
+{"apt": "원일산호", "area": 130.22, "built": 1993, "date": "2024-02-27", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "102", "floor": 5, "jibun": "150", "price": 28300}
+{"apt": "한국", "area": 84.22, "built": 1993, "date": "2024-02-27", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 12, "jibun": "295-23", "price": 11500}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-03-04", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2동", "floor": 6, "jibun": "392-13", "price": 14500}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-03-04", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "101", "floor": 1, "jibun": "101-6", "price": 5450}
+{"apt": "골든", "area": 84.24, "built": 1993, "date": "2024-03-05", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "가", "floor": 17, "jibun": "9-4", "price": 11500}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2024-03-09", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 15, "jibun": "222-51", "price": 14500}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2024-03-09", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 8, "jibun": "295-23", "price": 8400}
+{"apt": "원풍", "area": 73.53, "built": 1990, "date": "2024-03-09", "deal_type": "중개거래", "dong": "일동면 기산리", "dong_no": "B", "floor": 4, "jibun": "78-22", "price": 6600}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2024-03-11", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "104", "floor": 5, "jibun": "101-6", "price": 4800}
+{"apt": "현대", "area": 84.97, "built": 1996, "date": "2024-03-12", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 4, "jibun": "235-11", "price": 13500}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2024-03-13", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "106", "floor": 3, "jibun": "150", "price": 14500}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-03-13", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "105", "floor": 8, "jibun": "336", "price": 11400}
+{"apt": "우신", "area": 59.76, "built": 1997, "date": "2024-03-13", "deal_type": "직거래", "dong": "신북면 계류리", "floor": 3, "jibun": "29-4", "price": 5200}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-03-16", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "5동", "floor": 6, "jibun": "392-13", "price": 13400}
+{"apt": "천보", "area": 64.98, "built": 1992, "date": "2024-03-19", "deal_type": "직거래", "dong": "영북면 운천리", "dong_no": "B", "floor": 3, "jibun": "481-5", "price": 5700}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-03-21", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "104", "floor": 11, "jibun": "336", "price": 12300}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-03-22", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "11동", "floor": 3, "jibun": "392-13", "price": 17400}
+{"apt": "금용로얄(203,204동)", "area": 42.45, "built": 1989, "date": "2024-03-23", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "204", "floor": 3, "jibun": "222-30", "price": 9750}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-03-23", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "12동", "floor": 11, "jibun": "392-13", "price": 18500}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2024-03-26", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 3, "jibun": "295-23", "price": 8200}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-03-27", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "105", "floor": 6, "jibun": "336", "price": 12000}
+{"apt": "한신", "area": 84.98, "built": 1997, "date": "2024-04-03", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 8, "jibun": "227-8", "price": 15800}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-04-04", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2동", "floor": 5, "jibun": "392-13", "price": 15000}
+{"apt": "천보", "area": 71.28, "built": 1992, "date": "2024-04-06", "deal_type": "중개거래", "dong": "영북면 운천리", "dong_no": "B", "floor": 2, "jibun": "481-5", "price": 6800}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-04-11", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 7, "jibun": "336", "price": 9600}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-04-15", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "101", "floor": 15, "jibun": "101-6", "price": 5700}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2024-04-16", "deal_type": "직거래", "dong": "신읍동", "dong_no": "101", "floor": 5, "jibun": "227-8", "price": 12000}
+{"apt": "일신", "area": 84.72, "built": 1993, "date": "2024-04-17", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 5, "jibun": "505-8", "price": 15000}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2024-04-18", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "105", "floor": 3, "jibun": "150", "price": 14500}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-04-18", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "101", "floor": 12, "jibun": "101-6", "price": 5700}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2024-04-18", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 12, "jibun": "295-23", "price": 8200}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2024-04-20", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "104", "floor": 2, "jibun": "101-6", "price": 4850}
+{"apt": "현대", "area": 59.94, "built": 1996, "date": "2024-04-20", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 3, "jibun": "235-11", "price": 10700}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2024-04-23", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 2, "jibun": "227-8", "price": 11000}
+{"apt": "원풍", "area": 73.98, "built": 1990, "date": "2024-04-23", "deal_type": "중개거래", "dong": "일동면 기산리", "dong_no": "A", "floor": 2, "jibun": "78-22", "price": 7600}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-04-24", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "101", "floor": 13, "jibun": "101-6", "price": 6000}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-04-26", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "8동", "floor": 9, "jibun": "392-13", "price": 16000}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-04-26", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "102", "floor": 11, "jibun": "101-6", "price": 5500}
+{"apt": "동영", "area": 59.99, "built": 1991, "date": "2024-04-26", "deal_type": "직거래", "dong": "영북면 운천리", "dong_no": "나", "floor": 5, "jibun": "554-70", "price": 2300}
+{"apt": "우신", "area": 59.76, "built": 1997, "date": "2024-04-29", "deal_type": "중개거래", "dong": "신북면 계류리", "floor": 4, "jibun": "29-4", "price": 4850}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2024-04-29", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "104", "floor": 6, "jibun": "101-6", "price": 4800}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-04-30", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 15, "jibun": "336", "price": 9500}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-04-30", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "101", "floor": 6, "jibun": "101-6", "price": 5650}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-05-02", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 6, "jibun": "336", "price": 9300}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-05-04", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "102", "floor": 5, "jibun": "101-6", "price": 5800}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2024-05-08", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 6, "jibun": "222-51", "price": 15700}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-05-08", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "106", "floor": 3, "jibun": "336", "price": 11900}
+{"apt": "골든", "area": 131.37, "built": 1993, "date": "2024-05-08", "deal_type": "직거래", "dong": "신읍동", "dong_no": "가", "floor": 18, "jibun": "9-4", "price": 18000}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-05-09", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "3동", "floor": 1, "jibun": "392-13", "price": 13500}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-05-14", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "7동", "floor": 17, "jibun": "392-13", "price": 12000}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2024-05-14", "deal_type": "직거래", "dong": "신북면 기지리", "dong_no": "103", "floor": 4, "jibun": "101-6", "price": 4200}
+{"apt": "은하", "area": 46.92, "built": 1985, "date": "2024-05-14", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "B", "floor": 5, "jibun": "167-4", "price": 4800}
+{"apt": "금용로얄(203,204동)", "area": 48.96, "built": 1989, "date": "2024-05-20", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "203", "floor": 6, "jibun": "222-30", "price": 7800}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-05-20", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "106", "floor": 5, "jibun": "336", "price": 11500}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-05-22", "deal_type": "직거래", "dong": "소흘읍 송우리", "dong_no": "9동", "floor": 3, "jibun": "392-13", "price": 17000}
+{"apt": "한신", "area": 84.98, "built": 1997, "date": "2024-05-22", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 9, "jibun": "227-8", "price": 16900}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-05-23", "deal_type": "직거래", "dong": "소흘읍 송우리", "dong_no": "10동", "floor": 16, "jibun": "392-13", "price": 16000}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2024-05-27", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "103", "floor": 5, "jibun": "101-6", "price": 5900}
+{"apt": "원일5차", "area": 44.64, "built": 1996, "date": "2024-05-30", "deal_type": "직거래", "dong": "소흘읍 송우리", "dong_no": "501", "floor": 6, "jibun": "430-10", "price": 10000}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2024-05-30", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 2, "jibun": "295-23", "price": 8500}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2024-05-30", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 9, "jibun": "295-23", "price": 8200}
+{"apt": "원일산호", "area": 82.05, "built": 1993, "date": "2024-05-31", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "104", "floor": 3, "jibun": "150", "price": 17700}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-05-31", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "107", "floor": 11, "jibun": "336", "price": 11000}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-06-01", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "104", "floor": 10, "jibun": "336", "price": 12500}
+{"apt": "현대", "area": 84.97, "built": 1996, "date": "2024-06-01", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 4, "jibun": "235-11", "price": 14300}
+{"apt": "리버", "area": 74.38, "built": 1994, "date": "2024-06-01", "deal_type": "중개거래", "dong": "일동면 기산리", "floor": 4, "jibun": "68-18", "price": 8000}
+{"apt": "금용로얄", "area": 37.41, "built": 1988, "date": "2024-06-03", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2", "floor": 5, "jibun": "222-22", "price": 9000}
+{"apt": "원일산호", "area": 82.05, "built": 1993, "date": "2024-06-06", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "104", "floor": 13, "jibun": "150", "price": 18000}
+{"apt": "한신", "area": 84.98, "built": 1997, "date": "2024-06-07", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 17, "jibun": "227-8", "price": 15700}
+{"apt": "금용로얄", "area": 47.61, "built": 1988, "date": "2024-06-08", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 1, "jibun": "222-22", "price": 8050}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-06-09", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "103", "floor": 11, "jibun": "336", "price": 9500}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-06-10", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "10동", "floor": 17, "jibun": "392-13", "price": 16800}
+{"apt": "현대", "area": 59.94, "built": 1996, "date": "2024-06-10", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 9, "jibun": "235-11", "price": 9800}
+{"apt": "우신", "area": 59.76, "built": 1997, "date": "2024-06-11", "deal_type": "직거래", "dong": "신북면 계류리", "floor": 9, "jibun": "29-4", "price": 5000}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-06-12", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "12동", "floor": 3, "jibun": "392-13", "price": 16000}
+{"apt": "일신", "area": 84.72, "built": 1993, "date": "2024-06-12", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2", "floor": 4, "jibun": "505-8", "price": 16700}
+{"apt": "골든", "area": 59.34, "built": 1993, "date": "2024-06-12", "deal_type": "직거래", "dong": "신읍동", "dong_no": "나", "floor": 10, "jibun": "9-4", "price": 8300}
+{"apt": "한국개나리", "area": 84.99, "built": 1994, "date": "2024-06-14", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 16, "jibun": "222-51", "price": 18800}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-06-15", "deal_type": "직거래", "dong": "신북면 기지리", "dong_no": "101", "floor": 2, "jibun": "101-6", "price": 6000}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-06-22", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 7, "jibun": "336", "price": 8700}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-06-22", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "101", "floor": 11, "jibun": "336", "price": 11900}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-06-24", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "103", "floor": 15, "jibun": "336", "price": 9700}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-06-28", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "102", "floor": 3, "jibun": "101-6", "price": 5000}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-07-01", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "4동", "floor": 2, "jibun": "392-13", "price": 13900}
+{"apt": "골든", "area": 75.51, "built": 1993, "date": "2024-07-06", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "가", "floor": 5, "jibun": "9-4", "price": 10000}
+{"apt": "원일산호2", "area": 59.95, "built": 1995, "date": "2024-07-10", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "201", "floor": 5, "jibun": "430-8", "price": 14000}
+{"apt": "은하", "area": 54.9, "built": 1985, "date": "2024-07-12", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "A", "floor": 1, "jibun": "167-4", "price": 6700}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2024-07-15", "deal_type": "직거래", "dong": "신북면 기지리", "dong_no": "103", "floor": 9, "jibun": "101-6", "price": 5900}
+{"apt": "리버", "area": 59.62, "built": 1994, "date": "2024-07-15", "deal_type": "중개거래", "dong": "일동면 기산리", "floor": 10, "jibun": "68-18", "price": 7500}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2024-07-16", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "105", "floor": 11, "jibun": "150", "price": 13500}
+{"apt": "원일산호2", "area": 59.95, "built": 1995, "date": "2024-07-19", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "201", "floor": 5, "jibun": "430-8", "price": 15500}
+{"apt": "한신", "area": 84.98, "built": 1997, "date": "2024-07-23", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 3, "jibun": "227-8", "price": 14000}
+{"apt": "천보", "area": 84.51, "built": 1992, "date": "2024-07-26", "deal_type": "직거래", "dong": "영북면 운천리", "dong_no": "A", "floor": 5, "jibun": "481-5", "price": 6000}
+{"apt": "한국개나리", "area": 84.99, "built": 1994, "date": "2024-07-28", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 13, "jibun": "222-51", "price": 19900}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2024-07-31", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "104", "floor": 8, "jibun": "101-6", "price": 4400}
+{"apt": "현대", "area": 59.94, "built": 1996, "date": "2024-07-31", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 9, "jibun": "235-11", "price": 10000}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-08-02", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "9동", "floor": 5, "jibun": "392-13", "price": 18300}
+{"apt": "현대", "area": 59.94, "built": 1996, "date": "2024-08-06", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 6, "jibun": "235-11", "price": 10500}
+{"apt": "골든주택", "area": 51.92, "built": 1990, "date": "2024-08-07", "deal_type": "중개거래", "dong": "신북면 가채리", "floor": 6, "jibun": "829-6", "price": 3200}
+{"apt": "천보", "area": 84.88, "built": 1992, "date": "2024-08-09", "deal_type": "직거래", "dong": "영북면 운천리", "dong_no": "C", "floor": 5, "jibun": "481-5", "price": 6200}
+{"apt": "한신", "area": 84.98, "built": 1997, "date": "2024-08-10", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 11, "jibun": "227-8", "price": 16000}
+{"apt": "한신", "area": 84.98, "built": 1997, "date": "2024-08-12", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 18, "jibun": "227-8", "price": 15600}
+{"apt": "은하", "area": 54.9, "built": 1985, "date": "2024-08-13", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "A", "floor": 1, "jibun": "167-4", "price": 7300}
+{"apt": "원풍", "area": 73.53, "built": 1990, "date": "2024-08-13", "deal_type": "중개거래", "dong": "일동면 기산리", "dong_no": "B", "floor": 5, "jibun": "78-22", "price": 7100}
+{"apt": "골든", "area": 66.06, "built": 1993, "date": "2024-08-15", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "나", "floor": 3, "jibun": "9-4", "price": 8700}
+{"apt": "우신", "area": 59.76, "built": 1997, "date": "2024-08-18", "deal_type": "직거래", "dong": "신북면 계류리", "floor": 10, "jibun": "29-4", "price": 5250}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-08-19", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "102", "floor": 1, "jibun": "101-6", "price": 4800}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2024-08-20", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "106", "floor": 3, "jibun": "150", "price": 13800}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-08-20", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "104", "floor": 7, "jibun": "336", "price": 12500}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-08-22", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "6동", "floor": 7, "jibun": "392-13", "price": 17500}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-08-22", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "8동", "floor": 10, "jibun": "392-13", "price": 16900}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-08-29", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "7동", "floor": 16, "jibun": "392-13", "price": 13700}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-09-02", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "102", "floor": 15, "jibun": "101-6", "price": 5500}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-09-04", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "8동", "floor": 3, "jibun": "392-13", "price": 16900}
+{"apt": "원일산호3", "area": 69.67, "built": 1997, "date": "2024-09-05", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "301", "floor": 4, "jibun": "430-13", "price": 16800}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-09-05", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "107", "floor": 9, "jibun": "336", "price": 11500}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2024-09-06", "deal_type": "직거래", "dong": "신읍동", "dong_no": "101", "floor": 9, "jibun": "227-8", "price": 12000}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-09-08", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "103", "floor": 12, "jibun": "336", "price": 9550}
+{"apt": "천보", "area": 84.75, "built": 1992, "date": "2024-09-08", "deal_type": "직거래", "dong": "영북면 운천리", "dong_no": "C", "floor": 3, "jibun": "481-5", "price": 6200}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-09-09", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "105", "floor": 8, "jibun": "336", "price": 12500}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-09-10", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 9, "jibun": "336", "price": 10000}
+{"apt": "현대", "area": 84.97, "built": 1996, "date": "2024-09-14", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 6, "jibun": "235-11", "price": 13500}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-09-19", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "7동", "floor": 5, "jibun": "392-13", "price": 13600}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2024-09-19", "deal_type": "직거래", "dong": "신북면 기지리", "dong_no": "104", "floor": 10, "jibun": "101-6", "price": 5300}
+{"apt": "현대", "area": 84.97, "built": 1996, "date": "2024-09-19", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 1, "jibun": "235-11", "price": 12000}
+{"apt": "리버", "area": 59.62, "built": 1994, "date": "2024-09-21", "deal_type": "중개거래", "dong": "일동면 기산리", "floor": 7, "jibun": "68-18", "price": 7500}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-09-24", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "4동", "floor": 8, "jibun": "392-13", "price": 14400}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-09-24", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "103", "floor": 12, "jibun": "336", "price": 8800}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2024-09-24", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 12, "jibun": "227-8", "price": 11500}
+{"apt": "원일산호3", "area": 83.49, "built": 1997, "date": "2024-09-25", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "301", "floor": 16, "jibun": "430-13", "price": 17000}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2024-09-25", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 12, "jibun": "295-23", "price": 7750}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2024-09-26", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 19, "jibun": "227-8", "price": 11500}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2024-09-30", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 12, "jibun": "227-8", "price": 11200}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2024-10-02", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "106", "floor": 8, "jibun": "150", "price": 14800}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-10-02", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "103", "floor": 11, "jibun": "336", "price": 9700}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-10-02", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "101", "floor": 15, "jibun": "336", "price": 12200}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-10-04", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "5동", "floor": 15, "jibun": "392-13", "price": 14000}
+{"apt": "천보", "area": 81.99, "built": 1992, "date": "2024-10-04", "deal_type": "중개거래", "dong": "영북면 운천리", "dong_no": "B", "floor": 5, "jibun": "481-5", "price": 6300}
+{"apt": "원풍", "area": 73.53, "built": 1990, "date": "2024-10-04", "deal_type": "중개거래", "dong": "일동면 기산리", "dong_no": "B", "floor": 3, "jibun": "78-22", "price": 9300}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-10-05", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 12, "jibun": "336", "price": 10250}
+{"apt": "한신", "area": 84.98, "built": 1997, "date": "2024-10-05", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 4, "jibun": "227-8", "price": 13000}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-10-08", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "104", "floor": 8, "jibun": "336", "price": 12750}
+{"apt": "한국", "area": 69.84, "built": 1993, "date": "2024-10-14", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 9, "jibun": "295-23", "price": 8000}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2024-10-15", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "104", "floor": 5, "jibun": "101-6", "price": 4300}
+{"apt": "한신", "area": 84.98, "built": 1997, "date": "2024-10-16", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 2, "jibun": "227-8", "price": 15100}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2024-10-17", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 6, "jibun": "227-8", "price": 12000}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-10-20", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2동", "floor": 15, "jibun": "392-13", "price": 10800}
+{"apt": "현대", "area": 84.97, "built": 1996, "date": "2024-10-23", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 7, "jibun": "235-11", "price": 16500}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2024-10-25", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 17, "jibun": "222-51", "price": 14800}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2024-10-25", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "103", "floor": 13, "jibun": "101-6", "price": 5300}
+{"apt": "천보", "area": 59.91, "built": 1992, "date": "2024-10-28", "deal_type": "직거래", "dong": "영북면 운천리", "dong_no": "C", "floor": 5, "jibun": "481-5", "price": 3300}
+{"apt": "한국개나리", "area": 80.71, "built": 1994, "date": "2024-10-29", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 6, "jibun": "222-51", "price": 12500}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-10-29", "deal_type": "직거래", "dong": "소흘읍 송우리", "dong_no": "5동", "floor": 7, "jibun": "392-13", "price": 15000}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-11-01", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "8동", "floor": 5, "jibun": "392-13", "price": 16500}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-11-01", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "105", "floor": 4, "jibun": "336", "price": 11900}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-11-02", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "3동", "floor": 8, "jibun": "392-13", "price": 13800}
+{"apt": "금용로얄(305,306동)", "area": 61.44, "built": 1989, "date": "2024-11-08", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "305", "floor": 2, "jibun": "222-23", "price": 12250}
+{"apt": "동영", "area": 84.94, "built": 1991, "date": "2024-11-08", "deal_type": "직거래", "dong": "영북면 운천리", "dong_no": "가", "floor": 4, "jibun": "554-70", "price": 5450}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2024-11-09", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "105", "floor": 6, "jibun": "150", "price": 12800}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2024-11-09", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "103", "floor": 1, "jibun": "101-6", "price": 4500}
+{"apt": "한국", "area": 117.9, "built": 1993, "date": "2024-11-11", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 12, "jibun": "295-23", "price": 15000}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2024-11-12", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "9동", "floor": 3, "jibun": "392-13", "price": 16000}
+{"apt": "은하", "area": 46.92, "built": 1985, "date": "2024-11-12", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "B", "floor": 4, "jibun": "167-4", "price": 7300}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-11-14", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 14, "jibun": "336", "price": 8900}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-11-18", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "4동", "floor": 4, "jibun": "392-13", "price": 12800}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2024-11-19", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2", "floor": 3, "jibun": "222-51", "price": 13000}
+{"apt": "원일5차", "area": 44.64, "built": 1996, "date": "2024-11-19", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "501", "floor": 1, "jibun": "430-10", "price": 8800}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2024-11-21", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "102", "floor": 14, "jibun": "101-6", "price": 5900}
+{"apt": "한신", "area": 84.98, "built": 1997, "date": "2024-11-29", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 19, "jibun": "227-8", "price": 14000}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-11-30", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "107", "floor": 4, "jibun": "336", "price": 11450}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2024-12-05", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 11, "jibun": "227-8", "price": 11500}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2024-12-11", "deal_type": "직거래", "dong": "신읍동", "dong_no": "101", "floor": 9, "jibun": "295-23", "price": 8000}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-12-12", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 11, "jibun": "336", "price": 8500}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2024-12-12", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 4, "jibun": "227-8", "price": 11500}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-12-13", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "105", "floor": 4, "jibun": "336", "price": 10500}
+{"apt": "원일산호", "area": 82.05, "built": 1993, "date": "2024-12-14", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "103", "floor": 6, "jibun": "150", "price": 19000}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-12-18", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "103", "floor": 2, "jibun": "336", "price": 8000}
+{"apt": "한신", "area": 84.98, "built": 1997, "date": "2024-12-20", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 7, "jibun": "227-8", "price": 15500}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2024-12-21", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "103", "floor": 12, "jibun": "336", "price": 9100}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2024-12-27", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 10, "jibun": "227-8", "price": 11500}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2024-12-28", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "6동", "floor": 3, "jibun": "392-13", "price": 13700}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2024-12-29", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "107", "floor": 2, "jibun": "336", "price": 13300}
+{"apt": "원일산호", "area": 82.05, "built": 1993, "date": "2024-12-30", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "103", "floor": 4, "jibun": "150", "price": 15000}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2024-12-30", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 9, "jibun": "227-8", "price": 11500}
+{"apt": "원일산호3", "area": 59.95, "built": 1997, "date": "2025-01-04", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "301", "floor": 4, "jibun": "430-13", "price": 13000}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2025-01-06", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "10동", "floor": 11, "jibun": "392-13", "price": 15000}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2025-01-06", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 23, "jibun": "227-8", "price": 11500}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-01-07", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "106", "floor": 1, "jibun": "336", "price": 10000}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2025-01-07", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 1, "jibun": "295-23", "price": 8600}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2025-01-08", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 14, "jibun": "336", "price": 9000}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-01-08", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "104", "floor": 15, "jibun": "336", "price": 10200}
+{"apt": "은하", "area": 46.92, "built": 1985, "date": "2025-01-09", "deal_type": "직거래", "dong": "신읍동", "dong_no": "B", "floor": 2, "jibun": "167-4", "price": 6000}
+{"apt": "금용로얄(203,204동)", "area": 42.45, "built": 1989, "date": "2025-01-10", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "204", "floor": 5, "jibun": "222-30", "price": 8900}
+{"apt": "원일산호3", "area": 83.49, "built": 1997, "date": "2025-01-10", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "301", "floor": 7, "jibun": "430-13", "price": 15500}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2025-01-10", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "101", "floor": 15, "jibun": "101-6", "price": 5900}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2025-01-12", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 5, "jibun": "227-8", "price": 11000}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-01-16", "deal_type": "직거래", "dong": "소흘읍 초가팔리", "dong_no": "106", "floor": 15, "jibun": "336", "price": 11000}
+{"apt": "원일산호2", "area": 59.95, "built": 1995, "date": "2025-01-17", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "201", "floor": 3, "jibun": "430-8", "price": 13900}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-01-20", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "104", "floor": 13, "jibun": "336", "price": 10900}
+{"apt": "한신", "area": 84.98, "built": 1997, "date": "2025-01-23", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 9, "jibun": "227-8", "price": 14800}
+{"apt": "골든주택", "area": 84.99, "built": 1990, "date": "2025-01-24", "deal_type": "중개거래", "dong": "신북면 가채리", "floor": 4, "jibun": "829-6", "price": 9500}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2025-02-03", "deal_type": "직거래", "dong": "신북면 기지리", "dong_no": "103", "floor": 13, "jibun": "101-6", "price": 5500}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2025-02-04", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "105", "floor": 6, "jibun": "150", "price": 13000}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2025-02-05", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "104", "floor": 9, "jibun": "101-6", "price": 5800}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-02-08", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "105", "floor": 8, "jibun": "336", "price": 12500}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-02-09", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "105", "floor": 9, "jibun": "336", "price": 11600}
+{"apt": "원일산호", "area": 82.05, "built": 1993, "date": "2025-02-10", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "104", "floor": 7, "jibun": "150", "price": 20000}
+{"apt": "원일5차", "area": 44.64, "built": 1996, "date": "2025-02-12", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "501", "floor": 4, "jibun": "430-10", "price": 11000}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2025-02-12", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 7, "jibun": "227-8", "price": 11000}
+{"apt": "원일산호2", "area": 59.95, "built": 1995, "date": "2025-02-13", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "201", "floor": 1, "jibun": "430-8", "price": 13000}
+{"apt": "원일산호", "area": 82.05, "built": 1993, "date": "2025-02-15", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "104", "floor": 5, "jibun": "150", "price": 15800}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2025-02-17", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "10동", "floor": 8, "jibun": "392-13", "price": 15900}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2025-02-18", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "102", "floor": 7, "jibun": "101-6", "price": 5000}
+{"apt": "동영", "area": 59.99, "built": 1991, "date": "2025-02-18", "deal_type": "직거래", "dong": "영북면 운천리", "dong_no": "나", "floor": 2, "jibun": "554-70", "price": 4700}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2025-02-19", "deal_type": "직거래", "dong": "신읍동", "dong_no": "101", "floor": 12, "jibun": "295-23", "price": 8000}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2025-02-21", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "3동", "floor": 14, "jibun": "392-13", "price": 13000}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2025-02-21", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "101", "floor": 3, "jibun": "101-6", "price": 4800}
+{"apt": "현대", "area": 84.97, "built": 1996, "date": "2025-02-22", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 11, "jibun": "235-11", "price": 13000}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2025-02-23", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 2, "jibun": "227-8", "price": 12200}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2025-02-24", "deal_type": "직거래", "dong": "소흘읍 송우리", "dong_no": "9동", "floor": 5, "jibun": "392-13", "price": 20000}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-02-24", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "104", "floor": 2, "jibun": "336", "price": 12000}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-02-24", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "104", "floor": 13, "jibun": "336", "price": 11800}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2025-02-26", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2", "floor": 4, "jibun": "222-51", "price": 12700}
+{"apt": "원일산호", "area": 130.22, "built": 1993, "date": "2025-03-01", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "102", "floor": 9, "jibun": "150", "price": 26000}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2025-03-01", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2", "floor": 14, "jibun": "222-51", "price": 13500}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-03-02", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "104", "floor": 8, "jibun": "336", "price": 11000}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2025-03-03", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2", "floor": 14, "jibun": "222-51", "price": 14500}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2025-03-03", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "10동", "floor": 1, "jibun": "392-13", "price": 14000}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2025-03-04", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1동", "floor": 11, "jibun": "392-13", "price": 16700}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-03-06", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "101", "floor": 11, "jibun": "336", "price": 11400}
+{"apt": "우신", "area": 59.76, "built": 1997, "date": "2025-03-07", "deal_type": "중개거래", "dong": "신북면 계류리", "floor": 4, "jibun": "29-4", "price": 4300}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2025-03-10", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "104", "floor": 3, "jibun": "101-6", "price": 5500}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2025-03-12", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "101", "floor": 13, "jibun": "101-6", "price": 5700}
+{"apt": "현대", "area": 59.94, "built": 1996, "date": "2025-03-12", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 3, "jibun": "235-11", "price": 11500}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2025-03-13", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1동", "floor": 11, "jibun": "392-13", "price": 16900}
+{"apt": "원일산호2", "area": 59.95, "built": 1995, "date": "2025-03-15", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "201", "floor": 3, "jibun": "430-8", "price": 13700}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-03-16", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "104", "floor": 14, "jibun": "336", "price": 12000}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2025-03-16", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 14, "jibun": "295-23", "price": 8500}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2025-03-17", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "106", "floor": 6, "jibun": "150", "price": 13000}
+{"apt": "동영", "area": 59.99, "built": 1991, "date": "2025-03-18", "deal_type": "직거래", "dong": "영북면 운천리", "dong_no": "나", "floor": 2, "jibun": "554-70", "price": 6000}
+{"apt": "동영", "area": 59.99, "built": 1991, "date": "2025-03-18", "deal_type": "중개거래", "dong": "영북면 운천리", "dong_no": "나", "floor": 5, "jibun": "554-70", "price": 2900}
+{"apt": "동영", "area": 59.99, "built": 1991, "date": "2025-03-20", "deal_type": "직거래", "dong": "영북면 운천리", "dong_no": "나", "floor": 1, "jibun": "554-70", "price": 4400}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-03-22", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "106", "floor": 14, "jibun": "336", "price": 11900}
+{"apt": "은하", "area": 54.9, "built": 1985, "date": "2025-03-22", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "A", "floor": 1, "jibun": "167-4", "price": 7200}
+{"apt": "동영", "area": 84.94, "built": 1991, "date": "2025-03-23", "deal_type": "직거래", "dong": "영북면 운천리", "dong_no": "가", "floor": 3, "jibun": "554-70", "price": 5500}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2025-03-25", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "9동", "floor": 18, "jibun": "392-13", "price": 14300}
+{"apt": "은하", "area": 54.9, "built": 1985, "date": "2025-03-25", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "A", "floor": 1, "jibun": "167-4", "price": 7200}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2025-03-26", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "3동", "floor": 11, "jibun": "392-13", "price": 13200}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2025-03-27", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "105", "floor": 6, "jibun": "150", "price": 13000}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2025-03-28", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "3동", "floor": 1, "jibun": "392-13", "price": 10500}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2025-03-31", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "101", "floor": 12, "jibun": "101-6", "price": 7000}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2025-03-31", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 5, "jibun": "295-23", "price": 8200}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2025-04-01", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2", "floor": 20, "jibun": "222-51", "price": 13600}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2025-04-02", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2", "floor": 4, "jibun": "222-51", "price": 14700}
+{"apt": "일신", "area": 59.86, "built": 1993, "date": "2025-04-02", "deal_type": "직거래", "dong": "소흘읍 송우리", "dong_no": "2", "floor": 6, "jibun": "505-8", "price": 13000}
+{"apt": "골든주택", "area": 54.95, "built": 1990, "date": "2025-04-02", "deal_type": "중개거래", "dong": "신북면 가채리", "floor": 4, "jibun": "829-6", "price": 4100}
+{"apt": "우신", "area": 59.76, "built": 1997, "date": "2025-04-03", "deal_type": "중개거래", "dong": "신북면 계류리", "floor": 7, "jibun": "29-4", "price": 6200}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2025-04-06", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "8동", "floor": 16, "jibun": "392-13", "price": 17000}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2025-04-07", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 8, "jibun": "227-8", "price": 11400}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2025-04-09", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "103", "floor": 7, "jibun": "336", "price": 8500}
+{"apt": "현대", "area": 59.94, "built": 1996, "date": "2025-04-11", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 8, "jibun": "235-11", "price": 11500}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2025-04-14", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "106", "floor": 9, "jibun": "150", "price": 13000}
+{"apt": "은하", "area": 46.92, "built": 1985, "date": "2025-04-14", "deal_type": "직거래", "dong": "신읍동", "dong_no": "B", "floor": 2, "jibun": "167-4", "price": 6800}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2025-04-15", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 6, "jibun": "336", "price": 8000}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2025-04-20", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "7동", "floor": 6, "jibun": "392-13", "price": 13000}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2025-04-21", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 8, "jibun": "336", "price": 9000}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2025-04-25", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "105", "floor": 5, "jibun": "150", "price": 12800}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2025-04-25", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 6, "jibun": "222-51", "price": 14000}
+{"apt": "포천예원프라자", "area": 81.99, "built": 1997, "date": "2025-04-25", "deal_type": "중개거래", "dong": "신읍동", "floor": 13, "jibun": "43-18", "price": 7900}
+{"apt": "골든", "area": 59.34, "built": 1993, "date": "2025-04-25", "deal_type": "직거래", "dong": "신읍동", "dong_no": "나", "floor": 8, "jibun": "9-4", "price": 8260}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2025-05-01", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 1, "jibun": "295-23", "price": 7800}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2025-05-02", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 12, "jibun": "336", "price": 9300}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-05-02", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "101", "floor": 5, "jibun": "336", "price": 11800}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2025-05-03", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "101", "floor": 13, "jibun": "101-6", "price": 6000}
+{"apt": "은하", "area": 54.9, "built": 1985, "date": "2025-05-03", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "A", "floor": 5, "jibun": "167-4", "price": 5500}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2025-05-06", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "106", "floor": 1, "jibun": "150", "price": 9800}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2025-05-09", "deal_type": "직거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 11, "jibun": "336", "price": 8500}
+{"apt": "현대", "area": 84.97, "built": 1996, "date": "2025-05-09", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 10, "jibun": "235-11", "price": 14800}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2025-05-10", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "3동", "floor": 6, "jibun": "392-13", "price": 14000}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-05-14", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "106", "floor": 10, "jibun": "336", "price": 11200}
+{"apt": "한국", "area": 67.2, "built": 1993, "date": "2025-05-15", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 7, "jibun": "295-23", "price": 8000}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2025-05-19", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "103", "floor": 3, "jibun": "336", "price": 7800}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2025-05-20", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "3동", "floor": 9, "jibun": "392-13", "price": 13200}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2025-05-24", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 11, "jibun": "336", "price": 8150}
+{"apt": "우신", "area": 59.76, "built": 1997, "date": "2025-05-26", "deal_type": "중개거래", "dong": "신북면 계류리", "floor": 1, "jibun": "29-4", "price": 4000}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2025-05-28", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "103", "floor": 4, "jibun": "336", "price": 8300}
+{"apt": "원일산호", "area": 130.22, "built": 1993, "date": "2025-06-02", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "101", "floor": 8, "jibun": "150", "price": 27700}
+{"apt": "골든", "area": 59.34, "built": 1993, "date": "2025-06-06", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "나", "floor": 8, "jibun": "9-4", "price": 9300}
+{"apt": "우신", "area": 59.76, "built": 1997, "date": "2025-06-09", "deal_type": "직거래", "dong": "신북면 계류리", "floor": 1, "jibun": "29-4", "price": 5500}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2025-06-09", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "102", "floor": 12, "jibun": "101-6", "price": 5800}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2025-06-10", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 15, "jibun": "336", "price": 8800}
+{"apt": "우신", "area": 59.76, "built": 1997, "date": "2025-06-10", "deal_type": "직거래", "dong": "신북면 계류리", "floor": 2, "jibun": "29-4", "price": 5500}
+{"apt": "원일산호", "area": 82.05, "built": 1993, "date": "2025-06-11", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "103", "floor": 9, "jibun": "150", "price": 16000}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-06-12", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "107", "floor": 5, "jibun": "336", "price": 11000}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2025-06-13", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 12, "jibun": "222-51", "price": 14500}
+{"apt": "원일5차", "area": 44.64, "built": 1996, "date": "2025-06-16", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "501", "floor": 5, "jibun": "430-10", "price": 10800}
+{"apt": "은하", "area": 46.92, "built": 1985, "date": "2025-06-17", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "B", "floor": 3, "jibun": "167-4", "price": 5500}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2025-06-18", "deal_type": "직거래", "dong": "소흘읍 초가팔리", "dong_no": "103", "floor": 5, "jibun": "336", "price": 8000}
+{"apt": "한신", "area": 78.02, "built": 1997, "date": "2025-06-21", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 9, "jibun": "227-8", "price": 13500}
+{"apt": "한국", "area": 117.9, "built": 1993, "date": "2025-06-24", "deal_type": "직거래", "dong": "신읍동", "dong_no": "101", "floor": 11, "jibun": "295-23", "price": 11956}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2025-06-29", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "3동", "floor": 4, "jibun": "392-13", "price": 13000}
+{"apt": "우신", "area": 59.76, "built": 1997, "date": "2025-07-03", "deal_type": "중개거래", "dong": "신북면 계류리", "floor": 9, "jibun": "29-4", "price": 5000}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2025-07-05", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1동", "floor": 14, "jibun": "392-13", "price": 19500}
+{"apt": "한국개나리", "area": 84.99, "built": 1994, "date": "2025-07-08", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 14, "jibun": "222-51", "price": 18300}
+{"apt": "원일산호2", "area": 59.95, "built": 1995, "date": "2025-07-12", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "201", "floor": 6, "jibun": "430-8", "price": 13900}
+{"apt": "원일산호", "area": 82.05, "built": 1993, "date": "2025-07-22", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "103", "floor": 12, "jibun": "150", "price": 15900}
+{"apt": "골든주택", "area": 84.99, "built": 1990, "date": "2025-07-22", "deal_type": "직거래", "dong": "신북면 가채리", "floor": 6, "jibun": "829-6", "price": 7129}
+{"apt": "현대", "area": 84.97, "built": 1996, "date": "2025-07-22", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 10, "jibun": "235-11", "price": 17000}
+{"apt": "천보", "area": 63.0, "built": 1992, "date": "2025-07-22", "deal_type": "직거래", "dong": "영북면 운천리", "dong_no": "B", "floor": 1, "jibun": "481-5", "price": 5000}
+{"apt": "골든주택", "area": 84.99, "built": 1990, "date": "2025-07-23", "deal_type": "중개거래", "dong": "신북면 가채리", "floor": 1, "jibun": "829-6", "price": 8800}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2025-07-24", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 12, "jibun": "222-51", "price": 13500}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2025-07-24", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 3, "jibun": "295-23", "price": 8500}
+{"apt": "우신", "area": 59.76, "built": 1997, "date": "2025-07-28", "deal_type": "직거래", "dong": "신북면 계류리", "floor": 1, "jibun": "29-4", "price": 4000}
+{"apt": "원일산호", "area": 82.05, "built": 1993, "date": "2025-07-29", "deal_type": "직거래", "dong": "소흘읍 송우리", "floor": 4, "jibun": "150", "price": 18000}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2025-08-02", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "7동", "floor": 3, "jibun": "392-13", "price": 12200}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2025-08-07", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 20, "jibun": "222-51", "price": 13300}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-08-07", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "104", "floor": 13, "jibun": "336", "price": 12000}
+{"apt": "한국개나리", "area": 84.99, "built": 1994, "date": "2025-08-08", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 4, "jibun": "222-51", "price": 14650}
+{"apt": "원일산호2", "area": 70.92, "built": 1995, "date": "2025-08-11", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "201", "floor": 7, "jibun": "430-8", "price": 16300}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2025-08-12", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "3동", "floor": 7, "jibun": "392-13", "price": 12500}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2025-08-13", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "5동", "floor": 5, "jibun": "392-13", "price": 13000}
+{"apt": "금용로얄(203,204동)", "area": 42.45, "built": 1989, "date": "2025-08-15", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "204", "floor": 5, "jibun": "222-30", "price": 8500}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2025-08-15", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 20, "jibun": "222-51", "price": 13900}
+{"apt": "은하", "area": 54.9, "built": 1985, "date": "2025-08-16", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "A", "floor": 2, "jibun": "167-4", "price": 7500}
+{"apt": "원일산호", "area": 82.05, "built": 1993, "date": "2025-08-18", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "104", "floor": 13, "jibun": "150", "price": 20750}
+{"apt": "원일산호", "area": 82.05, "built": 1993, "date": "2025-08-20", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "103", "floor": 12, "jibun": "150", "price": 15300}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2025-08-29", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "10동", "floor": 12, "jibun": "392-13", "price": 15600}
+{"apt": "한국", "area": 69.84, "built": 1993, "date": "2025-08-30", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 1, "jibun": "295-23", "price": 8250}
+{"apt": "골든", "area": 59.34, "built": 1993, "date": "2025-09-02", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "나", "floor": 2, "jibun": "9-4", "price": 7500}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2025-09-03", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 14, "jibun": "227-8", "price": 12350}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2025-09-08", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "103", "floor": 7, "jibun": "336", "price": 8850}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2025-09-09", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 3, "jibun": "295-23", "price": 8000}
+{"apt": "금용로얄(203,204동)", "area": 55.14, "built": 1989, "date": "2025-09-11", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "204", "floor": 1, "jibun": "222-30", "price": 11400}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2025-09-13", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 16, "jibun": "227-8", "price": 11700}
+{"apt": "한국", "area": 59.28, "built": 1993, "date": "2025-09-17", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 9, "jibun": "295-23", "price": 8000}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-09-19", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "104", "floor": 3, "jibun": "336", "price": 11700}
+{"apt": "우신", "area": 59.76, "built": 1997, "date": "2025-09-20", "deal_type": "중개거래", "dong": "신북면 계류리", "floor": 6, "jibun": "29-4", "price": 5800}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2025-09-22", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "102", "floor": 7, "jibun": "101-6", "price": 5400}
+{"apt": "상운", "area": 50.16, "built": 1997, "date": "2025-09-25", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "102", "floor": 13, "jibun": "336", "price": 9000}
+{"apt": "은하", "area": 54.9, "built": 1985, "date": "2025-09-25", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "A", "floor": 3, "jibun": "167-4", "price": 7300}
+{"apt": "한국", "area": 69.84, "built": 1993, "date": "2025-09-27", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 13, "jibun": "295-23", "price": 9900}
+{"apt": "원일산호", "area": 59.4, "built": 1993, "date": "2025-09-29", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "105", "floor": 1, "jibun": "150", "price": 14500}
+{"apt": "한신", "area": 84.98, "built": 1997, "date": "2025-10-02", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 11, "jibun": "227-8", "price": 15000}
+{"apt": "한신", "area": 59.96, "built": 1997, "date": "2025-10-10", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 2, "jibun": "227-8", "price": 12400}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-10-13", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "105", "floor": 2, "jibun": "336", "price": 12000}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2025-10-15", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "11동", "floor": 12, "jibun": "392-13", "price": 15800}
+{"apt": "동영", "area": 59.99, "built": 1991, "date": "2025-10-17", "deal_type": "직거래", "dong": "영북면 운천리", "dong_no": "나", "floor": 3, "jibun": "554-70", "price": 4200}
+{"apt": "상운", "area": 59.37, "built": 1997, "date": "2025-10-19", "deal_type": "중개거래", "dong": "소흘읍 초가팔리", "dong_no": "104", "floor": 9, "jibun": "336", "price": 11300}
+{"apt": "현대", "area": 59.94, "built": 1996, "date": "2025-10-19", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "101", "floor": 6, "jibun": "235-11", "price": 11300}
+{"apt": "원일산호", "area": 130.22, "built": 1993, "date": "2025-10-20", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "102", "floor": 9, "jibun": "150", "price": 25000}
+{"apt": "전원우정아파트", "area": 84.97, "built": 1997, "date": "2025-10-23", "deal_type": "직거래", "dong": "소흘읍 송우리", "dong_no": "11동", "floor": 1, "jibun": "392-13", "price": 15642}
+{"apt": "한국개나리", "area": 59.31, "built": 1994, "date": "2025-10-24", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 12, "jibun": "222-51", "price": 15000}
+{"apt": "신포천", "area": 44.22, "built": 1995, "date": "2025-10-24", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "104", "floor": 8, "jibun": "101-6", "price": 4400}
+{"apt": "일신", "area": 59.86, "built": 1993, "date": "2025-10-30", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "1", "floor": 4, "jibun": "505-8", "price": 11500}
+{"apt": "신포천", "area": 50.67, "built": 1995, "date": "2025-10-30", "deal_type": "중개거래", "dong": "신북면 기지리", "dong_no": "101", "floor": 4, "jibun": "101-6", "price": 4900}
+{"apt": "전원우정아파트", "area": 59.94, "built": 1997, "date": "2025-10-31", "deal_type": "중개거래", "dong": "소흘읍 송우리", "dong_no": "2동", "floor": 4, "jibun": "392-13", "price": 13800}
+{"apt": "현대", "area": 84.97, "built": 1996, "date": "2025-10-31", "deal_type": "중개거래", "dong": "신읍동", "dong_no": "102", "floor": 15, "jibun": "235-11", "price": 10800}

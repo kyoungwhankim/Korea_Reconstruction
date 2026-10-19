@@ -1,0 +1,15 @@
+{"id":"28237100005656",
+"name":"삼미십정아파트",
+"basis":"단지",
+"by_area":[{"area":39,"pyeong":11.8,"n":1,"median":10000,"min":10000,"max":10000,"latest_price":10000,"latest_date":"2026-03-02","latest_floor":1,"jeonse_n":1,"wolse_n":1,"jeonse_median":7400,"jeonse_min":7400,"jeonse_max":7400,"jeonse_latest":7400,"jeonse_latest_date":"2026-05-15","jeonse_ratio":74.0,"wolse_deposit_median":500,"wolse_monthly_median":40}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-02-29",38.52,4,8500,null,"직거래",1988],
+["2024-04-02",38.52,4,11400,null,"직거래",1988],
+["2025-03-27",38.52,4,9500,null,"직거래",1988],
+["2025-04-09",38.52,1,9000,null,"중개거래",1988],
+["2026-03-02",38.52,1,10000,null,"중개거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-15",38.52,5,7400,0,"신규","26.05~28.05",null],
+["2026-09-08",38.52,4,500,40,"신규","26.09~28.09",null]
+]}}

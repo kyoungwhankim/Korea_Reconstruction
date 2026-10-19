@@ -1,0 +1,13 @@
+{"id":"11170100248284",
+"name":"원효전자상가아파트",
+"basis":"단지",
+"by_area":[{"area":56,"pyeong":16.9,"n":1,"median":110000,"min":110000,"max":110000,"latest_price":110000,"latest_date":"2026-05-09","latest_floor":3}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-04-11",77.42,2,70000,null,"중개거래",1974],
+["2024-09-05",55.76,4,78000,null,"중개거래",1974],
+["2024-10-21",55.77,2,78000,null,"중개거래",1974],
+["2025-06-18",55.77,3,110000,null,"중개거래",1974],
+["2026-05-09",55.77,3,110000,null,"중개거래",1974]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

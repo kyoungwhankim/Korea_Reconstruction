@@ -1,0 +1,14 @@
+{"id":"41590100007405",
+"name":"문영아파트",
+"basis":"단지",
+"by_area":[{"area":71,"pyeong":21.5,"n":2,"median":6915,"min":6630,"max":7200,"latest_price":6630,"latest_date":"2026-02-26","latest_floor":4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":65}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-30",61.2,5,7800,null,"중개거래",1990],
+["2024-09-21",71.34,2,7500,null,"중개거래",1990],
+["2024-09-24",71.34,2,8300,null,"중개거래",1990],
+["2026-02-25",71.34,4,7200,null,"중개거래",1990],
+["2026-02-26",71.34,4,6630,null,"직거래",1990]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-07-07",71.34,3,500,65,"신규","26.07~28.07",null]
+]}}

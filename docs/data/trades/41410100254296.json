@@ -1,0 +1,11 @@
+{"id":"41410100254296",
+"name":"주공매화14(임대)",
+"basis":null,
+"by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":280,"wolse_monthly_median":6},{"area":31,"pyeong":9.4,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":326,"wolse_monthly_median":6}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-01",31.32,5,326,7,"갱신","26.01~27.12",null],
+["2026-04-15",31.32,5,326,6,"신규","26.04~28.05",null],
+["2026-08-18",26.37,4,280,6,"신규","26.08~28.09",null]
+]}}

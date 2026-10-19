@@ -1,0 +1,12 @@
+{"id":"41220100007237",
+"name":"동아아파트",
+"basis":"단지",
+"by_area":[{"area":59,"pyeong":17.8,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":750,"wolse_monthly_median":37}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-06-03",59.43,1,13000,null,"직거래",1985],
+["2024-09-14",59.49,1,13000,null,"중개거래",1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-03",59.49,2,500,40,"신규","26.02~28.02",null],
+["2026-02-27",59.43,4,1000,35,"신규","26.03~28.03",null]
+]}}

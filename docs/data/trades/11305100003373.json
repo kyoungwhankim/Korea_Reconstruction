@@ -1,0 +1,12 @@
+{"id":"11305100003373",
+"name":"성원그린아파트",
+"basis":"단지",
+"by_area":[{"area":85,"pyeong":25.7,"jeonse_n":2,"wolse_n":0,"jeonse_median":34500,"jeonse_min":34000,"jeonse_max":35000,"jeonse_latest":35000,"jeonse_latest_date":"2026-01-19"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-05-15",84.77,1,40000,"103","중개거래",1995],
+["2025-07-15",84.77,1,49500,"103","중개거래",1995]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-06",84.77,3,34000,0,"갱신","25.11~27.11",null],
+["2026-01-19",84.77,4,35000,0,"신규","26.03~28.03",null]
+]}}

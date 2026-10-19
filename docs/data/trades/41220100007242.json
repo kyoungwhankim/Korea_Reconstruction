@@ -1,0 +1,10 @@
+{"id":"41220100007242",
+"name":"대옥한미8아파트",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-01-26",84.15,2,15000,"1","중개거래",1992],
+["2024-12-18",84.15,9,17100,"1","중개거래",1992]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

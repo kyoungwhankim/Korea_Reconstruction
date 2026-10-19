@@ -1,0 +1,11 @@
+{"id":"41500100008241",
+"name":"상호2아파트",
+"basis":"단지",
+"by_area":[{"area":60,"pyeong":18.1,"n":2,"median":7200,"min":7000,"max":7400,"latest_price":7400,"latest_date":"2026-04-15","latest_floor":7}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-01-15",60.0,8,7100,"2","중개거래",1995],
+["2025-12-18",60.0,1,7000,"2","중개거래",1995],
+["2026-04-15",60.0,7,7400,"2","직거래",1995]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

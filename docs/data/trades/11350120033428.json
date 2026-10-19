@@ -1,0 +1,9 @@
+{"id":"11350120033428",
+"name":"중계동주공영구임대(1단지)",
+"basis":null,
+"by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":290,"wolse_monthly_median":6}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-15",26.37,12,290,6,"갱신","26.02~28.01",null]
+]}}

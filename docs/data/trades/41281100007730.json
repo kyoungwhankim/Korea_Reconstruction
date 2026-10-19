@@ -1,0 +1,10 @@
+{"id":"41281100007730",
+"name":"동원(580-11)",
+"basis":null,
+"by_area":[{"area":53,"pyeong":16.0,"jeonse_n":1,"wolse_n":1,"jeonse_median":7500,"jeonse_min":7500,"jeonse_max":7500,"jeonse_latest":7500,"jeonse_latest_date":"2026-09-10","wolse_deposit_median":13000,"wolse_monthly_median":20}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-08-12",52.92,2,13000,20,"신규","26.10~28.10",null],
+["2026-09-10",52.92,5,7500,0,"신규","26.10~28.10",null]
+]}}

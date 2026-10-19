@@ -1,0 +1,16 @@
+{"id":"11410100000480",
+"name":"혜우아파트",
+"basis":"단지",
+"by_area":[{"area":99,"pyeong":29.9,"n":1,"median":64800,"min":64800,"max":64800,"latest_price":64800,"latest_date":"2026-03-14","latest_floor":17,"jeonse_n":1,"wolse_n":0,"jeonse_median":50000,"jeonse_min":50000,"jeonse_max":50000,"jeonse_latest":50000,"jeonse_latest_date":"2026-02-03","jeonse_ratio":77.2},{"area":126,"pyeong":38.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":10000,"wolse_monthly_median":250},{"area":129,"pyeong":39.0,"n":1,"median":84000,"min":84000,"max":84000,"latest_price":84000,"latest_date":"2026-02-02","latest_floor":17,"jeonse_n":1,"wolse_n":0,"jeonse_median":65500,"jeonse_min":65500,"jeonse_max":65500,"jeonse_latest":65500,"jeonse_latest_date":"2026-04-17","jeonse_ratio":78.0},{"area":130,"pyeong":39.3,"n":1,"median":85000,"min":85000,"max":85000,"latest_price":85000,"latest_date":"2026-02-02","latest_floor":16,"jeonse_n":1,"wolse_n":0,"jeonse_median":60000,"jeonse_min":60000,"jeonse_max":60000,"jeonse_latest":60000,"jeonse_latest_date":"2025-11-26","jeonse_ratio":70.6}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-07-20",129.9,17,84900,null,"중개거래",1996],
+["2026-02-02",129.27,17,84000,null,"중개거래",1996],
+["2026-02-02",129.9,16,85000,null,"중개거래",1996],
+["2026-03-14",98.89,17,64800,null,"중개거래",1996]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-26",129.9,16,60000,0,"신규","26.01~27.01",null],
+["2026-02-03",98.89,16,50000,0,"신규","26.02~28.02",null],
+["2026-03-30",125.7,19,10000,250,"신규","26.06~28.06",null],
+["2026-04-17",129.27,18,65500,0,"신규","26.08~28.08",null]
+]}}

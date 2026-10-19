@@ -1,0 +1,11 @@
+{"id":"11620100002171",
+"name":"윤정아파트",
+"basis":"단지",
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":1,"wolse_n":0,"jeonse_median":29000,"jeonse_min":29000,"jeonse_max":29000,"jeonse_latest":29000,"jeonse_latest_date":"2026-03-04"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-26",75.45,5,45000,null,"중개거래",1993],
+["2024-08-15",81.75,2,50000,null,"중개거래",1993]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-04",59.82,2,29000,0,"신규","26.03~28.03",null]
+]}}

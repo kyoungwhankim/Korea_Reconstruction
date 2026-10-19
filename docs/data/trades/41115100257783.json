@@ -1,0 +1,9 @@
+{"id":"41115100257783",
+"name":"무궁화아파트",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-07-01",47.7,3,15500,"나","중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

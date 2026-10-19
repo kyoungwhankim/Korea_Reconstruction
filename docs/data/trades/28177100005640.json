@@ -1,0 +1,10 @@
+{"id":"28177100005640",
+"name":"동일아파트",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-29",88.96,4,9800,null,"중개거래",1978],
+["2024-06-18",88.96,3,9500,null,"중개거래",1978]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

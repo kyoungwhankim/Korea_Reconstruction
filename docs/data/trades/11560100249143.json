@@ -1,0 +1,13 @@
+{"id":"11560100249143",
+"name":"대방a아파트",
+"basis":"단지",
+"by_area":[{"area":38,"pyeong":11.5,"n":1,"median":22000,"min":22000,"max":22000,"latest_price":22000,"latest_date":"2026-05-21","latest_floor":2}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-05-20",37.96,1,22300,null,"중개거래",1972],
+["2025-03-21",37.96,5,22000,null,"중개거래",1972],
+["2025-06-28",37.96,4,23700,null,"중개거래",1972],
+["2025-10-18",37.96,1,21700,null,"중개거래",1972],
+["2026-05-21",37.96,2,22000,null,"중개거래",1972]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

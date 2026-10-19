@@ -1,0 +1,12 @@
+{"id":"11140100000130",
+"name":"약수(372-2796)",
+"basis":"단지",
+"by_area":[{"area":53,"pyeong":16.0,"n":2,"median":26138,"min":26138,"max":26138,"latest_price":26138,"latest_date":"2026-09-21","latest_floor":4},{"area":65,"pyeong":19.7,"n":2,"median":32790,"min":32777,"max":32804,"latest_price":32804,"latest_date":"2026-09-21","latest_floor":7}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-09-21",52.93,2,26138,null,"중개거래",1969],
+["2026-09-21",52.93,4,26138,null,"중개거래",1969],
+["2026-09-21",65.02,3,32777,null,"중개거래",1969],
+["2026-09-21",65.02,7,32804,null,"중개거래",1969]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

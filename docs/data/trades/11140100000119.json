@@ -1,0 +1,9 @@
+{"id":"11140100000119",
+"name":"청계상가아파트",
+"basis":null,
+"by_area":[{"area":90,"pyeong":27.2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":200,"wolse_monthly_median":25}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-11",90.02,5,200,25,"신규","26.02~28.02",null]
+]}}

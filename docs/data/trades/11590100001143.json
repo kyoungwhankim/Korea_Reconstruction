@@ -1,0 +1,13 @@
+{"id":"11590100001143",
+"name":"보라매나산스위트아파트",
+"basis":"단지",
+"by_area":[{"area":220,"pyeong":66.5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":73500,"wolse_monthly_median":100}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-23",219.51,21,160000,null,"중개거래",1996],
+["2024-07-26",219.51,28,153000,null,"중개거래",1996],
+["2025-01-17",219.51,5,110000,null,"직거래",1996],
+["2025-02-05",219.51,27,149000,null,"중개거래",1996]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-07-04",219.51,12,73500,100,"갱신","26.09~28.09",true]
+]}}

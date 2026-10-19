@@ -1,0 +1,15 @@
+{"id":"28237100005770",
+"name":"백조(마)",
+"basis":"단지",
+"by_area":[{"area":51,"pyeong":15.4,"n":2,"median":14950,"min":14200,"max":15700,"latest_price":15700,"latest_date":"2026-08-30","latest_floor":1,"jeonse_n":1,"wolse_n":2,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2025-11-19","jeonse_ratio":66.9,"wolse_deposit_median":750,"wolse_monthly_median":60}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-09-07",50.94,4,13000,"마","중개거래",1983],
+["2024-11-04",50.94,5,15000,"마","중개거래",1983],
+["2025-12-08",50.94,4,14200,"마","중개거래",1983],
+["2026-08-30",50.94,1,15700,"마","중개거래",1983]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-19",50.94,4,10000,0,"신규","25.12~27.12",null],
+["2026-01-16",50.94,1,500,60,"신규","26.02~28.01",null],
+["2026-09-03",50.94,2,1000,60,"신규","26.09~28.09",null]
+]}}

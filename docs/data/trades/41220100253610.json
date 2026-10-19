@@ -1,0 +1,13 @@
+{"id":"41220100253610",
+"name":"광성아파트",
+"basis":"단지",
+"by_area":[{"area":42,"pyeong":12.7,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":45},{"area":50,"pyeong":15.1,"n":1,"median":5000,"min":5000,"max":5000,"latest_price":5000,"latest_date":"2026-08-12","latest_floor":2}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-12-29",51.75,1,6100,"가","중개거래",1989],
+["2024-05-08",49.83,1,5500,"나","중개거래",1989],
+["2024-10-10",49.83,2,5000,"나","직거래",1989],
+["2026-08-12",49.83,2,5000,null,"직거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-09-20",42.09,4,500,45,"신규","26.09~31.09",null]
+]}}

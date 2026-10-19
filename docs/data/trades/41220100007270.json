@@ -1,0 +1,13 @@
+{"id":"41220100007270",
+"name":"진성아파트",
+"basis":"단지",
+"by_area":[{"area":60,"pyeong":18.1,"n":1,"median":8150,"min":8150,"max":8150,"latest_price":8150,"latest_date":"2026-09-01","latest_floor":3,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":500,"wolse_monthly_median":60}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-10-20",60.12,4,7000,"A","중개거래",1984],
+["2026-09-01",60.12,3,8150,"B","중개거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-21",60.12,4,500,60,"신규","26.06~28.06",null],
+["2026-05-21",60.12,4,500,60,"신규","26.06~28.06",null],
+["2026-07-13",60.12,1,1000,60,"신규","26.07~28.07",null]
+]}}

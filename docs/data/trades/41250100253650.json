@@ -1,0 +1,14 @@
+{"id":"41250100253650",
+"name":"한영아파트",
+"basis":"단지",
+"by_area":[{"area":58,"pyeong":17.5,"n":1,"median":5300,"min":5300,"max":5300,"latest_price":5300,"latest_date":"2026-08-01","latest_floor":3,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3900,"wolse_monthly_median":10},{"area":59,"pyeong":17.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":40}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-01-16",57.93,5,4000,"A","중개거래",1992],
+["2024-09-03",57.93,5,3400,"A","중개거래",1992],
+["2024-12-21",57.93,4,3900,"B","중개거래",1992],
+["2026-08-01",57.93,3,5300,"A","중개거래",1992]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-11",59.46,2,1000,40,"신규","26.02~28.02",null],
+["2026-03-19",57.93,4,3900,10,"신규","26.08~28.08",null]
+]}}

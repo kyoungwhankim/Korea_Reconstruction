@@ -1,0 +1,16 @@
+{"id":"41670100007229",
+"name":"을성아파트",
+"basis":"단지",
+"by_area":[{"area":51,"pyeong":15.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":35},{"area":61,"pyeong":18.5,"n":2,"median":7000,"min":6000,"max":8000,"latest_price":6000,"latest_date":"2026-05-29","latest_floor":4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":100,"wolse_monthly_median":40}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-04-11",51.42,2,6000,"가","직거래",1986],
+["2024-08-19",51.42,1,5000,"가","직거래",1986],
+["2024-08-30",66.09,2,8900,"나","직거래",1986],
+["2025-04-07",66.09,3,8500,"나","중개거래",1986],
+["2025-12-15",60.69,2,8000,"가","직거래",1986],
+["2026-05-29",60.69,4,6000,"나","직거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-25",60.69,1,100,40,"신규","26.02~27.02",null],
+["2026-04-01",51.42,2,2000,35,"신규","26.04~28.04",null]
+]}}

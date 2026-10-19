@@ -1,0 +1,12 @@
+{"id":"11170100000840",
+"name":"강서아파트",
+"basis":"단지",
+"by_area":[{"area":51,"pyeong":15.4,"n":1,"median":129000,"min":129000,"max":129000,"latest_price":129000,"latest_date":"2025-11-22","latest_floor":1},{"area":54,"pyeong":16.3,"n":1,"median":145000,"min":145000,"max":145000,"latest_price":145000,"latest_date":"2026-02-10","latest_floor":4}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-03-06",54.25,3,68000,"나","중개거래",1972],
+["2025-03-23",53.26,1,95000,"가","중개거래",1972],
+["2025-11-22",50.88,1,129000,"나","중개거래",1972],
+["2026-02-10",54.25,4,145000,"나","중개거래",1972]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

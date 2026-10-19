@@ -1,0 +1,17 @@
+{"id":"28245100009522",
+"name":"백합아파트",
+"basis":"단지",
+"by_area":[{"area":56,"pyeong":16.9,"n":1,"median":15000,"min":15000,"max":15000,"latest_price":15000,"latest_date":"2026-07-09","latest_floor":3,"jeonse_n":3,"wolse_n":0,"jeonse_median":12500,"jeonse_min":12000,"jeonse_max":13200,"jeonse_latest":13200,"jeonse_latest_date":"2026-08-29","jeonse_ratio":83.3},{"area":58,"pyeong":17.5,"n":1,"median":13500,"min":13500,"max":13500,"latest_price":13500,"latest_date":"2026-04-28","latest_floor":5},{"area":59,"pyeong":17.8,"n":1,"median":13500,"min":13500,"max":13500,"latest_price":13500,"latest_date":"2025-12-19","latest_floor":4,"jeonse_n":1,"wolse_n":0,"jeonse_median":11655,"jeonse_min":11655,"jeonse_max":11655,"jeonse_latest":11655,"jeonse_latest_date":"2026-09-11","jeonse_ratio":86.3},{"area":62,"pyeong":18.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":59}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-07-19",61.92,4,11500,null,"직거래",1985],
+["2025-12-19",58.68,4,13500,null,"직거래",1985],
+["2026-04-28",58.5,5,13500,null,"중개거래",1985],
+["2026-07-09",55.62,3,15000,null,"중개거래",1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-13",55.62,2,12000,0,"신규","26.02~28.02",null],
+["2026-04-14",61.92,1,1000,59,"신규","26.04~28.04",null],
+["2026-07-14",55.62,4,12500,0,"신규","26.09~28.09",null],
+["2026-08-29",55.62,3,13200,0,"신규","26.10~28.10",null],
+["2026-09-11",58.68,1,11655,0,"갱신","26.10~28.10",true]
+]}}

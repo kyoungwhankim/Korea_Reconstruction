@@ -1,0 +1,15 @@
+{"id":"11215100003413",
+"name":"서원힐탑아파트",
+"basis":"단지",
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":1,"wolse_n":0,"jeonse_median":45000,"jeonse_min":45000,"jeonse_max":45000,"jeonse_latest":45000,"jeonse_latest_date":"2026-04-22"},{"area":79,"pyeong":23.9,"jeonse_n":1,"wolse_n":0,"jeonse_median":42000,"jeonse_min":42000,"jeonse_max":42000,"jeonse_latest":42000,"jeonse_latest_date":"2026-03-09"},{"area":85,"pyeong":25.7,"n":2,"median":68500,"min":65000,"max":72000,"latest_price":65000,"latest_date":"2026-04-22","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":10000,"wolse_monthly_median":150}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-02-24",84.57,6,70000,"나","중개거래",1994],
+["2025-04-17",59.88,1,63000,"가","중개거래",1994],
+["2026-04-04",84.57,1,72000,"나","중개거래",1994],
+["2026-04-22",84.81,1,65000,"가","중개거래",1994]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-09",79.41,8,42000,0,"갱신","26.04~28.04",true],
+["2026-04-22",59.85,5,45000,0,"신규","26.05~28.05",null],
+["2026-07-04",84.81,4,10000,150,"신규","26.10~28.10",null]
+]}}

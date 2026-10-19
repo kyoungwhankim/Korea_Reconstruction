@@ -1,0 +1,14 @@
+{"id":"28177100005644",
+"name":"수봉아파트",
+"basis":"단지",
+"by_area":[{"area":65,"pyeong":19.7,"n":1,"median":8000,"min":8000,"max":8000,"latest_price":8000,"latest_date":"2026-09-11","latest_floor":3,"jeonse_n":1,"wolse_n":0,"jeonse_median":6500,"jeonse_min":6500,"jeonse_max":6500,"jeonse_latest":6500,"jeonse_latest_date":"2026-01-17","jeonse_ratio":81.2},{"area":67,"pyeong":20.3,"n":1,"median":10000,"min":10000,"max":10000,"latest_price":10000,"latest_date":"2025-11-16","latest_floor":1},{"area":68,"pyeong":20.6,"jeonse_n":1,"wolse_n":0,"jeonse_median":4760,"jeonse_min":4760,"jeonse_max":4760,"jeonse_latest":4760,"jeonse_latest_date":"2026-01-11"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-09-06",53.65,4,10000,"A","직거래",1978],
+["2024-12-11",53.65,3,8500,"A","중개거래",1978],
+["2025-11-16",67.33,1,10000,"A","중개거래",1978],
+["2026-09-11",64.79,3,8000,"A","직거래",1978]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-11",67.8,5,4760,0,"신규","26.01~28.01",null],
+["2026-01-17",64.79,3,6500,0,"신규","26.02~28.02",null]
+]}}

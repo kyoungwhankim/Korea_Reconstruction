@@ -1,0 +1,12 @@
+{"id":"41370100007371",
+"name":"안국아파트",
+"basis":"단지",
+"by_area":[{"area":52,"pyeong":15.7,"n":1,"median":9000,"min":9000,"max":9000,"latest_price":9000,"latest_date":"2026-09-17","latest_floor":2}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-30",62.46,1,11700,"A","중개거래",1991],
+["2024-10-15",62.46,6,11000,"A","직거래",1991],
+["2025-06-15",62.46,5,11400,"A","중개거래",1991],
+["2026-09-17",51.75,2,9000,null,"중개거래",1991]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

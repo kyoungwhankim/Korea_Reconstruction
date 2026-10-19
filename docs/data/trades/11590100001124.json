@@ -1,0 +1,9 @@
+{"id":"11590100001124",
+"name":"인정아파트",
+"basis":null,
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":40}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-29",59.79,1,1000,40,"신규","26.01~26.05",null]
+]}}

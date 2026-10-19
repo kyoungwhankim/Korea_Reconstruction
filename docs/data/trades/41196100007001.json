@@ -1,0 +1,12 @@
+{"id":"41196100007001",
+"name":"천경(372-2)",
+"basis":"단지",
+"by_area":[{"area":55,"pyeong":16.6,"jeonse_n":1,"wolse_n":2,"jeonse_median":11000,"jeonse_min":11000,"jeonse_max":11000,"jeonse_latest":11000,"jeonse_latest_date":"2026-07-21","wolse_deposit_median":2000,"wolse_monthly_median":65}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-02-28",55.3,2,18900,null,"중개거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-04",55.3,3,3000,60,"신규","26.04~28.04",null],
+["2026-07-15",55.3,2,1000,70,"신규","26.10~28.10",null],
+["2026-07-21",55.3,2,11000,0,"신규","26.08~28.08",null]
+]}}

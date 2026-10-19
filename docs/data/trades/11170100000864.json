@@ -1,0 +1,9 @@
+{"id":"11170100000864",
+"name":"정우아파트",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-08-29",317.36,8,200000,null,"중개거래",1972]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

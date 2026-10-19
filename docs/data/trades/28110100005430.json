@@ -1,0 +1,12 @@
+{"id":"28110100005430",
+"name":"연안아파트",
+"basis":"단지",
+"by_area":[{"area":54,"pyeong":16.3,"n":3,"median":20000,"min":19500,"max":23000,"latest_price":20000,"latest_date":"2026-09-23","latest_floor":3}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-18",53.66,3,25000,"14","직거래",1983],
+["2026-05-28",53.66,2,19500,"5","직거래",1983],
+["2026-06-15",53.66,1,23000,"4","직거래",1983],
+["2026-09-23",53.66,3,20000,null,"직거래",1983]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

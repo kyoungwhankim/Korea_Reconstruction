@@ -1,0 +1,14 @@
+{"id":"28177100005572",
+"name":"경민아파트",
+"basis":"단지",
+"by_area":[{"area":59,"pyeong":17.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":45},{"area":61,"pyeong":18.5,"n":2,"median":16400,"min":15500,"max":17300,"latest_price":17300,"latest_date":"2026-06-14","latest_floor":1}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-01-02",60.72,4,16800,"가","중개거래",1984],
+["2025-06-25",59.04,1,15200,"나","중개거래",1984],
+["2025-10-27",60.72,5,18400,"가","중개거래",1984],
+["2026-05-19",60.72,1,15500,"가","중개거래",1984],
+["2026-06-14",60.72,1,17300,"가","중개거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-09-03",59.04,5,500,45,"신규","26.09~28.09",null]
+]}}

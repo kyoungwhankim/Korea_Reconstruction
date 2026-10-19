@@ -1,0 +1,10 @@
+{"id":"41500100008191",
+"name":"금성아파트",
+"basis":"단지",
+"by_area":[{"area":68,"pyeong":20.6,"jeonse_n":1,"wolse_n":0,"jeonse_median":9000,"jeonse_min":9000,"jeonse_max":9000,"jeonse_latest":9000,"jeonse_latest_date":"2026-04-14"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-05-02",68.22,1,11000,null,"중개거래",1990]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-14",68.22,3,9000,0,"신규","26.05~28.05",null]
+]}}

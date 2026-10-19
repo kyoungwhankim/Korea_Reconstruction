@@ -1,0 +1,13 @@
+{"id":"11350100002603",
+"name":"화인상가아파트",
+"basis":"단지",
+"by_area":[{"area":59,"pyeong":17.8,"n":1,"median":37800,"min":37800,"max":37800,"latest_price":37800,"latest_date":"2026-08-08","latest_floor":5},{"area":83,"pyeong":25.1,"jeonse_n":1,"wolse_n":1,"jeonse_median":46000,"jeonse_min":46000,"jeonse_max":46000,"jeonse_latest":46000,"jeonse_latest_date":"2026-02-28","wolse_deposit_median":100,"wolse_monthly_median":35}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-12-21",83.07,9,59000,null,"중개거래",1994],
+["2025-01-14",59.34,8,37000,null,"중개거래",1994],
+["2026-08-08",59.31,5,37800,null,"중개거래",1994]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-28",83.07,9,46000,0,"신규","26.04~28.04",null],
+["2026-09-05",83.19,10,100,35,"신규","26.09~28.09",null]
+]}}

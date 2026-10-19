@@ -1,0 +1,11 @@
+{"id":"41196100007004",
+"name":"한일아파트",
+"basis":"단지",
+"by_area":[{"area":55,"pyeong":16.6,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":60}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-02-04",54.9,4,21500,null,"중개거래",1987],
+["2024-02-16",56.94,5,15000,null,"직거래",1987]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-02",54.9,2,2000,60,"신규","26.03~28.03",null]
+]}}

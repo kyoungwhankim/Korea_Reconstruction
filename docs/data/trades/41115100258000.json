@@ -1,0 +1,17 @@
+{"id":"41115100258000",
+"name":"한효아파트",
+"basis":"단지",
+"by_area":[{"area":60,"pyeong":18.1,"n":2,"median":37750,"min":36800,"max":38700,"latest_price":36800,"latest_date":"2026-04-06","latest_floor":4,"jeonse_n":1,"wolse_n":1,"jeonse_median":19000,"jeonse_min":19000,"jeonse_max":19000,"jeonse_latest":19000,"jeonse_latest_date":"2026-09-16","jeonse_ratio":50.3,"wolse_deposit_median":3000,"wolse_monthly_median":60},{"area":74,"pyeong":22.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":100}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-07-24",59.71,7,23000,null,"직거래",1996],
+["2024-09-26",73.6,7,30500,null,"중개거래",1996],
+["2024-12-23",73.6,8,31000,null,"중개거래",1996],
+["2025-03-31",73.6,7,36000,null,"중개거래",1996],
+["2026-02-03",59.71,7,38700,null,"중개거래",1996],
+["2026-04-06",59.71,4,36800,null,"직거래",1996]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-11",59.71,6,3000,60,"신규","25.12~27.12",null],
+["2026-01-05",73.6,5,2000,100,"신규","26.01~28.01",null],
+["2026-09-16",59.71,6,19000,0,"신규","26.10~28.10",null]
+]}}

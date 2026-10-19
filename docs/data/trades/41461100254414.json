@@ -1,0 +1,12 @@
+{"id":"41461100254414",
+"name":"용인아파트",
+"basis":"단지",
+"by_area":[{"area":63,"pyeong":19.1,"n":2,"median":11500,"min":10000,"max":13000,"latest_price":13000,"latest_date":"2026-09-29","latest_floor":1}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-11",63.08,2,14000,"1","중개거래",1979],
+["2024-11-28",63.08,1,14500,"1","직거래",1979],
+["2026-01-19",63.08,3,10000,"1","중개거래",1979],
+["2026-09-29",63.08,1,13000,null,"중개거래",1979]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

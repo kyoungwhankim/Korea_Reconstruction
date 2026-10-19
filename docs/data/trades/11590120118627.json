@@ -1,0 +1,10 @@
+{"id":"11590120118627",
+"name":"대방2단지주공아파트",
+"basis":null,
+"by_area":[{"area":31,"pyeong":9.4,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1079,"wolse_monthly_median":13}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-21",31.32,10,1807,20,"갱신","26.06~28.05",null],
+["2026-08-11",31.32,9,351,7,"신규","26.09~28.09",null]
+]}}

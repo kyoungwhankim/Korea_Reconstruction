@@ -1,0 +1,11 @@
+{"id":"41287100600156",
+"name":"문촌7단지사회복지관",
+"basis":null,
+"by_area":[{"area":31,"pyeong":9.4,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":326,"wolse_monthly_median":6}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-23",31.32,6,326,6,"갱신","26.01~27.12",null],
+["2026-05-27",31.32,4,311,6,"신규","26.05~27.05",null],
+["2026-07-28",31.32,8,1270,17,"신규","26.07~28.08",null]
+]}}

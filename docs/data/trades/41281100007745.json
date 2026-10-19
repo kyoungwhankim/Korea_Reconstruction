@@ -1,0 +1,14 @@
+{"id":"41281100007745",
+"name":"윤창아파트",
+"basis":"단지",
+"by_area":[{"area":45,"pyeong":13.6,"n":2,"median":23017,"min":22535,"max":23500,"latest_price":23500,"latest_date":"2026-05-16","latest_floor":2,"jeonse_n":1,"wolse_n":0,"jeonse_median":11000,"jeonse_min":11000,"jeonse_max":11000,"jeonse_latest":11000,"jeonse_latest_date":"2026-04-17","jeonse_ratio":47.8}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-12-11",44.89,4,19035,null,"중개거래",1988],
+["2023-12-12",44.89,4,18000,null,"중개거래",1988],
+["2023-12-16",44.89,4,19000,null,"중개거래",1988],
+["2026-02-11",44.89,4,22535,null,"중개거래",1988],
+["2026-05-16",44.89,2,23500,null,"중개거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-17",44.89,4,11000,0,"신규","26.04~28.04",null]
+]}}

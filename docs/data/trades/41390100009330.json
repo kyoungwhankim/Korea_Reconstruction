@@ -1,0 +1,17 @@
+{"id":"41390100009330",
+"name":"동우아파트",
+"basis":"단지",
+"by_area":[{"area":47,"pyeong":14.2,"jeonse_n":1,"wolse_n":2,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-02-19","wolse_deposit_median":1000,"wolse_monthly_median":46},{"area":51,"pyeong":15.4,"jeonse_n":1,"wolse_n":2,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-01-12","wolse_deposit_median":1250,"wolse_monthly_median":42}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-09-06",51.0,5,28000,"가","중개거래",1986],
+["2024-10-14",44.19,1,28700,"나","중개거래",1986],
+["2025-08-29",47.04,1,28500,"가","중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-12",50.74,5,10000,0,"신규","26.03~28.03",null],
+["2026-01-19",47.04,1,1000,50,"신규","26.01~28.01",null],
+["2026-02-19",47.04,1,10000,0,"신규","26.02~28.02",null],
+["2026-04-11",51.0,3,2000,40,"신규","26.05~28.05",null],
+["2026-05-23",51.0,4,500,45,"신규","26.06~28.06",null],
+["2026-05-26",47.04,5,1000,43,"신규","26.08~28.08",null]
+]}}

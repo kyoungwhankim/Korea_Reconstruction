@@ -1,0 +1,9 @@
+{"id":"41135100255512",
+"name":"목련마을주공1단지아파트",
+"basis":null,
+"by_area":[{"area":31,"pyeong":9.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2083,"wolse_monthly_median":15}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-26",31.32,1,2083,15,"갱신","26.03~28.02",null]
+]}}

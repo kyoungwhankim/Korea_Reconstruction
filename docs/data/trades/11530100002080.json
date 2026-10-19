@@ -1,0 +1,14 @@
+{"id":"11530100002080",
+"name":"시티월드아파트",
+"basis":"단지",
+"by_area":[{"area":82,"pyeong":24.8,"n":1,"median":42900,"min":42900,"max":42900,"latest_price":42900,"latest_date":"2026-08-20","latest_floor":17},{"area":85,"pyeong":25.7,"n":2,"median":42500,"min":42000,"max":43000,"latest_price":43000,"latest_date":"2026-05-05","latest_floor":16,"jeonse_n":1,"wolse_n":0,"jeonse_median":35280,"jeonse_min":35280,"jeonse_max":35280,"jeonse_latest":35280,"jeonse_latest_date":"2026-08-13","jeonse_ratio":83.0}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-11-04",84.89,16,42000,"시티월드상가및아파트","중개거래",1993],
+["2025-02-03",84.89,10,42500,"시티월드상가및아파트","중개거래",1993],
+["2026-02-12",84.89,11,42000,"시티월드상가및아파트","중개거래",1993],
+["2026-05-05",84.89,16,43000,"시티월드상가및아파트","중개거래",1993],
+["2026-08-20",81.84,17,42900,null,"중개거래",1993]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-08-13",84.89,14,35280,0,"신규","26.09~27.09",null]
+]}}

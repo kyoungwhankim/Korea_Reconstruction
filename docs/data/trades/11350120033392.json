@@ -1,0 +1,12 @@
+{"id":"11350120033392",
+"name":"중계3단지주공영구임대아파트",
+"basis":null,
+"by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":4,"wolse_deposit_median":807,"wolse_monthly_median":11}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-14",26.37,9,1325,17,"갱신","25.12~27.11",null],
+["2026-01-14",26.37,3,276,5,"신규","26.01~27.04",null],
+["2026-04-10",26.37,5,1325,17,"신규","26.04~27.11",null],
+["2026-09-15",26.37,9,290,6,"갱신","26.10~28.09",null]
+]}}

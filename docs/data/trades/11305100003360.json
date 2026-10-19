@@ -1,0 +1,10 @@
+{"id":"11305100003360",
+"name":"대림(수유)",
+"basis":"단지",
+"by_area":[{"area":78,"pyeong":23.6,"n":1,"median":48000,"min":48000,"max":48000,"latest_price":48000,"latest_date":"2026-06-27","latest_floor":9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":31000,"wolse_monthly_median":15}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-06-27",78.35,9,48000,null,"중개거래",1994]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-20",78.35,6,31000,15,"갱신","26.03~28.03",null]
+]}}

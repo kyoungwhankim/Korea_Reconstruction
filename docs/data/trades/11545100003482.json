@@ -1,0 +1,10 @@
+{"id":"11545100003482",
+"name":"목화101아파트",
+"basis":"단지",
+"by_area":[{"area":60,"pyeong":18.1,"n":1,"median":41000,"min":41000,"max":41000,"latest_price":41000,"latest_date":"2026-05-23","latest_floor":4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":5000,"wolse_monthly_median":130}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-05-23",59.95,4,41000,null,"중개거래",1996]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-07-29",59.95,3,5000,130,"신규","26.08~28.08",null]
+]}}

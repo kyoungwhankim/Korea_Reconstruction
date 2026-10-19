@@ -1,0 +1,14 @@
+{"id":"서울-강서구-칠성연립",
+"name":"칠성연립",
+"basis":"기존 단지",
+"by_area":[{"area":61,"pyeong":18.5,"n":1,"median":65000,"min":65000,"max":65000,"latest_price":65000,"latest_date":"2026-04-04","latest_floor":2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":5000,"wolse_monthly_median":175},{"area":71,"pyeong":21.5,"jeonse_n":2,"wolse_n":0,"jeonse_median":47625,"jeonse_min":47250,"jeonse_max":48000,"jeonse_latest":47250,"jeonse_latest_date":"2026-09-22"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-09-02",61.14,3,64500,null,"중개거래",2010],
+["2025-03-21",61.14,4,61000,null,"중개거래",2010],
+["2026-04-04",61.14,2,65000,null,"중개거래",2010]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-26",61.14,3,5000,175,"신규","26.02~28.02",null],
+["2026-03-03",70.54,7,48000,0,"신규","26.03~28.03",null],
+["2026-09-22",70.54,1,47250,0,"갱신","26.10~28.10",true]
+]}}

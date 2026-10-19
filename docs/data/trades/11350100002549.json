@@ -1,0 +1,14 @@
+{"id":"11350100002549",
+"name":"청구3아파트",
+"basis":"단지",
+"by_area":[{"area":85,"pyeong":25.7,"n":1,"median":76000,"min":76000,"max":76000,"latest_price":76000,"latest_date":"2026-02-12","latest_floor":9,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":20000,"wolse_monthly_median":134}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-11-06",84.99,2,65000,null,"중개거래",1996],
+["2024-11-11",84.99,3,71000,null,"중개거래",1996],
+["2025-07-26",84.99,4,69500,null,"중개거래",1996],
+["2026-02-12",84.99,9,76000,null,"중개거래",1996]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-08",84.99,11,10000,165,"신규","26.02~28.02",null],
+["2026-01-22",84.99,3,30000,104,"갱신","26.01~27.01",null]
+]}}

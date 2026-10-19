@@ -1,0 +1,13 @@
+{"id":"11650100002792",
+"name":"신반포26아파트",
+"basis":null,
+"by_area":[{"area":116,"pyeong":35.1,"jeonse_n":1,"wolse_n":0,"jeonse_median":117000,"jeonse_min":117000,"jeonse_max":117000,"jeonse_latest":117000,"jeonse_latest_date":"2026-02-20"},{"area":143,"pyeong":43.3,"jeonse_n":2,"wolse_n":2,"jeonse_median":115000,"jeonse_min":110000,"jeonse_max":120000,"jeonse_latest":110000,"jeonse_latest_date":"2026-08-30","wolse_deposit_median":47500,"wolse_monthly_median":300}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-28",142.54,7,75000,200,"신규","25.12~27.12",null],
+["2026-01-06",142.54,2,20000,400,"신규","26.01~31.01",null],
+["2026-01-13",142.54,1,120000,0,"신규","26.02~28.02",null],
+["2026-02-20",115.83,1,117000,0,"신규","26.05~28.04",null],
+["2026-08-30",142.54,3,110000,0,"갱신","26.08~28.08",null]
+]}}

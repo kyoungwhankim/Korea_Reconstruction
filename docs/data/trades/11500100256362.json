@@ -1,0 +1,9 @@
+{"id":"11500100256362",
+"name":"등촌9단지영구임대아파트",
+"basis":null,
+"by_area":[{"area":31,"pyeong":9.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1734,"wolse_monthly_median":20}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-09-14",31.32,3,1734,20,"갱신","26.10~28.09",null]
+]}}

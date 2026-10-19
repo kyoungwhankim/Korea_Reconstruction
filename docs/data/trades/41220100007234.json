@@ -1,0 +1,14 @@
+{"id":"41220100007234",
+"name":"성환아파트",
+"basis":"단지",
+"by_area":[{"area":40,"pyeong":12.1,"n":3,"median":8600,"min":8000,"max":8700,"latest_price":8000,"latest_date":"2026-03-27","latest_floor":5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":300,"wolse_monthly_median":42}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-05-28",39.96,1,7000,null,"중개거래",1986],
+["2025-07-19",39.96,5,8700,null,"중개거래",1986],
+["2025-12-15",39.96,5,8700,null,"직거래",1986],
+["2026-03-13",39.96,3,8600,null,"중개거래",1986],
+["2026-03-27",39.96,5,8000,null,"직거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-16",39.96,2,300,42,"신규","25.12~26.12",null]
+]}}

@@ -1,0 +1,13 @@
+{"id":"41220100007233",
+"name":"성신아파트",
+"basis":"단지",
+"by_area":[{"area":43,"pyeong":13.0,"n":1,"median":4500,"min":4500,"max":4500,"latest_price":4500,"latest_date":"2026-08-12","latest_floor":2}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-06-12",40.5,4,6700,null,"중개거래",1988],
+["2024-06-14",46.32,5,7000,null,"중개거래",1988],
+["2024-11-05",40.5,4,6700,null,"직거래",1988],
+["2024-11-05",46.32,5,7000,null,"직거래",1988],
+["2026-08-12",42.6,2,4500,null,"직거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

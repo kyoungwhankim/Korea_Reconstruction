@@ -1,0 +1,11 @@
+{"id":"41650100008166",
+"name":"원풍2차아파트",
+"basis":"단지",
+"by_area":[{"area":78,"pyeong":23.6,"n":2,"median":7350,"min":7000,"max":7700,"latest_price":7000,"latest_date":"2026-06-06","latest_floor":2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1500,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-11-01",78.3,2,7700,"A","중개거래",1992],
+["2026-06-06",78.3,2,7000,"A","직거래",1992]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-05",78.3,2,1500,50,"신규","26.01~28.01",null]
+]}}

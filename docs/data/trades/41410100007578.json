@@ -1,0 +1,16 @@
+{"id":"41410100007578",
+"name":"대흥아파트",
+"basis":"단지",
+"by_area":[{"area":59,"pyeong":17.8,"n":1,"median":32000,"min":32000,"max":32000,"latest_price":32000,"latest_date":"2026-07-31","latest_floor":3,"jeonse_n":2,"wolse_n":1,"jeonse_median":16000,"jeonse_min":15000,"jeonse_max":17000,"jeonse_latest":17000,"jeonse_latest_date":"2026-07-07","jeonse_ratio":50.0,"wolse_deposit_median":4000,"wolse_monthly_median":70},{"area":63,"pyeong":19.1,"jeonse_n":1,"wolse_n":0,"jeonse_median":23000,"jeonse_min":23000,"jeonse_max":23000,"jeonse_latest":23000,"jeonse_latest_date":"2026-04-28"},{"area":71,"pyeong":21.5,"n":1,"median":29800,"min":29800,"max":29800,"latest_price":29800,"latest_date":"2026-04-02","latest_floor":2,"jeonse_n":1,"wolse_n":0,"jeonse_median":22000,"jeonse_min":22000,"jeonse_max":22000,"jeonse_latest":22000,"jeonse_latest_date":"2026-01-22","jeonse_ratio":73.8}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-01-20",59.49,5,25100,"A","중개거래",1990],
+["2026-04-02",71.46,2,29800,"B","직거래",1990],
+["2026-07-31",59.49,3,32000,"A","중개거래",1990]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-22",71.46,2,22000,0,"신규","26.02~28.02",null],
+["2026-04-18",59.49,5,15000,0,"신규","26.06~28.06",null],
+["2026-04-28",63.18,2,23000,0,"신규","26.06~28.06",null],
+["2026-07-07",59.49,6,17000,0,"신규","26.07~28.07",null],
+["2026-09-18",59.49,3,4000,70,"신규","26.11~28.11",null]
+]}}

@@ -1,0 +1,15 @@
+{"id":"28237100005658",
+"name":"수정아파트",
+"basis":"단지",
+"by_area":[{"area":55,"pyeong":16.6,"n":1,"median":15000,"min":15000,"max":15000,"latest_price":15000,"latest_date":"2026-04-24","latest_floor":4},{"area":56,"pyeong":16.9,"n":2,"median":13100,"min":11900,"max":14300,"latest_price":14300,"latest_date":"2026-09-15","latest_floor":3,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":700,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-07-02",55.89,3,13000,null,"중개거래",1985],
+["2024-07-29",55.35,1,13500,null,"중개거래",1985],
+["2024-11-02",55.89,5,12000,null,"중개거래",1985],
+["2026-04-24",55.35,4,15000,null,"직거래",1985],
+["2026-07-13",55.89,2,11900,null,"중개거래",1985],
+["2026-09-15",55.89,3,14300,null,"중개거래",1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-02",55.89,5,700,50,"신규","25.12~27.12",null]
+]}}

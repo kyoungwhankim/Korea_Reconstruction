@@ -1,0 +1,16 @@
+{"id":"41550100008506",
+"name":"화성하이츠아파트",
+"basis":"단지",
+"by_area":[{"area":69,"pyeong":20.9,"n":1,"median":9700,"min":9700,"max":9700,"latest_price":9700,"latest_date":"2026-01-07","latest_floor":2,"jeonse_n":1,"wolse_n":0,"jeonse_median":6500,"jeonse_min":6500,"jeonse_max":6500,"jeonse_latest":6500,"jeonse_latest_date":"2025-12-15","jeonse_ratio":67.0},{"area":75,"pyeong":22.7,"n":3,"median":10300,"min":9300,"max":10500,"latest_price":9300,"latest_date":"2026-06-10","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":70}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-01-29",69.3,1,10200,null,"중개거래",1990],
+["2025-03-10",79.8,2,11500,null,"직거래",1990],
+["2026-01-02",74.52,4,10300,null,"중개거래",1990],
+["2026-01-07",69.3,2,9700,null,"직거래",1990],
+["2026-02-23",74.52,3,10500,null,"직거래",1990],
+["2026-06-10",74.52,1,9300,null,"직거래",1990]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-15",74.52,3,1000,70,"신규","25.12~26.12",null],
+["2025-12-15",69.3,1,6500,0,"신규","26.01~28.01",null]
+]}}

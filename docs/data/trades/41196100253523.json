@@ -1,0 +1,13 @@
+{"id":"41196100253523",
+"name":"대성아파트",
+"basis":"단지",
+"by_area":[{"area":49,"pyeong":14.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":68}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-06-20",49.32,1,15700,null,"중개거래",1987],
+["2024-09-14",49.32,2,15000,null,"중개거래",1987],
+["2024-12-09",49.32,4,18000,null,"중개거래",1987],
+["2025-05-20",49.32,5,13000,null,"중개거래",1987]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-31",49.32,2,500,68,"신규","26.03~28.03",null]
+]}}

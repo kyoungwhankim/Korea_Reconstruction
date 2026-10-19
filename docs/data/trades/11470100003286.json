@@ -1,0 +1,15 @@
+{"id":"11470100003286",
+"name":"보성주상복합아파트",
+"basis":"단지",
+"by_area":[{"area":60,"pyeong":18.1,"n":1,"median":74000,"min":74000,"max":74000,"latest_price":74000,"latest_date":"2026-05-28","latest_floor":9,"jeonse_n":1,"wolse_n":1,"jeonse_median":39000,"jeonse_min":39000,"jeonse_max":39000,"jeonse_latest":39000,"jeonse_latest_date":"2025-11-15","jeonse_ratio":52.7,"wolse_deposit_median":10000,"wolse_monthly_median":138},{"area":85,"pyeong":25.7,"n":2,"median":80350,"min":77700,"max":83000,"latest_price":83000,"latest_date":"2026-05-14","latest_floor":4}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-08-05",59.73,11,57500,null,"중개거래",1996],
+["2024-08-15",59.73,11,56000,null,"중개거래",1996],
+["2026-04-25",84.93,5,77700,null,"중개거래",1996],
+["2026-05-14",84.93,4,83000,null,"중개거래",1996],
+["2026-05-28",59.73,9,74000,null,"중개거래",1996]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-15",59.73,9,39000,0,"신규","25.12~27.12",null],
+["2026-06-03",59.73,9,10000,138,"갱신","26.06~28.06",true]
+]}}

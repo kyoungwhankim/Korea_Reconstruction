@@ -1,0 +1,13 @@
+{"id":"41196100007038",
+"name":"신영아파트",
+"basis":"단지",
+"by_area":[{"area":51,"pyeong":15.4,"n":1,"median":12000,"min":12000,"max":12000,"latest_price":12000,"latest_date":"2025-12-02","latest_floor":1,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":2000,"wolse_monthly_median":47}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-11-25",51.0,5,14500,"1","직거래",1990],
+["2025-02-24",51.0,1,15500,"1","중개거래",1990],
+["2025-12-02",51.0,1,12000,"1","직거래",1990]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-28",51.0,2,3000,50,"신규","26.03~28.03",null],
+["2026-08-24",51.0,1,1000,45,"신규","26.10~28.10",null]
+]}}

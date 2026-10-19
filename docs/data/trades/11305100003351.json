@@ -1,0 +1,14 @@
+{"id":"11305100003351",
+"name":"훼밀리힐아파트",
+"basis":"단지",
+"by_area":[{"area":59,"pyeong":17.8,"n":2,"median":31500,"min":30000,"max":33000,"latest_price":33000,"latest_date":"2026-05-02","latest_floor":4,"jeonse_n":3,"wolse_n":0,"jeonse_median":23000,"jeonse_min":20000,"jeonse_max":23100,"jeonse_latest":23100,"jeonse_latest_date":"2026-09-29","jeonse_ratio":73.0},{"area":79,"pyeong":23.9,"n":1,"median":47000,"min":47000,"max":47000,"latest_price":47000,"latest_date":"2026-09-21","latest_floor":8}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-02-09",59.16,9,30000,"101","중개거래",1996],
+["2026-05-02",59.16,4,33000,"101","중개거래",1996],
+["2026-09-21",78.84,8,47000,null,"중개거래",1996]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-01",59.16,14,20000,0,"신규","26.06~28.06",null],
+["2026-08-24",59.16,11,23000,0,"갱신","26.09~28.09",null],
+["2026-09-29",59.16,8,23100,0,"갱신","26.11~28.11",true]
+]}}

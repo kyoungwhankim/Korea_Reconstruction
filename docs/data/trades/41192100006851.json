@@ -1,0 +1,13 @@
+{"id":"41192100006851",
+"name":"동성아파트",
+"basis":"단지",
+"by_area":[{"area":42,"pyeong":12.7,"n":2,"median":18633,"min":18491,"max":18775,"latest_price":18775,"latest_date":"2026-09-15","latest_floor":3,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":100,"wolse_monthly_median":40},{"area":52,"pyeong":15.7,"n":1,"median":23879,"min":23879,"max":23879,"latest_price":23879,"latest_date":"2026-09-15","latest_floor":4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":300,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-09-15",41.52,1,18491,"가","직거래",1987],
+["2026-09-15",41.52,3,18775,"가","직거래",1987],
+["2026-09-15",52.47,4,23879,"가","직거래",1987]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-14",52.47,1,300,50,"신규","26.04~26.10",null],
+["2026-04-06",41.52,1,100,40,"신규","26.04~26.07",null]
+]}}

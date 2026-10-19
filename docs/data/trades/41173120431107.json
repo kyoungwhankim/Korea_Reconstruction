@@ -1,0 +1,14 @@
+{"id":"41173120431107",
+"name":"신태양(B동)",
+"basis":"단지",
+"by_area":[{"area":52,"pyeong":15.7,"n":1,"median":35000,"min":35000,"max":35000,"latest_price":35000,"latest_date":"2026-03-14","latest_floor":4,"jeonse_n":1,"wolse_n":4,"jeonse_median":18500,"jeonse_min":18500,"jeonse_max":18500,"jeonse_latest":18500,"jeonse_latest_date":"2026-07-03","jeonse_ratio":52.9,"wolse_deposit_median":11500,"wolse_monthly_median":42}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-03-14",52.37,4,35000,null,"중개거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-17",52.37,2,1000,70,"신규","25.11~27.11",null],
+["2026-03-29",52.37,3,20000,15,"신규","26.07~28.07",null],
+["2026-03-29",52.37,3,20000,15,"신규","26.08~28.08",null],
+["2026-04-14",52.37,4,3000,70,"신규","26.06~28.06",null],
+["2026-07-03",52.37,5,18500,0,"갱신","26.07~28.07",null]
+]}}

@@ -1,0 +1,11 @@
+{"id":"11440100000753",
+"name":"대성2차아파트",
+"basis":null,
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":1,"wolse_n":2,"jeonse_median":31000,"jeonse_min":31000,"jeonse_max":31000,"jeonse_latest":31000,"jeonse_latest_date":"2026-06-24","wolse_deposit_median":3500,"wolse_monthly_median":137}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-20",59.78,6,2000,150,"신규","26.05~28.05",null],
+["2026-06-24",59.78,4,31000,0,"신규","26.06~28.06",null],
+["2026-06-27",59.78,1,5000,125,"갱신","26.06~29.04",true]
+]}}

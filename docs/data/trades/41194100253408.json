@@ -1,0 +1,9 @@
+{"id":"41194100253408",
+"name":"경원아파트",
+"basis":null,
+"by_area":[{"area":62,"pyeong":18.8,"jeonse_n":1,"wolse_n":0,"jeonse_median":9000,"jeonse_min":9000,"jeonse_max":9000,"jeonse_latest":9000,"jeonse_latest_date":"2026-05-25"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-25",62.28,3,9000,0,"신규","26.07~28.07",null]
+]}}

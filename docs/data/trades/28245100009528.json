@@ -1,0 +1,9 @@
+{"id":"28245100009528",
+"name":"성우아파트",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-06-04",51.31,3,18000,"2","중개거래",1982]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

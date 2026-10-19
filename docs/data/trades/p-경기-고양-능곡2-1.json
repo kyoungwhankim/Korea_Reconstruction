@@ -1,0 +1,11 @@
+{"id":"경기-고양-능곡2-1",
+"name":"능곡 2-1",
+"basis":"기존 단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]},
+"silv":{"cols":["date","area","floor","price","kind","type"],"rows":[
+["2024-06-27",84.93,19,78000,"분양권","중개거래"]
+]}}

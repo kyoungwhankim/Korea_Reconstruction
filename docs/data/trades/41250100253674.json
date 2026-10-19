@@ -1,0 +1,13 @@
+{"id":"41250100253674",
+"name":"한전아파트(A동)",
+"basis":"단지",
+"by_area":[{"area":53,"pyeong":16.0,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":30}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-01-24",46.74,4,5300,"A","중개거래",1989],
+["2024-04-20",52.59,3,6400,"A","중개거래",1989],
+["2024-07-27",52.59,4,5200,"A","중개거래",1989],
+["2024-08-14",63.99,5,5000,"A","직거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-08-15",52.59,1,500,30,"신규","26.08~28.08",null]
+]}}

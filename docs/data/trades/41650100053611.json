@@ -1,0 +1,14 @@
+{"id":"41650100053611",
+"name":"금용로얄(305,306동)",
+"basis":"단지",
+"by_area":[{"area":61,"pyeong":18.5,"n":2,"median":11000,"min":10300,"max":11700,"latest_price":10300,"latest_date":"2026-03-25","latest_floor":3,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":68,"pyeong":20.6,"jeonse_n":1,"wolse_n":0,"jeonse_median":9500,"jeonse_min":9500,"jeonse_max":9500,"jeonse_latest":9500,"jeonse_latest_date":"2025-11-22"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-02-25",61.44,1,12800,"305","중개거래",1989],
+["2024-11-08",61.44,2,12250,"305","중개거래",1989],
+["2026-01-08",61.44,2,11700,"305","중개거래",1989],
+["2026-03-25",61.44,3,10300,"305","직거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-22",68.48,3,9500,0,"신규","25.12~27.12",null],
+["2026-04-30",61.44,5,1000,50,"신규","26.06~28.06",null]
+]}}

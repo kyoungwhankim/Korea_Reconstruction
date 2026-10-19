@@ -1,0 +1,11 @@
+{"id":"28177100005478",
+"name":"국일아파트",
+"basis":"단지",
+"by_area":[{"area":55,"pyeong":16.6,"n":1,"median":11000,"min":11000,"max":11000,"latest_price":11000,"latest_date":"2026-06-23","latest_floor":5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-09-13",54.9,5,9500,"나","중개거래",1983],
+["2026-06-23",54.9,5,11000,"나","중개거래",1983]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-08-01",54.9,1,1000,50,"신규","26.09~28.09",null]
+]}}

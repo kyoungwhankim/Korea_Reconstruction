@@ -1,0 +1,17 @@
+{"id":"11410100000502",
+"name":"광산아파트",
+"basis":"단지",
+"by_area":[{"area":53,"pyeong":16.0,"jeonse_n":4,"wolse_n":0,"jeonse_median":17500,"jeonse_min":14000,"jeonse_max":18000,"jeonse_latest":14000,"jeonse_latest_date":"2026-08-17"},{"area":54,"pyeong":16.3,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3000,"wolse_monthly_median":50},{"area":57,"pyeong":17.2,"n":1,"median":41200,"min":41200,"max":41200,"latest_price":41200,"latest_date":"2026-07-07","latest_floor":4},{"area":71,"pyeong":21.5,"n":2,"median":43950,"min":42900,"max":45000,"latest_price":42900,"latest_date":"2026-07-03","latest_floor":6}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-10-23",56.76,1,37500,"비동","중개거래",1973],
+["2026-02-12",70.64,3,45000,"에이","중개거래",1973],
+["2026-07-03",70.64,6,42900,null,"중개거래",1973],
+["2026-07-07",56.76,4,41200,"비동","중개거래",1973]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-27",52.53,6,17000,0,"갱신","25.12~26.04",true],
+["2026-01-05",53.52,6,3000,50,"신규","26.01~28.01",null],
+["2026-04-03",52.53,6,18000,0,"신규","26.04~28.04",null],
+["2026-04-03",52.53,6,18000,0,"신규","26.04~28.04",null],
+["2026-08-17",53.45,6,14000,0,"신규","26.11~28.11",null]
+]}}

@@ -1,0 +1,10 @@
+{"id":"11170100000809",
+"name":"후암맨션",
+"basis":"단지",
+"by_area":[{"area":72,"pyeong":21.8,"jeonse_n":1,"wolse_n":0,"jeonse_median":25000,"jeonse_min":25000,"jeonse_max":25000,"jeonse_latest":25000,"jeonse_latest_date":"2026-08-19"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-05-16",72.13,2,78000,null,"중개거래",1974]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-08-19",72.13,3,25000,0,"신규","26.11~28.11",null]
+]}}

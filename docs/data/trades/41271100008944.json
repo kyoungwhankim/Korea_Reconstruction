@@ -1,0 +1,17 @@
+{"id":"41271100008944",
+"name":"대보나동아파트",
+"basis":"단지",
+"by_area":[{"area":48,"pyeong":14.5,"n":4,"median":11900,"min":9500,"max":13400,"latest_price":13400,"latest_date":"2026-09-10","latest_floor":2,"jeonse_n":1,"wolse_n":0,"jeonse_median":8150,"jeonse_min":8150,"jeonse_max":8150,"jeonse_latest":8150,"jeonse_latest_date":"2026-02-09","jeonse_ratio":68.5},{"area":53,"pyeong":16.0,"jeonse_n":1,"wolse_n":0,"jeonse_median":9000,"jeonse_min":9000,"jeonse_max":9000,"jeonse_latest":9000,"jeonse_latest_date":"2026-03-18"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-01-20",48.24,1,11700,"나","중개거래",1989],
+["2024-05-17",48.24,1,13000,"나","중개거래",1989],
+["2024-07-24",48.24,1,12900,"나","중개거래",1989],
+["2026-03-12",48.24,1,9500,"나","직거래",1989],
+["2026-04-14",48.24,3,10400,"나","직거래",1989],
+["2026-07-20",47.88,1,13400,"나","중개거래",1989],
+["2026-09-10",48.24,2,13400,null,"중개거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-09",48.24,2,8150,0,"신규","26.03~28.03",null],
+["2026-03-18",52.92,3,9000,0,"신규","26.05~27.05",null]
+]}}

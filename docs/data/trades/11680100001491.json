@@ -1,0 +1,9 @@
+{"id":"11680100001491",
+"name":"럭키(462)",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-02-15",79.89,1,228000,"1","중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

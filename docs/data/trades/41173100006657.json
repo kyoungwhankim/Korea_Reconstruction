@@ -1,0 +1,10 @@
+{"id":"41173100006657",
+"name":"청운아파트",
+"basis":"단지",
+"by_area":[{"area":50,"pyeong":15.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":60}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-05-01",49.68,4,67000,null,"중개거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-26",49.68,5,1000,60,"신규","26.06~28.06",null]
+]}}

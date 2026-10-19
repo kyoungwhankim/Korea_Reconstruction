@@ -1,0 +1,15 @@
+{"id":"11560100001069",
+"name":"성락아파트",
+"basis":"단지",
+"by_area":[{"area":38,"pyeong":11.5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":60},{"area":69,"pyeong":20.9,"n":1,"median":46500,"min":46500,"max":46500,"latest_price":46500,"latest_date":"2026-06-11","latest_floor":10},{"area":70,"pyeong":21.2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":5000,"wolse_monthly_median":100},{"area":72,"pyeong":21.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":12000,"wolse_monthly_median":80},{"area":74,"pyeong":22.4,"n":1,"median":50000,"min":50000,"max":50000,"latest_price":50000,"latest_date":"2026-06-19","latest_floor":8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3000,"wolse_monthly_median":125}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-08-30",31.87,9,22000,null,"중개거래",1989],
+["2026-06-11",69.46,10,46500,null,"중개거래",1989],
+["2026-06-19",73.63,8,50000,null,"중개거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-27",73.63,9,3000,125,"신규","25.12~27.12",null],
+["2026-04-10",38.24,10,2000,60,"신규","26.06~28.06",null],
+["2026-04-16",70.38,1,5000,100,"신규","26.04~28.04",null],
+["2026-04-19",72.32,2,12000,80,"신규","26.04~28.04",null]
+]}}

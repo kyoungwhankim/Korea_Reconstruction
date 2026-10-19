@@ -1,0 +1,10 @@
+{"id":"41111100005985",
+"name":"동우아파트",
+"basis":"단지",
+"by_area":[{"area":79,"pyeong":23.9,"n":1,"median":19500,"min":19500,"max":19500,"latest_price":19500,"latest_date":"2026-09-10","latest_floor":6}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-09-11",84.96,5,19500,null,"중개거래",1989],
+["2026-09-10",79.38,6,19500,null,"중개거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

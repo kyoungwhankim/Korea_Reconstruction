@@ -1,0 +1,14 @@
+{"id":"41287120020730",
+"name":"일산동원(23-55)",
+"basis":"단지",
+"by_area":[{"area":41,"pyeong":12.4,"n":1,"median":13500,"min":13500,"max":13500,"latest_price":13500,"latest_date":"2026-03-11","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":40},{"area":50,"pyeong":15.1,"jeonse_n":1,"wolse_n":0,"jeonse_median":12000,"jeonse_min":12000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-04-03"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-02-20",41.22,5,13700,"가","중개거래",1989],
+["2025-03-11",49.59,1,10500,"가","직거래",1989],
+["2025-04-29",41.22,1,13000,"가","중개거래",1989],
+["2026-03-11",41.22,1,13500,"가","직거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-03",49.59,5,12000,0,"신규","26.05~28.05",null],
+["2026-07-07",41.22,3,1000,40,"신규","26.07~28.07",null]
+]}}

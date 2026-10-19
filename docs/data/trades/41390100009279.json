@@ -1,0 +1,17 @@
+{"id":"41390100009279",
+"name":"광덕2차아파트",
+"basis":"단지",
+"by_area":[{"area":62,"pyeong":18.8,"jeonse_n":1,"wolse_n":1,"jeonse_median":12500,"jeonse_min":12500,"jeonse_max":12500,"jeonse_latest":12500,"jeonse_latest_date":"2026-08-25","wolse_deposit_median":2000,"wolse_monthly_median":80},{"area":81,"pyeong":24.5,"n":2,"median":25950,"min":25000,"max":26900,"latest_price":26900,"latest_date":"2026-08-08","latest_floor":10,"jeonse_n":2,"wolse_n":0,"jeonse_median":18000,"jeonse_min":15000,"jeonse_max":21000,"jeonse_latest":15000,"jeonse_latest_date":"2026-06-23","jeonse_ratio":69.4}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-21",62.46,9,21800,null,"중개거래",1991],
+["2024-05-18",62.46,5,16000,null,"중개거래",1991],
+["2025-01-03",80.64,10,25000,null,"중개거래",1991],
+["2026-04-14",80.64,11,25000,null,"중개거래",1991],
+["2026-08-08",80.64,10,26900,null,"중개거래",1991]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-12",80.64,3,21000,0,"신규","25.12~27.12",null],
+["2026-03-12",62.46,11,2000,80,"신규","26.06~28.06",null],
+["2026-06-23",80.64,8,15000,0,"신규","26.09~28.09",null],
+["2026-08-25",62.46,1,12500,0,"신규","26.10~28.10",null]
+]}}

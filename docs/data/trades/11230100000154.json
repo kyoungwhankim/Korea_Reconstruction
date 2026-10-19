@@ -1,0 +1,11 @@
+{"id":"11230100000154",
+"name":"홍파아파트",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-05-28",63.9,3,64000,null,"중개거래",1971],
+["2025-08-01",61.72,4,70500,null,"중개거래",1971],
+["2025-10-04",39.67,5,73800,null,"중개거래",1971]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

@@ -1,0 +1,12 @@
+{"id":"28237100005725",
+"name":"현광아파트",
+"basis":"단지",
+"by_area":[{"area":53,"pyeong":16.0,"jeonse_n":1,"wolse_n":0,"jeonse_median":13000,"jeonse_min":13000,"jeonse_max":13000,"jeonse_latest":13000,"jeonse_latest_date":"2026-06-27"},{"area":62,"pyeong":18.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3000,"wolse_monthly_median":65}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-12-02",53.31,3,16800,null,"중개거래",1994],
+["2024-07-08",53.31,1,15300,null,"중개거래",1994]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-21",62.31,1,3000,65,"신규","26.03~28.03",null],
+["2026-06-27",53.31,1,13000,0,"신규","26.07~28.07",null]
+]}}

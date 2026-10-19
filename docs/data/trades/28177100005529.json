@@ -1,0 +1,11 @@
+{"id":"28177100005529",
+"name":"성락아파트",
+"basis":"단지",
+"by_area":[{"area":45,"pyeong":13.6,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":500,"wolse_monthly_median":33}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-04-27",42.61,1,10000,"가","중개거래",1981]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-10-01",44.71,1,500,33,"신규","26.10~27.10",null],
+["2026-10-01",44.71,1,500,33,"신규","26.10~27.10",null]
+]}}

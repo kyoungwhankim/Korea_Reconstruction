@@ -1,0 +1,14 @@
+{"id":"41115120000268",
+"name":"화서맨션나동아파트",
+"basis":"단지",
+"by_area":[{"area":72,"pyeong":21.8,"jeonse_n":1,"wolse_n":1,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-02-28","wolse_deposit_median":14000,"wolse_monthly_median":45}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-02-18",71.6,4,22500,"나","중개거래",1980],
+["2025-02-21",71.6,1,20700,"나","중개거래",1980],
+["2025-03-06",71.6,4,23500,"나","중개거래",1980],
+["2025-09-05",71.6,3,22200,"나","중개거래",1980]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-28",71.6,2,10000,0,"갱신","26.02~28.02",null],
+["2026-07-28",71.6,2,14000,45,"신규","26.08~28.08",null]
+]}}

@@ -1,0 +1,13 @@
+{"id":"41220100007285",
+"name":"매봉아파트",
+"basis":"단지",
+"by_area":[{"area":59,"pyeong":17.8,"n":1,"median":12000,"min":12000,"max":12000,"latest_price":12000,"latest_date":"2026-02-10","latest_floor":2,"jeonse_n":1,"wolse_n":1,"jeonse_median":6500,"jeonse_min":6500,"jeonse_max":6500,"jeonse_latest":6500,"jeonse_latest_date":"2026-06-18","jeonse_ratio":54.2,"wolse_deposit_median":300,"wolse_monthly_median":60}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-26",59.29,4,12500,"A","직거래",1986],
+["2025-02-14",59.29,4,9000,"B","직거래",1986],
+["2026-02-10",59.29,2,12000,"A","중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-02",59.29,5,300,60,"신규","26.04~28.04",null],
+["2026-06-18",59.29,5,6500,0,"신규","26.06~28.06",null]
+]}}

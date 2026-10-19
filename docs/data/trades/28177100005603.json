@@ -1,0 +1,14 @@
+{"id":"28177100005603",
+"name":"석암(991-11)",
+"basis":"단지",
+"by_area":[{"area":71,"pyeong":21.5,"jeonse_n":1,"wolse_n":0,"jeonse_median":12000,"jeonse_min":12000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-05-09"},{"area":74,"pyeong":22.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":60}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-07-11",66.54,1,14000,null,"중개거래",1984],
+["2025-04-14",71.22,4,14500,null,"중개거래",1984],
+["2025-06-14",71.22,2,14000,null,"중개거래",1984],
+["2025-07-10",66.54,1,15200,null,"중개거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-09",71.22,2,12000,0,"신규","26.06~28.06",null],
+["2026-06-22",73.62,4,1000,60,"신규","26.06~28.06",null]
+]}}

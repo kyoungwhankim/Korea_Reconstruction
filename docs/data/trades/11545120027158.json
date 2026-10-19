@@ -1,0 +1,10 @@
+{"id":"11545120027158",
+"name":"독산주공13단지아파트",
+"basis":null,
+"by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":275,"wolse_monthly_median":6}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-22",26.37,8,275,6,"갱신","26.02~28.01",null],
+["2026-05-27",26.37,5,275,6,"갱신","26.06~28.05",null]
+]}}

@@ -1,0 +1,10 @@
+{"id":"11650120056070",
+"name":"우면주공영구임대아파트",
+"basis":null,
+"by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":290,"wolse_monthly_median":6}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-06-15",26.37,11,290,6,"신규","26.06~28.07",null],
+["2026-06-16",26.37,15,290,6,"신규","26.06~28.07",null]
+]}}

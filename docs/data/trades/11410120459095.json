@@ -1,0 +1,16 @@
+{"id":"11410120459095",
+"name":"흥연아파트",
+"basis":"단지",
+"by_area":[{"area":44,"pyeong":13.3,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":5000,"wolse_monthly_median":70},{"area":52,"pyeong":15.7,"n":2,"median":48750,"min":48000,"max":49500,"latest_price":48000,"latest_date":"2025-12-25","latest_floor":4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":80},{"area":54,"pyeong":16.3,"n":1,"median":42000,"min":42000,"max":42000,"latest_price":42000,"latest_date":"2026-05-21","latest_floor":1},{"area":71,"pyeong":21.5,"n":1,"median":78000,"min":78000,"max":78000,"latest_price":78000,"latest_date":"2026-10-06","latest_floor":2}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-08-29",74.25,1,47500,"8동","중개거래",1981],
+["2025-09-17",52.23,5,48000,"11동","중개거래",1981],
+["2025-12-24",52.23,3,49500,"12동","중개거래",1981],
+["2025-12-25",52.23,4,48000,"12동","중개거래",1981],
+["2026-05-21",54.35,1,42000,null,"중개거래",1981],
+["2026-10-06",70.74,2,78000,null,"중개거래",1981]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-23",44.36,3,5000,70,"신규","25.11~27.11",null],
+["2026-04-26",52.23,1,2000,80,"신규","26.06~28.06",null]
+]}}

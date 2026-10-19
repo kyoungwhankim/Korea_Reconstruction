@@ -1,0 +1,14 @@
+{"id":"41500100008219",
+"name":"보은아파트",
+"basis":"단지",
+"by_area":[{"area":40,"pyeong":12.1,"n":1,"median":5500,"min":5500,"max":5500,"latest_price":5500,"latest_date":"2026-02-20","latest_floor":3,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":300,"wolse_monthly_median":40},{"area":50,"pyeong":15.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":200,"wolse_monthly_median":55}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-06-17",40.26,3,8700,"나","중개거래",1984],
+["2024-12-26",40.26,2,10000,"나","중개거래",1984],
+["2025-06-06",49.82,5,8000,"가","직거래",1984],
+["2026-02-20",40.26,3,5500,"나","중개거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-19",49.82,2,200,55,"신규","26.04~26.10",null],
+["2026-06-26",40.26,2,300,40,"신규","26.07~27.07",null]
+]}}

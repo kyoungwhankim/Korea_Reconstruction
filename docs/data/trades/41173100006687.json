@@ -1,0 +1,11 @@
+{"id":"41173100006687",
+"name":"아리랑타워아파트",
+"basis":"단지",
+"by_area":[{"area":84,"pyeong":25.4,"n":1,"median":50000,"min":50000,"max":50000,"latest_price":50000,"latest_date":"2026-05-28","latest_floor":8}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-10-10",84.18,13,49700,null,"중개거래",1996],
+["2025-02-05",57.17,15,30800,null,"중개거래",1996],
+["2026-05-28",84.18,8,50000,null,"중개거래",1996]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

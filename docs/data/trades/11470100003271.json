@@ -1,0 +1,14 @@
+{"id":"11470100003271",
+"name":"건영아파트",
+"basis":"단지",
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":3,"wolse_n":0,"jeonse_median":41900,"jeonse_min":39000,"jeonse_max":41900,"jeonse_latest":39000,"jeonse_latest_date":"2026-09-02"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-01-23",59.67,6,60000,null,"중개거래",1996],
+["2025-08-14",59.65,3,55500,null,"중개거래",1996],
+["2025-09-26",59.67,5,61000,null,"중개거래",1996]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-08",59.65,4,41900,0,"신규","26.04~28.04",null],
+["2026-03-08",59.65,4,41900,0,"신규","26.04~28.04",null],
+["2026-09-02",59.67,8,39000,0,"갱신","26.10~28.10",null]
+]}}

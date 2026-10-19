@@ -1,0 +1,9 @@
+{"id":"11170100248325",
+"name":"장미1아파트",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-06-24",78.02,1,220000,null,"중개거래",1976]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

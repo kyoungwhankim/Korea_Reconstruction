@@ -1,0 +1,11 @@
+{"id":"28177100005536",
+"name":"원일아파트",
+"basis":null,
+"by_area":[{"area":84,"pyeong":25.4,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":2000,"wolse_monthly_median":49},{"area":88,"pyeong":26.6,"jeonse_n":1,"wolse_n":0,"jeonse_median":9000,"jeonse_min":9000,"jeonse_max":9000,"jeonse_latest":9000,"jeonse_latest_date":"2026-05-09"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-09",87.92,5,9000,0,"신규","26.06~28.06",null],
+["2026-06-02",84.09,1,2000,55,"신규","26.07~28.07",null],
+["2026-08-05",84.09,5,2000,43,"신규","26.08~28.08",null]
+]}}

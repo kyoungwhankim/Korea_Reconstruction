@@ -1,0 +1,9 @@
+{"id":"11650100002701",
+"name":"서초나산스위트아파트",
+"basis":null,
+"by_area":[{"area":141,"pyeong":42.7,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":20000,"wolse_monthly_median":460}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-25",140.53,7,20000,460,"갱신","26.07~28.07",null]
+]}}

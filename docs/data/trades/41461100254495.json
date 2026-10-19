@@ -1,0 +1,11 @@
+{"id":"41461100254495",
+"name":"동남(C동)",
+"basis":"단지",
+"by_area":[{"area":54,"pyeong":16.3,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":80}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-06-19",53.52,2,12000,"C","직거래",1986],
+["2025-07-14",53.52,4,8000,"C","직거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-04",53.52,4,1000,80,"신규","26.05~28.05",null]
+]}}

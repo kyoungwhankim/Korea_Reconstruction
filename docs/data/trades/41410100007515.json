@@ -1,0 +1,15 @@
+{"id":"41410100007515",
+"name":"영진(786-12)",
+"basis":"단지",
+"by_area":[{"area":46,"pyeong":13.9,"jeonse_n":1,"wolse_n":0,"jeonse_median":15800,"jeonse_min":15800,"jeonse_max":15800,"jeonse_latest":15800,"jeonse_latest_date":"2026-03-16"},{"area":49,"pyeong":14.8,"n":2,"median":23250,"min":23000,"max":23500,"latest_price":23000,"latest_date":"2026-08-26","latest_floor":4,"jeonse_n":1,"wolse_n":0,"jeonse_median":15000,"jeonse_min":15000,"jeonse_max":15000,"jeonse_latest":15000,"jeonse_latest_date":"2026-02-04","jeonse_ratio":64.5}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-07-29",49.09,1,22000,"A","중개거래",1983],
+["2024-11-21",49.09,5,17500,"A","중개거래",1983],
+["2025-02-03",45.94,2,22700,"B","중개거래",1983],
+["2026-08-10",49.09,4,23500,"A","중개거래",1983],
+["2026-08-26",49.09,4,23000,null,"중개거래",1983]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-04",49.09,3,15000,0,"신규","26.02~28.02",null],
+["2026-03-16",45.94,4,15800,0,"신규","26.05~28.05",null]
+]}}

@@ -1,0 +1,14 @@
+{"id":"41196100006991",
+"name":"새보미아파트",
+"basis":"단지",
+"by_area":[{"area":48,"pyeong":14.5,"n":1,"median":14400,"min":14400,"max":14400,"latest_price":14400,"latest_date":"2026-10-02","latest_floor":4,"jeonse_n":1,"wolse_n":1,"jeonse_median":9000,"jeonse_min":9000,"jeonse_max":9000,"jeonse_latest":9000,"jeonse_latest_date":"2026-07-07","jeonse_ratio":62.5,"wolse_deposit_median":2000,"wolse_monthly_median":60}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-02-20",47.61,1,14900,"가","중개거래",1986],
+["2025-04-06",47.61,5,14400,"가","중개거래",1986],
+["2025-05-22",47.61,5,14000,"가","중개거래",1986],
+["2026-10-02",47.61,4,14400,null,"중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-06-26",47.61,2,2000,60,"신규","26.07~28.07",null],
+["2026-07-07",47.61,1,9000,0,"신규","26.08~28.08",null]
+]}}

@@ -1,0 +1,10 @@
+{"id":"11650100002990",
+"name":"신구아파트",
+"basis":"단지",
+"by_area":[{"area":132,"pyeong":39.9,"n":1,"median":160000,"min":160000,"max":160000,"latest_price":160000,"latest_date":"2026-04-28","latest_floor":9}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-08-09",132.19,2,155000,"(980-50)","중개거래",1992],
+["2026-04-28",132.19,9,160000,"(980-50)","중개거래",1992]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

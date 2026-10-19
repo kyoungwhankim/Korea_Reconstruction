@@ -1,0 +1,15 @@
+{"id":"11140100000147",
+"name":"성요셉아파트",
+"basis":"단지",
+"by_area":[{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1500,"wolse_monthly_median":123},{"area":41,"pyeong":12.4,"jeonse_n":1,"wolse_n":3,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-07-23","wolse_deposit_median":4000,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-07-25",41.32,3,20000,null,"중개거래",1971],
+["2025-07-02",36.36,2,19450,null,"중개거래",1971]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-08",41.32,5,4000,50,"신규","26.03~28.03",null],
+["2026-02-08",41.32,5,4000,50,"신규","26.03~28.03",null],
+["2026-02-28",41.32,5,200,37,"갱신","26.02~28.02",null],
+["2026-03-10",39.67,1,1500,123,"신규","26.03~27.03",null],
+["2026-07-23",41.32,3,10000,0,"신규","26.08~28.08",null]
+]}}

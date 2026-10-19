@@ -1,0 +1,12 @@
+{"id":"41430100254333",
+"name":"신우(A)",
+"basis":"단지",
+"by_area":[{"area":69,"pyeong":20.9,"jeonse_n":1,"wolse_n":0,"jeonse_median":12600,"jeonse_min":12600,"jeonse_max":12600,"jeonse_latest":12600,"jeonse_latest_date":"2026-05-11"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-26",55.45,3,25000,null,"직거래",1985],
+["2024-09-27",69.09,5,27000,null,"중개거래",1985],
+["2024-12-16",55.45,4,23700,null,"직거래",1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-11",69.09,3,12600,0,"신규","26.06~28.06",null]
+]}}

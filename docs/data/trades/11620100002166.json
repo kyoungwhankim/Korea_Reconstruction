@@ -1,0 +1,13 @@
+{"id":"11620100002166",
+"name":"신동아아파트",
+"basis":"단지",
+"by_area":[{"area":84,"pyeong":25.4,"n":2,"median":49000,"min":48000,"max":50000,"latest_price":50000,"latest_date":"2026-08-30","latest_floor":8,"jeonse_n":1,"wolse_n":0,"jeonse_median":34650,"jeonse_min":34650,"jeonse_max":34650,"jeonse_latest":34650,"jeonse_latest_date":"2026-06-04","jeonse_ratio":70.7}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-02-15",84.3,5,48200,null,"중개거래",1994],
+["2025-04-22",84.3,11,51700,null,"중개거래",1994],
+["2026-03-31",84.3,8,48000,null,"중개거래",1994],
+["2026-08-30",84.3,8,50000,null,"중개거래",1994]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-06-04",84.3,4,34650,0,"갱신","26.07~28.07",null]
+]}}

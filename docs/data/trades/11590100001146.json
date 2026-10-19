@@ -1,0 +1,12 @@
+{"id":"11590100001146",
+"name":"보라매현대아파트",
+"basis":"단지",
+"by_area":[{"area":160,"pyeong":48.4,"jeonse_n":1,"wolse_n":1,"jeonse_median":74000,"jeonse_min":74000,"jeonse_max":74000,"jeonse_latest":74000,"jeonse_latest_date":"2025-11-11","wolse_deposit_median":60000,"wolse_monthly_median":180},{"area":162,"pyeong":49.0,"n":1,"median":135000,"min":135000,"max":135000,"latest_price":135000,"latest_date":"2026-05-06","latest_floor":13}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-05-08",160.31,12,130000,null,"중개거래",1996],
+["2026-05-06",162.5,13,135000,null,"중개거래",1996]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-11",160.31,19,74000,0,"갱신","25.11~26.11",true],
+["2026-10-10",160.31,20,60000,180,"신규","27.01~29.01",null]
+]}}

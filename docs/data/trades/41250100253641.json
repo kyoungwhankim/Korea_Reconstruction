@@ -1,0 +1,13 @@
+{"id":"41250100253641",
+"name":"하이텍아파트",
+"basis":"단지",
+"by_area":[{"area":38,"pyeong":11.5,"n":1,"median":5200,"min":5200,"max":5200,"latest_price":5200,"latest_date":"2026-03-13","latest_floor":1,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":350,"wolse_monthly_median":30}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-02-06",38.01,1,5800,null,"중개거래",1990],
+["2024-06-10",38.01,5,6500,null,"직거래",1990],
+["2026-03-13",38.01,1,5200,null,"중개거래",1990]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-16",38.01,2,500,40,"신규","26.05~28.04",null],
+["2026-06-30",38.01,2,200,20,"신규","26.06~28.06",null]
+]}}

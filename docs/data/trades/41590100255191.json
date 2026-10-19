@@ -1,0 +1,12 @@
+{"id":"41590100255191",
+"name":"시화아파트",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-29",84.96,3,12500,null,"중개거래",1991],
+["2025-08-09",84.96,3,14500,null,"중개거래",1991],
+["2025-09-22",84.96,4,13500,null,"중개거래",1991],
+["2025-09-27",84.96,3,15200,null,"중개거래",1991]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

@@ -1,0 +1,12 @@
+{"id":"41194100253468",
+"name":"삼우아파트",
+"basis":"단지",
+"by_area":[{"area":55,"pyeong":16.6,"n":2,"median":12900,"min":10500,"max":15300,"latest_price":10500,"latest_date":"2026-06-04","latest_floor":5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3000,"wolse_monthly_median":50},{"area":66,"pyeong":20.0,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-05-09",54.81,1,15300,null,"중개거래",1986],
+["2026-06-04",54.81,5,10500,null,"중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-20",65.88,5,1000,50,"신규","26.02~28.02",null],
+["2026-05-07",54.81,1,3000,50,"신규","26.07~28.07",null]
+]}}

@@ -1,0 +1,15 @@
+{"id":"41173100006629",
+"name":"강남6차아파트",
+"basis":"단지",
+"by_area":[{"area":62,"pyeong":18.8,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":10000,"wolse_monthly_median":20},{"area":66,"pyeong":20.0,"jeonse_n":3,"wolse_n":0,"jeonse_median":24000,"jeonse_min":20000,"jeonse_max":25000,"jeonse_latest":24000,"jeonse_latest_date":"2026-10-08"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-02-24",62.1,2,30800,null,"중개거래",1984],
+["2025-09-25",62.1,5,25900,null,"중개거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-21",65.79,6,20000,0,"신규","26.05~28.05",null],
+["2026-04-18",62.1,4,10000,20,"신규","26.05~28.05",null],
+["2026-07-25",65.79,3,25000,0,"신규","26.11~28.11",null],
+["2026-09-16",62.1,4,10000,20,"신규","26.11~28.11",null],
+["2026-10-08",66.24,6,24000,0,"신규","27.01~29.01",null]
+]}}

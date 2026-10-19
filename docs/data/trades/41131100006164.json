@@ -1,0 +1,13 @@
+{"id":"41131100006164",
+"name":"태평아파트",
+"basis":"단지",
+"by_area":[{"area":55,"pyeong":16.6,"jeonse_n":2,"wolse_n":1,"jeonse_median":19500,"jeonse_min":18000,"jeonse_max":21000,"jeonse_latest":18000,"jeonse_latest_date":"2026-05-17","wolse_deposit_median":3000,"wolse_monthly_median":95},{"area":64,"pyeong":19.4,"n":1,"median":38000,"min":38000,"max":38000,"latest_price":38000,"latest_date":"2025-12-15","latest_floor":2}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-07-16",63.57,2,42500,"1","중개거래",1983],
+["2025-12-15",63.57,2,38000,"1","중개거래",1983]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-23",54.66,4,21000,0,null,null,null],
+["2026-05-17",54.66,4,18000,0,"신규","26.08~28.08",null],
+["2026-07-08",54.66,3,3000,95,"신규","26.07~27.07",null]
+]}}

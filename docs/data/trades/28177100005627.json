@@ -1,0 +1,12 @@
+{"id":"28177100005627",
+"name":"태극아파트",
+"basis":"단지",
+"by_area":[{"area":72,"pyeong":21.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":600,"wolse_monthly_median":30}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-05-11",72.25,5,14000,null,"중개거래",1980],
+["2024-08-16",72.25,3,14000,null,"직거래",1980],
+["2024-10-29",72.25,3,13000,null,"중개거래",1980]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-22",72.25,2,600,30,"신규","26.04~27.04",null]
+]}}

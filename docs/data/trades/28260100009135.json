@@ -1,0 +1,13 @@
+{"id":"28260100009135",
+"name":"동진2아파트",
+"basis":"단지",
+"by_area":[{"area":53,"pyeong":16.0,"jeonse_n":1,"wolse_n":0,"jeonse_median":8500,"jeonse_min":8500,"jeonse_max":8500,"jeonse_latest":8500,"jeonse_latest_date":"2026-03-11"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-11-03",53.06,1,12000,null,"중개거래",1989],
+["2024-08-30",53.06,5,12000,null,"중개거래",1989],
+["2025-02-19",53.06,4,9600,null,"중개거래",1989],
+["2025-05-19",53.06,3,9700,null,"중개거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-11",53.06,4,8500,0,"신규","26.04~28.04",null]
+]}}

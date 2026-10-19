@@ -1,0 +1,12 @@
+{"id":"41111100253090",
+"name":"경원아파트",
+"basis":"단지",
+"by_area":[{"area":66,"pyeong":20.0,"n":1,"median":17000,"min":17000,"max":17000,"latest_price":17000,"latest_date":"2026-02-13","latest_floor":4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":65}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-05-21",41.58,6,13750,"가","중개거래",1985],
+["2025-08-25",66.24,2,18000,"가","중개거래",1985],
+["2026-02-13",66.24,4,17000,"가","중개거래",1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-31",66.24,6,1000,65,"신규","26.05~28.05",null]
+]}}

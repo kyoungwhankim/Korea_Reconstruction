@@ -1,0 +1,14 @@
+{"id":"41194100253453",
+"name":"대양아파트",
+"basis":null,
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":4,"wolse_n":2,"jeonse_median":14325,"jeonse_min":13500,"jeonse_max":16000,"jeonse_latest":13500,"jeonse_latest_date":"2026-07-25","wolse_deposit_median":3500,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-24",60.0,2,13650,0,"갱신","26.03~28.03",null],
+["2026-04-12",60.0,4,15000,0,"신규","26.06~28.06",null],
+["2026-04-18",60.0,1,16000,0,"신규","26.05~28.05",null],
+["2026-07-25",60.0,2,13500,0,"신규","26.09~28.09",null],
+["2026-08-17",60.0,2,2000,50,"신규","26.10~28.10",null],
+["2026-09-10",60.0,4,5000,50,"신규","26.11~28.11",null]
+]}}

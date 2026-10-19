@@ -1,0 +1,13 @@
+{"id":"41194100253438",
+"name":"대성(175-6)",
+"basis":"단지",
+"by_area":[{"area":48,"pyeong":14.5,"n":2,"median":15950,"min":14800,"max":17100,"latest_price":17100,"latest_date":"2026-10-08","latest_floor":2,"jeonse_n":1,"wolse_n":1,"jeonse_median":12600,"jeonse_min":12600,"jeonse_max":12600,"jeonse_latest":12600,"jeonse_latest_date":"2026-01-02","jeonse_ratio":79.0,"wolse_deposit_median":2000,"wolse_monthly_median":55}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-09-25",48.42,2,19000,null,"중개거래",1988],
+["2026-03-30",48.42,1,14800,null,"직거래",1988],
+["2026-10-08",48.42,2,17100,null,"중개거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-02",48.42,5,12600,0,"신규","26.02~28.02",null],
+["2026-03-18",48.42,1,2000,55,"갱신","26.03~28.03",true]
+]}}

@@ -1,0 +1,11 @@
+{"id":"11500112042437",
+"name":"등촌4단지주공영구임대아파트",
+"basis":null,
+"by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":290,"wolse_monthly_median":6},{"area":31,"pyeong":9.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1643,"wolse_monthly_median":18}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-12",26.37,9,290,6,"신규","26.01~28.02",null],
+["2026-01-16",31.32,4,1643,18,"신규","26.01~28.02",null],
+["2026-02-23",26.37,5,290,6,"신규","26.02~28.03",null]
+]}}

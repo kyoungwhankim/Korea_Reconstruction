@@ -1,0 +1,16 @@
+{"id":"서울-영등포구-신길13",
+"name":"신길13",
+"basis":"기존 단지",
+"by_area":[{"area":58,"pyeong":17.5,"n":1,"median":122000,"min":122000,"max":122000,"latest_price":122000,"latest_date":"2026-07-01","latest_floor":2},{"area":75,"pyeong":22.7,"jeonse_n":1,"wolse_n":0,"jeonse_median":9000,"jeonse_min":9000,"jeonse_max":9000,"jeonse_latest":9000,"jeonse_latest_date":"2026-02-06"},{"area":86,"pyeong":26.0,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":4000,"wolse_monthly_median":60}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-06-08",75.48,5,100700,"가","중개거래",1981],
+["2024-10-15",75.48,1,91000,"가","중개거래",1981],
+["2025-06-12",75.48,2,114500,"가","중개거래",1981],
+["2025-08-15",45.45,1,93000,"마","중개거래",1981],
+["2026-07-01",57.56,2,122000,null,"중개거래",1981]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-20",86.38,1,3000,70,"신규","26.03~27.09",null],
+["2026-02-06",75.48,5,9000,0,"갱신","26.02~28.02",true],
+["2026-03-12",86.38,4,5000,50,"신규","26.04~28.04",null]
+]}}

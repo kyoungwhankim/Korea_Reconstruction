@@ -1,0 +1,17 @@
+{"id":"41115100006010",
+"name":"수원시청역선경센트럴파크",
+"basis":"단지",
+"by_area":[{"area":100,"pyeong":30.2,"jeonse_n":1,"wolse_n":0,"jeonse_median":23000,"jeonse_min":23000,"jeonse_max":23000,"jeonse_latest":23000,"jeonse_latest_date":"2026-03-07"},{"area":106,"pyeong":32.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":22000,"wolse_monthly_median":60},{"area":110,"pyeong":33.3,"n":1,"median":27000,"min":27000,"max":27000,"latest_price":27000,"latest_date":"2026-05-06","latest_floor":13,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":12000,"wolse_monthly_median":13}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-04-01",88.55,8,24000,null,"중개거래",1995],
+["2024-06-11",107.61,10,30000,null,"중개거래",1995],
+["2024-07-05",105.58,12,27500,null,"중개거래",1995],
+["2025-01-24",102.01,18,29000,null,"중개거래",1995],
+["2025-03-05",99.58,9,26800,null,"중개거래",1995],
+["2026-05-06",110.44,13,27000,null,"직거래",1995]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-07",99.58,8,23000,0,"갱신","26.03~27.03",null],
+["2026-04-14",105.58,15,22000,60,"신규","26.05~28.05",null],
+["2026-07-15",110.44,7,12000,13,"갱신","26.07~28.01",null]
+]}}

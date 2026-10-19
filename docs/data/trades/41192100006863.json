@@ -1,0 +1,10 @@
+{"id":"41192100006863",
+"name":"청암아파트",
+"basis":"단지",
+"by_area":[{"area":65,"pyeong":19.7,"n":1,"median":30300,"min":30300,"max":30300,"latest_price":30300,"latest_date":"2026-08-10","latest_floor":4}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-01-24",65.1,4,33000,"에이","직거래",1986],
+["2026-08-10",65.1,4,30300,"에이","중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

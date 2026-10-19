@@ -1,0 +1,13 @@
+{"id":"41111100253083",
+"name":"삼청아파트",
+"basis":"단지",
+"by_area":[{"area":51,"pyeong":15.4,"jeonse_n":1,"wolse_n":0,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2025-11-13"},{"area":54,"pyeong":16.3,"jeonse_n":1,"wolse_n":0,"jeonse_median":13000,"jeonse_min":13000,"jeonse_max":13000,"jeonse_latest":13000,"jeonse_latest_date":"2026-01-27"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-01-23",50.65,4,15300,null,"중개거래",1985],
+["2025-03-24",50.65,5,15800,null,"중개거래",1985],
+["2025-10-03",54.18,3,16100,null,"중개거래",1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-13",50.65,5,10000,0,"신규","25.12~27.12",null],
+["2026-01-27",54.18,3,13000,0,"신규","26.02~28.02",null]
+]}}

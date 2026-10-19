@@ -1,0 +1,14 @@
+{"id":"11710100002346",
+"name":"마천대성아파트",
+"basis":"단지",
+"by_area":[{"area":59,"pyeong":17.8,"n":1,"median":109500,"min":109500,"max":109500,"latest_price":109500,"latest_date":"2026-04-11","latest_floor":3,"jeonse_n":1,"wolse_n":0,"jeonse_median":25000,"jeonse_min":25000,"jeonse_max":25000,"jeonse_latest":25000,"jeonse_latest_date":"2026-05-08","jeonse_ratio":22.8},{"area":60,"pyeong":18.1,"n":2,"median":99500,"min":90000,"max":109000,"latest_price":109000,"latest_date":"2026-03-28","latest_floor":3,"jeonse_n":1,"wolse_n":0,"jeonse_median":23000,"jeonse_min":23000,"jeonse_max":23000,"jeonse_latest":23000,"jeonse_latest_date":"2026-05-30","jeonse_ratio":23.1}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-12-28",59.62,1,80000,"101","중개거래",1995],
+["2025-11-08",59.62,2,90000,"101","중개거래",1995],
+["2026-03-28",59.62,3,109000,"101","중개거래",1995],
+["2026-04-11",59.31,3,109500,"101","중개거래",1995]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-08",59.38,1,25000,0,"신규","26.07~28.07",null],
+["2026-05-30",59.62,5,23000,0,"신규","26.07~28.07",null]
+]}}

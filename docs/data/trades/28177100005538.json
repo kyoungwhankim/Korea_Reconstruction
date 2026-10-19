@@ -1,0 +1,9 @@
+{"id":"28177100005538",
+"name":"이화(108-2)",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-07-03",82.2,3,17000,null,"직거래",1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

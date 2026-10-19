@@ -1,0 +1,14 @@
+{"id":"11650100003105",
+"name":"우성112아파트",
+"basis":"단지",
+"by_area":[{"area":85,"pyeong":25.7,"n":1,"median":224000,"min":224000,"max":224000,"latest_price":224000,"latest_date":"2026-07-30","latest_floor":7,"jeonse_n":4,"wolse_n":1,"jeonse_median":77000,"jeonse_min":70350,"jeonse_max":79000,"jeonse_latest":79000,"jeonse_latest_date":"2026-04-18","jeonse_ratio":34.4,"wolse_deposit_median":50000,"wolse_monthly_median":60}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-07-30",84.58,7,224000,null,"중개거래",1991]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-27",84.58,10,70350,0,"갱신","26.03~28.03",true],
+["2026-02-28",84.58,5,75000,0,"갱신","26.04~28.04",null],
+["2026-04-18",84.58,7,79000,0,null,null,null],
+["2026-04-18",84.58,7,79000,0,"신규","26.06~28.06",null],
+["2026-10-03",84.58,10,50000,60,"갱신","27.01~28.01",null]
+]}}

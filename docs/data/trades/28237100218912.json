@@ -1,0 +1,13 @@
+{"id":"28237100218912",
+"name":"주공2단지(임대)",
+"basis":null,
+"by_area":[{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":5,"wolse_deposit_median":2791,"wolse_monthly_median":20}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-17",39.99,10,1591,20,"갱신","26.01~27.12",null],
+["2026-01-13",39.99,12,2791,20,"갱신","26.02~28.01",null],
+["2026-06-01",39.99,12,3406,9,"갱신","26.06~28.05",null],
+["2026-08-19",39.99,5,1622,20,"신규","26.08~28.09",null],
+["2026-09-21",39.99,5,3222,12,"갱신","26.09~28.09",null]
+]}}

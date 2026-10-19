@@ -1,0 +1,14 @@
+{"id":"11500112046068",
+"name":"가양4단지",
+"basis":null,
+"by_area":[{"area":25,"pyeong":7.6,"jeonse_n":0,"wolse_n":4,"wolse_deposit_median":492,"wolse_monthly_median":7},{"area":30,"pyeong":9.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":600,"wolse_monthly_median":7},{"area":41,"pyeong":12.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":274,"wolse_monthly_median":7}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-27",41.16,11,274,7,"신규","26.06~28.08",null],
+["2026-07-01",24.84,5,492,7,"신규","26.07~28.09",null],
+["2026-07-01",24.84,8,492,7,"신규","26.07~28.09",null],
+["2026-07-02",24.84,14,492,7,"신규","26.07~28.09",null],
+["2026-08-12",24.84,5,492,7,"신규","26.08~28.10",null],
+["2026-10-12",30.24,1,600,7,"신규","26.10~28.12",null]
+]}}

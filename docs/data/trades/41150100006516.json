@@ -1,0 +1,12 @@
+{"id":"41150100006516",
+"name":"동문2단지아파트",
+"basis":"단지",
+"by_area":[{"area":70,"pyeong":21.2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":80},{"area":75,"pyeong":22.7,"jeonse_n":1,"wolse_n":0,"jeonse_median":20000,"jeonse_min":20000,"jeonse_max":20000,"jeonse_latest":20000,"jeonse_latest_date":"2026-09-15"},{"area":78,"pyeong":23.6,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":10000,"wolse_monthly_median":30}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-02-26",75.24,7,30000,"202","직거래",1991]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-24",70.08,2,2000,80,"신규","26.06~28.06",null],
+["2026-05-02",77.52,8,10000,30,"신규","26.05~28.05",null],
+["2026-09-15",75.24,2,20000,0,"신규","26.12~28.12",null]
+]}}

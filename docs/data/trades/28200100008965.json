@@ -1,0 +1,13 @@
+{"id":"28200100008965",
+"name":"중앙아파트",
+"basis":"단지",
+"by_area":[{"area":83,"pyeong":25.1,"jeonse_n":4,"wolse_n":0,"jeonse_median":8000,"jeonse_min":6000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-05-21"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-04-13",93.6,2,22800,null,"중개거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-23",82.8,5,10000,0,"신규","26.05~28.05",null],
+["2026-05-21",82.8,5,6000,0,"신규","26.06~28.06",null],
+["2026-05-21",82.8,5,6000,0,"신규","26.06~28.06",null],
+["2026-05-21",82.8,5,10000,0,"신규","26.06~28.06",null]
+]}}

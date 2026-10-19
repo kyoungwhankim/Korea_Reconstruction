@@ -1,0 +1,14 @@
+{"id":"11410100248710",
+"name":"시민아파트",
+"basis":"단지",
+"by_area":[{"area":53,"pyeong":16.0,"n":1,"median":20500,"min":20500,"max":20500,"latest_price":20500,"latest_date":"2026-02-03","latest_floor":1},{"area":58,"pyeong":17.5,"n":1,"median":16000,"min":16000,"max":16000,"latest_price":16000,"latest_date":"2026-02-25","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3000,"wolse_monthly_median":63},{"area":64,"pyeong":19.4,"n":1,"median":19000,"min":19000,"max":19000,"latest_price":19000,"latest_date":"2026-05-07","latest_floor":5}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-02-15",51.9,4,17500,null,"중개거래",1978],
+["2025-09-17",69.26,3,19000,null,"중개거래",1978],
+["2026-02-03",52.89,1,20500,null,"중개거래",1978],
+["2026-02-25",57.69,1,16000,null,"중개거래",1978],
+["2026-05-07",63.6,5,19000,null,"직거래",1978]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-07-12",57.69,1,3000,63,"갱신","26.08~28.08",null]
+]}}

@@ -1,0 +1,11 @@
+{"id":"11260100002409",
+"name":"금강산아파트",
+"basis":"단지",
+"by_area":[{"area":67,"pyeong":20.3,"n":1,"median":55000,"min":55000,"max":55000,"latest_price":55000,"latest_date":"2026-07-25","latest_floor":8}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-05-10",66.54,8,39500,null,"중개거래",1996],
+["2025-09-01",58.6,8,31500,null,"중개거래",1996],
+["2026-07-25",66.54,8,55000,null,"중개거래",1996]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

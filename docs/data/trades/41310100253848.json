@@ -1,0 +1,10 @@
+{"id":"41310100253848",
+"name":"현암아파트",
+"basis":"단지",
+"by_area":[{"area":46,"pyeong":13.9,"n":1,"median":31000,"min":31000,"max":31000,"latest_price":31000,"latest_date":"2026-06-09","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":15000,"wolse_monthly_median":10}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-06-09",45.69,1,31000,null,"중개거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-07-06",45.69,1,15000,10,"신규","26.08~28.08",null]
+]}}

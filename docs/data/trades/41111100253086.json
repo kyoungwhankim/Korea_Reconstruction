@@ -1,0 +1,10 @@
+{"id":"41111100253086",
+"name":"효성아파트",
+"basis":"단지",
+"by_area":[{"area":76,"pyeong":23.0,"n":1,"median":26000,"min":26000,"max":26000,"latest_price":26000,"latest_date":"2025-11-30","latest_floor":3,"jeonse_n":1,"wolse_n":0,"jeonse_median":16500,"jeonse_min":16500,"jeonse_max":16500,"jeonse_latest":16500,"jeonse_latest_date":"2025-11-08","jeonse_ratio":63.5}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-11-30",75.51,3,26000,null,"직거래",1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-08",75.51,5,16500,0,"신규","26.01~28.01",null]
+]}}

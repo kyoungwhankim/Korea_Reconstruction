@@ -1,0 +1,12 @@
+{"id":"41500100008190",
+"name":"고려1아파트",
+"basis":"단지",
+"by_area":[{"area":84,"pyeong":25.4,"n":1,"median":13000,"min":13000,"max":13000,"latest_price":13000,"latest_date":"2026-06-22","latest_floor":2,"jeonse_n":1,"wolse_n":0,"jeonse_median":10700,"jeonse_min":10700,"jeonse_max":10700,"jeonse_latest":10700,"jeonse_latest_date":"2026-08-06","jeonse_ratio":82.3}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-12-06",84.24,1,25000,null,"중개거래",1990],
+["2025-03-01",68.76,2,9500,null,"중개거래",1990],
+["2026-06-22",84.24,2,13000,null,"중개거래",1990]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-08-06",84.24,2,10700,0,"신규","26.09~28.09",null]
+]}}

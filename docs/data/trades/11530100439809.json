@@ -1,0 +1,12 @@
+{"id":"11530100439809",
+"name":"왕궁아파트",
+"basis":"단지",
+"by_area":[{"area":65,"pyeong":19.7,"n":1,"median":27500,"min":27500,"max":27500,"latest_price":27500,"latest_date":"2026-06-25","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":15000,"wolse_monthly_median":15}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-11-27",65.46,1,27200,"1","중개거래",1975],
+["2025-06-13",65.46,4,22500,"2","중개거래",1975],
+["2026-06-25",65.46,1,27500,"1","중개거래",1975]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-07",65.46,1,15000,15,"신규","26.02~28.02",null]
+]}}

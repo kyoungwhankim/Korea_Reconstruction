@@ -1,0 +1,11 @@
+{"id":"28200100009059",
+"name":"삼일아파트",
+"basis":"단지",
+"by_area":[{"area":55,"pyeong":16.6,"jeonse_n":1,"wolse_n":1,"jeonse_median":9960,"jeonse_min":9960,"jeonse_max":9960,"jeonse_latest":9960,"jeonse_latest_date":"2026-06-16","wolse_deposit_median":500,"wolse_monthly_median":60}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-12-19",54.81,4,16500,null,"중개거래",1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-24",54.81,1,500,60,"신규","26.06~28.06",null],
+["2026-06-16",54.81,4,9960,0,"신규","26.07~28.07",null]
+]}}

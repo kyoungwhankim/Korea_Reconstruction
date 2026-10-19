@@ -1,0 +1,14 @@
+{"id":"41250100253659",
+"name":"제3차화성아파트",
+"basis":"단지",
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":1,"wolse_n":0,"jeonse_median":5000,"jeonse_min":5000,"jeonse_max":5000,"jeonse_latest":5000,"jeonse_latest_date":"2026-04-30"},{"area":72,"pyeong":21.8,"n":1,"median":7000,"min":7000,"max":7000,"latest_price":7000,"latest_date":"2026-06-16","latest_floor":1}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-05-20",72.0,1,7220,null,"중개거래",1991],
+["2024-11-11",65.52,4,6000,null,"직거래",1991],
+["2024-12-28",59.94,2,6050,null,"중개거래",1991],
+["2025-03-18",59.94,3,7919,null,"직거래",1991],
+["2026-06-16",72.0,1,7000,null,"중개거래",1991]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-30",59.94,1,5000,0,"신규","26.06~28.06",null]
+]}}

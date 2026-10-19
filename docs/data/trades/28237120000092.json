@@ -1,0 +1,9 @@
+{"id":"28237120000092",
+"name":"백조(바)",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-12-18",55.26,2,24000,"바","중개거래",1983]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

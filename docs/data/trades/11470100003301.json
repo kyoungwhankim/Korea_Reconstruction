@@ -1,0 +1,11 @@
+{"id":"11470100003301",
+"name":"은행아파트",
+"basis":"단지",
+"by_area":[{"area":73,"pyeong":22.1,"n":2,"median":50500,"min":50000,"max":51000,"latest_price":50000,"latest_date":"2026-09-11","latest_floor":2}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-02-20",57.45,7,34000,null,"중개거래",1995],
+["2026-08-11",73.07,1,51000,null,"중개거래",1995],
+["2026-09-11",73.07,2,50000,null,"중개거래",1995]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

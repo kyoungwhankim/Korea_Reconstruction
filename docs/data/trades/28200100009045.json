@@ -1,0 +1,13 @@
+{"id":"28200100009045",
+"name":"이성아파트",
+"basis":"단지",
+"by_area":[{"area":53,"pyeong":16.0,"n":1,"median":14500,"min":14500,"max":14500,"latest_price":14500,"latest_date":"2026-04-20","latest_floor":2}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-11-18",54.87,1,14500,null,"직거래",1986],
+["2024-05-13",55.71,1,15000,null,"중개거래",1986],
+["2025-01-13",53.16,4,12000,null,"중개거래",1986],
+["2025-07-06",53.16,4,13300,null,"중개거래",1986],
+["2026-04-20",53.16,2,14500,null,"직거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

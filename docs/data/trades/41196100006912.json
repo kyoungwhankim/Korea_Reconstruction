@@ -1,0 +1,11 @@
+{"id":"41196100006912",
+"name":"대덕아파트",
+"basis":"단지",
+"by_area":[{"area":36,"pyeong":10.9,"n":1,"median":10500,"min":10500,"max":10500,"latest_price":10500,"latest_date":"2026-06-30","latest_floor":5,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1500,"wolse_monthly_median":45}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2026-06-30",36.0,5,10500,null,"직거래",1987]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-19",36.0,2,1000,50,"신규","26.05~28.05",null],
+["2026-06-08",36.0,2,2000,40,"신규","26.06~28.06",null]
+]}}

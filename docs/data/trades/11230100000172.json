@@ -1,0 +1,11 @@
+{"id":"11230100000172",
+"name":"우창프라자",
+"basis":"단지",
+"by_area":[{"area":144,"pyeong":43.6,"n":2,"median":84000,"min":83000,"max":85000,"latest_price":83000,"latest_date":"2026-07-12","latest_floor":19}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-09-30",95.76,13,75000,null,"중개거래",1994],
+["2025-11-14",143.64,15,85000,null,"중개거래",1994],
+["2026-07-12",143.64,19,83000,null,"중개거래",1994]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

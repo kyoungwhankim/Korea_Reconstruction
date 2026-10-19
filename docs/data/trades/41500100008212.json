@@ -1,0 +1,14 @@
+{"id":"41500100008212",
+"name":"한마음아파트",
+"basis":"단지",
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":750,"wolse_monthly_median":77},{"area":61,"pyeong":18.5,"n":2,"median":9750,"min":9000,"max":10500,"latest_price":9000,"latest_date":"2026-09-12","latest_floor":1}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-03-11",60.48,3,9700,null,"중개거래",1989],
+["2024-09-27",61.38,5,9600,null,"중개거래",1989],
+["2026-01-23",61.38,4,10500,null,"직거래",1989],
+["2026-09-12",61.38,1,9000,null,"중개거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-28",60.48,3,1000,85,"신규","26.04~27.04",null],
+["2026-05-10",60.48,1,500,70,"신규","26.06~28.06",null]
+]}}

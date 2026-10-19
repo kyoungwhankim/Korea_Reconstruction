@@ -1,0 +1,15 @@
+{"id":"28200100008962",
+"name":"이화아파트",
+"basis":"단지",
+"by_area":[{"area":74,"pyeong":22.4,"n":1,"median":16000,"min":16000,"max":16000,"latest_price":16000,"latest_date":"2026-03-04","latest_floor":5,"jeonse_n":2,"wolse_n":1,"jeonse_median":12000,"jeonse_min":12000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-02-23","jeonse_ratio":75.0,"wolse_deposit_median":1000,"wolse_monthly_median":55}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-01-11",74.37,3,17500,null,"중개거래",1984],
+["2024-03-05",74.37,2,17500,null,"중개거래",1984],
+["2025-08-06",74.37,5,15300,null,"중개거래",1984],
+["2026-03-04",74.37,5,16000,null,"직거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-11",74.37,5,1000,55,"신규","26.03~28.03",null],
+["2026-01-30",74.37,5,12000,0,"신규","26.03~28.03",null],
+["2026-02-23",74.37,4,12000,0,"신규","26.05~28.05",null]
+]}}

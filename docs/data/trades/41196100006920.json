@@ -1,0 +1,13 @@
+{"id":"41196100006920",
+"name":"당진정우아파트",
+"basis":null,
+"by_area":[{"area":53,"pyeong":16.0,"jeonse_n":5,"wolse_n":0,"jeonse_median":13000,"jeonse_min":11000,"jeonse_max":14000,"jeonse_latest":14000,"jeonse_latest_date":"2026-08-27"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-10",52.74,5,11000,0,"신규","25.12~27.12",null],
+["2026-05-26",52.74,1,13000,0,"신규","26.06~28.06",null],
+["2026-05-26",52.74,1,13000,0,"신규","26.06~28.06",null],
+["2026-08-27",52.74,3,14000,0,"신규","26.09~28.09",null],
+["2026-08-27",52.74,3,14000,0,"신규","26.09~28.09",null]
+]}}

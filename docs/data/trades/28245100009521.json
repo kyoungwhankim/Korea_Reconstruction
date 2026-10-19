@@ -1,0 +1,12 @@
+{"id":"28245100009521",
+"name":"백조아파트",
+"basis":"단지",
+"by_area":[{"area":61,"pyeong":18.5,"n":1,"median":14400,"min":14400,"max":14400,"latest_price":14400,"latest_date":"2026-06-19","latest_floor":3,"jeonse_n":2,"wolse_n":0,"jeonse_median":11500,"jeonse_min":11000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-07-22","jeonse_ratio":79.9}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-11-25",70.2,2,15000,"3-다","중개거래",1985],
+["2026-06-19",60.84,3,14400,"3-다","중개거래",1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-06-27",60.75,5,11000,0,"신규","26.07~28.07",null],
+["2026-07-22",60.75,5,12000,0,"신규","26.08~28.08",null]
+]}}

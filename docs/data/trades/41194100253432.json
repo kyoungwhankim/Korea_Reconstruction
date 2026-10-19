@@ -1,0 +1,13 @@
+{"id":"41194100253432",
+"name":"역곡현대아파트5차",
+"basis":"단지",
+"by_area":[{"area":51,"pyeong":15.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":70},{"area":62,"pyeong":18.8,"n":1,"median":28000,"min":28000,"max":28000,"latest_price":28000,"latest_date":"2026-02-26","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":300,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-05-30",51.45,3,26000,"102","중개거래",1989],
+["2025-09-24",62.33,1,28000,"101","직거래",1989],
+["2026-02-26",62.33,1,28000,"101","직거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-07",51.45,2,2000,70,"신규","26.04~27.04",null],
+["2026-03-10",62.33,1,300,50,"신규","26.03~26.09",null]
+]}}

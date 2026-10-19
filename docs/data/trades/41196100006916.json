@@ -1,0 +1,11 @@
+{"id":"41196100006916",
+"name":"건우아파트",
+"basis":"단지",
+"by_area":[{"area":46,"pyeong":13.9,"jeonse_n":1,"wolse_n":1,"jeonse_median":12400,"jeonse_min":12400,"jeonse_max":12400,"jeonse_latest":12400,"jeonse_latest_date":"2026-04-24","wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-09-03",45.81,2,15000,null,"중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-24",45.81,4,12400,0,"신규","26.06~28.06",null],
+["2026-09-19",45.81,5,1000,50,"신규","26.11~28.11",null]
+]}}

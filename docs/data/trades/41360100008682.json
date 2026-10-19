@@ -1,0 +1,16 @@
+{"id":"41360100008682",
+"name":"신대림아파트",
+"basis":"단지",
+"by_area":[{"area":47,"pyeong":14.2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":6000,"wolse_monthly_median":27},{"area":48,"pyeong":14.5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":55},{"area":57,"pyeong":17.2,"jeonse_n":3,"wolse_n":0,"jeonse_median":9000,"jeonse_min":9000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-09-10"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-09-01",48.42,3,13700,"3","중개거래",1989],
+["2025-09-16",46.62,1,11800,"3","중개거래",1989],
+["2025-09-25",46.62,3,12800,"3","중개거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-15",46.62,3,6000,27,"신규","26.03~28.03",null],
+["2026-05-12",57.33,5,9000,0,"신규","26.06~28.06",null],
+["2026-06-17",57.33,5,9000,0,"신규","26.06~28.06",null],
+["2026-08-13",48.42,1,500,55,"신규","26.09~28.09",null],
+["2026-09-10",57.33,2,10000,0,"신규","26.11~28.11",null]
+]}}

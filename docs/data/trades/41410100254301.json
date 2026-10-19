@@ -1,0 +1,12 @@
+{"id":"41410100254301",
+"name":"가야주공(임대)",
+"basis":null,
+"by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":818,"wolse_monthly_median":11},{"area":32,"pyeong":9.7,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1629,"wolse_monthly_median":12}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-03",31.59,9,755,10,"신규","25.11~27.12",null],
+["2025-12-16",26.37,1,1000,14,"갱신","26.01~27.12",null],
+["2026-04-14",31.59,4,2503,14,"갱신","26.05~28.04",null],
+["2026-05-07",26.42,13,637,9,"신규","26.05~28.06",null]
+]}}

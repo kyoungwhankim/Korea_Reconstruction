@@ -1,0 +1,10 @@
+{"id":"41220100007348",
+"name":"영흥(라)",
+"basis":"단지",
+"by_area":[{"area":67,"pyeong":20.3,"n":1,"median":8700,"min":8700,"max":8700,"latest_price":8700,"latest_date":"2025-12-29","latest_floor":5},{"area":69,"pyeong":20.9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":300,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-12-29",66.72,5,8700,null,"중개거래",1990]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-28",68.88,3,300,50,"신규","26.03~27.03",null]
+]}}

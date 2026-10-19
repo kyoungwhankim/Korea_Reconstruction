@@ -1,0 +1,16 @@
+{"id":"11305100003331",
+"name":"두원프라자",
+"basis":"단지",
+"by_area":[{"area":56,"pyeong":16.9,"jeonse_n":1,"wolse_n":0,"jeonse_median":27000,"jeonse_min":27000,"jeonse_max":27000,"jeonse_latest":27000,"jeonse_latest_date":"2026-01-20"},{"area":84,"pyeong":25.4,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":13500,"wolse_monthly_median":92},{"area":98,"pyeong":29.6,"n":1,"median":67500,"min":67500,"max":67500,"latest_price":67500,"latest_date":"2026-10-05","latest_floor":8}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-09-25",98.22,8,53000,null,"중개거래",1996],
+["2025-02-15",120.95,8,63500,null,"중개거래",1996],
+["2025-08-24",84.24,3,47700,null,"중개거래",1996],
+["2025-10-03",120.95,8,71700,null,"중개거래",1996],
+["2026-10-05",98.22,8,67500,null,"중개거래",1996]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-12",84.24,7,22000,40,"신규","25.12~27.12",null],
+["2026-01-20",56.1,6,27000,0,"신규","26.03~28.03",null],
+["2026-03-09",84.24,3,5000,145,"신규","26.04~28.04",null]
+]}}

@@ -1,0 +1,9 @@
+{"id":"41192100256772",
+"name":"동원아파트(825)",
+"basis":null,
+"by_area":[{"area":45,"pyeong":13.6,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-07",45.39,4,1000,50,"신규","26.01~28.01",null]
+]}}

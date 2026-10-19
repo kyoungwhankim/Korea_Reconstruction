@@ -1,0 +1,10 @@
+{"id":"41111100253137",
+"name":"유천프라자(21-5)나동아파트",
+"basis":null,
+"by_area":[{"area":67,"pyeong":20.3,"jeonse_n":2,"wolse_n":0,"jeonse_median":11000,"jeonse_min":11000,"jeonse_max":11000,"jeonse_latest":11000,"jeonse_latest_date":"2026-05-30"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-30",66.51,4,11000,0,"신규","26.06~28.06",null],
+["2026-05-30",66.51,4,11000,0,"신규","26.06~28.06",null]
+]}}

@@ -1,0 +1,15 @@
+{"id":"41171100006830",
+"name":"적성5차아파트",
+"basis":"단지",
+"by_area":[{"area":41,"pyeong":12.4,"n":3,"median":16750,"min":15000,"max":20000,"latest_price":20000,"latest_date":"2026-07-31","latest_floor":2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":100,"wolse_monthly_median":20},{"area":50,"pyeong":15.1,"n":1,"median":21000,"min":21000,"max":21000,"latest_price":21000,"latest_date":"2026-03-26","latest_floor":3}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-06-30",49.68,5,22700,"A","중개거래",1985],
+["2025-05-27",49.68,1,22000,"A","중개거래",1985],
+["2026-03-26",49.68,3,21000,"A","중개거래",1985],
+["2026-04-30",41.22,4,15000,"A","직거래",1985],
+["2026-06-29",41.22,1,16750,"A","중개거래",1985],
+["2026-07-31",41.22,2,20000,"A","중개거래",1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-13",41.22,4,100,20,"신규","26.03~27.03",null]
+]}}

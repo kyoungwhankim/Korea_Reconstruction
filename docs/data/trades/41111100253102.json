@@ -1,0 +1,13 @@
+{"id":"41111100253102",
+"name":"율전아파트",
+"basis":"단지",
+"by_area":[{"area":44,"pyeong":13.3,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":67},{"area":49,"pyeong":14.8,"jeonse_n":2,"wolse_n":0,"jeonse_median":13000,"jeonse_min":13000,"jeonse_max":13000,"jeonse_latest":13000,"jeonse_latest_date":"2025-11-17"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-05-02",48.89,1,13000,null,"중개거래",1980],
+["2025-06-14",43.97,2,14850,null,"중개거래",1980]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-17",48.89,3,13000,0,"신규","25.12~27.12",null],
+["2025-11-17",48.89,3,13000,0,"신규","25.12~27.12",null],
+["2026-06-24",43.97,5,1000,67,"신규","26.07~27.07",null]
+]}}

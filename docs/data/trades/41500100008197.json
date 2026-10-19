@@ -1,0 +1,15 @@
+{"id":"41500100008197",
+"name":"세영아파트",
+"basis":"단지",
+"by_area":[{"area":54,"pyeong":16.3,"jeonse_n":1,"wolse_n":0,"jeonse_median":8500,"jeonse_min":8500,"jeonse_max":8500,"jeonse_latest":8500,"jeonse_latest_date":"2026-03-27"},{"area":60,"pyeong":18.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":70},{"area":70,"pyeong":21.2,"n":1,"median":10000,"min":10000,"max":10000,"latest_price":10000,"latest_date":"2026-10-06","latest_floor":4},{"area":81,"pyeong":24.5,"n":1,"median":11500,"min":11500,"max":11500,"latest_price":11500,"latest_date":"2026-03-18","latest_floor":1,"jeonse_n":1,"wolse_n":0,"jeonse_median":11400,"jeonse_min":11400,"jeonse_max":11400,"jeonse_latest":11400,"jeonse_latest_date":"2026-04-10","jeonse_ratio":99.1}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-10-04",59.69,6,12500,null,"직거래",1992],
+["2025-10-16",79.47,1,10700,null,"중개거래",1992],
+["2026-03-18",80.87,1,11500,null,"중개거래",1992],
+["2026-10-06",69.54,4,10000,null,"중개거래",1992]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-27",54.44,10,8500,0,"신규","26.05~28.05",null],
+["2026-04-08",59.69,8,500,70,"신규","26.05~27.05",null],
+["2026-04-10",80.87,3,11400,0,"신규","26.06~28.06",null]
+]}}

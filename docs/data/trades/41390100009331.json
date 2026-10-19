@@ -1,0 +1,15 @@
+{"id":"41390100009331",
+"name":"명신아파트",
+"basis":"단지",
+"by_area":[{"area":56,"pyeong":16.9,"jeonse_n":3,"wolse_n":3,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-09-17","wolse_deposit_median":1000,"wolse_monthly_median":55}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-01-24",55.89,2,28000,null,"중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-14",55.89,2,3000,55,"신규","26.02~28.02",null],
+["2026-03-30",55.89,1,1000,55,"신규","26.06~28.06",null],
+["2026-04-03",55.89,1,1000,55,"신규","26.05~28.05",null],
+["2026-08-27",55.89,1,10000,0,"신규","26.09~28.09",null],
+["2026-09-17",55.89,1,10000,0,"신규","26.11~28.11",null],
+["2026-09-17",55.89,1,10000,0,"신규","26.11~28.11",null]
+]}}

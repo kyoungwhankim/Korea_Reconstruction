@@ -1,0 +1,10 @@
+{"id":"41192100007031",
+"name":"서초아파트",
+"basis":"단지",
+"by_area":[{"area":57,"pyeong":17.2,"jeonse_n":1,"wolse_n":0,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-08-28"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-12-21",56.62,3,16800,null,"중개거래",1994]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-08-28",56.62,3,10000,0,"신규","26.09~28.09",null]
+]}}

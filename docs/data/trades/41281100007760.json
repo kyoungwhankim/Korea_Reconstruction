@@ -1,0 +1,12 @@
+{"id":"41281100007760",
+"name":"삼화그린아파트(B동)",
+"basis":"단지",
+"by_area":[{"area":49,"pyeong":14.8,"jeonse_n":1,"wolse_n":1,"jeonse_median":14500,"jeonse_min":14500,"jeonse_max":14500,"jeonse_latest":14500,"jeonse_latest_date":"2026-03-10","wolse_deposit_median":1000,"wolse_monthly_median":60},{"area":52,"pyeong":15.7,"jeonse_n":1,"wolse_n":0,"jeonse_median":18000,"jeonse_min":18000,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-09-15"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-06-19",49.68,2,27000,"B","중개거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-10",48.78,5,14500,0,"신규","26.04~28.04",null],
+["2026-04-10",48.78,2,1000,60,"신규","26.05~28.05",null],
+["2026-09-15",52.11,5,18000,0,"신규","26.11~28.11",null]
+]}}

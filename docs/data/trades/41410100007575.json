@@ -1,0 +1,15 @@
+{"id":"41410100007575",
+"name":"기오6아파트",
+"basis":"단지",
+"by_area":[{"area":55,"pyeong":16.6,"n":3,"median":36000,"min":34700,"max":36000,"latest_price":36000,"latest_date":"2026-07-20","latest_floor":6,"jeonse_n":1,"wolse_n":0,"jeonse_median":14330,"jeonse_min":14330,"jeonse_max":14330,"jeonse_latest":14330,"jeonse_latest_date":"2026-02-07","jeonse_ratio":39.8}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-08-21",45.45,6,12850,null,"직거래",1986],
+["2024-12-02",55.44,5,26000,null,"직거래",1986],
+["2025-02-21",55.44,1,33000,null,"중개거래",1986],
+["2026-01-05",55.44,5,34700,null,"중개거래",1986],
+["2026-06-12",55.44,4,36000,null,"중개거래",1986],
+["2026-07-20",55.44,6,36000,null,"중개거래",1986]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-07",55.44,1,14330,0,"갱신","26.02~28.02",null]
+]}}

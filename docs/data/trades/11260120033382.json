@@ -1,0 +1,9 @@
+{"id":"11260120033382",
+"name":"면목임대아파트",
+"basis":null,
+"by_area":[{"area":25,"pyeong":7.6,"jeonse_n":1,"wolse_n":0,"jeonse_median":844,"jeonse_min":844,"jeonse_max":844,"jeonse_latest":844,"jeonse_latest_date":"2026-05-20"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-20",25.2,11,844,0,"갱신","26.06~28.05",null]
+]}}

@@ -1,0 +1,14 @@
+{"id":"11260100002384",
+"name":"개인택시주택조합(미성아파트)",
+"basis":"단지",
+"by_area":[{"area":55,"pyeong":16.6,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":7500,"wolse_monthly_median":55}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-12-09",55.4,3,31000,null,"중개거래",1995],
+["2025-02-07",55.4,4,37500,null,"중개거래",1995],
+["2025-06-15",55.4,2,34300,null,"중개거래",1995],
+["2025-06-17",55.4,1,32800,null,"중개거래",1995]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-17",55.4,9,5000,61,"신규","26.05~28.05",null],
+["2026-08-25",55.4,2,10000,50,"신규","26.09~28.09",null]
+]}}

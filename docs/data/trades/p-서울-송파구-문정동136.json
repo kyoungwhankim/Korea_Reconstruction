@@ -1,0 +1,14 @@
+{"id":"서울-송파구-문정동136",
+"name":"문정동 136번지일대",
+"basis":"기존 단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]},
+"silv":{"cols":["date","area","floor","price","kind","type"],"rows":[
+["2024-03-29",59.94,11,109069,"입주권","중개거래"],
+["2024-08-10",59.94,5,128000,"입주권","중개거래"],
+["2024-08-24",59.94,2,120000,"입주권","중개거래"],
+["2024-11-25",59.87,11,135000,"입주권","중개거래"]
+]}}

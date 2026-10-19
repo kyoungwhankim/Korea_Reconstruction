@@ -1,0 +1,9 @@
+{"id":"11200100248348",
+"name":"삼익아파트",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-04-30",61.19,1,200000,null,"중개거래",1976]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

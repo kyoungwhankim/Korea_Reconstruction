@@ -1,0 +1,11 @@
+{"id":"11290100000301",
+"name":"고명아파트",
+"basis":"단지",
+"by_area":[{"area":44,"pyeong":13.3,"n":1,"median":52000,"min":52000,"max":52000,"latest_price":52000,"latest_date":"2026-07-07","latest_floor":2},{"area":51,"pyeong":15.4,"jeonse_n":1,"wolse_n":0,"jeonse_median":12000,"jeonse_min":12000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-04-15"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-09-10",52.43,2,28995,null,"중개거래",1972],
+["2026-07-07",43.97,2,52000,null,"중개거래",1972]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-15",51.31,5,12000,0,"갱신","26.06~28.06",null]
+]}}

@@ -1,0 +1,9 @@
+{"id":"41194112157006",
+"name":"삼신5동,6동아파트",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-04-04",59.57,2,20000,"6","직거래",1979]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

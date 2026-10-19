@@ -1,0 +1,9 @@
+{"id":"11350120134506",
+"name":"월계1,2단지주공아파트",
+"basis":null,
+"by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":290,"wolse_monthly_median":6}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-07-15",26.37,4,290,6,"신규","26.07~27.12",null]
+]}}

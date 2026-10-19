@@ -1,0 +1,12 @@
+{"id":"11110100000017",
+"name":"낙원아파트",
+"basis":null,
+"by_area":[{"area":63,"pyeong":19.1,"jeonse_n":1,"wolse_n":0,"jeonse_median":15000,"jeonse_min":15000,"jeonse_max":15000,"jeonse_latest":15000,"jeonse_latest_date":"2026-06-22"},{"area":66,"pyeong":20.0,"jeonse_n":1,"wolse_n":1,"jeonse_median":30000,"jeonse_min":30000,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-05-04","wolse_deposit_median":3000,"wolse_monthly_median":150},{"area":74,"pyeong":22.4,"jeonse_n":1,"wolse_n":0,"jeonse_median":34000,"jeonse_min":34000,"jeonse_max":34000,"jeonse_latest":34000,"jeonse_latest_date":"2026-09-12"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-04-18",65.92,14,3000,150,"신규","26.07~28.06",null],
+["2026-05-04",65.92,7,30000,0,"신규","26.06~28.06",null],
+["2026-06-22",63.47,13,15000,0,"신규","26.06~28.06",null],
+["2026-09-12",73.59,12,34000,0,"신규","26.10~28.10",null]
+]}}

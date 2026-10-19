@@ -1,0 +1,12 @@
+{"id":"41500100008198",
+"name":"유진아파트",
+"basis":"단지",
+"by_area":[{"area":62,"pyeong":18.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":85}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-11-29",62.07,4,11000,null,"중개거래",1990],
+["2024-06-14",62.07,2,11800,null,"중개거래",1990],
+["2025-09-24",62.07,3,7500,null,"중개거래",1990]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-13",62.07,3,1000,85,"신규","25.12~27.12",null]
+]}}

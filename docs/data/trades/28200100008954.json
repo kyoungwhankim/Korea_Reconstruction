@@ -1,0 +1,11 @@
+{"id":"28200100008954",
+"name":"서울아파트",
+"basis":"단지",
+"by_area":[{"area":67,"pyeong":20.3,"n":1,"median":12000,"min":12000,"max":12000,"latest_price":12000,"latest_date":"2026-04-10","latest_floor":1}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-01-07",66.82,5,12500,null,"직거래",1987],
+["2025-06-07",66.82,2,15500,null,"중개거래",1987],
+["2026-04-10",66.82,1,12000,null,"직거래",1987]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

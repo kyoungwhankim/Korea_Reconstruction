@@ -1,0 +1,9 @@
+{"id":"11440100000752",
+"name":"대성1아파트",
+"basis":null,
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":1,"wolse_n":0,"jeonse_median":30000,"jeonse_min":30000,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2025-11-19"}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-11-19",59.77,5,30000,0,"신규","26.02~28.02",null]
+]}}

@@ -1,0 +1,12 @@
+{"id":"41550120032638",
+"name":"로데오아파트",
+"basis":"단지",
+"by_area":[{"area":42,"pyeong":12.7,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":500,"wolse_monthly_median":50}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2025-09-27",41.7,1,5250,"101동","직거래",1989]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-01-11",41.7,1,500,42,"신규","26.01~27.01",null],
+["2026-02-11",41.7,4,500,50,"신규","26.02~27.02",null],
+["2026-03-20",41.7,2,400,55,"신규","26.04~27.03",null]
+]}}

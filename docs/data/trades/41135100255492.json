@@ -1,0 +1,11 @@
+{"id":"41135100255492",
+"name":"한솔마을(7단지영구임대)(주공701-710)",
+"basis":null,
+"by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1135,"wolse_monthly_median":11},{"area":31,"pyeong":9.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":326,"wolse_monthly_median":6}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2025-12-29",31.32,3,326,6,"갱신","26.02~28.01",null],
+["2026-01-07",26.4,3,275,5,"갱신","26.03~28.02",null],
+["2026-06-22",26.4,2,1996,18,"갱신","26.07~28.06",null]
+]}}

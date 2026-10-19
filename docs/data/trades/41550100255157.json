@@ -1,0 +1,15 @@
+{"id":"41550100255157",
+"name":"대림2차아파트",
+"basis":"단지",
+"by_area":[{"area":44,"pyeong":13.3,"n":2,"median":5150,"min":4700,"max":5600,"latest_price":4700,"latest_date":"2026-04-30","latest_floor":4},{"area":46,"pyeong":13.9,"n":1,"median":3500,"min":3500,"max":3500,"latest_price":3500,"latest_date":"2026-02-20","latest_floor":4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":40}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2024-12-17",44.04,5,5000,null,"중개거래",1991],
+["2025-08-03",43.92,4,4700,null,"중개거래",1991],
+["2025-10-18",58.05,4,6000,null,"중개거래",1991],
+["2026-02-20",45.72,4,3500,null,"중개거래",1991],
+["2026-03-02",44.04,1,5600,null,"중개거래",1991],
+["2026-04-30",43.92,4,4700,null,"직거래",1991]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-03",45.72,5,500,40,"신규","26.02~28.02",null]
+]}}

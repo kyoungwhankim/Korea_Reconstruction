@@ -1,0 +1,9 @@
+{"id":"11680120064720",
+"name":"수서6단지아파트",
+"basis":null,
+"by_area":[{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":803,"wolse_monthly_median":11}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-05-26",39.93,3,803,11,"신규","26.06~28.08",null]
+]}}

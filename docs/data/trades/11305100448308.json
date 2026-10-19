@@ -1,0 +1,9 @@
+{"id":"11305100448308",
+"name":"번동주공영구임대아파트2단지",
+"basis":null,
+"by_area":[{"area":31,"pyeong":9.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":344,"wolse_monthly_median":7}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-03-19",31.32,4,344,7,"갱신","26.06~28.05",null]
+]}}
