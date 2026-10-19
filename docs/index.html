@@ -16,12 +16,14 @@
     <nav id="viewTabs" class="tabs" aria-label="보기">
       <button type="button" data-view="projects" aria-pressed="true">재건축 사업장</button>
       <button type="button" data-view="apartments" aria-pressed="false">30년 이상 노후 단지</button>
+      <button type="button" data-view="review" aria-pressed="false" title="뉴스·고시에서 현재 단계보다 앞선 단계가 보인 사업장 — 사람 확인 전">검토 대기 <span id="reviewCount" class="badge">–</span></button>
     </nav>
     <p id="viewNote" class="sub"></p>
   </div>
 </header>
 
 <main class="wrap">
+<div id="mainPanel">
   <form id="filters" class="filters" autocomplete="off">
     <div class="row">
       <label class="grow">단지명·별칭
@@ -41,6 +43,7 @@
     <fieldset class="stages">
       <legend>재건축 단계</legend>
       <div id="stageChips" class="chips"></div>
+      <label class="chip rv-chip" id="reviewOnly" hidden><input type="checkbox" name="review_only"> 검토 대기 있는 곳만</label>
     </fieldset>
 
     <details class="more" id="moreFilters">
@@ -63,12 +66,48 @@
   </div>
   <p id="empty" class="empty" hidden>조건에 맞는 곳이 없습니다.</p>
   <p class="more-wrap"><button type="button" id="moreBtn" hidden></button></p>
+</div>
+
+  <section id="reviewPanel" class="review" hidden>
+    <p class="sub">뉴스(네이버·구글)와 정비사업 정보몽땅 고시·공고(서울시·자치구 등록분) 제목에서 <b>현재 단계보다 앞선 단계</b>가 보인 사업장입니다. 단계를 자동으로 바꾸지는 않습니다.
+      기사를 확인한 뒤 맞으면 <b>반영 행</b>을 복사해
+      <a href="https://github.com/kyoungwhankim/Korea_Reconstruction/edit/main/manual_stage.csv" target="_blank" rel="noopener">manual_stage.csv</a>에 붙여 넣고(다음 갱신 때 단계와 근거 링크가 반영됨),
+      아니면 <b>기각 행</b>을
+      <a href="https://github.com/kyoungwhankim/Korea_Reconstruction/edit/main/review_dismissed.csv" target="_blank" rel="noopener">review_dismissed.csv</a>에 붙여 넣으면 목록에서 빠집니다.</p>
+    <div class="filters rv-controls">
+      <div class="row">
+        <label class="grow">사업장·기사 검색
+          <input type="search" id="rvQ" placeholder="예: 은마, 사업시행인가">
+        </label>
+        <fieldset class="stages" id="rvConf">
+          <legend>판정</legend>
+          <div class="chips">
+            <label class="chip"><input type="checkbox" value="확정"> 확정 <small>제목이 단계에 이르렀다고 말함</small></label>
+            <label class="chip"><input type="checkbox" value="예정"> 예정 <small>앞두고·신청·총회·목표 등</small></label>
+          </div>
+        </fieldset>
+      </div>
+      <div class="actions"><span id="rvCount" class="count" aria-live="polite"></span></div>
+    </div>
+    <div class="table-wrap">
+      <table id="rvTable">
+        <thead><tr><th>사업장</th><th>현재 → 기사 단계</th><th>판정</th><th>기사·고시 (제목으로 이동)</th><th>날짜</th><th>복사</th></tr></thead>
+        <tbody id="rvBody"></tbody>
+      </table>
+    </div>
+    <p id="rvEmpty" class="empty" hidden>검토 대기 중인 후보가 없습니다.</p>
+    <p class="aliases">전체 표: <a href="https://github.com/kyoungwhankim/Korea_Reconstruction/blob/main/output/review_queue_latest.csv" target="_blank" rel="noopener">output/review_queue_latest.csv</a>
+      · 기사 제목만으로 고른 후보라 오탐이 있습니다. 후보는 현재 단계가 따라오거나(출처 갱신·수동 반영) 기사 날짜로 90일이 지나면 자동으로 빠집니다.</p>
+  </section>
 
   <section class="notes">
     <h2>읽는 법</h2>
     <ul>
       <li><b>현재 단계</b>는 여러 공공 출처 중 가장 진전된 단계이며, 상세 정보에 어느 출처가 그 단계를 알려줬는지 적혀 있습니다.
-        서울은 정비사업 정보몽땅의 사업현황 목록(매일 확인)이 가장 최신이고, 안전진단·분양·이전고시·해산 단계도 거기서 옵니다.</li>
+        서울은 정비사업 정보몽땅의 사업현황 목록(매일 확인)이 가장 최신이고, 안전진단·분양·이전고시·해산 단계도 거기서 옵니다.
+        근거가 <b>수동(근거)</b>이면 뉴스·고시를 사람이 확인해 반영한 단계이며 근거 링크가 함께 있습니다.</li>
+      <li><b>검토 대기</b>는 매일 뉴스(네이버·구글)와 정비사업 정보몽땅 고시·공고(서울시·자치구 등록분) 제목을 사업장 이름으로 찾아, 현재 단계보다 앞선 단계 표현이 있을 때 올리는 후보 목록입니다.
+        자동으로 단계를 바꾸지 않고, 확인된 것만 <code>manual_stage.csv</code>로 반영합니다. 제목만 보므로 오탐·누락이 있습니다.</li>
       <li><b>계획</b> 용적률·건폐율·층수는 정비계획상 신축 계획값, <b>기존</b> 용적률은 현재 단지 값입니다(출처가 제공하는 경우만).</li>
       <li><b>대지지분</b> = 건축물대장의 대지면적 ÷ 세대수(단지 평균). 오래된 대장은 대지면적이 비어 있는 경우가 많아 일부 단지만 표시됩니다.
         <b>세대당 구역면적</b>(구역면적 ÷ 기존 세대수)은 도로·공원이 포함될 수 있어 실제 대지지분보다 큰 참고치입니다.</li>

@@ -847,6 +847,54 @@ def load_manual() -> pd.DataFrame:
     return m
 
 
+MANUAL_STAGE_FILE = BASE / "manual_stage.csv"
+MANUAL_STAGE_SOURCE = "수동(근거)"
+
+
+def load_manual_stage() -> dict[str, dict]:
+    """manual_stage.csv: 사람이 뉴스·고시로 확인한 단계(project_id, stage, date, evidence_url, note).
+    사업장마다 가장 진전된 행 하나만 쓴다. 출처가 그 단계 이상에 이르면 자연히 무시된다(apply_manual_stage)."""
+    if not MANUAL_STAGE_FILE.exists():
+        return {}
+    m = pd.read_csv(MANUAL_STAGE_FILE, dtype=str, encoding="utf-8-sig").fillna("")
+    out: dict[str, dict] = {}
+    for _, r in m.iterrows():
+        pid, stage = str(r.get("project_id", "")).strip(), norm_stage(r.get("stage", ""))
+        if not pid:
+            continue
+        if not stage:
+            print(f"   ! manual_stage.csv: {pid}의 단계 '{r.get('stage')}'를 모름 — 무시", file=sys.stderr)
+            continue
+        d = parse_date(r.get("date", ""))
+        row = {"stage": stage, "date": d.isoformat() if d else None,
+               "evidence_url": str(r.get("evidence_url", "")).strip() or None,
+               "note": str(r.get("note", "")).strip() or None}
+        if pid not in out or STAGE_ORDER[stage] > STAGE_ORDER[out[pid]["stage"]]:
+            out[pid] = row
+    return out
+
+
+def apply_manual_stage(rec: dict, m: dict | None) -> dict:
+    """수동 단계가 출처 단계보다 앞설 때만 현재 단계로 쓴다(stage_source='수동(근거)', stage_evidence=근거 URL).
+    출처가 나중에 같은 단계 이상에 이르면 출처 값이 그대로 쓰이므로 수동 행은 자연히 무의미해진다."""
+    if not m:
+        return rec
+    cur = rec.get("stage_order")
+    if cur is not None and STAGE_ORDER[m["stage"]] <= cur:
+        return rec
+    rec["stage"] = m["stage"]
+    rec["stage_order"] = STAGE_ORDER[m["stage"]]
+    rec["stage_source"] = MANUAL_STAGE_SOURCE
+    rec["stage_evidence"] = m.get("evidence_url")
+    rec["stage_date"] = m.get("date")
+    col = STAGE_DATE_COL.get(m["stage"])
+    if col and not rec.get(col) and m.get("date"):
+        rec[col] = m["date"]
+    tag = f"수동={m['stage']}" + (f"({m['date']})" if m.get("date") else "")
+    rec["stage_by_source"] = "; ".join(x for x in (rec.get("stage_by_source"), tag) if x)
+    return rec
+
+
 def cluster_keys(rows: pd.DataFrame) -> pd.Series:
     """표기가 다른 같은 단지를 하나의 키로 묶는다. (초기 구축 때만 사용 — 이후엔 연결을 고정한다)
 
@@ -929,8 +977,9 @@ def _txt(v) -> str:
     return "-" if v is None else str(v)
 
 
-def build_record(g: pd.DataFrame, manual: pd.DataFrame) -> dict:
-    """한 사업장에 연결된 출처 행들 → 사업장 1행. 같은 입력이면 항상 같은 결과."""
+def build_record(g: pd.DataFrame, manual: pd.DataFrame, manual_stage: dict | None = None) -> dict:
+    """한 사업장에 연결된 출처 행들 → 사업장 1행. 같은 입력이면 항상 같은 결과.
+    manual_stage: 이 사업장의 manual_stage.csv 행(load_manual_stage) — 출처보다 앞선 단계일 때만 반영된다."""
     g = _by_priority(g)
     rec = {}
     for c in OUT_COLS:  # 열이 없어도 키는 항상 만든다(입력 행 구성과 무관하게 같은 모양의 레코드)
@@ -949,6 +998,7 @@ def build_record(g: pd.DataFrame, manual: pd.DataFrame) -> dict:
         if col and not rec.get(col) and pd.notna(best.get("stage_date")):
             rec[col] = best["stage_date"]
     rec["stage_by_source"] = "; ".join(f"{s.split('_')[0]}={_txt(r)}" for s, r in zip(g["source"], g["stage_raw"]))
+    apply_manual_stage(rec, manual_stage)
     rec["name_variants"] = " | ".join(dict.fromkeys(g["zone_name"]))
     rec["_aliases"] = build_aliases(list(dict.fromkeys(g["zone_name"])),
                                     list(dict.fromkeys(g["address"].dropna())), rec.get("region_sigungu"))
@@ -1045,8 +1095,9 @@ def full_build(sources: list[Source] = SOURCES) -> tuple[dict[str, dict[str, dic
         print(f"   → {len(fetched[src.name])}건")
     rows = rows_frame([(k, p) for s in fetched.values() for k, p in s.items()])
     rows["project_id"] = initial_project_ids(rows)
-    manual = load_manual()
-    recs = [{**build_record(g, manual), "project_id": pid} for pid, g in rows.groupby("project_id", sort=False)]
+    manual, manual_stage = load_manual(), load_manual_stage()
+    recs = [{**build_record(g, manual, manual_stage.get(pid)), "project_id": pid}
+            for pid, g in rows.groupby("project_id", sort=False)]
     return fetched, rows.set_index(["source", "_row_key"])["project_id"], recs
 
 

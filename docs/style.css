@@ -142,3 +142,25 @@ small { color: var(--muted); }
   .row label, .row label.grow { flex: 1 1 100%; }
   .count { margin-left: 0; width: 100%; }
 }
+
+/* 검토 대기(뉴스·고시 후보) */
+.badge { display: inline-block; min-width: 1.6em; padding: 0 6px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: 12px; margin-left: 2px; }
+.tabs button[aria-pressed="true"] .badge { background: var(--bg); }
+.rv { display: inline-block; margin-left: 4px; padding: 0 6px; border-radius: 999px; font-size: 11px; font-weight: 600; color: var(--stage-early); border: 1px solid currentColor; vertical-align: middle; }
+.rv-chip { margin-top: 8px; }
+.review .rv-controls { margin-top: 12px; }
+.review .stages { margin: 0; min-width: 240px; }
+.review .actions { margin-top: 8px; }
+.conf { display: inline-block; font-size: 12px; padding: 1px 6px; border-radius: 4px; white-space: nowrap; }
+.conf-sure { background: var(--accent-soft); color: var(--accent); }
+.conf-maybe { color: var(--muted); border: 1px dashed var(--line); }
+#rvTable th { cursor: default; }
+#rvTable td { white-space: normal; vertical-align: top; }
+#rvTable td.art { min-width: 320px; }
+#rvTable td.art small { display: block; }
+#rvTable td.ops { white-space: nowrap; }
+#rvTable td.ops button { font-size: 12px; padding: 3px 8px; }
+#rvTable td.ops button.done { border-color: var(--stage-mid); color: var(--stage-mid); }
+.rv-box { margin: 8px 0; padding: 8px 12px; border: 1px solid var(--stage-early); border-radius: 8px; background: var(--bg); font-size: 13px; }
+.rv-box ul { margin: 6px 0 0; padding-left: 18px; }
+.rv-box li { margin: 3px 0; }

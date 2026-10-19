@@ -98,6 +98,7 @@ function normalize(s) {
 const $ = sel => document.querySelector(sel);
 const fmt = new Intl.NumberFormat("ko-KR", { maximumFractionDigits: 1 });
 const CACHE = {};
+const REVIEW = { items: [], byPid: {}, generated_at: "" };  // 검토 대기열(docs/data/review.json)
 let viewName = "projects";
 let V = VIEWS.projects;
 let DATA = [];
@@ -123,8 +124,13 @@ async function init() {
   });
   document.querySelectorAll("#viewTabs button").forEach(b =>
     b.addEventListener("click", () => switchView(b.dataset.view, true)));
+  $("#rvQ").addEventListener("input", renderReview);
+  $("#rvConf").addEventListener("input", renderReview);
+  $("#rvBody").addEventListener("click", copyRow);
+  await loadReview();
   const u = new URLSearchParams(location.search);
-  await switchView(VIEWS[u.get("view")] ? u.get("view") : "projects", false);
+  const first = u.get("view");
+  await switchView(VIEWS[first] || first === "review" ? first : "projects", false);
   readUrl(u);
   render();
 }
@@ -147,8 +153,15 @@ async function load(name) {
 async function switchView(name, keepQuery) {
   const q = $("#filters").q.value;
   viewName = name;
-  V = VIEWS[name];
   document.querySelectorAll("#viewTabs button").forEach(b => b.setAttribute("aria-pressed", b.dataset.view === name));
+  $("#reviewPanel").hidden = name !== "review";
+  $("#mainPanel").hidden = name === "review";
+  if (name === "review") {  // 검토 대기열: 검색 표 대신 후보 목록
+    if (keepQuery) history.replaceState(null, "", "?view=review");
+    renderReview();
+    return;
+  }
+  V = VIEWS[name];
   $("#body").replaceChildren();
   $("#count").textContent = "불러오는 중…";
   const data = await load(name);
@@ -172,6 +185,7 @@ function buildControls() {
   f.sido.replaceChildren(new Option("전체", ""), ...sidos.map(v => new Option(v, v)));
   fillSgg();
 
+  $("#reviewOnly").hidden = viewName !== "projects" || !REVIEW.items.length;
   const counts = {};
   DATA.forEach(p => { counts[p.stage] = (counts[p.stage] || 0) + 1; });
   $("#stageChips").replaceChildren(...STAGES.filter(([s]) => counts[s]).map(([s]) => {
@@ -222,6 +236,7 @@ function criteria() {
   const c = {
     q: f.q.value.trim(), sido: f.sido.value, sgg: f.sgg.value, addr: f.addr.value.trim(),
     stages: [...f.querySelectorAll("input[name=stage]:checked")].map(i => i.value), ranges: [],
+    reviewOnly: viewName === "projects" && f.review_only.checked,
   };
   for (const [key] of V.ranges) {
     const lo = f[`min_${key}`].value, hi = f[`max_${key}`].value;
@@ -234,6 +249,7 @@ function matches(p, c) {
   if (c.sido && p.region_sido !== c.sido) return false;
   if (c.sgg && p.region_sigungu !== c.sgg) return false;
   if (c.stages.length && !c.stages.includes(p.stage)) return false;
+  if (c.reviewOnly && !REVIEW.byPid[p.project_id]) return false;
   if (c.addr && !V.address(p).replace(/\s/g, "").includes(c.addr.replace(/\s/g, ""))) return false;
   for (const [key, lo, hi] of c.ranges) {
     const v = p[key];
@@ -268,6 +284,7 @@ const PAGE = 300;  // 노후 단지는 수천 곳이라 화면에는 앞에서�
 let shown = PAGE;
 
 function render(updateUrl = true) {
+  if (viewName === "review") return renderReview();
   const c = criteria();
   const rows = DATA.filter(p => matches(p, c));
   const { key, dir } = sort;
@@ -314,7 +331,11 @@ function place(p) {
 }
 
 function cell(p, k, isNum) {
-  if (k === V.name) return `<td class="name">${esc(p[k] || "")}<small>${esc(place(p))}</small></td>`;
+  if (k === V.name) {
+    const n = viewName === "projects" ? (REVIEW.byPid[p.project_id] || []).length : 0;
+    const rv = n ? ` <span class="rv" title="뉴스·고시에서 더 앞선 단계가 보임 — 검토 대기">검토 ${n}</span>` : "";
+    return `<td class="name">${esc(p[k] || "")}${rv}<small>${esc(place(p))}</small></td>`;
+  }
   if (k === "stage_order") {
     return p.stage ? `<td><span class="stage ${STAGE_CLASS[p.stage] || ""}">${esc(p.stage)}</span></td>` : `<td class="na">–</td>`;
   }
@@ -539,7 +560,8 @@ function projectDetail(p) {
       ["bld_approved", "사용승인일"], ["bld_buildings", "주거동 수"],
       ["stage_by_source", "출처별 단계"], ["source_updated_at", "출처 기준일"],
     ])}
-    <p class="aliases">현재 단계 근거: ${esc(p.stage_source || "–")}${p.stage_evidence ? ` · <a href="${esc(p.stage_evidence)}" target="_blank" rel="noopener">정보몽땅 사업장 페이지</a>` : ""}</p>
+    ${reviewBox(p)}
+    <p class="aliases">현재 단계 근거: ${esc(p.stage_source || "–")}${p.stage_evidence ? ` · <a href="${esc(p.stage_evidence)}" target="_blank" rel="noopener">${(p.stage_source || "").startsWith("수동") ? "근거 링크(뉴스·고시)" : "정보몽땅 사업장 페이지"}</a>` : ""}</p>
     ${tradeSection(p)}
     <p class="aliases">다른 이름: ${esc((p.aliases || []).slice(0, 30).join(" · "))}</p>
     ${home}
@@ -576,6 +598,7 @@ function writeUrl(c) {
   if (c.sgg) u.set("sgg", c.sgg);
   if (c.addr) u.set("addr", c.addr);
   if (c.stages.length) u.set("stage", c.stages.join(","));
+  if (c.reviewOnly) u.set("rv", "1");
   for (const [key, lo, hi] of c.ranges) {
     if (lo !== -Infinity) u.set(`min_${key}`, lo);
     if (hi !== Infinity) u.set(`max_${key}`, hi);
@@ -592,6 +615,7 @@ function readUrl(u) {
   if (u.has("sgg")) f.sgg.value = u.get("sgg");
   const stages = (u.get("stage") || "").split(",");
   f.querySelectorAll("input[name=stage]").forEach(i => { i.checked = stages.includes(i.value); });
+  f.review_only.checked = u.get("rv") === "1";
   let anyRange = false;
   for (const [key] of V.ranges) {
     for (const side of ["min", "max"]) {
@@ -614,4 +638,69 @@ function downloadCsv() {
   a.download = `${V.label}_검색결과_${new Date().toISOString().slice(0, 10)}.csv`;
   a.click();
   URL.revokeObjectURL(a.href);
+}
+
+// ---- 검토 대기열(docs/data/review.json): 뉴스·고시 제목에서 현재 단계보다 앞선 단계가 보인 사업장. 자동 반영하지 않는다.
+async function loadReview() {
+  try {
+    const res = await fetch("data/review.json", { cache: "no-cache" });
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    REVIEW.items = data.items || [];
+    REVIEW.generated_at = data.generated_at || "";
+  } catch { REVIEW.items = []; }
+  REVIEW.byPid = {};
+  for (const it of REVIEW.items) (REVIEW.byPid[it.project_id] ||= []).push(it);
+  $("#reviewCount").textContent = fmt.format(REVIEW.items.length);
+}
+
+function confClass(c) {
+  return c === "확정" ? "conf conf-sure" : "conf conf-maybe";
+}
+
+function renderReview() {
+  const q = $("#rvQ").value.trim().toLowerCase();
+  const confs = [...document.querySelectorAll("#rvConf input:checked")].map(i => i.value);
+  const rows = REVIEW.items.filter(it => (!confs.length || confs.includes(it.confidence))
+    && (!q || `${it.zone_name} ${it.region_sigungu} ${it.title} ${it.article_stage}`.toLowerCase().includes(q)));
+  $("#rvCount").textContent = `${fmt.format(rows.length)}건 / 전체 ${fmt.format(REVIEW.items.length)}건 · 갱신 ${REVIEW.generated_at || "–"}`;
+  $("#rvBody").replaceChildren(...rows.map(it => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = reviewRow(it);
+    return tr;
+  }));
+  $("#rvEmpty").hidden = rows.length > 0;
+}
+
+function reviewRow(it) {
+  const manualRow = [it.project_id, it.article_stage, it.published, it.link, ""].join(",");   // manual_stage.csv 한 줄
+  const dismissRow = [it.id, it.project_id, ""].join(",");                                    // review_dismissed.csv 한 줄
+  return `<td class="name"><a href="?q=${encodeURIComponent(it.zone_name)}">${esc(it.zone_name)}</a><small>${esc(place(it))}</small></td>
+    <td><span class="stage ${STAGE_CLASS[it.stage] || ""}">${esc(it.stage || "–")}</span> → <span class="stage ${STAGE_CLASS[it.article_stage] || ""}">${esc(it.article_stage)}</span></td>
+    <td><span class="${confClass(it.confidence)}">${esc(it.confidence)}</span></td>
+    <td class="art"><a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.title)}</a><small>${esc(it.source)} · 일치한 이름: ${esc(it.matched || "")}</small></td>
+    <td>${esc(it.published)}</td>
+    <td class="ops"><button type="button" class="copy" data-text="${esc(manualRow)}" title="manual_stage.csv에 붙여 넣을 행 복사">반영 행</button>
+      <button type="button" class="copy" data-text="${esc(dismissRow)}" title="review_dismissed.csv에 붙여 넣을 행 복사">기각 행</button></td>`;
+}
+
+async function copyRow(e) {
+  const b = e.target.closest("button.copy");
+  if (!b) return;
+  try {
+    await navigator.clipboard.writeText(b.dataset.text);
+    const t = b.textContent;
+    b.textContent = "복사됨";
+    b.classList.add("done");
+    setTimeout(() => { b.textContent = t; b.classList.remove("done"); }, 1500);
+  } catch { window.prompt("아래 행을 복사하세요", b.dataset.text); }
+}
+
+function reviewBox(p) {
+  const rv = REVIEW.byPid[p.project_id] || [];
+  if (!rv.length) return "";
+  return `<div class="rv-box"><b>검토 대기 ${rv.length}건</b> — 뉴스·고시 제목에 현재 단계보다 앞선 단계가 보였습니다(사람 확인 전, 자동 반영 안 함).
+    <a href="?view=review">검토 대기열 보기</a><ul>${rv.map(it => `<li><span class="stage ${STAGE_CLASS[it.article_stage] || ""}">${esc(it.article_stage)}</span>
+    <span class="${confClass(it.confidence)}">${esc(it.confidence)}</span> <a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.title)}</a>
+    <small>${esc(it.published)} · ${esc(it.source)}</small></li>`).join("")}</ul></div>`;
 }

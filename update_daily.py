@@ -22,6 +22,8 @@
   - 출처에서 행이 사라져도 사업장을 지우지 않는다(이력에 '출처에서 삭제', 모든 출처에서 사라지면 status 표시).
   - 현재 단계가 뒤로 가면 '단계 후퇴(확인 필요)'로 따로 표시한다.
   - 같은 입력이면 같은 출력: 사업장 레코드는 연결된 출처 행들만으로 계산된다(collect_reconstruction.build_record).
+  - 사람이 뉴스·고시로 확인한 단계는 manual_stage.csv에 적는다(news.py의 검토 대기열 → 사람 확인 → 수동 반영).
+    출처 단계보다 앞설 때만 현재 단계로 쓰고(stage_source='수동(근거)'), 출처가 따라오면 자연히 무시된다.
 """
 from __future__ import annotations
 
@@ -147,11 +149,15 @@ def failure_ages(con: sqlite3.Connection, failed: list[str], today: str) -> dict
     return ages
 
 
-def manual_hash() -> str:
+def file_hash(path: Path) -> str:
     """줄바꿈(CRLF/LF) 차이는 무시 — Windows와 GitHub Actions(Linux)에서 같은 값이 나오게."""
-    if not cr.MANUAL_FILE.exists():
+    if not path.exists():
         return ""
-    return hashlib.sha1(cr.MANUAL_FILE.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+    return hashlib.sha1(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+
+
+def manual_hash() -> str:
+    return file_hash(cr.MANUAL_FILE)
 
 
 def dumps(obj) -> str:
@@ -197,6 +203,7 @@ def init(con: sqlite3.Connection, today: str) -> None:
         area = f"{rec['region_sido']}|{cr.sgg_key(rec['region_sigungu'], rec['region_sido'])}"
         con.execute("INSERT INTO projects VALUES (?,?,?,?,?)", (rec["project_id"], area, dumps(rec), today, today))
     con.execute("INSERT OR REPLACE INTO meta VALUES ('manual_hash', ?)", (manual_hash(),))
+    con.execute("INSERT OR REPLACE INTO meta VALUES ('manual_stage_hash', ?)", (file_hash(cr.MANUAL_STAGE_FILE),))
     con.commit()
     save_state(con)
     print(f"[초기화] 출처 {len(fetched)}개, 행 {len(links)}개, 사업장 {len(recs)}개")
@@ -254,7 +261,10 @@ def _lot_of(payload: dict) -> tuple | None:
 
 
 # ---------------------------------------------------------------- 사업장 재계산
-def recompute(con, pid: str, manual: pd.DataFrame, today: str, log: list) -> None:
+MANUAL_STAGE_FIELDS = {"stage", "stage_order", "stage_source", "stage_evidence", "stage_date", "stage_by_source"}
+
+
+def recompute(con, pid: str, manual: pd.DataFrame, today: str, log: list, manual_stage: dict | None = None) -> None:
     old_json = con.execute("SELECT record FROM projects WHERE project_id=?", (pid,)).fetchone()[0]
     old = json.loads(old_json)
     rows = active_rows(con, pid)
@@ -264,7 +274,7 @@ def recompute(con, pid: str, manual: pd.DataFrame, today: str, log: list) -> Non
             log.append((today, pid, "모든 출처에서 사라짐", "status", old.get("status"), new["status"], ""))
             con.execute("UPDATE projects SET record=?, updated_at=? WHERE project_id=?", (dumps(new), today, pid))
         return
-    new = cr.build_record(cr.rows_frame([(k, p) for _, k, p in rows]), manual)
+    new = cr.build_record(cr.rows_frame([(k, p) for _, k, p in rows]), manual, (manual_stage or {}).get(pid))
     new["project_id"] = pid
     if dumps(new) == old_json:
         return
@@ -278,7 +288,9 @@ def recompute(con, pid: str, manual: pd.DataFrame, today: str, log: list) -> Non
             if f == "stage":
                 o, n = cr.STAGE_ORDER.get(old.get(f), -1), cr.STAGE_ORDER.get(new.get(f), -1)
                 kind = "단계 진전" if n > o else "단계 후퇴(확인 필요)"
-            log.append((today, pid, kind, f, _s(old.get(f)), _s(new.get(f)), ""))
+            # 수동 단계(manual_stage.csv)가 만든 변경은 출처 칸에 파일 이름을 남긴다
+            by_manual = f in MANUAL_STAGE_FIELDS and new.get("stage_source") == cr.MANUAL_STAGE_SOURCE
+            log.append((today, pid, kind, f, _s(old.get(f)), _s(new.get(f)), "manual_stage.csv" if by_manual else ""))
     con.execute("UPDATE projects SET record=?, updated_at=? WHERE project_id=?", (dumps(new), today, pid))
 
 
@@ -330,8 +342,16 @@ def update(con: sqlite3.Connection, today: str, force: bool = False,
         dirty |= apply_manual(con, manual, today, log)
         con.execute("INSERT OR REPLACE INTO meta VALUES ('manual_hash', ?)", (mh,))
 
+    # 수동 단계표가 바뀌었으면(추가·수정·삭제) 모든 사업장을 다시 계산한다 — 바뀐 레코드만 이력에 남는다
+    manual_stage = cr.load_manual_stage()
+    msh = file_hash(cr.MANUAL_STAGE_FILE)
+    if msh != (con.execute("SELECT value FROM meta WHERE key='manual_stage_hash'").fetchone() or [""])[0]:
+        print(f"[변경] manual_stage.csv (수동 단계 {len(manual_stage)}곳) — 모든 사업장 다시 계산")
+        dirty |= {pid for (pid,) in con.execute("SELECT project_id FROM projects")}
+        con.execute("INSERT OR REPLACE INTO meta VALUES ('manual_stage_hash', ?)", (msh,))
+
     for pid in sorted(dirty):
-        recompute(con, pid, manual, today, log)
+        recompute(con, pid, manual, today, log, manual_stage)
     con.executemany("INSERT INTO changes VALUES (?,?,?,?,?,?,?)", log)
     return log
 
@@ -460,9 +480,9 @@ def main() -> None:
     failed: list[str] = []
     log = update(con, args.date, force=args.force or args.migrate, failed=failed, accept_shrink=args.accept_shrink)
     if args.migrate:  # 계산 규칙·열이 바뀌었을 수 있으니 모든 사업장을 다시 계산한다(바뀐 것만 이력에 남는다)
-        manual = cr.load_manual()
+        manual, manual_stage = cr.load_manual(), cr.load_manual_stage()
         for (pid,) in con.execute("SELECT project_id FROM projects").fetchall():
-            recompute(con, pid, manual, args.date, log)
+            recompute(con, pid, manual, args.date, log, manual_stage)
         log = migration_log(log, args.date)
     if args.dry_run:
         for row in log:
