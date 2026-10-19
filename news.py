@@ -39,6 +39,7 @@ import re
 import sys
 import time
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
@@ -115,7 +116,9 @@ HEDGE = re.compile(r"앞두|앞둔|예정|목표|추진|신청|준비|임박|가
                    r"입찰|시공사|시공권|수주|총회|촉구|요구|요청|기대|전망|가능성|검토|논의|협의|갈등|반발|소송|난항|지연|연기|"
                    r"초읽기|코앞|청신호|가속|탄력|순항|급물살|물꼬|첫발|첫걸음|방침|용역|공모|도전|노린|노려|겨냥|위해|위한|"
                    r"관건|변수|기로|촉각|주목|예고|시기|언제|가능할까|되나|될까|향해|향한|남았|남은|예상|앞으로|수순|순서")
-POSITIVE = re.compile(r"^.{0,2}(받|통과|획득|따냈|따내|확정|고시|승인|완료|마쳤|마무리|됐|돼|했다|결정|인가|나왔|떨어졌|났다|확보)")
+POSITIVE = re.compile(r"^.{0,2}(받|통과|획득|취득|따냈|따내|확정|고시|승인|완료|마쳤|마무리|됐|돼|했다|결정|인가|나왔|떨어졌|났다|확보)")
+BREAK = re.compile(r"…|\.{2,}|·+|,|—|–|~|\||/|\]|\)")                 # 절이 바뀌는 자리: 그 뒤의 말은 앞 사건을 꾸미지 않는다
+BEFORE_HEDGE = re.compile(r"연내|내년|내달|다음달|상반기|하반기|조만간|이르면|늦어도|이달중|향후|목표")   # '연내 사업시행인가'
 
 
 def detect_stage(title: str, allow_hedged: bool = True) -> tuple[str, str] | None:
@@ -135,18 +138,27 @@ def detect_stage(title: str, allow_hedged: bool = True) -> tuple[str, str] | Non
                        for m in [rx.search(rest)] if m) if allow_hedged and not MARKET.search(t) else []
     if events:
         events.sort()
-        sure = [e for e in events if POSITIVE.search(t[e[1]:e[1] + 12])]       # '…인가 받았다', '…통과'
-        start, end, stage = sure[0] if sure else events[0]
-        if sure:
-            conf = "확정"
-        elif HEDGE.search(t[end:end + 12]) or HEDGE.search(rest):
-            conf = "예정"
+        masked = list(t)                       # 사건 표현 자체는 지우고 그 앞뒤 말만 본다('청약 접수'의 '접수'가 머뭇거림이 아니게)
+        for s, e, _ in events:
+            masked[s:e] = " " * (e - s)
+        masked = "".join(masked)
+        judged = []
+        for s, e, stage in events:
+            raw = masked[e:e + 14].lstrip()
+            if POSITIVE.match(raw):                               # '…인가 받았다', '…통과했다'
+                judged.append((stage, "확정", s))
+                break
+            # 바로 뒤가 '…'·','·'·'이면 다른 절(다음 계획)이라 보지 않는다; 따옴표는 벗기고 같은 절만 본다
+            clause = "" if BREAK.match(raw) else BREAK.split(raw.lstrip("‘’'\"“”[(「『"), 1)[0]
+            hedged = bool(HEDGE.search(clause) or BEFORE_HEDGE.search(masked[max(0, s - 6):s]))
+            judged.append((stage, "예정" if hedged else "확정", s))
+        stage, conf, start = judged[0] if judged[0][1] == "확정" or len(judged) == 1 else \
+            next((j for j in judged if j[1] == "확정"), judged[0])
+        if conf == "예정":
             # '사업시행계획안 통과…내년 관리처분인가 목표': 앞에 나온 더 가까운 단계를 후보로 쓴다
             earlier = [s for pos, s in mentioned if pos < start and cr.STAGE_ORDER[s] < cr.STAGE_ORDER[stage]]
             if earlier:
                 stage = earlier[0]
-        else:
-            conf = "확정"
         return stage, conf
     if mentioned:
         return mentioned[0][1], "예정"
@@ -188,20 +200,25 @@ def display_name(zone: str) -> str:
     return c
 
 
-def region_tokens(rec: dict) -> set[str]:
-    toks = set()
+def region_tokens(rec: dict) -> tuple[set[str], set[str]]:
+    """(제목에서 찾을 짧은 지역 이름, 요약에서 찾을 온전한 지역 이름).
+    '은행'(은행동)·'중동'처럼 흔한 낱말과 같은 줄기는 제목에서만 믿고, 요약에서는 '은행동'·'강남구'처럼 온전한 이름만 본다."""
+    short, full = set(), set()
     addr = rec.get("address") or ""
     for d in cr._dongs(addr):
-        toks.add(d)                                   # 대치동
+        full.add(d)                                   # 대치동
         stem = re.sub(r"\d*(동|가)$", "", d)
         if len(stem) >= 2:
-            toks.add(stem)                            # 대치
+            short.add(stem)                           # 대치
     for m in re.finditer(r"([가-힣]{2,4})(시|구|군)(?=\s|$)", addr):
-        toks.add(m.group(1))                          # 고양, 덕양
-    short = re.sub(r"(특별시|광역시|시|군|구)$", "", rec.get("region_sigungu") or "")
-    if len(short) >= 2:
-        toks.add(short)                               # 강남, 부천
-    return toks
+        short.add(m.group(1))                         # 고양, 덕양
+        full.add(m.group(0))
+    sgg = rec.get("region_sigungu") or ""
+    s = re.sub(r"(특별시|광역시|시|군|구)$", "", sgg)
+    if len(s) >= 2:
+        short.add(s)                                  # 강남, 부천
+        full.add(sgg)                                 # 강남구, 부천시
+    return short, full
 
 
 def profile(pid: str, rec: dict, shared: set[str]) -> dict:
@@ -237,9 +254,10 @@ def profile(pid: str, rec: dict, shared: set[str]) -> dict:
         q = f"{sgg_short} {n} 재건축" if prefix else f"{n} 재건축"
         if q not in queries:
             queries.append(q)
+    region, region_full = region_tokens(rec)
     return {"pid": pid, "name": zone, "sido": rec.get("region_sido"), "sgg": rec.get("region_sigungu"),
             "stage": rec.get("stage"), "order": cr.STAGE_ORDER.get(rec.get("stage"), -1),
-            "strong": strong, "medium": medium, "weak": weak, "region": region_tokens(rec),
+            "strong": strong, "medium": medium, "weak": weak, "region": region, "region_full": region_full,
             "queries": queries[:2] or [f"{zone} 재건축"], "google_query": (queries or [f"{zone} 재건축"])[0]}
 
 
@@ -265,8 +283,7 @@ def match_name(prof: dict, title: str, desc: str = "") -> str | None:
         for k, alias in prof["medium"].items():
             if contains(tk, k):
                 return alias
-    text = f"{title} {desc}"
-    if any(tok in text for tok in prof["region"]):
+    if any(tok in title for tok in prof["region"]) or any(tok in desc for tok in prof["region_full"]):
         for k, alias in {**prof["medium"], **prof["weak"]}.items():
             if contains(tk, k):
                 return alias
@@ -295,7 +312,7 @@ def build_profiles(projects: dict[str, dict]) -> dict[str, dict]:
     for pid, rec in projects.items():
         for alias, _ in rec.get("_aliases") or []:
             owners.setdefault(cr.zone_key(alias), set()).add(pid)
-        places |= region_tokens(rec)
+        places |= region_tokens(rec)[0]
     shared = {k for k, pids in owners.items() if len(pids) > 1}
     return {pid: profile(pid, rec, shared | places) for pid, rec in projects.items()}
 
@@ -445,9 +462,16 @@ def prune(state: dict[str, dict], profiles: dict[str, dict], dismissed: set[str]
         if pid not in profiles:                    # 사라졌거나 더 볼 단계가 없는 사업장
             del state[pid]
             continue
-        order = profiles[pid]["order"]
-        st["candidates"] = [c for c in st.get("candidates") or [] if c["id"] not in dismissed
-                            and cr.STAGE_ORDER[c["stage"]] > order and c["published"] >= expire]
+        order, kept = profiles[pid]["order"], []
+        for c in st.get("candidates") or []:
+            # 판정 규칙이 나아지면 저장된 후보도 같은 규칙으로 다시 매긴다(제목 기준이라 결정적)
+            det = detect_stage(c["title"], allow_hedged=c.get("source") != SEOUL_SOURCE)
+            if not det:
+                continue
+            c["stage"], c["confidence"] = det
+            if c["id"] not in dismissed and cr.STAGE_ORDER[c["stage"]] > order and c["published"] >= expire:
+                kept.append(c)
+        st["candidates"] = kept
         if not st["candidates"] and not st["seen"] and not st.get("checked_at"):
             del state[pid]
 
@@ -496,8 +520,33 @@ def classify(pid: str, prof: dict, items: list[dict], st: dict, today: date, sta
     return new
 
 
+def fetch_google(prof: dict, st: dict, srcs: Sources, stats: dict) -> tuple[list[dict], bool]:
+    """구글 RSS 1건 — 네이버 조회와 겹쳐 돌릴 수 있게 따로 뗀다(요청 간격은 이 안에서 지킨다)."""
+    days = GOOGLE_NEXT_DAYS if st.get("checked_at") else GOOGLE_FIRST_DAYS
+    try:
+        stats["google_calls"] += 1
+        items = google_search(prof["google_query"], days)
+        srcs.google_fails = 0
+        return items, True
+    except SourceDown as e:
+        srcs.down("google", str(e))
+    except requests.RequestException as e:
+        stats["errors"] += 1
+        srcs.google_fails += 1
+        print(f"   ! 구글 '{prof['google_query']}': {e}", file=sys.stderr)
+        if srcs.google_fails >= 5:
+            srcs.down("google", "연속 5회 실패")
+    finally:
+        time.sleep(GOOGLE_GAP)
+    return [], False
+
+
+POOL = ThreadPoolExecutor(max_workers=1)   # 구글 1건을 네이버 조회와 나란히
+
+
 def check_project(prof: dict, st: dict, srcs: Sources, today: date, stats: dict) -> list[dict]:
     items, ok = [], False
+    future = POOL.submit(fetch_google, prof, st, srcs, stats) if srcs.google else None
     if srcs.naver:
         for q in prof["queries"]:
             if stats["naver_calls"] >= NAVER_BUDGET:
@@ -514,21 +563,10 @@ def check_project(prof: dict, st: dict, srcs: Sources, today: date, stats: dict)
                 stats["errors"] += 1
                 print(f"   ! 네이버 '{q}': {e}", file=sys.stderr)
             time.sleep(NAVER_GAP)
-    if srcs.google:
-        days = GOOGLE_NEXT_DAYS if st.get("checked_at") else GOOGLE_FIRST_DAYS
-        try:
-            stats["google_calls"] += 1
-            items += google_search(prof["google_query"], days)
-            ok, srcs.google_fails = True, 0
-        except SourceDown as e:
-            srcs.down("google", str(e))
-        except requests.RequestException as e:
-            stats["errors"] += 1
-            srcs.google_fails += 1
-            print(f"   ! 구글 '{prof['google_query']}': {e}", file=sys.stderr)
-            if srcs.google_fails >= 5:
-                srcs.down("google", "연속 5회 실패")
-        time.sleep(GOOGLE_GAP)
+    if future:
+        g_items, g_ok = future.result()
+        items += g_items
+        ok = ok or g_ok
     new = classify(prof["pid"], prof, items, st, today, stats)
     if ok:
         st["checked_at"] = today.isoformat()
