@@ -126,7 +126,7 @@ MARKET = re.compile(r"분양권|입주권|경매|공매|낙찰|신고가|호가|
 HEDGE = re.compile(r"앞두|앞둔|예정|목표|추진|신청|준비|임박|가시화|눈앞|채비|시동|박차|나선|나섰|동의서|동의율|설명회|공청회|"
                    r"입찰|시공사|시공권|수주|총회|촉구|요구|요청|기대|전망|가능성|검토|논의|협의|갈등|반발|소송|난항|지연|연기|"
                    r"초읽기|코앞|청신호|가속|탄력|순항|급물살|물꼬|첫발|첫걸음|방침|용역|공모|도전|노린|노려|겨냥|위해|위한|"
-                   r"관건|변수|기로|촉각|주목|예고|시기|언제|가능할까|되나|될까|향해|향한|남았|남은|예상|앞으로|수순|순서")
+                   r"관건|변수|기로|촉각|주목|예고|시기|언제|가능할까|되나|될까|향해|향한|남았|남은|예상|앞으로|수순|순서|절차")
 POSITIVE = re.compile(r"^.{0,2}(받|통과|획득|취득|따냈|따내|확정|고시|승인|완료|마쳤|마무리|됐|돼|했다|결정|인가|나왔|떨어졌|났다|확보)")
 BREAK = re.compile(r"…|\.{2,}|·+|,|—|–|~|\||/|\]|\)")                 # 절이 바뀌는 자리: 그 뒤의 말은 앞 사건을 꾸미지 않는다
 BEFORE_HEDGE = re.compile(r"연내|내년|내달|다음달|상반기|하반기|조만간|이르면|늦어도|이달중|향후|목표")   # '연내 사업시행인가'
@@ -222,6 +222,8 @@ def region_tokens(rec: dict) -> tuple[set[str], set[str]]:
         stem = re.sub(r"\d*(동|가)$", "", d)
         if len(stem) >= 2:
             short.add(stem)                           # 대치
+        elif len(d) >= 2:
+            short.add(d)                              # 한 글자 동('창동', '목동')은 온전한 이름으로
     for m in re.finditer(r"([가-힣]{2,4})(시|구|군)(?=\s|$)", addr):
         short.add(m.group(1))                         # 고양, 덕양
         full.add(m.group(0))
@@ -273,18 +275,38 @@ def profile(pid: str, rec: dict, shared: set[str]) -> dict:
             "queries": queries[:2] or [f"{zone} 재건축"], "google_query": (queries or [f"{zone} 재건축"])[0]}
 
 
+PAREN_DESC = re.compile(r"고층|저층|임대|상가|제외|\d+\s*동")   # '상계주공15(고층,공무원임대)'의 괄호 안은 이름이 아니다
+
+
 def complex_profile(key: str, apt: dict, shared: set[str]) -> dict:
     """사업장이 없는 노후 단지(apartments.json 한 줄)의 프로필 — 신규 사업장 후보 감지용.
-    단지 이름은 사업장 이름보다 흔하고(현대·주공…) 다른 시·도에 같은 이름이 많아, 5자 이상의 고유한 이름만 이름만으로 믿고
-    나머지는 제목에 동·시군구 이름이 함께 있어야 한다. 질의도 항상 시군구 이름을 앞에 붙인다(1건)."""
+
+    단지 이름은 사업장 이름보다 흔하고(현대·주공…) 다른 시·도에 같은 이름이 많아 사업장보다 엄격하게 본다.
+    - 5자 이상의 고유한 이름만 이름만으로 믿고, 나머지는 제목에 동·시군구 이름이 함께 있어야 한다.
+    - 번호가 있는 이름의 줄기('상계주공9'의 '상계주공', '한신2차'의 '한신')는 버린다 — 제목의 '상계주공7단지'가 9단지에 붙지 않게.
+    - 흔한 이름뿐인 단지('대림', '현대')는 동 이름이 제목에 있어야 한다 — 같은 구의 '남산대림'이 이촌동 대림에 붙지 않게.
+    - '주공19단지(창동리버타운)'은 괄호 밖·안을 따로 이름으로 쓴다. 질의는 시군구 이름을 앞에 붙인 1건.
+    """
     names = list(dict.fromkeys(n for n in [apt.get("name"), *(apt.get("aliases") or [])] if n))
+    for n in list(names):
+        m = re.fullmatch(r"(.+?)\((.+)\)", n)
+        if m:
+            names += [m.group(1)] + ([m.group(2)] if not PAREN_DESC.search(m.group(2)) else [])
+    names = list(dict.fromkeys(names))
     rec = {"zone_name": apt.get("name") or "?", "_aliases": [(n, "단지 이름") for n in names],
            "address": " ".join(str(apt.get(k) or "") for k in ("region_sigungu", "dong", "jibun")),   # 지역 이름: 시군구·동
            "region_sido": apt.get("region_sido"), "region_sigungu": apt.get("region_sigungu"), "stage": None}
     p = profile(key, rec, shared)
-    strong = {k: a for k, a in p["strong"].items() if len(k) >= 5}
-    p["weak"] = {**{k: a for k, a in p["strong"].items() if k not in strong}, **p["medium"], **p["weak"]}
-    p["strong"], p["medium"] = strong, {}
+    keys = {**p["strong"], **p["medium"], **p["weak"]}
+    numbered = [k for k in keys if re.search(r"\d", k)]
+    keys = {k: a for k, a in keys.items()
+            if re.search(r"\d", k) or not any(n.startswith(k) and n[len(k)].isdigit() for n in numbered)}
+    p["strong"] = {k: a for k, a in keys.items() if k in p["strong"] and len(k) >= 5}
+    p["medium"], p["weak"] = {}, {k: a for k, a in keys.items() if k not in p["strong"]}
+    if keys and all(generic_key(k) for k in keys):
+        dong = apt.get("dong") or ""
+        stem = re.sub(r"\d*(동|가)$", "", dong)
+        p["region"], p["region_full"] = ({stem} if len(stem) >= 2 else set()), ({dong} if dong else set())
     sgg_short = re.sub(r"(특별시|광역시|시|군|구)$", "", apt.get("region_sigungu") or "")
     core = cr._core(re.sub(r"\(.*?\)", "", rec["zone_name"]))
     q = f"{sgg_short} {core} 재건축" if sgg_short and not core.startswith(sgg_short) else f"{core} 재건축"
@@ -535,7 +557,12 @@ def prune(state: dict[str, dict], profiles: dict[str, dict], dismissed: set[str]
         # 같은 기사가 네이버·구글에 다른 제목 꼬리로 들어오면 하나만 남긴다(네이버 링크 우선)
         cands = sorted(st.get("candidates") or [], key=lambda c: (c.get("source") != "네이버", c.get("first_seen") or "", c["id"]))
         for c in cands:
-            if cr.zone_key(c.get("matched") or "") not in keys:   # 더는 별칭으로 안 쓰는 이름으로 맞은 후보는 뺀다
+            if prof["kind"] == NEW_KIND:               # 단지 후보는 이름 대조 규칙도 소급한다(제목만) — 맞은 이름을 다시 적는다
+                alias = match_name(prof, c["title"])
+                if not alias:
+                    continue
+                c["matched"] = alias
+            elif cr.zone_key(c.get("matched") or "") not in keys:   # 더는 별칭으로 안 쓰는 이름으로 맞은 후보는 뺀다
                 continue
             # 판정 규칙이 나아지면 저장된 후보도 같은 규칙으로 다시 매긴다(제목 기준이라 결정적)
             det = stage_for(prof, c["title"], "", allow_hedged=c.get("source") != SEOUL_SOURCE)
