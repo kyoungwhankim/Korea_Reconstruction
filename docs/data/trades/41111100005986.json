@@ -1,0 +1,13 @@
+{"id":"41111100005986",
+"name":"유천프라자",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-03-12",59.67,3,13900,null,null,1991],
+["2021-04-10",59.67,5,14800,null,null,1991],
+["2021-06-14",59.67,6,15500,null,null,1991],
+["2022-08-01",59.67,7,20000,null,"중개거래",1991],
+["2023-05-03",59.67,4,22500,"1","중개거래",1991]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

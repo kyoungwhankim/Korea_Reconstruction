@@ -3,6 +3,10 @@
 "basis":"기존 단지",
 "by_area":[{"area":71,"pyeong":21.5,"n":2,"median":54500,"min":51000,"max":58000,"latest_price":51000,"latest_date":"2026-03-14","latest_floor":2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":40},{"area":85,"pyeong":25.7,"n":1,"median":60000,"min":60000,"max":60000,"latest_price":60000,"latest_date":"2026-01-12","latest_floor":4,"jeonse_n":3,"wolse_n":0,"jeonse_median":45000,"jeonse_min":44100,"jeonse_max":50000,"jeonse_latest":45000,"jeonse_latest_date":"2026-06-03","jeonse_ratio":75.0}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-05-21",84.99,4,66000,null,null,2012],
+["2021-06-07",71.09,11,64500,null,null,2012],
+["2021-06-12",71.09,6,58000,null,null,2012],
+["2021-09-24",71.09,4,62000,null,null,2012],
 ["2024-09-23",84.98,10,60000,"SM 엘루이 아파트","중개거래",2012],
 ["2025-02-28",84.97,13,61700,"SM 엘루이 아파트","중개거래",2012],
 ["2025-03-04",71.09,10,61500,"SM 엘루이 아파트","중개거래",2012],

@@ -1,8 +1,14 @@
 {"id":"28200100009025",
 "name":"미림아파트",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":47,"pyeong":14.2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":700,"wolse_monthly_median":45}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-02-08",47.34,4,9000,null,null,1988],
+["2021-04-04",47.34,2,10300,null,null,1988],
+["2021-05-07",47.34,1,10700,null,null,1988],
+["2021-05-20",47.34,1,12000,null,null,1988],
+["2021-07-27",47.34,3,11000,null,null,1988],
+["2021-09-25",47.34,2,12500,null,null,1988]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-03-03",47.34,4,700,45,"신규","26.03~28.03",null]

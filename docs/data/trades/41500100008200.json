@@ -1,8 +1,10 @@
 {"id":"41500100008200",
 "name":"조명아파트",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":53,"pyeong":16.0,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":60,"pyeong":18.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-04-20",75.69,4,10000,null,null,1989],
+["2022-04-05",52.92,5,15000,null,"직거래",1989]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-05-08",60.48,1,2000,60,"신규","26.05~28.05",null],

@@ -1,0 +1,11 @@
+{"id":"41196100006988",
+"name":"삼원아파트",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-03-19",56.44,5,19000,null,null,1988],
+["2021-06-29",44.56,1,15300,null,null,1988],
+["2022-01-25",56.44,1,21000,null,"중개거래",1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

@@ -1,0 +1,10 @@
+{"id":"경기-부천-송내1-1",
+"name":"송내1-1구역",
+"basis":"기존 단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-04-17",61.56,3,46700,null,null,1985],
+["2021-06-17",58.5,1,47000,null,null,1985]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

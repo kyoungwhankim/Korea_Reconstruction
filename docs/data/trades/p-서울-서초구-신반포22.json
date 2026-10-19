@@ -1,0 +1,11 @@
+{"id":"서울-서초구-신반포22",
+"name":"신반포22차",
+"basis":"기존 단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-02-10",117.15,10,270000,null,null,1983],
+["2021-02-10",117.15,10,270000,null,null,1983],
+["2021-08-16",117.15,5,288000,null,null,1983]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

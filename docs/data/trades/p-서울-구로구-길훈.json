@@ -1,0 +1,9 @@
+{"id":"서울-구로구-길훈",
+"name":"길훈아파트",
+"basis":"기존 단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-03-23",59.57,1,21700,null,null,1988]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

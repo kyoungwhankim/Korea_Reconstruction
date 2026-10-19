@@ -1,3 +1,862 @@
+{"apt": "한성", "area": 44.04, "built": 1989, "date": "2021-02-01", "dong": "광암동", "floor": 1, "jibun": "484-3", "price": 3000}
+{"apt": "동남", "area": 59.9, "built": 1993, "date": "2021-02-01", "dong": "상패동", "floor": 11, "jibun": "2-53", "price": 7300}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2021-02-01", "dong": "생연동", "floor": 5, "jibun": "464-9", "price": 9100}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-02-01", "dong": "생연동", "floor": 12, "jibun": "85", "price": 7900}
+{"apt": "보산주공아파트", "area": 46.68, "built": 1990, "date": "2021-02-02", "dong": "보산동", "floor": 4, "jibun": "400-1", "price": 6300}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-02-02", "dong": "생연동", "floor": 14, "jibun": "163", "price": 8900}
+{"apt": "조흥아파트", "area": 57.0, "built": 1990, "date": "2021-02-02", "dong": "생연동", "floor": 4, "jibun": "268-5", "price": 5500}
+{"apt": "조흥아파트", "area": 57.0, "built": 1990, "date": "2021-02-03", "dong": "생연동", "floor": 1, "jibun": "268-5", "price": 5000}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-02-03", "dong": "생연동", "floor": 2, "jibun": "284", "price": 8500}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-02-03", "dong": "생연동", "floor": 3, "jibun": "284", "price": 7500}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-02-03", "dong": "생연동", "floor": 5, "jibun": "284", "price": 8800}
+{"apt": "에이스아파트(4차)", "area": 84.33, "built": 1995, "date": "2021-02-03", "dong": "생연동", "floor": 9, "jibun": "352", "price": 19450}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-02-03", "dong": "생연동", "floor": 4, "jibun": "85", "price": 8500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-02-04", "dong": "생연동", "floor": 5, "jibun": "163", "price": 8100}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-02-04", "dong": "생연동", "floor": 5, "jibun": "163", "price": 8500}
+{"apt": "상우아파트", "area": 83.04, "built": 1991, "date": "2021-02-05", "dong": "생연동", "floor": 15, "jibun": "296-1", "price": 9500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-02-06", "dong": "생연동", "floor": 10, "jibun": "163", "price": 8900}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-02-06", "dong": "생연동", "floor": 11, "jibun": "163", "price": 8900}
+{"apt": "조흥아파트", "area": 65.53, "built": 1990, "date": "2021-02-06", "dong": "생연동", "floor": 3, "jibun": "268-5", "price": 5500}
+{"apt": "상우아파트", "area": 66.84, "built": 1991, "date": "2021-02-06", "dong": "생연동", "floor": 14, "jibun": "296-1", "price": 7200}
+{"apt": "상우아파트", "area": 83.04, "built": 1991, "date": "2021-02-06", "dong": "생연동", "floor": 10, "jibun": "296-1", "price": 10500}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-02-06", "dong": "생연동", "floor": 6, "jibun": "335", "price": 9000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-02-06", "dong": "생연동", "floor": 15, "jibun": "809", "price": 10000}
+{"apt": "에이스아파트(2차)", "area": 120.05, "built": 1993, "date": "2021-02-07", "dong": "생연동", "floor": 12, "jibun": "335", "price": 16000}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2021-02-07", "dong": "생연동", "floor": 1, "jibun": "464-9", "price": 8500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-02-08", "dong": "상패동", "floor": 14, "jibun": "61", "price": 8000}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-02-08", "dong": "생연동", "floor": 8, "jibun": "163", "price": 7000}
+{"apt": "화성아파트2차", "area": 59.64, "built": 1990, "date": "2021-02-11", "dong": "생연동", "floor": 5, "jibun": "473-9", "price": 5500}
+{"apt": "동남", "area": 59.9, "built": 1993, "date": "2021-02-13", "dong": "상패동", "floor": 1, "jibun": "2-53", "price": 6000}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-02-13", "dong": "생연동", "floor": 14, "jibun": "352", "price": 10500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-02-15", "dong": "상패동", "floor": 5, "jibun": "61", "price": 8000}
+{"apt": "조흥아파트", "area": 57.48, "built": 1990, "date": "2021-02-15", "dong": "생연동", "floor": 2, "jibun": "268-5", "price": 4900}
+{"apt": "조흥아파트", "area": 65.53, "built": 1990, "date": "2021-02-15", "dong": "생연동", "floor": 2, "jibun": "268-5", "price": 6000}
+{"apt": "상우아파트", "area": 83.04, "built": 1991, "date": "2021-02-16", "dong": "생연동", "floor": 3, "jibun": "296-1", "price": 9500}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2021-02-16", "dong": "생연동", "floor": 1, "jibun": "334-1", "price": 7700}
+{"apt": "상우아파트", "area": 83.04, "built": 1991, "date": "2021-02-17", "dong": "생연동", "floor": 8, "jibun": "296-1", "price": 10000}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2021-02-17", "dong": "생연동", "floor": 4, "jibun": "334-1", "price": 8900}
+{"apt": "화성아파트3차", "area": 59.94, "built": 1991, "date": "2021-02-17", "dong": "생연동", "floor": 3, "jibun": "531-4", "price": 9000}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-02-17", "dong": "생연동", "floor": 2, "jibun": "787-2", "price": 8900}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2021-02-17", "dong": "생연동", "floor": 2, "jibun": "85", "price": 7300}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2021-02-17", "dong": "생연동", "floor": 4, "jibun": "85", "price": 6200}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-02-18", "dong": "상패동", "floor": 15, "jibun": "61", "price": 7750}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-02-19", "dong": "상패동", "floor": 4, "jibun": "61", "price": 8000}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-02-19", "dong": "생연동", "floor": 5, "jibun": "251", "price": 4050}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-02-19", "dong": "생연동", "floor": 1, "jibun": "284", "price": 12500}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-02-19", "dong": "생연동", "floor": 8, "jibun": "809", "price": 11800}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-02-20", "dong": "생연동", "floor": 3, "jibun": "163", "price": 8900}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-02-20", "dong": "생연동", "floor": 4, "jibun": "284", "price": 9000}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2021-02-20", "dong": "생연동", "floor": 6, "jibun": "334-1", "price": 8200}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2021-02-20", "dong": "생연동", "floor": 7, "jibun": "464-9", "price": 9500}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-02-21", "dong": "생연동", "floor": 7, "jibun": "352", "price": 10800}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-02-22", "dong": "상패동", "floor": 13, "jibun": "61", "price": 8000}
+{"apt": "태양아파트(2동)", "area": 75.24, "built": 1990, "date": "2021-02-22", "dong": "생연동", "floor": 4, "jibun": "280", "price": 8800}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-02-22", "dong": "생연동", "floor": 2, "jibun": "335", "price": 9400}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-02-22", "dong": "생연동", "floor": 3, "jibun": "352", "price": 13400}
+{"apt": "근남아파트", "area": 71.64, "built": 1990, "date": "2021-02-22", "dong": "생연동", "floor": 6, "jibun": "403-1", "price": 6600}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2021-02-22", "dong": "생연동", "floor": 14, "jibun": "464-9", "price": 8000}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2021-02-22", "dong": "생연동", "floor": 8, "jibun": "85", "price": 7000}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2021-02-23", "dong": "생연동", "floor": 4, "jibun": "268-5", "price": 7000}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2021-02-23", "dong": "생연동", "floor": 12, "jibun": "350", "price": 10000}
+{"apt": "조흥아파트", "area": 65.53, "built": 1990, "date": "2021-02-24", "dong": "생연동", "floor": 2, "jibun": "268-5", "price": 5000}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-02-24", "dong": "생연동", "floor": 4, "jibun": "284", "price": 11500}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2021-02-25", "dong": "상패동", "floor": 7, "jibun": "61", "price": 7900}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-02-25", "dong": "생연동", "floor": 3, "jibun": "284", "price": 7470}
+{"apt": "에이스아파트(1차)", "area": 120.05, "built": 1992, "date": "2021-02-25", "dong": "생연동", "floor": 5, "jibun": "334-1", "price": 16500}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2021-02-25", "dong": "생연동", "floor": 3, "jibun": "787-2", "price": 12900}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-02-25", "dong": "생연동", "floor": 10, "jibun": "809", "price": 9000}
+{"apt": "동남", "area": 59.9, "built": 1993, "date": "2021-02-26", "dong": "상패동", "floor": 8, "jibun": "2-53", "price": 6400}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-02-26", "dong": "상패동", "floor": 12, "jibun": "61", "price": 7700}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-02-26", "dong": "생연동", "floor": 8, "jibun": "163", "price": 8300}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-02-26", "dong": "생연동", "floor": 12, "jibun": "163", "price": 9300}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-02-26", "dong": "생연동", "floor": 13, "jibun": "163", "price": 7000}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2021-02-26", "dong": "생연동", "floor": 8, "jibun": "464-9", "price": 9900}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-02-26", "dong": "생연동", "floor": 5, "jibun": "85", "price": 6900}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-02-27", "dong": "생연동", "floor": 2, "jibun": "163", "price": 8250}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-02-27", "dong": "생연동", "floor": 3, "jibun": "85", "price": 8300}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-02-27", "dong": "생연동", "floor": 8, "jibun": "85", "price": 9000}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-02-28", "dong": "생연동", "floor": 5, "jibun": "284", "price": 6050}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-03-01", "dong": "생연동", "floor": 6, "jibun": "251", "price": 4800}
+{"apt": "세아프라자", "area": 84.59, "built": 1993, "date": "2021-03-01", "dong": "생연동", "floor": 10, "jibun": "809", "price": 10000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-03-02", "dong": "생연동", "floor": 5, "jibun": "163", "price": 8200}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-03-02", "dong": "생연동", "floor": 2, "jibun": "251", "price": 6300}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-03-02", "dong": "생연동", "floor": 2, "jibun": "335", "price": 11600}
+{"apt": "우성아파트", "area": 59.9, "built": 1992, "date": "2021-03-02", "dong": "생연동", "floor": 12, "jibun": "464-9", "price": 7500}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-03-02", "dong": "생연동", "floor": 1, "jibun": "787-2", "price": 9000}
+{"apt": "현성아파트", "area": 59.16, "built": 1993, "date": "2021-03-02", "dong": "지행동", "floor": 2, "jibun": "339-1", "price": 6600}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-03-03", "dong": "생연동", "floor": 15, "jibun": "163", "price": 9000}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-03-03", "dong": "생연동", "floor": 1, "jibun": "284", "price": 6050}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-03-03", "dong": "생연동", "floor": 15, "jibun": "787-2", "price": 8500}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-03-03", "dong": "생연동", "floor": 15, "jibun": "787-2", "price": 8600}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-03-04", "dong": "생연동", "floor": 4, "jibun": "284", "price": 11900}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-03-05", "dong": "생연동", "floor": 4, "jibun": "163", "price": 9500}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2021-03-05", "dong": "생연동", "floor": 11, "jibun": "334-1", "price": 14900}
+{"apt": "에이스아파트(2차)", "area": 104.22, "built": 1993, "date": "2021-03-05", "dong": "생연동", "floor": 7, "jibun": "335", "price": 14300}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-03-06", "dong": "생연동", "floor": 10, "jibun": "163", "price": 9000}
+{"apt": "태양아파트(2동)", "area": 75.24, "built": 1990, "date": "2021-03-06", "dong": "생연동", "floor": 3, "jibun": "280", "price": 9000}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2021-03-06", "dong": "생연동", "floor": 1, "jibun": "334-1", "price": 12000}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-03-06", "dong": "생연동", "floor": 8, "jibun": "335", "price": 8800}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-03-06", "dong": "생연동", "floor": 2, "jibun": "352", "price": 10300}
+{"apt": "화성아파트2차", "area": 59.64, "built": 1990, "date": "2021-03-06", "dong": "생연동", "floor": 5, "jibun": "473-9", "price": 5000}
+{"apt": "화성아파트5차", "area": 59.64, "built": 1991, "date": "2021-03-06", "dong": "생연동", "floor": 2, "jibun": "790-5", "price": 5900}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-03-07", "dong": "생연동", "floor": 4, "jibun": "85", "price": 9300}
+{"apt": "한전아파트(A동)", "area": 63.99, "built": 1989, "date": "2021-03-08", "dong": "보산동", "floor": 2, "jibun": "404-77", "price": 6130}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-03-08", "dong": "생연동", "floor": 1, "jibun": "163", "price": 8500}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-03-08", "dong": "생연동", "floor": 1, "jibun": "284", "price": 8750}
+{"apt": "에이스아파트(1차)", "area": 120.05, "built": 1992, "date": "2021-03-08", "dong": "생연동", "floor": 9, "jibun": "334-1", "price": 15000}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2021-03-09", "dong": "생연동", "floor": 9, "jibun": "350", "price": 14200}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-03-10", "dong": "생연동", "floor": 15, "jibun": "163", "price": 9000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-03-10", "dong": "생연동", "floor": 15, "jibun": "163", "price": 9400}
+{"apt": "에이스아파트(2차)", "area": 122.94, "built": 1993, "date": "2021-03-10", "dong": "생연동", "floor": 6, "jibun": "335", "price": 17500}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-03-10", "dong": "생연동", "floor": 11, "jibun": "352", "price": 12000}
+{"apt": "에이스아파트(4차)", "area": 84.96, "built": 1995, "date": "2021-03-10", "dong": "생연동", "floor": 8, "jibun": "352", "price": 15500}
+{"apt": "근남아파트", "area": 71.64, "built": 1990, "date": "2021-03-10", "dong": "생연동", "floor": 4, "jibun": "403-1", "price": 6400}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-03-11", "dong": "생연동", "floor": 2, "jibun": "163", "price": 8300}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-03-11", "dong": "생연동", "floor": 7, "jibun": "335", "price": 11200}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2021-03-12", "dong": "생연동", "floor": 2, "jibun": "350", "price": 18000}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2021-03-12", "dong": "생연동", "floor": 7, "jibun": "787-2", "price": 14500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-03-13", "dong": "상패동", "floor": 10, "jibun": "61", "price": 7900}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-03-13", "dong": "생연동", "floor": 11, "jibun": "163", "price": 9000}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-03-13", "dong": "생연동", "floor": 5, "jibun": "284", "price": 10000}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-03-13", "dong": "생연동", "floor": 4, "jibun": "284", "price": 9000}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2021-03-13", "dong": "생연동", "floor": 14, "jibun": "350", "price": 14300}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2021-03-15", "dong": "상패동", "floor": 8, "jibun": "61", "price": 8000}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-03-15", "dong": "생연동", "floor": 17, "jibun": "787-2", "price": 9000}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-03-15", "dong": "생연동", "floor": 5, "jibun": "85", "price": 9500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-03-16", "dong": "생연동", "floor": 10, "jibun": "163", "price": 9300}
+{"apt": "한성", "area": 44.04, "built": 1989, "date": "2021-03-17", "dong": "광암동", "floor": 4, "jibun": "484-3", "price": 3100}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-03-17", "dong": "생연동", "floor": 3, "jibun": "787-2", "price": 8500}
+{"apt": "세아프라자", "area": 77.7, "built": 1993, "date": "2021-03-17", "dong": "생연동", "floor": 18, "jibun": "809", "price": 9000}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-03-18", "dong": "생연동", "floor": 5, "jibun": "251", "price": 4500}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2021-03-18", "dong": "생연동", "floor": 3, "jibun": "334-1", "price": 8600}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2021-03-19", "dong": "보산동", "floor": 1, "jibun": "400-1", "price": 5800}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2021-03-19", "dong": "상패동", "floor": 2, "jibun": "61", "price": 6300}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-03-19", "dong": "상패동", "floor": 1, "jibun": "61", "price": 7150}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-03-19", "dong": "생연동", "floor": 2, "jibun": "85", "price": 7800}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2021-03-20", "dong": "생연동", "floor": 12, "jibun": "334-1", "price": 13000}
+{"apt": "상우아파트", "area": 66.84, "built": 1991, "date": "2021-03-22", "dong": "생연동", "floor": 2, "jibun": "296-1", "price": 7900}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-03-23", "dong": "상패동", "floor": 2, "jibun": "61", "price": 8100}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-03-23", "dong": "생연동", "floor": 14, "jibun": "163", "price": 9500}
+{"apt": "화성아파트1차", "area": 58.14, "built": 1989, "date": "2021-03-23", "dong": "생연동", "floor": 3, "jibun": "497-1", "price": 5300}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-03-24", "dong": "생연동", "floor": 2, "jibun": "163", "price": 8200}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-03-24", "dong": "생연동", "floor": 7, "jibun": "335", "price": 11000}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-03-24", "dong": "생연동", "floor": 2, "jibun": "787-2", "price": 8500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-03-25", "dong": "상패동", "floor": 9, "jibun": "61", "price": 7800}
+{"apt": "조흥아파트", "area": 65.53, "built": 1990, "date": "2021-03-25", "dong": "생연동", "floor": 4, "jibun": "268-5", "price": 5800}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-03-25", "dong": "생연동", "floor": 14, "jibun": "352", "price": 11500}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-03-26", "dong": "생연동", "floor": 1, "jibun": "251", "price": 6300}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2021-03-26", "dong": "생연동", "floor": 7, "jibun": "85", "price": 7300}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-03-27", "dong": "생연동", "floor": 10, "jibun": "163", "price": 9700}
+{"apt": "조흥아파트", "area": 57.0, "built": 1990, "date": "2021-03-27", "dong": "생연동", "floor": 2, "jibun": "268-5", "price": 5000}
+{"apt": "조흥아파트", "area": 57.48, "built": 1990, "date": "2021-03-27", "dong": "생연동", "floor": 6, "jibun": "268-5", "price": 4450}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2021-03-27", "dong": "생연동", "floor": 6, "jibun": "268-5", "price": 5500}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2021-03-27", "dong": "생연동", "floor": 7, "jibun": "334-1", "price": 15500}
+{"apt": "화성아파트2차", "area": 59.64, "built": 1990, "date": "2021-03-27", "dong": "생연동", "floor": 5, "jibun": "473-9", "price": 4900}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-03-29", "dong": "생연동", "floor": 4, "jibun": "335", "price": 8350}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-03-29", "dong": "생연동", "floor": 3, "jibun": "809", "price": 10400}
+{"apt": "태양아파트(1동)", "area": 44.02, "built": 1990, "date": "2021-03-30", "dong": "생연동", "floor": 2, "jibun": "280-2", "price": 6000}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-03-30", "dong": "생연동", "floor": 2, "jibun": "284", "price": 10000}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2021-03-30", "dong": "생연동", "floor": 11, "jibun": "350", "price": 8500}
+{"apt": "대림아파트", "area": 58.95, "built": 1995, "date": "2021-03-30", "dong": "생연동", "floor": 5, "jibun": "664-20", "price": 5100}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-03-31", "dong": "생연동", "floor": 3, "jibun": "284", "price": 6235}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-03-31", "dong": "생연동", "floor": 5, "jibun": "284", "price": 13500}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-04-01", "dong": "생연동", "floor": 4, "jibun": "284", "price": 8500}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-04-01", "dong": "생연동", "floor": 5, "jibun": "809", "price": 11000}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2021-04-02", "dong": "보산동", "floor": 3, "jibun": "400-1", "price": 5800}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-04-02", "dong": "생연동", "floor": 8, "jibun": "163", "price": 9800}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2021-04-02", "dong": "생연동", "floor": 13, "jibun": "787-2", "price": 15900}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-04-03", "dong": "생연동", "floor": 10, "jibun": "163", "price": 6400}
+{"apt": "에이스아파트(4차)", "area": 84.33, "built": 1995, "date": "2021-04-03", "dong": "생연동", "floor": 16, "jibun": "352", "price": 15500}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-04-04", "dong": "생연동", "floor": 1, "jibun": "163", "price": 6000}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2021-04-04", "dong": "생연동", "floor": 12, "jibun": "334-1", "price": 10300}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2021-04-06", "dong": "보산동", "floor": 5, "jibun": "400-1", "price": 5000}
+{"apt": "조흥(2동)", "area": 58.26, "built": 1991, "date": "2021-04-06", "dong": "상패동", "floor": 1, "jibun": "53-13", "price": 4500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-04-06", "dong": "상패동", "floor": 3, "jibun": "61", "price": 8000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-04-06", "dong": "생연동", "floor": 6, "jibun": "163", "price": 9000}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2021-04-06", "dong": "생연동", "floor": 4, "jibun": "350", "price": 9500}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-04-06", "dong": "생연동", "floor": 2, "jibun": "352", "price": 13750}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2021-04-07", "dong": "상패동", "floor": 1, "jibun": "61", "price": 7400}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-04-07", "dong": "생연동", "floor": 14, "jibun": "352", "price": 13700}
+{"apt": "에이스아파트(3차)", "area": 121.59, "built": 1993, "date": "2021-04-08", "dong": "생연동", "floor": 9, "jibun": "350", "price": 12000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-04-10", "dong": "생연동", "floor": 4, "jibun": "163", "price": 10000}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-04-10", "dong": "생연동", "floor": 1, "jibun": "284", "price": 13900}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-04-10", "dong": "생연동", "floor": 3, "jibun": "284", "price": 14000}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2021-04-10", "dong": "생연동", "floor": 8, "jibun": "334-1", "price": 14500}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-04-10", "dong": "생연동", "floor": 14, "jibun": "85", "price": 10000}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-04-11", "dong": "생연동", "floor": 6, "jibun": "335", "price": 11400}
+{"apt": "에이스아파트(3차)", "area": 119.81, "built": 1993, "date": "2021-04-11", "dong": "생연동", "floor": 12, "jibun": "350", "price": 19000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-04-12", "dong": "생연동", "floor": 6, "jibun": "163", "price": 9000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-04-12", "dong": "생연동", "floor": 9, "jibun": "163", "price": 10000}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2021-04-12", "dong": "생연동", "floor": 5, "jibun": "85", "price": 7150}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-04-12", "dong": "생연동", "floor": 15, "jibun": "85", "price": 9700}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2021-04-13", "dong": "생연동", "floor": 5, "jibun": "268-5", "price": 7000}
+{"apt": "상우아파트", "area": 83.04, "built": 1991, "date": "2021-04-13", "dong": "생연동", "floor": 2, "jibun": "296-1", "price": 10500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-04-14", "dong": "생연동", "floor": 5, "jibun": "163", "price": 10000}
+{"apt": "한성", "area": 34.68, "built": 1989, "date": "2021-04-15", "dong": "광암동", "floor": 1, "jibun": "484-3", "price": 2500}
+{"apt": "조흥(1동)", "area": 84.9, "built": 1991, "date": "2021-04-15", "dong": "상패동", "floor": 2, "jibun": "53-3", "price": 7400}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-04-15", "dong": "생연동", "floor": 12, "jibun": "163", "price": 7000}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-04-15", "dong": "생연동", "floor": 1, "jibun": "284", "price": 7400}
+{"apt": "보산주공아파트", "area": 46.68, "built": 1990, "date": "2021-04-16", "dong": "보산동", "floor": 3, "jibun": "400-1", "price": 6900}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-04-16", "dong": "생연동", "floor": 6, "jibun": "335", "price": 9900}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2021-04-16", "dong": "생연동", "floor": 6, "jibun": "350", "price": 16800}
+{"apt": "에이스아파트(3차)", "area": 119.81, "built": 1993, "date": "2021-04-16", "dong": "생연동", "floor": 1, "jibun": "350", "price": 17250}
+{"apt": "대림아파트", "area": 58.95, "built": 1995, "date": "2021-04-16", "dong": "생연동", "floor": 5, "jibun": "664-20", "price": 5000}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2021-04-17", "dong": "보산동", "floor": 3, "jibun": "400-1", "price": 5500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-04-17", "dong": "상패동", "floor": 7, "jibun": "61", "price": 8450}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-04-17", "dong": "생연동", "floor": 1, "jibun": "163", "price": 5900}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-04-17", "dong": "생연동", "floor": 5, "jibun": "163", "price": 6750}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-04-17", "dong": "생연동", "floor": 13, "jibun": "163", "price": 10500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-04-17", "dong": "생연동", "floor": 14, "jibun": "163", "price": 9900}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2021-04-19", "dong": "상패동", "floor": 15, "jibun": "61", "price": 7100}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-04-19", "dong": "상패동", "floor": 6, "jibun": "61", "price": 8000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-04-20", "dong": "상패동", "floor": 3, "jibun": "61", "price": 8000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-04-20", "dong": "상패동", "floor": 8, "jibun": "61", "price": 8000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-04-20", "dong": "상패동", "floor": 13, "jibun": "61", "price": 8050}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-04-20", "dong": "생연동", "floor": 4, "jibun": "251", "price": 5000}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-04-20", "dong": "생연동", "floor": 3, "jibun": "335", "price": 10000}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2021-04-21", "dong": "생연동", "floor": 7, "jibun": "85", "price": 7750}
+{"apt": "보산주공아파트", "area": 46.68, "built": 1990, "date": "2021-04-22", "dong": "보산동", "floor": 4, "jibun": "400-1", "price": 7000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-04-22", "dong": "상패동", "floor": 4, "jibun": "61", "price": 8000}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-04-22", "dong": "생연동", "floor": 5, "jibun": "284", "price": 11700}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-04-23", "dong": "생연동", "floor": 12, "jibun": "163", "price": 9500}
+{"apt": "한전아파트(A동)", "area": 63.99, "built": 1989, "date": "2021-04-24", "dong": "보산동", "floor": 5, "jibun": "404-77", "price": 5800}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2021-04-24", "dong": "생연동", "floor": 4, "jibun": "85", "price": 7600}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-04-24", "dong": "생연동", "floor": 8, "jibun": "85", "price": 9400}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-04-27", "dong": "생연동", "floor": 12, "jibun": "163", "price": 9800}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2021-04-28", "dong": "보산동", "floor": 4, "jibun": "400-1", "price": 5300}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2021-04-28", "dong": "상패동", "floor": 7, "jibun": "61", "price": 7150}
+{"apt": "조흥아파트", "area": 65.53, "built": 1990, "date": "2021-04-28", "dong": "생연동", "floor": 6, "jibun": "268-5", "price": 4900}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-04-28", "dong": "생연동", "floor": 10, "jibun": "335", "price": 8900}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-04-28", "dong": "생연동", "floor": 17, "jibun": "352", "price": 11000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-04-29", "dong": "상패동", "floor": 14, "jibun": "61", "price": 8100}
+{"apt": "화성아파트3차", "area": 65.52, "built": 1991, "date": "2021-04-29", "dong": "생연동", "floor": 4, "jibun": "531-4", "price": 5000}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2021-04-29", "dong": "생연동", "floor": 11, "jibun": "85", "price": 8500}
+{"apt": "에이스아파트(2차)", "area": 84.72, "built": 1993, "date": "2021-04-30", "dong": "생연동", "floor": 7, "jibun": "335", "price": 16000}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2021-04-30", "dong": "생연동", "floor": 7, "jibun": "787-2", "price": 17500}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-04-30", "dong": "생연동", "floor": 16, "jibun": "809", "price": 10000}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-05-01", "dong": "생연동", "floor": 2, "jibun": "284", "price": 10000}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2021-05-01", "dong": "생연동", "floor": 11, "jibun": "334-1", "price": 10500}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2021-05-01", "dong": "생연동", "floor": 14, "jibun": "334-1", "price": 9000}
+{"apt": "세아프라자", "area": 84.59, "built": 1993, "date": "2021-05-01", "dong": "생연동", "floor": 11, "jibun": "809", "price": 11000}
+{"apt": "조흥아파트", "area": 57.0, "built": 1990, "date": "2021-05-02", "dong": "생연동", "floor": 6, "jibun": "268-5", "price": 4300}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-05-02", "dong": "생연동", "floor": 2, "jibun": "284", "price": 12000}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2021-05-03", "dong": "보산동", "floor": 1, "jibun": "400-1", "price": 6000}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-05-03", "dong": "생연동", "floor": 6, "jibun": "163", "price": 6500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-05-03", "dong": "생연동", "floor": 3, "jibun": "163", "price": 9300}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-05-03", "dong": "생연동", "floor": 5, "jibun": "284", "price": 9900}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2021-05-03", "dong": "생연동", "floor": 4, "jibun": "350", "price": 15500}
+{"apt": "한성", "area": 44.04, "built": 1989, "date": "2021-05-04", "dong": "광암동", "floor": 1, "jibun": "484-3", "price": 2600}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2021-05-04", "dong": "보산동", "floor": 5, "jibun": "400-1", "price": 4500}
+{"apt": "한영아파트", "area": 59.46, "built": 1992, "date": "2021-05-04", "dong": "생연동", "floor": 6, "jibun": "246-1", "price": 4000}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2021-05-04", "dong": "생연동", "floor": 3, "jibun": "268-5", "price": 7000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-05-04", "dong": "생연동", "floor": 9, "jibun": "809", "price": 13000}
+{"apt": "조흥아파트", "area": 57.0, "built": 1990, "date": "2021-05-05", "dong": "생연동", "floor": 3, "jibun": "268-5", "price": 5400}
+{"apt": "에이스아파트(2차)", "area": 84.72, "built": 1993, "date": "2021-05-05", "dong": "생연동", "floor": 8, "jibun": "335", "price": 15000}
+{"apt": "에이스아파트(4차)", "area": 84.33, "built": 1995, "date": "2021-05-05", "dong": "생연동", "floor": 12, "jibun": "352", "price": 19000}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-05-05", "dong": "생연동", "floor": 1, "jibun": "85", "price": 9000}
+{"apt": "에이스아파트(2차)", "area": 84.72, "built": 1993, "date": "2021-05-06", "dong": "생연동", "floor": 6, "jibun": "335", "price": 16300}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2021-05-06", "dong": "생연동", "floor": 4, "jibun": "350", "price": 13000}
+{"apt": "에이스아파트(4차)", "area": 84.33, "built": 1995, "date": "2021-05-06", "dong": "생연동", "floor": 3, "jibun": "352", "price": 14500}
+{"apt": "하이텍아파트", "area": 38.01, "built": 1990, "date": "2021-05-06", "dong": "지행동", "floor": 4, "jibun": "292-10", "price": 5500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-05-07", "dong": "상패동", "floor": 14, "jibun": "61", "price": 8000}
+{"apt": "조흥아파트", "area": 65.53, "built": 1990, "date": "2021-05-07", "dong": "생연동", "floor": 5, "jibun": "268-5", "price": 6000}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2021-05-07", "dong": "생연동", "floor": 10, "jibun": "787-2", "price": 15400}
+{"apt": "현성아파트", "area": 59.16, "built": 1993, "date": "2021-05-07", "dong": "지행동", "floor": 2, "jibun": "339-1", "price": 9250}
+{"apt": "현성아파트", "area": 59.16, "built": 1993, "date": "2021-05-07", "dong": "지행동", "floor": 2, "jibun": "339-1", "price": 9400}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-05-08", "dong": "생연동", "floor": 4, "jibun": "284", "price": 11500}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2021-05-08", "dong": "생연동", "floor": 11, "jibun": "787-2", "price": 16000}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2021-05-09", "dong": "생연동", "floor": 1, "jibun": "464-9", "price": 9500}
+{"apt": "화성아파트2차", "area": 59.64, "built": 1990, "date": "2021-05-09", "dong": "생연동", "floor": 5, "jibun": "473-9", "price": 6800}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-05-10", "dong": "상패동", "floor": 9, "jibun": "61", "price": 8500}
+{"apt": "조흥아파트", "area": 57.48, "built": 1990, "date": "2021-05-10", "dong": "생연동", "floor": 2, "jibun": "268-5", "price": 5000}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-05-10", "dong": "생연동", "floor": 6, "jibun": "335", "price": 10000}
+{"apt": "에이스아파트(3차)", "area": 59.65, "built": 1993, "date": "2021-05-10", "dong": "생연동", "floor": 9, "jibun": "350", "price": 11500}
+{"apt": "현성아파트", "area": 59.16, "built": 1993, "date": "2021-05-10", "dong": "지행동", "floor": 1, "jibun": "339-1", "price": 9700}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-05-11", "dong": "생연동", "floor": 3, "jibun": "163", "price": 6400}
+{"apt": "에이스아파트(2차)", "area": 122.94, "built": 1993, "date": "2021-05-11", "dong": "생연동", "floor": 10, "jibun": "335", "price": 22000}
+{"apt": "보산주공아파트", "area": 46.68, "built": 1990, "date": "2021-05-12", "dong": "보산동", "floor": 5, "jibun": "400-1", "price": 6000}
+{"apt": "우성아파트", "area": 59.9, "built": 1992, "date": "2021-05-12", "dong": "생연동", "floor": 5, "jibun": "464-9", "price": 7650}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2021-05-13", "dong": "생연동", "floor": 12, "jibun": "787-2", "price": 16500}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-05-14", "dong": "생연동", "floor": 6, "jibun": "335", "price": 9700}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-05-15", "dong": "상패동", "floor": 15, "jibun": "61", "price": 8000}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-05-15", "dong": "생연동", "floor": 2, "jibun": "284", "price": 8800}
+{"apt": "에이스아파트(4차)", "area": 84.96, "built": 1995, "date": "2021-05-15", "dong": "생연동", "floor": 1, "jibun": "352", "price": 15450}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-05-17", "dong": "생연동", "floor": 1, "jibun": "284", "price": 8400}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-05-17", "dong": "생연동", "floor": 6, "jibun": "809", "price": 11900}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-05-18", "dong": "생연동", "floor": 1, "jibun": "251", "price": 6700}
+{"apt": "동원아파트", "area": 59.94, "built": 1991, "date": "2021-05-18", "dong": "생연동", "floor": 4, "jibun": "464-8", "price": 7900}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-05-18", "dong": "생연동", "floor": 1, "jibun": "85", "price": 7900}
+{"apt": "보산주공아파트", "area": 39.3, "built": 1990, "date": "2021-05-19", "dong": "보산동", "floor": 1, "jibun": "400-1", "price": 6500}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-05-19", "dong": "생연동", "floor": 9, "jibun": "352", "price": 12000}
+{"apt": "우성아파트", "area": 59.9, "built": 1992, "date": "2021-05-19", "dong": "생연동", "floor": 5, "jibun": "464-9", "price": 7800}
+{"apt": "우성아파트", "area": 59.9, "built": 1992, "date": "2021-05-20", "dong": "생연동", "floor": 8, "jibun": "464-9", "price": 7900}
+{"apt": "세아프라자", "area": 77.7, "built": 1993, "date": "2021-05-20", "dong": "생연동", "floor": 11, "jibun": "809", "price": 11700}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-05-20", "dong": "생연동", "floor": 14, "jibun": "85", "price": 11500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-05-21", "dong": "상패동", "floor": 11, "jibun": "61", "price": 8000}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2021-05-21", "dong": "생연동", "floor": 11, "jibun": "334-1", "price": 9000}
+{"apt": "보산주공아파트", "area": 39.3, "built": 1990, "date": "2021-05-22", "dong": "보산동", "floor": 4, "jibun": "400-1", "price": 5500}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2021-05-22", "dong": "보산동", "floor": 2, "jibun": "400-1", "price": 6500}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2021-05-22", "dong": "생연동", "floor": 4, "jibun": "334-1", "price": 12000}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2021-05-22", "dong": "생연동", "floor": 11, "jibun": "350", "price": 17000}
+{"apt": "화성아파트3차", "area": 72.0, "built": 1991, "date": "2021-05-22", "dong": "생연동", "floor": 1, "jibun": "531-4", "price": 8500}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-05-23", "dong": "생연동", "floor": 3, "jibun": "251", "price": 5400}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-05-23", "dong": "생연동", "floor": 4, "jibun": "284", "price": 13000}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-05-23", "dong": "생연동", "floor": 5, "jibun": "284", "price": 14000}
+{"apt": "한전아파트(B동)", "area": 78.66, "built": 1990, "date": "2021-05-24", "dong": "보산동", "floor": 6, "jibun": "404", "price": 6300}
+{"apt": "에이스아파트(4차)", "area": 84.33, "built": 1995, "date": "2021-05-24", "dong": "생연동", "floor": 4, "jibun": "352", "price": 16000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-05-25", "dong": "생연동", "floor": 3, "jibun": "163", "price": 9900}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-05-25", "dong": "생연동", "floor": 6, "jibun": "335", "price": 13700}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-05-26", "dong": "생연동", "floor": 5, "jibun": "284", "price": 10000}
+{"apt": "태양아파트(1동)", "area": 64.26, "built": 1990, "date": "2021-05-27", "dong": "생연동", "floor": 1, "jibun": "280-2", "price": 7200}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-05-27", "dong": "생연동", "floor": 1, "jibun": "284", "price": 6050}
+{"apt": "화성아파트3차", "area": 59.94, "built": 1991, "date": "2021-05-27", "dong": "생연동", "floor": 1, "jibun": "531-4", "price": 7400}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-05-28", "dong": "생연동", "floor": 2, "jibun": "163", "price": 10000}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2021-05-28", "dong": "생연동", "floor": 2, "jibun": "334-1", "price": 14500}
+{"apt": "에이스아파트(2차)", "area": 84.72, "built": 1993, "date": "2021-05-28", "dong": "생연동", "floor": 8, "jibun": "335", "price": 15800}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2021-05-28", "dong": "생연동", "floor": 11, "jibun": "350", "price": 12400}
+{"apt": "보산주공아파트", "area": 39.3, "built": 1990, "date": "2021-05-29", "dong": "보산동", "floor": 3, "jibun": "400-1", "price": 6500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-05-29", "dong": "생연동", "floor": 3, "jibun": "163", "price": 11500}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2021-05-29", "dong": "생연동", "floor": 7, "jibun": "334-1", "price": 15500}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-05-29", "dong": "생연동", "floor": 7, "jibun": "352", "price": 12900}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2021-05-31", "dong": "보산동", "floor": 4, "jibun": "400-1", "price": 5000}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2021-05-31", "dong": "상패동", "floor": 9, "jibun": "61", "price": 7900}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2021-05-31", "dong": "상패동", "floor": 9, "jibun": "61", "price": 9200}
+{"apt": "세아프라자", "area": 84.59, "built": 1993, "date": "2021-06-01", "dong": "생연동", "floor": 9, "jibun": "809", "price": 11500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-06-02", "dong": "상패동", "floor": 2, "jibun": "61", "price": 7900}
+{"apt": "화성아파트1차", "area": 58.14, "built": 1989, "date": "2021-06-03", "dong": "생연동", "floor": 4, "jibun": "497-1", "price": 5250}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-06-03", "dong": "생연동", "floor": 9, "jibun": "85", "price": 7500}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2021-06-04", "dong": "생연동", "floor": 10, "jibun": "350", "price": 10500}
+{"apt": "세아프라자", "area": 77.7, "built": 1993, "date": "2021-06-04", "dong": "생연동", "floor": 8, "jibun": "809", "price": 11600}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-06-04", "dong": "생연동", "floor": 6, "jibun": "85", "price": 11650}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2021-06-05", "dong": "상패동", "floor": 6, "jibun": "61", "price": 8500}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-06-05", "dong": "생연동", "floor": 9, "jibun": "85", "price": 9500}
+{"apt": "동남", "area": 59.9, "built": 1993, "date": "2021-06-07", "dong": "상패동", "floor": 14, "jibun": "2-53", "price": 8000}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-06-07", "dong": "생연동", "floor": 3, "jibun": "251", "price": 5800}
+{"apt": "하이텍아파트", "area": 38.01, "built": 1990, "date": "2021-06-07", "dong": "지행동", "floor": 1, "jibun": "292-10", "price": 5500}
+{"apt": "동원아파트", "area": 59.94, "built": 1991, "date": "2021-06-08", "dong": "생연동", "floor": 4, "jibun": "464-8", "price": 6600}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2021-06-08", "dong": "생연동", "floor": 4, "jibun": "787-2", "price": 14000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-06-08", "dong": "생연동", "floor": 18, "jibun": "809", "price": 13300}
+{"apt": "조흥(1동)", "area": 84.9, "built": 1991, "date": "2021-06-09", "dong": "상패동", "floor": 4, "jibun": "53-3", "price": 6200}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2021-06-09", "dong": "상패동", "floor": 13, "jibun": "61", "price": 7000}
+{"apt": "조흥아파트", "area": 65.53, "built": 1990, "date": "2021-06-09", "dong": "생연동", "floor": 6, "jibun": "268-5", "price": 5500}
+{"apt": "태양아파트(1동)", "area": 44.02, "built": 1990, "date": "2021-06-09", "dong": "생연동", "floor": 3, "jibun": "280-2", "price": 7000}
+{"apt": "에이스아파트(3차)", "area": 59.65, "built": 1993, "date": "2021-06-09", "dong": "생연동", "floor": 13, "jibun": "350", "price": 12000}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-06-10", "dong": "생연동", "floor": 2, "jibun": "251", "price": 5500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-06-11", "dong": "상패동", "floor": 10, "jibun": "61", "price": 8000}
+{"apt": "한전아파트(A동)", "area": 46.74, "built": 1989, "date": "2021-06-12", "dong": "보산동", "floor": 3, "jibun": "404-77", "price": 6150}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-06-12", "dong": "생연동", "floor": 10, "jibun": "163", "price": 13000}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-06-12", "dong": "생연동", "floor": 2, "jibun": "787-2", "price": 11500}
+{"apt": "세아프라자", "area": 82.79, "built": 1993, "date": "2021-06-12", "dong": "생연동", "floor": 16, "jibun": "809", "price": 12000}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-06-14", "dong": "생연동", "floor": 3, "jibun": "163", "price": 6500}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-06-14", "dong": "생연동", "floor": 4, "jibun": "251", "price": 5600}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-06-14", "dong": "생연동", "floor": 1, "jibun": "284", "price": 9000}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2021-06-14", "dong": "생연동", "floor": 7, "jibun": "464-9", "price": 11700}
+{"apt": "세아프라자", "area": 77.7, "built": 1993, "date": "2021-06-14", "dong": "생연동", "floor": 16, "jibun": "809", "price": 9800}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-06-14", "dong": "생연동", "floor": 1, "jibun": "85", "price": 9900}
+{"apt": "상우아파트", "area": 66.84, "built": 1991, "date": "2021-06-15", "dong": "생연동", "floor": 4, "jibun": "296-1", "price": 8000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-06-16", "dong": "생연동", "floor": 8, "jibun": "163", "price": 11700}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2021-06-17", "dong": "생연동", "floor": 1, "jibun": "334-1", "price": 15400}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2021-06-17", "dong": "생연동", "floor": 7, "jibun": "350", "price": 15400}
+{"apt": "에이스아파트(2차)", "area": 84.72, "built": 1993, "date": "2021-06-19", "dong": "생연동", "floor": 2, "jibun": "335", "price": 16400}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-06-19", "dong": "생연동", "floor": 18, "jibun": "352", "price": 12000}
+{"apt": "우성아파트", "area": 59.76, "built": 1992, "date": "2021-06-19", "dong": "생연동", "floor": 4, "jibun": "464-9", "price": 8000}
+{"apt": "에이스아파트(2차)", "area": 104.22, "built": 1993, "date": "2021-06-21", "dong": "생연동", "floor": 12, "jibun": "335", "price": 11000}
+{"apt": "화성아파트3차", "area": 66.69, "built": 1991, "date": "2021-06-21", "dong": "생연동", "floor": 4, "jibun": "531-4", "price": 6300}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2021-06-22", "dong": "생연동", "floor": 15, "jibun": "350", "price": 17200}
+{"apt": "화성아파트2차", "area": 59.64, "built": 1990, "date": "2021-06-22", "dong": "생연동", "floor": 1, "jibun": "473-9", "price": 7000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-06-22", "dong": "생연동", "floor": 10, "jibun": "809", "price": 11500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-06-23", "dong": "생연동", "floor": 5, "jibun": "163", "price": 11000}
+{"apt": "하이텍아파트", "area": 38.01, "built": 1990, "date": "2021-06-23", "dong": "지행동", "floor": 2, "jibun": "292-10", "price": 6300}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2021-06-24", "dong": "보산동", "floor": 4, "jibun": "400-1", "price": 7500}
+{"apt": "상우아파트", "area": 114.48, "built": 1991, "date": "2021-06-24", "dong": "생연동", "floor": 4, "jibun": "296-1", "price": 13600}
+{"apt": "우성아파트", "area": 59.9, "built": 1992, "date": "2021-06-25", "dong": "생연동", "floor": 1, "jibun": "464-9", "price": 8000}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2021-06-25", "dong": "생연동", "floor": 8, "jibun": "464-9", "price": 12000}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2021-06-25", "dong": "생연동", "floor": 5, "jibun": "85", "price": 8500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-06-26", "dong": "생연동", "floor": 9, "jibun": "163", "price": 13000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-06-26", "dong": "생연동", "floor": 12, "jibun": "163", "price": 11500}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-06-26", "dong": "생연동", "floor": 14, "jibun": "809", "price": 13300}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2021-06-30", "dong": "상패동", "floor": 7, "jibun": "61", "price": 10500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-06-30", "dong": "생연동", "floor": 10, "jibun": "163", "price": 11000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-06-30", "dong": "생연동", "floor": 11, "jibun": "163", "price": 12500}
+{"apt": "에이스아파트(4차)", "area": 84.33, "built": 1995, "date": "2021-07-01", "dong": "생연동", "floor": 12, "jibun": "352", "price": 23000}
+{"apt": "보산주공아파트", "area": 46.68, "built": 1990, "date": "2021-07-02", "dong": "보산동", "floor": 4, "jibun": "400-1", "price": 5900}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-07-02", "dong": "생연동", "floor": 5, "jibun": "163", "price": 13000}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2021-07-02", "dong": "생연동", "floor": 1, "jibun": "350", "price": 17000}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2021-07-03", "dong": "생연동", "floor": 5, "jibun": "334-1", "price": 19930}
+{"apt": "에이스아파트(3차)", "area": 121.59, "built": 1993, "date": "2021-07-03", "dong": "생연동", "floor": 6, "jibun": "350", "price": 20500}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-07-03", "dong": "생연동", "floor": 4, "jibun": "85", "price": 10500}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2021-07-05", "dong": "생연동", "floor": 6, "jibun": "85", "price": 8500}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-07-05", "dong": "생연동", "floor": 11, "jibun": "85", "price": 11500}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-07-06", "dong": "생연동", "floor": 9, "jibun": "85", "price": 9100}
+{"apt": "우성아파트", "area": 59.9, "built": 1992, "date": "2021-07-07", "dong": "생연동", "floor": 15, "jibun": "464-9", "price": 9400}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2021-07-08", "dong": "생연동", "floor": 10, "jibun": "350", "price": 12100}
+{"apt": "화성아파트3차", "area": 65.52, "built": 1991, "date": "2021-07-08", "dong": "생연동", "floor": 3, "jibun": "531-4", "price": 6300}
+{"apt": "화성아파트6차", "area": 59.79, "built": 1991, "date": "2021-07-08", "dong": "생연동", "floor": 2, "jibun": "531-6", "price": 7200}
+{"apt": "우성아파트", "area": 59.9, "built": 1992, "date": "2021-07-09", "dong": "생연동", "floor": 9, "jibun": "464-9", "price": 7800}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-07-09", "dong": "생연동", "floor": 11, "jibun": "809", "price": 11000}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-07-10", "dong": "생연동", "floor": 3, "jibun": "284", "price": 13000}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-07-10", "dong": "생연동", "floor": 1, "jibun": "335", "price": 13000}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-07-10", "dong": "생연동", "floor": 7, "jibun": "85", "price": 9800}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-07-12", "dong": "생연동", "floor": 4, "jibun": "163", "price": 9800}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2021-07-12", "dong": "생연동", "floor": 7, "jibun": "350", "price": 14000}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2021-07-13", "dong": "생연동", "floor": 5, "jibun": "787-2", "price": 15800}
+{"apt": "한성", "area": 44.04, "built": 1989, "date": "2021-07-14", "dong": "광암동", "floor": 1, "jibun": "484-3", "price": 3200}
+{"apt": "에이스아파트(2차)", "area": 84.72, "built": 1993, "date": "2021-07-14", "dong": "생연동", "floor": 12, "jibun": "335", "price": 16000}
+{"apt": "에이스아파트(3차)", "area": 119.81, "built": 1993, "date": "2021-07-14", "dong": "생연동", "floor": 3, "jibun": "350", "price": 18400}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-07-15", "dong": "생연동", "floor": 12, "jibun": "787-2", "price": 12000}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-07-16", "dong": "생연동", "floor": 4, "jibun": "85", "price": 13000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-07-17", "dong": "생연동", "floor": 10, "jibun": "163", "price": 11500}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-07-17", "dong": "생연동", "floor": 10, "jibun": "85", "price": 12000}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-07-17", "dong": "생연동", "floor": 11, "jibun": "85", "price": 10000}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-07-17", "dong": "생연동", "floor": 3, "jibun": "85", "price": 10500}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-07-17", "dong": "생연동", "floor": 5, "jibun": "85", "price": 13000}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2021-07-20", "dong": "상패동", "floor": 11, "jibun": "61", "price": 12000}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2021-07-20", "dong": "생연동", "floor": 2, "jibun": "268-5", "price": 7000}
+{"apt": "태양아파트(1동)", "area": 64.26, "built": 1990, "date": "2021-07-20", "dong": "생연동", "floor": 6, "jibun": "280-2", "price": 5000}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2021-07-20", "dong": "생연동", "floor": 14, "jibun": "334-1", "price": 12300}
+{"apt": "에이스아파트(4차)", "area": 84.33, "built": 1995, "date": "2021-07-20", "dong": "생연동", "floor": 8, "jibun": "352", "price": 22000}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2021-07-21", "dong": "생연동", "floor": 14, "jibun": "350", "price": 19000}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2021-07-21", "dong": "생연동", "floor": 13, "jibun": "464-9", "price": 15000}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2021-07-23", "dong": "생연동", "floor": 12, "jibun": "334-1", "price": 20000}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2021-07-23", "dong": "생연동", "floor": 2, "jibun": "787-2", "price": 19800}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-07-24", "dong": "상패동", "floor": 1, "jibun": "61", "price": 10000}
+{"apt": "한성", "area": 44.04, "built": 1989, "date": "2021-07-26", "dong": "광암동", "floor": 2, "jibun": "484-3", "price": 3400}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2021-07-26", "dong": "생연동", "floor": 8, "jibun": "85", "price": 8500}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2021-07-27", "dong": "상패동", "floor": 11, "jibun": "61", "price": 12000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-07-27", "dong": "생연동", "floor": 7, "jibun": "163", "price": 13800}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-07-27", "dong": "생연동", "floor": 1, "jibun": "251", "price": 6000}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-07-27", "dong": "생연동", "floor": 2, "jibun": "352", "price": 11600}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-07-28", "dong": "상패동", "floor": 8, "jibun": "61", "price": 8800}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-07-29", "dong": "생연동", "floor": 1, "jibun": "284", "price": 10000}
+{"apt": "조흥(2동)", "area": 58.26, "built": 1991, "date": "2021-07-30", "dong": "상패동", "floor": 3, "jibun": "53-13", "price": 5300}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-07-30", "dong": "생연동", "floor": 4, "jibun": "284", "price": 13700}
+{"apt": "에이스아파트(4차)", "area": 84.33, "built": 1995, "date": "2021-07-30", "dong": "생연동", "floor": 8, "jibun": "352", "price": 19000}
+{"apt": "대광아파트", "area": 93.6, "built": 1991, "date": "2021-07-31", "dong": "상패동", "floor": 3, "jibun": "65-6", "price": 8500}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-07-31", "dong": "생연동", "floor": 1, "jibun": "163", "price": 7800}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-07-31", "dong": "생연동", "floor": 14, "jibun": "787-2", "price": 12000}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-07-31", "dong": "생연동", "floor": 2, "jibun": "85", "price": 9100}
+{"apt": "한성", "area": 37.65, "built": 1989, "date": "2021-08-02", "dong": "광암동", "floor": 3, "jibun": "484-3", "price": 2000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-08-02", "dong": "생연동", "floor": 3, "jibun": "163", "price": 11000}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-08-02", "dong": "생연동", "floor": 3, "jibun": "251", "price": 6900}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2021-08-03", "dong": "생연동", "floor": 2, "jibun": "268-5", "price": 8950}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-08-04", "dong": "생연동", "floor": 6, "jibun": "163", "price": 11000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-08-04", "dong": "생연동", "floor": 8, "jibun": "163", "price": 11000}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2021-08-04", "dong": "생연동", "floor": 2, "jibun": "268-5", "price": 8700}
+{"apt": "근남아파트", "area": 71.64, "built": 1990, "date": "2021-08-04", "dong": "생연동", "floor": 1, "jibun": "403-1", "price": 8200}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-08-05", "dong": "생연동", "floor": 1, "jibun": "251", "price": 8800}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2021-08-05", "dong": "생연동", "floor": 1, "jibun": "85", "price": 9000}
+{"apt": "한영아파트", "area": 57.93, "built": 1992, "date": "2021-08-06", "dong": "생연동", "floor": 3, "jibun": "246-1", "price": 6000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-08-06", "dong": "생연동", "floor": 14, "jibun": "809", "price": 12300}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2021-08-07", "dong": "생연동", "floor": 5, "jibun": "334-1", "price": 10850}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-08-09", "dong": "상패동", "floor": 13, "jibun": "61", "price": 10000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-08-10", "dong": "생연동", "floor": 14, "jibun": "163", "price": 14700}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-08-10", "dong": "생연동", "floor": 1, "jibun": "251", "price": 6400}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-08-10", "dong": "생연동", "floor": 2, "jibun": "284", "price": 12750}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-08-11", "dong": "생연동", "floor": 14, "jibun": "163", "price": 9000}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2021-08-13", "dong": "생연동", "floor": 6, "jibun": "268-5", "price": 7500}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2021-08-13", "dong": "생연동", "floor": 1, "jibun": "350", "price": 12300}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2021-08-13", "dong": "생연동", "floor": 5, "jibun": "85", "price": 8500}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2021-08-14", "dong": "생연동", "floor": 8, "jibun": "350", "price": 21900}
+{"apt": "에이스아파트(4차)", "area": 84.33, "built": 1995, "date": "2021-08-14", "dong": "생연동", "floor": 9, "jibun": "352", "price": 21000}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-08-16", "dong": "생연동", "floor": 2, "jibun": "85", "price": 12000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-08-17", "dong": "생연동", "floor": 7, "jibun": "163", "price": 14900}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-08-17", "dong": "생연동", "floor": 5, "jibun": "284", "price": 11400}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2021-08-17", "dong": "생연동", "floor": 6, "jibun": "350", "price": 22000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-08-18", "dong": "생연동", "floor": 17, "jibun": "809", "price": 12000}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2021-08-20", "dong": "보산동", "floor": 2, "jibun": "400-1", "price": 6500}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2021-08-20", "dong": "생연동", "floor": 5, "jibun": "268-5", "price": 9700}
+{"apt": "태양아파트(2동)", "area": 84.93, "built": 1990, "date": "2021-08-20", "dong": "생연동", "floor": 3, "jibun": "280", "price": 8600}
+{"apt": "화성아파트1차", "area": 58.14, "built": 1989, "date": "2021-08-20", "dong": "생연동", "floor": 5, "jibun": "497-1", "price": 4850}
+{"apt": "조흥아파트", "area": 57.0, "built": 1990, "date": "2021-08-21", "dong": "생연동", "floor": 3, "jibun": "268-5", "price": 8300}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2021-08-21", "dong": "생연동", "floor": 14, "jibun": "787-2", "price": 20500}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-08-21", "dong": "생연동", "floor": 8, "jibun": "809", "price": 14000}
+{"apt": "하이텍아파트", "area": 38.01, "built": 1990, "date": "2021-08-21", "dong": "지행동", "floor": 4, "jibun": "292-10", "price": 6000}
+{"apt": "화성아파트5차", "area": 59.64, "built": 1991, "date": "2021-08-22", "dong": "생연동", "floor": 3, "jibun": "790-5", "price": 6200}
+{"apt": "한성", "area": 37.65, "built": 1989, "date": "2021-08-23", "dong": "광암동", "floor": 2, "jibun": "484-3", "price": 2700}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2021-08-23", "dong": "상패동", "floor": 5, "jibun": "61", "price": 8500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-08-23", "dong": "상패동", "floor": 5, "jibun": "61", "price": 11700}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-08-24", "dong": "상패동", "floor": 9, "jibun": "61", "price": 12000}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2021-08-25", "dong": "생연동", "floor": 8, "jibun": "335", "price": 15000}
+{"apt": "근남아파트", "area": 42.63, "built": 1990, "date": "2021-08-25", "dong": "생연동", "floor": 3, "jibun": "403-1", "price": 5500}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-08-26", "dong": "생연동", "floor": 3, "jibun": "284", "price": 11700}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2021-08-27", "dong": "생연동", "floor": 2, "jibun": "268-5", "price": 9500}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-08-27", "dong": "생연동", "floor": 6, "jibun": "352", "price": 15500}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-08-27", "dong": "생연동", "floor": 7, "jibun": "787-2", "price": 14500}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2021-08-28", "dong": "상패동", "floor": 7, "jibun": "61", "price": 12000}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-08-28", "dong": "생연동", "floor": 4, "jibun": "251", "price": 6500}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-08-28", "dong": "생연동", "floor": 6, "jibun": "352", "price": 17700}
+{"apt": "근남아파트", "area": 71.64, "built": 1990, "date": "2021-08-28", "dong": "생연동", "floor": 6, "jibun": "403-1", "price": 6000}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2021-08-28", "dong": "생연동", "floor": 16, "jibun": "787-2", "price": 21500}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-08-28", "dong": "생연동", "floor": 14, "jibun": "809", "price": 14800}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-08-30", "dong": "생연동", "floor": 15, "jibun": "787-2", "price": 14000}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2021-08-31", "dong": "생연동", "floor": 7, "jibun": "350", "price": 15600}
+{"apt": "화성아파트3차", "area": 65.52, "built": 1991, "date": "2021-08-31", "dong": "생연동", "floor": 4, "jibun": "531-4", "price": 6010}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-08-31", "dong": "생연동", "floor": 12, "jibun": "787-2", "price": 14000}
+{"apt": "화성아파트5차", "area": 59.64, "built": 1991, "date": "2021-08-31", "dong": "생연동", "floor": 4, "jibun": "790-5", "price": 5900}
+{"apt": "에이스아파트(2차)", "area": 104.22, "built": 1993, "date": "2021-09-01", "dong": "생연동", "floor": 10, "jibun": "335", "price": 17000}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2021-09-03", "dong": "상패동", "floor": 12, "jibun": "61", "price": 9000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-09-03", "dong": "생연동", "floor": 2, "jibun": "163", "price": 12240}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-09-06", "dong": "상패동", "floor": 4, "jibun": "61", "price": 12000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-09-07", "dong": "생연동", "floor": 15, "jibun": "163", "price": 11700}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2021-09-11", "dong": "생연동", "floor": 13, "jibun": "787-2", "price": 21000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-09-15", "dong": "생연동", "floor": 8, "jibun": "163", "price": 13800}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-09-16", "dong": "생연동", "floor": 12, "jibun": "163", "price": 10500}
+{"apt": "태양아파트(1동)", "area": 44.02, "built": 1990, "date": "2021-09-16", "dong": "생연동", "floor": 4, "jibun": "280-2", "price": 5450}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-09-16", "dong": "생연동", "floor": 4, "jibun": "284", "price": 12500}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-09-18", "dong": "생연동", "floor": 1, "jibun": "251", "price": 7000}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-09-18", "dong": "생연동", "floor": 4, "jibun": "284", "price": 12500}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-09-19", "dong": "생연동", "floor": 12, "jibun": "163", "price": 9300}
+{"apt": "태양아파트(2동)", "area": 75.24, "built": 1990, "date": "2021-09-28", "dong": "생연동", "floor": 6, "jibun": "280", "price": 8200}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2021-09-30", "dong": "생연동", "floor": 2, "jibun": "334-1", "price": 22900}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-09-30", "dong": "생연동", "floor": 5, "jibun": "787-2", "price": 10000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-10-02", "dong": "상패동", "floor": 5, "jibun": "61", "price": 10900}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-10-04", "dong": "상패동", "floor": 15, "jibun": "61", "price": 12000}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-10-04", "dong": "생연동", "floor": 1, "jibun": "163", "price": 9000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-10-06", "dong": "상패동", "floor": 3, "jibun": "61", "price": 11700}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2021-10-07", "dong": "생연동", "floor": 9, "jibun": "85", "price": 7000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-10-08", "dong": "생연동", "floor": 12, "jibun": "163", "price": 14800}
+{"apt": "대림아파트", "area": 58.95, "built": 1995, "date": "2021-10-08", "dong": "생연동", "floor": 5, "jibun": "664-20", "price": 6000}
+{"apt": "조흥아파트", "area": 65.53, "built": 1990, "date": "2021-10-11", "dong": "생연동", "floor": 6, "jibun": "268-5", "price": 7500}
+{"apt": "에이스아파트(3차)", "area": 119.81, "built": 1993, "date": "2021-10-11", "dong": "생연동", "floor": 2, "jibun": "350", "price": 22000}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2021-10-13", "dong": "생연동", "floor": 12, "jibun": "350", "price": 15000}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2021-10-14", "dong": "생연동", "floor": 12, "jibun": "350", "price": 18000}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2021-10-14", "dong": "생연동", "floor": 12, "jibun": "350", "price": 21500}
+{"apt": "화성아파트5차", "area": 59.64, "built": 1991, "date": "2021-10-15", "dong": "생연동", "floor": 5, "jibun": "790-5", "price": 6800}
+{"apt": "조흥아파트", "area": 57.48, "built": 1990, "date": "2021-10-16", "dong": "생연동", "floor": 3, "jibun": "268-5", "price": 6900}
+{"apt": "조흥아파트", "area": 65.53, "built": 1990, "date": "2021-10-16", "dong": "생연동", "floor": 5, "jibun": "268-5", "price": 6000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-10-18", "dong": "생연동", "floor": 10, "jibun": "809", "price": 7000}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-10-21", "dong": "생연동", "floor": 2, "jibun": "251", "price": 6700}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-10-22", "dong": "생연동", "floor": 6, "jibun": "251", "price": 4600}
+{"apt": "한영아파트", "area": 57.93, "built": 1992, "date": "2021-10-23", "dong": "생연동", "floor": 4, "jibun": "246-1", "price": 5100}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-10-23", "dong": "생연동", "floor": 5, "jibun": "251", "price": 4000}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-10-23", "dong": "생연동", "floor": 3, "jibun": "284", "price": 9800}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2021-10-25", "dong": "생연동", "floor": 8, "jibun": "163", "price": 8500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2021-10-27", "dong": "상패동", "floor": 9, "jibun": "61", "price": 12000}
+{"apt": "상우아파트", "area": 69.39, "built": 1991, "date": "2021-10-28", "dong": "생연동", "floor": 15, "jibun": "296-1", "price": 7000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2021-11-01", "deal_type": "중개거래", "dong": "생연동", "floor": 14, "jibun": "163", "price": 15000}
+{"apt": "상우아파트", "area": 69.39, "built": 1991, "date": "2021-11-03", "deal_type": "중개거래", "dong": "생연동", "floor": 9, "jibun": "296-1", "price": 8900}
+{"apt": "에이스아파트(4차)", "area": 84.33, "built": 1995, "date": "2021-11-05", "deal_type": "중개거래", "dong": "생연동", "floor": 15, "jibun": "352", "price": 22000}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-11-06", "deal_type": "중개거래", "dong": "생연동", "floor": 1, "jibun": "251", "price": 9400}
+{"apt": "화성아파트2차", "area": 59.64, "built": 1990, "date": "2021-11-06", "deal_type": "중개거래", "dong": "생연동", "floor": 5, "jibun": "473-9", "price": 5000}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-11-09", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "251", "price": 5900}
+{"apt": "에이스아파트(2차)", "area": 84.72, "built": 1993, "date": "2021-11-10", "deal_type": "중개거래", "dong": "생연동", "floor": 2, "jibun": "335", "price": 19800}
+{"apt": "에이스아파트(2차)", "area": 120.05, "built": 1993, "date": "2021-11-10", "deal_type": "중개거래", "dong": "생연동", "floor": 8, "jibun": "335", "price": 25000}
+{"apt": "에이스아파트(2차)", "area": 104.22, "built": 1993, "date": "2021-11-11", "deal_type": "중개거래", "dong": "생연동", "floor": 10, "jibun": "335", "price": 18500}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2021-11-11", "deal_type": "중개거래", "dong": "생연동", "floor": 18, "jibun": "787-2", "price": 13800}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-11-12", "deal_type": "직거래", "dong": "생연동", "floor": 6, "jibun": "809", "price": 15000}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2021-11-12", "deal_type": "중개거래", "dong": "생연동", "floor": 7, "jibun": "85", "price": 9500}
+{"apt": "하이텍아파트", "area": 38.01, "built": 1990, "date": "2021-11-12", "deal_type": "중개거래", "dong": "지행동", "floor": 5, "jibun": "292-10", "price": 5600}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-11-13", "deal_type": "중개거래", "dong": "생연동", "floor": 5, "jibun": "251", "price": 6500}
+{"apt": "조흥아파트", "area": 65.53, "built": 1990, "date": "2021-11-13", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "268-5", "price": 7500}
+{"apt": "우성아파트", "area": 59.76, "built": 1992, "date": "2021-11-13", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "464-9", "price": 10900}
+{"apt": "화성아파트2차", "area": 59.64, "built": 1990, "date": "2021-11-13", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "473-9", "price": 6400}
+{"apt": "조흥(2동)", "area": 58.26, "built": 1991, "date": "2021-11-16", "deal_type": "직거래", "dong": "상패동", "floor": 2, "jibun": "53-13", "price": 6500}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-11-16", "deal_type": "중개거래", "dong": "생연동", "floor": 9, "jibun": "809", "price": 14000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2021-11-22", "deal_type": "중개거래", "dong": "생연동", "floor": 13, "jibun": "809", "price": 14050}
+{"apt": "한전아파트(B동)", "area": 78.66, "built": 1990, "date": "2021-11-23", "deal_type": "직거래", "dong": "보산동", "floor": 6, "jibun": "404", "price": 8400}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-11-23", "deal_type": "직거래", "dong": "생연동", "floor": 7, "jibun": "352", "price": 13600}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-11-24", "deal_type": "중개거래", "dong": "생연동", "floor": 1, "jibun": "251", "price": 7000}
+{"apt": "조흥아파트", "area": 57.0, "built": 1990, "date": "2021-11-25", "deal_type": "중개거래", "dong": "생연동", "floor": 1, "jibun": "268-5", "price": 6500}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2021-11-27", "deal_type": "직거래", "dong": "상패동", "floor": 3, "jibun": "61", "price": 7000}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2021-11-27", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "268-5", "price": 8200}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2021-11-30", "deal_type": "중개거래", "dong": "생연동", "floor": 5, "jibun": "251", "price": 5700}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2021-12-02", "deal_type": "중개거래", "dong": "생연동", "floor": 7, "jibun": "352", "price": 18000}
+{"apt": "에이스아파트(4차)", "area": 84.33, "built": 1995, "date": "2021-12-03", "deal_type": "중개거래", "dong": "생연동", "floor": 10, "jibun": "352", "price": 23000}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-12-08", "deal_type": "직거래", "dong": "생연동", "floor": 5, "jibun": "284", "price": 11720}
+{"apt": "생연주공아파트(내행주공)", "area": 45.87, "built": 1985, "date": "2021-12-11", "deal_type": "중개거래", "dong": "생연동", "floor": 5, "jibun": "284", "price": 13500}
+{"apt": "생연주공아파트(내행주공)", "area": 52.37, "built": 1985, "date": "2021-12-14", "deal_type": "중개거래", "dong": "생연동", "floor": 1, "jibun": "284", "price": 11500}
+{"apt": "대진아파트", "area": 59.04, "built": 1988, "date": "2021-12-20", "deal_type": "중개거래", "dong": "생연동", "floor": 5, "jibun": "282", "price": 6600}
+{"apt": "대진아파트", "area": 59.04, "built": 1988, "date": "2021-12-22", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "282", "price": 7450}
+{"apt": "한영아파트", "area": 57.93, "built": 1992, "date": "2021-12-27", "deal_type": "직거래", "dong": "생연동", "floor": 1, "jibun": "246-1", "price": 6000}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2021-12-28", "deal_type": "중개거래", "dong": "생연동", "floor": 11, "jibun": "85", "price": 9500}
+{"apt": "하이텍아파트", "area": 38.01, "built": 1990, "date": "2022-01-02", "deal_type": "중개거래", "dong": "지행동", "floor": 5, "jibun": "292-10", "price": 6000}
+{"apt": "대진아파트", "area": 59.04, "built": 1988, "date": "2022-01-04", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "282", "price": 7800}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2022-01-04", "deal_type": "중개거래", "dong": "생연동", "floor": 7, "jibun": "85", "price": 15000}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2022-01-12", "deal_type": "중개거래", "dong": "상패동", "floor": 4, "jibun": "61", "price": 12800}
+{"apt": "조흥아파트", "area": 57.48, "built": 1990, "date": "2022-01-13", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "268-5", "price": 5800}
+{"apt": "보산주공아파트", "area": 46.68, "built": 1990, "date": "2022-01-20", "deal_type": "중개거래", "dong": "보산동", "floor": 2, "jibun": "400-1", "price": 9800}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-01-21", "deal_type": "중개거래", "dong": "생연동", "floor": 9, "jibun": "163", "price": 14500}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2022-01-21", "deal_type": "중개거래", "dong": "생연동", "floor": 14, "jibun": "464-9", "price": 13000}
+{"apt": "조흥(2동)", "area": 59.67, "built": 1991, "date": "2022-01-22", "deal_type": "중개거래", "dong": "상패동", "floor": 3, "jibun": "53-13", "price": 6500}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2022-01-22", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "268-5", "price": 8600}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2022-01-24", "deal_type": "직거래", "dong": "생연동", "floor": 15, "jibun": "809", "price": 12000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2022-02-03", "deal_type": "중개거래", "dong": "생연동", "floor": 14, "jibun": "809", "price": 16000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-02-04", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "163", "price": 13100}
+{"apt": "근남아파트", "area": 71.64, "built": 1990, "date": "2022-02-04", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "403-1", "price": 8300}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2022-02-07", "deal_type": "중개거래", "dong": "상패동", "floor": 6, "jibun": "61", "price": 12000}
+{"apt": "하이텍아파트", "area": 38.01, "built": 1990, "date": "2022-02-07", "deal_type": "중개거래", "dong": "지행동", "floor": 5, "jibun": "292-10", "price": 5100}
+{"apt": "세아프라자", "area": 77.7, "built": 1993, "date": "2022-02-08", "deal_type": "중개거래", "dong": "생연동", "floor": 8, "jibun": "809", "price": 13900}
+{"apt": "상우아파트", "area": 114.48, "built": 1991, "date": "2022-02-10", "deal_type": "직거래", "dong": "생연동", "floor": 4, "jibun": "296-1", "price": 17010}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-02-12", "deal_type": "중개거래", "dong": "상패동", "floor": 9, "jibun": "61", "price": 10700}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2022-02-15", "deal_type": "중개거래", "dong": "보산동", "floor": 3, "jibun": "400-1", "price": 9500}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2022-02-17", "deal_type": "중개거래", "dong": "상패동", "floor": 3, "jibun": "61", "price": 11900}
+{"apt": "화성아파트2차", "area": 59.64, "built": 1990, "date": "2022-02-21", "deal_type": "중개거래", "dong": "생연동", "floor": 5, "jibun": "473-9", "price": 6500}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2022-02-24", "deal_type": "중개거래", "dong": "생연동", "floor": 2, "jibun": "350", "price": 14000}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2022-02-25", "deal_type": "중개거래", "dong": "상패동", "floor": 12, "jibun": "61", "price": 9200}
+{"apt": "현성아파트", "area": 59.16, "built": 1993, "date": "2022-02-25", "deal_type": "직거래", "dong": "지행동", "floor": 2, "jibun": "339-1", "price": 9700}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2022-03-01", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "251", "price": 9000}
+{"apt": "동남", "area": 59.9, "built": 1993, "date": "2022-03-04", "deal_type": "중개거래", "dong": "상패동", "floor": 5, "jibun": "2-53", "price": 8000}
+{"apt": "상우아파트", "area": 114.48, "built": 1991, "date": "2022-03-04", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "296-1", "price": 22000}
+{"apt": "세아프라자", "area": 84.59, "built": 1993, "date": "2022-03-09", "deal_type": "중개거래", "dong": "생연동", "floor": 11, "jibun": "809", "price": 14000}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2022-03-10", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "251", "price": 5800}
+{"apt": "동원아파트", "area": 59.94, "built": 1991, "date": "2022-03-12", "deal_type": "직거래", "dong": "생연동", "floor": 4, "jibun": "464-8", "price": 7000}
+{"apt": "동남", "area": 59.9, "built": 1993, "date": "2022-03-13", "deal_type": "중개거래", "dong": "상패동", "floor": 7, "jibun": "2-53", "price": 10000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-03-13", "deal_type": "중개거래", "dong": "상패동", "floor": 15, "jibun": "61", "price": 10800}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2022-03-15", "deal_type": "중개거래", "dong": "상패동", "floor": 8, "jibun": "61", "price": 8450}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-03-15", "deal_type": "중개거래", "dong": "생연동", "floor": 15, "jibun": "163", "price": 14000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2022-03-17", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "809", "price": 14000}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2022-03-19", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "335", "price": 14000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-03-22", "deal_type": "중개거래", "dong": "상패동", "floor": 12, "jibun": "61", "price": 11000}
+{"apt": "태양아파트(2동)", "area": 84.93, "built": 1990, "date": "2022-03-24", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "280", "price": 9400}
+{"apt": "화성아파트3차", "area": 66.69, "built": 1991, "date": "2022-03-25", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "531-4", "price": 8000}
+{"apt": "보산주공아파트", "area": 46.68, "built": 1990, "date": "2022-03-26", "deal_type": "중개거래", "dong": "보산동", "floor": 3, "jibun": "400-1", "price": 10000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-03-26", "deal_type": "중개거래", "dong": "상패동", "floor": 12, "jibun": "61", "price": 11900}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2022-03-26", "deal_type": "중개거래", "dong": "생연동", "floor": 9, "jibun": "335", "price": 13800}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2022-03-28", "deal_type": "중개거래", "dong": "상패동", "floor": 6, "jibun": "61", "price": 9500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-03-28", "deal_type": "중개거래", "dong": "생연동", "floor": 8, "jibun": "163", "price": 14000}
+{"apt": "화성아파트1차", "area": 58.14, "built": 1989, "date": "2022-03-29", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "497-1", "price": 6500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-04-02", "deal_type": "중개거래", "dong": "상패동", "floor": 15, "jibun": "61", "price": 9950}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-04-02", "deal_type": "중개거래", "dong": "생연동", "floor": 8, "jibun": "163", "price": 14200}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2022-04-02", "deal_type": "중개거래", "dong": "생연동", "floor": 2, "jibun": "787-2", "price": 19000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-04-04", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "163", "price": 14000}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2022-04-04", "deal_type": "직거래", "dong": "생연동", "floor": 1, "jibun": "464-9", "price": 7500}
+{"apt": "조흥아파트", "area": 57.0, "built": 1990, "date": "2022-04-05", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "268-5", "price": 6600}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2022-04-05", "deal_type": "중개거래", "dong": "생연동", "floor": 1, "jibun": "335", "price": 13000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2022-04-05", "deal_type": "중개거래", "dong": "생연동", "floor": 11, "jibun": "809", "price": 15300}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2022-04-08", "deal_type": "중개거래", "dong": "상패동", "floor": 11, "jibun": "61", "price": 8700}
+{"apt": "에이스아파트(4차)", "area": 84.96, "built": 1995, "date": "2022-04-08", "deal_type": "중개거래", "dong": "생연동", "floor": 11, "jibun": "352", "price": 22000}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2022-04-09", "deal_type": "중개거래", "dong": "생연동", "floor": 2, "jibun": "350", "price": 13400}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2022-04-10", "deal_type": "중개거래", "dong": "생연동", "floor": 1, "jibun": "335", "price": 12900}
+{"apt": "조흥아파트", "area": 65.53, "built": 1990, "date": "2022-04-11", "deal_type": "중개거래", "dong": "생연동", "floor": 5, "jibun": "268-5", "price": 7000}
+{"apt": "기상", "area": 84.96, "built": 1994, "date": "2022-04-11", "deal_type": "중개거래", "dong": "생연동", "floor": 12, "jibun": "85", "price": 16800}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-04-15", "deal_type": "중개거래", "dong": "상패동", "floor": 11, "jibun": "61", "price": 10900}
+{"apt": "태양아파트(1동)", "area": 64.26, "built": 1990, "date": "2022-04-15", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "280-2", "price": 5100}
+{"apt": "한성", "area": 44.04, "built": 1989, "date": "2022-04-18", "deal_type": "중개거래", "dong": "광암동", "floor": 3, "jibun": "484-3", "price": 3000}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2022-04-18", "deal_type": "직거래", "dong": "생연동", "floor": 15, "jibun": "787-2", "price": 21000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-04-21", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "163", "price": 15000}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2022-04-21", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "251", "price": 5150}
+{"apt": "대진아파트", "area": 59.04, "built": 1988, "date": "2022-04-21", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "282", "price": 7600}
+{"apt": "화성아파트5차", "area": 59.64, "built": 1991, "date": "2022-04-21", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "790-5", "price": 6000}
+{"apt": "한성", "area": 37.65, "built": 1989, "date": "2022-04-22", "deal_type": "중개거래", "dong": "광암동", "floor": 2, "jibun": "484-3", "price": 2700}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-04-26", "deal_type": "중개거래", "dong": "상패동", "floor": 12, "jibun": "61", "price": 10000}
+{"apt": "조흥아파트", "area": 57.0, "built": 1990, "date": "2022-04-27", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "268-5", "price": 6700}
+{"apt": "조흥아파트", "area": 65.53, "built": 1990, "date": "2022-05-02", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "268-5", "price": 8000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-05-03", "deal_type": "중개거래", "dong": "상패동", "floor": 12, "jibun": "61", "price": 11500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-05-05", "deal_type": "중개거래", "dong": "상패동", "floor": 15, "jibun": "61", "price": 9500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-05-07", "deal_type": "중개거래", "dong": "생연동", "floor": 7, "jibun": "163", "price": 14000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-05-09", "deal_type": "중개거래", "dong": "상패동", "floor": 11, "jibun": "61", "price": 10700}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2022-05-09", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "268-5", "price": 9500}
+{"apt": "대진아파트", "area": 59.04, "built": 1988, "date": "2022-05-10", "deal_type": "직거래", "dong": "생연동", "floor": 1, "jibun": "282", "price": 5700}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2022-05-13", "deal_type": "중개거래", "dong": "상패동", "floor": 5, "jibun": "61", "price": 11100}
+{"apt": "태양아파트(1동)", "area": 64.26, "built": 1990, "date": "2022-05-13", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "280-2", "price": 7000}
+{"apt": "에이스아파트(3차)", "area": 119.81, "built": 1993, "date": "2022-05-13", "deal_type": "중개거래", "dong": "생연동", "floor": 13, "jibun": "350", "price": 26800}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2022-05-14", "deal_type": "중개거래", "dong": "상패동", "floor": 14, "jibun": "61", "price": 8500}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2022-05-14", "deal_type": "중개거래", "dong": "생연동", "floor": 14, "jibun": "350", "price": 12900}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-05-16", "deal_type": "중개거래", "dong": "상패동", "floor": 14, "jibun": "61", "price": 10300}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2022-05-16", "deal_type": "중개거래", "dong": "생연동", "floor": 9, "jibun": "334-1", "price": 20200}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2022-05-16", "deal_type": "직거래", "dong": "생연동", "floor": 1, "jibun": "464-9", "price": 9700}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2022-05-18", "deal_type": "직거래", "dong": "생연동", "floor": 11, "jibun": "334-1", "price": 20000}
+{"apt": "상우아파트", "area": 83.04, "built": 1991, "date": "2022-05-21", "deal_type": "중개거래", "dong": "생연동", "floor": 1, "jibun": "296-1", "price": 13800}
+{"apt": "상우아파트", "area": 66.84, "built": 1991, "date": "2022-05-24", "deal_type": "중개거래", "dong": "생연동", "floor": 14, "jibun": "296-1", "price": 10500}
+{"apt": "동원아파트", "area": 59.94, "built": 1991, "date": "2022-05-26", "deal_type": "중개거래", "dong": "생연동", "floor": 1, "jibun": "464-8", "price": 7280}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2022-05-26", "deal_type": "중개거래", "dong": "생연동", "floor": 9, "jibun": "464-9", "price": 14700}
+{"apt": "하이텍아파트", "area": 38.01, "built": 1990, "date": "2022-05-26", "deal_type": "직거래", "dong": "지행동", "floor": 5, "jibun": "292-10", "price": 6500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-05-27", "deal_type": "중개거래", "dong": "상패동", "floor": 8, "jibun": "61", "price": 11000}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2022-05-28", "deal_type": "중개거래", "dong": "보산동", "floor": 2, "jibun": "400-1", "price": 9500}
+{"apt": "한성", "area": 44.04, "built": 1989, "date": "2022-05-30", "deal_type": "중개거래", "dong": "광암동", "floor": 2, "jibun": "484-3", "price": 2800}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2022-05-30", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "251", "price": 8300}
+{"apt": "상우아파트", "area": 83.04, "built": 1991, "date": "2022-05-31", "deal_type": "중개거래", "dong": "생연동", "floor": 7, "jibun": "296-1", "price": 12000}
+{"apt": "화성아파트5차", "area": 59.64, "built": 1991, "date": "2022-06-03", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "790-5", "price": 10300}
+{"apt": "조흥(1동)", "area": 84.9, "built": 1991, "date": "2022-06-04", "deal_type": "중개거래", "dong": "상패동", "floor": 6, "jibun": "53-3", "price": 8000}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2022-06-04", "deal_type": "중개거래", "dong": "생연동", "floor": 2, "jibun": "163", "price": 8500}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2022-06-10", "deal_type": "중개거래", "dong": "보산동", "floor": 1, "jibun": "400-1", "price": 9250}
+{"apt": "보산주공아파트", "area": 39.3, "built": 1990, "date": "2022-06-11", "deal_type": "중개거래", "dong": "보산동", "floor": 3, "jibun": "400-1", "price": 11000}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2022-06-14", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "163", "price": 7900}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-06-15", "deal_type": "중개거래", "dong": "상패동", "floor": 2, "jibun": "61", "price": 10800}
+{"apt": "화성아파트6차", "area": 59.94, "built": 1991, "date": "2022-06-16", "deal_type": "직거래", "dong": "생연동", "floor": 5, "jibun": "531-6", "price": 7000}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2022-06-18", "deal_type": "중개거래", "dong": "생연동", "floor": 17, "jibun": "787-2", "price": 11000}
+{"apt": "상우아파트", "area": 66.84, "built": 1991, "date": "2022-06-21", "deal_type": "중개거래", "dong": "생연동", "floor": 5, "jibun": "296-1", "price": 11800}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-06-22", "deal_type": "중개거래", "dong": "상패동", "floor": 5, "jibun": "61", "price": 10500}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2022-06-27", "deal_type": "중개거래", "dong": "상패동", "floor": 11, "jibun": "61", "price": 12000}
+{"apt": "보산주공아파트", "area": 46.68, "built": 1990, "date": "2022-07-07", "deal_type": "중개거래", "dong": "보산동", "floor": 2, "jibun": "400-1", "price": 12500}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2022-07-09", "deal_type": "중개거래", "dong": "생연동", "floor": 14, "jibun": "787-2", "price": 20400}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2022-07-10", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "350", "price": 13200}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-07-13", "deal_type": "중개거래", "dong": "상패동", "floor": 6, "jibun": "61", "price": 10480}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2022-07-14", "deal_type": "중개거래", "dong": "생연동", "floor": 12, "jibun": "787-2", "price": 12950}
+{"apt": "화성아파트5차", "area": 59.64, "built": 1991, "date": "2022-07-14", "deal_type": "중개거래", "dong": "생연동", "floor": 2, "jibun": "790-5", "price": 8300}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2022-07-16", "deal_type": "중개거래", "dong": "생연동", "floor": 11, "jibun": "334-1", "price": 14200}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-07-22", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "163", "price": 12500}
+{"apt": "화성아파트2차", "area": 59.64, "built": 1990, "date": "2022-07-26", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "473-9", "price": 6500}
+{"apt": "한성", "area": 44.04, "built": 1989, "date": "2022-08-05", "deal_type": "직거래", "dong": "광암동", "floor": 3, "jibun": "484-3", "price": 4500}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2022-08-06", "deal_type": "중개거래", "dong": "생연동", "floor": 10, "jibun": "85", "price": 11000}
+{"apt": "에이스아파트(3차)", "area": 119.81, "built": 1993, "date": "2022-08-12", "deal_type": "중개거래", "dong": "생연동", "floor": 8, "jibun": "350", "price": 20000}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2022-08-13", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "268-5", "price": 9200}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-08-17", "deal_type": "중개거래", "dong": "생연동", "floor": 9, "jibun": "163", "price": 15100}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2022-08-18", "deal_type": "직거래", "dong": "생연동", "floor": 7, "jibun": "334-1", "price": 21500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-08-19", "deal_type": "중개거래", "dong": "생연동", "floor": 2, "jibun": "163", "price": 13500}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2022-08-19", "deal_type": "중개거래", "dong": "생연동", "floor": 17, "jibun": "787-2", "price": 14500}
+{"apt": "조흥(2동)", "area": 59.94, "built": 1991, "date": "2022-08-20", "deal_type": "중개거래", "dong": "상패동", "floor": 4, "jibun": "53-13", "price": 4800}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2022-08-20", "deal_type": "중개거래", "dong": "생연동", "floor": 18, "jibun": "787-2", "price": 19800}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-08-22", "deal_type": "중개거래", "dong": "상패동", "floor": 15, "jibun": "61", "price": 9950}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2022-08-24", "deal_type": "중개거래", "dong": "상패동", "floor": 10, "jibun": "61", "price": 10700}
+{"apt": "세아프라자", "area": 77.7, "built": 1993, "date": "2022-08-27", "deal_type": "중개거래", "dong": "생연동", "floor": 7, "jibun": "809", "price": 11500}
+{"apt": "조흥(2동)", "area": 59.67, "built": 1991, "date": "2022-09-02", "deal_type": "직거래", "dong": "상패동", "floor": 1, "jibun": "53-13", "price": 7000}
+{"apt": "상우아파트", "area": 83.04, "built": 1991, "date": "2022-09-06", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "296-1", "price": 14400}
+{"apt": "화성아파트1차", "area": 58.14, "built": 1989, "date": "2022-09-06", "deal_type": "중개거래", "dong": "생연동", "floor": 5, "jibun": "497-1", "price": 5000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-09-07", "deal_type": "중개거래", "dong": "생연동", "floor": 12, "jibun": "163", "price": 12900}
+{"apt": "한성", "area": 37.65, "built": 1989, "date": "2022-09-08", "deal_type": "중개거래", "dong": "광암동", "floor": 3, "jibun": "484-3", "price": 2300}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2022-09-15", "deal_type": "중개거래", "dong": "생연동", "floor": 2, "jibun": "251", "price": 7800}
+{"apt": "조흥아파트", "area": 57.0, "built": 1990, "date": "2022-09-16", "deal_type": "중개거래", "dong": "생연동", "floor": 1, "jibun": "268-5", "price": 7700}
+{"apt": "근남아파트", "area": 71.64, "built": 1990, "date": "2022-09-22", "deal_type": "중개거래", "dong": "생연동", "floor": 1, "jibun": "403-1", "price": 8000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-09-24", "deal_type": "중개거래", "dong": "상패동", "floor": 8, "jibun": "61", "price": 11300}
+{"apt": "에이스아파트(1차)", "area": 84.72, "built": 1992, "date": "2022-09-24", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "334-1", "price": 18500}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2022-09-24", "deal_type": "중개거래", "dong": "생연동", "floor": 10, "jibun": "335", "price": 13000}
+{"apt": "대진아파트", "area": 59.04, "built": 1988, "date": "2022-09-26", "deal_type": "중개거래", "dong": "생연동", "floor": 1, "jibun": "282", "price": 6800}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-09-27", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "163", "price": 12900}
+{"apt": "에이스아파트(1차)", "area": 120.05, "built": 1992, "date": "2022-09-27", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "334-1", "price": 25000}
+{"apt": "보산주공아파트", "area": 39.3, "built": 1990, "date": "2022-09-29", "deal_type": "중개거래", "dong": "보산동", "floor": 3, "jibun": "400-1", "price": 9800}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2022-09-29", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "163", "price": 9250}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-10-05", "deal_type": "중개거래", "dong": "생연동", "floor": 15, "jibun": "163", "price": 12300}
+{"apt": "근남아파트", "area": 71.64, "built": 1990, "date": "2022-10-06", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "403-1", "price": 6600}
+{"apt": "한성", "area": 44.04, "built": 1989, "date": "2022-10-10", "deal_type": "중개거래", "dong": "광암동", "floor": 3, "jibun": "484-3", "price": 3900}
+{"apt": "에이스아파트(4차)", "area": 84.33, "built": 1995, "date": "2022-10-12", "deal_type": "중개거래", "dong": "생연동", "floor": 10, "jibun": "352", "price": 19000}
+{"apt": "화성아파트5차", "area": 59.64, "built": 1991, "date": "2022-10-12", "deal_type": "직거래", "dong": "생연동", "floor": 5, "jibun": "790-5", "price": 5500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2022-10-13", "deal_type": "중개거래", "dong": "생연동", "floor": 1, "jibun": "163", "price": 12000}
+{"apt": "화성아파트1차", "area": 58.14, "built": 1989, "date": "2022-10-13", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "497-1", "price": 5300}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2022-10-15", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "350", "price": 20000}
+{"apt": "상우아파트", "area": 69.39, "built": 1991, "date": "2022-10-19", "deal_type": "중개거래", "dong": "생연동", "floor": 13, "jibun": "296-1", "price": 9800}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-10-31", "deal_type": "중개거래", "dong": "상패동", "floor": 7, "jibun": "61", "price": 11200}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2022-10-31", "deal_type": "중개거래", "dong": "생연동", "floor": 11, "jibun": "464-9", "price": 13700}
+{"apt": "조흥아파트", "area": 77.32, "built": 1990, "date": "2022-11-07", "deal_type": "직거래", "dong": "생연동", "floor": 6, "jibun": "268-5", "price": 8790}
+{"apt": "동남", "area": 59.9, "built": 1993, "date": "2022-11-08", "deal_type": "직거래", "dong": "상패동", "floor": 11, "jibun": "2-53", "price": 10000}
+{"apt": "근남아파트", "area": 71.64, "built": 1990, "date": "2022-11-09", "deal_type": "중개거래", "dong": "생연동", "floor": 1, "jibun": "403-1", "price": 6500}
+{"apt": "기상", "area": 69.3, "built": 1994, "date": "2022-11-10", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "85", "price": 10500}
+{"apt": "한영아파트", "area": 57.93, "built": 1992, "date": "2022-11-11", "deal_type": "중개거래", "dong": "생연동", "floor": 6, "jibun": "246-1", "price": 6200}
+{"apt": "한영아파트", "area": 57.93, "built": 1992, "date": "2022-12-01", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "246-1", "price": 6000}
+{"apt": "조흥아파트", "area": 57.48, "built": 1990, "date": "2022-12-02", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "268-5", "price": 7400}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2022-12-12", "deal_type": "직거래", "dong": "생연동", "floor": 6, "jibun": "335", "price": 10000}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2022-12-15", "deal_type": "중개거래", "dong": "생연동", "floor": 15, "jibun": "334-1", "price": 11000}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2022-12-19", "deal_type": "중개거래", "dong": "생연동", "floor": 2, "jibun": "334-1", "price": 12000}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2022-12-20", "deal_type": "중개거래", "dong": "생연동", "floor": 12, "jibun": "787-2", "price": 10400}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2022-12-26", "deal_type": "중개거래", "dong": "생연동", "floor": 5, "jibun": "251", "price": 6300}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2022-12-30", "deal_type": "중개거래", "dong": "상패동", "floor": 2, "jibun": "61", "price": 10000}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2022-12-31", "deal_type": "중개거래", "dong": "생연동", "floor": 9, "jibun": "335", "price": 10450}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2023-01-04", "deal_type": "중개거래", "dong": "생연동", "floor": 11, "jibun": "809", "price": 12000}
+{"apt": "한성", "area": 37.65, "built": 1989, "date": "2023-01-05", "deal_type": "직거래", "dong": "광암동", "dong_no": "B", "floor": 2, "jibun": "484-3", "price": 1800}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2023-01-07", "deal_type": "중개거래", "dong": "생연동", "dong_no": "105", "floor": 15, "jibun": "163", "price": 12000}
+{"apt": "한성", "area": 34.68, "built": 1989, "date": "2023-01-10", "deal_type": "중개거래", "dong": "광암동", "dong_no": "B", "floor": 1, "jibun": "484-3", "price": 2300}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2023-01-13", "deal_type": "중개거래", "dong": "보산동", "dong_no": "104", "floor": 3, "jibun": "400-1", "price": 8800}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2023-01-13", "deal_type": "중개거래", "dong": "생연동", "floor": 13, "jibun": "464-9", "price": 12700}
+{"apt": "에이스아파트(2차)", "area": 104.22, "built": 1993, "date": "2023-01-16", "deal_type": "직거래", "dong": "생연동", "dong_no": "201", "floor": 9, "jibun": "335", "price": 12000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2023-02-01", "deal_type": "중개거래", "dong": "생연동", "dong_no": "104", "floor": 14, "jibun": "163", "price": 11000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-02-03", "deal_type": "중개거래", "dong": "상패동", "dong_no": "101", "floor": 6, "jibun": "61", "price": 10400}
+{"apt": "상우아파트", "area": 99.09, "built": 1991, "date": "2023-02-09", "deal_type": "중개거래", "dong": "생연동", "dong_no": "101", "floor": 7, "jibun": "296-1", "price": 14000}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2023-02-11", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102동", "floor": 3, "jibun": "85", "price": 11000}
+{"apt": "조흥아파트", "area": 57.48, "built": 1990, "date": "2023-02-13", "deal_type": "직거래", "dong": "생연동", "dong_no": "4동", "floor": 1, "jibun": "268-5", "price": 5500}
+{"apt": "에이스아파트(4차)", "area": 59.81, "built": 1995, "date": "2023-02-13", "deal_type": "중개거래", "dong": "생연동", "dong_no": "402", "floor": 2, "jibun": "352", "price": 12500}
+{"apt": "우성아파트", "area": 59.76, "built": 1992, "date": "2023-02-13", "deal_type": "중개거래", "dong": "생연동", "floor": 13, "jibun": "464-9", "price": 9500}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2023-02-16", "deal_type": "직거래", "dong": "보산동", "dong_no": "102", "floor": 1, "jibun": "400-1", "price": 9600}
+{"apt": "대진아파트", "area": 59.04, "built": 1988, "date": "2023-02-16", "deal_type": "직거래", "dong": "생연동", "floor": 3, "jibun": "282", "price": 8000}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2023-02-16", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 12, "jibun": "787-2", "price": 13500}
+{"apt": "현성하이츠", "area": 83.82, "built": 1994, "date": "2023-02-19", "deal_type": "직거래", "dong": "지행동", "floor": 3, "jibun": "342-1", "price": 8000}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2023-02-20", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102동", "floor": 9, "jibun": "85", "price": 8000}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2023-02-24", "deal_type": "중개거래", "dong": "생연동", "dong_no": "103동", "floor": 1, "jibun": "334-1", "price": 8000}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2023-02-24", "deal_type": "중개거래", "dong": "생연동", "dong_no": "302", "floor": 7, "jibun": "350", "price": 18000}
+{"apt": "상우아파트", "area": 83.04, "built": 1991, "date": "2023-02-27", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 9, "jibun": "296-1", "price": 14500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-03-01", "deal_type": "중개거래", "dong": "상패동", "dong_no": "101", "floor": 13, "jibun": "61", "price": 10300}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2023-03-03", "deal_type": "중개거래", "dong": "생연동", "floor": 10, "jibun": "809", "price": 12200}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2023-03-10", "deal_type": "중개거래", "dong": "생연동", "dong_no": "203", "floor": 9, "jibun": "335", "price": 13400}
+{"apt": "상우아파트", "area": 66.75, "built": 1991, "date": "2023-03-11", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 5, "jibun": "296-1", "price": 9200}
+{"apt": "조흥(1동)", "area": 84.9, "built": 1991, "date": "2023-03-14", "deal_type": "직거래", "dong": "상패동", "dong_no": "1", "floor": 4, "jibun": "53-3", "price": 7000}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2023-03-14", "deal_type": "중개거래", "dong": "생연동", "dong_no": "302", "floor": 3, "jibun": "350", "price": 10000}
+{"apt": "에이스아파트(4차)", "area": 84.33, "built": 1995, "date": "2023-03-14", "deal_type": "중개거래", "dong": "생연동", "dong_no": "402", "floor": 4, "jibun": "352", "price": 15500}
+{"apt": "하이텍아파트", "area": 38.01, "built": 1990, "date": "2023-03-14", "deal_type": "중개거래", "dong": "지행동", "floor": 1, "jibun": "292-10", "price": 6700}
+{"apt": "한전아파트(A동)", "area": 63.99, "built": 1989, "date": "2023-03-17", "deal_type": "중개거래", "dong": "보산동", "dong_no": "A", "floor": 4, "jibun": "404-77", "price": 6300}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2023-03-21", "deal_type": "중개거래", "dong": "생연동", "dong_no": "103동", "floor": 1, "jibun": "334-1", "price": 11500}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2023-03-27", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 6, "jibun": "787-2", "price": 10600}
+{"apt": "상패주공", "area": 49.97, "built": 1997, "date": "2023-03-31", "deal_type": "중개거래", "dong": "상패동", "dong_no": "104", "floor": 12, "jibun": "61", "price": 10000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2023-03-31", "deal_type": "중개거래", "dong": "생연동", "dong_no": "106", "floor": 14, "jibun": "163", "price": 11000}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2023-04-03", "deal_type": "중개거래", "dong": "생연동", "floor": 14, "jibun": "464-9", "price": 9200}
+{"apt": "한성", "area": 37.65, "built": 1989, "date": "2023-04-05", "deal_type": "직거래", "dong": "광암동", "dong_no": "B", "floor": 3, "jibun": "484-3", "price": 1950}
+{"apt": "화성아파트1차", "area": 58.14, "built": 1989, "date": "2023-04-05", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "497-1", "price": 4700}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-04-06", "deal_type": "중개거래", "dong": "상패동", "dong_no": "101", "floor": 9, "jibun": "61", "price": 8500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2023-04-06", "deal_type": "중개거래", "dong": "생연동", "dong_no": "103", "floor": 10, "jibun": "163", "price": 10000}
+{"apt": "에이스아파트(1차)", "area": 59.4, "built": 1992, "date": "2023-04-06", "deal_type": "직거래", "dong": "생연동", "dong_no": "103동", "floor": 3, "jibun": "334-1", "price": 8400}
+{"apt": "화성아파트1차", "area": 58.14, "built": 1989, "date": "2023-04-06", "deal_type": "중개거래", "dong": "생연동", "floor": 4, "jibun": "497-1", "price": 6000}
+{"apt": "보산주공아파트", "area": 46.68, "built": 1990, "date": "2023-04-10", "deal_type": "직거래", "dong": "보산동", "dong_no": "101", "floor": 3, "jibun": "400-1", "price": 10000}
+{"apt": "에이스아파트(3차)", "area": 84.94, "built": 1993, "date": "2023-04-12", "deal_type": "중개거래", "dong": "생연동", "dong_no": "302", "floor": 7, "jibun": "350", "price": 15000}
+{"apt": "화성아파트3차", "area": 59.94, "built": 1991, "date": "2023-04-14", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "531-4", "price": 6200}
+{"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2023-04-15", "deal_type": "중개거래", "dong": "생연동", "floor": 5, "jibun": "464-9", "price": 13000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-04-17", "deal_type": "중개거래", "dong": "상패동", "dong_no": "101", "floor": 1, "jibun": "61", "price": 7250}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-04-18", "deal_type": "중개거래", "dong": "상패동", "dong_no": "102", "floor": 6, "jibun": "61", "price": 9100}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-04-20", "deal_type": "중개거래", "dong": "상패동", "dong_no": "102", "floor": 6, "jibun": "61", "price": 9500}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2023-04-20", "deal_type": "중개거래", "dong": "생연동", "dong_no": "203", "floor": 8, "jibun": "335", "price": 10000}
+{"apt": "현성하이츠", "area": 83.82, "built": 1994, "date": "2023-04-21", "deal_type": "중개거래", "dong": "지행동", "floor": 3, "jibun": "342-1", "price": 8200}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2023-05-01", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 3, "jibun": "787-2", "price": 10300}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2023-05-12", "deal_type": "직거래", "dong": "상패동", "dong_no": "103", "floor": 1, "jibun": "61", "price": 7500}
+{"apt": "상우아파트", "area": 83.04, "built": 1991, "date": "2023-05-18", "deal_type": "중개거래", "dong": "생연동", "dong_no": "101", "floor": 14, "jibun": "296-1", "price": 12400}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-05-23", "deal_type": "중개거래", "dong": "상패동", "dong_no": "106", "floor": 3, "jibun": "61", "price": 9400}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-05-23", "deal_type": "중개거래", "dong": "상패동", "dong_no": "101", "floor": 6, "jibun": "61", "price": 9600}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2023-05-23", "deal_type": "직거래", "dong": "생연동", "dong_no": "102", "floor": 14, "jibun": "787-2", "price": 12000}
+{"apt": "한전아파트(B동)", "area": 78.66, "built": 1990, "date": "2023-05-24", "deal_type": "직거래", "dong": "보산동", "dong_no": "B", "floor": 6, "jibun": "404", "price": 7700}
+{"apt": "화성아파트3차", "area": 65.52, "built": 1991, "date": "2023-05-24", "deal_type": "직거래", "dong": "생연동", "floor": 4, "jibun": "531-4", "price": 6000}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2023-05-26", "deal_type": "중개거래", "dong": "생연동", "dong_no": "101", "floor": 12, "jibun": "787-2", "price": 16500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2023-06-02", "deal_type": "중개거래", "dong": "생연동", "dong_no": "104", "floor": 6, "jibun": "163", "price": 10900}
+{"apt": "에이스아파트(2차)", "area": 120.05, "built": 1993, "date": "2023-06-02", "deal_type": "중개거래", "dong": "생연동", "dong_no": "202", "floor": 10, "jibun": "335", "price": 18000}
+{"apt": "조흥아파트", "area": 57.48, "built": 1990, "date": "2023-06-05", "deal_type": "중개거래", "dong": "생연동", "dong_no": "4동", "floor": 2, "jibun": "268-5", "price": 5450}
+{"apt": "한영아파트", "area": 57.93, "built": 1992, "date": "2023-06-12", "deal_type": "중개거래", "dong": "생연동", "dong_no": "A", "floor": 3, "jibun": "246-1", "price": 7100}
+{"apt": "한성", "area": 37.65, "built": 1989, "date": "2023-06-20", "deal_type": "중개거래", "dong": "광암동", "dong_no": "B", "floor": 1, "jibun": "484-3", "price": 3250}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-06-23", "deal_type": "직거래", "dong": "상패동", "dong_no": "106", "floor": 9, "jibun": "61", "price": 8500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-06-23", "deal_type": "직거래", "dong": "상패동", "dong_no": "102", "floor": 12, "jibun": "61", "price": 10500}
+{"apt": "에이스아파트(4차)", "area": 84.33, "built": 1995, "date": "2023-06-30", "deal_type": "중개거래", "dong": "생연동", "dong_no": "402", "floor": 9, "jibun": "352", "price": 15000}
+{"apt": "상우아파트", "area": 69.39, "built": 1991, "date": "2023-07-01", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 8, "jibun": "296-1", "price": 7900}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2023-07-03", "deal_type": "중개거래", "dong": "생연동", "dong_no": "104", "floor": 12, "jibun": "163", "price": 10000}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2023-07-03", "deal_type": "중개거래", "dong": "생연동", "dong_no": "302", "floor": 5, "jibun": "350", "price": 9800}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2023-07-03", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 6, "jibun": "787-2", "price": 13400}
+{"apt": "현성하이츠", "area": 83.82, "built": 1994, "date": "2023-07-03", "deal_type": "직거래", "dong": "지행동", "floor": 5, "jibun": "342-1", "price": 6700}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2023-07-04", "deal_type": "중개거래", "dong": "생연동", "dong_no": "105", "floor": 15, "jibun": "163", "price": 10500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2023-07-14", "deal_type": "중개거래", "dong": "생연동", "dong_no": "106", "floor": 9, "jibun": "163", "price": 9000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-07-22", "deal_type": "중개거래", "dong": "상패동", "dong_no": "101", "floor": 13, "jibun": "61", "price": 8300}
+{"apt": "생연주공아파트(1단지)", "area": 37.67, "built": 1996, "date": "2023-07-24", "deal_type": "중개거래", "dong": "생연동", "dong_no": "101", "floor": 15, "jibun": "163", "price": 8000}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2023-07-24", "deal_type": "중개거래", "dong": "생연동", "dong_no": "101", "floor": 11, "jibun": "787-2", "price": 16000}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2023-07-28", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 12, "jibun": "163", "price": 9500}
+{"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2023-08-02", "deal_type": "중개거래", "dong": "생연동", "dong_no": "105", "floor": 9, "jibun": "163", "price": 10000}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2023-08-02", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 8, "jibun": "787-2", "price": 10000}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2023-08-04", "deal_type": "중개거래", "dong": "상패동", "dong_no": "103", "floor": 9, "jibun": "61", "price": 6500}
+{"apt": "에이스아파트(2차)", "area": 120.05, "built": 1993, "date": "2023-08-04", "deal_type": "중개거래", "dong": "생연동", "dong_no": "202", "floor": 2, "jibun": "335", "price": 16000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2023-08-04", "deal_type": "중개거래", "dong": "생연동", "floor": 9, "jibun": "809", "price": 11000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2023-08-14", "deal_type": "중개거래", "dong": "생연동", "floor": 11, "jibun": "809", "price": 13000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2023-08-18", "deal_type": "중개거래", "dong": "생연동", "floor": 3, "jibun": "809", "price": 13700}
+{"apt": "상우아파트", "area": 69.39, "built": 1991, "date": "2023-08-26", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 3, "jibun": "296-1", "price": 7500}
+{"apt": "상우아파트", "area": 69.39, "built": 1991, "date": "2023-08-28", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 11, "jibun": "296-1", "price": 9200}
+{"apt": "상우아파트", "area": 83.04, "built": 1991, "date": "2023-08-31", "deal_type": "직거래", "dong": "생연동", "dong_no": "101", "floor": 12, "jibun": "296-1", "price": 13000}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2023-09-01", "deal_type": "직거래", "dong": "생연동", "dong_no": "1", "floor": 3, "jibun": "251", "price": 5000}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2023-09-01", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 1, "jibun": "787-2", "price": 7500}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2023-09-03", "deal_type": "직거래", "dong": "생연동", "dong_no": "101", "floor": 9, "jibun": "787-2", "price": 15000}
+{"apt": "한성", "area": 44.04, "built": 1989, "date": "2023-09-05", "deal_type": "중개거래", "dong": "광암동", "dong_no": "A", "floor": 4, "jibun": "484-3", "price": 4100}
+{"apt": "한성", "area": 37.65, "built": 1989, "date": "2023-09-06", "deal_type": "직거래", "dong": "광암동", "dong_no": "B", "floor": 1, "jibun": "484-3", "price": 2500}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-09-06", "deal_type": "중개거래", "dong": "상패동", "dong_no": "102", "floor": 10, "jibun": "61", "price": 8300}
+{"apt": "동양아파트", "area": 59.94, "built": 1991, "date": "2023-09-07", "deal_type": "직거래", "dong": "생연동", "dong_no": "2", "floor": 3, "jibun": "251", "price": 9000}
+{"apt": "에이스아파트(3차)", "area": 121.59, "built": 1993, "date": "2023-09-08", "deal_type": "중개거래", "dong": "생연동", "dong_no": "301", "floor": 4, "jibun": "350", "price": 17800}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-09-11", "deal_type": "중개거래", "dong": "상패동", "dong_no": "101", "floor": 7, "jibun": "61", "price": 8700}
+{"apt": "화성아파트6차", "area": 59.58, "built": 1991, "date": "2023-09-11", "deal_type": "중개거래", "dong": "생연동", "floor": 1, "jibun": "531-6", "price": 6600}
+{"apt": "조흥아파트", "area": 65.53, "built": 1990, "date": "2023-09-12", "deal_type": "중개거래", "dong": "생연동", "dong_no": "2동", "floor": 6, "jibun": "268-5", "price": 6300}
+{"apt": "에이스아파트(3차)", "area": 59.4, "built": 1993, "date": "2023-09-14", "deal_type": "중개거래", "dong": "생연동", "dong_no": "302", "floor": 5, "jibun": "350", "price": 12800}
+{"apt": "에이스아파트(2차)", "area": 120.05, "built": 1993, "date": "2023-09-15", "deal_type": "직거래", "dong": "생연동", "dong_no": "202", "floor": 8, "jibun": "335", "price": 21000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-09-18", "deal_type": "중개거래", "dong": "상패동", "dong_no": "102", "floor": 10, "jibun": "61", "price": 8200}
+{"apt": "건영아파트", "area": 84.96, "built": 1995, "date": "2023-09-18", "deal_type": "직거래", "dong": "생연동", "dong_no": "101", "floor": 9, "jibun": "787-2", "price": 16000}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2023-09-22", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 19, "jibun": "787-2", "price": 10000}
+{"apt": "에이스아파트(2차)", "area": 59.4, "built": 1993, "date": "2023-09-25", "deal_type": "중개거래", "dong": "생연동", "dong_no": "203", "floor": 8, "jibun": "335", "price": 13000}
+{"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2023-09-25", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 16, "jibun": "787-2", "price": 9500}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2023-10-06", "deal_type": "중개거래", "dong": "상패동", "dong_no": "103", "floor": 7, "jibun": "61", "price": 6800}
+{"apt": "화성아파트6차", "area": 59.79, "built": 1991, "date": "2023-10-10", "deal_type": "중개거래", "dong": "생연동", "floor": 2, "jibun": "531-6", "price": 5900}
+{"apt": "보산주공아파트", "area": 39.69, "built": 1990, "date": "2023-10-12", "deal_type": "중개거래", "dong": "보산동", "dong_no": "104", "floor": 2, "jibun": "400-1", "price": 8000}
+{"apt": "상패주공", "area": 39.99, "built": 1997, "date": "2023-10-13", "deal_type": "중개거래", "dong": "상패동", "dong_no": "103", "floor": 9, "jibun": "61", "price": 7400}
+{"apt": "근남아파트", "area": 71.64, "built": 1990, "date": "2023-10-16", "deal_type": "직거래", "dong": "생연동", "floor": 3, "jibun": "403-1", "price": 7000}
+{"apt": "세아프라자", "area": 84.6, "built": 1993, "date": "2023-10-16", "deal_type": "직거래", "dong": "생연동", "floor": 9, "jibun": "809", "price": 13000}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2023-10-20", "deal_type": "직거래", "dong": "생연동", "dong_no": "102동", "floor": 7, "jibun": "85", "price": 8000}
+{"apt": "기상", "area": 59.52, "built": 1994, "date": "2023-10-30", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102동", "floor": 9, "jibun": "85", "price": 8000}
+{"apt": "상패주공", "area": 49.84, "built": 1997, "date": "2023-10-31", "deal_type": "직거래", "dong": "상패동", "dong_no": "106", "floor": 12, "jibun": "61", "price": 8500}
 {"apt": "건영아파트", "area": 59.4, "built": 1995, "date": "2023-11-02", "deal_type": "중개거래", "dong": "생연동", "dong_no": "102", "floor": 8, "jibun": "787-2", "price": 9000}
 {"apt": "생연주공아파트(1단지)", "area": 58.14, "built": 1996, "date": "2023-11-05", "deal_type": "중개거래", "dong": "생연동", "dong_no": "106", "floor": 1, "jibun": "163", "price": 10700}
 {"apt": "우성아파트", "area": 84.9, "built": 1992, "date": "2023-11-09", "deal_type": "중개거래", "dong": "생연동", "floor": 9, "jibun": "464-9", "price": 13500}

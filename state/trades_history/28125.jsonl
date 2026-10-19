@@ -1,3 +1,1304 @@
+{"apt": "송현주공", "area": 84.81, "built": 1993, "date": "2021-02-01", "dong": "송현동", "floor": 8, "jibun": "6-26", "price": 18800}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-02-01", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 24000}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-02-02", "dong": "송현동", "floor": 15, "jibun": "6-26", "price": 9500}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-02-02", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 24000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-02-02", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 24000}
+{"apt": "송월", "area": 41.19, "built": 1980, "date": "2021-02-03", "dong": "송월동1가", "floor": 2, "jibun": "10-1", "price": 12500}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2021-02-03", "dong": "송현동", "floor": 5, "jibun": "12-4", "price": 13500}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-02-03", "dong": "항동7가", "floor": 8, "jibun": "27-107", "price": 8000}
+{"apt": "연안아파트", "area": 80.1, "built": 1983, "date": "2021-02-04", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 20800}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-02-05", "dong": "송현동", "floor": 7, "jibun": "66-26", "price": 18400}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-02-06", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 20100}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-02-07", "dong": "신흥동3가", "floor": 2, "jibun": "53-4", "price": 19500}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-02-08", "dong": "항동7가", "floor": 8, "jibun": "27-107", "price": 24800}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2021-02-09", "dong": "송림동", "floor": 7, "jibun": "228-1", "price": 16000}
+{"apt": "송현주공", "area": 51.66, "built": 1993, "date": "2021-02-09", "dong": "송현동", "floor": 3, "jibun": "6-26", "price": 11300}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-02-09", "dong": "송현동", "floor": 5, "jibun": "66-26", "price": 18300}
+{"apt": "삼두1차", "area": 54.72, "built": 1984, "date": "2021-02-09", "dong": "송현동", "floor": 8, "jibun": "66-51", "price": 11500}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-02-09", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 23200}
+{"apt": "송현1차", "area": 50.83, "built": 1982, "date": "2021-02-10", "dong": "송현동", "floor": 5, "jibun": "1", "price": 13400}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-02-10", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 9400}
+{"apt": "송월", "area": 70.38, "built": 1980, "date": "2021-02-14", "dong": "송월동1가", "floor": 4, "jibun": "10-1", "price": 17700}
+{"apt": "송월", "area": 41.19, "built": 1980, "date": "2021-02-15", "dong": "송월동1가", "floor": 5, "jibun": "10-1", "price": 13000}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-02-15", "dong": "송현동", "floor": 3, "jibun": "6-26", "price": 9800}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-02-16", "dong": "송현동", "floor": 1, "jibun": "66-26", "price": 13000}
+{"apt": "항운", "area": 53.57, "built": 1982, "date": "2021-02-16", "dong": "신흥동3가", "floor": 3, "jibun": "53-4", "price": 23800}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-02-16", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 9500}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-02-18", "dong": "신흥동3가", "floor": 2, "jibun": "53-4", "price": 19800}
+{"apt": "송현1차", "area": 43.34, "built": 1982, "date": "2021-02-19", "dong": "송현동", "floor": 3, "jibun": "1", "price": 10700}
+{"apt": "송현주공", "area": 74.16, "built": 1993, "date": "2021-02-20", "dong": "송현동", "floor": 9, "jibun": "6-26", "price": 17500}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-02-21", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 24000}
+{"apt": "송월", "area": 66.51, "built": 1980, "date": "2021-02-22", "dong": "송월동1가", "floor": 2, "jibun": "10-1", "price": 18500}
+{"apt": "동부", "area": 84.75, "built": 1990, "date": "2021-02-22", "dong": "송현동", "floor": 14, "jibun": "66-26", "price": 23400}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-02-22", "dong": "신흥동1가", "floor": 2, "jibun": "34-8", "price": 19700}
+{"apt": "만석2차", "area": 41.46, "built": 1987, "date": "2021-02-23", "dong": "만석동", "floor": 2, "jibun": "71", "price": 7500}
+{"apt": "송현1차", "area": 43.34, "built": 1982, "date": "2021-02-23", "dong": "송현동", "floor": 1, "jibun": "1", "price": 10000}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-02-24", "dong": "송현동", "floor": 3, "jibun": "1-9", "price": 11800}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-02-24", "dong": "신흥동3가", "floor": 5, "jibun": "53-4", "price": 19500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-02-24", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 13500}
+{"apt": "라이프비취2차", "area": 55.97, "built": 1981, "date": "2021-02-24", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 9500}
+{"apt": "라이프비취1차", "area": 84.66, "built": 1980, "date": "2021-02-25", "dong": "항동7가", "floor": 4, "jibun": "27-107", "price": 15000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-02-25", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 24000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-02-25", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 24000}
+{"apt": "만석3", "area": 42.19, "built": 1991, "date": "2021-02-26", "dong": "만석동", "floor": 4, "jibun": "43-79", "price": 6800}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-02-26", "dong": "신흥동3가", "floor": 1, "jibun": "53-4", "price": 19500}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-02-26", "dong": "신흥동3가", "floor": 2, "jibun": "53-4", "price": 19500}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-02-26", "dong": "신흥동3가", "floor": 3, "jibun": "53-4", "price": 19800}
+{"apt": "송현주공", "area": 59.97, "built": 1993, "date": "2021-02-27", "dong": "송현동", "floor": 5, "jibun": "6-26", "price": 15000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-02-27", "dong": "송현동", "floor": 2, "jibun": "66-26", "price": 12100}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2021-02-27", "dong": "신흥동1가", "floor": 20, "jibun": "34-8", "price": 17600}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-02-27", "dong": "항동7가", "floor": 12, "jibun": "27-107", "price": 14500}
+{"apt": "동일", "area": 51.48, "built": 1987, "date": "2021-03-01", "dong": "북성동1가", "floor": 4, "jibun": "4-246", "price": 13000}
+{"apt": "송현주공", "area": 84.81, "built": 1993, "date": "2021-03-01", "dong": "송현동", "floor": 3, "jibun": "6-26", "price": 19000}
+{"apt": "누리타워", "area": 59.16, "built": 1994, "date": "2021-03-01", "dong": "신흥동2가", "floor": 14, "jibun": "50-10", "price": 12000}
+{"apt": "송현주공", "area": 58.65, "built": 1993, "date": "2021-03-02", "dong": "송현동", "floor": 15, "jibun": "6-26", "price": 14400}
+{"apt": "삼두1차", "area": 54.72, "built": 1984, "date": "2021-03-02", "dong": "송현동", "floor": 4, "jibun": "66-51", "price": 10800}
+{"apt": "누리타워", "area": 84.69, "built": 1994, "date": "2021-03-02", "dong": "신흥동2가", "floor": 20, "jibun": "50-10", "price": 15500}
+{"apt": "선광", "area": 60.0, "built": 1996, "date": "2021-03-03", "dong": "북성동2가", "floor": 3, "jibun": "5-1", "price": 13500}
+{"apt": "삼부", "area": 62.41, "built": 1985, "date": "2021-03-03", "dong": "송현동", "floor": 2, "jibun": "12-4", "price": 21300}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2021-03-03", "dong": "신흥동2가", "floor": 12, "jibun": "54-5", "price": 15000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-03-03", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 15200}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-03-03", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 8800}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-03-04", "dong": "송현동", "floor": 2, "jibun": "66-26", "price": 17700}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2021-03-04", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 19300}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-03-05", "dong": "송현동", "floor": 3, "jibun": "1", "price": 8850}
+{"apt": "송현주공", "area": 74.16, "built": 1993, "date": "2021-03-05", "dong": "송현동", "floor": 8, "jibun": "6-26", "price": 16500}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2021-03-05", "dong": "송현동", "floor": 3, "jibun": "66-24", "price": 14100}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-03-05", "dong": "송현동", "floor": 10, "jibun": "66-26", "price": 20900}
+{"apt": "라이프비취2차", "area": 55.97, "built": 1981, "date": "2021-03-05", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 10000}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-03-06", "dong": "송현동", "floor": 2, "jibun": "66-26", "price": 10300}
+{"apt": "라이프비취2차", "area": 51.04, "built": 1981, "date": "2021-03-06", "dong": "항동7가", "floor": 4, "jibun": "27-107", "price": 13500}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2021-03-08", "dong": "송림동", "floor": 9, "jibun": "228-1", "price": 13700}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-03-08", "dong": "송현동", "floor": 9, "jibun": "66-26", "price": 16000}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2021-03-08", "dong": "신흥동1가", "floor": 2, "jibun": "34-8", "price": 16700}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-03-09", "dong": "송현동", "floor": 12, "jibun": "66-26", "price": 19200}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-03-09", "dong": "신흥동3가", "floor": 1, "jibun": "53-4", "price": 19700}
+{"apt": "라이프비취1차", "area": 100.23, "built": 1980, "date": "2021-03-09", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 20000}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2021-03-10", "dong": "북성동1가", "floor": 5, "jibun": "4-246", "price": 11000}
+{"apt": "라이프비취1차", "area": 100.23, "built": 1980, "date": "2021-03-10", "dong": "항동7가", "floor": 6, "jibun": "27-107", "price": 19500}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2021-03-11", "dong": "송현동", "floor": 1, "jibun": "6-26", "price": 8800}
+{"apt": "송현주공", "area": 67.43, "built": 1993, "date": "2021-03-11", "dong": "송현동", "floor": 8, "jibun": "6-26", "price": 16500}
+{"apt": "송현주공", "area": 74.91, "built": 1993, "date": "2021-03-11", "dong": "송현동", "floor": 12, "jibun": "6-26", "price": 15700}
+{"apt": "항운", "area": 53.57, "built": 1982, "date": "2021-03-11", "dong": "신흥동3가", "floor": 2, "jibun": "53-4", "price": 24000}
+{"apt": "송월", "area": 56.1, "built": 1980, "date": "2021-03-12", "dong": "송월동1가", "floor": 3, "jibun": "10-1", "price": 12000}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2021-03-12", "dong": "신흥동2가", "floor": 2, "jibun": "54-5", "price": 13700}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-03-12", "dong": "신흥동3가", "floor": 3, "jibun": "53-4", "price": 20000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-03-12", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 23500}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-03-13", "dong": "송현동", "floor": 6, "jibun": "66-26", "price": 15600}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-03-13", "dong": "송현동", "floor": 14, "jibun": "66-26", "price": 14500}
+{"apt": "삼두1차", "area": 66.69, "built": 1984, "date": "2021-03-13", "dong": "송현동", "floor": 8, "jibun": "66-51", "price": 15000}
+{"apt": "라이프비취2차", "area": 71.17, "built": 1981, "date": "2021-03-13", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 19300}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-03-13", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 23700}
+{"apt": "송현주공", "area": 67.43, "built": 1993, "date": "2021-03-14", "dong": "송현동", "floor": 13, "jibun": "6-26", "price": 17500}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-03-15", "dong": "송현동", "floor": 4, "jibun": "66-26", "price": 12000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-03-15", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 9600}
+{"apt": "라이프비취2차", "area": 71.17, "built": 1981, "date": "2021-03-15", "dong": "항동7가", "floor": 6, "jibun": "27-107", "price": 15500}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2021-03-16", "dong": "송현동", "floor": 1, "jibun": "66-24", "price": 12500}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2021-03-16", "dong": "신흥동2가", "floor": 13, "jibun": "54-5", "price": 15000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-03-16", "dong": "신흥동3가", "floor": 5, "jibun": "53-4", "price": 20000}
+{"apt": "만석2차", "area": 41.46, "built": 1987, "date": "2021-03-17", "dong": "만석동", "floor": 3, "jibun": "71", "price": 7000}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2021-03-17", "dong": "신흥동1가", "floor": 17, "jibun": "34-8", "price": 17800}
+{"apt": "누리타워", "area": 59.16, "built": 1994, "date": "2021-03-17", "dong": "신흥동2가", "floor": 7, "jibun": "50-10", "price": 11800}
+{"apt": "뉴코아", "area": 51.01, "built": 1992, "date": "2021-03-17", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 10000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-03-17", "dong": "항동7가", "floor": 6, "jibun": "27-107", "price": 7000}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2021-03-18", "dong": "북성동1가", "floor": 1, "jibun": "4-246", "price": 11500}
+{"apt": "라이프비취3차", "area": 84.85, "built": 1990, "date": "2021-03-18", "dong": "항동7가", "floor": 10, "jibun": "27-107", "price": 22000}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-03-19", "dong": "송현동", "floor": 8, "jibun": "66-26", "price": 10450}
+{"apt": "항운", "area": 53.57, "built": 1982, "date": "2021-03-19", "dong": "신흥동3가", "floor": 3, "jibun": "53-4", "price": 23900}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-03-19", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 24000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-03-19", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 24000}
+{"apt": "미륭", "area": 35.52, "built": 1990, "date": "2021-03-19", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 7200}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-03-20", "dong": "송현동", "floor": 2, "jibun": "1", "price": 9300}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-03-20", "dong": "송현동", "floor": 10, "jibun": "6-26", "price": 10500}
+{"apt": "송현주공", "area": 59.97, "built": 1993, "date": "2021-03-20", "dong": "송현동", "floor": 12, "jibun": "6-26", "price": 16500}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-03-20", "dong": "송현동", "floor": 9, "jibun": "66-26", "price": 11800}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-03-20", "dong": "송현동", "floor": 13, "jibun": "66-26", "price": 17500}
+{"apt": "동부", "area": 84.75, "built": 1990, "date": "2021-03-20", "dong": "송현동", "floor": 11, "jibun": "66-26", "price": 23500}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-03-20", "dong": "신흥동1가", "floor": 18, "jibun": "34-8", "price": 21000}
+{"apt": "라이프비취1차", "area": 100.23, "built": 1980, "date": "2021-03-20", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 20500}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-03-20", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 9000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-03-20", "dong": "항동7가", "floor": 4, "jibun": "27-107", "price": 8900}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-03-20", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 24000}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2021-03-21", "dong": "북성동1가", "floor": 4, "jibun": "4-246", "price": 10400}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2021-03-21", "dong": "송현동", "floor": 2, "jibun": "12-4", "price": 21300}
+{"apt": "항운", "area": 53.57, "built": 1982, "date": "2021-03-21", "dong": "신흥동3가", "floor": 5, "jibun": "53-4", "price": 23000}
+{"apt": "라이프비취1차", "area": 88.07, "built": 1980, "date": "2021-03-21", "dong": "항동7가", "floor": 10, "jibun": "27-107", "price": 14900}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-03-21", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 24000}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2021-03-22", "dong": "만석동", "floor": 5, "jibun": "43-15", "price": 6400}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-03-22", "dong": "송현동", "floor": 6, "jibun": "66-26", "price": 10500}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-03-22", "dong": "송현동", "floor": 11, "jibun": "66-26", "price": 20600}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-03-22", "dong": "항동7가", "floor": 4, "jibun": "27-107", "price": 22000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-03-23", "dong": "항동7가", "floor": 4, "jibun": "91-2", "price": 24000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-03-23", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 9500}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2021-03-24", "dong": "북성동1가", "floor": 5, "jibun": "4-246", "price": 11100}
+{"apt": "송월", "area": 42.41, "built": 1980, "date": "2021-03-24", "dong": "송월동1가", "floor": 4, "jibun": "10-1", "price": 13500}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-03-24", "dong": "송현동", "floor": 10, "jibun": "66-26", "price": 14500}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-03-24", "dong": "신흥동3가", "floor": 4, "jibun": "53-4", "price": 20000}
+{"apt": "라이프비취1차", "area": 84.66, "built": 1980, "date": "2021-03-24", "dong": "항동7가", "floor": 9, "jibun": "27-107", "price": 17000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-03-24", "dong": "항동7가", "floor": 6, "jibun": "27-107", "price": 9800}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-03-24", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 23000}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-03-25", "dong": "송현동", "floor": 2, "jibun": "1-9", "price": 11500}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-03-25", "dong": "송현동", "floor": 11, "jibun": "66-26", "price": 10000}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-03-25", "dong": "송현동", "floor": 11, "jibun": "66-26", "price": 17600}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-03-25", "dong": "신흥동1가", "floor": 3, "jibun": "34-8", "price": 20000}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2021-03-26", "dong": "송림동", "floor": 10, "jibun": "228-1", "price": 16000}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2021-03-26", "dong": "송현동", "floor": 2, "jibun": "12-4", "price": 19800}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-03-26", "dong": "송현동", "floor": 13, "jibun": "66-26", "price": 10700}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-03-26", "dong": "송현동", "floor": 14, "jibun": "66-26", "price": 18600}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-03-27", "dong": "송현동", "floor": 2, "jibun": "6-26", "price": 10800}
+{"apt": "삼두1차", "area": 54.72, "built": 1984, "date": "2021-03-27", "dong": "송현동", "floor": 4, "jibun": "66-51", "price": 11000}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-03-27", "dong": "신흥동1가", "floor": 21, "jibun": "34-8", "price": 21900}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2021-03-28", "dong": "만석동", "floor": 2, "jibun": "43-15", "price": 7600}
+{"apt": "항운", "area": 53.57, "built": 1982, "date": "2021-03-28", "dong": "신흥동3가", "floor": 4, "jibun": "53-4", "price": 23700}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-03-28", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 24000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-03-28", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 24000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-03-28", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 24000}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2021-03-28", "dong": "화수동", "floor": 2, "jibun": "2-7", "price": 12600}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-03-29", "dong": "송현동", "floor": 13, "jibun": "66-26", "price": 12000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-03-29", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 10000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-03-29", "dong": "항동7가", "floor": 4, "jibun": "91-2", "price": 24000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-03-30", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 24000}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2021-03-31", "dong": "송림동", "floor": 12, "jibun": "228-1", "price": 14000}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2021-03-31", "dong": "송현동", "floor": 6, "jibun": "6-26", "price": 7000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-03-31", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 9500}
+{"apt": "라이프비취2차", "area": 81.26, "built": 1981, "date": "2021-03-31", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 21000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-03-31", "dong": "항동7가", "floor": 6, "jibun": "27-107", "price": 22000}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-04-01", "dong": "송현동", "floor": 2, "jibun": "6-26", "price": 10350}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-04-01", "dong": "송현동", "floor": 8, "jibun": "66-26", "price": 18800}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-04-01", "dong": "송현동", "floor": 4, "jibun": "66-26", "price": 21500}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-04-01", "dong": "신흥동1가", "floor": 4, "jibun": "34-8", "price": 22000}
+{"apt": "삼익", "area": 80.3, "built": 1979, "date": "2021-04-01", "dong": "신흥동2가", "floor": 5, "jibun": "54-5", "price": 15500}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-04-01", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 24000}
+{"apt": "뉴월드", "area": 59.95, "built": 1994, "date": "2021-04-02", "dong": "도원동", "floor": 8, "jibun": "41-25", "price": 13700}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-04-02", "dong": "송현동", "floor": 1, "jibun": "66-26", "price": 19300}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-04-02", "dong": "신흥동3가", "floor": 3, "jibun": "53-4", "price": 19000}
+{"apt": "항운", "area": 53.57, "built": 1982, "date": "2021-04-02", "dong": "신흥동3가", "floor": 1, "jibun": "53-4", "price": 24000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-04-02", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 20000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-04-02", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 27000}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-04-03", "dong": "송현동", "floor": 1, "jibun": "1", "price": 9000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-04-04", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 22500}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2021-04-04", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 11400}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2021-04-05", "dong": "북성동1가", "floor": 5, "jibun": "4-246", "price": 10700}
+{"apt": "라이프비취1차", "area": 84.66, "built": 1980, "date": "2021-04-05", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 19000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-04-05", "dong": "항동7가", "floor": 4, "jibun": "91-2", "price": 24000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-04-06", "dong": "신흥동3가", "floor": 2, "jibun": "53-4", "price": 20000}
+{"apt": "라이프비취2차", "area": 81.26, "built": 1981, "date": "2021-04-06", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 17500}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2021-04-06", "dong": "화수동", "floor": 2, "jibun": "2-7", "price": 13000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-04-07", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 24000}
+{"apt": "동부", "area": 84.75, "built": 1990, "date": "2021-04-08", "dong": "송현동", "floor": 15, "jibun": "66-26", "price": 22500}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-04-08", "dong": "신흥동1가", "floor": 13, "jibun": "34-8", "price": 21500}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-04-09", "dong": "송현동", "floor": 8, "jibun": "66-24", "price": 11000}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-04-09", "dong": "송현동", "floor": 3, "jibun": "66-26", "price": 10400}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2021-04-09", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 28500}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-04-09", "dong": "항동7가", "floor": 4, "jibun": "91-2", "price": 24500}
+{"apt": "동일", "area": 48.96, "built": 1987, "date": "2021-04-10", "dong": "북성동1가", "floor": 4, "jibun": "4-246", "price": 14500}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2021-04-10", "dong": "송림동", "floor": 10, "jibun": "228-1", "price": 15800}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-04-10", "dong": "송현동", "floor": 2, "jibun": "66-26", "price": 17500}
+{"apt": "누리타워", "area": 84.69, "built": 1994, "date": "2021-04-10", "dong": "신흥동2가", "floor": 25, "jibun": "50-10", "price": 16000}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2021-04-10", "dong": "신흥동2가", "floor": 2, "jibun": "54-5", "price": 10200}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2021-04-10", "dong": "신흥동2가", "floor": 14, "jibun": "54-5", "price": 9800}
+{"apt": "삼익", "area": 80.3, "built": 1979, "date": "2021-04-10", "dong": "신흥동2가", "floor": 12, "jibun": "54-5", "price": 15000}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2021-04-11", "dong": "송현동", "floor": 6, "jibun": "6-26", "price": 9000}
+{"apt": "송현주공", "area": 67.43, "built": 1993, "date": "2021-04-11", "dong": "송현동", "floor": 1, "jibun": "6-26", "price": 16300}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-04-12", "dong": "신흥동1가", "floor": 2, "jibun": "34-8", "price": 21300}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2021-04-12", "dong": "신흥동2가", "floor": 13, "jibun": "54-5", "price": 9700}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-04-12", "dong": "항동7가", "floor": 10, "jibun": "27-107", "price": 15000}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-04-13", "dong": "송현동", "floor": 3, "jibun": "1-9", "price": 10800}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-04-13", "dong": "송현동", "floor": 1, "jibun": "66-26", "price": 17900}
+{"apt": "삼익", "area": 108.0, "built": 1979, "date": "2021-04-13", "dong": "신흥동2가", "floor": 3, "jibun": "54-5", "price": 15000}
+{"apt": "항운", "area": 53.57, "built": 1982, "date": "2021-04-13", "dong": "신흥동3가", "floor": 4, "jibun": "53-4", "price": 24000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-04-13", "dong": "항동7가", "floor": 9, "jibun": "27-107", "price": 15500}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-04-13", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 9300}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-04-13", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 24200}
+{"apt": "송현주공", "area": 74.16, "built": 1993, "date": "2021-04-14", "dong": "송현동", "floor": 15, "jibun": "6-26", "price": 17000}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2021-04-15", "dong": "송림동", "floor": 10, "jibun": "228-1", "price": 15200}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-04-15", "dong": "송현동", "floor": 2, "jibun": "1", "price": 9450}
+{"apt": "송현1차", "area": 43.34, "built": 1982, "date": "2021-04-15", "dong": "송현동", "floor": 2, "jibun": "1", "price": 12500}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2021-04-15", "dong": "송현동", "floor": 4, "jibun": "66-24", "price": 14000}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-04-15", "dong": "송현동", "floor": 7, "jibun": "66-26", "price": 16000}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-04-15", "dong": "송현동", "floor": 14, "jibun": "66-26", "price": 21800}
+{"apt": "라이프비취2차", "area": 71.17, "built": 1981, "date": "2021-04-15", "dong": "항동7가", "floor": 9, "jibun": "27-107", "price": 17900}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2021-04-16", "dong": "북성동1가", "floor": 4, "jibun": "4-246", "price": 9800}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2021-04-16", "dong": "송현동", "floor": 4, "jibun": "66-24", "price": 14500}
+{"apt": "라이프비취3차", "area": 163.51, "built": 1990, "date": "2021-04-16", "dong": "항동7가", "floor": 10, "jibun": "27-107", "price": 40000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-04-16", "dong": "항동7가", "floor": 4, "jibun": "91-2", "price": 23000}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-04-17", "dong": "신흥동1가", "floor": 12, "jibun": "34-8", "price": 20000}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2021-04-17", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 10000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-04-18", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 24000}
+{"apt": "누리", "area": 59.35, "built": 1994, "date": "2021-04-19", "dong": "송현동", "floor": 6, "jibun": "23-31", "price": 13900}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-04-19", "dong": "송현동", "floor": 14, "jibun": "66-26", "price": 15950}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-04-19", "dong": "송현동", "floor": 10, "jibun": "66-26", "price": 22000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-04-19", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 15300}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-04-20", "dong": "신흥동3가", "floor": 1, "jibun": "53-4", "price": 21000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-04-20", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 15700}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-04-21", "dong": "송현동", "floor": 6, "jibun": "66-26", "price": 18700}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2021-04-22", "dong": "송현동", "floor": 6, "jibun": "66-24", "price": 14600}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-04-22", "dong": "송현동", "floor": 2, "jibun": "66-26", "price": 19000}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2021-04-22", "dong": "신흥동2가", "floor": 10, "jibun": "54-5", "price": 10500}
+{"apt": "뉴월드", "area": 59.95, "built": 1994, "date": "2021-04-23", "dong": "도원동", "floor": 1, "jibun": "41-25", "price": 12750}
+{"apt": "미륭", "area": 35.52, "built": 1990, "date": "2021-04-23", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 6800}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2021-04-23", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 12000}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2021-04-24", "dong": "송현동", "floor": 12, "jibun": "66-24", "price": 7600}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-04-24", "dong": "송현동", "floor": 2, "jibun": "66-26", "price": 10100}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2021-04-24", "dong": "신흥동1가", "floor": 18, "jibun": "34-8", "price": 18000}
+{"apt": "누리타워", "area": 84.69, "built": 1994, "date": "2021-04-25", "dong": "신흥동2가", "floor": 17, "jibun": "50-10", "price": 16000}
+{"apt": "미륭", "area": 35.52, "built": 1990, "date": "2021-04-25", "dong": "화수동", "floor": 4, "jibun": "2-7", "price": 7500}
+{"apt": "라이프비취2차", "area": 55.97, "built": 1981, "date": "2021-04-26", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 10500}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2021-04-27", "dong": "신흥동1가", "floor": 6, "jibun": "34-8", "price": 17000}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2021-04-28", "dong": "송림동", "floor": 6, "jibun": "228-1", "price": 14500}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-04-29", "dong": "신흥동3가", "floor": 1, "jibun": "53-4", "price": 23000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-04-29", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 26500}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-04-30", "dong": "송현동", "floor": 5, "jibun": "66-26", "price": 16000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-05-01", "dong": "신흥동3가", "floor": 3, "jibun": "53-4", "price": 23500}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-05-02", "dong": "신흥동3가", "floor": 5, "jibun": "53-4", "price": 23000}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-05-03", "dong": "송현동", "floor": 14, "jibun": "66-26", "price": 14000}
+{"apt": "삼두1차", "area": 42.93, "built": 1984, "date": "2021-05-03", "dong": "송현동", "floor": 3, "jibun": "66-51", "price": 8700}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2021-05-03", "dong": "신흥동1가", "floor": 4, "jibun": "34-8", "price": 18500}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-05-03", "dong": "신흥동1가", "floor": 8, "jibun": "34-8", "price": 23000}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2021-05-04", "dong": "송림동", "floor": 6, "jibun": "8-661", "price": 9900}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2021-05-04", "dong": "송현동", "floor": 12, "jibun": "6-26", "price": 9000}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2021-05-04", "dong": "송현동", "floor": 5, "jibun": "66-24", "price": 15000}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-05-04", "dong": "신흥동1가", "floor": 1, "jibun": "34-8", "price": 21000}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2021-05-05", "dong": "송현동", "floor": 12, "jibun": "6-26", "price": 9000}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-05-05", "dong": "송현동", "floor": 1, "jibun": "6-26", "price": 9500}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-05-05", "dong": "송현동", "floor": 10, "jibun": "66-24", "price": 10400}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-05-05", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 22500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-05-06", "dong": "인현동", "floor": 7, "jibun": "3-2", "price": 12500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-05-06", "dong": "인현동", "floor": 7, "jibun": "3-2", "price": 12500}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-05-07", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 8700}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-05-08", "dong": "송현동", "floor": 1, "jibun": "1", "price": 9000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-05-08", "dong": "신흥동3가", "floor": 3, "jibun": "53-4", "price": 23000}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-05-10", "dong": "송현동", "floor": 1, "jibun": "1", "price": 7000}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-05-10", "dong": "송현동", "floor": 4, "jibun": "1", "price": 9000}
+{"apt": "동부", "area": 84.75, "built": 1990, "date": "2021-05-10", "dong": "송현동", "floor": 3, "jibun": "66-26", "price": 25500}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-05-10", "dong": "항동7가", "floor": 12, "jibun": "27-107", "price": 10000}
+{"apt": "송현주공", "area": 36.0, "built": 1993, "date": "2021-05-11", "dong": "송현동", "floor": 1, "jibun": "6-26", "price": 9800}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-05-11", "dong": "송현동", "floor": 12, "jibun": "6-26", "price": 11800}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-05-12", "dong": "송현동", "floor": 3, "jibun": "1", "price": 9000}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-05-12", "dong": "신흥동1가", "floor": 20, "jibun": "34-8", "price": 23000}
+{"apt": "누리타워", "area": 84.69, "built": 1994, "date": "2021-05-12", "dong": "신흥동2가", "floor": 9, "jibun": "50-10", "price": 17300}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-05-12", "dong": "신흥동3가", "floor": 2, "jibun": "53-4", "price": 20000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-05-12", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 9000}
+{"apt": "송월", "area": 56.1, "built": 1980, "date": "2021-05-13", "dong": "송월동1가", "floor": 5, "jibun": "10-1", "price": 14000}
+{"apt": "송현주공", "area": 58.65, "built": 1993, "date": "2021-05-14", "dong": "송현동", "floor": 2, "jibun": "6-26", "price": 14000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-05-14", "dong": "송현동", "floor": 7, "jibun": "66-26", "price": 11500}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-05-14", "dong": "항동7가", "floor": 4, "jibun": "27-107", "price": 10300}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2021-05-15", "dong": "만석동", "floor": 3, "jibun": "43-15", "price": 7800}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2021-05-15", "dong": "송림동", "floor": 6, "jibun": "8-661", "price": 10000}
+{"apt": "삼두1차", "area": 66.69, "built": 1984, "date": "2021-05-15", "dong": "송현동", "floor": 8, "jibun": "66-51", "price": 14900}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-05-16", "dong": "송현동", "floor": 9, "jibun": "66-26", "price": 11500}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-05-16", "dong": "송현동", "floor": 12, "jibun": "66-26", "price": 15800}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-05-16", "dong": "인현동", "floor": 6, "jibun": "3-2", "price": 12700}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-05-16", "dong": "인현동", "floor": 6, "jibun": "3-2", "price": 12700}
+{"apt": "선광", "area": 60.0, "built": 1996, "date": "2021-05-17", "dong": "북성동2가", "floor": 4, "jibun": "5-1", "price": 13500}
+{"apt": "만석3", "area": 42.19, "built": 1991, "date": "2021-05-18", "dong": "만석동", "floor": 1, "jibun": "43-79", "price": 6350}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-05-18", "dong": "송현동", "floor": 12, "jibun": "66-26", "price": 18000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-05-18", "dong": "항동7가", "floor": 9, "jibun": "27-107", "price": 9300}
+{"apt": "라이프비취3차", "area": 84.85, "built": 1990, "date": "2021-05-18", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 20000}
+{"apt": "삼두1차", "area": 66.69, "built": 1984, "date": "2021-05-19", "dong": "송현동", "floor": 5, "jibun": "66-51", "price": 13200}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2021-05-20", "dong": "만석동", "floor": 5, "jibun": "43-15", "price": 5800}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-05-20", "dong": "송현동", "floor": 7, "jibun": "66-26", "price": 20000}
+{"apt": "누리타워", "area": 59.16, "built": 1994, "date": "2021-05-20", "dong": "신흥동2가", "floor": 20, "jibun": "50-10", "price": 12900}
+{"apt": "라이프비취2차", "area": 128.58, "built": 1981, "date": "2021-05-21", "dong": "항동7가", "floor": 6, "jibun": "27-107", "price": 30700}
+{"apt": "만석2차", "area": 41.46, "built": 1987, "date": "2021-05-22", "dong": "만석동", "floor": 4, "jibun": "71", "price": 6500}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-05-22", "dong": "송현동", "floor": 4, "jibun": "1-9", "price": 12950}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-05-22", "dong": "송현동", "floor": 10, "jibun": "66-26", "price": 19000}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-05-22", "dong": "송현동", "floor": 1, "jibun": "66-26", "price": 21000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-05-22", "dong": "신흥동3가", "floor": 2, "jibun": "53-4", "price": 24450}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-05-24", "dong": "송현동", "floor": 4, "jibun": "1", "price": 9000}
+{"apt": "삼두1차", "area": 66.69, "built": 1984, "date": "2021-05-24", "dong": "송현동", "floor": 1, "jibun": "66-51", "price": 13800}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-05-24", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 24000}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2021-05-24", "dong": "화수동", "floor": 4, "jibun": "2-7", "price": 12650}
+{"apt": "삼두1차", "area": 66.69, "built": 1984, "date": "2021-05-25", "dong": "송현동", "floor": 5, "jibun": "66-51", "price": 14400}
+{"apt": "라이프비취2차", "area": 68.76, "built": 1981, "date": "2021-05-25", "dong": "항동7가", "floor": 14, "jibun": "27-107", "price": 12500}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-05-26", "dong": "송현동", "floor": 2, "jibun": "1", "price": 9200}
+{"apt": "라이프비취1차", "area": 88.07, "built": 1980, "date": "2021-05-26", "dong": "항동7가", "floor": 8, "jibun": "27-107", "price": 15000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-05-26", "dong": "항동7가", "floor": 4, "jibun": "27-107", "price": 20700}
+{"apt": "송현1차", "area": 43.34, "built": 1982, "date": "2021-05-27", "dong": "송현동", "floor": 5, "jibun": "1", "price": 11500}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-05-27", "dong": "송현동", "floor": 1, "jibun": "66-26", "price": 8700}
+{"apt": "삼두1차", "area": 54.72, "built": 1984, "date": "2021-05-27", "dong": "송현동", "floor": 1, "jibun": "66-51", "price": 11000}
+{"apt": "삼익", "area": 81.58, "built": 1979, "date": "2021-05-27", "dong": "신흥동2가", "floor": 1, "jibun": "54-5", "price": 14000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-05-27", "dong": "인현동", "floor": 7, "jibun": "3-2", "price": 12900}
+{"apt": "선광", "area": 60.0, "built": 1996, "date": "2021-05-28", "dong": "북성동2가", "floor": 10, "jibun": "5-1", "price": 13000}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2021-05-28", "dong": "송현동", "floor": 3, "jibun": "12-4", "price": 21900}
+{"apt": "삼익", "area": 107.31, "built": 1979, "date": "2021-05-28", "dong": "신흥동2가", "floor": 12, "jibun": "54-5", "price": 20000}
+{"apt": "삼익", "area": 107.31, "built": 1979, "date": "2021-05-28", "dong": "신흥동2가", "floor": 12, "jibun": "54-5", "price": 20000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-05-28", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 16000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-05-28", "dong": "항동7가", "floor": 8, "jibun": "27-107", "price": 13300}
+{"apt": "라이프비취1차", "area": 100.56, "built": 1980, "date": "2021-05-28", "dong": "항동7가", "floor": 4, "jibun": "27-107", "price": 16000}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-05-29", "dong": "송현동", "floor": 3, "jibun": "1", "price": 8300}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-05-29", "dong": "송현동", "floor": 4, "jibun": "6-26", "price": 10500}
+{"apt": "삼두1차", "area": 54.72, "built": 1984, "date": "2021-05-29", "dong": "송현동", "floor": 12, "jibun": "66-51", "price": 11000}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2021-05-31", "dong": "송림동", "floor": 12, "jibun": "228-1", "price": 12000}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-06-01", "dong": "송현동", "floor": 5, "jibun": "1", "price": 8000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-06-01", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 7900}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-06-02", "dong": "송현동", "floor": 2, "jibun": "1-9", "price": 12800}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-06-02", "dong": "송현동", "floor": 6, "jibun": "66-24", "price": 10450}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2021-06-02", "dong": "신흥동1가", "floor": 7, "jibun": "34-8", "price": 18500}
+{"apt": "라이프비취1차", "area": 90.84, "built": 1980, "date": "2021-06-02", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 18200}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-06-04", "dong": "송현동", "floor": 3, "jibun": "1", "price": 8900}
+{"apt": "누리", "area": 59.35, "built": 1994, "date": "2021-06-04", "dong": "송현동", "floor": 18, "jibun": "23-31", "price": 15000}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2021-06-04", "dong": "송현동", "floor": 7, "jibun": "66-24", "price": 15000}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-06-04", "dong": "송현동", "floor": 8, "jibun": "66-26", "price": 16300}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-06-04", "dong": "송현동", "floor": 12, "jibun": "66-26", "price": 15300}
+{"apt": "뉴코아", "area": 51.01, "built": 1992, "date": "2021-06-04", "dong": "인현동", "floor": 6, "jibun": "3-2", "price": 10200}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-06-04", "dong": "항동7가", "floor": 12, "jibun": "27-107", "price": 15000}
+{"apt": "송현1차", "area": 43.34, "built": 1982, "date": "2021-06-05", "dong": "송현동", "floor": 2, "jibun": "1", "price": 13000}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-06-05", "dong": "송현동", "floor": 1, "jibun": "1-9", "price": 9500}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-06-05", "dong": "송현동", "floor": 4, "jibun": "1-9", "price": 7300}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2021-06-05", "dong": "송현동", "floor": 12, "jibun": "66-24", "price": 7700}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-06-05", "dong": "송현동", "floor": 13, "jibun": "66-26", "price": 14700}
+{"apt": "동부", "area": 84.75, "built": 1990, "date": "2021-06-05", "dong": "송현동", "floor": 4, "jibun": "66-26", "price": 26300}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-06-06", "dong": "송현동", "floor": 8, "jibun": "66-26", "price": 20800}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-06-07", "dong": "송현동", "floor": 12, "jibun": "66-24", "price": 10400}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-06-07", "dong": "신흥동1가", "floor": 3, "jibun": "34-8", "price": 21500}
+{"apt": "누리타워", "area": 84.69, "built": 1994, "date": "2021-06-07", "dong": "신흥동2가", "floor": 25, "jibun": "50-10", "price": 15400}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2021-06-08", "dong": "송현동", "floor": 12, "jibun": "6-26", "price": 6300}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-06-08", "dong": "송현동", "floor": 14, "jibun": "6-26", "price": 11500}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-06-09", "dong": "송현동", "floor": 11, "jibun": "66-26", "price": 15500}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-06-09", "dong": "송현동", "floor": 11, "jibun": "66-26", "price": 15500}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-06-09", "dong": "항동7가", "floor": 11, "jibun": "27-107", "price": 10300}
+{"apt": "뉴월드", "area": 40.72, "built": 1994, "date": "2021-06-10", "dong": "도원동", "floor": 10, "jibun": "41-25", "price": 8400}
+{"apt": "만석2차", "area": 41.46, "built": 1987, "date": "2021-06-10", "dong": "만석동", "floor": 5, "jibun": "71", "price": 5500}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2021-06-10", "dong": "송림동", "floor": 10, "jibun": "8-661", "price": 9800}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-06-10", "dong": "송현동", "floor": 4, "jibun": "1", "price": 6300}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-06-10", "dong": "송현동", "floor": 3, "jibun": "66-26", "price": 15500}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-06-10", "dong": "항동7가", "floor": 11, "jibun": "27-107", "price": 15500}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-06-11", "dong": "송현동", "floor": 12, "jibun": "66-26", "price": 11300}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-06-11", "dong": "송현동", "floor": 9, "jibun": "66-26", "price": 11800}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-06-11", "dong": "신흥동1가", "floor": 15, "jibun": "34-8", "price": 21500}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-06-11", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 10700}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-06-11", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 25800}
+{"apt": "만석2차", "area": 41.46, "built": 1987, "date": "2021-06-12", "dong": "만석동", "floor": 2, "jibun": "71", "price": 7200}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-06-13", "dong": "화수동", "floor": 2, "jibun": "2-7", "price": 9300}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-06-14", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 18000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-06-14", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 24000}
+{"apt": "삼부", "area": 62.41, "built": 1985, "date": "2021-06-15", "dong": "송현동", "floor": 2, "jibun": "12-4", "price": 21900}
+{"apt": "송현주공", "area": 67.43, "built": 1993, "date": "2021-06-15", "dong": "송현동", "floor": 15, "jibun": "6-26", "price": 18500}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-06-15", "dong": "송현동", "floor": 15, "jibun": "66-26", "price": 15300}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-06-15", "dong": "송현동", "floor": 10, "jibun": "66-26", "price": 20750}
+{"apt": "누리타워", "area": 59.16, "built": 1994, "date": "2021-06-15", "dong": "신흥동2가", "floor": 15, "jibun": "50-10", "price": 13000}
+{"apt": "삼익", "area": 81.58, "built": 1979, "date": "2021-06-15", "dong": "신흥동2가", "floor": 1, "jibun": "54-5", "price": 14800}
+{"apt": "만석3", "area": 42.19, "built": 1991, "date": "2021-06-16", "dong": "만석동", "floor": 3, "jibun": "43-79", "price": 6800}
+{"apt": "삼익", "area": 107.31, "built": 1979, "date": "2021-06-16", "dong": "신흥동2가", "floor": 9, "jibun": "54-5", "price": 19700}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-06-16", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 15000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-06-16", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 15000}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2021-06-16", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 12000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-06-17", "dong": "송현동", "floor": 7, "jibun": "66-26", "price": 12000}
+{"apt": "동부", "area": 84.75, "built": 1990, "date": "2021-06-17", "dong": "송현동", "floor": 9, "jibun": "66-26", "price": 25000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-06-17", "dong": "화수동", "floor": 4, "jibun": "2-7", "price": 9000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-06-18", "dong": "송현동", "floor": 2, "jibun": "66-26", "price": 11500}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2021-06-18", "dong": "신흥동2가", "floor": 9, "jibun": "54-5", "price": 10500}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-06-18", "dong": "신흥동3가", "floor": 3, "jibun": "53-4", "price": 20500}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2021-06-19", "dong": "송림동", "floor": 7, "jibun": "8-661", "price": 10250}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-06-19", "dong": "송현동", "floor": 10, "jibun": "66-24", "price": 11000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-06-19", "dong": "송현동", "floor": 4, "jibun": "66-26", "price": 12500}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-06-19", "dong": "송현동", "floor": 5, "jibun": "66-26", "price": 16000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-06-19", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 26000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-06-19", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 10800}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2021-06-21", "dong": "송림동", "floor": 3, "jibun": "8-661", "price": 10500}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-06-21", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 10200}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-06-22", "dong": "송현동", "floor": 2, "jibun": "66-26", "price": 11800}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-06-22", "dong": "항동7가", "floor": 11, "jibun": "27-107", "price": 11200}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-06-23", "dong": "송현동", "floor": 7, "jibun": "66-24", "price": 10000}
+{"apt": "삼두1차", "area": 66.69, "built": 1984, "date": "2021-06-23", "dong": "송현동", "floor": 4, "jibun": "66-51", "price": 16000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-06-23", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 11900}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-06-23", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 27500}
+{"apt": "누리타워", "area": 59.16, "built": 1994, "date": "2021-06-24", "dong": "신흥동2가", "floor": 19, "jibun": "50-10", "price": 13000}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2021-06-24", "dong": "신흥동2가", "floor": 11, "jibun": "54-5", "price": 14900}
+{"apt": "라이프비취2차", "area": 71.17, "built": 1981, "date": "2021-06-24", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 17700}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-06-24", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 7800}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-06-24", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 8900}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2021-06-25", "dong": "송현동", "floor": 12, "jibun": "66-24", "price": 8000}
+{"apt": "누리타워", "area": 59.16, "built": 1994, "date": "2021-06-25", "dong": "신흥동2가", "floor": 13, "jibun": "50-10", "price": 14000}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2021-06-26", "dong": "송림동", "floor": 4, "jibun": "8-661", "price": 9900}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-06-26", "dong": "송현동", "floor": 14, "jibun": "6-26", "price": 12100}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-06-26", "dong": "송현동", "floor": 12, "jibun": "66-26", "price": 11500}
+{"apt": "삼두1차", "area": 42.93, "built": 1984, "date": "2021-06-26", "dong": "송현동", "floor": 9, "jibun": "66-51", "price": 9450}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2021-06-26", "dong": "항동7가", "floor": 12, "jibun": "27-107", "price": 27000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-06-26", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 8300}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2021-06-27", "dong": "송현동", "floor": 1, "jibun": "6-26", "price": 8500}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-06-27", "dong": "송현동", "floor": 9, "jibun": "66-26", "price": 12800}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-06-28", "dong": "신흥동1가", "floor": 16, "jibun": "34-8", "price": 26500}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-06-29", "dong": "송현동", "floor": 2, "jibun": "1", "price": 10000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-06-29", "dong": "항동7가", "floor": 9, "jibun": "27-107", "price": 16000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-06-29", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 26500}
+{"apt": "삼익", "area": 76.88, "built": 1979, "date": "2021-06-30", "dong": "송림동", "floor": 5, "jibun": "228-1", "price": 11000}
+{"apt": "누리", "area": 59.35, "built": 1994, "date": "2021-06-30", "dong": "송현동", "floor": 5, "jibun": "23-31", "price": 14000}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-06-30", "dong": "송현동", "floor": 2, "jibun": "66-26", "price": 10300}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-06-30", "dong": "송현동", "floor": 10, "jibun": "66-26", "price": 22300}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2021-06-30", "dong": "신흥동2가", "floor": 11, "jibun": "54-5", "price": 15400}
+{"apt": "라이프비취3차", "area": 84.85, "built": 1990, "date": "2021-06-30", "dong": "항동7가", "floor": 15, "jibun": "27-107", "price": 20000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-06-30", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 27000}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2021-06-30", "dong": "화수동", "floor": 4, "jibun": "2-7", "price": 12900}
+{"apt": "삼익", "area": 76.88, "built": 1979, "date": "2021-07-01", "dong": "송림동", "floor": 8, "jibun": "228-1", "price": 14200}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-07-01", "dong": "송현동", "floor": 1, "jibun": "6-26", "price": 10500}
+{"apt": "송현주공", "area": 84.81, "built": 1993, "date": "2021-07-01", "dong": "송현동", "floor": 13, "jibun": "6-26", "price": 23000}
+{"apt": "라이프비취2차", "area": 71.17, "built": 1981, "date": "2021-07-01", "dong": "항동7가", "floor": 11, "jibun": "27-107", "price": 17200}
+{"apt": "라이프비취2차", "area": 81.26, "built": 1981, "date": "2021-07-01", "dong": "항동7가", "floor": 14, "jibun": "27-107", "price": 21000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-07-02", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 17000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-07-02", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 7300}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-07-02", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 9000}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-07-03", "dong": "송현동", "floor": 3, "jibun": "1", "price": 10000}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2021-07-03", "dong": "송현동", "floor": 10, "jibun": "6-26", "price": 9500}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-07-03", "dong": "송현동", "floor": 9, "jibun": "66-26", "price": 12800}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-07-03", "dong": "송현동", "floor": 1, "jibun": "66-26", "price": 20000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-07-03", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 9400}
+{"apt": "송현주공", "area": 67.43, "built": 1993, "date": "2021-07-04", "dong": "송현동", "floor": 1, "jibun": "6-26", "price": 19500}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-07-04", "dong": "송현동", "floor": 12, "jibun": "66-26", "price": 22700}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-07-04", "dong": "인현동", "floor": 7, "jibun": "3-2", "price": 13300}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-07-05", "dong": "신흥동1가", "floor": 17, "jibun": "34-8", "price": 21000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-07-05", "dong": "항동7가", "floor": 14, "jibun": "27-107", "price": 10000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-07-05", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 9500}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-07-06", "dong": "송현동", "floor": 11, "jibun": "66-24", "price": 10900}
+{"apt": "항운", "area": 53.57, "built": 1982, "date": "2021-07-06", "dong": "신흥동3가", "floor": 1, "jibun": "53-4", "price": 20000}
+{"apt": "만석2차", "area": 41.46, "built": 1987, "date": "2021-07-07", "dong": "만석동", "floor": 3, "jibun": "71", "price": 7800}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2021-07-07", "dong": "송림동", "floor": 10, "jibun": "228-1", "price": 16000}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2021-07-07", "dong": "송림동", "floor": 3, "jibun": "8-661", "price": 10600}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2021-07-07", "dong": "송현동", "floor": 9, "jibun": "66-24", "price": 8500}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2021-07-08", "dong": "송림동", "floor": 2, "jibun": "228-1", "price": 14000}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-07-08", "dong": "송현동", "floor": 4, "jibun": "1-9", "price": 13000}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-07-09", "dong": "송현동", "floor": 2, "jibun": "1-9", "price": 13500}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-07-09", "dong": "송현동", "floor": 8, "jibun": "66-26", "price": 21700}
+{"apt": "라이프비취2차", "area": 105.66, "built": 1981, "date": "2021-07-09", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 19500}
+{"apt": "뉴월드", "area": 59.95, "built": 1994, "date": "2021-07-10", "dong": "도원동", "floor": 5, "jibun": "41-25", "price": 14000}
+{"apt": "만석2차", "area": 41.46, "built": 1987, "date": "2021-07-10", "dong": "만석동", "floor": 4, "jibun": "71", "price": 6450}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2021-07-10", "dong": "송림동", "floor": 2, "jibun": "8-661", "price": 10000}
+{"apt": "송월", "area": 42.41, "built": 1980, "date": "2021-07-10", "dong": "송월동1가", "floor": 2, "jibun": "10-1", "price": 13500}
+{"apt": "삼두1차", "area": 42.93, "built": 1984, "date": "2021-07-10", "dong": "송현동", "floor": 5, "jibun": "66-51", "price": 9000}
+{"apt": "동일", "area": 48.96, "built": 1987, "date": "2021-07-11", "dong": "북성동1가", "floor": 1, "jibun": "4-246", "price": 14200}
+{"apt": "송현1차", "area": 43.34, "built": 1982, "date": "2021-07-11", "dong": "송현동", "floor": 3, "jibun": "1", "price": 13000}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-07-11", "dong": "송현동", "floor": 2, "jibun": "1-9", "price": 13500}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2021-07-11", "dong": "송현동", "floor": 9, "jibun": "66-24", "price": 15900}
+{"apt": "선광", "area": 60.0, "built": 1996, "date": "2021-07-12", "dong": "북성동2가", "floor": 5, "jibun": "5-1", "price": 13800}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-07-12", "dong": "송현동", "floor": 1, "jibun": "1", "price": 10000}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-07-12", "dong": "신흥동1가", "floor": 2, "jibun": "34-8", "price": 22400}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-07-12", "dong": "신흥동3가", "floor": 3, "jibun": "53-4", "price": 23000}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-07-13", "dong": "송현동", "floor": 4, "jibun": "1", "price": 9950}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-07-13", "dong": "송현동", "floor": 4, "jibun": "1", "price": 10000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-07-13", "dong": "송현동", "floor": 6, "jibun": "66-26", "price": 12500}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-07-13", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 27000}
+{"apt": "선광", "area": 60.0, "built": 1996, "date": "2021-07-14", "dong": "북성동2가", "floor": 4, "jibun": "5-1", "price": 13600}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-07-14", "dong": "인현동", "floor": 6, "jibun": "3-2", "price": 12900}
+{"apt": "라이프비취2차", "area": 105.66, "built": 1981, "date": "2021-07-14", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 27000}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-07-15", "dong": "송현동", "floor": 5, "jibun": "1", "price": 10000}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2021-07-15", "dong": "송현동", "floor": 3, "jibun": "6-26", "price": 9800}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2021-07-16", "dong": "송현동", "floor": 8, "jibun": "66-24", "price": 17600}
+{"apt": "삼익", "area": 58.74, "built": 1979, "date": "2021-07-16", "dong": "신흥동2가", "floor": 5, "jibun": "54-5", "price": 11200}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2021-07-16", "dong": "신흥동2가", "floor": 14, "jibun": "54-5", "price": 16000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-07-16", "dong": "신흥동3가", "floor": 2, "jibun": "53-4", "price": 20000}
+{"apt": "송현1차", "area": 43.34, "built": 1982, "date": "2021-07-17", "dong": "송현동", "floor": 5, "jibun": "1", "price": 12500}
+{"apt": "삼부", "area": 62.41, "built": 1985, "date": "2021-07-17", "dong": "송현동", "floor": 1, "jibun": "12-4", "price": 24500}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-07-17", "dong": "송현동", "floor": 11, "jibun": "66-26", "price": 23000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-07-17", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 28000}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-07-19", "dong": "송현동", "floor": 10, "jibun": "66-26", "price": 17000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-07-20", "dong": "화수동", "floor": 4, "jibun": "2-7", "price": 9500}
+{"apt": "누리", "area": 42.66, "built": 1994, "date": "2021-07-22", "dong": "송현동", "floor": 19, "jibun": "23-31", "price": 7300}
+{"apt": "삼익", "area": 58.74, "built": 1979, "date": "2021-07-23", "dong": "신흥동2가", "floor": 3, "jibun": "54-5", "price": 11000}
+{"apt": "삼익", "area": 80.3, "built": 1979, "date": "2021-07-23", "dong": "신흥동2가", "floor": 8, "jibun": "54-5", "price": 15300}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-07-23", "dong": "인현동", "floor": 8, "jibun": "3-2", "price": 13000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-07-23", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 12500}
+{"apt": "송월", "area": 56.1, "built": 1980, "date": "2021-07-24", "dong": "송월동1가", "floor": 2, "jibun": "10-1", "price": 15700}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-07-24", "dong": "송현동", "floor": 2, "jibun": "1-9", "price": 16000}
+{"apt": "삼부", "area": 62.41, "built": 1985, "date": "2021-07-24", "dong": "송현동", "floor": 2, "jibun": "12-4", "price": 23500}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-07-24", "dong": "송현동", "floor": 15, "jibun": "66-26", "price": 14000}
+{"apt": "삼익", "area": 108.0, "built": 1979, "date": "2021-07-24", "dong": "신흥동2가", "floor": 8, "jibun": "54-5", "price": 20000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-07-24", "dong": "신흥동3가", "floor": 5, "jibun": "53-4", "price": 20000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-07-24", "dong": "항동7가", "floor": 8, "jibun": "27-107", "price": 9500}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2021-07-26", "dong": "신흥동2가", "floor": 9, "jibun": "54-5", "price": 15500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-07-26", "dong": "인현동", "floor": 8, "jibun": "3-2", "price": 12900}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-07-27", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 8700}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-07-28", "dong": "송현동", "floor": 5, "jibun": "6-26", "price": 12500}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-07-29", "dong": "송현동", "floor": 15, "jibun": "66-26", "price": 28000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-07-29", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 15300}
+{"apt": "미륭", "area": 35.52, "built": 1990, "date": "2021-07-29", "dong": "화수동", "floor": 2, "jibun": "2-7", "price": 8350}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-07-30", "dong": "인현동", "floor": 6, "jibun": "3-2", "price": 12900}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-07-30", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 15900}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-07-31", "dong": "송현동", "floor": 6, "jibun": "66-26", "price": 13000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-08-02", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 17000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-08-02", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 26500}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-08-02", "dong": "화수동", "floor": 4, "jibun": "2-7", "price": 9000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-08-03", "dong": "송현동", "floor": 8, "jibun": "66-26", "price": 14000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-08-03", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 19800}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-08-03", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 26000}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-08-04", "dong": "송현동", "floor": 3, "jibun": "66-24", "price": 10000}
+{"apt": "만석2차", "area": 41.46, "built": 1987, "date": "2021-08-05", "dong": "만석동", "floor": 1, "jibun": "71", "price": 8000}
+{"apt": "선광", "area": 60.0, "built": 1996, "date": "2021-08-05", "dong": "북성동2가", "floor": 5, "jibun": "5-1", "price": 13800}
+{"apt": "누리", "area": 59.35, "built": 1994, "date": "2021-08-05", "dong": "송현동", "floor": 12, "jibun": "23-31", "price": 13800}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2021-08-05", "dong": "송현동", "floor": 3, "jibun": "66-24", "price": 17000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-08-05", "dong": "항동7가", "floor": 6, "jibun": "27-107", "price": 15100}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-08-05", "dong": "항동7가", "floor": 4, "jibun": "27-107", "price": 22700}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-08-06", "dong": "송현동", "floor": 6, "jibun": "66-26", "price": 20500}
+{"apt": "항운", "area": 53.57, "built": 1982, "date": "2021-08-06", "dong": "신흥동3가", "floor": 1, "jibun": "53-4", "price": 28000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-08-06", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 9400}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-08-07", "dong": "송현동", "floor": 2, "jibun": "6-26", "price": 13400}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-08-07", "dong": "송현동", "floor": 11, "jibun": "66-26", "price": 13400}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-08-07", "dong": "항동7가", "floor": 8, "jibun": "27-107", "price": 14700}
+{"apt": "라이프비취1차", "area": 88.07, "built": 1980, "date": "2021-08-07", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 20000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-08-07", "dong": "항동7가", "floor": 6, "jibun": "27-107", "price": 24700}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-08-07", "dong": "화수동", "floor": 2, "jibun": "2-7", "price": 9500}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-08-07", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 9400}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-08-08", "dong": "송현동", "floor": 5, "jibun": "1-9", "price": 14000}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-08-09", "dong": "송현동", "floor": 5, "jibun": "1", "price": 10000}
+{"apt": "삼부", "area": 62.41, "built": 1985, "date": "2021-08-09", "dong": "송현동", "floor": 2, "jibun": "12-4", "price": 25000}
+{"apt": "라이프비취1차", "area": 113.49, "built": 1980, "date": "2021-08-09", "dong": "항동7가", "floor": 4, "jibun": "27-107", "price": 16000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-08-09", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 28000}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2021-08-10", "dong": "송림동", "floor": 7, "jibun": "8-661", "price": 12000}
+{"apt": "삼두1차", "area": 42.93, "built": 1984, "date": "2021-08-10", "dong": "송현동", "floor": 2, "jibun": "66-51", "price": 9800}
+{"apt": "송현주공", "area": 59.97, "built": 1993, "date": "2021-08-11", "dong": "송현동", "floor": 5, "jibun": "6-26", "price": 21000}
+{"apt": "누리타워", "area": 59.16, "built": 1994, "date": "2021-08-11", "dong": "신흥동2가", "floor": 23, "jibun": "50-10", "price": 13500}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-08-11", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 14400}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2021-08-11", "dong": "항동7가", "floor": 8, "jibun": "27-107", "price": 21000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-08-11", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 26500}
+{"apt": "송현2", "area": 63.72, "built": 1984, "date": "2021-08-12", "dong": "송현동", "floor": 2, "jibun": "1-9", "price": 17000}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2021-08-12", "dong": "신흥동1가", "floor": 16, "jibun": "34-8", "price": 20000}
+{"apt": "동일", "area": 48.96, "built": 1987, "date": "2021-08-13", "dong": "북성동1가", "floor": 3, "jibun": "4-246", "price": 14000}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-08-13", "dong": "송현동", "floor": 4, "jibun": "1-9", "price": 13000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-08-13", "dong": "인현동", "floor": 7, "jibun": "3-2", "price": 12900}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-08-15", "dong": "송현동", "floor": 1, "jibun": "66-24", "price": 11000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-08-16", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 13000}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-08-17", "dong": "송현동", "floor": 5, "jibun": "1", "price": 10900}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-08-18", "dong": "인현동", "floor": 5, "jibun": "3-2", "price": 13200}
+{"apt": "삼두1차", "area": 66.69, "built": 1984, "date": "2021-08-19", "dong": "송현동", "floor": 9, "jibun": "66-51", "price": 16500}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-08-19", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 28000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-08-20", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 28300}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2021-08-21", "dong": "북성동1가", "floor": 5, "jibun": "4-246", "price": 12000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-08-21", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 25000}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-08-23", "dong": "송현동", "floor": 15, "jibun": "66-26", "price": 18500}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-08-25", "dong": "송현동", "floor": 1, "jibun": "1-9", "price": 17000}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-08-25", "dong": "송현동", "floor": 7, "jibun": "66-26", "price": 28700}
+{"apt": "만석2차", "area": 43.66, "built": 1987, "date": "2021-08-27", "dong": "만석동", "floor": 2, "jibun": "71", "price": 7500}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-08-27", "dong": "송현동", "floor": 9, "jibun": "66-26", "price": 14000}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-08-28", "dong": "송현동", "floor": 3, "jibun": "6-26", "price": 13800}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2021-08-29", "dong": "송현동", "floor": 8, "jibun": "66-26", "price": 24800}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-08-29", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 10000}
+{"apt": "송월", "area": 66.51, "built": 1980, "date": "2021-08-30", "dong": "송월동1가", "floor": 3, "jibun": "10-1", "price": 25000}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-08-30", "dong": "송현동", "floor": 2, "jibun": "66-24", "price": 12300}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-08-30", "dong": "송현동", "floor": 8, "jibun": "66-24", "price": 13000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-08-30", "dong": "송현동", "floor": 2, "jibun": "66-26", "price": 15000}
+{"apt": "뉴코아", "area": 42.87, "built": 1992, "date": "2021-08-30", "dong": "인현동", "floor": 5, "jibun": "3-2", "price": 8900}
+{"apt": "라이프비취2차", "area": 71.17, "built": 1981, "date": "2021-08-30", "dong": "항동7가", "floor": 11, "jibun": "27-107", "price": 19900}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2021-08-30", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 13000}
+{"apt": "송현주공", "area": 66.6, "built": 1993, "date": "2021-08-31", "dong": "송현동", "floor": 1, "jibun": "6-26", "price": 17000}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2021-08-31", "dong": "송현동", "floor": 1, "jibun": "66-24", "price": 18000}
+{"apt": "뉴월드", "area": 59.95, "built": 1994, "date": "2021-09-01", "dong": "도원동", "floor": 3, "jibun": "41-25", "price": 12000}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2021-09-01", "dong": "만석동", "floor": 2, "jibun": "43-15", "price": 7900}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2021-09-01", "dong": "송현동", "floor": 2, "jibun": "12-4", "price": 9100}
+{"apt": "삼두1차", "area": 42.93, "built": 1984, "date": "2021-09-02", "dong": "송현동", "floor": 10, "jibun": "66-51", "price": 11800}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-09-04", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 14700}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-09-04", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 25000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-09-04", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 28800}
+{"apt": "라이프비취2차", "area": 51.04, "built": 1981, "date": "2021-09-06", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 14000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-09-07", "dong": "인현동", "floor": 7, "jibun": "3-2", "price": 13000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-09-07", "dong": "인현동", "floor": 8, "jibun": "3-2", "price": 14000}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2021-09-08", "dong": "송림동", "floor": 8, "jibun": "228-1", "price": 18400}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2021-09-08", "dong": "신흥동1가", "floor": 22, "jibun": "34-8", "price": 21500}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2021-09-09", "dong": "송림동", "floor": 8, "jibun": "8-661", "price": 13500}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-09-10", "dong": "신흥동3가", "floor": 1, "jibun": "53-4", "price": 22300}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-09-11", "dong": "송현동", "floor": 2, "jibun": "1", "price": 13000}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-09-11", "dong": "송현동", "floor": 6, "jibun": "66-26", "price": 25000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-09-11", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 17000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-09-11", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 30000}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-09-13", "dong": "송현동", "floor": 5, "jibun": "1-9", "price": 6850}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-09-13", "dong": "송현동", "floor": 11, "jibun": "66-26", "price": 14000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-09-13", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 11300}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-09-13", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 11300}
+{"apt": "삼두1차", "area": 54.72, "built": 1984, "date": "2021-09-14", "dong": "송현동", "floor": 5, "jibun": "66-51", "price": 18000}
+{"apt": "삼익", "area": 107.31, "built": 1979, "date": "2021-09-14", "dong": "신흥동2가", "floor": 7, "jibun": "54-5", "price": 21000}
+{"apt": "라이프비취1차", "area": 88.07, "built": 1980, "date": "2021-09-14", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 19550}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-09-15", "dong": "송현동", "floor": 4, "jibun": "66-26", "price": 13000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-09-15", "dong": "송현동", "floor": 3, "jibun": "66-26", "price": 15000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-09-15", "dong": "항동7가", "floor": 14, "jibun": "27-107", "price": 11150}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2021-09-15", "dong": "항동7가", "floor": 4, "jibun": "27-107", "price": 21500}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-09-16", "dong": "송현동", "floor": 3, "jibun": "66-24", "price": 11300}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-09-16", "dong": "신흥동3가", "floor": 2, "jibun": "53-4", "price": 20500}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2021-09-18", "dong": "송림동", "floor": 7, "jibun": "228-1", "price": 16000}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2021-09-18", "dong": "송현동", "floor": 1, "jibun": "12-4", "price": 23000}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2021-09-18", "dong": "송현동", "floor": 9, "jibun": "66-24", "price": 17750}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-09-18", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 11300}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2021-09-18", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 35000}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2021-09-18", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 15900}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2021-09-23", "dong": "신흥동2가", "floor": 8, "jibun": "54-5", "price": 17000}
+{"apt": "삼익", "area": 80.3, "built": 1979, "date": "2021-09-24", "dong": "신흥동2가", "floor": 4, "jibun": "54-5", "price": 17500}
+{"apt": "송월", "area": 42.41, "built": 1980, "date": "2021-09-25", "dong": "송월동1가", "floor": 3, "jibun": "10-1", "price": 16000}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2021-09-25", "dong": "송현동", "floor": 1, "jibun": "12-4", "price": 25000}
+{"apt": "삼부", "area": 62.41, "built": 1985, "date": "2021-09-25", "dong": "송현동", "floor": 3, "jibun": "12-4", "price": 25000}
+{"apt": "뉴코아", "area": 42.87, "built": 1992, "date": "2021-09-25", "dong": "인현동", "floor": 6, "jibun": "3-2", "price": 8700}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-09-26", "dong": "송현동", "floor": 11, "jibun": "66-24", "price": 10500}
+{"apt": "라이프비취1차", "area": 88.07, "built": 1980, "date": "2021-09-27", "dong": "항동7가", "floor": 10, "jibun": "27-107", "price": 21000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-09-27", "dong": "항동7가", "floor": 14, "jibun": "27-107", "price": 11800}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2021-09-28", "dong": "송림동", "floor": 12, "jibun": "228-1", "price": 16500}
+{"apt": "항운", "area": 53.57, "built": 1982, "date": "2021-09-28", "dong": "신흥동3가", "floor": 1, "jibun": "53-4", "price": 25000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-09-28", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 28500}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-09-28", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 28500}
+{"apt": "송월", "area": 70.38, "built": 1980, "date": "2021-09-29", "dong": "송월동1가", "floor": 2, "jibun": "10-1", "price": 23000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-09-29", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 12800}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-09-29", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 13000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-09-29", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 13300}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-09-29", "dong": "화수동", "floor": 4, "jibun": "2-7", "price": 11000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-09-30", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 12000}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-10-01", "dong": "송현동", "floor": 2, "jibun": "1", "price": 13000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-01", "dong": "인현동", "floor": 8, "jibun": "3-2", "price": 12900}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-01", "dong": "인현동", "floor": 8, "jibun": "3-2", "price": 12900}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-01", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 12500}
+{"apt": "라이프비취2차", "area": 71.17, "built": 1981, "date": "2021-10-01", "dong": "항동7가", "floor": 6, "jibun": "27-107", "price": 19500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-02", "dong": "인현동", "floor": 7, "jibun": "3-2", "price": 12900}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-10-02", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 10000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-10-02", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 30000}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-10-04", "dong": "송현동", "floor": 7, "jibun": "66-26", "price": 22000}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-10-05", "dong": "송현동", "floor": 3, "jibun": "66-24", "price": 11500}
+{"apt": "삼두1차", "area": 42.93, "built": 1984, "date": "2021-10-05", "dong": "송현동", "floor": 9, "jibun": "66-51", "price": 11000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-10-05", "dong": "신흥동3가", "floor": 4, "jibun": "53-4", "price": 26600}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-10-06", "dong": "송현동", "floor": 1, "jibun": "1", "price": 13800}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-06", "dong": "인현동", "floor": 5, "jibun": "3-2", "price": 12700}
+{"apt": "라이프비취1차", "area": 88.07, "built": 1980, "date": "2021-10-06", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 17200}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2021-10-07", "dong": "송현동", "floor": 3, "jibun": "1", "price": 13000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-07", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 13500}
+{"apt": "선광", "area": 60.0, "built": 1996, "date": "2021-10-08", "dong": "북성동2가", "floor": 12, "jibun": "5-1", "price": 15000}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2021-10-08", "dong": "송현동", "floor": 4, "jibun": "6-26", "price": 12000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-08", "dong": "인현동", "floor": 5, "jibun": "3-2", "price": 12800}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-10-08", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 7800}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-10-08", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 13500}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-10-08", "dong": "항동7가", "floor": 6, "jibun": "27-107", "price": 8500}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2021-10-09", "dong": "신흥동2가", "floor": 5, "jibun": "54-5", "price": 17300}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-09", "dong": "인현동", "floor": 5, "jibun": "3-2", "price": 12750}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-09", "dong": "인현동", "floor": 5, "jibun": "3-2", "price": 12750}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-10-09", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 9750}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-10-09", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 12000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-10-09", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 12500}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2021-10-12", "dong": "신흥동2가", "floor": 2, "jibun": "54-5", "price": 18000}
+{"apt": "라이프비취1차", "area": 88.07, "built": 1980, "date": "2021-10-12", "dong": "항동7가", "floor": 8, "jibun": "27-107", "price": 18500}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-10-12", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 12000}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2021-10-13", "dong": "송현동", "floor": 12, "jibun": "66-24", "price": 9500}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-10-13", "dong": "송현동", "floor": 7, "jibun": "66-26", "price": 15300}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-13", "dong": "인현동", "floor": 5, "jibun": "3-2", "price": 12900}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-13", "dong": "인현동", "floor": 7, "jibun": "3-2", "price": 13900}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2021-10-14", "dong": "만석동", "floor": 5, "jibun": "43-15", "price": 6000}
+{"apt": "라이프비취3차", "area": 84.85, "built": 1990, "date": "2021-10-14", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 25000}
+{"apt": "선광", "area": 60.0, "built": 1996, "date": "2021-10-15", "dong": "북성동2가", "floor": 16, "jibun": "5-1", "price": 14500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-15", "dong": "인현동", "floor": 7, "jibun": "3-2", "price": 13300}
+{"apt": "미륭", "area": 35.52, "built": 1990, "date": "2021-10-15", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 8000}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2021-10-18", "dong": "만석동", "floor": 1, "jibun": "43-15", "price": 9750}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-18", "dong": "인현동", "floor": 6, "jibun": "3-2", "price": 12900}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-18", "dong": "인현동", "floor": 8, "jibun": "3-2", "price": 13300}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-18", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 13800}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2021-10-18", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 32800}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-10-18", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 11500}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-10-19", "dong": "송현동", "floor": 10, "jibun": "6-26", "price": 14000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-10-19", "dong": "인현동", "floor": 5, "jibun": "3-2", "price": 12900}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-10-19", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 7000}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2021-10-19", "dong": "화수동", "floor": 4, "jibun": "2-7", "price": 15800}
+{"apt": "송현1차", "area": 50.83, "built": 1982, "date": "2021-10-21", "dong": "송현동", "floor": 5, "jibun": "1", "price": 14500}
+{"apt": "삼두1차", "area": 54.72, "built": 1984, "date": "2021-10-22", "dong": "송현동", "floor": 10, "jibun": "66-51", "price": 20000}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-10-23", "dong": "신흥동1가", "floor": 10, "jibun": "34-8", "price": 26800}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2021-10-23", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 15500}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2021-10-24", "dong": "송현동", "floor": 2, "jibun": "66-24", "price": 8600}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-10-25", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 30000}
+{"apt": "만석3", "area": 42.19, "built": 1991, "date": "2021-10-26", "dong": "만석동", "floor": 4, "jibun": "43-79", "price": 8000}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2021-10-27", "dong": "신흥동2가", "floor": 14, "jibun": "54-5", "price": 18000}
+{"apt": "라이프비취1차", "area": 88.07, "built": 1980, "date": "2021-10-27", "dong": "항동7가", "floor": 11, "jibun": "27-107", "price": 19400}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2021-10-28", "dong": "송현동", "floor": 3, "jibun": "66-24", "price": 9000}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2021-10-28", "dong": "송현동", "floor": 3, "jibun": "66-24", "price": 9200}
+{"apt": "라이프비취1차", "area": 100.56, "built": 1980, "date": "2021-10-29", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 16000}
+{"apt": "건흥", "area": 58.51, "built": 1977, "date": "2021-10-30", "dong": "관동3가", "floor": 2, "jibun": "4-1", "price": 9500}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2021-10-30", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 12800}
+{"apt": "미륭", "area": 35.52, "built": 1990, "date": "2021-10-31", "dong": "화수동", "floor": 4, "jibun": "2-7", "price": 9500}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2021-11-01", "deal_type": "중개거래", "dong": "송현동", "floor": 3, "jibun": "12-4", "price": 25000}
+{"apt": "삼두1차", "area": 54.72, "built": 1984, "date": "2021-11-01", "deal_type": "중개거래", "dong": "송현동", "floor": 12, "jibun": "66-51", "price": 18000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-11-01", "deal_type": "중개거래", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 13200}
+{"apt": "삼익", "area": 108.0, "built": 1979, "date": "2021-11-03", "deal_type": "직거래", "dong": "신흥동2가", "floor": 8, "jibun": "54-5", "price": 20000}
+{"apt": "삼익", "area": 59.11, "built": 1979, "date": "2021-11-04", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 1, "jibun": "54-5", "price": 12000}
+{"apt": "뉴코아", "area": 42.87, "built": 1992, "date": "2021-11-04", "deal_type": "중개거래", "dong": "인현동", "floor": 8, "jibun": "3-2", "price": 8400}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-11-04", "deal_type": "중개거래", "dong": "항동7가", "floor": 8, "jibun": "27-107", "price": 12500}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-11-04", "deal_type": "직거래", "dong": "항동7가", "floor": 14, "jibun": "27-107", "price": 11200}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2021-11-05", "deal_type": "중개거래", "dong": "송현동", "floor": 11, "jibun": "6-26", "price": 11000}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-11-05", "deal_type": "중개거래", "dong": "송현동", "floor": 7, "jibun": "66-26", "price": 25000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-11-05", "deal_type": "중개거래", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 12400}
+{"apt": "라이프비취1차", "area": 84.66, "built": 1980, "date": "2021-11-05", "deal_type": "중개거래", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 18000}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2021-11-06", "deal_type": "중개거래", "dong": "송현동", "floor": 9, "jibun": "66-26", "price": 13500}
+{"apt": "삼두1차", "area": 42.93, "built": 1984, "date": "2021-11-06", "deal_type": "중개거래", "dong": "송현동", "floor": 9, "jibun": "66-51", "price": 15000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-11-06", "deal_type": "중개거래", "dong": "신흥동3가", "floor": 2, "jibun": "53-4", "price": 26300}
+{"apt": "라이프비취1차", "area": 100.23, "built": 1980, "date": "2021-11-06", "deal_type": "중개거래", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 23000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-11-06", "deal_type": "중개거래", "dong": "항동7가", "floor": 4, "jibun": "91-2", "price": 28000}
+{"apt": "송월", "area": 42.41, "built": 1980, "date": "2021-11-10", "deal_type": "중개거래", "dong": "송월동1가", "floor": 5, "jibun": "10-1", "price": 17000}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-11-10", "deal_type": "중개거래", "dong": "송현동", "floor": 1, "jibun": "1-9", "price": 17500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-11-10", "deal_type": "직거래", "dong": "인현동", "floor": 6, "jibun": "3-2", "price": 13300}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-11-10", "deal_type": "직거래", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 28000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-11-10", "deal_type": "중개거래", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 32000}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2021-11-11", "deal_type": "중개거래", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 29500}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-11-12", "deal_type": "중개거래", "dong": "신흥동3가", "floor": 1, "jibun": "53-4", "price": 20500}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-11-13", "deal_type": "중개거래", "dong": "송현동", "floor": 8, "jibun": "66-26", "price": 24000}
+{"apt": "삼익", "area": 80.3, "built": 1979, "date": "2021-11-15", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 7, "jibun": "54-5", "price": 18000}
+{"apt": "라이프비취2차", "area": 71.17, "built": 1981, "date": "2021-11-15", "deal_type": "중개거래", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 20400}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2021-11-15", "deal_type": "중개거래", "dong": "항동7가", "floor": 9, "jibun": "27-107", "price": 26200}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2021-11-17", "deal_type": "중개거래", "dong": "송현동", "floor": 2, "jibun": "66-26", "price": 16200}
+{"apt": "미륭", "area": 35.52, "built": 1990, "date": "2021-11-17", "deal_type": "직거래", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 9500}
+{"apt": "누리", "area": 59.35, "built": 1994, "date": "2021-11-19", "deal_type": "중개거래", "dong": "송현동", "floor": 2, "jibun": "23-31", "price": 14200}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-11-19", "deal_type": "중개거래", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 30000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-11-19", "deal_type": "중개거래", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 30000}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2021-11-20", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 5, "jibun": "54-5", "price": 18000}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2021-11-21", "deal_type": "중개거래", "dong": "송현동", "floor": 15, "jibun": "6-26", "price": 14000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2021-11-22", "deal_type": "중개거래", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 8500}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2021-11-23", "deal_type": "중개거래", "dong": "송현동", "floor": 1, "jibun": "12-4", "price": 24000}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2021-11-23", "deal_type": "중개거래", "dong": "송현동", "floor": 2, "jibun": "12-4", "price": 25000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-11-23", "deal_type": "중개거래", "dong": "신흥동3가", "floor": 4, "jibun": "53-4", "price": 27750}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-11-23", "deal_type": "중개거래", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 30000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-11-24", "deal_type": "중개거래", "dong": "신흥동3가", "floor": 3, "jibun": "53-4", "price": 30000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-11-24", "deal_type": "중개거래", "dong": "신흥동3가", "floor": 4, "jibun": "53-4", "price": 23000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-11-24", "deal_type": "중개거래", "dong": "항동7가", "floor": 2, "jibun": "91-2", "price": 30000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-11-24", "deal_type": "중개거래", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 30000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-11-25", "deal_type": "중개거래", "dong": "항동7가", "floor": 1, "jibun": "91-2", "price": 31000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-11-25", "deal_type": "중개거래", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 32800}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-11-26", "deal_type": "중개거래", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 34000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-11-26", "deal_type": "중개거래", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 34000}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2021-11-27", "deal_type": "중개거래", "dong": "송현동", "floor": 10, "jibun": "66-24", "price": 10300}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2021-11-27", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 8, "jibun": "54-5", "price": 12000}
+{"apt": "선광", "area": 60.0, "built": 1996, "date": "2021-11-29", "deal_type": "직거래", "dong": "북성동2가", "floor": 16, "jibun": "5-1", "price": 13000}
+{"apt": "송현주공", "area": 67.43, "built": 1993, "date": "2021-12-01", "deal_type": "중개거래", "dong": "송현동", "floor": 10, "jibun": "6-26", "price": 24000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-12-01", "deal_type": "직거래", "dong": "신흥동3가", "floor": 4, "jibun": "53-4", "price": 23000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2021-12-01", "deal_type": "중개거래", "dong": "신흥동3가", "floor": 4, "jibun": "53-4", "price": 27500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-12-01", "deal_type": "직거래", "dong": "인현동", "floor": 8, "jibun": "3-2", "price": 13300}
+{"apt": "라이프비취2차", "area": 105.66, "built": 1981, "date": "2021-12-01", "deal_type": "중개거래", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 29700}
+{"apt": "라이프비취1차", "area": 88.07, "built": 1980, "date": "2021-12-02", "deal_type": "중개거래", "dong": "항동7가", "floor": 9, "jibun": "27-107", "price": 20800}
+{"apt": "라이프비취1차", "area": 100.23, "built": 1980, "date": "2021-12-02", "deal_type": "중개거래", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 22400}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2021-12-03", "deal_type": "중개거래", "dong": "송현동", "floor": 1, "jibun": "66-26", "price": 18000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-12-03", "deal_type": "중개거래", "dong": "인현동", "floor": 7, "jibun": "3-2", "price": 14200}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2021-12-04", "deal_type": "중개거래", "dong": "송현동", "floor": 5, "jibun": "12-4", "price": 23500}
+{"apt": "삼부", "area": 62.41, "built": 1985, "date": "2021-12-04", "deal_type": "중개거래", "dong": "송현동", "floor": 4, "jibun": "12-4", "price": 26000}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2021-12-05", "deal_type": "중개거래", "dong": "송현동", "floor": 15, "jibun": "66-26", "price": 27000}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2021-12-05", "deal_type": "중개거래", "dong": "신흥동1가", "floor": 6, "jibun": "34-8", "price": 27000}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-12-06", "deal_type": "중개거래", "dong": "송현동", "floor": 11, "jibun": "66-24", "price": 12950}
+{"apt": "삼익", "area": 76.88, "built": 1979, "date": "2021-12-08", "deal_type": "중개거래", "dong": "송림동", "floor": 3, "jibun": "228-1", "price": 16500}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-12-08", "deal_type": "중개거래", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 32000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-12-09", "deal_type": "중개거래", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 17700}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-12-09", "deal_type": "중개거래", "dong": "항동7가", "floor": 5, "jibun": "91-2", "price": 34000}
+{"apt": "라이프비취1차", "area": 88.07, "built": 1980, "date": "2021-12-10", "deal_type": "중개거래", "dong": "항동7가", "floor": 11, "jibun": "27-107", "price": 20900}
+{"apt": "라이프비취3차", "area": 84.85, "built": 1990, "date": "2021-12-10", "deal_type": "중개거래", "dong": "항동7가", "floor": 4, "jibun": "27-107", "price": 23500}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-12-10", "deal_type": "직거래", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 31000}
+{"apt": "연안아파트", "area": 53.66, "built": 1983, "date": "2021-12-10", "deal_type": "중개거래", "dong": "항동7가", "floor": 3, "jibun": "91-2", "price": 32600}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2021-12-11", "deal_type": "중개거래", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 13200}
+{"apt": "라이프비취2차", "area": 71.17, "built": 1981, "date": "2021-12-11", "deal_type": "중개거래", "dong": "항동7가", "floor": 12, "jibun": "27-107", "price": 20000}
+{"apt": "선광", "area": 60.0, "built": 1996, "date": "2021-12-15", "deal_type": "중개거래", "dong": "북성동2가", "floor": 6, "jibun": "5-1", "price": 15000}
+{"apt": "라이프비취1차", "area": 84.66, "built": 1980, "date": "2021-12-16", "deal_type": "중개거래", "dong": "항동7가", "floor": 11, "jibun": "27-107", "price": 22950}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2021-12-17", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 2, "jibun": "54-5", "price": 12950}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2021-12-18", "deal_type": "중개거래", "dong": "송현동", "floor": 9, "jibun": "66-24", "price": 12000}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2021-12-20", "deal_type": "중개거래", "dong": "신흥동1가", "floor": 10, "jibun": "34-8", "price": 23000}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2021-12-23", "deal_type": "중개거래", "dong": "송림동", "floor": 5, "jibun": "8-661", "price": 13500}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-12-23", "deal_type": "중개거래", "dong": "송현동", "floor": 5, "jibun": "1-9", "price": 17500}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2021-12-25", "deal_type": "중개거래", "dong": "만석동", "floor": 4, "jibun": "43-15", "price": 9000}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2021-12-27", "deal_type": "중개거래", "dong": "송현동", "floor": 3, "jibun": "1-9", "price": 17500}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2021-12-27", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 10, "jibun": "54-5", "price": 13000}
+{"apt": "건흥", "area": 58.51, "built": 1977, "date": "2021-12-29", "deal_type": "중개거래", "dong": "관동3가", "floor": 3, "jibun": "4-1", "price": 9800}
+{"apt": "신일", "area": 42.91, "built": 1977, "date": "2021-12-30", "deal_type": "중개거래", "dong": "북성동3가", "floor": 3, "jibun": "3-7", "price": 6200}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2021-12-30", "deal_type": "중개거래", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 16000}
+{"apt": "삼두1차", "area": 66.69, "built": 1984, "date": "2021-12-31", "deal_type": "중개거래", "dong": "송현동", "floor": 12, "jibun": "66-51", "price": 22000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2021-12-31", "deal_type": "중개거래", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 14800}
+{"apt": "삼익", "area": 108.56, "built": 1979, "date": "2022-01-07", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 1, "jibun": "54-5", "price": 23000}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2022-01-09", "deal_type": "중개거래", "dong": "송현동", "floor": 6, "jibun": "6-26", "price": 10700}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2022-01-10", "deal_type": "중개거래", "dong": "송현동", "floor": 6, "jibun": "66-26", "price": 25000}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2022-01-11", "deal_type": "중개거래", "dong": "송현동", "floor": 15, "jibun": "66-26", "price": 27000}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2022-01-13", "deal_type": "중개거래", "dong": "송림동", "floor": 11, "jibun": "228-1", "price": 16500}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2022-01-13", "deal_type": "중개거래", "dong": "항동7가", "floor": 8, "jibun": "27-107", "price": 27500}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2022-01-15", "deal_type": "중개거래", "dong": "송현동", "floor": 12, "jibun": "66-24", "price": 12000}
+{"apt": "누리타워", "area": 95.79, "built": 1994, "date": "2022-01-19", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 9, "jibun": "50-10", "price": 28500}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2022-01-20", "deal_type": "중개거래", "dong": "북성동1가", "floor": 1, "jibun": "4-246", "price": 11600}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-01-21", "deal_type": "중개거래", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 12900}
+{"apt": "라이프비취2차", "area": 70.38, "built": 1981, "date": "2022-01-22", "deal_type": "중개거래", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 13500}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2022-01-23", "deal_type": "중개거래", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 15500}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-01-24", "deal_type": "중개거래", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 11000}
+{"apt": "미륭", "area": 35.52, "built": 1990, "date": "2022-01-25", "deal_type": "중개거래", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 9400}
+{"apt": "송월", "area": 47.8, "built": 1980, "date": "2022-01-26", "deal_type": "중개거래", "dong": "송월동1가", "floor": 5, "jibun": "10-1", "price": 18000}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2022-01-26", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 2, "jibun": "54-5", "price": 10400}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2022-01-26", "deal_type": "중개거래", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 11500}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2022-01-28", "deal_type": "중개거래", "dong": "북성동1가", "floor": 2, "jibun": "4-246", "price": 12000}
+{"apt": "미륭", "area": 35.52, "built": 1990, "date": "2022-01-28", "deal_type": "중개거래", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 9750}
+{"apt": "누리타워", "area": 84.69, "built": 1994, "date": "2022-01-29", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 21, "jibun": "50-10", "price": 19500}
+{"apt": "송현주공", "area": 36.0, "built": 1993, "date": "2022-01-31", "deal_type": "중개거래", "dong": "송현동", "floor": 9, "jibun": "6-26", "price": 11000}
+{"apt": "동영", "area": 62.52, "built": 1985, "date": "2022-02-02", "deal_type": "중개거래", "dong": "신흥동3가", "floor": 5, "jibun": "37-9", "price": 15800}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2022-02-03", "deal_type": "중개거래", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 16500}
+{"apt": "만석3", "area": 42.19, "built": 1991, "date": "2022-02-04", "deal_type": "중개거래", "dong": "만석동", "floor": 4, "jibun": "43-79", "price": 9000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2022-02-04", "deal_type": "중개거래", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 22000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2022-02-04", "deal_type": "중개거래", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 29000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2022-02-04", "deal_type": "중개거래", "dong": "항동7가", "floor": 10, "jibun": "27-107", "price": 30300}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-02-04", "deal_type": "중개거래", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 12500}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-02-04", "deal_type": "중개거래", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 13200}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-02-04", "deal_type": "중개거래", "dong": "화수동", "floor": 4, "jibun": "2-7", "price": 13000}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2022-02-05", "deal_type": "중개거래", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 17000}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2022-02-06", "deal_type": "중개거래", "dong": "송현동", "floor": 3, "jibun": "66-24", "price": 19000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-02-07", "deal_type": "중개거래", "dong": "화수동", "floor": 2, "jibun": "2-7", "price": 10500}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-02-07", "deal_type": "중개거래", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 13000}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2022-02-07", "deal_type": "중개거래", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 15900}
+{"apt": "삼익", "area": 58.74, "built": 1979, "date": "2022-02-10", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 6, "jibun": "54-5", "price": 15000}
+{"apt": "삼익", "area": 80.3, "built": 1979, "date": "2022-02-11", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 8, "jibun": "54-5", "price": 15500}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-02-12", "deal_type": "중개거래", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 14000}
+{"apt": "뉴월드", "area": 40.72, "built": 1994, "date": "2022-02-13", "deal_type": "중개거래", "dong": "도원동", "floor": 4, "jibun": "41-25", "price": 8300}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2022-02-14", "deal_type": "중개거래", "dong": "북성동1가", "floor": 3, "jibun": "4-246", "price": 11600}
+{"apt": "송현2", "area": 63.72, "built": 1984, "date": "2022-02-14", "deal_type": "중개거래", "dong": "송현동", "floor": 5, "jibun": "1-9", "price": 22000}
+{"apt": "라이프비취2차", "area": 51.04, "built": 1981, "date": "2022-02-14", "deal_type": "직거래", "dong": "항동7가", "floor": 12, "jibun": "27-107", "price": 14000}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2022-02-16", "deal_type": "직거래", "dong": "송현동", "floor": 7, "jibun": "6-26", "price": 8000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2022-02-17", "deal_type": "직거래", "dong": "인현동", "floor": 6, "jibun": "3-2", "price": 13000}
+{"apt": "만석3", "area": 42.19, "built": 1991, "date": "2022-02-18", "deal_type": "직거래", "dong": "만석동", "floor": 2, "jibun": "43-79", "price": 7000}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2022-02-19", "deal_type": "중개거래", "dong": "송현동", "floor": 4, "jibun": "66-26", "price": 23000}
+{"apt": "만석2차", "area": 41.46, "built": 1987, "date": "2022-02-21", "deal_type": "중개거래", "dong": "만석동", "floor": 3, "jibun": "71", "price": 9400}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2022-02-22", "deal_type": "중개거래", "dong": "송현동", "floor": 2, "jibun": "66-24", "price": 10800}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2022-02-22", "deal_type": "중개거래", "dong": "송현동", "floor": 6, "jibun": "66-24", "price": 13800}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2022-02-22", "deal_type": "중개거래", "dong": "송현동", "floor": 11, "jibun": "66-26", "price": 29000}
+{"apt": "누리타워", "area": 59.16, "built": 1994, "date": "2022-02-23", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 9, "jibun": "50-10", "price": 14000}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2022-02-23", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 14, "jibun": "54-5", "price": 18000}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2022-02-24", "deal_type": "중개거래", "dong": "송림동", "floor": 9, "jibun": "228-1", "price": 16300}
+{"apt": "삼익", "area": 58.74, "built": 1979, "date": "2022-02-24", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 7, "jibun": "54-5", "price": 15000}
+{"apt": "항운", "area": 45.29, "built": 1982, "date": "2022-02-24", "deal_type": "직거래", "dong": "신흥동3가", "floor": 1, "jibun": "53-4", "price": 21300}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-02-24", "deal_type": "중개거래", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 14000}
+{"apt": "라이프비취2차", "area": 105.66, "built": 1981, "date": "2022-02-25", "deal_type": "중개거래", "dong": "항동7가", "floor": 14, "jibun": "27-107", "price": 30000}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2022-02-26", "deal_type": "중개거래", "dong": "송현동", "floor": 4, "jibun": "12-4", "price": 24000}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2022-02-26", "deal_type": "중개거래", "dong": "송현동", "floor": 15, "jibun": "66-26", "price": 13850}
+{"apt": "송월", "area": 47.8, "built": 1980, "date": "2022-02-28", "deal_type": "중개거래", "dong": "송월동1가", "floor": 1, "jibun": "10-1", "price": 18500}
+{"apt": "삼두1차", "area": 66.69, "built": 1984, "date": "2022-02-28", "deal_type": "중개거래", "dong": "송현동", "floor": 2, "jibun": "66-51", "price": 18500}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2022-02-28", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 8, "jibun": "54-5", "price": 15000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2022-03-02", "deal_type": "중개거래", "dong": "항동7가", "floor": 6, "jibun": "27-107", "price": 17600}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2022-03-03", "deal_type": "중개거래", "dong": "송현동", "floor": 7, "jibun": "66-24", "price": 13000}
+{"apt": "송현1차", "area": 57.2, "built": 1982, "date": "2022-03-05", "deal_type": "중개거래", "dong": "송현동", "floor": 4, "jibun": "1", "price": 22500}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2022-03-05", "deal_type": "중개거래", "dong": "송현동", "floor": 2, "jibun": "66-24", "price": 13000}
+{"apt": "미륭", "area": 35.52, "built": 1990, "date": "2022-03-05", "deal_type": "중개거래", "dong": "화수동", "floor": 2, "jibun": "2-7", "price": 11800}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2022-03-07", "deal_type": "중개거래", "dong": "북성동1가", "floor": 1, "jibun": "4-246", "price": 12500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2022-03-07", "deal_type": "중개거래", "dong": "인현동", "floor": 8, "jibun": "3-2", "price": 15900}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2022-03-08", "deal_type": "중개거래", "dong": "송현동", "floor": 9, "jibun": "66-26", "price": 14000}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2022-03-11", "deal_type": "중개거래", "dong": "송림동", "floor": 3, "jibun": "228-1", "price": 17500}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2022-03-11", "deal_type": "중개거래", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 17700}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2022-03-12", "deal_type": "중개거래", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 17000}
+{"apt": "누리", "area": 59.35, "built": 1994, "date": "2022-03-14", "deal_type": "중개거래", "dong": "송현동", "floor": 12, "jibun": "23-31", "price": 18700}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2022-03-14", "deal_type": "중개거래", "dong": "송현동", "floor": 6, "jibun": "66-24", "price": 9500}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2022-03-16", "deal_type": "중개거래", "dong": "송현동", "floor": 13, "jibun": "66-26", "price": 16000}
+{"apt": "라이프비취2차", "area": 128.58, "built": 1981, "date": "2022-03-16", "deal_type": "중개거래", "dong": "항동7가", "floor": 8, "jibun": "27-107", "price": 33500}
+{"apt": "삼부", "area": 62.41, "built": 1985, "date": "2022-03-18", "deal_type": "중개거래", "dong": "송현동", "floor": 5, "jibun": "12-4", "price": 25000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2022-03-18", "deal_type": "중개거래", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 11300}
+{"apt": "송현주공", "area": 66.6, "built": 1993, "date": "2022-03-19", "deal_type": "중개거래", "dong": "송현동", "floor": 10, "jibun": "6-26", "price": 21500}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2022-03-19", "deal_type": "중개거래", "dong": "송현동", "floor": 2, "jibun": "66-26", "price": 14500}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2022-03-19", "deal_type": "중개거래", "dong": "화수동", "floor": 5, "jibun": "2-7", "price": 15800}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2022-03-21", "deal_type": "중개거래", "dong": "송림동", "floor": 2, "jibun": "228-1", "price": 20000}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2022-03-21", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 9, "jibun": "54-5", "price": 15000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2022-03-21", "deal_type": "직거래", "dong": "항동7가", "floor": 8, "jibun": "27-107", "price": 26000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2022-03-21", "deal_type": "중개거래", "dong": "항동7가", "floor": 9, "jibun": "27-107", "price": 28000}
+{"apt": "뉴월드", "area": 59.95, "built": 1994, "date": "2022-03-22", "deal_type": "중개거래", "dong": "도원동", "floor": 11, "jibun": "41-25", "price": 13800}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2022-03-22", "deal_type": "중개거래", "dong": "송현동", "floor": 6, "jibun": "66-24", "price": 13300}
+{"apt": "송현1차", "area": 50.83, "built": 1982, "date": "2022-03-23", "deal_type": "중개거래", "dong": "송현동", "floor": 2, "jibun": "1", "price": 16000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-03-23", "deal_type": "중개거래", "dong": "항동7가", "floor": 6, "jibun": "27-107", "price": 11000}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2022-03-26", "deal_type": "중개거래", "dong": "송림동", "floor": 6, "jibun": "228-1", "price": 16500}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2022-03-26", "deal_type": "중개거래", "dong": "송현동", "floor": 2, "jibun": "6-26", "price": 10800}
+{"apt": "미륭", "area": 35.52, "built": 1990, "date": "2022-03-26", "deal_type": "중개거래", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 11000}
+{"apt": "송현주공", "area": 36.0, "built": 1993, "date": "2022-03-27", "deal_type": "중개거래", "dong": "송현동", "floor": 4, "jibun": "6-26", "price": 10800}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2022-03-28", "deal_type": "중개거래", "dong": "송현동", "floor": 14, "jibun": "66-26", "price": 29000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-03-28", "deal_type": "중개거래", "dong": "항동7가", "floor": 11, "jibun": "27-107", "price": 12900}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-03-29", "deal_type": "중개거래", "dong": "항동7가", "floor": 11, "jibun": "27-107", "price": 12800}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2022-03-30", "deal_type": "중개거래", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 14000}
+{"apt": "삼두1차", "area": 42.93, "built": 1984, "date": "2022-03-31", "deal_type": "중개거래", "dong": "송현동", "floor": 10, "jibun": "66-51", "price": 9800}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2022-04-01", "deal_type": "중개거래", "dong": "송림동", "floor": 3, "jibun": "228-1", "price": 19000}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2022-04-01", "deal_type": "중개거래", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 17800}
+{"apt": "누리타워", "area": 59.16, "built": 1994, "date": "2022-04-02", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 13, "jibun": "50-10", "price": 16000}
+{"apt": "삼익", "area": 108.0, "built": 1979, "date": "2022-04-02", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 12, "jibun": "54-5", "price": 24000}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2022-04-02", "deal_type": "중개거래", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 37200}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2022-04-04", "deal_type": "중개거래", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 18600}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-04-07", "deal_type": "중개거래", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 12000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-04-07", "deal_type": "중개거래", "dong": "항동7가", "floor": 11, "jibun": "27-107", "price": 12700}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2022-04-08", "deal_type": "중개거래", "dong": "송현동", "floor": 10, "jibun": "66-24", "price": 21000}
+{"apt": "동일", "area": 48.96, "built": 1987, "date": "2022-04-09", "deal_type": "중개거래", "dong": "북성동1가", "floor": 3, "jibun": "4-246", "price": 15800}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2022-04-09", "deal_type": "중개거래", "dong": "송현동", "floor": 2, "jibun": "12-4", "price": 25000}
+{"apt": "삼부", "area": 62.41, "built": 1985, "date": "2022-04-09", "deal_type": "중개거래", "dong": "송현동", "floor": 4, "jibun": "12-4", "price": 25400}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2022-04-09", "deal_type": "중개거래", "dong": "송현동", "floor": 8, "jibun": "66-24", "price": 13000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2022-04-09", "deal_type": "중개거래", "dong": "인현동", "floor": 6, "jibun": "3-2", "price": 15100}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-04-09", "deal_type": "중개거래", "dong": "화수동", "floor": 2, "jibun": "2-7", "price": 15000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2022-04-11", "deal_type": "중개거래", "dong": "항동7가", "floor": 6, "jibun": "27-107", "price": 19000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-04-12", "deal_type": "중개거래", "dong": "항동7가", "floor": 14, "jibun": "27-107", "price": 12825}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2022-04-13", "deal_type": "중개거래", "dong": "송림동", "floor": 10, "jibun": "228-1", "price": 16500}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2022-04-13", "deal_type": "중개거래", "dong": "송림동", "floor": 7, "jibun": "8-661", "price": 13750}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2022-04-13", "deal_type": "중개거래", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 11300}
+{"apt": "누리", "area": 59.35, "built": 1994, "date": "2022-04-15", "deal_type": "중개거래", "dong": "송현동", "floor": 1, "jibun": "23-31", "price": 13500}
+{"apt": "건흥", "area": 30.08, "built": 1977, "date": "2022-04-16", "deal_type": "중개거래", "dong": "관동3가", "floor": 4, "jibun": "4-1", "price": 4700}
+{"apt": "송현주공", "area": 58.65, "built": 1993, "date": "2022-04-16", "deal_type": "중개거래", "dong": "송현동", "floor": 8, "jibun": "6-26", "price": 22000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2022-04-16", "deal_type": "중개거래", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 17500}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2022-04-16", "deal_type": "중개거래", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 32000}
+{"apt": "미륭", "area": 35.52, "built": 1990, "date": "2022-04-17", "deal_type": "중개거래", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 11000}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2022-04-18", "deal_type": "중개거래", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 18000}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2022-04-19", "deal_type": "중개거래", "dong": "송현동", "floor": 8, "jibun": "6-26", "price": 11000}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2022-04-19", "deal_type": "중개거래", "dong": "송현동", "floor": 3, "jibun": "6-26", "price": 13500}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2022-04-20", "deal_type": "중개거래", "dong": "송현동", "floor": 3, "jibun": "1", "price": 12800}
+{"apt": "삼두1차", "area": 54.72, "built": 1984, "date": "2022-04-20", "deal_type": "중개거래", "dong": "송현동", "floor": 11, "jibun": "66-51", "price": 18000}
+{"apt": "송현1차", "area": 43.34, "built": 1982, "date": "2022-04-21", "deal_type": "직거래", "dong": "송현동", "floor": 1, "jibun": "1", "price": 12000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-04-21", "deal_type": "중개거래", "dong": "화수동", "floor": 4, "jibun": "2-7", "price": 15000}
+{"apt": "누리", "area": 59.35, "built": 1994, "date": "2022-04-22", "deal_type": "중개거래", "dong": "송현동", "floor": 2, "jibun": "23-31", "price": 15700}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2022-04-22", "deal_type": "중개거래", "dong": "송현동", "floor": 8, "jibun": "6-26", "price": 13850}
+{"apt": "라이프비취3차", "area": 84.85, "built": 1990, "date": "2022-04-22", "deal_type": "중개거래", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 24300}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2022-04-25", "deal_type": "중개거래", "dong": "송현동", "floor": 4, "jibun": "1-9", "price": 15500}
+{"apt": "라이프비취1차", "area": 100.23, "built": 1980, "date": "2022-04-26", "deal_type": "중개거래", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 25000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-04-26", "deal_type": "중개거래", "dong": "화수동", "floor": 4, "jibun": "2-7", "price": 15500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2022-04-28", "deal_type": "중개거래", "dong": "인현동", "floor": 5, "jibun": "3-2", "price": 14000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2022-04-28", "deal_type": "직거래", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 9500}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2022-04-28", "deal_type": "직거래", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 9500}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2022-04-30", "deal_type": "중개거래", "dong": "송현동", "floor": 10, "jibun": "66-26", "price": 23500}
+{"apt": "동부", "area": 84.75, "built": 1990, "date": "2022-05-01", "deal_type": "중개거래", "dong": "송현동", "floor": 10, "jibun": "66-26", "price": 34500}
+{"apt": "삼익", "area": 108.0, "built": 1979, "date": "2022-05-01", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 10, "jibun": "54-5", "price": 24000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2022-05-02", "deal_type": "중개거래", "dong": "인현동", "floor": 5, "jibun": "3-2", "price": 14000}
+{"apt": "뉴월드", "area": 77.55, "built": 1994, "date": "2022-05-03", "deal_type": "중개거래", "dong": "도원동", "floor": 5, "jibun": "41-25", "price": 18500}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2022-05-07", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 10, "jibun": "54-5", "price": 15000}
+{"apt": "삼익", "area": 80.3, "built": 1979, "date": "2022-05-07", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 10, "jibun": "54-5", "price": 18500}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2022-05-09", "deal_type": "중개거래", "dong": "송현동", "floor": 14, "jibun": "66-26", "price": 16500}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2022-05-10", "deal_type": "중개거래", "dong": "송림동", "floor": 5, "jibun": "8-661", "price": 13500}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-05-11", "deal_type": "중개거래", "dong": "항동7가", "floor": 12, "jibun": "27-107", "price": 11700}
+{"apt": "동일", "area": 51.48, "built": 1987, "date": "2022-05-12", "deal_type": "중개거래", "dong": "북성동1가", "floor": 5, "jibun": "4-246", "price": 15700}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2022-05-13", "deal_type": "중개거래", "dong": "송현동", "floor": 6, "jibun": "66-24", "price": 19500}
+{"apt": "누리타워", "area": 59.16, "built": 1994, "date": "2022-05-14", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 19, "jibun": "50-10", "price": 15000}
+{"apt": "삼익", "area": 107.31, "built": 1979, "date": "2022-05-15", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 10, "jibun": "54-5", "price": 24500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2022-05-15", "deal_type": "중개거래", "dong": "인현동", "floor": 7, "jibun": "3-2", "price": 16000}
+{"apt": "라이프비취1차", "area": 113.49, "built": 1980, "date": "2022-05-16", "deal_type": "중개거래", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 24000}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2022-05-17", "deal_type": "중개거래", "dong": "송현동", "floor": 3, "jibun": "6-26", "price": 13400}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-05-18", "deal_type": "중개거래", "dong": "화수동", "floor": 4, "jibun": "2-7", "price": 14700}
+{"apt": "동일", "area": 48.96, "built": 1987, "date": "2022-05-19", "deal_type": "직거래", "dong": "북성동1가", "floor": 3, "jibun": "4-246", "price": 14000}
+{"apt": "누리", "area": 59.35, "built": 1994, "date": "2022-05-20", "deal_type": "직거래", "dong": "송현동", "floor": 3, "jibun": "23-31", "price": 16000}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2022-05-21", "deal_type": "직거래", "dong": "북성동1가", "floor": 5, "jibun": "4-246", "price": 12000}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2022-05-23", "deal_type": "중개거래", "dong": "만석동", "floor": 5, "jibun": "43-15", "price": 9800}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2022-05-23", "deal_type": "중개거래", "dong": "송림동", "floor": 9, "jibun": "8-661", "price": 13000}
+{"apt": "누리", "area": 59.35, "built": 1994, "date": "2022-05-23", "deal_type": "중개거래", "dong": "송현동", "floor": 1, "jibun": "23-31", "price": 15800}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2022-05-23", "deal_type": "중개거래", "dong": "송현동", "floor": 5, "jibun": "66-26", "price": 26000}
+{"apt": "송현1차", "area": 43.34, "built": 1982, "date": "2022-05-25", "deal_type": "중개거래", "dong": "송현동", "floor": 5, "jibun": "1", "price": 13000}
+{"apt": "라이프비취2차", "area": 55.97, "built": 1981, "date": "2022-05-25", "deal_type": "중개거래", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 10500}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2022-05-25", "deal_type": "직거래", "dong": "항동7가", "floor": 8, "jibun": "27-107", "price": 21500}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-05-26", "deal_type": "중개거래", "dong": "항동7가", "floor": 14, "jibun": "27-107", "price": 12000}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2022-05-27", "deal_type": "중개거래", "dong": "송현동", "floor": 4, "jibun": "66-24", "price": 23000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2022-05-27", "deal_type": "중개거래", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 17500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2022-05-28", "deal_type": "중개거래", "dong": "인현동", "floor": 8, "jibun": "3-2", "price": 15500}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2022-05-29", "deal_type": "중개거래", "dong": "송림동", "floor": 1, "jibun": "228-1", "price": 17500}
+{"apt": "건흥", "area": 58.51, "built": 1977, "date": "2022-05-30", "deal_type": "중개거래", "dong": "관동3가", "floor": 3, "jibun": "4-1", "price": 8000}
+{"apt": "라이프비취2차", "area": 51.04, "built": 1981, "date": "2022-05-30", "deal_type": "중개거래", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 12700}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2022-05-31", "deal_type": "중개거래", "dong": "항동7가", "floor": 12, "jibun": "27-107", "price": 18000}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2022-06-01", "deal_type": "중개거래", "dong": "송현동", "floor": 5, "jibun": "66-24", "price": 14200}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2022-06-01", "deal_type": "중개거래", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 13800}
+{"apt": "송현주공", "area": 74.16, "built": 1993, "date": "2022-06-02", "deal_type": "중개거래", "dong": "송현동", "floor": 3, "jibun": "6-26", "price": 23000}
+{"apt": "삼익", "area": 107.31, "built": 1979, "date": "2022-06-02", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 6, "jibun": "54-5", "price": 23900}
+{"apt": "라이프비취2차", "area": 68.76, "built": 1981, "date": "2022-06-02", "deal_type": "중개거래", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 16000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2022-06-04", "deal_type": "중개거래", "dong": "송현동", "floor": 8, "jibun": "66-26", "price": 17000}
+{"apt": "누리", "area": 59.35, "built": 1994, "date": "2022-06-06", "deal_type": "중개거래", "dong": "송현동", "floor": 8, "jibun": "23-31", "price": 17000}
+{"apt": "뉴월드", "area": 59.95, "built": 1994, "date": "2022-06-09", "deal_type": "중개거래", "dong": "도원동", "floor": 4, "jibun": "41-25", "price": 15200}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-06-10", "deal_type": "중개거래", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 14700}
+{"apt": "동일", "area": 51.48, "built": 1987, "date": "2022-06-11", "deal_type": "중개거래", "dong": "북성동1가", "floor": 2, "jibun": "4-246", "price": 12000}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2022-06-11", "deal_type": "중개거래", "dong": "송현동", "floor": 10, "jibun": "66-24", "price": 13200}
+{"apt": "뉴월드", "area": 40.72, "built": 1994, "date": "2022-06-14", "deal_type": "중개거래", "dong": "도원동", "floor": 6, "jibun": "41-25", "price": 9000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2022-06-14", "deal_type": "중개거래", "dong": "송현동", "floor": 14, "jibun": "66-26", "price": 16000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2022-06-15", "deal_type": "중개거래", "dong": "항동7가", "floor": 11, "jibun": "27-107", "price": 18500}
+{"apt": "삼두1차", "area": 42.93, "built": 1984, "date": "2022-06-16", "deal_type": "중개거래", "dong": "송현동", "floor": 8, "jibun": "66-51", "price": 11000}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2022-06-16", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 7, "jibun": "54-5", "price": 15000}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2022-06-19", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 7, "jibun": "54-5", "price": 19000}
+{"apt": "누리타워", "area": 84.69, "built": 1994, "date": "2022-06-20", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 18, "jibun": "50-10", "price": 17000}
+{"apt": "삼익", "area": 107.31, "built": 1979, "date": "2022-06-20", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 2, "jibun": "54-5", "price": 23700}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2022-06-21", "deal_type": "중개거래", "dong": "만석동", "floor": 2, "jibun": "43-15", "price": 10800}
+{"apt": "뉴월드", "area": 59.95, "built": 1994, "date": "2022-06-22", "deal_type": "직거래", "dong": "도원동", "floor": 1, "jibun": "41-25", "price": 14300}
+{"apt": "송현주공", "area": 36.0, "built": 1993, "date": "2022-06-23", "deal_type": "중개거래", "dong": "송현동", "floor": 9, "jibun": "6-26", "price": 13000}
+{"apt": "삼익", "area": 107.31, "built": 1979, "date": "2022-06-23", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 12, "jibun": "54-5", "price": 26800}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2022-06-24", "deal_type": "중개거래", "dong": "송림동", "floor": 3, "jibun": "8-661", "price": 12400}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2022-06-25", "deal_type": "중개거래", "dong": "항동7가", "floor": 4, "jibun": "27-107", "price": 10600}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-06-25", "deal_type": "중개거래", "dong": "화수동", "floor": 2, "jibun": "2-7", "price": 14500}
+{"apt": "뉴월드", "area": 59.95, "built": 1994, "date": "2022-06-29", "deal_type": "중개거래", "dong": "도원동", "floor": 1, "jibun": "41-25", "price": 15300}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2022-06-30", "deal_type": "중개거래", "dong": "송림동", "floor": 2, "jibun": "8-661", "price": 10000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2022-07-07", "deal_type": "중개거래", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 13500}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-07-07", "deal_type": "중개거래", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 14100}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-07-09", "deal_type": "중개거래", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 12000}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2022-07-10", "deal_type": "중개거래", "dong": "송현동", "floor": 1, "jibun": "66-26", "price": 25000}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2022-07-11", "deal_type": "중개거래", "dong": "송현동", "floor": 2, "jibun": "66-26", "price": 22500}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-07-13", "deal_type": "중개거래", "dong": "항동7가", "floor": 12, "jibun": "27-107", "price": 13000}
+{"apt": "삼두1차", "area": 42.93, "built": 1984, "date": "2022-07-15", "deal_type": "중개거래", "dong": "송현동", "floor": 8, "jibun": "66-51", "price": 12500}
+{"apt": "라이프비취2차", "area": 55.97, "built": 1981, "date": "2022-07-15", "deal_type": "중개거래", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 10000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2022-07-16", "deal_type": "중개거래", "dong": "항동7가", "floor": 11, "jibun": "27-107", "price": 18000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2022-07-16", "deal_type": "중개거래", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 11000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2022-07-16", "deal_type": "중개거래", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 24500}
+{"apt": "라이프비취1차", "area": 84.66, "built": 1980, "date": "2022-07-18", "deal_type": "중개거래", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 19000}
+{"apt": "삼익", "area": 58.74, "built": 1979, "date": "2022-07-19", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 3, "jibun": "54-5", "price": 13000}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2022-07-20", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 10, "jibun": "54-5", "price": 16000}
+{"apt": "라이프비취1차", "area": 88.07, "built": 1980, "date": "2022-07-21", "deal_type": "중개거래", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 20900}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2022-07-22", "deal_type": "중개거래", "dong": "송현동", "floor": 11, "jibun": "6-26", "price": 14300}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-07-22", "deal_type": "중개거래", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 13800}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-07-23", "deal_type": "중개거래", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 13300}
+{"apt": "송현2", "area": 63.72, "built": 1984, "date": "2022-07-25", "deal_type": "중개거래", "dong": "송현동", "floor": 3, "jibun": "1-9", "price": 20200}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2022-07-26", "deal_type": "중개거래", "dong": "항동7가", "floor": 9, "jibun": "27-107", "price": 18900}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2022-07-26", "deal_type": "중개거래", "dong": "항동7가", "floor": 11, "jibun": "27-107", "price": 18500}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2022-07-26", "deal_type": "중개거래", "dong": "항동7가", "floor": 4, "jibun": "27-107", "price": 12000}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2022-07-27", "deal_type": "중개거래", "dong": "송림동", "floor": 5, "jibun": "8-661", "price": 13000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2022-07-30", "deal_type": "중개거래", "dong": "송현동", "floor": 15, "jibun": "66-26", "price": 16000}
+{"apt": "라이프비취2차", "area": 71.17, "built": 1981, "date": "2022-08-01", "deal_type": "중개거래", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 20600}
+{"apt": "라이프비취2차", "area": 71.17, "built": 1981, "date": "2022-08-01", "deal_type": "직거래", "dong": "항동7가", "floor": 12, "jibun": "27-107", "price": 40300}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2022-08-02", "deal_type": "중개거래", "dong": "송현동", "floor": 2, "jibun": "1", "price": 10000}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2022-08-03", "deal_type": "직거래", "dong": "북성동1가", "floor": 5, "jibun": "4-246", "price": 12000}
+{"apt": "라이프비취2차", "area": 105.66, "built": 1981, "date": "2022-08-03", "deal_type": "직거래", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 27000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2022-08-06", "deal_type": "중개거래", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 16000}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2022-08-13", "deal_type": "중개거래", "dong": "송현동", "floor": 12, "jibun": "66-24", "price": 13000}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2022-08-13", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 4, "jibun": "54-5", "price": 18500}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2022-08-19", "deal_type": "중개거래", "dong": "송현동", "floor": 8, "jibun": "66-26", "price": 15800}
+{"apt": "동부", "area": 84.75, "built": 1990, "date": "2022-08-21", "deal_type": "중개거래", "dong": "송현동", "floor": 12, "jibun": "66-26", "price": 32500}
+{"apt": "라이프비취2차", "area": 51.04, "built": 1981, "date": "2022-08-22", "deal_type": "직거래", "dong": "항동7가", "floor": 8, "jibun": "27-107", "price": 11000}
+{"apt": "라이프비취2차", "area": 105.66, "built": 1981, "date": "2022-08-22", "deal_type": "중개거래", "dong": "항동7가", "floor": 14, "jibun": "27-107", "price": 27000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-08-23", "deal_type": "중개거래", "dong": "항동7가", "floor": 6, "jibun": "27-107", "price": 13350}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2022-08-24", "deal_type": "중개거래", "dong": "화수동", "floor": 4, "jibun": "2-7", "price": 16900}
+{"apt": "동일", "area": 51.48, "built": 1987, "date": "2022-08-25", "deal_type": "직거래", "dong": "북성동1가", "floor": 2, "jibun": "4-246", "price": 15500}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2022-08-25", "deal_type": "중개거래", "dong": "신흥동1가", "floor": 18, "jibun": "34-8", "price": 24200}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2022-08-25", "deal_type": "중개거래", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 10500}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2022-08-27", "deal_type": "중개거래", "dong": "송현동", "floor": 11, "jibun": "66-26", "price": 15800}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2022-08-29", "deal_type": "중개거래", "dong": "송현동", "floor": 4, "jibun": "66-24", "price": 14500}
+{"apt": "삼익", "area": 58.74, "built": 1979, "date": "2022-08-31", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 2, "jibun": "54-5", "price": 12500}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2022-09-01", "deal_type": "중개거래", "dong": "송현동", "floor": 1, "jibun": "12-4", "price": 18000}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2022-09-02", "deal_type": "중개거래", "dong": "송현동", "floor": 6, "jibun": "66-26", "price": 20000}
+{"apt": "라이프비취2차", "area": 105.66, "built": 1981, "date": "2022-09-02", "deal_type": "중개거래", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 29000}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2022-09-06", "deal_type": "중개거래", "dong": "송림동", "floor": 2, "jibun": "228-1", "price": 19700}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2022-09-08", "deal_type": "중개거래", "dong": "항동7가", "floor": 5, "jibun": "27-107", "price": 25000}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2022-09-13", "deal_type": "중개거래", "dong": "송현동", "floor": 1, "jibun": "66-24", "price": 14000}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2022-09-15", "deal_type": "중개거래", "dong": "송현동", "floor": 13, "jibun": "6-26", "price": 12400}
+{"apt": "동부", "area": 84.75, "built": 1990, "date": "2022-09-15", "deal_type": "중개거래", "dong": "송현동", "floor": 13, "jibun": "66-26", "price": 33000}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2022-09-16", "deal_type": "중개거래", "dong": "항동7가", "floor": 10, "jibun": "27-107", "price": 34000}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2022-09-17", "deal_type": "중개거래", "dong": "송현동", "floor": 3, "jibun": "6-26", "price": 12900}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2022-09-20", "deal_type": "중개거래", "dong": "송현동", "floor": 8, "jibun": "66-26", "price": 15800}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2022-09-20", "deal_type": "중개거래", "dong": "화수동", "floor": 3, "jibun": "2-7", "price": 14000}
+{"apt": "삼익", "area": 59.11, "built": 1979, "date": "2022-09-21", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 1, "jibun": "54-5", "price": 15000}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2022-09-21", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 10, "jibun": "54-5", "price": 17000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-09-21", "deal_type": "중개거래", "dong": "항동7가", "floor": 7, "jibun": "27-107", "price": 12550}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2022-09-24", "deal_type": "중개거래", "dong": "송림동", "floor": 1, "jibun": "228-1", "price": 13000}
+{"apt": "라이프비취2차", "area": 128.58, "built": 1981, "date": "2022-09-24", "deal_type": "중개거래", "dong": "항동7가", "floor": 13, "jibun": "27-107", "price": 30000}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2022-09-26", "deal_type": "중개거래", "dong": "송현동", "floor": 6, "jibun": "66-24", "price": 10000}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2022-09-26", "deal_type": "중개거래", "dong": "송현동", "floor": 13, "jibun": "66-26", "price": 29000}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2022-09-27", "deal_type": "중개거래", "dong": "송현동", "floor": 2, "jibun": "1-9", "price": 12500}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2022-09-27", "deal_type": "중개거래", "dong": "항동7가", "floor": 2, "jibun": "27-107", "price": 21000}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2022-09-28", "deal_type": "중개거래", "dong": "송현동", "floor": 10, "jibun": "66-26", "price": 27000}
+{"apt": "누리타워", "area": 59.16, "built": 1994, "date": "2022-09-28", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 11, "jibun": "50-10", "price": 14900}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2022-09-29", "deal_type": "중개거래", "dong": "송현동", "floor": 10, "jibun": "6-26", "price": 14500}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2022-09-29", "deal_type": "직거래", "dong": "신흥동2가", "floor": 2, "jibun": "54-5", "price": 14000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2022-10-04", "deal_type": "중개거래", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 10000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2022-10-04", "deal_type": "중개거래", "dong": "항동7가", "floor": 1, "jibun": "27-107", "price": 10000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2022-10-06", "deal_type": "중개거래", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 13000}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2022-10-11", "deal_type": "중개거래", "dong": "만석동", "floor": 3, "jibun": "43-15", "price": 8300}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2022-10-13", "deal_type": "중개거래", "dong": "인현동", "floor": 5, "jibun": "3-2", "price": 13000}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2022-10-16", "deal_type": "직거래", "dong": "송림동", "floor": 1, "jibun": "228-1", "price": 16800}
+{"apt": "송현2", "area": 63.72, "built": 1984, "date": "2022-10-18", "deal_type": "중개거래", "dong": "송현동", "floor": 3, "jibun": "1-9", "price": 19000}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2022-10-18", "deal_type": "직거래", "dong": "송현동", "floor": 7, "jibun": "66-24", "price": 18500}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2022-10-18", "deal_type": "직거래", "dong": "송현동", "floor": 7, "jibun": "66-26", "price": 13000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-10-19", "deal_type": "중개거래", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 12000}
+{"apt": "뉴월드", "area": 59.95, "built": 1994, "date": "2022-10-21", "deal_type": "중개거래", "dong": "도원동", "floor": 6, "jibun": "41-25", "price": 14300}
+{"apt": "건흥", "area": 58.51, "built": 1977, "date": "2022-10-24", "deal_type": "중개거래", "dong": "관동3가", "floor": 4, "jibun": "4-1", "price": 8500}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2022-10-25", "deal_type": "중개거래", "dong": "송현동", "floor": 12, "jibun": "66-24", "price": 20800}
+{"apt": "누리타워", "area": 84.69, "built": 1994, "date": "2022-10-30", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 14, "jibun": "50-10", "price": 20800}
+{"apt": "삼부", "area": 56.1, "built": 1985, "date": "2022-11-01", "deal_type": "중개거래", "dong": "송현동", "floor": 1, "jibun": "12-4", "price": 20000}
+{"apt": "만석2차", "area": 41.46, "built": 1987, "date": "2022-11-05", "deal_type": "중개거래", "dong": "만석동", "floor": 4, "jibun": "71", "price": 8500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2022-11-07", "deal_type": "중개거래", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 14500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2022-11-07", "deal_type": "중개거래", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 14500}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2022-11-08", "deal_type": "중개거래", "dong": "만석동", "floor": 4, "jibun": "43-15", "price": 9000}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2022-11-08", "deal_type": "직거래", "dong": "송현동", "floor": 4, "jibun": "6-26", "price": 12000}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2022-11-12", "deal_type": "중개거래", "dong": "송림동", "floor": 2, "jibun": "228-1", "price": 20000}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2022-11-14", "deal_type": "중개거래", "dong": "송현동", "floor": 9, "jibun": "66-24", "price": 9900}
+{"apt": "동일", "area": 48.96, "built": 1987, "date": "2022-11-15", "deal_type": "직거래", "dong": "북성동1가", "floor": 4, "jibun": "4-246", "price": 14500}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2022-11-15", "deal_type": "중개거래", "dong": "송현동", "floor": 10, "jibun": "66-26", "price": 25000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2022-11-16", "deal_type": "중개거래", "dong": "항동7가", "floor": 3, "jibun": "27-107", "price": 18500}
+{"apt": "송월", "area": 41.19, "built": 1980, "date": "2022-11-21", "deal_type": "중개거래", "dong": "송월동1가", "floor": 2, "jibun": "10-1", "price": 16000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2022-11-23", "deal_type": "중개거래", "dong": "항동7가", "floor": 14, "jibun": "27-107", "price": 9400}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2022-11-25", "deal_type": "중개거래", "dong": "송현동", "floor": 11, "jibun": "66-24", "price": 14000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2022-11-25", "deal_type": "중개거래", "dong": "송현동", "floor": 9, "jibun": "66-26", "price": 15500}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2022-11-25", "deal_type": "중개거래", "dong": "송현동", "floor": 9, "jibun": "66-26", "price": 15500}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2022-11-28", "deal_type": "중개거래", "dong": "화수동", "floor": 1, "jibun": "2-7", "price": 12100}
+{"apt": "라이프비취1차", "area": 113.45, "built": 1980, "date": "2022-12-09", "deal_type": "중개거래", "dong": "항동7가", "floor": 14, "jibun": "27-107", "price": 17000}
+{"apt": "삼익", "area": 79.74, "built": 1979, "date": "2022-12-10", "deal_type": "중개거래", "dong": "신흥동2가", "floor": 14, "jibun": "54-5", "price": 16800}
+{"apt": "만석2차", "area": 41.46, "built": 1987, "date": "2022-12-20", "deal_type": "중개거래", "dong": "만석동", "floor": 1, "jibun": "71", "price": 8500}
+{"apt": "송현주공", "area": 74.16, "built": 1993, "date": "2022-12-24", "deal_type": "중개거래", "dong": "송현동", "floor": 7, "jibun": "6-26", "price": 24500}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2022-12-28", "deal_type": "직거래", "dong": "북성동1가", "floor": 3, "jibun": "4-246", "price": 11000}
+{"apt": "라이프비취2차", "area": 51.04, "built": 1981, "date": "2022-12-28", "deal_type": "중개거래", "dong": "항동7가", "floor": 12, "jibun": "27-107", "price": 12200}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2023-01-03", "deal_type": "직거래", "dong": "신흥동1가", "dong_no": "101", "floor": 11, "jibun": "34-8", "price": 21000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-01-03", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 6, "jibun": "27-107", "price": 9500}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2023-01-04", "deal_type": "중개거래", "dong": "송현동", "dong_no": "3", "floor": 1, "jibun": "66-24", "price": 8700}
+{"apt": "뉴월드", "area": 40.72, "built": 1994, "date": "2023-01-06", "deal_type": "중개거래", "dong": "도원동", "dong_no": "1", "floor": 2, "jibun": "41-25", "price": 7800}
+{"apt": "라이프비취2차", "area": 105.66, "built": 1981, "date": "2023-01-06", "deal_type": "직거래", "dong": "항동7가", "dong_no": "10", "floor": 6, "jibun": "27-107", "price": 25000}
+{"apt": "송현주공", "area": 36.0, "built": 1993, "date": "2023-01-09", "deal_type": "중개거래", "dong": "송현동", "dong_no": "103", "floor": 5, "jibun": "6-26", "price": 12500}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2023-01-09", "deal_type": "직거래", "dong": "항동7가", "dong_no": "15", "floor": 8, "jibun": "27-107", "price": 8000}
+{"apt": "동영", "area": 62.52, "built": 1985, "date": "2023-01-10", "deal_type": "직거래", "dong": "신흥동3가", "dong_no": "1", "floor": 2, "jibun": "37-9", "price": 11500}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2023-01-10", "deal_type": "직거래", "dong": "화수동", "dong_no": "114", "floor": 3, "jibun": "2-7", "price": 13000}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2023-01-11", "deal_type": "중개거래", "dong": "송현동", "dong_no": "101", "floor": 2, "jibun": "6-26", "price": 13000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-01-11", "deal_type": "직거래", "dong": "항동7가", "dong_no": "4", "floor": 11, "jibun": "27-107", "price": 16000}
+{"apt": "만석3", "area": 42.19, "built": 1991, "date": "2023-01-13", "deal_type": "중개거래", "dong": "만석동", "floor": 4, "jibun": "43-79", "price": 9400}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2023-01-13", "deal_type": "직거래", "dong": "송현동", "dong_no": "20", "floor": 4, "jibun": "1-9", "price": 12000}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2023-01-13", "deal_type": "중개거래", "dong": "인현동", "floor": 9, "jibun": "3-2", "price": 15500}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-01-18", "deal_type": "직거래", "dong": "항동7가", "dong_no": "4", "floor": 4, "jibun": "27-107", "price": 9500}
+{"apt": "라이프비취1차", "area": 90.84, "built": 1980, "date": "2023-01-20", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "1", "floor": 1, "jibun": "27-107", "price": 15900}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2023-01-26", "deal_type": "중개거래", "dong": "만석동", "dong_no": "다", "floor": 3, "jibun": "43-15", "price": 6500}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2023-01-27", "deal_type": "중개거래", "dong": "송현동", "dong_no": "5", "floor": 5, "jibun": "66-24", "price": 8700}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2023-01-28", "deal_type": "중개거래", "dong": "화수동", "dong_no": "110", "floor": 1, "jibun": "2-7", "price": 11500}
+{"apt": "선광", "area": 60.0, "built": 1996, "date": "2023-01-30", "deal_type": "중개거래", "dong": "북성동2가", "floor": 8, "jibun": "5-1", "price": 15000}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2023-02-02", "deal_type": "중개거래", "dong": "송현동", "dong_no": "8", "floor": 10, "jibun": "66-26", "price": 20500}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2023-02-05", "deal_type": "중개거래", "dong": "송현동", "dong_no": "9", "floor": 4, "jibun": "66-26", "price": 25000}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2023-02-06", "deal_type": "중개거래", "dong": "송현동", "dong_no": "104", "floor": 14, "jibun": "6-26", "price": 15000}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2023-02-06", "deal_type": "중개거래", "dong": "송현동", "dong_no": "5", "floor": 7, "jibun": "66-24", "price": 14500}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-02-07", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 9, "jibun": "27-107", "price": 11500}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-02-08", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 9, "jibun": "27-107", "price": 11200}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-02-09", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 5, "jibun": "27-107", "price": 10000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2023-02-13", "deal_type": "직거래", "dong": "송현동", "dong_no": "4", "floor": 6, "jibun": "66-26", "price": 12000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2023-02-13", "deal_type": "중개거래", "dong": "화수동", "dong_no": "107", "floor": 2, "jibun": "2-7", "price": 12500}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2023-02-14", "deal_type": "중개거래", "dong": "화수동", "dong_no": "106", "floor": 2, "jibun": "2-7", "price": 11800}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2023-02-15", "deal_type": "중개거래", "dong": "송현동", "dong_no": "6", "floor": 3, "jibun": "66-24", "price": 18000}
+{"apt": "만석2차", "area": 41.46, "built": 1987, "date": "2023-02-17", "deal_type": "중개거래", "dong": "만석동", "dong_no": "나", "floor": 1, "jibun": "71", "price": 12200}
+{"apt": "누리", "area": 59.35, "built": 1994, "date": "2023-02-17", "deal_type": "직거래", "dong": "송현동", "floor": 18, "jibun": "23-31", "price": 15500}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2023-02-17", "deal_type": "중개거래", "dong": "송현동", "dong_no": "8", "floor": 8, "jibun": "66-26", "price": 14800}
+{"apt": "송월", "area": 66.51, "built": 1980, "date": "2023-02-18", "deal_type": "중개거래", "dong": "송월동1가", "dong_no": "2", "floor": 3, "jibun": "10-1", "price": 22200}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2023-02-20", "deal_type": "중개거래", "dong": "송림동", "floor": 11, "jibun": "8-661", "price": 10000}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2023-02-22", "deal_type": "중개거래", "dong": "송현동", "dong_no": "4", "floor": 15, "jibun": "66-26", "price": 15000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2023-02-27", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "2", "floor": 5, "jibun": "27-107", "price": 16000}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2023-03-01", "deal_type": "중개거래", "dong": "송림동", "dong_no": "2", "floor": 12, "jibun": "228-1", "price": 13500}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2023-03-02", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "12", "floor": 8, "jibun": "27-107", "price": 25500}
+{"apt": "뉴월드", "area": 59.95, "built": 1994, "date": "2023-03-03", "deal_type": "중개거래", "dong": "도원동", "dong_no": "1", "floor": 9, "jibun": "41-25", "price": 14000}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2023-03-06", "deal_type": "중개거래", "dong": "송현동", "dong_no": "9", "floor": 12, "jibun": "66-26", "price": 23500}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2023-03-08", "deal_type": "중개거래", "dong": "인현동", "floor": 8, "jibun": "3-2", "price": 13300}
+{"apt": "라이프비취3차", "area": 84.85, "built": 1990, "date": "2023-03-08", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "5", "floor": 15, "jibun": "27-107", "price": 22000}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2023-03-10", "deal_type": "직거래", "dong": "송현동", "dong_no": "8", "floor": 7, "jibun": "66-26", "price": 10000}
+{"apt": "라이프비취2차", "area": 51.04, "built": 1981, "date": "2023-03-10", "deal_type": "직거래", "dong": "항동7가", "dong_no": "15", "floor": 14, "jibun": "27-107", "price": 11000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2023-03-12", "deal_type": "중개거래", "dong": "화수동", "dong_no": "113", "floor": 2, "jibun": "2-7", "price": 11000}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2023-03-13", "deal_type": "중개거래", "dong": "신흥동2가", "dong_no": "1", "floor": 4, "jibun": "54-5", "price": 12600}
+{"apt": "라이프비취1차", "area": 100.56, "built": 1980, "date": "2023-03-13", "deal_type": "직거래", "dong": "항동7가", "dong_no": "1", "floor": 10, "jibun": "27-107", "price": 16000}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2023-03-14", "deal_type": "중개거래", "dong": "송현동", "dong_no": "3", "floor": 3, "jibun": "66-24", "price": 7900}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2023-03-15", "deal_type": "중개거래", "dong": "송림동", "dong_no": "2", "floor": 12, "jibun": "228-1", "price": 13000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2023-03-16", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "2", "floor": 2, "jibun": "27-107", "price": 16500}
+{"apt": "만석2차", "area": 41.46, "built": 1987, "date": "2023-03-17", "deal_type": "중개거래", "dong": "만석동", "dong_no": "나", "floor": 1, "jibun": "71", "price": 9800}
+{"apt": "삼두1차", "area": 66.69, "built": 1984, "date": "2023-03-18", "deal_type": "중개거래", "dong": "송현동", "dong_no": "1", "floor": 5, "jibun": "66-51", "price": 22000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2023-03-22", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "8", "floor": 6, "jibun": "27-107", "price": 19000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2023-03-25", "deal_type": "중개거래", "dong": "화수동", "dong_no": "105", "floor": 1, "jibun": "2-7", "price": 11300}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2023-03-27", "deal_type": "중개거래", "dong": "화수동", "dong_no": "109", "floor": 2, "jibun": "2-7", "price": 11300}
+{"apt": "라이프비취1차", "area": 113.45, "built": 1980, "date": "2023-03-28", "deal_type": "직거래", "dong": "항동7가", "dong_no": "3", "floor": 1, "jibun": "27-107", "price": 10500}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-03-28", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 14, "jibun": "27-107", "price": 9000}
+{"apt": "라이프비취2차", "area": 128.58, "built": 1981, "date": "2023-03-28", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "11", "floor": 4, "jibun": "27-107", "price": 27000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2023-03-28", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "14", "floor": 8, "jibun": "27-107", "price": 24500}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2023-03-29", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "7", "floor": 7, "jibun": "27-107", "price": 30000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-03-30", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 8, "jibun": "27-107", "price": 10000}
+{"apt": "라이프비취2차", "area": 71.17, "built": 1981, "date": "2023-04-01", "deal_type": "직거래", "dong": "항동7가", "dong_no": "16", "floor": 6, "jibun": "27-107", "price": 18300}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2023-04-05", "deal_type": "중개거래", "dong": "송림동", "dong_no": "1", "floor": 5, "jibun": "228-1", "price": 19700}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2023-04-05", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "2", "floor": 3, "jibun": "27-107", "price": 15500}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2023-04-05", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "12", "floor": 11, "jibun": "27-107", "price": 22000}
+{"apt": "라이프비취2차", "area": 71.17, "built": 1981, "date": "2023-04-07", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "15", "floor": 5, "jibun": "27-107", "price": 18200}
+{"apt": "라이프비취2차", "area": 71.17, "built": 1981, "date": "2023-04-07", "deal_type": "직거래", "dong": "항동7가", "dong_no": "15", "floor": 6, "jibun": "27-107", "price": 16000}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2023-04-14", "deal_type": "중개거래", "dong": "북성동1가", "dong_no": "A", "floor": 4, "jibun": "4-246", "price": 10300}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2023-04-14", "deal_type": "중개거래", "dong": "송현동", "dong_no": "8", "floor": 4, "jibun": "66-26", "price": 14000}
+{"apt": "동부", "area": 84.75, "built": 1990, "date": "2023-04-16", "deal_type": "중개거래", "dong": "송현동", "dong_no": "7", "floor": 13, "jibun": "66-26", "price": 27000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-04-17", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 8, "jibun": "27-107", "price": 9200}
+{"apt": "만석3", "area": 42.19, "built": 1991, "date": "2023-04-18", "deal_type": "직거래", "dong": "만석동", "floor": 4, "jibun": "43-79", "price": 10000}
+{"apt": "송현주공", "area": 51.66, "built": 1993, "date": "2023-04-20", "deal_type": "중개거래", "dong": "송현동", "dong_no": "104", "floor": 6, "jibun": "6-26", "price": 15400}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2023-04-20", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "2", "floor": 11, "jibun": "27-107", "price": 18000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2023-04-20", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "15", "floor": 12, "jibun": "27-107", "price": 10000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2023-04-20", "deal_type": "직거래", "dong": "항동7가", "dong_no": "12", "floor": 8, "jibun": "27-107", "price": 20000}
+{"apt": "동부", "area": 84.75, "built": 1990, "date": "2023-04-21", "deal_type": "중개거래", "dong": "송현동", "dong_no": "3", "floor": 14, "jibun": "66-26", "price": 27700}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2023-04-21", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "15", "floor": 13, "jibun": "27-107", "price": 9500}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2023-04-24", "deal_type": "중개거래", "dong": "송현동", "dong_no": "2", "floor": 14, "jibun": "66-26", "price": 12800}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2023-04-28", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "15", "floor": 8, "jibun": "27-107", "price": 10000}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2023-04-30", "deal_type": "중개거래", "dong": "송현동", "dong_no": "8", "floor": 14, "jibun": "66-26", "price": 19500}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2023-05-02", "deal_type": "중개거래", "dong": "화수동", "dong_no": "104", "floor": 5, "jibun": "2-7", "price": 11500}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2023-05-03", "deal_type": "직거래", "dong": "송현동", "dong_no": "22", "floor": 3, "jibun": "1-9", "price": 10000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-05-04", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 14, "jibun": "27-107", "price": 9100}
+{"apt": "누리", "area": 55.81, "built": 1992, "date": "2023-05-08", "deal_type": "중개거래", "dong": "송림동", "floor": 1, "jibun": "8-661", "price": 12000}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2023-05-10", "deal_type": "중개거래", "dong": "송현동", "dong_no": "8", "floor": 3, "jibun": "66-26", "price": 13500}
+{"apt": "라이프비취2차", "area": 105.66, "built": 1981, "date": "2023-05-12", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "10", "floor": 14, "jibun": "27-107", "price": 20000}
+{"apt": "송현주공", "area": 35.28, "built": 1993, "date": "2023-05-13", "deal_type": "중개거래", "dong": "송현동", "dong_no": "102", "floor": 4, "jibun": "6-26", "price": 11000}
+{"apt": "송월", "area": 66.51, "built": 1980, "date": "2023-05-15", "deal_type": "직거래", "dong": "송월동1가", "dong_no": "2", "floor": 4, "jibun": "10-1", "price": 21100}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-05-16", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 5, "jibun": "27-107", "price": 10600}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2023-05-17", "deal_type": "직거래", "dong": "만석동", "dong_no": "가", "floor": 1, "jibun": "43-15", "price": 7500}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2023-05-17", "deal_type": "중개거래", "dong": "송현동", "dong_no": "4", "floor": 10, "jibun": "66-26", "price": 15300}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2023-05-17", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "15", "floor": 4, "jibun": "27-107", "price": 11400}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2023-05-17", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "15", "floor": 11, "jibun": "27-107", "price": 12000}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2023-05-18", "deal_type": "중개거래", "dong": "송현동", "dong_no": "10", "floor": 14, "jibun": "66-26", "price": 24300}
+{"apt": "송현2", "area": 63.72, "built": 1984, "date": "2023-05-19", "deal_type": "중개거래", "dong": "송현동", "dong_no": "17", "floor": 1, "jibun": "1-9", "price": 17700}
+{"apt": "송현2", "area": 63.72, "built": 1984, "date": "2023-05-19", "deal_type": "중개거래", "dong": "송현동", "dong_no": "16", "floor": 4, "jibun": "1-9", "price": 17500}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-05-20", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 13, "jibun": "27-107", "price": 10700}
+{"apt": "송현주공", "area": 58.65, "built": 1993, "date": "2023-05-23", "deal_type": "직거래", "dong": "송현동", "dong_no": "107", "floor": 2, "jibun": "6-26", "price": 16000}
+{"apt": "라이프비취1차", "area": 84.66, "built": 1980, "date": "2023-05-23", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "2", "floor": 4, "jibun": "27-107", "price": 16100}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-05-23", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 4, "jibun": "27-107", "price": 10500}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2023-05-24", "deal_type": "중개거래", "dong": "송림동", "dong_no": "2", "floor": 10, "jibun": "228-1", "price": 18500}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2023-05-26", "deal_type": "중개거래", "dong": "화수동", "dong_no": "109", "floor": 3, "jibun": "2-7", "price": 11250}
+{"apt": "미륭", "area": 35.52, "built": 1990, "date": "2023-05-27", "deal_type": "직거래", "dong": "화수동", "dong_no": "102", "floor": 3, "jibun": "2-7", "price": 9000}
+{"apt": "송현1차", "area": 33.87, "built": 1982, "date": "2023-05-31", "deal_type": "직거래", "dong": "송현동", "dong_no": "2", "floor": 5, "jibun": "1", "price": 8000}
+{"apt": "라이프비취2차", "area": 105.66, "built": 1981, "date": "2023-05-31", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "11", "floor": 10, "jibun": "27-107", "price": 25000}
+{"apt": "라이프비취3차", "area": 84.85, "built": 1990, "date": "2023-06-03", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "5", "floor": 9, "jibun": "27-107", "price": 24500}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2023-06-05", "deal_type": "직거래", "dong": "송현동", "dong_no": "3", "floor": 12, "jibun": "66-24", "price": 9300}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2023-06-05", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "2", "floor": 2, "jibun": "27-107", "price": 14300}
+{"apt": "삼두1차", "area": 54.72, "built": 1984, "date": "2023-06-07", "deal_type": "중개거래", "dong": "송현동", "dong_no": "2", "floor": 3, "jibun": "66-51", "price": 18000}
+{"apt": "삼두2", "area": 54.72, "built": 1987, "date": "2023-06-10", "deal_type": "중개거래", "dong": "송현동", "dong_no": "5", "floor": 11, "jibun": "66-24", "price": 18800}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-06-10", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 9, "jibun": "27-107", "price": 10800}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2023-06-10", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "9", "floor": 2, "jibun": "27-107", "price": 25000}
+{"apt": "송현주공", "area": 74.16, "built": 1993, "date": "2023-06-11", "deal_type": "중개거래", "dong": "송현동", "dong_no": "106", "floor": 9, "jibun": "6-26", "price": 25000}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2023-06-14", "deal_type": "중개거래", "dong": "신흥동1가", "dong_no": "101", "floor": 1, "jibun": "34-8", "price": 17000}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2023-06-14", "deal_type": "중개거래", "dong": "화수동", "dong_no": "113", "floor": 3, "jibun": "2-7", "price": 11000}
+{"apt": "삼두2", "area": 30.78, "built": 1987, "date": "2023-06-17", "deal_type": "중개거래", "dong": "송현동", "dong_no": "3", "floor": 8, "jibun": "66-24", "price": 7400}
+{"apt": "동일", "area": 51.48, "built": 1987, "date": "2023-06-19", "deal_type": "중개거래", "dong": "북성동1가", "dong_no": "B", "floor": 2, "jibun": "4-246", "price": 14800}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-06-21", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 7, "jibun": "27-107", "price": 10520}
+{"apt": "삼익", "area": 58.41, "built": 1979, "date": "2023-06-23", "deal_type": "직거래", "dong": "신흥동2가", "dong_no": "1", "floor": 2, "jibun": "54-5", "price": 11000}
+{"apt": "누리", "area": 59.35, "built": 1994, "date": "2023-06-24", "deal_type": "중개거래", "dong": "송현동", "floor": 15, "jibun": "23-31", "price": 16000}
+{"apt": "라이프비취1차", "area": 88.07, "built": 1980, "date": "2023-06-26", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "1", "floor": 14, "jibun": "27-107", "price": 15500}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2023-06-26", "deal_type": "직거래", "dong": "화수동", "dong_no": "114", "floor": 4, "jibun": "2-7", "price": 10000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-06-28", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 14, "jibun": "27-107", "price": 11300}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2023-06-29", "deal_type": "중개거래", "dong": "화수동", "dong_no": "114", "floor": 2, "jibun": "2-7", "price": 15400}
+{"apt": "뉴월드", "area": 59.95, "built": 1994, "date": "2023-07-04", "deal_type": "중개거래", "dong": "도원동", "dong_no": "1", "floor": 3, "jibun": "41-25", "price": 15000}
+{"apt": "삼익", "area": 108.0, "built": 1979, "date": "2023-07-06", "deal_type": "직거래", "dong": "신흥동2가", "dong_no": "2", "floor": 4, "jibun": "54-5", "price": 14200}
+{"apt": "라이프비취1차", "area": 88.07, "built": 1980, "date": "2023-07-06", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "1", "floor": 10, "jibun": "27-107", "price": 16500}
+{"apt": "건흥", "area": 30.08, "built": 1977, "date": "2023-07-12", "deal_type": "중개거래", "dong": "관동3가", "floor": 2, "jibun": "4-1", "price": 4330}
+{"apt": "동부", "area": 40.89, "built": 1990, "date": "2023-07-12", "deal_type": "중개거래", "dong": "송현동", "dong_no": "2", "floor": 14, "jibun": "66-26", "price": 12900}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2023-07-14", "deal_type": "중개거래", "dong": "송현동", "dong_no": "7", "floor": 2, "jibun": "66-26", "price": 23700}
+{"apt": "라이프비취1차", "area": 113.45, "built": 1980, "date": "2023-07-15", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "3", "floor": 7, "jibun": "27-107", "price": 22000}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-07-15", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "4", "floor": 13, "jibun": "27-107", "price": 12500}
+{"apt": "풍림", "area": 84.77, "built": 1996, "date": "2023-07-18", "deal_type": "중개거래", "dong": "신흥동1가", "dong_no": "101", "floor": 5, "jibun": "34-8", "price": 25000}
+{"apt": "풍림", "area": 154.25, "built": 1996, "date": "2023-07-18", "deal_type": "중개거래", "dong": "신흥동1가", "dong_no": "102", "floor": 8, "jibun": "34-8", "price": 34000}
+{"apt": "선광", "area": 60.0, "built": 1996, "date": "2023-07-19", "deal_type": "중개거래", "dong": "북성동2가", "floor": 13, "jibun": "5-1", "price": 14600}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2023-07-19", "deal_type": "중개거래", "dong": "송현동", "dong_no": "3", "floor": 12, "jibun": "66-24", "price": 13300}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2023-07-20", "deal_type": "중개거래", "dong": "송림동", "dong_no": "2", "floor": 4, "jibun": "228-1", "price": 13000}
+{"apt": "동부", "area": 66.83, "built": 1990, "date": "2023-07-20", "deal_type": "중개거래", "dong": "송현동", "dong_no": "2", "floor": 7, "jibun": "66-26", "price": 21500}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2023-07-22", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "2", "floor": 6, "jibun": "27-107", "price": 17900}
+{"apt": "만석1", "area": 43.92, "built": 1985, "date": "2023-07-28", "deal_type": "중개거래", "dong": "만석동", "dong_no": "다", "floor": 4, "jibun": "43-15", "price": 10500}
+{"apt": "송현주공", "area": 36.0, "built": 1993, "date": "2023-07-28", "deal_type": "중개거래", "dong": "송현동", "dong_no": "103", "floor": 9, "jibun": "6-26", "price": 12900}
+{"apt": "라이프비취1차", "area": 100.23, "built": 1980, "date": "2023-08-01", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "3", "floor": 7, "jibun": "27-107", "price": 22500}
+{"apt": "동부", "area": 56.81, "built": 1990, "date": "2023-08-03", "deal_type": "중개거래", "dong": "송현동", "dong_no": "4", "floor": 15, "jibun": "66-26", "price": 16500}
+{"apt": "삼익", "area": 80.3, "built": 1979, "date": "2023-08-03", "deal_type": "직거래", "dong": "신흥동2가", "dong_no": "2", "floor": 12, "jibun": "54-5", "price": 16000}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2023-08-04", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "2", "floor": 10, "jibun": "27-107", "price": 19000}
+{"apt": "라이프비취3차", "area": 125.68, "built": 1990, "date": "2023-08-04", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "7", "floor": 4, "jibun": "27-107", "price": 35000}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2023-08-06", "deal_type": "중개거래", "dong": "송현동", "dong_no": "101", "floor": 7, "jibun": "6-26", "price": 14500}
+{"apt": "미륭", "area": 49.83, "built": 1990, "date": "2023-08-06", "deal_type": "중개거래", "dong": "화수동", "dong_no": "111", "floor": 1, "jibun": "2-7", "price": 14750}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2023-08-07", "deal_type": "중개거래", "dong": "송현동", "dong_no": "20", "floor": 2, "jibun": "1-9", "price": 7750}
+{"apt": "삼두2", "area": 41.31, "built": 1987, "date": "2023-08-08", "deal_type": "중개거래", "dong": "송현동", "dong_no": "5", "floor": 2, "jibun": "66-24", "price": 13000}
+{"apt": "라이프비취2차", "area": 40.0, "built": 1981, "date": "2023-08-10", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "15", "floor": 9, "jibun": "27-107", "price": 9700}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2023-08-10", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "12", "floor": 4, "jibun": "27-107", "price": 19000}
+{"apt": "삼익", "area": 107.31, "built": 1979, "date": "2023-08-11", "deal_type": "중개거래", "dong": "신흥동2가", "dong_no": "1", "floor": 6, "jibun": "54-5", "price": 18500}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2023-08-16", "deal_type": "중개거래", "dong": "화수동", "dong_no": "108", "floor": 4, "jibun": "2-7", "price": 10500}
+{"apt": "동부", "area": 84.75, "built": 1990, "date": "2023-08-17", "deal_type": "중개거래", "dong": "송현동", "dong_no": "3", "floor": 9, "jibun": "66-26", "price": 26700}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2023-08-18", "deal_type": "중개거래", "dong": "화수동", "dong_no": "110", "floor": 4, "jibun": "2-7", "price": 11200}
+{"apt": "미륭", "area": 39.92, "built": 1990, "date": "2023-08-19", "deal_type": "중개거래", "dong": "화수동", "dong_no": "104", "floor": 2, "jibun": "2-7", "price": 9700}
+{"apt": "라이프비취2차", "area": 54.71, "built": 1981, "date": "2023-08-21", "deal_type": "직거래", "dong": "항동7가", "dong_no": "4", "floor": 13, "jibun": "27-107", "price": 8000}
+{"apt": "삼두1차", "area": 42.93, "built": 1984, "date": "2023-08-22", "deal_type": "중개거래", "dong": "송현동", "dong_no": "1", "floor": 10, "jibun": "66-51", "price": 13200}
+{"apt": "만석2차", "area": 41.46, "built": 1987, "date": "2023-08-23", "deal_type": "중개거래", "dong": "만석동", "dong_no": "나", "floor": 5, "jibun": "71", "price": 7800}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2023-08-25", "deal_type": "중개거래", "dong": "송현동", "dong_no": "20", "floor": 5, "jibun": "1-9", "price": 9000}
+{"apt": "라이프비취2차", "area": 105.66, "built": 1981, "date": "2023-08-26", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "11", "floor": 8, "jibun": "27-107", "price": 21500}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2023-08-27", "deal_type": "중개거래", "dong": "신흥동1가", "dong_no": "101", "floor": 18, "jibun": "34-8", "price": 20800}
+{"apt": "송현주공", "area": 58.65, "built": 1993, "date": "2023-09-01", "deal_type": "중개거래", "dong": "송현동", "dong_no": "107", "floor": 6, "jibun": "6-26", "price": 16800}
+{"apt": "라이프비취2차", "area": 105.66, "built": 1981, "date": "2023-09-01", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "10", "floor": 9, "jibun": "27-107", "price": 18500}
+{"apt": "미륭", "area": 35.52, "built": 1990, "date": "2023-09-01", "deal_type": "중개거래", "dong": "화수동", "dong_no": "102", "floor": 3, "jibun": "2-7", "price": 9700}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2023-09-04", "deal_type": "직거래", "dong": "송현동", "dong_no": "101", "floor": 5, "jibun": "6-26", "price": 14000}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2023-09-04", "deal_type": "중개거래", "dong": "송현동", "dong_no": "101", "floor": 11, "jibun": "6-26", "price": 13000}
+{"apt": "라이프비취3차", "area": 84.85, "built": 1990, "date": "2023-09-04", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "5", "floor": 13, "jibun": "27-107", "price": 23800}
+{"apt": "라이프비취3차", "area": 84.85, "built": 1990, "date": "2023-09-04", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "5", "floor": 13, "jibun": "27-107", "price": 23800}
+{"apt": "동일", "area": 39.96, "built": 1987, "date": "2023-09-05", "deal_type": "중개거래", "dong": "북성동1가", "dong_no": "A", "floor": 5, "jibun": "4-246", "price": 10700}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2023-09-08", "deal_type": "중개거래", "dong": "송림동", "dong_no": "1", "floor": 7, "jibun": "228-1", "price": 17800}
+{"apt": "뉴코아", "area": 42.87, "built": 1992, "date": "2023-09-08", "deal_type": "직거래", "dong": "인현동", "floor": 7, "jibun": "3-2", "price": 9700}
+{"apt": "삼익", "area": 108.0, "built": 1979, "date": "2023-09-09", "deal_type": "중개거래", "dong": "신흥동2가", "dong_no": "2", "floor": 14, "jibun": "54-5", "price": 18000}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2023-09-10", "deal_type": "중개거래", "dong": "송림동", "dong_no": "1", "floor": 12, "jibun": "228-1", "price": 19700}
+{"apt": "송현2", "area": 46.44, "built": 1984, "date": "2023-09-16", "deal_type": "중개거래", "dong": "송현동", "dong_no": "19", "floor": 3, "jibun": "1-9", "price": 10000}
+{"apt": "라이프비취2차", "area": 51.04, "built": 1981, "date": "2023-09-18", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "15", "floor": 1, "jibun": "27-107", "price": 8000}
+{"apt": "동부", "area": 84.75, "built": 1990, "date": "2023-09-19", "deal_type": "중개거래", "dong": "송현동", "dong_no": "7", "floor": 4, "jibun": "66-26", "price": 25500}
+{"apt": "동부", "area": 84.75, "built": 1990, "date": "2023-09-19", "deal_type": "중개거래", "dong": "송현동", "dong_no": "3", "floor": 15, "jibun": "66-26", "price": 26000}
+{"apt": "풍림", "area": 59.96, "built": 1996, "date": "2023-09-20", "deal_type": "중개거래", "dong": "신흥동1가", "dong_no": "101", "floor": 16, "jibun": "34-8", "price": 19900}
+{"apt": "뉴코아", "area": 60.0, "built": 1992, "date": "2023-09-20", "deal_type": "중개거래", "dong": "인현동", "floor": 6, "jibun": "3-2", "price": 14000}
+{"apt": "삼익", "area": 78.4, "built": 1979, "date": "2023-09-21", "deal_type": "중개거래", "dong": "송림동", "dong_no": "2", "floor": 2, "jibun": "228-1", "price": 12300}
+{"apt": "라이프비취1차", "area": 72.73, "built": 1980, "date": "2023-09-22", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "2", "floor": 10, "jibun": "27-107", "price": 17000}
+{"apt": "삼익", "area": 99.27, "built": 1979, "date": "2023-09-23", "deal_type": "중개거래", "dong": "송림동", "dong_no": "1", "floor": 1, "jibun": "228-1", "price": 18000}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2023-10-02", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "12", "floor": 2, "jibun": "27-107", "price": 19500}
+{"apt": "동영", "area": 62.52, "built": 1985, "date": "2023-10-10", "deal_type": "직거래", "dong": "신흥동3가", "dong_no": "1", "floor": 5, "jibun": "37-9", "price": 8000}
+{"apt": "동부", "area": 43.86, "built": 1990, "date": "2023-10-12", "deal_type": "중개거래", "dong": "송현동", "dong_no": "4", "floor": 2, "jibun": "66-26", "price": 13400}
+{"apt": "선광", "area": 60.0, "built": 1996, "date": "2023-10-17", "deal_type": "중개거래", "dong": "북성동2가", "floor": 12, "jibun": "5-1", "price": 13250}
+{"apt": "송현주공", "area": 41.85, "built": 1993, "date": "2023-10-17", "deal_type": "중개거래", "dong": "송현동", "dong_no": "104", "floor": 8, "jibun": "6-26", "price": 11500}
+{"apt": "라이프비취3차", "area": 84.76, "built": 1990, "date": "2023-10-17", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "6", "floor": 2, "jibun": "27-107", "price": 22000}
+{"apt": "만석3", "area": 42.19, "built": 1991, "date": "2023-10-25", "deal_type": "직거래", "dong": "만석동", "floor": 3, "jibun": "43-79", "price": 10000}
+{"apt": "동부", "area": 76.66, "built": 1990, "date": "2023-10-31", "deal_type": "중개거래", "dong": "송현동", "dong_no": "7", "floor": 11, "jibun": "66-26", "price": 25000}
 {"apt": "송현2", "area": 46.44, "built": 1984, "date": "2023-11-04", "deal_type": "중개거래", "dong": "송현동", "dong_no": "12", "floor": 3, "jibun": "1-9", "price": 6250}
 {"apt": "동부", "area": 56.81, "built": 1990, "date": "2023-11-07", "deal_type": "중개거래", "dong": "송현동", "dong_no": "5", "floor": 9, "jibun": "66-26", "price": 16800}
 {"apt": "라이프비취1차", "area": 113.45, "built": 1980, "date": "2023-11-07", "deal_type": "중개거래", "dong": "항동7가", "dong_no": "3", "floor": 14, "jibun": "27-107", "price": 17000}

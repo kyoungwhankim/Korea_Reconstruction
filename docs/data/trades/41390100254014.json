@@ -1,8 +1,9 @@
 {"id":"41390100254014",
 "name":"삼보아파트",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":78,"pyeong":23.6,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":3000,"wolse_monthly_median":67}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-04-16",78.24,4,44000,null,null,1991]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-06-24",78.24,1,2000,70,"신규","26.08~28.08",null],

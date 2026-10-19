@@ -3,6 +3,10 @@
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":6,"median":21000,"min":19900,"max":23500,"latest_price":23500,"latest_date":"2026-07-14","latest_floor":12,"jeonse_n":1,"wolse_n":0,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-01-30","jeonse_ratio":47.6},{"area":85,"pyeong":25.7,"n":2,"median":22500,"min":20000,"max":25000,"latest_price":20000,"latest_date":"2026-07-28","latest_floor":1,"jeonse_n":2,"wolse_n":1,"jeonse_median":22500,"jeonse_min":22000,"jeonse_max":23000,"jeonse_latest":23000,"jeonse_latest_date":"2026-05-11","jeonse_ratio":100.0,"wolse_deposit_median":4000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-05-13",84.9,7,32500,null,null,1996],
+["2021-07-22",59.84,11,27000,null,null,1996],
+["2021-08-15",84.9,9,32500,null,null,1996],
+["2021-10-19",59.84,2,28800,null,null,1996],
 ["2024-01-26",84.9,20,25800,"한신아파트402동","중개거래",1996],
 ["2024-04-27",59.84,8,19000,"한신아파트403동","중개거래",1996],
 ["2024-05-18",59.84,1,17900,"한신아파트402동","중개거래",1996],

@@ -1,3 +1,1262 @@
+{"apt": "목동신시가지2", "area": 116.82, "built": 1986, "date": "2021-02-01", "dong": "목동", "floor": 13, "jibun": "902", "price": 230000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2021-02-01", "dong": "목동", "floor": 12, "jibun": "911", "price": 130000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2021-02-01", "dong": "목동", "floor": 7, "jibun": "925", "price": 132000}
+{"apt": "목동신시가지14", "area": 71.37, "built": 1987, "date": "2021-02-01", "dong": "신정동", "floor": 5, "jibun": "329", "price": 150500}
+{"apt": "목4현대", "area": 59.91, "built": 1997, "date": "2021-02-02", "dong": "목동", "floor": 6, "jibun": "755-1", "price": 70000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2021-02-02", "dong": "목동", "floor": 12, "jibun": "925", "price": 174000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-02-02", "dong": "신월동", "floor": 4, "jibun": "987-1", "price": 69800}
+{"apt": "목동현대3차", "area": 101.91, "built": 1997, "date": "2021-02-02", "dong": "신정동", "floor": 18, "jibun": "1279", "price": 154000}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2021-02-02", "dong": "신정동", "floor": 8, "jibun": "312", "price": 150000}
+{"apt": "목동신시가지12", "area": 53.46, "built": 1988, "date": "2021-02-02", "dong": "신정동", "floor": 2, "jibun": "326", "price": 121000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2021-02-02", "dong": "신정동", "floor": 5, "jibun": "326", "price": 154000}
+{"apt": "목동신시가지12", "area": 72.75, "built": 1988, "date": "2021-02-02", "dong": "신정동", "floor": 5, "jibun": "326", "price": 149000}
+{"apt": "목동신시가지6", "area": 65.1, "built": 1986, "date": "2021-02-03", "dong": "목동", "floor": 7, "jibun": "911", "price": 172000}
+{"apt": "목동신시가지5", "area": 95.28, "built": 1986, "date": "2021-02-03", "dong": "목동", "floor": 12, "jibun": "912", "price": 213000}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2021-02-03", "dong": "목동", "floor": 13, "jibun": "925", "price": 145000}
+{"apt": "신안파크", "area": 56.78, "built": 1987, "date": "2021-02-03", "dong": "신월동", "floor": 5, "jibun": "350-2", "price": 33000}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2021-02-03", "dong": "신정동", "floor": 14, "jibun": "312", "price": 189000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2021-02-03", "dong": "신정동", "floor": 5, "jibun": "314", "price": 157000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2021-02-03", "dong": "신정동", "floor": 5, "jibun": "314", "price": 157000}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2021-02-03", "dong": "신정동", "floor": 1, "jibun": "325", "price": 135000}
+{"apt": "목동신시가지13", "area": 98.63, "built": 1987, "date": "2021-02-03", "dong": "신정동", "floor": 12, "jibun": "327", "price": 190500}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2021-02-04", "dong": "목동", "floor": 13, "jibun": "911", "price": 132000}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2021-02-04", "dong": "목동", "floor": 5, "jibun": "925", "price": 146000}
+{"apt": "목동신시가지9", "area": 126.53, "built": 1987, "date": "2021-02-04", "dong": "신정동", "floor": 4, "jibun": "312", "price": 212400}
+{"apt": "쌍용", "area": 84.65, "built": 1992, "date": "2021-02-05", "dong": "신정동", "floor": 13, "jibun": "334", "price": 104300}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2021-02-06", "dong": "신정동", "floor": 12, "jibun": "312", "price": 200000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-02-06", "dong": "신정동", "floor": 12, "jibun": "314", "price": 130000}
+{"apt": "서울가든", "area": 100.8, "built": 1985, "date": "2021-02-07", "dong": "신월동", "floor": 10, "jibun": "475", "price": 72000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2021-02-07", "dong": "신정동", "floor": 5, "jibun": "311", "price": 115000}
+{"apt": "목동신시가지1", "area": 65.34, "built": 1985, "date": "2021-02-08", "dong": "목동", "floor": 12, "jibun": "901", "price": 163000}
+{"apt": "대림", "area": 84.89, "built": 1992, "date": "2021-02-08", "dong": "신정동", "floor": 8, "jibun": "333", "price": 105000}
+{"apt": "목동신시가지2", "area": 65.82, "built": 1986, "date": "2021-02-09", "dong": "목동", "floor": 4, "jibun": "902", "price": 160000}
+{"apt": "목동신시가지2", "area": 116.82, "built": 1986, "date": "2021-02-09", "dong": "목동", "floor": 14, "jibun": "902", "price": 230000}
+{"apt": "목동삼성", "area": 114.93, "built": 1996, "date": "2021-02-09", "dong": "신정동", "floor": 4, "jibun": "1278", "price": 147500}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2021-02-09", "dong": "신정동", "floor": 6, "jibun": "312", "price": 189000}
+{"apt": "청구", "area": 84.99, "built": 1992, "date": "2021-02-09", "dong": "신정동", "floor": 4, "jibun": "336", "price": 100000}
+{"apt": "미성", "area": 122.3, "built": 1993, "date": "2021-02-10", "dong": "목동", "floor": 5, "jibun": "745-12", "price": 40000}
+{"apt": "목동신시가지4", "area": 95.27, "built": 1986, "date": "2021-02-10", "dong": "목동", "floor": 3, "jibun": "904", "price": 195000}
+{"apt": "정원", "area": 72.36, "built": 1992, "date": "2021-02-10", "dong": "신월동", "floor": 1, "jibun": "113-14", "price": 29400}
+{"apt": "길훈", "area": 49.77, "built": 1987, "date": "2021-02-10", "dong": "신월동", "floor": 4, "jibun": "341-1", "price": 28000}
+{"apt": "목동신시가지14", "area": 74.19, "built": 1987, "date": "2021-02-10", "dong": "신정동", "floor": 2, "jibun": "329", "price": 148000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2021-02-15", "dong": "목동", "floor": 15, "jibun": "903", "price": 159500}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2021-02-15", "dong": "목동", "floor": 5, "jibun": "929", "price": 166000}
+{"apt": "목동신시가지10", "area": 127.21, "built": 1987, "date": "2021-02-15", "dong": "신정동", "floor": 1, "jibun": "311", "price": 205000}
+{"apt": "목동신시가지12", "area": 53.46, "built": 1988, "date": "2021-02-15", "dong": "신정동", "floor": 13, "jibun": "326", "price": 114000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2021-02-15", "dong": "신정동", "floor": 13, "jibun": "326", "price": 153000}
+{"apt": "목동신시가지2", "area": 116.82, "built": 1986, "date": "2021-02-16", "dong": "목동", "floor": 2, "jibun": "902", "price": 234000}
+{"apt": "목동신시가지12", "area": 60.0, "built": 1988, "date": "2021-02-16", "dong": "신정동", "floor": 2, "jibun": "326", "price": 128500}
+{"apt": "목동신시가지14", "area": 71.4, "built": 1987, "date": "2021-02-16", "dong": "신정동", "floor": 2, "jibun": "329", "price": 155000}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2021-02-17", "dong": "신정동", "floor": 3, "jibun": "311", "price": 153500}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2021-02-17", "dong": "신정동", "floor": 10, "jibun": "327", "price": 148000}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2021-02-18", "dong": "신정동", "floor": 3, "jibun": "312", "price": 198000}
+{"apt": "목동대림", "area": 84.82, "built": 1994, "date": "2021-02-19", "dong": "목동", "floor": 16, "jibun": "405", "price": 140000}
+{"apt": "신안파크", "area": 47.6, "built": 1987, "date": "2021-02-19", "dong": "신월동", "floor": 1, "jibun": "350-2", "price": 32700}
+{"apt": "태화상가빌라트", "area": 129.6, "built": 1996, "date": "2021-02-19", "dong": "신정동", "floor": 4, "jibun": "1021-7", "price": 80000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2021-02-19", "dong": "신정동", "floor": 3, "jibun": "329", "price": 205000}
+{"apt": "목동신시가지2", "area": 97.92, "built": 1986, "date": "2021-02-20", "dong": "목동", "floor": 8, "jibun": "902", "price": 204000}
+{"apt": "목동신시가지3", "area": 145.13, "built": 1986, "date": "2021-02-20", "dong": "목동", "floor": 12, "jibun": "903", "price": 238000}
+{"apt": "대림타운", "area": 113.4, "built": 1997, "date": "2021-02-20", "dong": "신월동", "floor": 4, "jibun": "558-9", "price": 53000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2021-02-20", "dong": "신정동", "floor": 14, "jibun": "329", "price": 126000}
+{"apt": "쌍용", "area": 84.63, "built": 1992, "date": "2021-02-20", "dong": "신정동", "floor": 4, "jibun": "334", "price": 102500}
+{"apt": "목동신시가지9", "area": 126.53, "built": 1987, "date": "2021-02-21", "dong": "신정동", "floor": 4, "jibun": "312", "price": 220000}
+{"apt": "엘리온", "area": 72.77, "built": 2011, "date": "2021-02-22", "dong": "목동", "floor": 5, "jibun": "803-2", "price": 68000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2021-02-22", "dong": "목동", "floor": 1, "jibun": "912", "price": 169000}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2021-02-22", "dong": "신정동", "floor": 8, "jibun": "312", "price": 122000}
+{"apt": "목동신시가지1", "area": 83.23, "built": 1985, "date": "2021-02-24", "dong": "목동", "floor": 1, "jibun": "901", "price": 179000}
+{"apt": "목동신시가지14", "area": 129.33, "built": 1987, "date": "2021-02-25", "dong": "신정동", "floor": 9, "jibun": "329", "price": 222000}
+{"apt": "목동신시가지1", "area": 47.52, "built": 1985, "date": "2021-02-26", "dong": "목동", "floor": 1, "jibun": "901", "price": 120000}
+{"apt": "목동신시가지1", "area": 98.08, "built": 1985, "date": "2021-02-26", "dong": "목동", "floor": 3, "jibun": "901", "price": 186000}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2021-02-26", "dong": "신정동", "floor": 8, "jibun": "312", "price": 158000}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2021-02-26", "dong": "신정동", "floor": 15, "jibun": "312", "price": 185000}
+{"apt": "목동신시가지1", "area": 47.52, "built": 1985, "date": "2021-02-27", "dong": "목동", "floor": 1, "jibun": "901", "price": 114000}
+{"apt": "목동신시가지6", "area": 95.03, "built": 1986, "date": "2021-02-27", "dong": "목동", "floor": 12, "jibun": "911", "price": 218000}
+{"apt": "목동신시가지9", "area": 106.39, "built": 1987, "date": "2021-02-27", "dong": "신정동", "floor": 3, "jibun": "312", "price": 205000}
+{"apt": "목동신시가지12", "area": 53.46, "built": 1988, "date": "2021-02-27", "dong": "신정동", "floor": 9, "jibun": "326", "price": 118000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2021-02-27", "dong": "신정동", "floor": 10, "jibun": "329", "price": 196500}
+{"apt": "목동신시가지1", "area": 91.26, "built": 1985, "date": "2021-03-01", "dong": "목동", "floor": 1, "jibun": "901", "price": 201000}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2021-03-01", "dong": "목동", "floor": 4, "jibun": "925", "price": 150000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-03-01", "dong": "신정동", "floor": 13, "jibun": "314", "price": 128000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2021-03-01", "dong": "신정동", "floor": 12, "jibun": "329", "price": 172000}
+{"apt": "목동신시가지4", "area": 48.69, "built": 1986, "date": "2021-03-02", "dong": "목동", "floor": 15, "jibun": "904", "price": 133000}
+{"apt": "목동신시가지4", "area": 65.52, "built": 1986, "date": "2021-03-02", "dong": "목동", "floor": 1, "jibun": "904", "price": 159000}
+{"apt": "목동신시가지9", "area": 53.82, "built": 1987, "date": "2021-03-02", "dong": "신정동", "floor": 4, "jibun": "312", "price": 120000}
+{"apt": "목동신시가지14", "area": 83.89, "built": 1987, "date": "2021-03-02", "dong": "신정동", "floor": 4, "jibun": "329", "price": 158000}
+{"apt": "목동신시가지10", "area": 106.06, "built": 1987, "date": "2021-03-03", "dong": "신정동", "floor": 3, "jibun": "311", "price": 185500}
+{"apt": "목동신시가지12", "area": 56.76, "built": 1988, "date": "2021-03-03", "dong": "신정동", "floor": 1, "jibun": "326", "price": 120000}
+{"apt": "신안약수", "area": 87.17, "built": 1985, "date": "2021-03-04", "dong": "신월동", "floor": 5, "jibun": "591-1", "price": 76000}
+{"apt": "나산", "area": 59.9, "built": 1997, "date": "2021-03-05", "dong": "신월동", "floor": 13, "jibun": "217-2", "price": 35000}
+{"apt": "목동대림", "area": 84.82, "built": 1994, "date": "2021-03-06", "dong": "목동", "floor": 3, "jibun": "405", "price": 147500}
+{"apt": "목동신시가지13", "area": 99.26, "built": 1987, "date": "2021-03-06", "dong": "신정동", "floor": 2, "jibun": "327", "price": 175000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2021-03-06", "dong": "신정동", "floor": 4, "jibun": "329", "price": 115000}
+{"apt": "쌍용", "area": 84.65, "built": 1992, "date": "2021-03-06", "dong": "신정동", "floor": 6, "jibun": "334", "price": 102500}
+{"apt": "목동신시가지12", "area": 56.76, "built": 1988, "date": "2021-03-09", "dong": "신정동", "floor": 3, "jibun": "326", "price": 122000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-03-10", "dong": "신정동", "floor": 1, "jibun": "314", "price": 119500}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2021-03-11", "dong": "목동", "floor": 2, "jibun": "903", "price": 161000}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2021-03-11", "dong": "신정동", "floor": 4, "jibun": "1279", "price": 130000}
+{"apt": "쌍용", "area": 84.65, "built": 1992, "date": "2021-03-11", "dong": "신정동", "floor": 6, "jibun": "334", "price": 106000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2021-03-13", "dong": "목동", "floor": 8, "jibun": "912", "price": 170000}
+{"apt": "길훈", "area": 49.77, "built": 1987, "date": "2021-03-13", "dong": "신월동", "floor": 3, "jibun": "341-1", "price": 37950}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2021-03-13", "dong": "신정동", "floor": 14, "jibun": "312", "price": 164100}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2021-03-13", "dong": "신정동", "floor": 13, "jibun": "325", "price": 106000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2021-03-13", "dong": "신정동", "floor": 15, "jibun": "329", "price": 110000}
+{"apt": "목동신시가지1", "area": 99.15, "built": 1985, "date": "2021-03-15", "dong": "목동", "floor": 3, "jibun": "901", "price": 197000}
+{"apt": "목동신시가지12", "area": 56.76, "built": 1988, "date": "2021-03-15", "dong": "신정동", "floor": 1, "jibun": "326", "price": 128500}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2021-03-15", "dong": "신정동", "floor": 1, "jibun": "327", "price": 154000}
+{"apt": "목동신시가지1", "area": 47.52, "built": 1985, "date": "2021-03-16", "dong": "목동", "floor": 10, "jibun": "901", "price": 116000}
+{"apt": "금호1", "area": 59.88, "built": 1997, "date": "2021-03-16", "dong": "목동", "floor": 18, "jibun": "934", "price": 117000}
+{"apt": "목동신시가지9", "area": 53.82, "built": 1987, "date": "2021-03-16", "dong": "신정동", "floor": 8, "jibun": "312", "price": 129700}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2021-03-17", "dong": "신정동", "floor": 14, "jibun": "312", "price": 198000}
+{"apt": "목동신시가지13", "area": 122.3, "built": 1987, "date": "2021-03-17", "dong": "신정동", "floor": 12, "jibun": "327", "price": 215000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2021-03-18", "dong": "목동", "floor": 19, "jibun": "911", "price": 137000}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2021-03-18", "dong": "신정동", "floor": 3, "jibun": "311", "price": 155000}
+{"apt": "목동신시가지13", "area": 151.76, "built": 1987, "date": "2021-03-18", "dong": "신정동", "floor": 6, "jibun": "327", "price": 245000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2021-03-20", "dong": "신정동", "floor": 12, "jibun": "326", "price": 159000}
+{"apt": "쌍용", "area": 84.63, "built": 1992, "date": "2021-03-20", "dong": "신정동", "floor": 8, "jibun": "334", "price": 106500}
+{"apt": "청구", "area": 84.99, "built": 1992, "date": "2021-03-20", "dong": "신정동", "floor": 16, "jibun": "336", "price": 108000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-03-22", "dong": "신월동", "floor": 7, "jibun": "987-1", "price": 60000}
+{"apt": "목동신시가지4", "area": 115.65, "built": 1986, "date": "2021-03-23", "dong": "목동", "floor": 13, "jibun": "904", "price": 227500}
+{"apt": "신월성원", "area": 59.94, "built": 1996, "date": "2021-03-23", "dong": "신월동", "floor": 8, "jibun": "222-7", "price": 38500}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-03-23", "dong": "신월동", "floor": 1, "jibun": "987-1", "price": 65000}
+{"apt": "우정", "area": 62.24, "built": 1988, "date": "2021-03-24", "dong": "신월동", "floor": 5, "jibun": "350-3", "price": 26000}
+{"apt": "목동신시가지9", "area": 126.53, "built": 1987, "date": "2021-03-24", "dong": "신정동", "floor": 15, "jibun": "312", "price": 205000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-03-25", "dong": "신월동", "floor": 3, "jibun": "987-1", "price": 40000}
+{"apt": "목동삼성", "area": 114.93, "built": 1996, "date": "2021-03-25", "dong": "신정동", "floor": 2, "jibun": "1278", "price": 147000}
+{"apt": "목동신시가지9", "area": 126.53, "built": 1987, "date": "2021-03-26", "dong": "신정동", "floor": 1, "jibun": "312", "price": 209000}
+{"apt": "목동신시가지1", "area": 51.48, "built": 1985, "date": "2021-03-27", "dong": "목동", "floor": 15, "jibun": "901", "price": 127000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-03-27", "dong": "신월동", "floor": 9, "jibun": "987-1", "price": 66000}
+{"apt": "현대", "area": 84.14, "built": 1995, "date": "2021-03-27", "dong": "신정동", "floor": 8, "jibun": "1252", "price": 102000}
+{"apt": "목동삼성", "area": 114.93, "built": 1996, "date": "2021-03-27", "dong": "신정동", "floor": 16, "jibun": "1278", "price": 164000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-03-27", "dong": "신정동", "floor": 5, "jibun": "314", "price": 130000}
+{"apt": "쌍용", "area": 84.63, "built": 1992, "date": "2021-03-27", "dong": "신정동", "floor": 12, "jibun": "334", "price": 109000}
+{"apt": "목동신시가지2", "area": 83.52, "built": 1986, "date": "2021-03-29", "dong": "목동", "floor": 1, "jibun": "902", "price": 170000}
+{"apt": "장미", "area": 74.03, "built": 1996, "date": "2021-03-29", "dong": "신정동", "floor": 2, "jibun": "917-10", "price": 40000}
+{"apt": "목동신시가지2", "area": 97.92, "built": 1986, "date": "2021-03-30", "dong": "목동", "floor": 11, "jibun": "902", "price": 210000}
+{"apt": "목동신시가지3", "area": 116.12, "built": 1986, "date": "2021-03-30", "dong": "목동", "floor": 8, "jibun": "903", "price": 240000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2021-03-30", "dong": "목동", "floor": 4, "jibun": "911", "price": 131000}
+{"apt": "길훈", "area": 49.32, "built": 1987, "date": "2021-03-30", "dong": "신월동", "floor": 2, "jibun": "341-1", "price": 38500}
+{"apt": "신안파크", "area": 47.6, "built": 1987, "date": "2021-03-30", "dong": "신월동", "floor": 5, "jibun": "350-2", "price": 39000}
+{"apt": "목동신시가지10", "area": 156.87, "built": 1987, "date": "2021-03-30", "dong": "신정동", "floor": 1, "jibun": "311", "price": 255000}
+{"apt": "목동신시가지9", "area": 53.82, "built": 1987, "date": "2021-03-30", "dong": "신정동", "floor": 5, "jibun": "312", "price": 123000}
+{"apt": "목동신시가지7", "area": 64.4, "built": 1986, "date": "2021-03-31", "dong": "목동", "floor": 1, "jibun": "925", "price": 164800}
+{"apt": "신안파크", "area": 47.6, "built": 1987, "date": "2021-03-31", "dong": "신월동", "floor": 3, "jibun": "350-2", "price": 36800}
+{"apt": "신안약수", "area": 68.0, "built": 1985, "date": "2021-03-31", "dong": "신월동", "floor": 7, "jibun": "591-1", "price": 60500}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2021-03-31", "dong": "신정동", "floor": 14, "jibun": "329", "price": 115000}
+{"apt": "신안파크", "area": 47.6, "built": 1987, "date": "2021-04-02", "dong": "신월동", "floor": 4, "jibun": "350-2", "price": 36800}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2021-04-02", "dong": "신정동", "floor": 8, "jibun": "329", "price": 190000}
+{"apt": "목동신시가지1", "area": 51.48, "built": 1985, "date": "2021-04-03", "dong": "목동", "floor": 9, "jibun": "901", "price": 135500}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2021-04-03", "dong": "목동", "floor": 12, "jibun": "903", "price": 163000}
+{"apt": "목동신시가지7", "area": 101.2, "built": 1986, "date": "2021-04-03", "dong": "목동", "floor": 10, "jibun": "925", "price": 250000}
+{"apt": "에이원", "area": 62.19, "built": 1994, "date": "2021-04-03", "dong": "신월동", "floor": 2, "jibun": "413-3", "price": 21800}
+{"apt": "청구", "area": 84.99, "built": 1992, "date": "2021-04-03", "dong": "신정동", "floor": 5, "jibun": "336", "price": 95000}
+{"apt": "에이스", "area": 83.09, "built": 1997, "date": "2021-04-06", "dong": "목동", "floor": 5, "jibun": "769-19", "price": 60000}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2021-04-06", "dong": "목동", "floor": 3, "jibun": "925", "price": 149000}
+{"apt": "삼익", "area": 84.88, "built": 1997, "date": "2021-04-06", "dong": "목동", "floor": 10, "jibun": "933", "price": 122500}
+{"apt": "목동삼성", "area": 84.77, "built": 1996, "date": "2021-04-07", "dong": "신정동", "floor": 8, "jibun": "1278", "price": 136600}
+{"apt": "목동신시가지4", "area": 96.36, "built": 1986, "date": "2021-04-08", "dong": "목동", "floor": 9, "jibun": "904", "price": 204500}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-04-08", "dong": "신월동", "floor": 2, "jibun": "987-1", "price": 65000}
+{"apt": "목동신시가지1", "area": 99.15, "built": 1985, "date": "2021-04-09", "dong": "목동", "floor": 3, "jibun": "901", "price": 205000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2021-04-09", "dong": "목동", "floor": 6, "jibun": "925", "price": 176000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-04-09", "dong": "신정동", "floor": 10, "jibun": "314", "price": 130000}
+{"apt": "목동신시가지2", "area": 122.31, "built": 1986, "date": "2021-04-10", "dong": "목동", "floor": 5, "jibun": "902", "price": 230000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2021-04-10", "dong": "목동", "floor": 14, "jibun": "925", "price": 170000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2021-04-10", "dong": "신월동", "floor": 9, "jibun": "987-1", "price": 71400}
+{"apt": "목동신시가지4", "area": 115.65, "built": 1986, "date": "2021-04-12", "dong": "목동", "floor": 7, "jibun": "904", "price": 235000}
+{"apt": "영남타운", "area": 49.95, "built": 1996, "date": "2021-04-12", "dong": "신월동", "floor": 9, "jibun": "547-7", "price": 20000}
+{"apt": "목동신시가지9", "area": 53.82, "built": 1987, "date": "2021-04-12", "dong": "신정동", "floor": 4, "jibun": "312", "price": 124500}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2021-04-13", "dong": "목동", "floor": 2, "jibun": "925", "price": 149700}
+{"apt": "목동신시가지7", "area": 59.39, "built": 1986, "date": "2021-04-13", "dong": "목동", "floor": 3, "jibun": "925", "price": 157500}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2021-04-13", "dong": "신정동", "floor": 1, "jibun": "329", "price": 129000}
+{"apt": "목동신시가지7", "area": 59.39, "built": 1986, "date": "2021-04-14", "dong": "목동", "floor": 1, "jibun": "925", "price": 162000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2021-04-14", "dong": "신정동", "floor": 9, "jibun": "325", "price": 122000}
+{"apt": "목동신시가지5", "area": 95.28, "built": 1986, "date": "2021-04-15", "dong": "목동", "floor": 9, "jibun": "912", "price": 212000}
+{"apt": "길훈", "area": 42.57, "built": 1987, "date": "2021-04-15", "dong": "신월동", "floor": 5, "jibun": "341-1", "price": 36500}
+{"apt": "목동신시가지10", "area": 85.0, "built": 1987, "date": "2021-04-15", "dong": "신정동", "floor": 1, "jibun": "311", "price": 180000}
+{"apt": "목동신시가지6", "area": 115.19, "built": 1986, "date": "2021-04-16", "dong": "목동", "floor": 7, "jibun": "911", "price": 250000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2021-04-16", "dong": "신정동", "floor": 13, "jibun": "329", "price": 122700}
+{"apt": "목동신시가지2", "area": 95.67, "built": 1986, "date": "2021-04-17", "dong": "목동", "floor": 11, "jibun": "902", "price": 205300}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2021-04-17", "dong": "목동", "floor": 4, "jibun": "925", "price": 177000}
+{"apt": "삼익", "area": 84.88, "built": 1997, "date": "2021-04-17", "dong": "목동", "floor": 18, "jibun": "933", "price": 123000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-04-17", "dong": "신정동", "floor": 9, "jibun": "314", "price": 130500}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2021-04-18", "dong": "신정동", "floor": 13, "jibun": "311", "price": 158000}
+{"apt": "목동신시가지9", "area": 53.82, "built": 1987, "date": "2021-04-18", "dong": "신정동", "floor": 7, "jibun": "312", "price": 130500}
+{"apt": "건영", "area": 84.27, "built": 1994, "date": "2021-04-19", "dong": "목동", "floor": 1, "jibun": "928", "price": 74000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-04-19", "dong": "신월동", "floor": 6, "jibun": "987-1", "price": 66000}
+{"apt": "목동신시가지10", "area": 127.21, "built": 1987, "date": "2021-04-19", "dong": "신정동", "floor": 6, "jibun": "311", "price": 210000}
+{"apt": "효원빌라트", "area": 160.36, "built": 1994, "date": "2021-04-20", "dong": "목동", "floor": 5, "jibun": "135-6", "price": 95000}
+{"apt": "목동신시가지5", "area": 95.06, "built": 1986, "date": "2021-04-20", "dong": "목동", "floor": 3, "jibun": "912", "price": 208000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-04-20", "dong": "신정동", "floor": 20, "jibun": "314", "price": 131000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2021-04-20", "dong": "신정동", "floor": 11, "jibun": "314", "price": 165000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2021-04-20", "dong": "신정동", "floor": 9, "jibun": "329", "price": 114800}
+{"apt": "목동신시가지5", "area": 95.27, "built": 1986, "date": "2021-04-21", "dong": "목동", "floor": 2, "jibun": "912", "price": 225000}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2021-04-21", "dong": "신정동", "floor": 13, "jibun": "1279", "price": 131000}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2021-04-21", "dong": "신정동", "floor": 4, "jibun": "325", "price": 139000}
+{"apt": "목동신시가지1", "area": 51.48, "built": 1985, "date": "2021-04-22", "dong": "목동", "floor": 8, "jibun": "901", "price": 131000}
+{"apt": "목동신시가지1", "area": 123.19, "built": 1985, "date": "2021-04-22", "dong": "목동", "floor": 1, "jibun": "901", "price": 240000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2021-04-22", "dong": "목동", "floor": 12, "jibun": "911", "price": 131500}
+{"apt": "목동신시가지5", "area": 115.47, "built": 1986, "date": "2021-04-22", "dong": "목동", "floor": 12, "jibun": "912", "price": 233000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2021-04-22", "dong": "목동", "floor": 14, "jibun": "929", "price": 165000}
+{"apt": "목동신시가지10", "area": 127.21, "built": 1987, "date": "2021-04-22", "dong": "신정동", "floor": 10, "jibun": "311", "price": 210000}
+{"apt": "목동신시가지1", "area": 88.5, "built": 1985, "date": "2021-04-23", "dong": "목동", "floor": 4, "jibun": "901", "price": 206000}
+{"apt": "목동신시가지2", "area": 65.25, "built": 1986, "date": "2021-04-23", "dong": "목동", "floor": 4, "jibun": "902", "price": 156500}
+{"apt": "목동신시가지2", "area": 65.82, "built": 1986, "date": "2021-04-23", "dong": "목동", "floor": 7, "jibun": "902", "price": 155000}
+{"apt": "목동신시가지2", "area": 95.67, "built": 1986, "date": "2021-04-23", "dong": "목동", "floor": 10, "jibun": "902", "price": 200000}
+{"apt": "목동신시가지2", "area": 144.0, "built": 1986, "date": "2021-04-23", "dong": "목동", "floor": 4, "jibun": "902", "price": 260000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2021-04-23", "dong": "목동", "floor": 19, "jibun": "904", "price": 136000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2021-04-23", "dong": "목동", "floor": 16, "jibun": "911", "price": 130000}
+{"apt": "목동신시가지6", "area": 115.19, "built": 1986, "date": "2021-04-23", "dong": "목동", "floor": 2, "jibun": "911", "price": 255000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2021-04-23", "dong": "목동", "floor": 8, "jibun": "912", "price": 170000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2021-04-23", "dong": "목동", "floor": 10, "jibun": "912", "price": 170000}
+{"apt": "목동신시가지5", "area": 95.01, "built": 1986, "date": "2021-04-23", "dong": "목동", "floor": 2, "jibun": "912", "price": 225000}
+{"apt": "목동신시가지7", "area": 59.39, "built": 1986, "date": "2021-04-23", "dong": "목동", "floor": 2, "jibun": "925", "price": 163000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2021-04-23", "dong": "목동", "floor": 3, "jibun": "925", "price": 173000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2021-04-23", "dong": "목동", "floor": 12, "jibun": "929", "price": 165000}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2021-04-23", "dong": "신정동", "floor": 4, "jibun": "312", "price": 198000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2021-04-23", "dong": "신정동", "floor": 12, "jibun": "329", "price": 115000}
+{"apt": "대림", "area": 84.89, "built": 1992, "date": "2021-04-23", "dong": "신정동", "floor": 12, "jibun": "333", "price": 104000}
+{"apt": "목동신시가지1", "area": 51.48, "built": 1985, "date": "2021-04-24", "dong": "목동", "floor": 3, "jibun": "901", "price": 135000}
+{"apt": "목동신시가지1", "area": 88.5, "built": 1985, "date": "2021-04-24", "dong": "목동", "floor": 3, "jibun": "901", "price": 195000}
+{"apt": "목동신시가지2", "area": 122.31, "built": 1986, "date": "2021-04-24", "dong": "목동", "floor": 3, "jibun": "902", "price": 209000}
+{"apt": "목동신시가지3", "area": 122.35, "built": 1986, "date": "2021-04-24", "dong": "목동", "floor": 5, "jibun": "903", "price": 240000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-04-24", "dong": "신월동", "floor": 10, "jibun": "987-1", "price": 68000}
+{"apt": "목동신시가지10", "area": 106.06, "built": 1987, "date": "2021-04-24", "dong": "신정동", "floor": 3, "jibun": "311", "price": 184000}
+{"apt": "목동신시가지9", "area": 53.82, "built": 1987, "date": "2021-04-24", "dong": "신정동", "floor": 8, "jibun": "312", "price": 127000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-04-24", "dong": "신정동", "floor": 5, "jibun": "314", "price": 130000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2021-04-24", "dong": "신정동", "floor": 2, "jibun": "327", "price": 155000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2021-04-24", "dong": "신정동", "floor": 9, "jibun": "327", "price": 154000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2021-04-24", "dong": "신정동", "floor": 4, "jibun": "329", "price": 115000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2021-04-24", "dong": "신정동", "floor": 11, "jibun": "329", "price": 118500}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2021-04-24", "dong": "신정동", "floor": 14, "jibun": "329", "price": 130000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2021-04-24", "dong": "신정동", "floor": 10, "jibun": "329", "price": 195000}
+{"apt": "목동신시가지2", "area": 122.31, "built": 1986, "date": "2021-04-25", "dong": "목동", "floor": 5, "jibun": "902", "price": 235000}
+{"apt": "목동신시가지3", "area": 145.13, "built": 1986, "date": "2021-04-25", "dong": "목동", "floor": 5, "jibun": "903", "price": 272000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2021-04-25", "dong": "목동", "floor": 15, "jibun": "904", "price": 130000}
+{"apt": "목동신시가지4", "area": 96.36, "built": 1986, "date": "2021-04-25", "dong": "목동", "floor": 5, "jibun": "904", "price": 204000}
+{"apt": "목동신시가지10", "area": 105.58, "built": 1987, "date": "2021-04-25", "dong": "신정동", "floor": 8, "jibun": "311", "price": 195000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2021-04-25", "dong": "신정동", "floor": 8, "jibun": "325", "price": 120000}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2021-04-25", "dong": "신정동", "floor": 5, "jibun": "325", "price": 149500}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2021-04-25", "dong": "신정동", "floor": 15, "jibun": "326", "price": 155000}
+{"apt": "목동신시가지1", "area": 51.48, "built": 1985, "date": "2021-04-26", "dong": "목동", "floor": 15, "jibun": "901", "price": 135000}
+{"apt": "목동신시가지2", "area": 95.4, "built": 1986, "date": "2021-04-26", "dong": "목동", "floor": 11, "jibun": "902", "price": 199500}
+{"apt": "목동신시가지2", "area": 97.92, "built": 1986, "date": "2021-04-26", "dong": "목동", "floor": 2, "jibun": "902", "price": 194000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2021-04-26", "dong": "목동", "floor": 3, "jibun": "903", "price": 163000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2021-04-26", "dong": "신정동", "floor": 4, "jibun": "311", "price": 121000}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2021-04-26", "dong": "신정동", "floor": 12, "jibun": "311", "price": 160000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2021-04-26", "dong": "신정동", "floor": 12, "jibun": "325", "price": 123000}
+{"apt": "목동신시가지12", "area": 53.46, "built": 1988, "date": "2021-04-26", "dong": "신정동", "floor": 7, "jibun": "326", "price": 123000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2021-04-26", "dong": "신정동", "floor": 6, "jibun": "326", "price": 150000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2021-04-26", "dong": "신정동", "floor": 8, "jibun": "326", "price": 154000}
+{"apt": "목동신시가지13", "area": 99.26, "built": 1987, "date": "2021-04-26", "dong": "신정동", "floor": 2, "jibun": "327", "price": 196800}
+{"apt": "목동신시가지14", "area": 71.4, "built": 1987, "date": "2021-04-26", "dong": "신정동", "floor": 6, "jibun": "329", "price": 165000}
+{"apt": "목동신시가지14", "area": 84.87, "built": 1987, "date": "2021-04-26", "dong": "신정동", "floor": 3, "jibun": "329", "price": 173000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2021-04-26", "dong": "신정동", "floor": 6, "jibun": "329", "price": 192500}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2021-04-27", "dong": "목동", "floor": 9, "jibun": "929", "price": 164500}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2021-04-27", "dong": "신정동", "floor": 15, "jibun": "1279", "price": 138000}
+{"apt": "삼익", "area": 84.88, "built": 1997, "date": "2021-04-28", "dong": "목동", "floor": 11, "jibun": "933", "price": 123000}
+{"apt": "쌍용", "area": 84.63, "built": 1992, "date": "2021-04-28", "dong": "신정동", "floor": 2, "jibun": "334", "price": 107500}
+{"apt": "삼익", "area": 84.88, "built": 1997, "date": "2021-05-01", "dong": "목동", "floor": 9, "jibun": "933", "price": 125000}
+{"apt": "신안약수", "area": 87.17, "built": 1985, "date": "2021-05-01", "dong": "신월동", "floor": 3, "jibun": "591-1", "price": 80000}
+{"apt": "현대", "area": 84.84, "built": 1995, "date": "2021-05-01", "dong": "신정동", "floor": 1, "jibun": "1252", "price": 99250}
+{"apt": "은하아파트", "area": 81.22, "built": 1993, "date": "2021-05-03", "dong": "신월동", "floor": 4, "jibun": "140-23", "price": 22000}
+{"apt": "신호", "area": 59.94, "built": 1997, "date": "2021-05-06", "dong": "신정동", "floor": 6, "jibun": "948-24", "price": 50800}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2021-05-08", "dong": "목동", "floor": 4, "jibun": "929", "price": 150000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-05-10", "dong": "신월동", "floor": 8, "jibun": "987-1", "price": 66500}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-05-10", "dong": "신월동", "floor": 11, "jibun": "987-1", "price": 65800}
+{"apt": "보람아파트", "area": 75.87, "built": 1996, "date": "2021-05-11", "dong": "신월동", "floor": 4, "jibun": "457-6", "price": 30000}
+{"apt": "목동현대1", "area": 84.9, "built": 1997, "date": "2021-05-14", "dong": "목동", "floor": 14, "jibun": "932", "price": 165700}
+{"apt": "청구", "area": 84.99, "built": 1992, "date": "2021-05-14", "dong": "신정동", "floor": 2, "jibun": "336", "price": 105000}
+{"apt": "까치마을", "area": 84.84, "built": 1996, "date": "2021-05-14", "dong": "신정동", "floor": 5, "jibun": "739-17", "price": 40000}
+{"apt": "벽산", "area": 84.99, "built": 1991, "date": "2021-05-17", "dong": "목동", "floor": 7, "jibun": "926-7", "price": 120000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-05-17", "dong": "신월동", "floor": 1, "jibun": "987-1", "price": 62000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-05-17", "dong": "신정동", "floor": 12, "jibun": "314", "price": 137000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-05-17", "dong": "신정동", "floor": 14, "jibun": "314", "price": 123000}
+{"apt": "청구", "area": 84.99, "built": 1992, "date": "2021-05-19", "dong": "신정동", "floor": 16, "jibun": "336", "price": 110000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2021-05-21", "dong": "목동", "floor": 14, "jibun": "200", "price": 140000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2021-05-22", "dong": "목동", "floor": 2, "jibun": "200", "price": 134000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2021-05-22", "dong": "신정동", "floor": 5, "jibun": "311", "price": 127500}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-05-24", "dong": "신월동", "floor": 9, "jibun": "987-1", "price": 63500}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2021-05-24", "dong": "신정동", "floor": 1, "jibun": "325", "price": 153000}
+{"apt": "길훈", "area": 42.57, "built": 1987, "date": "2021-05-25", "dong": "신월동", "floor": 1, "jibun": "341-1", "price": 36800}
+{"apt": "대림타운", "area": 113.4, "built": 1997, "date": "2021-05-25", "dong": "신월동", "floor": 5, "jibun": "558-9", "price": 57800}
+{"apt": "현대", "area": 83.16, "built": 1996, "date": "2021-05-26", "dong": "목동", "floor": 12, "jibun": "930", "price": 155000}
+{"apt": "수정", "area": 48.87, "built": 1987, "date": "2021-05-27", "dong": "신정동", "floor": 3, "jibun": "733-31", "price": 64800}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-05-29", "dong": "신월동", "floor": 11, "jibun": "987-1", "price": 63500}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2021-05-29", "dong": "신정동", "floor": 14, "jibun": "329", "price": 130000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2021-05-31", "dong": "목동", "floor": 5, "jibun": "200", "price": 147000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2021-05-31", "dong": "목동", "floor": 1, "jibun": "929", "price": 155000}
+{"apt": "신안파크", "area": 56.78, "built": 1987, "date": "2021-05-31", "dong": "신월동", "floor": 5, "jibun": "350-2", "price": 33000}
+{"apt": "신화타워", "area": 124.2, "built": 1994, "date": "2021-06-01", "dong": "목동", "floor": 3, "jibun": "502-1", "price": 68000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2021-06-01", "dong": "목동", "floor": 8, "jibun": "903", "price": 167000}
+{"apt": "신안파크", "area": 72.98, "built": 1987, "date": "2021-06-02", "dong": "신월동", "floor": 1, "jibun": "350-2", "price": 59800}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-06-02", "dong": "신월동", "floor": 10, "jibun": "987-1", "price": 61000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2021-06-03", "dong": "목동", "floor": 10, "jibun": "929", "price": 164000}
+{"apt": "현대", "area": 57.84, "built": 1996, "date": "2021-06-05", "dong": "목동", "floor": 12, "jibun": "930", "price": 119000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-06-05", "dong": "신월동", "floor": 3, "jibun": "987-1", "price": 67500}
+{"apt": "목동삼성", "area": 84.77, "built": 1996, "date": "2021-06-05", "dong": "신정동", "floor": 12, "jibun": "1278", "price": 134500}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-06-05", "dong": "신정동", "floor": 1, "jibun": "314", "price": 129500}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-06-05", "dong": "신정동", "floor": 17, "jibun": "314", "price": 131000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-06-07", "dong": "신월동", "floor": 10, "jibun": "987-1", "price": 64300}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2021-06-07", "dong": "신정동", "floor": 7, "jibun": "311", "price": 128500}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2021-06-07", "dong": "신정동", "floor": 9, "jibun": "312", "price": 163500}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2021-06-07", "dong": "신정동", "floor": 4, "jibun": "327", "price": 150000}
+{"apt": "목동대림", "area": 84.82, "built": 1994, "date": "2021-06-09", "dong": "목동", "floor": 9, "jibun": "405", "price": 148000}
+{"apt": "우성", "area": 84.63, "built": 1992, "date": "2021-06-10", "dong": "목동", "floor": 5, "jibun": "200", "price": 147000}
+{"apt": "현대", "area": 84.84, "built": 1995, "date": "2021-06-11", "dong": "신정동", "floor": 19, "jibun": "1252", "price": 116000}
+{"apt": "목동신시가지12", "area": 56.76, "built": 1988, "date": "2021-06-11", "dong": "신정동", "floor": 4, "jibun": "326", "price": 129700}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-06-12", "dong": "신월동", "floor": 1, "jibun": "987-1", "price": 59800}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-06-12", "dong": "신월동", "floor": 1, "jibun": "987-1", "price": 65000}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2021-06-12", "dong": "신정동", "floor": 5, "jibun": "1279", "price": 138000}
+{"apt": "목동신시가지1", "area": 99.15, "built": 1985, "date": "2021-06-14", "dong": "목동", "floor": 2, "jibun": "901", "price": 215000}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2021-06-14", "dong": "목동", "floor": 10, "jibun": "925", "price": 159000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2021-06-14", "dong": "신월동", "floor": 11, "jibun": "987-1", "price": 73700}
+{"apt": "목동신시가지1", "area": 83.23, "built": 1985, "date": "2021-06-15", "dong": "목동", "floor": 1, "jibun": "901", "price": 179500}
+{"apt": "목동신시가지5", "area": 93.24, "built": 1986, "date": "2021-06-15", "dong": "목동", "floor": 1, "jibun": "912", "price": 230000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2021-06-16", "dong": "목동", "floor": 1, "jibun": "911", "price": 137000}
+{"apt": "쌍용", "area": 84.63, "built": 1992, "date": "2021-06-18", "dong": "신정동", "floor": 6, "jibun": "334", "price": 113700}
+{"apt": "장미", "area": 70.91, "built": 1996, "date": "2021-06-18", "dong": "신정동", "floor": 4, "jibun": "917-10", "price": 38000}
+{"apt": "목동신시가지4", "area": 48.69, "built": 1986, "date": "2021-06-19", "dong": "목동", "floor": 17, "jibun": "904", "price": 134000}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2021-06-19", "dong": "목동", "floor": 12, "jibun": "925", "price": 160000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2021-06-19", "dong": "목동", "floor": 12, "jibun": "929", "price": 162000}
+{"apt": "목동신시가지3", "area": 95.74, "built": 1986, "date": "2021-06-21", "dong": "목동", "floor": 2, "jibun": "903", "price": 173000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2021-06-21", "dong": "신월동", "floor": 1, "jibun": "987-1", "price": 74000}
+{"apt": "삼익", "area": 114.54, "built": 1997, "date": "2021-06-22", "dong": "목동", "floor": 5, "jibun": "933", "price": 158000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-06-23", "dong": "신월동", "floor": 8, "jibun": "987-1", "price": 69500}
+{"apt": "목동삼성", "area": 114.93, "built": 1996, "date": "2021-06-23", "dong": "신정동", "floor": 21, "jibun": "1278", "price": 175000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2021-06-24", "dong": "신정동", "floor": 14, "jibun": "325", "price": 123000}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2021-06-25", "dong": "신정동", "floor": 8, "jibun": "325", "price": 157000}
+{"apt": "목동신시가지2", "area": 65.25, "built": 1986, "date": "2021-06-26", "dong": "목동", "floor": 2, "jibun": "902", "price": 169000}
+{"apt": "길훈", "area": 49.77, "built": 1987, "date": "2021-06-28", "dong": "신월동", "floor": 5, "jibun": "341-1", "price": 41800}
+{"apt": "목동신시가지5", "area": 95.27, "built": 1986, "date": "2021-06-30", "dong": "목동", "floor": 3, "jibun": "912", "price": 225000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-06-30", "dong": "신월동", "floor": 5, "jibun": "987-1", "price": 62000}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2021-07-02", "dong": "신정동", "floor": 4, "jibun": "312", "price": 210000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2021-07-03", "dong": "목동", "floor": 9, "jibun": "929", "price": 167700}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2021-07-03", "dong": "신월동", "floor": 1, "jibun": "987-1", "price": 74000}
+{"apt": "목동신시가지13", "area": 53.9, "built": 1987, "date": "2021-07-03", "dong": "신정동", "floor": 5, "jibun": "327", "price": 131500}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2021-07-03", "dong": "신정동", "floor": 4, "jibun": "327", "price": 163500}
+{"apt": "목동신시가지13", "area": 98.63, "built": 1987, "date": "2021-07-03", "dong": "신정동", "floor": 13, "jibun": "327", "price": 201500}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-07-05", "dong": "신월동", "floor": 9, "jibun": "987-1", "price": 68600}
+{"apt": "엘리온", "area": 72.6, "built": 2011, "date": "2021-07-07", "dong": "목동", "floor": 4, "jibun": "803-2", "price": 67800}
+{"apt": "목동신시가지6", "area": 95.03, "built": 1986, "date": "2021-07-09", "dong": "목동", "floor": 7, "jibun": "911", "price": 222000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2021-07-12", "dong": "목동", "floor": 7, "jibun": "903", "price": 162500}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2021-07-12", "dong": "목동", "floor": 6, "jibun": "912", "price": 180000}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2021-07-12", "dong": "신정동", "floor": 11, "jibun": "1279", "price": 149800}
+{"apt": "건영", "area": 84.27, "built": 1994, "date": "2021-07-13", "dong": "목동", "floor": 8, "jibun": "928", "price": 76000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-07-13", "dong": "신월동", "floor": 5, "jibun": "987-1", "price": 67700}
+{"apt": "나산", "area": 59.9, "built": 1997, "date": "2021-07-14", "dong": "신월동", "floor": 7, "jibun": "217-2", "price": 38200}
+{"apt": "목동삼성", "area": 84.77, "built": 1996, "date": "2021-07-14", "dong": "신정동", "floor": 19, "jibun": "1278", "price": 141000}
+{"apt": "우성", "area": 84.63, "built": 1992, "date": "2021-07-17", "dong": "목동", "floor": 2, "jibun": "200", "price": 137000}
+{"apt": "쌍용", "area": 84.63, "built": 1992, "date": "2021-07-17", "dong": "신정동", "floor": 6, "jibun": "334", "price": 117300}
+{"apt": "우정", "area": 57.11, "built": 1988, "date": "2021-07-20", "dong": "신월동", "floor": 5, "jibun": "350-3", "price": 40000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-07-21", "dong": "신월동", "floor": 1, "jibun": "987-1", "price": 57800}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2021-07-21", "dong": "신정동", "floor": 7, "jibun": "1279", "price": 145500}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2021-07-21", "dong": "신정동", "floor": 5, "jibun": "327", "price": 160000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2021-07-22", "dong": "목동", "floor": 3, "jibun": "929", "price": 155000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-07-22", "dong": "신월동", "floor": 4, "jibun": "987-1", "price": 70000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2021-07-22", "dong": "신정동", "floor": 9, "jibun": "314", "price": 160000}
+{"apt": "목4현대", "area": 84.99, "built": 1997, "date": "2021-07-23", "dong": "목동", "floor": 4, "jibun": "755-1", "price": 95500}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-07-23", "dong": "신월동", "floor": 5, "jibun": "987-1", "price": 69800}
+{"apt": "목동현대3차", "area": 114.93, "built": 1997, "date": "2021-07-24", "dong": "신정동", "floor": 12, "jibun": "1279", "price": 174500}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2021-07-26", "dong": "목동", "floor": 7, "jibun": "904", "price": 134500}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-07-26", "dong": "신월동", "floor": 12, "jibun": "987-1", "price": 64500}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2021-07-26", "dong": "신정동", "floor": 1, "jibun": "1279", "price": 120000}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2021-07-26", "dong": "신정동", "floor": 12, "jibun": "1279", "price": 145500}
+{"apt": "길훈", "area": 42.57, "built": 1987, "date": "2021-07-27", "dong": "신월동", "floor": 4, "jibun": "341-1", "price": 38400}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-07-27", "dong": "신월동", "floor": 8, "jibun": "987-1", "price": 69000}
+{"apt": "목동신시가지9", "area": 106.39, "built": 1987, "date": "2021-07-27", "dong": "신정동", "floor": 5, "jibun": "312", "price": 205000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-07-29", "dong": "신월동", "floor": 9, "jibun": "987-1", "price": 69900}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2021-07-29", "dong": "신정동", "floor": 3, "jibun": "311", "price": 116000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2021-07-31", "dong": "신월동", "floor": 11, "jibun": "987-1", "price": 80750}
+{"apt": "서울가든", "area": 100.8, "built": 1985, "date": "2021-08-04", "dong": "신월동", "floor": 3, "jibun": "475", "price": 79000}
+{"apt": "삼익", "area": 84.88, "built": 1997, "date": "2021-08-05", "dong": "목동", "floor": 13, "jibun": "933", "price": 137500}
+{"apt": "목동현대3차", "area": 101.91, "built": 1997, "date": "2021-08-05", "dong": "신정동", "floor": 9, "jibun": "1279", "price": 161500}
+{"apt": "삼익", "area": 84.88, "built": 1997, "date": "2021-08-06", "dong": "목동", "floor": 17, "jibun": "933", "price": 134800}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2021-08-06", "dong": "신정동", "floor": 4, "jibun": "311", "price": 154500}
+{"apt": "금호아파트(768)", "area": 84.92, "built": 1995, "date": "2021-08-07", "dong": "목동", "floor": 5, "jibun": "768-5", "price": 95000}
+{"apt": "건영", "area": 84.33, "built": 1994, "date": "2021-08-07", "dong": "목동", "floor": 7, "jibun": "928", "price": 80500}
+{"apt": "목동현대3차", "area": 71.16, "built": 1997, "date": "2021-08-07", "dong": "신정동", "floor": 2, "jibun": "1279", "price": 118500}
+{"apt": "목동현대3차", "area": 71.16, "built": 1997, "date": "2021-08-07", "dong": "신정동", "floor": 17, "jibun": "1279", "price": 118000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-08-08", "dong": "신월동", "floor": 2, "jibun": "987-1", "price": 60500}
+{"apt": "신안약수", "area": 68.0, "built": 1985, "date": "2021-08-09", "dong": "신월동", "floor": 5, "jibun": "591-1", "price": 65000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-08-09", "dong": "신월동", "floor": 10, "jibun": "987-1", "price": 63000}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2021-08-09", "dong": "신정동", "floor": 12, "jibun": "1279", "price": 146000}
+{"apt": "목동신시가지2", "area": 65.25, "built": 1986, "date": "2021-08-10", "dong": "목동", "floor": 12, "jibun": "902", "price": 169000}
+{"apt": "목동신시가지6", "area": 115.19, "built": 1986, "date": "2021-08-10", "dong": "목동", "floor": 11, "jibun": "911", "price": 255000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-08-10", "dong": "신월동", "floor": 9, "jibun": "987-1", "price": 71000}
+{"apt": "목동신시가지9", "area": 53.82, "built": 1987, "date": "2021-08-10", "dong": "신정동", "floor": 9, "jibun": "312", "price": 139500}
+{"apt": "목동신시가지12", "area": 53.46, "built": 1988, "date": "2021-08-10", "dong": "신정동", "floor": 14, "jibun": "326", "price": 132500}
+{"apt": "목동신시가지2", "area": 152.64, "built": 1986, "date": "2021-08-11", "dong": "목동", "floor": 4, "jibun": "902", "price": 276000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2021-08-11", "dong": "신정동", "floor": 19, "jibun": "314", "price": 167500}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2021-08-11", "dong": "신정동", "floor": 4, "jibun": "325", "price": 128000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2021-08-13", "dong": "목동", "floor": 19, "jibun": "911", "price": 140000}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2021-08-13", "dong": "신정동", "floor": 14, "jibun": "312", "price": 166500}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2021-08-13", "dong": "신정동", "floor": 5, "jibun": "312", "price": 209700}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-08-13", "dong": "신정동", "floor": 10, "jibun": "314", "price": 144500}
+{"apt": "목동신시가지13", "area": 53.9, "built": 1987, "date": "2021-08-13", "dong": "신정동", "floor": 2, "jibun": "327", "price": 132000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2021-08-16", "dong": "목동", "floor": 2, "jibun": "911", "price": 139000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2021-08-17", "dong": "목동", "floor": 1, "jibun": "904", "price": 137000}
+{"apt": "삼동", "area": 84.15, "built": 1997, "date": "2021-08-17", "dong": "신월동", "floor": 7, "jibun": "109-1", "price": 42000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2021-08-20", "dong": "목동", "floor": 9, "jibun": "929", "price": 165000}
+{"apt": "목동삼성", "area": 84.77, "built": 1996, "date": "2021-08-21", "dong": "신정동", "floor": 6, "jibun": "1278", "price": 140500}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2021-08-23", "dong": "신정동", "floor": 8, "jibun": "312", "price": 158000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2021-08-24", "dong": "목동", "floor": 18, "jibun": "911", "price": 150000}
+{"apt": "목동신시가지5", "area": 93.24, "built": 1986, "date": "2021-08-25", "dong": "목동", "floor": 1, "jibun": "912", "price": 235000}
+{"apt": "신안파크", "area": 72.97, "built": 1987, "date": "2021-08-26", "dong": "신월동", "floor": 2, "jibun": "350-2", "price": 64500}
+{"apt": "목동신시가지1", "area": 154.44, "built": 1985, "date": "2021-08-27", "dong": "목동", "floor": 5, "jibun": "901", "price": 286000}
+{"apt": "목동신시가지5", "area": 95.28, "built": 1986, "date": "2021-08-27", "dong": "목동", "floor": 7, "jibun": "912", "price": 234000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-08-27", "dong": "신월동", "floor": 9, "jibun": "987-1", "price": 63000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2021-08-27", "dong": "신정동", "floor": 2, "jibun": "329", "price": 137500}
+{"apt": "목동신시가지13", "area": 53.9, "built": 1987, "date": "2021-08-28", "dong": "신정동", "floor": 14, "jibun": "327", "price": 128700}
+{"apt": "삼익", "area": 59.87, "built": 1997, "date": "2021-08-30", "dong": "목동", "floor": 2, "jibun": "933", "price": 115000}
+{"apt": "신안파크", "area": 72.97, "built": 1987, "date": "2021-08-30", "dong": "신월동", "floor": 3, "jibun": "350-2", "price": 62750}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-08-30", "dong": "신월동", "floor": 2, "jibun": "987-1", "price": 60000}
+{"apt": "삼익", "area": 114.54, "built": 1997, "date": "2021-08-31", "dong": "목동", "floor": 13, "jibun": "933", "price": 170000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2021-09-01", "dong": "목동", "floor": 7, "jibun": "903", "price": 162000}
+{"apt": "목동신시가지14", "area": 129.33, "built": 1987, "date": "2021-09-01", "dong": "신정동", "floor": 12, "jibun": "329", "price": 230000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-09-02", "dong": "신월동", "floor": 2, "jibun": "987-1", "price": 63000}
+{"apt": "목화", "area": 83.83, "built": 1996, "date": "2021-09-03", "dong": "목동", "floor": 6, "jibun": "736-4", "price": 45000}
+{"apt": "삼성(766-1)", "area": 75.34, "built": 1995, "date": "2021-09-03", "dong": "목동", "floor": 1, "jibun": "766-1", "price": 51200}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-09-03", "dong": "신월동", "floor": 5, "jibun": "987-1", "price": 69000}
+{"apt": "우성", "area": 84.63, "built": 1992, "date": "2021-09-04", "dong": "목동", "floor": 12, "jibun": "200", "price": 154000}
+{"apt": "길훈", "area": 42.57, "built": 1987, "date": "2021-09-04", "dong": "신월동", "floor": 5, "jibun": "341-1", "price": 43000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2021-09-04", "dong": "신월동", "floor": 7, "jibun": "987-1", "price": 81000}
+{"apt": "수정", "area": 47.16, "built": 1987, "date": "2021-09-04", "dong": "신정동", "floor": 1, "jibun": "733-31", "price": 68200}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2021-09-06", "dong": "목동", "floor": 10, "jibun": "929", "price": 164000}
+{"apt": "목동신시가지1", "area": 51.48, "built": 1985, "date": "2021-09-07", "dong": "목동", "floor": 14, "jibun": "901", "price": 145000}
+{"apt": "금호1", "area": 114.78, "built": 1997, "date": "2021-09-07", "dong": "목동", "floor": 5, "jibun": "934", "price": 192000}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2021-09-07", "dong": "신정동", "floor": 4, "jibun": "1279", "price": 142500}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-09-10", "dong": "신월동", "floor": 7, "jibun": "987-1", "price": 71000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2021-09-10", "dong": "신정동", "floor": 7, "jibun": "311", "price": 136000}
+{"apt": "신월성원", "area": 59.94, "built": 1996, "date": "2021-09-11", "dong": "신월동", "floor": 2, "jibun": "222-7", "price": 38000}
+{"apt": "목동신시가지1", "area": 83.23, "built": 1985, "date": "2021-09-13", "dong": "목동", "floor": 1, "jibun": "901", "price": 189000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2021-09-16", "dong": "목동", "floor": 4, "jibun": "929", "price": 163000}
+{"apt": "금호1", "area": 114.78, "built": 1997, "date": "2021-09-16", "dong": "목동", "floor": 7, "jibun": "934", "price": 200000}
+{"apt": "신안파크", "area": 56.78, "built": 1987, "date": "2021-09-16", "dong": "신월동", "floor": 3, "jibun": "350-2", "price": 51000}
+{"apt": "신안파크", "area": 72.97, "built": 1987, "date": "2021-09-16", "dong": "신월동", "floor": 3, "jibun": "350-2", "price": 63500}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2021-09-17", "dong": "신월동", "floor": 10, "jibun": "987-1", "price": 83000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2021-09-17", "dong": "신정동", "floor": 9, "jibun": "329", "price": 215500}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2021-09-23", "dong": "신정동", "floor": 1, "jibun": "325", "price": 152500}
+{"apt": "금호1", "area": 59.88, "built": 1997, "date": "2021-09-25", "dong": "목동", "floor": 12, "jibun": "934", "price": 139000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-09-25", "dong": "신월동", "floor": 10, "jibun": "987-1", "price": 74000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-09-30", "dong": "신월동", "floor": 6, "jibun": "987-1", "price": 67000}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2021-09-30", "dong": "신정동", "floor": 2, "jibun": "311", "price": 158000}
+{"apt": "목동신시가지4", "area": 48.69, "built": 1986, "date": "2021-10-02", "dong": "목동", "floor": 5, "jibun": "904", "price": 139500}
+{"apt": "보람아파트", "area": 75.87, "built": 1996, "date": "2021-10-02", "dong": "신월동", "floor": 2, "jibun": "457-6", "price": 40000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-10-02", "dong": "신월동", "floor": 2, "jibun": "987-1", "price": 61700}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-10-02", "dong": "신월동", "floor": 6, "jibun": "987-1", "price": 73500}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2021-10-02", "dong": "신정동", "floor": 11, "jibun": "314", "price": 168000}
+{"apt": "청구", "area": 84.99, "built": 1992, "date": "2021-10-02", "dong": "신정동", "floor": 3, "jibun": "336", "price": 113900}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2021-10-04", "dong": "목동", "floor": 15, "jibun": "929", "price": 169700}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-10-04", "dong": "신월동", "floor": 4, "jibun": "987-1", "price": 65400}
+{"apt": "마이홈", "area": 114.99, "built": 1995, "date": "2021-10-06", "dong": "신정동", "floor": 13, "jibun": "1194-5", "price": 78800}
+{"apt": "목동신시가지1", "area": 47.52, "built": 1985, "date": "2021-10-07", "dong": "목동", "floor": 12, "jibun": "901", "price": 136500}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2021-10-08", "dong": "목동", "floor": 16, "jibun": "911", "price": 146500}
+{"apt": "현대", "area": 84.84, "built": 1995, "date": "2021-10-10", "dong": "신정동", "floor": 18, "jibun": "1252", "price": 124000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2021-10-12", "dong": "신월동", "floor": 3, "jibun": "987-1", "price": 83000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2021-10-14", "dong": "목동", "floor": 10, "jibun": "200", "price": 160000}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2021-10-14", "dong": "목동", "floor": 8, "jibun": "925", "price": 157000}
+{"apt": "현대", "area": 84.84, "built": 1995, "date": "2021-10-14", "dong": "신정동", "floor": 14, "jibun": "1252", "price": 123000}
+{"apt": "목동신시가지8", "area": 105.35, "built": 1987, "date": "2021-10-15", "dong": "신정동", "floor": 10, "jibun": "314", "price": 217500}
+{"apt": "목동신시가지14", "area": 74.19, "built": 1987, "date": "2021-10-16", "dong": "신정동", "floor": 6, "jibun": "329", "price": 168000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2021-10-18", "dong": "신월동", "floor": 3, "jibun": "987-1", "price": 63000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2021-10-18", "dong": "신정동", "floor": 10, "jibun": "311", "price": 139000}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2021-10-19", "dong": "목동", "floor": 7, "jibun": "925", "price": 158000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2021-10-20", "dong": "목동", "floor": 14, "jibun": "912", "price": 184000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2021-10-20", "dong": "목동", "floor": 4, "jibun": "929", "price": 166500}
+{"apt": "신안파크", "area": 47.6, "built": 1987, "date": "2021-10-20", "dong": "신월동", "floor": 2, "jibun": "350-2", "price": 36000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-10-20", "dong": "신정동", "floor": 12, "jibun": "314", "price": 143500}
+{"apt": "목동신시가지10", "area": 127.21, "built": 1987, "date": "2021-10-22", "dong": "신정동", "floor": 15, "jibun": "311", "price": 225000}
+{"apt": "목동신시가지13", "area": 98.63, "built": 1987, "date": "2021-10-23", "dong": "신정동", "floor": 15, "jibun": "327", "price": 205000}
+{"apt": "목동신시가지14", "area": 71.37, "built": 1987, "date": "2021-10-23", "dong": "신정동", "floor": 13, "jibun": "329", "price": 168000}
+{"apt": "목동신시가지14", "area": 129.33, "built": 1987, "date": "2021-10-23", "dong": "신정동", "floor": 11, "jibun": "329", "price": 239500}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2021-10-24", "dong": "목동", "floor": 4, "jibun": "929", "price": 165000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-10-26", "dong": "신월동", "floor": 4, "jibun": "987-1", "price": 70800}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2021-10-26", "dong": "신정동", "floor": 8, "jibun": "311", "price": 141000}
+{"apt": "나산", "area": 84.18, "built": 1997, "date": "2021-10-27", "dong": "신월동", "floor": 7, "jibun": "217-2", "price": 55000}
+{"apt": "신안파크", "area": 72.98, "built": 1987, "date": "2021-10-29", "dong": "신월동", "floor": 2, "jibun": "350-2", "price": 66000}
+{"apt": "길훈", "area": 49.77, "built": 1987, "date": "2021-11-03", "deal_type": "중개거래", "dong": "신월동", "floor": 4, "jibun": "341-1", "price": 53500}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2021-11-05", "deal_type": "중개거래", "dong": "신정동", "floor": 5, "jibun": "314", "price": 149000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2021-11-06", "deal_type": "중개거래", "dong": "신정동", "floor": 19, "jibun": "314", "price": 167000}
+{"apt": "목동성원(926-8)", "area": 114.95, "built": 1997, "date": "2021-11-09", "deal_type": "중개거래", "dong": "목동", "floor": 8, "jibun": "926-8", "price": 183000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2021-11-12", "deal_type": "중개거래", "dong": "신월동", "floor": 3, "jibun": "987-1", "price": 68300}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2021-11-12", "deal_type": "중개거래", "dong": "신정동", "floor": 17, "jibun": "1279", "price": 139900}
+{"apt": "목동신시가지1", "area": 91.26, "built": 1985, "date": "2021-11-15", "deal_type": "중개거래", "dong": "목동", "floor": 9, "jibun": "901", "price": 213000}
+{"apt": "길훈", "area": 42.57, "built": 1987, "date": "2021-11-16", "deal_type": "중개거래", "dong": "신월동", "floor": 5, "jibun": "341-1", "price": 43000}
+{"apt": "신안파크", "area": 60.2, "built": 1987, "date": "2021-11-16", "deal_type": "중개거래", "dong": "신월동", "floor": 2, "jibun": "350-2", "price": 50000}
+{"apt": "신안파크", "area": 56.78, "built": 1987, "date": "2021-11-30", "deal_type": "중개거래", "dong": "신월동", "floor": 2, "jibun": "350-2", "price": 54000}
+{"apt": "목동신시가지10", "area": 105.58, "built": 1987, "date": "2021-12-01", "deal_type": "중개거래", "dong": "신정동", "floor": 12, "jibun": "311", "price": 207500}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2021-12-01", "deal_type": "중개거래", "dong": "신정동", "floor": 7, "jibun": "325", "price": 149000}
+{"apt": "목동삼성", "area": 84.77, "built": 1996, "date": "2021-12-04", "deal_type": "중개거래", "dong": "신정동", "floor": 11, "jibun": "1278", "price": 137000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2021-12-04", "deal_type": "직거래", "dong": "신정동", "floor": 11, "jibun": "327", "price": 100000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2021-12-07", "deal_type": "중개거래", "dong": "목동", "floor": 12, "jibun": "911", "price": 146500}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2021-12-08", "deal_type": "중개거래", "dong": "목동", "floor": 9, "jibun": "911", "price": 147000}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2021-12-09", "deal_type": "중개거래", "dong": "신정동", "floor": 16, "jibun": "1279", "price": 155000}
+{"apt": "목동신시가지9", "area": 156.84, "built": 1987, "date": "2021-12-13", "deal_type": "중개거래", "dong": "신정동", "floor": 5, "jibun": "312", "price": 280000}
+{"apt": "목동신시가지5", "area": 93.18, "built": 1986, "date": "2021-12-15", "deal_type": "중개거래", "dong": "목동", "floor": 1, "jibun": "912", "price": 235000}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2021-12-17", "deal_type": "중개거래", "dong": "신정동", "floor": 12, "jibun": "312", "price": 161500}
+{"apt": "목동신시가지10", "area": 105.58, "built": 1987, "date": "2021-12-20", "deal_type": "중개거래", "dong": "신정동", "floor": 4, "jibun": "311", "price": 200500}
+{"apt": "동도빌라트", "area": 143.52, "built": 1996, "date": "2021-12-28", "deal_type": "중개거래", "dong": "목동", "floor": 8, "jibun": "806-25", "price": 107000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2021-12-28", "deal_type": "중개거래", "dong": "신정동", "floor": 12, "jibun": "329", "price": 185500}
+{"apt": "신목", "area": 74.64, "built": 1992, "date": "2021-12-30", "deal_type": "중개거래", "dong": "목동", "floor": 1, "jibun": "764-4", "price": 64500}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2022-01-06", "deal_type": "중개거래", "dong": "신정동", "floor": 7, "jibun": "325", "price": 146000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2022-01-08", "deal_type": "중개거래", "dong": "목동", "floor": 3, "jibun": "929", "price": 168500}
+{"apt": "신월성원", "area": 59.94, "built": 1996, "date": "2022-01-08", "deal_type": "중개거래", "dong": "신월동", "floor": 12, "jibun": "222-7", "price": 41000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2022-01-08", "deal_type": "중개거래", "dong": "신월동", "floor": 5, "jibun": "987-1", "price": 81000}
+{"apt": "목동신시가지5", "area": 115.47, "built": 1986, "date": "2022-01-13", "deal_type": "중개거래", "dong": "목동", "floor": 10, "jibun": "912", "price": 259000}
+{"apt": "현대", "area": 83.16, "built": 1996, "date": "2022-01-13", "deal_type": "중개거래", "dong": "목동", "floor": 15, "jibun": "930", "price": 159000}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2022-01-14", "deal_type": "중개거래", "dong": "신정동", "floor": 14, "jibun": "325", "price": 146000}
+{"apt": "목동신시가지13", "area": 53.9, "built": 1987, "date": "2022-01-15", "deal_type": "중개거래", "dong": "신정동", "floor": 12, "jibun": "327", "price": 120000}
+{"apt": "목동신시가지9", "area": 53.82, "built": 1987, "date": "2022-01-22", "deal_type": "중개거래", "dong": "신정동", "floor": 7, "jibun": "312", "price": 144500}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2022-01-22", "deal_type": "중개거래", "dong": "신정동", "floor": 15, "jibun": "312", "price": 165000}
+{"apt": "은행", "area": 73.07, "built": 1995, "date": "2022-02-06", "deal_type": "중개거래", "dong": "신정동", "floor": 1, "jibun": "980-5", "price": 50000}
+{"apt": "현대", "area": 84.84, "built": 1995, "date": "2022-02-09", "deal_type": "중개거래", "dong": "신정동", "floor": 7, "jibun": "1252", "price": 109000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2022-02-09", "deal_type": "중개거래", "dong": "신정동", "floor": 13, "jibun": "325", "price": 119000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2022-02-11", "deal_type": "중개거래", "dong": "신월동", "floor": 11, "jibun": "987-1", "price": 69500}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2022-02-14", "deal_type": "중개거래", "dong": "신월동", "floor": 8, "jibun": "987-1", "price": 71000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2022-02-17", "deal_type": "중개거래", "dong": "목동", "floor": 4, "jibun": "929", "price": 164000}
+{"apt": "서울가든", "area": 100.8, "built": 1985, "date": "2022-02-17", "deal_type": "중개거래", "dong": "신월동", "floor": 3, "jibun": "475", "price": 75800}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2022-02-18", "deal_type": "중개거래", "dong": "신정동", "floor": 14, "jibun": "312", "price": 198000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2022-02-19", "deal_type": "중개거래", "dong": "신월동", "floor": 4, "jibun": "987-1", "price": 72000}
+{"apt": "목동신시가지1", "area": 47.52, "built": 1985, "date": "2022-02-21", "deal_type": "중개거래", "dong": "목동", "floor": 15, "jibun": "901", "price": 130000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2022-03-05", "deal_type": "중개거래", "dong": "신월동", "floor": 4, "jibun": "987-1", "price": 67000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2022-03-05", "deal_type": "중개거래", "dong": "신정동", "floor": 15, "jibun": "325", "price": 118500}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2022-03-07", "deal_type": "중개거래", "dong": "신정동", "floor": 1, "jibun": "325", "price": 130000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2022-03-16", "deal_type": "중개거래", "dong": "신정동", "floor": 4, "jibun": "325", "price": 119500}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2022-03-18", "deal_type": "중개거래", "dong": "신월동", "floor": 9, "jibun": "987-1", "price": 83500}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2022-03-18", "deal_type": "중개거래", "dong": "신월동", "floor": 10, "jibun": "987-1", "price": 85000}
+{"apt": "길훈", "area": 42.57, "built": 1987, "date": "2022-03-19", "deal_type": "중개거래", "dong": "신월동", "floor": 5, "jibun": "341-1", "price": 43000}
+{"apt": "서울가든", "area": 86.4, "built": 1985, "date": "2022-03-20", "deal_type": "중개거래", "dong": "신월동", "floor": 9, "jibun": "475", "price": 69000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2022-03-21", "deal_type": "중개거래", "dong": "신월동", "floor": 4, "jibun": "987-1", "price": 83000}
+{"apt": "신안파크", "area": 47.6, "built": 1987, "date": "2022-03-22", "deal_type": "중개거래", "dong": "신월동", "floor": 4, "jibun": "350-2", "price": 47500}
+{"apt": "길훈", "area": 42.57, "built": 1987, "date": "2022-03-27", "deal_type": "중개거래", "dong": "신월동", "floor": 3, "jibun": "341-1", "price": 44800}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2022-03-29", "deal_type": "중개거래", "dong": "신정동", "floor": 14, "jibun": "312", "price": 215000}
+{"apt": "목동신시가지3", "area": 95.16, "built": 1986, "date": "2022-03-30", "deal_type": "중개거래", "dong": "목동", "floor": 6, "jibun": "903", "price": 226000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2022-03-31", "deal_type": "중개거래", "dong": "신정동", "floor": 7, "jibun": "325", "price": 118000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2022-04-02", "deal_type": "중개거래", "dong": "신월동", "floor": 2, "jibun": "987-1", "price": 69500}
+{"apt": "목동삼성", "area": 114.93, "built": 1996, "date": "2022-04-02", "deal_type": "중개거래", "dong": "신정동", "floor": 15, "jibun": "1278", "price": 150000}
+{"apt": "청자", "area": 84.98, "built": 1997, "date": "2022-04-02", "deal_type": "중개거래", "dong": "신정동", "floor": 4, "jibun": "915-12", "price": 62000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2022-04-06", "deal_type": "중개거래", "dong": "신월동", "floor": 1, "jibun": "987-1", "price": 60000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2022-04-09", "deal_type": "중개거래", "dong": "신정동", "floor": 9, "jibun": "325", "price": 119500}
+{"apt": "목동신시가지14", "area": 74.19, "built": 1987, "date": "2022-04-11", "deal_type": "중개거래", "dong": "신정동", "floor": 6, "jibun": "329", "price": 152000}
+{"apt": "목동신시가지4", "area": 48.69, "built": 1986, "date": "2022-04-12", "deal_type": "중개거래", "dong": "목동", "floor": 6, "jibun": "904", "price": 132000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2022-04-12", "deal_type": "중개거래", "dong": "목동", "floor": 4, "jibun": "929", "price": 158000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2022-04-13", "deal_type": "중개거래", "dong": "신정동", "floor": 13, "jibun": "325", "price": 124500}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2022-04-14", "deal_type": "중개거래", "dong": "신월동", "floor": 5, "jibun": "987-1", "price": 70500}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2022-04-15", "deal_type": "중개거래", "dong": "목동", "floor": 2, "jibun": "903", "price": 165000}
+{"apt": "목동신시가지4", "area": 48.69, "built": 1986, "date": "2022-04-16", "deal_type": "중개거래", "dong": "목동", "floor": 16, "jibun": "904", "price": 138000}
+{"apt": "조광", "area": 121.75, "built": 1997, "date": "2022-04-19", "deal_type": "중개거래", "dong": "신월동", "floor": 9, "jibun": "558-1", "price": 58300}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2022-04-20", "deal_type": "중개거래", "dong": "신월동", "floor": 11, "jibun": "987-1", "price": 69200}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2022-04-20", "deal_type": "중개거래", "dong": "신정동", "floor": 14, "jibun": "329", "price": 193000}
+{"apt": "목동신시가지1", "area": 88.5, "built": 1985, "date": "2022-04-22", "deal_type": "중개거래", "dong": "목동", "floor": 15, "jibun": "901", "price": 209500}
+{"apt": "목동신시가지7", "area": 101.2, "built": 1986, "date": "2022-04-22", "deal_type": "중개거래", "dong": "목동", "floor": 13, "jibun": "925", "price": 254000}
+{"apt": "청구", "area": 84.99, "built": 1992, "date": "2022-04-22", "deal_type": "중개거래", "dong": "신정동", "floor": 5, "jibun": "336", "price": 105000}
+{"apt": "신안약수", "area": 68.0, "built": 1985, "date": "2022-04-23", "deal_type": "중개거래", "dong": "신월동", "floor": 5, "jibun": "591-1", "price": 72000}
+{"apt": "목동신시가지2", "area": 65.25, "built": 1986, "date": "2022-04-25", "deal_type": "중개거래", "dong": "목동", "floor": 12, "jibun": "902", "price": 168000}
+{"apt": "신월성원", "area": 59.94, "built": 1996, "date": "2022-04-25", "deal_type": "중개거래", "dong": "신월동", "floor": 14, "jibun": "222-7", "price": 42000}
+{"apt": "목동삼성", "area": 84.77, "built": 1996, "date": "2022-04-25", "deal_type": "중개거래", "dong": "신정동", "floor": 8, "jibun": "1278", "price": 139000}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2022-04-26", "deal_type": "중개거래", "dong": "신정동", "floor": 13, "jibun": "1279", "price": 158000}
+{"apt": "건영", "area": 84.27, "built": 1994, "date": "2022-04-27", "deal_type": "중개거래", "dong": "목동", "floor": 9, "jibun": "928", "price": 80000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2022-04-27", "deal_type": "중개거래", "dong": "목동", "floor": 9, "jibun": "929", "price": 163500}
+{"apt": "금호1", "area": 59.88, "built": 1997, "date": "2022-04-27", "deal_type": "중개거래", "dong": "목동", "floor": 22, "jibun": "934", "price": 145000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2022-04-27", "deal_type": "중개거래", "dong": "신월동", "floor": 9, "jibun": "987-1", "price": 72000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2022-04-28", "deal_type": "중개거래", "dong": "신정동", "floor": 6, "jibun": "329", "price": 128000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2022-04-29", "deal_type": "중개거래", "dong": "목동", "floor": 12, "jibun": "903", "price": 168000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2022-04-29", "deal_type": "중개거래", "dong": "신월동", "floor": 9, "jibun": "987-1", "price": 71500}
+{"apt": "목동신시가지4", "area": 48.69, "built": 1986, "date": "2022-04-30", "deal_type": "중개거래", "dong": "목동", "floor": 15, "jibun": "904", "price": 141500}
+{"apt": "신안파크", "area": 60.2, "built": 1987, "date": "2022-04-30", "deal_type": "중개거래", "dong": "신월동", "floor": 5, "jibun": "350-2", "price": 54800}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2022-05-07", "deal_type": "중개거래", "dong": "신정동", "floor": 11, "jibun": "312", "price": 160000}
+{"apt": "목동신시가지13", "area": 98.63, "built": 1987, "date": "2022-05-07", "deal_type": "중개거래", "dong": "신정동", "floor": 10, "jibun": "327", "price": 201000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2022-05-09", "deal_type": "중개거래", "dong": "목동", "floor": 11, "jibun": "904", "price": 138500}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2022-05-09", "deal_type": "중개거래", "dong": "신정동", "floor": 10, "jibun": "325", "price": 120000}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2022-05-12", "deal_type": "중개거래", "dong": "신정동", "floor": 7, "jibun": "311", "price": 164000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2022-05-14", "deal_type": "중개거래", "dong": "신월동", "floor": 12, "jibun": "987-1", "price": 59900}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2022-05-15", "deal_type": "중개거래", "dong": "목동", "floor": 15, "jibun": "903", "price": 169800}
+{"apt": "길훈", "area": 49.77, "built": 1987, "date": "2022-05-15", "deal_type": "중개거래", "dong": "신월동", "floor": 3, "jibun": "341-1", "price": 52000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2022-05-16", "deal_type": "중개거래", "dong": "신월동", "floor": 10, "jibun": "987-1", "price": 70000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2022-05-17", "deal_type": "중개거래", "dong": "목동", "floor": 4, "jibun": "929", "price": 163500}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2022-05-18", "deal_type": "중개거래", "dong": "신월동", "floor": 4, "jibun": "987-1", "price": 68500}
+{"apt": "목동신시가지1", "area": 66.0, "built": 1985, "date": "2022-05-19", "deal_type": "중개거래", "dong": "목동", "floor": 8, "jibun": "901", "price": 165000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2022-05-20", "deal_type": "중개거래", "dong": "신정동", "floor": 15, "jibun": "329", "price": 129000}
+{"apt": "신안파크", "area": 56.78, "built": 1987, "date": "2022-05-21", "deal_type": "중개거래", "dong": "신월동", "floor": 4, "jibun": "350-2", "price": 53600}
+{"apt": "목동신시가지12", "area": 53.46, "built": 1988, "date": "2022-05-27", "deal_type": "중개거래", "dong": "신정동", "floor": 3, "jibun": "326", "price": 127100}
+{"apt": "목동신시가지9", "area": 53.82, "built": 1987, "date": "2022-05-28", "deal_type": "중개거래", "dong": "신정동", "floor": 9, "jibun": "312", "price": 136000}
+{"apt": "현대", "area": 84.84, "built": 1995, "date": "2022-05-29", "deal_type": "중개거래", "dong": "신정동", "floor": 9, "jibun": "1252", "price": 105300}
+{"apt": "우당", "area": 131.76, "built": 1993, "date": "2022-06-01", "deal_type": "중개거래", "dong": "목동", "floor": 7, "jibun": "808-9", "price": 137000}
+{"apt": "목동신시가지1", "area": 99.15, "built": 1985, "date": "2022-06-02", "deal_type": "중개거래", "dong": "목동", "floor": 3, "jibun": "901", "price": 218000}
+{"apt": "목동신시가지5", "area": 83.47, "built": 1986, "date": "2022-06-02", "deal_type": "중개거래", "dong": "목동", "floor": 1, "jibun": "912", "price": 213000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2022-06-02", "deal_type": "중개거래", "dong": "목동", "floor": 14, "jibun": "929", "price": 166000}
+{"apt": "목동신시가지1", "area": 66.0, "built": 1985, "date": "2022-06-04", "deal_type": "중개거래", "dong": "목동", "floor": 12, "jibun": "901", "price": 165000}
+{"apt": "목동신시가지1", "area": 90.06, "built": 1985, "date": "2022-06-04", "deal_type": "중개거래", "dong": "목동", "floor": 1, "jibun": "901", "price": 208000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2022-06-04", "deal_type": "중개거래", "dong": "목동", "floor": 9, "jibun": "929", "price": 163000}
+{"apt": "목동신시가지10", "area": 105.58, "built": 1987, "date": "2022-06-07", "deal_type": "중개거래", "dong": "신정동", "floor": 2, "jibun": "311", "price": 197500}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2022-06-08", "deal_type": "중개거래", "dong": "목동", "floor": 13, "jibun": "929", "price": 168000}
+{"apt": "까치마을", "area": 84.84, "built": 1996, "date": "2022-06-09", "deal_type": "중개거래", "dong": "신정동", "floor": 4, "jibun": "739-17", "price": 40000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2022-06-13", "deal_type": "중개거래", "dong": "신정동", "floor": 10, "jibun": "314", "price": 148000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2022-06-13", "deal_type": "중개거래", "dong": "신정동", "floor": 11, "jibun": "314", "price": 171000}
+{"apt": "목동신시가지4", "area": 65.52, "built": 1986, "date": "2022-06-16", "deal_type": "중개거래", "dong": "목동", "floor": 1, "jibun": "904", "price": 172000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2022-06-16", "deal_type": "직거래", "dong": "신정동", "floor": 4, "jibun": "325", "price": 90000}
+{"apt": "진명", "area": 44.16, "built": 1992, "date": "2022-06-17", "deal_type": "중개거래", "dong": "신정동", "floor": 2, "jibun": "282-16", "price": 66850}
+{"apt": "삼구", "area": 83.85, "built": 1996, "date": "2022-06-21", "deal_type": "중개거래", "dong": "신월동", "floor": 2, "jibun": "604-4", "price": 49500}
+{"apt": "목동신시가지4", "area": 94.86, "built": 1986, "date": "2022-06-24", "deal_type": "중개거래", "dong": "목동", "floor": 1, "jibun": "904", "price": 201000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2022-06-24", "deal_type": "중개거래", "dong": "목동", "floor": 11, "jibun": "929", "price": 168300}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2022-06-28", "deal_type": "중개거래", "dong": "신정동", "floor": 13, "jibun": "325", "price": 116500}
+{"apt": "장미", "area": 70.91, "built": 1996, "date": "2022-07-02", "deal_type": "중개거래", "dong": "신정동", "floor": 4, "jibun": "917-10", "price": 40000}
+{"apt": "은하아파트", "area": 79.79, "built": 1993, "date": "2022-07-11", "deal_type": "중개거래", "dong": "신월동", "floor": 4, "jibun": "140-23", "price": 36000}
+{"apt": "금호1", "area": 84.96, "built": 1997, "date": "2022-07-13", "deal_type": "직거래", "dong": "목동", "floor": 22, "jibun": "934", "price": 115000}
+{"apt": "정원", "area": 72.36, "built": 1992, "date": "2022-07-22", "deal_type": "중개거래", "dong": "신월동", "floor": 2, "jibun": "113-14", "price": 36000}
+{"apt": "목동신시가지3", "area": 145.13, "built": 1986, "date": "2022-07-25", "deal_type": "중개거래", "dong": "목동", "floor": 1, "jibun": "903", "price": 280000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2022-07-26", "deal_type": "중개거래", "dong": "목동", "floor": 3, "jibun": "904", "price": 142000}
+{"apt": "목동신시가지4", "area": 67.58, "built": 1986, "date": "2022-07-26", "deal_type": "중개거래", "dong": "목동", "floor": 4, "jibun": "904", "price": 160000}
+{"apt": "목동신시가지4", "area": 65.34, "built": 1986, "date": "2022-07-27", "deal_type": "중개거래", "dong": "목동", "floor": 8, "jibun": "904", "price": 165500}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2022-08-04", "deal_type": "중개거래", "dong": "신정동", "floor": 3, "jibun": "325", "price": 148250}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2022-08-15", "deal_type": "중개거래", "dong": "신월동", "floor": 10, "jibun": "987-1", "price": 65000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2022-08-19", "deal_type": "중개거래", "dong": "신월동", "floor": 12, "jibun": "987-1", "price": 75500}
+{"apt": "나산", "area": 84.18, "built": 1997, "date": "2022-08-25", "deal_type": "중개거래", "dong": "신월동", "floor": 16, "jibun": "217-2", "price": 54000}
+{"apt": "길훈", "area": 42.57, "built": 1987, "date": "2022-08-25", "deal_type": "직거래", "dong": "신월동", "floor": 5, "jibun": "341-1", "price": 36000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2022-08-26", "deal_type": "중개거래", "dong": "목동", "floor": 12, "jibun": "929", "price": 143000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2022-08-27", "deal_type": "중개거래", "dong": "신정동", "floor": 11, "jibun": "326", "price": 133000}
+{"apt": "건영", "area": 84.39, "built": 1994, "date": "2022-08-30", "deal_type": "중개거래", "dong": "목동", "floor": 3, "jibun": "928", "price": 57000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2022-08-30", "deal_type": "중개거래", "dong": "신월동", "floor": 1, "jibun": "987-1", "price": 75500}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2022-09-01", "deal_type": "중개거래", "dong": "목동", "floor": 8, "jibun": "925", "price": 192500}
+{"apt": "목동신시가지13", "area": 98.63, "built": 1987, "date": "2022-09-01", "deal_type": "중개거래", "dong": "신정동", "floor": 3, "jibun": "327", "price": 174000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2022-09-05", "deal_type": "중개거래", "dong": "신월동", "floor": 2, "jibun": "987-1", "price": 60000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2022-09-07", "deal_type": "중개거래", "dong": "신정동", "floor": 3, "jibun": "325", "price": 98000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2022-09-07", "deal_type": "중개거래", "dong": "신정동", "floor": 7, "jibun": "329", "price": 113000}
+{"apt": "목동신시가지14", "area": 74.19, "built": 1987, "date": "2022-09-07", "deal_type": "중개거래", "dong": "신정동", "floor": 2, "jibun": "329", "price": 142000}
+{"apt": "목동신시가지5", "area": 143.36, "built": 1986, "date": "2022-09-09", "deal_type": "중개거래", "dong": "목동", "floor": 10, "jibun": "912", "price": 285000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2022-09-14", "deal_type": "중개거래", "dong": "목동", "floor": 11, "jibun": "911", "price": 140000}
+{"apt": "목동신시가지12", "area": 64.65, "built": 1988, "date": "2022-09-14", "deal_type": "중개거래", "dong": "신정동", "floor": 1, "jibun": "326", "price": 131000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2022-09-17", "deal_type": "중개거래", "dong": "신정동", "floor": 14, "jibun": "325", "price": 103000}
+{"apt": "목동신시가지2", "area": 95.76, "built": 1986, "date": "2022-09-21", "deal_type": "직거래", "dong": "목동", "floor": 3, "jibun": "902", "price": 194500}
+{"apt": "삼익", "area": 84.88, "built": 1997, "date": "2022-09-22", "deal_type": "중개거래", "dong": "목동", "floor": 9, "jibun": "933", "price": 120000}
+{"apt": "삼익", "area": 84.88, "built": 1997, "date": "2022-09-29", "deal_type": "중개거래", "dong": "목동", "floor": 9, "jibun": "933", "price": 114000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2022-10-15", "deal_type": "중개거래", "dong": "신정동", "floor": 14, "jibun": "329", "price": 160000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2022-10-16", "deal_type": "중개거래", "dong": "신정동", "floor": 12, "jibun": "311", "price": 109000}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2022-10-18", "deal_type": "중개거래", "dong": "신정동", "floor": 9, "jibun": "312", "price": 134000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2022-10-28", "deal_type": "중개거래", "dong": "신월동", "floor": 12, "jibun": "987-1", "price": 49000}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2022-10-28", "deal_type": "중개거래", "dong": "신정동", "floor": 8, "jibun": "312", "price": 139500}
+{"apt": "에이원", "area": 51.15, "built": 1994, "date": "2022-11-04", "deal_type": "중개거래", "dong": "신월동", "floor": 6, "jibun": "413-3", "price": 20800}
+{"apt": "목동신시가지1", "area": 47.52, "built": 1985, "date": "2022-11-05", "deal_type": "중개거래", "dong": "목동", "floor": 10, "jibun": "901", "price": 110000}
+{"apt": "목동그린빌라트", "area": 119.92, "built": 1996, "date": "2022-11-15", "deal_type": "중개거래", "dong": "신정동", "floor": 6, "jibun": "118-19", "price": 88000}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2022-11-18", "deal_type": "중개거래", "dong": "신정동", "floor": 10, "jibun": "311", "price": 135000}
+{"apt": "목동신시가지10", "area": 105.58, "built": 1987, "date": "2022-11-18", "deal_type": "중개거래", "dong": "신정동", "floor": 9, "jibun": "311", "price": 176000}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2022-11-24", "deal_type": "중개거래", "dong": "신정동", "floor": 4, "jibun": "325", "price": 125000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2022-11-26", "deal_type": "중개거래", "dong": "신정동", "floor": 8, "jibun": "311", "price": 101000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2022-11-29", "deal_type": "중개거래", "dong": "신정동", "floor": 14, "jibun": "325", "price": 85000}
+{"apt": "목동신시가지13", "area": 122.3, "built": 1987, "date": "2022-12-03", "deal_type": "중개거래", "dong": "신정동", "floor": 8, "jibun": "327", "price": 180000}
+{"apt": "목동신시가지10", "area": 156.24, "built": 1987, "date": "2022-12-07", "deal_type": "중개거래", "dong": "신정동", "floor": 13, "jibun": "311", "price": 214500}
+{"apt": "길훈", "area": 42.57, "built": 1987, "date": "2022-12-12", "deal_type": "직거래", "dong": "신월동", "floor": 2, "jibun": "341-1", "price": 36000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2022-12-12", "deal_type": "중개거래", "dong": "신정동", "floor": 1, "jibun": "329", "price": 103000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2022-12-16", "deal_type": "중개거래", "dong": "신정동", "floor": 7, "jibun": "325", "price": 94000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2022-12-17", "deal_type": "중개거래", "dong": "목동", "floor": 11, "jibun": "911", "price": 118000}
+{"apt": "목동신시가지13", "area": 53.9, "built": 1987, "date": "2022-12-21", "deal_type": "중개거래", "dong": "신정동", "floor": 5, "jibun": "327", "price": 94000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2022-12-21", "deal_type": "직거래", "dong": "신정동", "floor": 14, "jibun": "329", "price": 123000}
+{"apt": "길훈", "area": 49.77, "built": 1987, "date": "2022-12-22", "deal_type": "직거래", "dong": "신월동", "floor": 1, "jibun": "341-1", "price": 35000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2022-12-22", "deal_type": "중개거래", "dong": "신정동", "floor": 5, "jibun": "327", "price": 120000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2022-12-24", "deal_type": "중개거래", "dong": "목동", "floor": 11, "jibun": "929", "price": 119500}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2022-12-27", "deal_type": "중개거래", "dong": "목동", "floor": 12, "jibun": "911", "price": 114000}
+{"apt": "목동신시가지9", "area": 100.33, "built": 1987, "date": "2022-12-29", "deal_type": "중개거래", "dong": "신정동", "floor": 5, "jibun": "312", "price": 156000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2022-12-29", "deal_type": "중개거래", "dong": "신정동", "floor": 2, "jibun": "325", "price": 93000}
+{"apt": "동도(729-5)", "area": 64.02, "built": 1996, "date": "2022-12-31", "deal_type": "중개거래", "dong": "목동", "floor": 5, "jibun": "729-5", "price": 37000}
+{"apt": "목동신시가지10", "area": 127.21, "built": 1987, "date": "2023-01-03", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1023", "floor": 8, "jibun": "311", "price": 197500}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-01-06", "deal_type": "중개거래", "dong": "목동", "dong_no": "105", "floor": 4, "jibun": "929", "price": 116500}
+{"apt": "목동신시가지14", "area": 74.19, "built": 1987, "date": "2023-01-06", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1433", "floor": 7, "jibun": "329", "price": 110000}
+{"apt": "우성", "area": 84.63, "built": 1992, "date": "2023-01-07", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 3, "jibun": "200", "price": 108000}
+{"apt": "목동신시가지14", "area": 74.19, "built": 1987, "date": "2023-01-09", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1415", "floor": 15, "jibun": "329", "price": 102000}
+{"apt": "신안파크", "area": 60.2, "built": 1987, "date": "2023-01-11", "deal_type": "직거래", "dong": "신월동", "dong_no": "8", "floor": 5, "jibun": "350-2", "price": 40000}
+{"apt": "목동신시가지10", "area": 105.58, "built": 1987, "date": "2023-01-13", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1022", "floor": 10, "jibun": "311", "price": 174000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2023-01-15", "deal_type": "직거래", "dong": "신월동", "dong_no": "3", "floor": 7, "jibun": "987-1", "price": 50000}
+{"apt": "목동신시가지13", "area": 53.9, "built": 1987, "date": "2023-01-16", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1310", "floor": 13, "jibun": "327", "price": 95000}
+{"apt": "목동신시가지14", "area": 74.19, "built": 1987, "date": "2023-01-16", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1414", "floor": 10, "jibun": "329", "price": 107000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-01-17", "deal_type": "중개거래", "dong": "목동", "dong_no": "105", "floor": 3, "jibun": "929", "price": 120000}
+{"apt": "목동신시가지14", "area": 92.07, "built": 1987, "date": "2023-01-17", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1405", "floor": 1, "jibun": "329", "price": 149000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2023-01-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 8, "jibun": "929", "price": 120000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2023-01-19", "deal_type": "중개거래", "dong": "신월동", "dong_no": "15", "floor": 5, "jibun": "987-1", "price": 61000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2023-01-19", "deal_type": "중개거래", "dong": "신월동", "dong_no": "16", "floor": 11, "jibun": "987-1", "price": 61000}
+{"apt": "목동신시가지13", "area": 122.3, "built": 1987, "date": "2023-01-19", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1328", "floor": 2, "jibun": "327", "price": 183000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2023-01-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "808", "floor": 2, "jibun": "314", "price": 127000}
+{"apt": "목동신시가지14", "area": 83.31, "built": 1987, "date": "2023-01-27", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1431", "floor": 8, "jibun": "329", "price": 140000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-01-28", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1214", "floor": 12, "jibun": "326", "price": 125000}
+{"apt": "목동신시가지14", "area": 71.4, "built": 1987, "date": "2023-01-28", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1423", "floor": 14, "jibun": "329", "price": 112000}
+{"apt": "목동신시가지13", "area": 53.9, "built": 1987, "date": "2023-01-29", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1329", "floor": 11, "jibun": "327", "price": 95000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2023-01-30", "deal_type": "직거래", "dong": "목동", "dong_no": "734", "floor": 8, "jibun": "925", "price": 130000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-01-31", "deal_type": "중개거래", "dong": "목동", "dong_no": "103", "floor": 4, "jibun": "929", "price": 119000}
+{"apt": "목동신시가지12", "area": 56.76, "built": 1988, "date": "2023-01-31", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1206", "floor": 2, "jibun": "326", "price": 93000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-02-01", "deal_type": "중개거래", "dong": "목동", "dong_no": "613", "floor": 2, "jibun": "911", "price": 112000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2023-02-01", "deal_type": "중개거래", "dong": "신월동", "dong_no": "5", "floor": 5, "jibun": "987-1", "price": 48000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2023-02-01", "deal_type": "중개거래", "dong": "신월동", "dong_no": "1", "floor": 5, "jibun": "987-1", "price": 56000}
+{"apt": "목동신시가지12", "area": 53.46, "built": 1988, "date": "2023-02-02", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1225", "floor": 13, "jibun": "326", "price": 97000}
+{"apt": "목동신시가지4", "area": 67.58, "built": 1986, "date": "2023-02-03", "deal_type": "중개거래", "dong": "목동", "dong_no": "410", "floor": 11, "jibun": "904", "price": 120000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2023-02-04", "deal_type": "중개거래", "dong": "목동", "dong_no": "402", "floor": 16, "jibun": "904", "price": 107000}
+{"apt": "목동삼성", "area": 114.93, "built": 1996, "date": "2023-02-04", "deal_type": "중개거래", "dong": "신정동", "dong_no": "102", "floor": 15, "jibun": "1278", "price": 148000}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2023-02-04", "deal_type": "중개거래", "dong": "신정동", "dong_no": "931", "floor": 5, "jibun": "312", "price": 134000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-02-04", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1414", "floor": 12, "jibun": "329", "price": 92900}
+{"apt": "목동신시가지14", "area": 71.37, "built": 1987, "date": "2023-02-05", "deal_type": "직거래", "dong": "신정동", "dong_no": "1429", "floor": 15, "jibun": "329", "price": 101000}
+{"apt": "목동신시가지4", "area": 67.58, "built": 1986, "date": "2023-02-06", "deal_type": "중개거래", "dong": "목동", "dong_no": "401", "floor": 9, "jibun": "904", "price": 132000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-02-06", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1333", "floor": 9, "jibun": "327", "price": 120000}
+{"apt": "목동신시가지13", "area": 103.97, "built": 1987, "date": "2023-02-06", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1331", "floor": 1, "jibun": "327", "price": 160000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2023-02-07", "deal_type": "중개거래", "dong": "목동", "dong_no": "401", "floor": 9, "jibun": "904", "price": 112000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2023-02-07", "deal_type": "중개거래", "dong": "목동", "dong_no": "408", "floor": 15, "jibun": "904", "price": 112000}
+{"apt": "목동신시가지5", "area": 115.47, "built": 1986, "date": "2023-02-07", "deal_type": "중개거래", "dong": "목동", "dong_no": "534", "floor": 7, "jibun": "912", "price": 234000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2023-02-08", "deal_type": "중개거래", "dong": "목동", "dong_no": "309", "floor": 2, "jibun": "903", "price": 128000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2023-02-08", "deal_type": "중개거래", "dong": "목동", "dong_no": "731", "floor": 12, "jibun": "925", "price": 149800}
+{"apt": "목동신시가지10", "area": 156.87, "built": 1987, "date": "2023-02-08", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1008", "floor": 3, "jibun": "311", "price": 210000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2023-02-09", "deal_type": "중개거래", "dong": "신월동", "dong_no": "15", "floor": 2, "jibun": "987-1", "price": 63500}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2023-02-09", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1018", "floor": 14, "jibun": "311", "price": 102000}
+{"apt": "목동신시가지12", "area": 56.76, "built": 1988, "date": "2023-02-09", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1203", "floor": 1, "jibun": "326", "price": 100000}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2023-02-10", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1031", "floor": 13, "jibun": "311", "price": 126000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-02-15", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1224", "floor": 14, "jibun": "326", "price": 133000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2023-02-16", "deal_type": "중개거래", "dong": "목동", "dong_no": "714", "floor": 4, "jibun": "925", "price": 167500}
+{"apt": "목동신시가지7", "area": 101.2, "built": 1986, "date": "2023-02-16", "deal_type": "중개거래", "dong": "목동", "dong_no": "701", "floor": 6, "jibun": "925", "price": 220000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-02-17", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1329", "floor": 10, "jibun": "327", "price": 120000}
+{"apt": "목동신시가지13", "area": 98.63, "built": 1987, "date": "2023-02-17", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1309", "floor": 10, "jibun": "327", "price": 154000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2023-02-20", "deal_type": "중개거래", "dong": "목동", "dong_no": "402", "floor": 5, "jibun": "904", "price": 109000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-02-20", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1107", "floor": 5, "jibun": "325", "price": 93000}
+{"apt": "목동신시가지6", "area": 95.03, "built": 1986, "date": "2023-02-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "601", "floor": 8, "jibun": "911", "price": 179000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2023-02-21", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1413", "floor": 2, "jibun": "329", "price": 175000}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2023-02-23", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1106", "floor": 8, "jibun": "325", "price": 116700}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2023-02-24", "deal_type": "중개거래", "dong": "목동", "dong_no": "732", "floor": 2, "jibun": "925", "price": 127000}
+{"apt": "쌍용", "area": 84.63, "built": 1992, "date": "2023-02-24", "deal_type": "직거래", "dong": "신정동", "dong_no": "102", "floor": 11, "jibun": "334", "price": 90000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2023-02-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1018", "floor": 5, "jibun": "311", "price": 104300}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2023-02-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "733", "floor": 9, "jibun": "925", "price": 135000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-02-27", "deal_type": "중개거래", "dong": "목동", "dong_no": "103", "floor": 15, "jibun": "200", "price": 111000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-02-27", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1108", "floor": 4, "jibun": "325", "price": 94000}
+{"apt": "목동신시가지6", "area": 95.03, "built": 1986, "date": "2023-02-28", "deal_type": "중개거래", "dong": "목동", "dong_no": "604", "floor": 2, "jibun": "911", "price": 179500}
+{"apt": "목동신시가지13", "area": 98.63, "built": 1987, "date": "2023-02-28", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1306", "floor": 15, "jibun": "327", "price": 164000}
+{"apt": "목동신시가지14", "area": 71.4, "built": 1987, "date": "2023-02-28", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1422", "floor": 8, "jibun": "329", "price": 130000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-03-02", "deal_type": "중개거래", "dong": "신정동", "dong_no": "804", "floor": 7, "jibun": "314", "price": 110000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-03-02", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1415", "floor": 5, "jibun": "329", "price": 102700}
+{"apt": "목동신시가지12", "area": 56.76, "built": 1988, "date": "2023-03-03", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1211", "floor": 1, "jibun": "326", "price": 109000}
+{"apt": "목동신시가지13", "area": 53.9, "built": 1987, "date": "2023-03-03", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1310", "floor": 7, "jibun": "327", "price": 102000}
+{"apt": "목동신시가지14", "area": 71.4, "built": 1987, "date": "2023-03-03", "deal_type": "직거래", "dong": "신정동", "dong_no": "1420", "floor": 10, "jibun": "329", "price": 83000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2023-03-03", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1404", "floor": 11, "jibun": "329", "price": 183000}
+{"apt": "목동신시가지4", "area": 48.69, "built": 1986, "date": "2023-03-04", "deal_type": "중개거래", "dong": "목동", "dong_no": "404", "floor": 10, "jibun": "904", "price": 111000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2023-03-07", "deal_type": "중개거래", "dong": "신월동", "dong_no": "8", "floor": 8, "jibun": "987-1", "price": 58000}
+{"apt": "목동신시가지4", "area": 48.69, "built": 1986, "date": "2023-03-08", "deal_type": "중개거래", "dong": "목동", "dong_no": "402", "floor": 10, "jibun": "904", "price": 107000}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2023-03-08", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1033", "floor": 2, "jibun": "311", "price": 127000}
+{"apt": "목동신시가지10", "area": 105.58, "built": 1987, "date": "2023-03-08", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1025", "floor": 10, "jibun": "311", "price": 183500}
+{"apt": "신안약수", "area": 84.56, "built": 1985, "date": "2023-03-09", "deal_type": "직거래", "dong": "신월동", "dong_no": "4", "floor": 3, "jibun": "591-1", "price": 50000}
+{"apt": "목동신시가지10", "area": 127.21, "built": 1987, "date": "2023-03-09", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1026", "floor": 14, "jibun": "311", "price": 195000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2023-03-10", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1018", "floor": 13, "jibun": "311", "price": 108000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-03-10", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1118", "floor": 12, "jibun": "325", "price": 95000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2023-03-11", "deal_type": "중개거래", "dong": "신월동", "dong_no": "11", "floor": 10, "jibun": "987-1", "price": 57000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2023-03-12", "deal_type": "중개거래", "dong": "신월동", "dong_no": "18", "floor": 2, "jibun": "987-1", "price": 65500}
+{"apt": "목동신시가지1", "area": 66.0, "built": 1985, "date": "2023-03-14", "deal_type": "중개거래", "dong": "목동", "dong_no": "122", "floor": 5, "jibun": "901", "price": 140000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-03-14", "deal_type": "중개거래", "dong": "목동", "dong_no": "613", "floor": 12, "jibun": "911", "price": 118000}
+{"apt": "목동신시가지5", "area": 95.22, "built": 1986, "date": "2023-03-16", "deal_type": "중개거래", "dong": "목동", "dong_no": "528", "floor": 5, "jibun": "912", "price": 182000}
+{"apt": "삼구", "area": 83.85, "built": 1996, "date": "2023-03-16", "deal_type": "직거래", "dong": "신월동", "floor": 3, "jibun": "604-4", "price": 32400}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2023-03-17", "deal_type": "중개거래", "dong": "신정동", "dong_no": "927", "floor": 8, "jibun": "312", "price": 138000}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2023-03-17", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1101", "floor": 10, "jibun": "325", "price": 119500}
+{"apt": "목동신시가지1", "area": 66.0, "built": 1985, "date": "2023-03-18", "deal_type": "중개거래", "dong": "목동", "dong_no": "116", "floor": 1, "jibun": "901", "price": 137000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2023-03-18", "deal_type": "중개거래", "dong": "목동", "dong_no": "402", "floor": 6, "jibun": "904", "price": 112000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-03-18", "deal_type": "중개거래", "dong": "목동", "dong_no": "612", "floor": 6, "jibun": "911", "price": 118000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2023-03-18", "deal_type": "중개거래", "dong": "목동", "dong_no": "532", "floor": 5, "jibun": "912", "price": 149000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2023-03-18", "deal_type": "중개거래", "dong": "신정동", "dong_no": "804", "floor": 13, "jibun": "314", "price": 138000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-03-18", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1118", "floor": 5, "jibun": "325", "price": 95500}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2023-03-18", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1105", "floor": 7, "jibun": "325", "price": 123500}
+{"apt": "목동신시가지6", "area": 115.19, "built": 1986, "date": "2023-03-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "608", "floor": 12, "jibun": "911", "price": 224000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-03-22", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1223", "floor": 15, "jibun": "326", "price": 130000}
+{"apt": "신호", "area": 84.9, "built": 1997, "date": "2023-03-22", "deal_type": "중개거래", "dong": "신정동", "floor": 7, "jibun": "948-24", "price": 72500}
+{"apt": "목동신시가지5", "area": 93.24, "built": 1986, "date": "2023-03-23", "deal_type": "중개거래", "dong": "목동", "dong_no": "517", "floor": 1, "jibun": "912", "price": 183000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-03-23", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1417", "floor": 12, "jibun": "329", "price": 107900}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2023-03-24", "deal_type": "중개거래", "dong": "목동", "dong_no": "309", "floor": 5, "jibun": "903", "price": 139500}
+{"apt": "목동신시가지4", "area": 95.27, "built": 1986, "date": "2023-03-24", "deal_type": "중개거래", "dong": "목동", "dong_no": "403", "floor": 4, "jibun": "904", "price": 185500}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2023-03-24", "deal_type": "중개거래", "dong": "목동", "dong_no": "716", "floor": 12, "jibun": "925", "price": 135000}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2023-03-24", "deal_type": "중개거래", "dong": "신정동", "dong_no": "906", "floor": 4, "jibun": "312", "price": 141000}
+{"apt": "우성", "area": 84.63, "built": 1992, "date": "2023-03-25", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 11, "jibun": "200", "price": 109000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2023-03-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "804", "floor": 20, "jibun": "314", "price": 140000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-03-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1107", "floor": 15, "jibun": "325", "price": 104700}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2023-03-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1103", "floor": 12, "jibun": "325", "price": 121000}
+{"apt": "목동신시가지13", "area": 98.63, "built": 1987, "date": "2023-03-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1303", "floor": 15, "jibun": "327", "price": 168500}
+{"apt": "목동현대3차", "area": 101.91, "built": 1997, "date": "2023-03-26", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101", "floor": 10, "jibun": "1279", "price": 144000}
+{"apt": "목동신시가지12", "area": 56.76, "built": 1988, "date": "2023-03-26", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1207", "floor": 2, "jibun": "326", "price": 110000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-03-28", "deal_type": "중개거래", "dong": "목동", "dong_no": "614", "floor": 10, "jibun": "911", "price": 121000}
+{"apt": "목동신시가지5", "area": 122.46, "built": 1986, "date": "2023-03-28", "deal_type": "중개거래", "dong": "목동", "dong_no": "518", "floor": 4, "jibun": "912", "price": 241000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2023-03-28", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1028", "floor": 9, "jibun": "311", "price": 104000}
+{"apt": "목동삼성", "area": 114.93, "built": 1996, "date": "2023-03-29", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101", "floor": 11, "jibun": "1278", "price": 135000}
+{"apt": "청구", "area": 84.99, "built": 1992, "date": "2023-03-29", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101-3", "floor": 2, "jibun": "336", "price": 75500}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2023-03-30", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1103", "floor": 4, "jibun": "325", "price": 124000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2023-03-30", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1404", "floor": 13, "jibun": "329", "price": 183000}
+{"apt": "목동신시가지2", "area": 65.25, "built": 1986, "date": "2023-03-31", "deal_type": "중개거래", "dong": "목동", "dong_no": "219", "floor": 6, "jibun": "902", "price": 141000}
+{"apt": "목동신시가지11", "area": 75.68, "built": 1988, "date": "2023-04-01", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1113", "floor": 5, "jibun": "325", "price": 135000}
+{"apt": "목동신시가지13", "area": 53.9, "built": 1987, "date": "2023-04-01", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1333", "floor": 4, "jibun": "327", "price": 103000}
+{"apt": "청구", "area": 84.99, "built": 1992, "date": "2023-04-01", "deal_type": "중개거래", "dong": "신정동", "dong_no": "105", "floor": 2, "jibun": "336", "price": 79500}
+{"apt": "목동신시가지14", "area": 157.59, "built": 1987, "date": "2023-04-03", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1411", "floor": 7, "jibun": "329", "price": 230500}
+{"apt": "대림", "area": 84.86, "built": 1992, "date": "2023-04-03", "deal_type": "중개거래", "dong": "신정동", "dong_no": "102", "floor": 12, "jibun": "333", "price": 90000}
+{"apt": "목동삼성", "area": 84.77, "built": 1996, "date": "2023-04-05", "deal_type": "중개거래", "dong": "신정동", "dong_no": "103", "floor": 21, "jibun": "1278", "price": 123000}
+{"apt": "신월보성", "area": 59.99, "built": 1996, "date": "2023-04-06", "deal_type": "중개거래", "dong": "신월동", "floor": 4, "jibun": "465-5", "price": 39000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-04-07", "deal_type": "중개거래", "dong": "목동", "dong_no": "108", "floor": 2, "jibun": "929", "price": 132000}
+{"apt": "은하아파트", "area": 72.47, "built": 1993, "date": "2023-04-07", "deal_type": "직거래", "dong": "신월동", "floor": 5, "jibun": "140-23", "price": 15000}
+{"apt": "목동신시가지13", "area": 53.9, "built": 1987, "date": "2023-04-07", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1333", "floor": 13, "jibun": "327", "price": 104500}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-04-07", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1307", "floor": 9, "jibun": "327", "price": 132000}
+{"apt": "목동신시가지13", "area": 98.63, "built": 1987, "date": "2023-04-07", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1308", "floor": 2, "jibun": "327", "price": 166000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2023-04-07", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1409", "floor": 6, "jibun": "329", "price": 180000}
+{"apt": "목동대림", "area": 84.82, "built": 1994, "date": "2023-04-10", "deal_type": "중개거래", "dong": "목동", "dong_no": "1011", "floor": 4, "jibun": "405", "price": 105000}
+{"apt": "목동삼성", "area": 84.77, "built": 1996, "date": "2023-04-10", "deal_type": "중개거래", "dong": "신정동", "dong_no": "104", "floor": 14, "jibun": "1278", "price": 119000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2023-04-12", "deal_type": "중개거래", "dong": "목동", "dong_no": "532", "floor": 14, "jibun": "912", "price": 159000}
+{"apt": "목동신시가지7", "area": 59.39, "built": 1986, "date": "2023-04-12", "deal_type": "중개거래", "dong": "목동", "dong_no": "729", "floor": 4, "jibun": "925", "price": 138500}
+{"apt": "마이홈", "area": 114.99, "built": 1995, "date": "2023-04-12", "deal_type": "직거래", "dong": "신정동", "floor": 4, "jibun": "1194-5", "price": 50000}
+{"apt": "목동신시가지5", "area": 95.27, "built": 1986, "date": "2023-04-13", "deal_type": "중개거래", "dong": "목동", "dong_no": "523", "floor": 5, "jibun": "912", "price": 200000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2023-04-13", "deal_type": "중개거래", "dong": "신월동", "dong_no": "14", "floor": 9, "jibun": "987-1", "price": 53000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-04-13", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1309", "floor": 1, "jibun": "327", "price": 133000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2023-04-15", "deal_type": "중개거래", "dong": "목동", "dong_no": "712", "floor": 5, "jibun": "925", "price": 168000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2023-04-15", "deal_type": "중개거래", "dong": "목동", "dong_no": "731", "floor": 10, "jibun": "925", "price": 161000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2023-04-15", "deal_type": "중개거래", "dong": "신정동", "dong_no": "810", "floor": 14, "jibun": "314", "price": 145000}
+{"apt": "목동신시가지4", "area": 65.34, "built": 1986, "date": "2023-04-18", "deal_type": "중개거래", "dong": "목동", "dong_no": "408", "floor": 8, "jibun": "904", "price": 135000}
+{"apt": "건영", "area": 84.33, "built": 1994, "date": "2023-04-18", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 9, "jibun": "928", "price": 63000}
+{"apt": "목동신시가지11", "area": 59.29, "built": 1988, "date": "2023-04-18", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1115", "floor": 2, "jibun": "325", "price": 105000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-04-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "103", "floor": 8, "jibun": "200", "price": 112500}
+{"apt": "우성", "area": 84.63, "built": 1992, "date": "2023-04-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "101", "floor": 9, "jibun": "200", "price": 112500}
+{"apt": "목동신시가지4", "area": 95.67, "built": 1986, "date": "2023-04-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "415", "floor": 3, "jibun": "904", "price": 193000}
+{"apt": "목동신시가지6", "area": 95.03, "built": 1986, "date": "2023-04-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "604", "floor": 6, "jibun": "911", "price": 182500}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-04-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "111", "floor": 8, "jibun": "929", "price": 131500}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-04-20", "deal_type": "중개거래", "dong": "목동", "dong_no": "103", "floor": 7, "jibun": "200", "price": 110000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-04-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "104", "floor": 3, "jibun": "200", "price": 104500}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-04-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "103", "floor": 7, "jibun": "200", "price": 108700}
+{"apt": "목동신시가지3", "area": 95.74, "built": 1986, "date": "2023-04-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "329", "floor": 2, "jibun": "903", "price": 178000}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2023-04-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "731", "floor": 6, "jibun": "925", "price": 133000}
+{"apt": "목동신시가지14", "area": 71.4, "built": 1987, "date": "2023-04-21", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1421", "floor": 8, "jibun": "329", "price": 134000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-04-22", "deal_type": "중개거래", "dong": "목동", "dong_no": "104", "floor": 3, "jibun": "200", "price": 112000}
+{"apt": "목동신시가지7", "area": 59.39, "built": 1986, "date": "2023-04-24", "deal_type": "중개거래", "dong": "목동", "dong_no": "726", "floor": 2, "jibun": "925", "price": 140000}
+{"apt": "목동신시가지1", "area": 66.0, "built": 1985, "date": "2023-04-25", "deal_type": "중개거래", "dong": "목동", "dong_no": "116", "floor": 9, "jibun": "901", "price": 138800}
+{"apt": "목동신시가지12", "area": 56.76, "built": 1988, "date": "2023-04-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1210", "floor": 1, "jibun": "326", "price": 106500}
+{"apt": "목동신시가지1", "area": 65.34, "built": 1985, "date": "2023-04-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "116", "floor": 12, "jibun": "901", "price": 140000}
+{"apt": "목동신시가지4", "area": 65.34, "built": 1986, "date": "2023-04-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "401", "floor": 1, "jibun": "904", "price": 142500}
+{"apt": "목동현대1", "area": 59.9, "built": 1997, "date": "2023-04-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 18, "jibun": "932", "price": 107000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-04-27", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1224", "floor": 14, "jibun": "326", "price": 131000}
+{"apt": "목동신시가지14", "area": 71.4, "built": 1987, "date": "2023-04-27", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1423", "floor": 7, "jibun": "329", "price": 135000}
+{"apt": "목동신시가지14", "area": 74.19, "built": 1987, "date": "2023-04-27", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1434", "floor": 9, "jibun": "329", "price": 126000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2023-04-27", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1402", "floor": 3, "jibun": "329", "price": 194500}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-04-28", "deal_type": "중개거래", "dong": "목동", "dong_no": "104", "floor": 3, "jibun": "200", "price": 110000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-04-28", "deal_type": "중개거래", "dong": "목동", "dong_no": "103", "floor": 14, "jibun": "200", "price": 119000}
+{"apt": "목동신시가지4", "area": 48.69, "built": 1986, "date": "2023-04-29", "deal_type": "중개거래", "dong": "목동", "dong_no": "405", "floor": 7, "jibun": "904", "price": 116500}
+{"apt": "목동성원(926-8)", "area": 58.05, "built": 1997, "date": "2023-04-29", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 5, "jibun": "926-8", "price": 97500}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2023-04-29", "deal_type": "중개거래", "dong": "목동", "dong_no": "106", "floor": 15, "jibun": "929", "price": 140000}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2023-05-01", "deal_type": "중개거래", "dong": "목동", "dong_no": "716", "floor": 8, "jibun": "925", "price": 138000}
+{"apt": "목동신시가지1", "area": 88.5, "built": 1985, "date": "2023-05-02", "deal_type": "중개거래", "dong": "목동", "dong_no": "119", "floor": 1, "jibun": "901", "price": 185000}
+{"apt": "목동신시가지1", "area": 116.29, "built": 1985, "date": "2023-05-02", "deal_type": "중개거래", "dong": "목동", "dong_no": "121", "floor": 5, "jibun": "901", "price": 220000}
+{"apt": "목동신시가지5", "area": 115.47, "built": 1986, "date": "2023-05-02", "deal_type": "중개거래", "dong": "목동", "dong_no": "511", "floor": 6, "jibun": "912", "price": 230200}
+{"apt": "건영", "area": 84.27, "built": 1994, "date": "2023-05-02", "deal_type": "중개거래", "dong": "목동", "dong_no": "101", "floor": 11, "jibun": "928", "price": 57500}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-05-02", "deal_type": "중개거래", "dong": "목동", "dong_no": "114", "floor": 4, "jibun": "929", "price": 137000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-05-02", "deal_type": "중개거래", "dong": "신정동", "dong_no": "805", "floor": 18, "jibun": "314", "price": 112000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2023-05-02", "deal_type": "중개거래", "dong": "신정동", "dong_no": "811", "floor": 15, "jibun": "314", "price": 140000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2023-05-03", "deal_type": "중개거래", "dong": "목동", "dong_no": "510", "floor": 9, "jibun": "912", "price": 159000}
+{"apt": "목동신시가지9", "area": 126.02, "built": 1987, "date": "2023-05-03", "deal_type": "직거래", "dong": "신정동", "dong_no": "918", "floor": 2, "jibun": "312", "price": 195000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2023-05-04", "deal_type": "중개거래", "dong": "목동", "dong_no": "402", "floor": 20, "jibun": "904", "price": 113000}
+{"apt": "목동신시가지4", "area": 115.65, "built": 1986, "date": "2023-05-04", "deal_type": "중개거래", "dong": "목동", "dong_no": "409", "floor": 9, "jibun": "904", "price": 218000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-05-04", "deal_type": "중개거래", "dong": "목동", "dong_no": "614", "floor": 9, "jibun": "911", "price": 125000}
+{"apt": "목동신시가지6", "area": 142.39, "built": 1986, "date": "2023-05-04", "deal_type": "중개거래", "dong": "목동", "dong_no": "606", "floor": 6, "jibun": "911", "price": 248000}
+{"apt": "목동신시가지5", "area": 95.28, "built": 1986, "date": "2023-05-04", "deal_type": "중개거래", "dong": "목동", "dong_no": "534", "floor": 12, "jibun": "912", "price": 210000}
+{"apt": "신안약수", "area": 84.56, "built": 1985, "date": "2023-05-04", "deal_type": "중개거래", "dong": "신월동", "dong_no": "4", "floor": 6, "jibun": "591-1", "price": 64000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2023-05-04", "deal_type": "중개거래", "dong": "신월동", "dong_no": "3", "floor": 11, "jibun": "987-1", "price": 50000}
+{"apt": "목동신시가지12", "area": 64.65, "built": 1988, "date": "2023-05-04", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1213", "floor": 1, "jibun": "326", "price": 124000}
+{"apt": "목동신시가지4", "area": 65.34, "built": 1986, "date": "2023-05-05", "deal_type": "중개거래", "dong": "목동", "dong_no": "402", "floor": 1, "jibun": "904", "price": 145000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-05-05", "deal_type": "중개거래", "dong": "목동", "dong_no": "112", "floor": 4, "jibun": "929", "price": 140000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-05-06", "deal_type": "중개거래", "dong": "목동", "dong_no": "103", "floor": 3, "jibun": "200", "price": 110000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-05-06", "deal_type": "중개거래", "dong": "목동", "dong_no": "614", "floor": 17, "jibun": "911", "price": 118000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-05-06", "deal_type": "중개거래", "dong": "신정동", "dong_no": "805", "floor": 4, "jibun": "314", "price": 112000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-05-06", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1221", "floor": 2, "jibun": "326", "price": 132900}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2023-05-08", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1030", "floor": 13, "jibun": "311", "price": 109000}
+{"apt": "우당", "area": 59.52, "built": 1997, "date": "2023-05-09", "deal_type": "중개거래", "dong": "신월동", "floor": 17, "jibun": "506-1", "price": 51500}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-05-10", "deal_type": "중개거래", "dong": "신정동", "dong_no": "807", "floor": 9, "jibun": "314", "price": 113000}
+{"apt": "목동신시가지1", "area": 65.34, "built": 1985, "date": "2023-05-11", "deal_type": "중개거래", "dong": "목동", "dong_no": "116", "floor": 6, "jibun": "901", "price": 140000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-05-11", "deal_type": "중개거래", "dong": "목동", "dong_no": "103", "floor": 5, "jibun": "929", "price": 140000}
+{"apt": "목동신시가지5", "area": 95.28, "built": 1986, "date": "2023-05-12", "deal_type": "중개거래", "dong": "목동", "dong_no": "511", "floor": 1, "jibun": "912", "price": 204000}
+{"apt": "목동신시가지5", "area": 115.47, "built": 1986, "date": "2023-05-12", "deal_type": "중개거래", "dong": "목동", "dong_no": "513", "floor": 7, "jibun": "912", "price": 240000}
+{"apt": "목동신시가지12", "area": 53.46, "built": 1988, "date": "2023-05-12", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1225", "floor": 4, "jibun": "326", "price": 103000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-05-13", "deal_type": "중개거래", "dong": "신정동", "dong_no": "807", "floor": 5, "jibun": "314", "price": 113000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-05-13", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1215", "floor": 4, "jibun": "326", "price": 130500}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-05-13", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1220", "floor": 4, "jibun": "326", "price": 136000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-05-14", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1333", "floor": 1, "jibun": "327", "price": 127000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-05-15", "deal_type": "중개거래", "dong": "목동", "dong_no": "103", "floor": 3, "jibun": "200", "price": 110500}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-05-17", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1215", "floor": 9, "jibun": "326", "price": 135000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-05-18", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1108", "floor": 14, "jibun": "325", "price": 103500}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2023-05-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "109", "floor": 9, "jibun": "929", "price": 144700}
+{"apt": "목동신시가지12", "area": 56.76, "built": 1988, "date": "2023-05-19", "deal_type": "직거래", "dong": "신정동", "dong_no": "1203", "floor": 2, "jibun": "326", "price": 70000}
+{"apt": "목동신시가지2", "area": 122.31, "built": 1986, "date": "2023-05-20", "deal_type": "중개거래", "dong": "목동", "dong_no": "202", "floor": 3, "jibun": "902", "price": 228000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2023-05-20", "deal_type": "중개거래", "dong": "목동", "dong_no": "711", "floor": 1, "jibun": "925", "price": 170000}
+{"apt": "목동현대1", "area": 84.9, "built": 1997, "date": "2023-05-20", "deal_type": "중개거래", "dong": "목동", "dong_no": "101", "floor": 20, "jibun": "932", "price": 150000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2023-05-20", "deal_type": "중개거래", "dong": "신월동", "dong_no": "18", "floor": 8, "jibun": "987-1", "price": 67000}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2023-05-20", "deal_type": "중개거래", "dong": "신정동", "dong_no": "902", "floor": 11, "jibun": "312", "price": 188500}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-05-20", "deal_type": "중개거래", "dong": "신정동", "dong_no": "805", "floor": 9, "jibun": "314", "price": 115000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-05-20", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1310", "floor": 13, "jibun": "327", "price": 130000}
+{"apt": "신월성원", "area": 59.94, "built": 1996, "date": "2023-05-22", "deal_type": "중개거래", "dong": "신월동", "dong_no": "1", "floor": 11, "jibun": "222-7", "price": 38000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2023-05-23", "deal_type": "중개거래", "dong": "신월동", "dong_no": "14", "floor": 8, "jibun": "987-1", "price": 54800}
+{"apt": "목동신시가지1", "area": 65.34, "built": 1985, "date": "2023-05-24", "deal_type": "중개거래", "dong": "목동", "dong_no": "133", "floor": 11, "jibun": "901", "price": 145000}
+{"apt": "목동신시가지5", "area": 95.28, "built": 1986, "date": "2023-05-24", "deal_type": "중개거래", "dong": "목동", "dong_no": "511", "floor": 9, "jibun": "912", "price": 198000}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2023-05-24", "deal_type": "중개거래", "dong": "목동", "dong_no": "715", "floor": 8, "jibun": "925", "price": 140000}
+{"apt": "목동신시가지10", "area": 106.06, "built": 1987, "date": "2023-05-24", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1007", "floor": 4, "jibun": "311", "price": 181500}
+{"apt": "목동신시가지2", "area": 116.82, "built": 1986, "date": "2023-05-25", "deal_type": "중개거래", "dong": "목동", "dong_no": "216", "floor": 11, "jibun": "902", "price": 221000}
+{"apt": "목동신시가지12", "area": 56.76, "built": 1988, "date": "2023-05-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1208", "floor": 4, "jibun": "326", "price": 109300}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-05-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1304", "floor": 6, "jibun": "327", "price": 135000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-05-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1309", "floor": 14, "jibun": "327", "price": 139500}
+{"apt": "목동신시가지13", "area": 98.63, "built": 1987, "date": "2023-05-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1301", "floor": 11, "jibun": "327", "price": 183000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-05-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "103", "floor": 4, "jibun": "200", "price": 112000}
+{"apt": "목동신시가지1", "area": 51.48, "built": 1985, "date": "2023-05-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "117", "floor": 10, "jibun": "901", "price": 117800}
+{"apt": "목동신시가지4", "area": 95.67, "built": 1986, "date": "2023-05-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "415", "floor": 2, "jibun": "904", "price": 192000}
+{"apt": "목동신시가지2", "area": 122.31, "built": 1986, "date": "2023-05-30", "deal_type": "중개거래", "dong": "목동", "dong_no": "236", "floor": 4, "jibun": "902", "price": 217000}
+{"apt": "쌍용", "area": 84.63, "built": 1992, "date": "2023-05-30", "deal_type": "중개거래", "dong": "신정동", "dong_no": "102", "floor": 11, "jibun": "334", "price": 84000}
+{"apt": "금호1", "area": 114.78, "built": 1997, "date": "2023-05-31", "deal_type": "중개거래", "dong": "목동", "dong_no": "101", "floor": 6, "jibun": "934", "price": 170000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-05-31", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1224", "floor": 1, "jibun": "326", "price": 135000}
+{"apt": "목동신시가지4", "area": 96.36, "built": 1986, "date": "2023-06-01", "deal_type": "중개거래", "dong": "목동", "dong_no": "411", "floor": 4, "jibun": "904", "price": 194000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2023-06-01", "deal_type": "중개거래", "dong": "신정동", "dong_no": "809", "floor": 15, "jibun": "314", "price": 144000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2023-06-02", "deal_type": "중개거래", "dong": "신월동", "dong_no": "4", "floor": 12, "jibun": "987-1", "price": 48400}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-06-02", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1119", "floor": 12, "jibun": "325", "price": 100700}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-06-03", "deal_type": "중개거래", "dong": "목동", "dong_no": "104", "floor": 9, "jibun": "200", "price": 127500}
+{"apt": "목동신시가지5", "area": 115.47, "built": 1986, "date": "2023-06-03", "deal_type": "중개거래", "dong": "목동", "dong_no": "534", "floor": 12, "jibun": "912", "price": 250000}
+{"apt": "목동성원(926-8)", "area": 58.05, "built": 1997, "date": "2023-06-03", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 13, "jibun": "926-8", "price": 101000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-06-03", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1218", "floor": 11, "jibun": "326", "price": 139000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-06-03", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1329", "floor": 8, "jibun": "327", "price": 135000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-06-03", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1305", "floor": 13, "jibun": "327", "price": 139500}
+{"apt": "삼익", "area": 84.88, "built": 1997, "date": "2023-06-04", "deal_type": "중개거래", "dong": "목동", "dong_no": "101", "floor": 9, "jibun": "933", "price": 110000}
+{"apt": "목동신시가지4", "area": 48.69, "built": 1986, "date": "2023-06-06", "deal_type": "중개거래", "dong": "목동", "dong_no": "401", "floor": 14, "jibun": "904", "price": 116500}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-06-06", "deal_type": "중개거래", "dong": "목동", "dong_no": "610", "floor": 12, "jibun": "911", "price": 121000}
+{"apt": "신안약수", "area": 87.17, "built": 1985, "date": "2023-06-07", "deal_type": "직거래", "dong": "신월동", "dong_no": "2", "floor": 4, "jibun": "591-1", "price": 59500}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2023-06-08", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1401", "floor": 9, "jibun": "329", "price": 192500}
+{"apt": "목동신시가지1", "area": 66.0, "built": 1985, "date": "2023-06-09", "deal_type": "중개거래", "dong": "목동", "dong_no": "121", "floor": 1, "jibun": "901", "price": 140000}
+{"apt": "목동현대3차", "area": 71.16, "built": 1997, "date": "2023-06-09", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101", "floor": 18, "jibun": "1279", "price": 105000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-06-09", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1301", "floor": 5, "jibun": "327", "price": 135000}
+{"apt": "목동신시가지13", "area": 84.41, "built": 1987, "date": "2023-06-09", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1317", "floor": 1, "jibun": "327", "price": 157000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-06-09", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1415", "floor": 12, "jibun": "329", "price": 104500}
+{"apt": "목동신시가지1", "area": 98.08, "built": 1985, "date": "2023-06-10", "deal_type": "중개거래", "dong": "목동", "dong_no": "107", "floor": 3, "jibun": "901", "price": 197000}
+{"apt": "목동신시가지2", "area": 122.31, "built": 1986, "date": "2023-06-10", "deal_type": "중개거래", "dong": "목동", "dong_no": "234", "floor": 3, "jibun": "902", "price": 226000}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2023-06-10", "deal_type": "중개거래", "dong": "목동", "dong_no": "716", "floor": 12, "jibun": "925", "price": 137300}
+{"apt": "목동신시가지9", "area": 158.7, "built": 1987, "date": "2023-06-10", "deal_type": "중개거래", "dong": "신정동", "dong_no": "910", "floor": 4, "jibun": "312", "price": 249000}
+{"apt": "목동신시가지1", "area": 51.48, "built": 1985, "date": "2023-06-12", "deal_type": "중개거래", "dong": "목동", "dong_no": "117", "floor": 13, "jibun": "901", "price": 117000}
+{"apt": "목동신시가지3", "area": 122.35, "built": 1986, "date": "2023-06-12", "deal_type": "중개거래", "dong": "목동", "dong_no": "311", "floor": 3, "jibun": "903", "price": 239000}
+{"apt": "목동신시가지4", "area": 95.34, "built": 1986, "date": "2023-06-12", "deal_type": "중개거래", "dong": "목동", "dong_no": "407", "floor": 13, "jibun": "904", "price": 182000}
+{"apt": "우성", "area": 84.63, "built": 1992, "date": "2023-06-14", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 2, "jibun": "200", "price": 115500}
+{"apt": "목동신시가지2", "area": 95.67, "built": 1986, "date": "2023-06-14", "deal_type": "중개거래", "dong": "목동", "dong_no": "222", "floor": 8, "jibun": "902", "price": 185000}
+{"apt": "목동대림", "area": 84.82, "built": 1994, "date": "2023-06-15", "deal_type": "중개거래", "dong": "목동", "dong_no": "1011", "floor": 16, "jibun": "405", "price": 125000}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2023-06-15", "deal_type": "중개거래", "dong": "신월동", "dong_no": "13", "floor": 3, "jibun": "987-1", "price": 65500}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-06-15", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1310", "floor": 3, "jibun": "327", "price": 136800}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-06-16", "deal_type": "중개거래", "dong": "목동", "dong_no": "613", "floor": 19, "jibun": "911", "price": 117000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-06-16", "deal_type": "중개거래", "dong": "목동", "dong_no": "113", "floor": 5, "jibun": "929", "price": 145000}
+{"apt": "신안약수", "area": 70.16, "built": 1985, "date": "2023-06-16", "deal_type": "중개거래", "dong": "신월동", "dong_no": "5", "floor": 10, "jibun": "591-1", "price": 50000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2023-06-16", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1033", "floor": 12, "jibun": "311", "price": 110000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-06-17", "deal_type": "중개거래", "dong": "신정동", "dong_no": "811", "floor": 8, "jibun": "314", "price": 115000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-06-17", "deal_type": "중개거래", "dong": "신정동", "dong_no": "809", "floor": 14, "jibun": "314", "price": 114500}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-06-17", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1309", "floor": 7, "jibun": "327", "price": 138000}
+{"apt": "목동신시가지2", "area": 95.67, "built": 1986, "date": "2023-06-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "222", "floor": 6, "jibun": "902", "price": 184000}
+{"apt": "정원", "area": 72.36, "built": 1992, "date": "2023-06-19", "deal_type": "중개거래", "dong": "신월동", "floor": 2, "jibun": "113-14", "price": 27000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2023-06-20", "deal_type": "중개거래", "dong": "목동", "dong_no": "103", "floor": 15, "jibun": "929", "price": 140000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2023-06-20", "deal_type": "중개거래", "dong": "신월동", "dong_no": "9", "floor": 6, "jibun": "987-1", "price": 56500}
+{"apt": "청구", "area": 84.99, "built": 1992, "date": "2023-06-20", "deal_type": "중개거래", "dong": "신정동", "dong_no": "105", "floor": 15, "jibun": "336", "price": 90000}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2023-06-21", "deal_type": "중개거래", "dong": "신정동", "dong_no": "106", "floor": 3, "jibun": "1279", "price": 122500}
+{"apt": "신월시영", "area": 59.49, "built": 1988, "date": "2023-06-22", "deal_type": "중개거래", "dong": "신월동", "dong_no": "13", "floor": 7, "jibun": "987-1", "price": 63000}
+{"apt": "목동신시가지5", "area": 83.47, "built": 1986, "date": "2023-06-23", "deal_type": "중개거래", "dong": "목동", "dong_no": "535", "floor": 1, "jibun": "912", "price": 185000}
+{"apt": "목동신시가지10", "area": 127.21, "built": 1987, "date": "2023-06-23", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1022", "floor": 4, "jibun": "311", "price": 205000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-06-23", "deal_type": "중개거래", "dong": "신정동", "dong_no": "804", "floor": 14, "jibun": "314", "price": 116500}
+{"apt": "신안파크", "area": 47.6, "built": 1987, "date": "2023-06-24", "deal_type": "중개거래", "dong": "신월동", "dong_no": "9", "floor": 5, "jibun": "350-2", "price": 35000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2023-06-24", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1030", "floor": 3, "jibun": "311", "price": 105500}
+{"apt": "목동삼성", "area": 84.77, "built": 1996, "date": "2023-06-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "103", "floor": 16, "jibun": "1278", "price": 118000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2023-06-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "402", "floor": 11, "jibun": "904", "price": 117000}
+{"apt": "목동신시가지4", "area": 65.34, "built": 1986, "date": "2023-06-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "401", "floor": 5, "jibun": "904", "price": 146000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-06-26", "deal_type": "중개거래", "dong": "신정동", "dong_no": "806", "floor": 2, "jibun": "314", "price": 114500}
+{"apt": "목동신시가지4", "area": 48.69, "built": 1986, "date": "2023-06-27", "deal_type": "중개거래", "dong": "목동", "dong_no": "405", "floor": 11, "jibun": "904", "price": 123000}
+{"apt": "서울가든", "area": 100.8, "built": 1985, "date": "2023-06-27", "deal_type": "중개거래", "dong": "신월동", "dong_no": "3", "floor": 9, "jibun": "475", "price": 70000}
+{"apt": "목동신시가지10", "area": 105.58, "built": 1987, "date": "2023-06-27", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1024", "floor": 4, "jibun": "311", "price": 190000}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2023-06-27", "deal_type": "중개거래", "dong": "신정동", "dong_no": "931", "floor": 9, "jibun": "312", "price": 152000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-06-27", "deal_type": "직거래", "dong": "신정동", "dong_no": "1117", "floor": 4, "jibun": "325", "price": 60000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-06-27", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1218", "floor": 11, "jibun": "326", "price": 138000}
+{"apt": "목동대림", "area": 84.82, "built": 1994, "date": "2023-06-28", "deal_type": "중개거래", "dong": "목동", "dong_no": "1011", "floor": 10, "jibun": "405", "price": 124000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-06-28", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1428", "floor": 6, "jibun": "329", "price": 107000}
+{"apt": "목동신시가지2", "area": 97.92, "built": 1986, "date": "2023-06-29", "deal_type": "중개거래", "dong": "목동", "dong_no": "220", "floor": 6, "jibun": "902", "price": 187000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2023-06-29", "deal_type": "중개거래", "dong": "목동", "dong_no": "310", "floor": 15, "jibun": "903", "price": 150000}
+{"apt": "건영", "area": 84.33, "built": 1994, "date": "2023-06-29", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 1, "jibun": "928", "price": 55000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-06-29", "deal_type": "중개거래", "dong": "신정동", "dong_no": "809", "floor": 2, "jibun": "314", "price": 113500}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2023-06-29", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1105", "floor": 5, "jibun": "325", "price": 121500}
+{"apt": "목동신시가지14", "area": 74.19, "built": 1987, "date": "2023-06-29", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1427", "floor": 11, "jibun": "329", "price": 133000}
+{"apt": "목동신시가지2", "area": 97.92, "built": 1986, "date": "2023-06-30", "deal_type": "중개거래", "dong": "목동", "dong_no": "225", "floor": 2, "jibun": "902", "price": 187000}
+{"apt": "목동신시가지6", "area": 95.03, "built": 1986, "date": "2023-06-30", "deal_type": "중개거래", "dong": "목동", "dong_no": "605", "floor": 11, "jibun": "911", "price": 198000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2023-06-30", "deal_type": "중개거래", "dong": "목동", "dong_no": "532", "floor": 5, "jibun": "912", "price": 162500}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-06-30", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1119", "floor": 1, "jibun": "325", "price": 96700}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-06-30", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1219", "floor": 10, "jibun": "326", "price": 140000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-07-01", "deal_type": "중개거래", "dong": "목동", "dong_no": "104", "floor": 2, "jibun": "200", "price": 119000}
+{"apt": "목동신시가지6", "area": 65.1, "built": 1986, "date": "2023-07-03", "deal_type": "직거래", "dong": "목동", "dong_no": "612", "floor": 11, "jibun": "911", "price": 118000}
+{"apt": "목동성원(926-8)", "area": 59.4, "built": 1997, "date": "2023-07-03", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 9, "jibun": "926-8", "price": 100000}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2023-07-03", "deal_type": "중개거래", "dong": "신정동", "dong_no": "932", "floor": 9, "jibun": "312", "price": 185000}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2023-07-03", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1101", "floor": 7, "jibun": "325", "price": 123000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-07-03", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1217", "floor": 7, "jibun": "326", "price": 138500}
+{"apt": "목동신시가지9", "area": 106.39, "built": 1987, "date": "2023-07-05", "deal_type": "중개거래", "dong": "신정동", "dong_no": "920", "floor": 5, "jibun": "312", "price": 188000}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2023-07-05", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1104", "floor": 5, "jibun": "325", "price": 104000}
+{"apt": "목동신시가지5", "area": 81.64, "built": 1986, "date": "2023-07-06", "deal_type": "중개거래", "dong": "목동", "dong_no": "523", "floor": 1, "jibun": "912", "price": 189000}
+{"apt": "목동신시가지2", "area": 152.64, "built": 1986, "date": "2023-07-07", "deal_type": "중개거래", "dong": "목동", "dong_no": "207", "floor": 3, "jibun": "902", "price": 295000}
+{"apt": "목동신시가지4", "area": 65.34, "built": 1986, "date": "2023-07-07", "deal_type": "중개거래", "dong": "목동", "dong_no": "401", "floor": 5, "jibun": "904", "price": 144000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2023-07-07", "deal_type": "중개거래", "dong": "목동", "dong_no": "108", "floor": 15, "jibun": "929", "price": 144000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-07-07", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1310", "floor": 6, "jibun": "327", "price": 140000}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2023-07-10", "deal_type": "중개거래", "dong": "신정동", "dong_no": "902", "floor": 8, "jibun": "312", "price": 197000}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2023-07-12", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1102", "floor": 10, "jibun": "325", "price": 128000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-07-13", "deal_type": "중개거래", "dong": "목동", "dong_no": "613", "floor": 5, "jibun": "911", "price": 122000}
+{"apt": "목동신시가지6", "area": 65.1, "built": 1986, "date": "2023-07-13", "deal_type": "중개거래", "dong": "목동", "dong_no": "610", "floor": 10, "jibun": "911", "price": 155500}
+{"apt": "목동신시가지5", "area": 95.28, "built": 1986, "date": "2023-07-13", "deal_type": "중개거래", "dong": "목동", "dong_no": "534", "floor": 11, "jibun": "912", "price": 220000}
+{"apt": "목동신시가지5", "area": 115.47, "built": 1986, "date": "2023-07-13", "deal_type": "중개거래", "dong": "목동", "dong_no": "530", "floor": 4, "jibun": "912", "price": 253000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2023-07-13", "deal_type": "중개거래", "dong": "목동", "dong_no": "101", "floor": 12, "jibun": "929", "price": 147500}
+{"apt": "목동신시가지13", "area": 151.76, "built": 1987, "date": "2023-07-13", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1327", "floor": 8, "jibun": "327", "price": 260000}
+{"apt": "쌍용", "area": 84.65, "built": 1992, "date": "2023-07-13", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101", "floor": 6, "jibun": "334", "price": 85000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2023-07-14", "deal_type": "중개거래", "dong": "목동", "dong_no": "532", "floor": 10, "jibun": "912", "price": 159000}
+{"apt": "목동신시가지5", "area": 83.47, "built": 1986, "date": "2023-07-14", "deal_type": "중개거래", "dong": "목동", "dong_no": "528", "floor": 1, "jibun": "912", "price": 186000}
+{"apt": "목동신시가지7", "area": 74.12, "built": 1986, "date": "2023-07-14", "deal_type": "중개거래", "dong": "목동", "dong_no": "725", "floor": 5, "jibun": "925", "price": 200000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-07-14", "deal_type": "중개거래", "dong": "목동", "dong_no": "101", "floor": 8, "jibun": "929", "price": 137000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2023-07-14", "deal_type": "중개거래", "dong": "신월동", "dong_no": "17", "floor": 12, "jibun": "987-1", "price": 54500}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2023-07-14", "deal_type": "중개거래", "dong": "신정동", "dong_no": "106", "floor": 14, "jibun": "1279", "price": 130000}
+{"apt": "목동신시가지11", "area": 59.29, "built": 1988, "date": "2023-07-14", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1112", "floor": 1, "jibun": "325", "price": 114000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-07-14", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1415", "floor": 14, "jibun": "329", "price": 111500}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2023-07-15", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1016", "floor": 15, "jibun": "311", "price": 111500}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2023-07-15", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1015", "floor": 7, "jibun": "311", "price": 141500}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2023-07-17", "deal_type": "중개거래", "dong": "목동", "dong_no": "101", "floor": 14, "jibun": "929", "price": 141000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2023-07-17", "deal_type": "중개거래", "dong": "목동", "dong_no": "106", "floor": 15, "jibun": "929", "price": 149500}
+{"apt": "목동신시가지14", "area": 129.33, "built": 1987, "date": "2023-07-18", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1401", "floor": 5, "jibun": "329", "price": 215000}
+{"apt": "목동신시가지4", "area": 96.36, "built": 1986, "date": "2023-07-20", "deal_type": "중개거래", "dong": "목동", "dong_no": "407", "floor": 6, "jibun": "904", "price": 196000}
+{"apt": "목동신시가지5", "area": 143.36, "built": 1986, "date": "2023-07-20", "deal_type": "중개거래", "dong": "목동", "dong_no": "505", "floor": 4, "jibun": "912", "price": 253500}
+{"apt": "목동현대1", "area": 59.9, "built": 1997, "date": "2023-07-20", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 10, "jibun": "932", "price": 114000}
+{"apt": "목동신시가지2", "area": 95.67, "built": 1986, "date": "2023-07-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "221", "floor": 7, "jibun": "902", "price": 196000}
+{"apt": "목동신시가지2", "area": 122.31, "built": 1986, "date": "2023-07-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "202", "floor": 1, "jibun": "902", "price": 221000}
+{"apt": "목동신시가지4", "area": 67.58, "built": 1986, "date": "2023-07-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "410", "floor": 13, "jibun": "904", "price": 150000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2023-07-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "116", "floor": 9, "jibun": "929", "price": 146000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2023-07-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "113", "floor": 10, "jibun": "929", "price": 145000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-07-21", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1217", "floor": 14, "jibun": "326", "price": 139000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-07-22", "deal_type": "중개거래", "dong": "목동", "dong_no": "610", "floor": 10, "jibun": "911", "price": 121000}
+{"apt": "목동신시가지6", "area": 65.1, "built": 1986, "date": "2023-07-22", "deal_type": "중개거래", "dong": "목동", "dong_no": "610", "floor": 6, "jibun": "911", "price": 154000}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2023-07-24", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1033", "floor": 7, "jibun": "311", "price": 132000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2023-07-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "410", "floor": 13, "jibun": "904", "price": 119000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-07-26", "deal_type": "중개거래", "dong": "신정동", "dong_no": "811", "floor": 13, "jibun": "314", "price": 119500}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-07-26", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1108", "floor": 4, "jibun": "325", "price": 107000}
+{"apt": "목동신시가지12", "area": 53.46, "built": 1988, "date": "2023-07-26", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1226", "floor": 12, "jibun": "326", "price": 110500}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-07-28", "deal_type": "중개거래", "dong": "목동", "dong_no": "611", "floor": 11, "jibun": "911", "price": 125000}
+{"apt": "목동신시가지10", "area": 105.58, "built": 1987, "date": "2023-07-28", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1026", "floor": 4, "jibun": "311", "price": 183000}
+{"apt": "목동신시가지6", "area": 65.1, "built": 1986, "date": "2023-07-29", "deal_type": "중개거래", "dong": "목동", "dong_no": "612", "floor": 19, "jibun": "911", "price": 157000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2023-07-29", "deal_type": "중개거래", "dong": "목동", "dong_no": "531", "floor": 4, "jibun": "912", "price": 164000}
+{"apt": "삼익", "area": 84.88, "built": 1997, "date": "2023-07-29", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 16, "jibun": "933", "price": 113000}
+{"apt": "목동성원(926-8)", "area": 84.31, "built": 1997, "date": "2023-07-31", "deal_type": "중개거래", "dong": "목동", "dong_no": "101", "floor": 10, "jibun": "926-8", "price": 158000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-07-31", "deal_type": "중개거래", "dong": "목동", "dong_no": "109", "floor": 2, "jibun": "929", "price": 153000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-07-31", "deal_type": "중개거래", "dong": "목동", "dong_no": "105", "floor": 8, "jibun": "929", "price": 150000}
+{"apt": "목동신시가지10", "area": 127.21, "built": 1987, "date": "2023-07-31", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1024", "floor": 1, "jibun": "311", "price": 207500}
+{"apt": "신화타워", "area": 126.21, "built": 1994, "date": "2023-08-01", "deal_type": "중개거래", "dong": "목동", "floor": 5, "jibun": "502-1", "price": 65000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-08-02", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1414", "floor": 13, "jibun": "329", "price": 112000}
+{"apt": "목동신시가지14", "area": 71.4, "built": 1987, "date": "2023-08-02", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1423", "floor": 7, "jibun": "329", "price": 140000}
+{"apt": "목동신시가지14", "area": 71.4, "built": 1987, "date": "2023-08-03", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1423", "floor": 5, "jibun": "329", "price": 138000}
+{"apt": "목동신시가지14", "area": 84.87, "built": 1987, "date": "2023-08-03", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1431", "floor": 7, "jibun": "329", "price": 160000}
+{"apt": "신호", "area": 84.9, "built": 1997, "date": "2023-08-04", "deal_type": "중개거래", "dong": "신정동", "floor": 5, "jibun": "948-24", "price": 74000}
+{"apt": "목동신시가지4", "area": 94.86, "built": 1986, "date": "2023-08-05", "deal_type": "중개거래", "dong": "목동", "dong_no": "415", "floor": 1, "jibun": "904", "price": 198000}
+{"apt": "현대", "area": 84.84, "built": 1995, "date": "2023-08-05", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101", "floor": 18, "jibun": "1252", "price": 86000}
+{"apt": "목동신시가지3", "area": 145.13, "built": 1986, "date": "2023-08-07", "deal_type": "중개거래", "dong": "목동", "dong_no": "306", "floor": 8, "jibun": "903", "price": 292000}
+{"apt": "목동신시가지10", "area": 127.21, "built": 1987, "date": "2023-08-07", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1027", "floor": 1, "jibun": "311", "price": 207000}
+{"apt": "신월성원", "area": 59.94, "built": 1996, "date": "2023-08-08", "deal_type": "중개거래", "dong": "신월동", "dong_no": "1", "floor": 3, "jibun": "222-7", "price": 33600}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2023-08-08", "deal_type": "중개거래", "dong": "신월동", "dong_no": "3", "floor": 5, "jibun": "987-1", "price": 47000}
+{"apt": "목동신시가지1", "area": 65.34, "built": 1985, "date": "2023-08-09", "deal_type": "중개거래", "dong": "목동", "dong_no": "116", "floor": 9, "jibun": "901", "price": 155000}
+{"apt": "목동신시가지1", "area": 99.15, "built": 1985, "date": "2023-08-09", "deal_type": "중개거래", "dong": "목동", "dong_no": "111", "floor": 4, "jibun": "901", "price": 192000}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2023-08-09", "deal_type": "중개거래", "dong": "신정동", "dong_no": "931", "floor": 5, "jibun": "312", "price": 152000}
+{"apt": "목동신시가지9", "area": 100.33, "built": 1987, "date": "2023-08-09", "deal_type": "중개거래", "dong": "신정동", "dong_no": "914", "floor": 4, "jibun": "312", "price": 188000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-08-09", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1428", "floor": 1, "jibun": "329", "price": 109000}
+{"apt": "목동신시가지14", "area": 71.4, "built": 1987, "date": "2023-08-09", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1423", "floor": 18, "jibun": "329", "price": 140700}
+{"apt": "목동신시가지2", "area": 120.06, "built": 1986, "date": "2023-08-10", "deal_type": "중개거래", "dong": "목동", "dong_no": "207", "floor": 1, "jibun": "902", "price": 226200}
+{"apt": "목동신시가지14", "area": 71.4, "built": 1987, "date": "2023-08-10", "deal_type": "직거래", "dong": "신정동", "dong_no": "1422", "floor": 20, "jibun": "329", "price": 115000}
+{"apt": "대림", "area": 84.89, "built": 1992, "date": "2023-08-10", "deal_type": "중개거래", "dong": "신정동", "dong_no": "102", "floor": 9, "jibun": "333", "price": 98000}
+{"apt": "목동신시가지2", "area": 144.0, "built": 1986, "date": "2023-08-11", "deal_type": "중개거래", "dong": "목동", "dong_no": "215", "floor": 9, "jibun": "902", "price": 265000}
+{"apt": "목동신시가지4", "area": 65.34, "built": 1986, "date": "2023-08-11", "deal_type": "중개거래", "dong": "목동", "dong_no": "408", "floor": 17, "jibun": "904", "price": 151000}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2023-08-11", "deal_type": "중개거래", "dong": "신정동", "dong_no": "906", "floor": 3, "jibun": "312", "price": 143000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-08-11", "deal_type": "중개거래", "dong": "신정동", "dong_no": "809", "floor": 20, "jibun": "314", "price": 117000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-08-11", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1108", "floor": 13, "jibun": "325", "price": 111300}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2023-08-11", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1109", "floor": 13, "jibun": "325", "price": 132000}
+{"apt": "목동신시가지12", "area": 53.46, "built": 1988, "date": "2023-08-11", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1226", "floor": 4, "jibun": "326", "price": 113500}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-08-11", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1214", "floor": 2, "jibun": "326", "price": 138000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-08-11", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1215", "floor": 3, "jibun": "326", "price": 142500}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-08-11", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1415", "floor": 1, "jibun": "329", "price": 112800}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2023-08-12", "deal_type": "중개거래", "dong": "신월동", "dong_no": "6", "floor": 7, "jibun": "987-1", "price": 49000}
+{"apt": "청구", "area": 84.99, "built": 1992, "date": "2023-08-12", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101-1", "floor": 3, "jibun": "336", "price": 87500}
+{"apt": "목동신시가지2", "area": 95.22, "built": 1986, "date": "2023-08-14", "deal_type": "중개거래", "dong": "목동", "dong_no": "203", "floor": 5, "jibun": "902", "price": 193000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2023-08-14", "deal_type": "중개거래", "dong": "목동", "dong_no": "721", "floor": 15, "jibun": "925", "price": 179000}
+{"apt": "건영", "area": 84.33, "built": 1994, "date": "2023-08-14", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 7, "jibun": "928", "price": 64500}
+{"apt": "청구", "area": 84.99, "built": 1992, "date": "2023-08-14", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101-3", "floor": 9, "jibun": "336", "price": 89000}
+{"apt": "현대", "area": 84.84, "built": 1995, "date": "2023-08-15", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101", "floor": 12, "jibun": "1252", "price": 88000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2023-08-16", "deal_type": "중개거래", "dong": "신월동", "dong_no": "8", "floor": 1, "jibun": "987-1", "price": 50800}
+{"apt": "목동현대3차", "area": 71.16, "built": 1997, "date": "2023-08-16", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101", "floor": 2, "jibun": "1279", "price": 100000}
+{"apt": "목동신시가지13", "area": 53.9, "built": 1987, "date": "2023-08-16", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1326", "floor": 10, "jibun": "327", "price": 112000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-08-16", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1417", "floor": 9, "jibun": "329", "price": 115500}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-08-16", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1433", "floor": 13, "jibun": "329", "price": 117000}
+{"apt": "목동신시가지14", "area": 74.19, "built": 1987, "date": "2023-08-16", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1417", "floor": 5, "jibun": "329", "price": 140000}
+{"apt": "엘리온", "area": 72.77, "built": 2011, "date": "2023-08-17", "deal_type": "직거래", "dong": "목동", "dong_no": "101", "floor": 4, "jibun": "803-2", "price": 54000}
+{"apt": "목동신시가지1", "area": 66.0, "built": 1985, "date": "2023-08-17", "deal_type": "중개거래", "dong": "목동", "dong_no": "127", "floor": 9, "jibun": "901", "price": 146000}
+{"apt": "목동신시가지2", "area": 95.22, "built": 1986, "date": "2023-08-17", "deal_type": "중개거래", "dong": "목동", "dong_no": "234", "floor": 2, "jibun": "902", "price": 192000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-08-17", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1218", "floor": 15, "jibun": "326", "price": 135000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-08-18", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1303", "floor": 10, "jibun": "327", "price": 142000}
+{"apt": "목동신시가지1", "area": 116.29, "built": 1985, "date": "2023-08-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "122", "floor": 2, "jibun": "901", "price": 212500}
+{"apt": "목동신시가지7", "area": 64.4, "built": 1986, "date": "2023-08-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "720", "floor": 1, "jibun": "925", "price": 178000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-08-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "107", "floor": 5, "jibun": "929", "price": 146000}
+{"apt": "현대", "area": 57.84, "built": 1996, "date": "2023-08-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "101", "floor": 7, "jibun": "930", "price": 102000}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2023-08-19", "deal_type": "중개거래", "dong": "신정동", "dong_no": "105", "floor": 9, "jibun": "1279", "price": 132000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2023-08-19", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1034", "floor": 5, "jibun": "311", "price": 118000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2023-08-19", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1018", "floor": 15, "jibun": "311", "price": 114700}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2023-08-19", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1018", "floor": 8, "jibun": "311", "price": 149500}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2023-08-19", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1103", "floor": 12, "jibun": "325", "price": 130000}
+{"apt": "목동신시가지12", "area": 56.76, "built": 1988, "date": "2023-08-19", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1212", "floor": 2, "jibun": "326", "price": 118700}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-08-19", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1428", "floor": 4, "jibun": "329", "price": 112000}
+{"apt": "목동신시가지5", "area": 95.06, "built": 1986, "date": "2023-08-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "534", "floor": 2, "jibun": "912", "price": 200000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-08-21", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1107", "floor": 2, "jibun": "325", "price": 105000}
+{"apt": "목동신시가지13", "area": 53.9, "built": 1987, "date": "2023-08-21", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1333", "floor": 9, "jibun": "327", "price": 107000}
+{"apt": "목동신시가지5", "area": 142.51, "built": 1986, "date": "2023-08-23", "deal_type": "중개거래", "dong": "목동", "dong_no": "509", "floor": 8, "jibun": "912", "price": 300000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2023-08-23", "deal_type": "중개거래", "dong": "신월동", "dong_no": "9", "floor": 9, "jibun": "987-1", "price": 55800}
+{"apt": "목동신시가지10", "area": 127.21, "built": 1987, "date": "2023-08-23", "deal_type": "직거래", "dong": "신정동", "dong_no": "1023", "floor": 7, "jibun": "311", "price": 210000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-08-24", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1107", "floor": 3, "jibun": "325", "price": 109500}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-08-24", "deal_type": "직거래", "dong": "신정동", "dong_no": "1117", "floor": 11, "jibun": "325", "price": 102000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2023-08-25", "deal_type": "중개거래", "dong": "목동", "dong_no": "308", "floor": 3, "jibun": "903", "price": 142000}
+{"apt": "목동신시가지4", "area": 48.69, "built": 1986, "date": "2023-08-25", "deal_type": "중개거래", "dong": "목동", "dong_no": "402", "floor": 14, "jibun": "904", "price": 125000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2023-08-25", "deal_type": "중개거래", "dong": "목동", "dong_no": "533", "floor": 6, "jibun": "912", "price": 165000}
+{"apt": "나산", "area": 59.9, "built": 1997, "date": "2023-08-25", "deal_type": "중개거래", "dong": "신월동", "floor": 3, "jibun": "217-2", "price": 35000}
+{"apt": "현대", "area": 84.84, "built": 1995, "date": "2023-08-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101", "floor": 11, "jibun": "1252", "price": 87000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2023-08-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1018", "floor": 10, "jibun": "311", "price": 113000}
+{"apt": "청구", "area": 84.99, "built": 1992, "date": "2023-08-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101-2", "floor": 6, "jibun": "336", "price": 80000}
+{"apt": "목동신시가지1", "area": 65.34, "built": 1985, "date": "2023-08-28", "deal_type": "중개거래", "dong": "목동", "dong_no": "121", "floor": 5, "jibun": "901", "price": 151000}
+{"apt": "목동신시가지1", "area": 90.06, "built": 1985, "date": "2023-08-28", "deal_type": "중개거래", "dong": "목동", "dong_no": "119", "floor": 8, "jibun": "901", "price": 179500}
+{"apt": "목동신시가지1", "area": 91.26, "built": 1985, "date": "2023-08-28", "deal_type": "중개거래", "dong": "목동", "dong_no": "119", "floor": 3, "jibun": "901", "price": 186700}
+{"apt": "목동신시가지2", "area": 122.31, "built": 1986, "date": "2023-08-28", "deal_type": "중개거래", "dong": "목동", "dong_no": "201", "floor": 5, "jibun": "902", "price": 226500}
+{"apt": "목동현대3차", "area": 114.93, "built": 1997, "date": "2023-08-28", "deal_type": "중개거래", "dong": "신정동", "dong_no": "102", "floor": 7, "jibun": "1279", "price": 164000}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2023-08-28", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1015", "floor": 14, "jibun": "311", "price": 149000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2023-08-29", "deal_type": "중개거래", "dong": "목동", "dong_no": "304", "floor": 5, "jibun": "903", "price": 148000}
+{"apt": "목동신시가지14", "area": 71.4, "built": 1987, "date": "2023-08-29", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1421", "floor": 11, "jibun": "329", "price": 145000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2023-08-29", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1403", "floor": 12, "jibun": "329", "price": 205000}
+{"apt": "목동신시가지5", "area": 142.51, "built": 1986, "date": "2023-08-30", "deal_type": "중개거래", "dong": "목동", "dong_no": "509", "floor": 4, "jibun": "912", "price": 298000}
+{"apt": "서울가든", "area": 100.8, "built": 1985, "date": "2023-08-30", "deal_type": "중개거래", "dong": "신월동", "dong_no": "3", "floor": 4, "jibun": "475", "price": 75000}
+{"apt": "목동신시가지3", "area": 95.74, "built": 1986, "date": "2023-08-31", "deal_type": "중개거래", "dong": "목동", "dong_no": "315", "floor": 1, "jibun": "903", "price": 194000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2023-08-31", "deal_type": "중개거래", "dong": "신월동", "dong_no": "14", "floor": 7, "jibun": "987-1", "price": 53400}
+{"apt": "현대", "area": 84.14, "built": 1995, "date": "2023-08-31", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101", "floor": 1, "jibun": "1252", "price": 92000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-09-01", "deal_type": "중개거래", "dong": "목동", "dong_no": "108", "floor": 7, "jibun": "929", "price": 152000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2023-09-02", "deal_type": "중개거래", "dong": "목동", "dong_no": "308", "floor": 9, "jibun": "903", "price": 157000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2023-09-02", "deal_type": "중개거래", "dong": "목동", "dong_no": "310", "floor": 13, "jibun": "903", "price": 147000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2023-09-02", "deal_type": "중개거래", "dong": "목동", "dong_no": "304", "floor": 14, "jibun": "903", "price": 149700}
+{"apt": "목동신시가지7", "area": 64.4, "built": 1986, "date": "2023-09-02", "deal_type": "중개거래", "dong": "목동", "dong_no": "707", "floor": 1, "jibun": "925", "price": 178000}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2023-09-02", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1030", "floor": 5, "jibun": "311", "price": 145000}
+{"apt": "목동신시가지10", "area": 105.58, "built": 1987, "date": "2023-09-02", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1026", "floor": 3, "jibun": "311", "price": 191000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2023-09-02", "deal_type": "중개거래", "dong": "신정동", "dong_no": "808", "floor": 6, "jibun": "314", "price": 158000}
+{"apt": "목동신시가지1", "area": 98.08, "built": 1985, "date": "2023-09-04", "deal_type": "중개거래", "dong": "목동", "dong_no": "112", "floor": 2, "jibun": "901", "price": 198000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2023-09-04", "deal_type": "중개거래", "dong": "목동", "dong_no": "404", "floor": 2, "jibun": "904", "price": 124900}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2023-09-04", "deal_type": "중개거래", "dong": "목동", "dong_no": "410", "floor": 6, "jibun": "904", "price": 123000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-09-04", "deal_type": "중개거래", "dong": "목동", "dong_no": "612", "floor": 11, "jibun": "911", "price": 131000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2023-09-04", "deal_type": "중개거래", "dong": "목동", "dong_no": "510", "floor": 10, "jibun": "912", "price": 161000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2023-09-05", "deal_type": "중개거래", "dong": "목동", "dong_no": "713", "floor": 2, "jibun": "925", "price": 183000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2023-09-05", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1015", "floor": 3, "jibun": "311", "price": 122500}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2023-09-05", "deal_type": "중개거래", "dong": "신정동", "dong_no": "805", "floor": 9, "jibun": "314", "price": 157500}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-09-05", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1116", "floor": 11, "jibun": "325", "price": 110000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-09-06", "deal_type": "중개거래", "dong": "목동", "dong_no": "610", "floor": 19, "jibun": "911", "price": 121000}
+{"apt": "목동신시가지2", "area": 95.4, "built": 1986, "date": "2023-09-07", "deal_type": "중개거래", "dong": "목동", "dong_no": "216", "floor": 10, "jibun": "902", "price": 197000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-09-07", "deal_type": "중개거래", "dong": "목동", "dong_no": "614", "floor": 7, "jibun": "911", "price": 131000}
+{"apt": "목동신시가지10", "area": 53.82, "built": 1987, "date": "2023-09-08", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1028", "floor": 11, "jibun": "311", "price": 110000}
+{"apt": "목동신시가지14", "area": 71.37, "built": 1987, "date": "2023-09-08", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1430", "floor": 9, "jibun": "329", "price": 146000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2023-09-08", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1412", "floor": 6, "jibun": "329", "price": 194000}
+{"apt": "현대", "area": 57.84, "built": 1996, "date": "2023-09-09", "deal_type": "중개거래", "dong": "목동", "dong_no": "101", "floor": 18, "jibun": "930", "price": 103000}
+{"apt": "목동현대1", "area": 84.9, "built": 1997, "date": "2023-09-09", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 18, "jibun": "932", "price": 153000}
+{"apt": "목동신시가지14", "area": 71.37, "built": 1987, "date": "2023-09-09", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1425", "floor": 3, "jibun": "329", "price": 146000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2023-09-11", "deal_type": "중개거래", "dong": "목동", "dong_no": "410", "floor": 3, "jibun": "904", "price": 117000}
+{"apt": "목동현대1", "area": 59.9, "built": 1997, "date": "2023-09-11", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 6, "jibun": "932", "price": 115000}
+{"apt": "목동신시가지9", "area": 126.53, "built": 1987, "date": "2023-09-11", "deal_type": "중개거래", "dong": "신정동", "dong_no": "901", "floor": 5, "jibun": "312", "price": 230400}
+{"apt": "목동신시가지12", "area": 53.46, "built": 1988, "date": "2023-09-11", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1225", "floor": 11, "jibun": "326", "price": 118000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2023-09-12", "deal_type": "중개거래", "dong": "목동", "dong_no": "108", "floor": 13, "jibun": "929", "price": 153000}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2023-09-12", "deal_type": "중개거래", "dong": "신정동", "dong_no": "903", "floor": 8, "jibun": "312", "price": 202000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-09-12", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1220", "floor": 14, "jibun": "326", "price": 149000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2023-09-12", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1406", "floor": 2, "jibun": "329", "price": 193000}
+{"apt": "목동신시가지1", "area": 47.52, "built": 1985, "date": "2023-09-13", "deal_type": "중개거래", "dong": "목동", "dong_no": "117", "floor": 5, "jibun": "901", "price": 117000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-09-13", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1432", "floor": 10, "jibun": "329", "price": 117000}
+{"apt": "목동신시가지13", "area": 151.76, "built": 1987, "date": "2023-09-14", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1312", "floor": 1, "jibun": "327", "price": 240000}
+{"apt": "목동신시가지14", "area": 83.31, "built": 1987, "date": "2023-09-14", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1429", "floor": 1, "jibun": "329", "price": 172000}
+{"apt": "목동신시가지4", "area": 47.25, "built": 1986, "date": "2023-09-15", "deal_type": "중개거래", "dong": "목동", "dong_no": "402", "floor": 4, "jibun": "904", "price": 131000}
+{"apt": "목동삼성", "area": 114.93, "built": 1996, "date": "2023-09-15", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101", "floor": 5, "jibun": "1278", "price": 140000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-09-15", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1116", "floor": 15, "jibun": "325", "price": 105000}
+{"apt": "목동신시가지6", "area": 47.94, "built": 1986, "date": "2023-09-16", "deal_type": "중개거래", "dong": "목동", "dong_no": "611", "floor": 6, "jibun": "911", "price": 130000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2023-09-16", "deal_type": "직거래", "dong": "목동", "dong_no": "531", "floor": 12, "jibun": "912", "price": 175000}
+{"apt": "목동신시가지5", "area": 95.27, "built": 1986, "date": "2023-09-16", "deal_type": "중개거래", "dong": "목동", "dong_no": "503", "floor": 3, "jibun": "912", "price": 225000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2023-09-16", "deal_type": "중개거래", "dong": "목동", "dong_no": "105", "floor": 9, "jibun": "929", "price": 153000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-09-18", "deal_type": "중개거래", "dong": "신정동", "dong_no": "806", "floor": 5, "jibun": "314", "price": 120000}
+{"apt": "목동신시가지1", "area": 91.26, "built": 1985, "date": "2023-09-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "123", "floor": 4, "jibun": "901", "price": 193500}
+{"apt": "목동신시가지5", "area": 115.47, "built": 1986, "date": "2023-09-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "534", "floor": 13, "jibun": "912", "price": 269000}
+{"apt": "목동신시가지8", "area": 105.35, "built": 1987, "date": "2023-09-19", "deal_type": "중개거래", "dong": "신정동", "dong_no": "803", "floor": 4, "jibun": "314", "price": 197000}
+{"apt": "목동신시가지1", "area": 98.08, "built": 1985, "date": "2023-09-20", "deal_type": "중개거래", "dong": "목동", "dong_no": "103", "floor": 5, "jibun": "901", "price": 203000}
+{"apt": "목동신시가지3", "area": 95.03, "built": 1986, "date": "2023-09-20", "deal_type": "직거래", "dong": "목동", "dong_no": "329", "floor": 5, "jibun": "903", "price": 189551}
+{"apt": "목동신시가지8", "area": 105.35, "built": 1987, "date": "2023-09-20", "deal_type": "중개거래", "dong": "신정동", "dong_no": "801", "floor": 3, "jibun": "314", "price": 200000}
+{"apt": "목동신시가지13", "area": 84.41, "built": 1987, "date": "2023-09-20", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1314", "floor": 1, "jibun": "327", "price": 171000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-09-20", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1433", "floor": 2, "jibun": "329", "price": 117000}
+{"apt": "목동신시가지5", "area": 142.51, "built": 1986, "date": "2023-09-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "501", "floor": 3, "jibun": "912", "price": 320000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2023-09-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "714", "floor": 14, "jibun": "925", "price": 180000}
+{"apt": "목동신시가지7", "area": 101.2, "built": 1986, "date": "2023-09-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "705", "floor": 12, "jibun": "925", "price": 245000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-09-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "103", "floor": 6, "jibun": "929", "price": 149000}
+{"apt": "목동신시가지8", "area": 54.94, "built": 1987, "date": "2023-09-21", "deal_type": "중개거래", "dong": "신정동", "dong_no": "808", "floor": 9, "jibun": "314", "price": 129000}
+{"apt": "목동신시가지8", "area": 71.77, "built": 1987, "date": "2023-09-21", "deal_type": "중개거래", "dong": "신정동", "dong_no": "806", "floor": 3, "jibun": "314", "price": 160000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-09-21", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1107", "floor": 7, "jibun": "325", "price": 115000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-09-22", "deal_type": "중개거래", "dong": "목동", "dong_no": "103", "floor": 13, "jibun": "200", "price": 127500}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2023-09-22", "deal_type": "중개거래", "dong": "목동", "dong_no": "716", "floor": 4, "jibun": "925", "price": 146000}
+{"apt": "목동신시가지7", "area": 101.2, "built": 1986, "date": "2023-09-22", "deal_type": "중개거래", "dong": "목동", "dong_no": "703", "floor": 12, "jibun": "925", "price": 245000}
+{"apt": "목동신시가지10", "area": 105.58, "built": 1987, "date": "2023-09-22", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1017", "floor": 7, "jibun": "311", "price": 198000}
+{"apt": "목동신시가지9", "area": 71.37, "built": 1987, "date": "2023-09-22", "deal_type": "중개거래", "dong": "신정동", "dong_no": "927", "floor": 14, "jibun": "312", "price": 158000}
+{"apt": "목동신시가지1", "area": 66.0, "built": 1985, "date": "2023-09-23", "deal_type": "중개거래", "dong": "목동", "dong_no": "127", "floor": 4, "jibun": "901", "price": 147000}
+{"apt": "목동신시가지7", "area": 53.88, "built": 1986, "date": "2023-09-23", "deal_type": "중개거래", "dong": "목동", "dong_no": "731", "floor": 3, "jibun": "925", "price": 145000}
+{"apt": "신안약수", "area": 84.56, "built": 1985, "date": "2023-09-23", "deal_type": "중개거래", "dong": "신월동", "dong_no": "4", "floor": 7, "jibun": "591-1", "price": 69500}
+{"apt": "쌍용", "area": 84.65, "built": 1992, "date": "2023-09-24", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101", "floor": 14, "jibun": "334", "price": 89000}
+{"apt": "우성", "area": 84.44, "built": 1992, "date": "2023-09-25", "deal_type": "중개거래", "dong": "목동", "dong_no": "104", "floor": 2, "jibun": "200", "price": 126000}
+{"apt": "목동대림", "area": 84.82, "built": 1994, "date": "2023-09-25", "deal_type": "중개거래", "dong": "목동", "dong_no": "1011", "floor": 4, "jibun": "405", "price": 120000}
+{"apt": "목동신시가지1", "area": 99.15, "built": 1985, "date": "2023-09-25", "deal_type": "중개거래", "dong": "목동", "dong_no": "114", "floor": 3, "jibun": "901", "price": 175000}
+{"apt": "목동청구한신아파트", "area": 84.77, "built": 1997, "date": "2023-09-25", "deal_type": "중개거래", "dong": "목동", "dong_no": "109", "floor": 7, "jibun": "929", "price": 157500}
+{"apt": "목동신시가지2", "area": 120.06, "built": 1986, "date": "2023-09-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "226", "floor": 1, "jibun": "902", "price": 250000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2023-09-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "304", "floor": 3, "jibun": "903", "price": 154000}
+{"apt": "목동신시가지5", "area": 65.08, "built": 1986, "date": "2023-09-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "531", "floor": 5, "jibun": "912", "price": 170000}
+{"apt": "목동신시가지5", "area": 115.47, "built": 1986, "date": "2023-09-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "530", "floor": 11, "jibun": "912", "price": 270000}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2023-09-26", "deal_type": "중개거래", "dong": "목동", "dong_no": "114", "floor": 12, "jibun": "929", "price": 158000}
+{"apt": "목동현대3차", "area": 71.16, "built": 1997, "date": "2023-09-26", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101", "floor": 17, "jibun": "1279", "price": 108000}
+{"apt": "목동신시가지13", "area": 98.63, "built": 1987, "date": "2023-09-26", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1304", "floor": 2, "jibun": "327", "price": 187500}
+{"apt": "목동신시가지3", "area": 95.03, "built": 1986, "date": "2023-09-27", "deal_type": "중개거래", "dong": "목동", "dong_no": "325", "floor": 3, "jibun": "903", "price": 209000}
+{"apt": "은행", "area": 73.07, "built": 1995, "date": "2023-09-27", "deal_type": "중개거래", "dong": "신정동", "floor": 1, "jibun": "980-5", "price": 43000}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2023-09-30", "deal_type": "직거래", "dong": "신월동", "dong_no": "8", "floor": 5, "jibun": "987-1", "price": 51000}
+{"apt": "목동신시가지1", "area": 47.52, "built": 1985, "date": "2023-10-03", "deal_type": "중개거래", "dong": "목동", "dong_no": "129", "floor": 4, "jibun": "901", "price": 122000}
+{"apt": "목동신시가지1", "area": 65.34, "built": 1985, "date": "2023-10-05", "deal_type": "중개거래", "dong": "목동", "dong_no": "130", "floor": 6, "jibun": "901", "price": 156000}
+{"apt": "목동신시가지1", "area": 154.44, "built": 1985, "date": "2023-10-05", "deal_type": "중개거래", "dong": "목동", "dong_no": "120", "floor": 9, "jibun": "901", "price": 290000}
+{"apt": "목동신시가지3", "area": 64.98, "built": 1986, "date": "2023-10-05", "deal_type": "중개거래", "dong": "목동", "dong_no": "309", "floor": 5, "jibun": "903", "price": 150000}
+{"apt": "목동신시가지10", "area": 105.58, "built": 1987, "date": "2023-10-05", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1017", "floor": 5, "jibun": "311", "price": 199500}
+{"apt": "목동신시가지10", "area": 127.21, "built": 1987, "date": "2023-10-05", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1022", "floor": 1, "jibun": "311", "price": 208500}
+{"apt": "건영", "area": 84.27, "built": 1994, "date": "2023-10-06", "deal_type": "중개거래", "dong": "목동", "dong_no": "101", "floor": 12, "jibun": "928", "price": 65000}
+{"apt": "목동신시가지12", "area": 49.14, "built": 1988, "date": "2023-10-06", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1225", "floor": 1, "jibun": "326", "price": 105000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-10-06", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1427", "floor": 13, "jibun": "329", "price": 119000}
+{"apt": "목동신시가지14", "area": 108.28, "built": 1987, "date": "2023-10-06", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1413", "floor": 8, "jibun": "329", "price": 197000}
+{"apt": "목동대림", "area": 84.82, "built": 1994, "date": "2023-10-07", "deal_type": "중개거래", "dong": "목동", "dong_no": "1011", "floor": 15, "jibun": "405", "price": 125000}
+{"apt": "목동신시가지5", "area": 95.01, "built": 1986, "date": "2023-10-07", "deal_type": "중개거래", "dong": "목동", "dong_no": "520", "floor": 3, "jibun": "912", "price": 230000}
+{"apt": "목동삼성", "area": 114.93, "built": 1996, "date": "2023-10-07", "deal_type": "직거래", "dong": "신정동", "dong_no": "102", "floor": 10, "jibun": "1278", "price": 152000}
+{"apt": "목동신시가지11", "area": 51.48, "built": 1988, "date": "2023-10-07", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1108", "floor": 3, "jibun": "325", "price": 110000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-10-07", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1433", "floor": 11, "jibun": "329", "price": 118000}
+{"apt": "목동신시가지14", "area": 55.02, "built": 1987, "date": "2023-10-08", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1433", "floor": 2, "jibun": "329", "price": 118500}
+{"apt": "목동신시가지8", "area": 105.35, "built": 1987, "date": "2023-10-10", "deal_type": "중개거래", "dong": "신정동", "dong_no": "812", "floor": 1, "jibun": "314", "price": 194000}
+{"apt": "목동신시가지12", "area": 56.76, "built": 1988, "date": "2023-10-10", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1203", "floor": 3, "jibun": "326", "price": 123000}
+{"apt": "목동신시가지13", "area": 151.76, "built": 1987, "date": "2023-10-10", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1328", "floor": 2, "jibun": "327", "price": 235000}
+{"apt": "목동신시가지9", "area": 126.53, "built": 1987, "date": "2023-10-11", "deal_type": "중개거래", "dong": "신정동", "dong_no": "901", "floor": 4, "jibun": "312", "price": 223000}
+{"apt": "대림", "area": 84.89, "built": 1992, "date": "2023-10-11", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101", "floor": 10, "jibun": "333", "price": 95000}
+{"apt": "목동신시가지1", "area": 91.26, "built": 1985, "date": "2023-10-12", "deal_type": "중개거래", "dong": "목동", "dong_no": "119", "floor": 1, "jibun": "901", "price": 183000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-10-12", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1214", "floor": 2, "jibun": "326", "price": 141000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-10-12", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1224", "floor": 13, "jibun": "326", "price": 142800}
+{"apt": "목동신시가지13", "area": 53.9, "built": 1987, "date": "2023-10-12", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1326", "floor": 13, "jibun": "327", "price": 118000}
+{"apt": "대림", "area": 84.89, "built": 1992, "date": "2023-10-12", "deal_type": "중개거래", "dong": "신정동", "dong_no": "101", "floor": 14, "jibun": "333", "price": 98000}
+{"apt": "목동신시가지1", "area": 65.34, "built": 1985, "date": "2023-10-13", "deal_type": "중개거래", "dong": "목동", "dong_no": "116", "floor": 5, "jibun": "901", "price": 156000}
+{"apt": "목동신시가지14", "area": 74.19, "built": 1987, "date": "2023-10-13", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1434", "floor": 13, "jibun": "329", "price": 145000}
+{"apt": "목동신시가지1", "area": 90.06, "built": 1985, "date": "2023-10-14", "deal_type": "중개거래", "dong": "목동", "dong_no": "118", "floor": 5, "jibun": "901", "price": 188000}
+{"apt": "목동신시가지1", "area": 125.44, "built": 1985, "date": "2023-10-14", "deal_type": "중개거래", "dong": "목동", "dong_no": "110", "floor": 4, "jibun": "901", "price": 240000}
+{"apt": "목동신시가지3", "area": 153.58, "built": 1986, "date": "2023-10-16", "deal_type": "중개거래", "dong": "목동", "dong_no": "327", "floor": 2, "jibun": "903", "price": 293500}
+{"apt": "목동청구한신아파트", "area": 84.76, "built": 1997, "date": "2023-10-16", "deal_type": "중개거래", "dong": "목동", "dong_no": "107", "floor": 14, "jibun": "929", "price": 152000}
+{"apt": "신호", "area": 59.94, "built": 1997, "date": "2023-10-16", "deal_type": "중개거래", "dong": "신정동", "floor": 10, "jibun": "948-24", "price": 62500}
+{"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2023-10-17", "deal_type": "중개거래", "dong": "신월동", "dong_no": "17", "floor": 8, "jibun": "987-1", "price": 57500}
+{"apt": "목동신시가지9", "area": 106.93, "built": 1987, "date": "2023-10-18", "deal_type": "중개거래", "dong": "신정동", "dong_no": "928", "floor": 2, "jibun": "312", "price": 197000}
+{"apt": "목동신시가지9", "area": 126.53, "built": 1987, "date": "2023-10-18", "deal_type": "중개거래", "dong": "신정동", "dong_no": "903", "floor": 3, "jibun": "312", "price": 232000}
+{"apt": "목동신시가지11", "area": 66.24, "built": 1988, "date": "2023-10-18", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1110", "floor": 12, "jibun": "325", "price": 135000}
+{"apt": "목동신시가지1", "area": 154.44, "built": 1985, "date": "2023-10-19", "deal_type": "중개거래", "dong": "목동", "dong_no": "132", "floor": 5, "jibun": "901", "price": 287000}
+{"apt": "신안파크", "area": 56.78, "built": 1987, "date": "2023-10-19", "deal_type": "중개거래", "dong": "신월동", "dong_no": "4", "floor": 3, "jibun": "350-2", "price": 47000}
+{"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-10-19", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1220", "floor": 10, "jibun": "326", "price": 147000}
+{"apt": "목동신시가지1", "area": 65.34, "built": 1985, "date": "2023-10-20", "deal_type": "중개거래", "dong": "목동", "dong_no": "130", "floor": 2, "jibun": "901", "price": 151000}
+{"apt": "목동신시가지1", "area": 99.15, "built": 1985, "date": "2023-10-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "128", "floor": 2, "jibun": "901", "price": 200000}
+{"apt": "목동성원(926-8)", "area": 59.4, "built": 1997, "date": "2023-10-21", "deal_type": "중개거래", "dong": "목동", "dong_no": "102", "floor": 2, "jibun": "926-8", "price": 104000}
+{"apt": "신월시영", "area": 43.2, "built": 1988, "date": "2023-10-21", "deal_type": "중개거래", "dong": "신월동", "dong_no": "5", "floor": 6, "jibun": "987-1", "price": 48600}
+{"apt": "목동현대3차", "area": 84.77, "built": 1997, "date": "2023-10-23", "deal_type": "중개거래", "dong": "신정동", "dong_no": "105", "floor": 20, "jibun": "1279", "price": 129500}
+{"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2023-10-23", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1028", "floor": 12, "jibun": "311", "price": 143000}
+{"apt": "청구", "area": 84.95, "built": 1992, "date": "2023-10-23", "deal_type": "중개거래", "dong": "신정동", "dong_no": "105", "floor": 4, "jibun": "336", "price": 93500}
+{"apt": "목동신시가지13", "area": 122.3, "built": 1987, "date": "2023-10-24", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1312", "floor": 5, "jibun": "327", "price": 210000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2023-10-25", "deal_type": "중개거래", "dong": "목동", "dong_no": "721", "floor": 10, "jibun": "925", "price": 187000}
+{"apt": "목동신시가지13", "area": 70.73, "built": 1987, "date": "2023-10-25", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1329", "floor": 6, "jibun": "327", "price": 150000}
+{"apt": "건영", "area": 84.3, "built": 1994, "date": "2023-10-28", "deal_type": "중개거래", "dong": "목동", "dong_no": "101", "floor": 12, "jibun": "928", "price": 63000}
+{"apt": "목동신시가지7", "area": 66.6, "built": 1986, "date": "2023-10-31", "deal_type": "중개거래", "dong": "목동", "dong_no": "721", "floor": 9, "jibun": "925", "price": 185000}
+{"apt": "목동신시가지9", "area": 53.82, "built": 1987, "date": "2023-10-31", "deal_type": "중개거래", "dong": "신정동", "dong_no": "923", "floor": 13, "jibun": "312", "price": 127500}
 {"apt": "신월시영", "area": 50.67, "built": 1988, "date": "2023-11-01", "deal_type": "중개거래", "dong": "신월동", "dong_no": "11", "floor": 2, "jibun": "987-1", "price": 51500}
 {"apt": "목동신시가지10", "area": 70.2, "built": 1987, "date": "2023-11-01", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1018", "floor": 10, "jibun": "311", "price": 153000}
 {"apt": "목동신시가지12", "area": 71.64, "built": 1988, "date": "2023-11-01", "deal_type": "중개거래", "dong": "신정동", "dong_no": "1216", "floor": 3, "jibun": "326", "price": 147000}

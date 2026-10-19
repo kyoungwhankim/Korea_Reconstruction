@@ -1,8 +1,9 @@
 {"id":"41390100009301",
 "name":"철산아파트",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":39,"pyeong":11.8,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":400,"wolse_monthly_median":55},{"area":43,"pyeong":13.0,"jeonse_n":1,"wolse_n":1,"jeonse_median":11000,"jeonse_min":11000,"jeonse_max":11000,"jeonse_latest":11000,"jeonse_latest_date":"2026-02-26","wolse_deposit_median":1000,"wolse_monthly_median":45}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-07-21",42.67,1,29000,null,null,1986]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-02-26",42.67,3,11000,0,"신규","26.02~28.02",null],

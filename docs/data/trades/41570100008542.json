@@ -3,6 +3,9 @@
 "basis":"단지",
 "by_area":[{"area":73,"pyeong":22.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3000,"wolse_monthly_median":90},{"area":74,"pyeong":22.4,"n":1,"median":25100,"min":25100,"max":25100,"latest_price":25100,"latest_date":"2026-04-02","latest_floor":7,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":10000,"wolse_monthly_median":50},{"area":85,"pyeong":25.7,"jeonse_n":1,"wolse_n":1,"jeonse_median":20000,"jeonse_min":20000,"jeonse_max":20000,"jeonse_latest":20000,"jeonse_latest_date":"2026-08-24","wolse_deposit_median":2000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-05-10",73.81,11,27200,null,null,1995],
+["2021-09-04",72.51,2,27400,null,null,1995],
+["2021-09-15",73.81,2,31200,null,null,1995],
 ["2024-05-14",72.51,12,25000,"북변건영아파트101동","중개거래",1995],
 ["2024-10-21",72.51,9,25300,"북변건영아파트101동","중개거래",1995],
 ["2025-02-22",73.81,4,22600,"북변건영아파트101동","중개거래",1995],

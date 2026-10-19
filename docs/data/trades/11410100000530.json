@@ -1,8 +1,9 @@
 {"id":"11410100000530",
 "name":"홍제맨션",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":83,"pyeong":25.1,"jeonse_n":3,"wolse_n":0,"jeonse_median":29000,"jeonse_min":28500,"jeonse_max":33000,"jeonse_latest":33000,"jeonse_latest_date":"2026-08-31"},{"area":89,"pyeong":26.9,"jeonse_n":1,"wolse_n":0,"jeonse_median":31500,"jeonse_min":31500,"jeonse_max":31500,"jeonse_latest":31500,"jeonse_latest_date":"2026-05-28"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2022-12-22",88.72,2,38500,null,"직거래",1971]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-02-05",82.71,4,28500,0,"갱신","26.02~28.02",null],

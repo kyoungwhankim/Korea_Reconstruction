@@ -3,6 +3,8 @@
 "basis":"단지",
 "by_area":[{"area":58,"pyeong":17.5,"jeonse_n":3,"wolse_n":0,"jeonse_median":11700,"jeonse_min":11500,"jeonse_max":12000,"jeonse_latest":11700,"jeonse_latest_date":"2026-04-30"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-03-08",57.78,3,17000,null,null,1985],
+["2021-08-19",57.78,1,17000,null,null,1985],
 ["2024-05-15",57.78,1,19400,"2","직거래",1985]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

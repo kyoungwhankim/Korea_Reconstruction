@@ -1,3 +1,653 @@
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2021-02-01", "dong": "광장동", "floor": 7, "jibun": "484", "price": 159500}
+{"apt": "우성2", "area": 64.79, "built": 1989, "date": "2021-02-01", "dong": "자양동", "floor": 8, "jibun": "520-2", "price": 104000}
+{"apt": "한양", "area": 157.87, "built": 1983, "date": "2021-02-01", "dong": "자양동", "floor": 9, "jibun": "695", "price": 195000}
+{"apt": "중곡2단지", "area": 55.87, "built": 1976, "date": "2021-02-01", "dong": "중곡동", "floor": 1, "jibun": "190-26", "price": 55500}
+{"apt": "워커힐푸르지오", "area": 69.0, "built": 1987, "date": "2021-02-02", "dong": "광장동", "floor": 2, "jibun": "148-4", "price": 95000}
+{"apt": "현대8(803동)", "area": 59.94, "built": 1996, "date": "2021-02-03", "dong": "광장동", "floor": 7, "jibun": "569", "price": 120000}
+{"apt": "한강성원", "area": 59.46, "built": 1997, "date": "2021-02-03", "dong": "자양동", "floor": 6, "jibun": "831-1", "price": 95000}
+{"apt": "중곡1단지", "area": 57.88, "built": 1976, "date": "2021-02-03", "dong": "중곡동", "floor": 5, "jibun": "191-77", "price": 56000}
+{"apt": "현대3", "area": 59.67, "built": 1990, "date": "2021-02-04", "dong": "광장동", "floor": 2, "jibun": "484", "price": 104000}
+{"apt": "자양삼성", "area": 84.96, "built": 1999, "date": "2021-02-05", "dong": "자양동", "floor": 17, "jibun": "787", "price": 125000}
+{"apt": "한강우성", "area": 84.72, "built": 1993, "date": "2021-02-05", "dong": "자양동", "floor": 15, "jibun": "87-1", "price": 149000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2021-02-06", "dong": "광장동", "floor": 6, "jibun": "566", "price": 109000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2021-02-06", "dong": "광장동", "floor": 9, "jibun": "566", "price": 105000}
+{"apt": "구의강변우성아파트", "area": 84.76, "built": 1992, "date": "2021-02-06", "dong": "구의동", "floor": 17, "jibun": "546-7", "price": 139000}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2021-02-10", "dong": "군자동", "floor": 6, "jibun": "99", "price": 75000}
+{"apt": "현대프라임", "area": 84.99, "built": 1997, "date": "2021-02-15", "dong": "구의동", "floor": 27, "jibun": "631-1", "price": 148000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2021-02-16", "dong": "광장동", "floor": 3, "jibun": "566", "price": 97500}
+{"apt": "현대프라임", "area": 126.66, "built": 1997, "date": "2021-02-17", "dong": "구의동", "floor": 27, "jibun": "631-1", "price": 190000}
+{"apt": "워커힐", "area": 196.0, "built": 1978, "date": "2021-02-19", "dong": "광장동", "floor": 5, "jibun": "145-8", "price": 243000}
+{"apt": "현대8(801동,802동)", "area": 84.92, "built": 1995, "date": "2021-02-20", "dong": "광장동", "floor": 15, "jibun": "565", "price": 157000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2021-02-20", "dong": "광장동", "floor": 4, "jibun": "566", "price": 107300}
+{"apt": "구의현대2단지", "area": 84.86, "built": 1996, "date": "2021-02-20", "dong": "구의동", "floor": 16, "jibun": "611", "price": 159500}
+{"apt": "현대프라임", "area": 126.66, "built": 1997, "date": "2021-02-20", "dong": "구의동", "floor": 12, "jibun": "631-1", "price": 219000}
+{"apt": "현대8(801동,802동)", "area": 84.92, "built": 1995, "date": "2021-02-21", "dong": "광장동", "floor": 25, "jibun": "565", "price": 144000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2021-02-21", "dong": "구의동", "floor": 16, "jibun": "631-1", "price": 120000}
+{"apt": "현대프라임", "area": 84.99, "built": 1997, "date": "2021-02-22", "dong": "구의동", "floor": 21, "jibun": "631-1", "price": 160000}
+{"apt": "우성4", "area": 72.34, "built": 1989, "date": "2021-02-23", "dong": "자양동", "floor": 6, "jibun": "578", "price": 105000}
+{"apt": "현대강변", "area": 81.94, "built": 1991, "date": "2021-02-23", "dong": "자양동", "floor": 6, "jibun": "673", "price": 103900}
+{"apt": "현대8(803동)", "area": 59.94, "built": 1996, "date": "2021-02-25", "dong": "광장동", "floor": 13, "jibun": "569", "price": 119000}
+{"apt": "현대프라임", "area": 84.99, "built": 1997, "date": "2021-02-26", "dong": "구의동", "floor": 1, "jibun": "631-1", "price": 140000}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2021-02-27", "dong": "자양동", "floor": 3, "jibun": "670", "price": 109800}
+{"apt": "한라아파트", "area": 59.96, "built": 1996, "date": "2021-03-04", "dong": "자양동", "floor": 6, "jibun": "762", "price": 105000}
+{"apt": "한라아파트", "area": 84.6, "built": 1996, "date": "2021-03-04", "dong": "자양동", "floor": 14, "jibun": "762", "price": 121000}
+{"apt": "워커힐", "area": 162.41, "built": 1978, "date": "2021-03-05", "dong": "광장동", "floor": 4, "jibun": "145-8", "price": 170000}
+{"apt": "극동2", "area": 84.55, "built": 1989, "date": "2021-03-05", "dong": "광장동", "floor": 13, "jibun": "218-1", "price": 100000}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2021-03-05", "dong": "광장동", "floor": 2, "jibun": "566", "price": 143500}
+{"apt": "우성1", "area": 59.91, "built": 1988, "date": "2021-03-06", "dong": "자양동", "floor": 6, "jibun": "579", "price": 101500}
+{"apt": "우성1", "area": 79.75, "built": 1988, "date": "2021-03-07", "dong": "자양동", "floor": 13, "jibun": "579", "price": 135500}
+{"apt": "현대프라임", "area": 84.99, "built": 1997, "date": "2021-03-09", "dong": "구의동", "floor": 16, "jibun": "631-1", "price": 163000}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2021-03-10", "dong": "자양동", "floor": 10, "jibun": "670", "price": 103000}
+{"apt": "워커힐푸르지오", "area": 69.0, "built": 1987, "date": "2021-03-11", "dong": "광장동", "floor": 7, "jibun": "148-4", "price": 105500}
+{"apt": "로얄동아", "area": 84.83, "built": 1999, "date": "2021-03-11", "dong": "자양동", "floor": 11, "jibun": "644", "price": 119600}
+{"apt": "현대강변", "area": 81.94, "built": 1991, "date": "2021-03-12", "dong": "자양동", "floor": 5, "jibun": "673", "price": 101000}
+{"apt": "현대8(801동,802동)", "area": 84.92, "built": 1995, "date": "2021-03-13", "dong": "광장동", "floor": 14, "jibun": "565", "price": 160000}
+{"apt": "구의현대6단지", "area": 84.84, "built": 1994, "date": "2021-03-13", "dong": "구의동", "floor": 18, "jibun": "610", "price": 145000}
+{"apt": "구의현대2단지", "area": 84.75, "built": 1996, "date": "2021-03-13", "dong": "구의동", "floor": 14, "jibun": "611", "price": 158500}
+{"apt": "우성3", "area": 51.39, "built": 1989, "date": "2021-03-16", "dong": "자양동", "floor": 12, "jibun": "516", "price": 95500}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2021-03-16", "dong": "자양동", "floor": 6, "jibun": "670", "price": 103000}
+{"apt": "한양", "area": 107.31, "built": 1983, "date": "2021-03-16", "dong": "자양동", "floor": 6, "jibun": "695", "price": 133500}
+{"apt": "신호빌라트", "area": 156.48, "built": 1997, "date": "2021-03-19", "dong": "자양동", "floor": 12, "jibun": "591-12", "price": 160000}
+{"apt": "우성2", "area": 64.79, "built": 1989, "date": "2021-03-20", "dong": "자양동", "floor": 6, "jibun": "520-2", "price": 110000}
+{"apt": "우성5", "area": 84.72, "built": 1990, "date": "2021-03-20", "dong": "자양동", "floor": 7, "jibun": "553-41", "price": 120000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2021-03-23", "dong": "광장동", "floor": 6, "jibun": "567", "price": 128000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2021-03-24", "dong": "구의동", "floor": 11, "jibun": "631-1", "price": 113500}
+{"apt": "워커힐", "area": 166.91, "built": 1978, "date": "2021-03-25", "dong": "광장동", "floor": 9, "jibun": "145-8", "price": 238000}
+{"apt": "극동2", "area": 84.55, "built": 1989, "date": "2021-03-26", "dong": "광장동", "floor": 12, "jibun": "218-1", "price": 173000}
+{"apt": "삼성광장2", "area": 84.93, "built": 1989, "date": "2021-03-26", "dong": "광장동", "floor": 8, "jibun": "453-1", "price": 108000}
+{"apt": "한라아파트", "area": 59.96, "built": 1996, "date": "2021-03-26", "dong": "자양동", "floor": 5, "jibun": "762", "price": 100000}
+{"apt": "삼성광장2", "area": 69.06, "built": 1989, "date": "2021-03-27", "dong": "광장동", "floor": 14, "jibun": "453-1", "price": 123000}
+{"apt": "워커힐", "area": 162.41, "built": 1978, "date": "2021-03-31", "dong": "광장동", "floor": 6, "jibun": "145-8", "price": 215000}
+{"apt": "워커힐현대빌", "area": 133.68, "built": 1994, "date": "2021-04-02", "dong": "광장동", "floor": 5, "jibun": "105", "price": 90000}
+{"apt": "워커힐", "area": 162.41, "built": 1978, "date": "2021-04-02", "dong": "광장동", "floor": 10, "jibun": "145-8", "price": 212500}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2021-04-03", "dong": "구의동", "floor": 28, "jibun": "631-1", "price": 113000}
+{"apt": "현대프라임", "area": 84.99, "built": 1997, "date": "2021-04-03", "dong": "구의동", "floor": 13, "jibun": "631-1", "price": 160500}
+{"apt": "우성3", "area": 84.91, "built": 1989, "date": "2021-04-03", "dong": "자양동", "floor": 9, "jibun": "516", "price": 145000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2021-04-07", "dong": "구의동", "floor": 7, "jibun": "631-1", "price": 111000}
+{"apt": "우성1", "area": 51.57, "built": 1988, "date": "2021-04-07", "dong": "자양동", "floor": 9, "jibun": "579", "price": 86000}
+{"apt": "극동2", "area": 75.55, "built": 1989, "date": "2021-04-08", "dong": "광장동", "floor": 7, "jibun": "218-1", "price": 159500}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2021-04-08", "dong": "광장동", "floor": 21, "jibun": "566", "price": 111000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2021-04-10", "dong": "구의동", "floor": 8, "jibun": "631-1", "price": 111000}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2021-04-10", "dong": "자양동", "floor": 17, "jibun": "670", "price": 110000}
+{"apt": "현대3", "area": 59.97, "built": 1996, "date": "2021-04-11", "dong": "자양동", "floor": 10, "jibun": "670", "price": 93000}
+{"apt": "현대5", "area": 59.67, "built": 1989, "date": "2021-04-13", "dong": "광장동", "floor": 15, "jibun": "554-7", "price": 131000}
+{"apt": "워커힐", "area": 196.0, "built": 1978, "date": "2021-04-14", "dong": "광장동", "floor": 2, "jibun": "145-8", "price": 235000}
+{"apt": "현대5", "area": 59.67, "built": 1989, "date": "2021-04-17", "dong": "광장동", "floor": 8, "jibun": "554-7", "price": 133500}
+{"apt": "한양", "area": 108.35, "built": 1983, "date": "2021-04-17", "dong": "자양동", "floor": 3, "jibun": "695", "price": 159000}
+{"apt": "로얄동아", "area": 84.83, "built": 1999, "date": "2021-04-20", "dong": "자양동", "floor": 22, "jibun": "644", "price": 125500}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2021-04-23", "dong": "군자동", "floor": 6, "jibun": "99", "price": 74000}
+{"apt": "워커힐", "area": 162.41, "built": 1978, "date": "2021-04-24", "dong": "광장동", "floor": 5, "jibun": "145-8", "price": 210000}
+{"apt": "우성2", "area": 64.79, "built": 1989, "date": "2021-04-24", "dong": "자양동", "floor": 15, "jibun": "520-2", "price": 117000}
+{"apt": "로얄동아", "area": 84.75, "built": 1999, "date": "2021-04-24", "dong": "자양동", "floor": 16, "jibun": "644", "price": 125000}
+{"apt": "자양동현대", "area": 83.11, "built": 1993, "date": "2021-04-26", "dong": "자양동", "floor": 5, "jibun": "645-5", "price": 114500}
+{"apt": "구의현대7단지현대홈타운", "area": 59.97, "built": 1997, "date": "2021-04-28", "dong": "구의동", "floor": 10, "jibun": "587-54", "price": 93200}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2021-04-28", "dong": "구의동", "floor": 12, "jibun": "611", "price": 153500}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2021-04-29", "dong": "광장동", "floor": 17, "jibun": "567", "price": 119000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2021-04-30", "dong": "광장동", "floor": 13, "jibun": "567", "price": 130000}
+{"apt": "현대5", "area": 59.67, "built": 1989, "date": "2021-05-03", "dong": "광장동", "floor": 9, "jibun": "554-7", "price": 126000}
+{"apt": "우성3", "area": 84.91, "built": 1989, "date": "2021-05-04", "dong": "자양동", "floor": 2, "jibun": "516", "price": 148000}
+{"apt": "로얄동아", "area": 114.28, "built": 1999, "date": "2021-05-05", "dong": "자양동", "floor": 20, "jibun": "644", "price": 130000}
+{"apt": "중곡2단지", "area": 55.87, "built": 1976, "date": "2021-05-05", "dong": "중곡동", "floor": 2, "jibun": "190-26", "price": 59800}
+{"apt": "중곡2단지", "area": 55.87, "built": 1976, "date": "2021-05-07", "dong": "중곡동", "floor": 4, "jibun": "190-26", "price": 59000}
+{"apt": "로얄동아", "area": 84.75, "built": 1999, "date": "2021-05-08", "dong": "자양동", "floor": 13, "jibun": "644", "price": 125000}
+{"apt": "현대프라임", "area": 84.99, "built": 1997, "date": "2021-05-10", "dong": "구의동", "floor": 28, "jibun": "631-1", "price": 163000}
+{"apt": "로얄동아", "area": 84.83, "built": 1999, "date": "2021-05-10", "dong": "자양동", "floor": 20, "jibun": "644", "price": 137500}
+{"apt": "로얄동아", "area": 114.28, "built": 1999, "date": "2021-05-10", "dong": "자양동", "floor": 22, "jibun": "644", "price": 179000}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2021-05-12", "dong": "자양동", "floor": 16, "jibun": "670", "price": 138000}
+{"apt": "구의현대7단지현대홈타운", "area": 84.99, "built": 1997, "date": "2021-05-13", "dong": "구의동", "floor": 6, "jibun": "587-54", "price": 128000}
+{"apt": "워커힐푸르지오", "area": 69.0, "built": 1987, "date": "2021-05-14", "dong": "광장동", "floor": 4, "jibun": "148-4", "price": 104200}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2021-05-18", "dong": "광장동", "floor": 11, "jibun": "484", "price": 152000}
+{"apt": "구의강변우성아파트", "area": 84.76, "built": 1992, "date": "2021-05-19", "dong": "구의동", "floor": 2, "jibun": "546-7", "price": 93000}
+{"apt": "자양2현대", "area": 84.81, "built": 1995, "date": "2021-05-19", "dong": "자양동", "floor": 16, "jibun": "761", "price": 140000}
+{"apt": "삼성광장2", "area": 69.06, "built": 1989, "date": "2021-05-20", "dong": "광장동", "floor": 11, "jibun": "453-1", "price": 125000}
+{"apt": "경남아너스빌", "area": 84.86, "built": 1997, "date": "2021-05-20", "dong": "자양동", "floor": 15, "jibun": "666-28", "price": 108000}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2021-05-21", "dong": "군자동", "floor": 12, "jibun": "99", "price": 74500}
+{"apt": "극동2", "area": 102.61, "built": 1989, "date": "2021-05-22", "dong": "광장동", "floor": 2, "jibun": "218-1", "price": 188000}
+{"apt": "현대3", "area": 74.92, "built": 1990, "date": "2021-05-22", "dong": "광장동", "floor": 15, "jibun": "484", "price": 140000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2021-05-22", "dong": "구의동", "floor": 1, "jibun": "631-1", "price": 100500}
+{"apt": "한강우성", "area": 84.72, "built": 1993, "date": "2021-05-22", "dong": "자양동", "floor": 23, "jibun": "87-1", "price": 150000}
+{"apt": "워커힐", "area": 196.0, "built": 1978, "date": "2021-05-25", "dong": "광장동", "floor": 10, "jibun": "145-8", "price": 220000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2021-05-25", "dong": "구의동", "floor": 7, "jibun": "611", "price": 160000}
+{"apt": "현대프라임", "area": 84.99, "built": 1997, "date": "2021-05-25", "dong": "구의동", "floor": 11, "jibun": "631-1", "price": 162900}
+{"apt": "현대8(803동)", "area": 59.94, "built": 1996, "date": "2021-05-26", "dong": "광장동", "floor": 9, "jibun": "569", "price": 122000}
+{"apt": "로얄동아", "area": 84.83, "built": 1999, "date": "2021-05-26", "dong": "자양동", "floor": 18, "jibun": "644", "price": 120000}
+{"apt": "일성파크", "area": 84.96, "built": 1996, "date": "2021-05-27", "dong": "군자동", "floor": 20, "jibun": "99", "price": 94000}
+{"apt": "로얄동아", "area": 59.91, "built": 1999, "date": "2021-05-27", "dong": "자양동", "floor": 14, "jibun": "644", "price": 92000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2021-05-28", "dong": "구의동", "floor": 30, "jibun": "631-1", "price": 130000}
+{"apt": "현대프라임", "area": 126.66, "built": 1997, "date": "2021-05-28", "dong": "구의동", "floor": 7, "jibun": "631-1", "price": 217000}
+{"apt": "한라아파트", "area": 59.96, "built": 1996, "date": "2021-05-28", "dong": "자양동", "floor": 18, "jibun": "762", "price": 99000}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2021-05-29", "dong": "광장동", "floor": 19, "jibun": "566", "price": 151000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2021-05-30", "dong": "광장동", "floor": 12, "jibun": "567", "price": 117000}
+{"apt": "한라아파트", "area": 59.96, "built": 1996, "date": "2021-06-01", "dong": "자양동", "floor": 4, "jibun": "762", "price": 104200}
+{"apt": "현대3", "area": 59.67, "built": 1990, "date": "2021-06-04", "dong": "광장동", "floor": 8, "jibun": "484", "price": 113000}
+{"apt": "한강극동", "area": 84.45, "built": 1991, "date": "2021-06-06", "dong": "자양동", "floor": 10, "jibun": "57-103", "price": 119000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2021-06-08", "dong": "구의동", "floor": 17, "jibun": "611", "price": 160000}
+{"apt": "로얄동아", "area": 59.91, "built": 1999, "date": "2021-06-08", "dong": "자양동", "floor": 14, "jibun": "644", "price": 95000}
+{"apt": "구의현대7단지현대홈타운", "area": 59.97, "built": 1997, "date": "2021-06-09", "dong": "구의동", "floor": 13, "jibun": "587-54", "price": 103500}
+{"apt": "구의현대6단지", "area": 84.92, "built": 1994, "date": "2021-06-12", "dong": "구의동", "floor": 4, "jibun": "610", "price": 142000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2021-06-12", "dong": "구의동", "floor": 27, "jibun": "631-1", "price": 119400}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2021-06-12", "dong": "구의동", "floor": 28, "jibun": "631-1", "price": 124000}
+{"apt": "일성파크", "area": 79.28, "built": 1996, "date": "2021-06-12", "dong": "군자동", "floor": 2, "jibun": "99", "price": 85000}
+{"apt": "우성1", "area": 51.57, "built": 1988, "date": "2021-06-12", "dong": "자양동", "floor": 1, "jibun": "579", "price": 95000}
+{"apt": "우성1", "area": 51.57, "built": 1988, "date": "2021-06-14", "dong": "자양동", "floor": 2, "jibun": "579", "price": 98000}
+{"apt": "극동1", "area": 126.94, "built": 1985, "date": "2021-06-15", "dong": "광장동", "floor": 6, "jibun": "218-1", "price": 230000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2021-06-16", "dong": "구의동", "floor": 13, "jibun": "631-1", "price": 118200}
+{"apt": "한강성원", "area": 59.46, "built": 1997, "date": "2021-06-17", "dong": "자양동", "floor": 4, "jibun": "831-1", "price": 93300}
+{"apt": "우성2", "area": 51.57, "built": 1989, "date": "2021-06-19", "dong": "자양동", "floor": 7, "jibun": "520-2", "price": 95000}
+{"apt": "현대5", "area": 74.88, "built": 1989, "date": "2021-06-22", "dong": "광장동", "floor": 18, "jibun": "554-7", "price": 163000}
+{"apt": "우성2", "area": 80.1, "built": 1989, "date": "2021-06-23", "dong": "자양동", "floor": 13, "jibun": "520-2", "price": 136500}
+{"apt": "한라아파트", "area": 84.6, "built": 1996, "date": "2021-06-23", "dong": "자양동", "floor": 3, "jibun": "762", "price": 128000}
+{"apt": "한강우성", "area": 84.72, "built": 1993, "date": "2021-06-23", "dong": "자양동", "floor": 11, "jibun": "87-1", "price": 150000}
+{"apt": "중곡2단지", "area": 55.87, "built": 1976, "date": "2021-06-23", "dong": "중곡동", "floor": 4, "jibun": "190-26", "price": 56000}
+{"apt": "자양2현대", "area": 84.88, "built": 1995, "date": "2021-06-26", "dong": "자양동", "floor": 9, "jibun": "761", "price": 142000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2021-06-27", "dong": "광장동", "floor": 8, "jibun": "567", "price": 122000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2021-06-29", "dong": "광장동", "floor": 22, "jibun": "566", "price": 110900}
+{"apt": "구의현대2단지", "area": 84.75, "built": 1996, "date": "2021-06-30", "dong": "구의동", "floor": 14, "jibun": "611", "price": 154000}
+{"apt": "현대8(801동,802동)", "area": 84.92, "built": 1995, "date": "2021-07-01", "dong": "광장동", "floor": 18, "jibun": "565", "price": 165000}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2021-07-02", "dong": "군자동", "floor": 16, "jibun": "99", "price": 78000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2021-07-03", "dong": "광장동", "floor": 11, "jibun": "567", "price": 123000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2021-07-06", "dong": "구의동", "floor": 10, "jibun": "611", "price": 157900}
+{"apt": "우성1", "area": 59.91, "built": 1988, "date": "2021-07-06", "dong": "자양동", "floor": 6, "jibun": "579", "price": 115000}
+{"apt": "극동1", "area": 126.94, "built": 1985, "date": "2021-07-08", "dong": "광장동", "floor": 3, "jibun": "218-1", "price": 229500}
+{"apt": "삼성광장1", "area": 79.53, "built": 1987, "date": "2021-07-08", "dong": "광장동", "floor": 5, "jibun": "561", "price": 169000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2021-07-10", "dong": "구의동", "floor": 21, "jibun": "611", "price": 162000}
+{"apt": "자양삼성", "area": 84.96, "built": 1999, "date": "2021-07-10", "dong": "자양동", "floor": 5, "jibun": "787", "price": 134000}
+{"apt": "중곡2단지", "area": 55.87, "built": 1976, "date": "2021-07-10", "dong": "중곡동", "floor": 2, "jibun": "190-26", "price": 58000}
+{"apt": "한라아파트", "area": 84.6, "built": 1996, "date": "2021-07-11", "dong": "자양동", "floor": 6, "jibun": "762", "price": 132250}
+{"apt": "현대3", "area": 59.67, "built": 1990, "date": "2021-07-12", "dong": "광장동", "floor": 8, "jibun": "484", "price": 119000}
+{"apt": "중곡1단지", "area": 48.5, "built": 1976, "date": "2021-07-12", "dong": "중곡동", "floor": 3, "jibun": "191-77", "price": 48000}
+{"apt": "일성파크", "area": 84.96, "built": 1996, "date": "2021-07-13", "dong": "군자동", "floor": 2, "jibun": "99", "price": 87000}
+{"apt": "중곡2단지", "area": 55.87, "built": 1976, "date": "2021-07-13", "dong": "중곡동", "floor": 2, "jibun": "190-26", "price": 58800}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2021-07-14", "dong": "광장동", "floor": 7, "jibun": "566", "price": 108500}
+{"apt": "중곡2단지", "area": 55.87, "built": 1976, "date": "2021-07-14", "dong": "중곡동", "floor": 1, "jibun": "190-26", "price": 59250}
+{"apt": "자양동현대", "area": 83.11, "built": 1993, "date": "2021-07-15", "dong": "자양동", "floor": 7, "jibun": "645-5", "price": 126500}
+{"apt": "자양삼성", "area": 59.76, "built": 1999, "date": "2021-07-15", "dong": "자양동", "floor": 5, "jibun": "787", "price": 114000}
+{"apt": "우성1", "area": 59.91, "built": 1988, "date": "2021-07-16", "dong": "자양동", "floor": 7, "jibun": "579", "price": 113500}
+{"apt": "중곡2단지", "area": 55.87, "built": 1976, "date": "2021-07-17", "dong": "중곡동", "floor": 1, "jibun": "190-26", "price": 59700}
+{"apt": "워커힐", "area": 162.41, "built": 1978, "date": "2021-07-19", "dong": "광장동", "floor": 9, "jibun": "145-8", "price": 243000}
+{"apt": "우성1", "area": 59.91, "built": 1988, "date": "2021-07-19", "dong": "자양동", "floor": 4, "jibun": "579", "price": 110000}
+{"apt": "중곡2단지", "area": 55.87, "built": 1976, "date": "2021-07-19", "dong": "중곡동", "floor": 5, "jibun": "190-26", "price": 59700}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2021-07-20", "dong": "군자동", "floor": 15, "jibun": "99", "price": 77800}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2021-07-21", "dong": "군자동", "floor": 11, "jibun": "99", "price": 78000}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2021-07-21", "dong": "자양동", "floor": 10, "jibun": "670", "price": 127500}
+{"apt": "현대강변", "area": 81.94, "built": 1991, "date": "2021-07-21", "dong": "자양동", "floor": 3, "jibun": "673", "price": 104000}
+{"apt": "현대프라임", "area": 183.87, "built": 1997, "date": "2021-07-24", "dong": "구의동", "floor": 21, "jibun": "631-1", "price": 205000}
+{"apt": "한양", "area": 124.93, "built": 1983, "date": "2021-07-24", "dong": "자양동", "floor": 8, "jibun": "695", "price": 206000}
+{"apt": "한강성원", "area": 59.46, "built": 1997, "date": "2021-07-24", "dong": "자양동", "floor": 5, "jibun": "831-1", "price": 98000}
+{"apt": "극동2", "area": 102.61, "built": 1989, "date": "2021-07-25", "dong": "광장동", "floor": 7, "jibun": "218-1", "price": 200000}
+{"apt": "현대강변", "area": 81.94, "built": 1991, "date": "2021-07-26", "dong": "자양동", "floor": 3, "jibun": "673", "price": 109000}
+{"apt": "구의현대2단지", "area": 84.86, "built": 1996, "date": "2021-07-27", "dong": "구의동", "floor": 4, "jibun": "611", "price": 160000}
+{"apt": "워커힐푸르지오", "area": 69.0, "built": 1987, "date": "2021-07-28", "dong": "광장동", "floor": 5, "jibun": "148-4", "price": 111500}
+{"apt": "삼성광장2", "area": 58.62, "built": 1989, "date": "2021-07-28", "dong": "광장동", "floor": 10, "jibun": "453-1", "price": 108000}
+{"apt": "현대3", "area": 74.92, "built": 1990, "date": "2021-07-28", "dong": "광장동", "floor": 2, "jibun": "484", "price": 134500}
+{"apt": "현대8(803동)", "area": 59.94, "built": 1996, "date": "2021-07-28", "dong": "광장동", "floor": 2, "jibun": "569", "price": 118500}
+{"apt": "경남아너스빌", "area": 84.86, "built": 1997, "date": "2021-07-28", "dong": "자양동", "floor": 5, "jibun": "666-28", "price": 107500}
+{"apt": "로얄동아", "area": 59.91, "built": 1999, "date": "2021-07-30", "dong": "자양동", "floor": 1, "jibun": "644", "price": 84000}
+{"apt": "극동2", "area": 75.55, "built": 1989, "date": "2021-07-31", "dong": "광장동", "floor": 8, "jibun": "218-1", "price": 164900}
+{"apt": "현대5", "area": 59.67, "built": 1989, "date": "2021-07-31", "dong": "광장동", "floor": 10, "jibun": "554-7", "price": 148000}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2021-07-31", "dong": "군자동", "floor": 1, "jibun": "99", "price": 72500}
+{"apt": "우성1", "area": 59.91, "built": 1988, "date": "2021-07-31", "dong": "자양동", "floor": 13, "jibun": "579", "price": 113500}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2021-07-31", "dong": "자양동", "floor": 3, "jibun": "670", "price": 115000}
+{"apt": "현대프라임", "area": 84.99, "built": 1997, "date": "2021-08-02", "dong": "구의동", "floor": 14, "jibun": "631-1", "price": 162000}
+{"apt": "우성6", "area": 84.72, "built": 1992, "date": "2021-08-02", "dong": "자양동", "floor": 10, "jibun": "515-1", "price": 140000}
+{"apt": "일성파크", "area": 84.96, "built": 1996, "date": "2021-08-03", "dong": "군자동", "floor": 14, "jibun": "99", "price": 95000}
+{"apt": "현대5", "area": 84.53, "built": 1989, "date": "2021-08-06", "dong": "광장동", "floor": 7, "jibun": "554-7", "price": 165000}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2021-08-07", "dong": "광장동", "floor": 23, "jibun": "566", "price": 152000}
+{"apt": "구의현대2단지", "area": 84.88, "built": 1996, "date": "2021-08-07", "dong": "구의동", "floor": 22, "jibun": "611", "price": 156500}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2021-08-07", "dong": "구의동", "floor": 27, "jibun": "631-1", "price": 124800}
+{"apt": "우성1", "area": 51.57, "built": 1988, "date": "2021-08-07", "dong": "자양동", "floor": 1, "jibun": "579", "price": 94700}
+{"apt": "한라아파트", "area": 59.96, "built": 1996, "date": "2021-08-07", "dong": "자양동", "floor": 21, "jibun": "762", "price": 110000}
+{"apt": "우성4", "area": 84.91, "built": 1989, "date": "2021-08-09", "dong": "자양동", "floor": 8, "jibun": "578", "price": 130000}
+{"apt": "워커힐리버빌", "area": 235.41, "built": 1997, "date": "2021-08-10", "dong": "광장동", "floor": 5, "jibun": "124", "price": 190000}
+{"apt": "구의현대7단지현대홈타운", "area": 84.99, "built": 1997, "date": "2021-08-10", "dong": "구의동", "floor": 16, "jibun": "587-54", "price": 145000}
+{"apt": "극동2", "area": 75.55, "built": 1989, "date": "2021-08-11", "dong": "광장동", "floor": 12, "jibun": "218-1", "price": 170000}
+{"apt": "구의현대7단지현대홈타운", "area": 84.99, "built": 1997, "date": "2021-08-11", "dong": "구의동", "floor": 9, "jibun": "587-54", "price": 135500}
+{"apt": "중곡1단지", "area": 48.46, "built": 1976, "date": "2021-08-11", "dong": "중곡동", "floor": 1, "jibun": "191-77", "price": 51500}
+{"apt": "삼민", "area": 73.56, "built": 1995, "date": "2021-08-11", "dong": "중곡동", "floor": 3, "jibun": "609", "price": 52500}
+{"apt": "현대프라임", "area": 183.87, "built": 1997, "date": "2021-08-13", "dong": "구의동", "floor": 14, "jibun": "631-1", "price": 215000}
+{"apt": "삼성광장2", "area": 69.06, "built": 1989, "date": "2021-08-14", "dong": "광장동", "floor": 10, "jibun": "453-1", "price": 132000}
+{"apt": "구의현대7단지현대홈타운", "area": 59.97, "built": 1997, "date": "2021-08-14", "dong": "구의동", "floor": 22, "jibun": "587-54", "price": 100000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2021-08-15", "dong": "광장동", "floor": 10, "jibun": "566", "price": 112000}
+{"apt": "구의현대2단지", "area": 84.75, "built": 1996, "date": "2021-08-16", "dong": "구의동", "floor": 13, "jibun": "611", "price": 158500}
+{"apt": "현대프라임", "area": 84.99, "built": 1997, "date": "2021-08-16", "dong": "구의동", "floor": 15, "jibun": "631-1", "price": 163000}
+{"apt": "자양2현대", "area": 59.95, "built": 1995, "date": "2021-08-16", "dong": "자양동", "floor": 7, "jibun": "761", "price": 119500}
+{"apt": "삼성광장2", "area": 58.62, "built": 1989, "date": "2021-08-18", "dong": "광장동", "floor": 13, "jibun": "453-1", "price": 115000}
+{"apt": "로얄동아", "area": 59.91, "built": 1999, "date": "2021-08-18", "dong": "자양동", "floor": 7, "jibun": "644", "price": 94300}
+{"apt": "자양2현대", "area": 84.81, "built": 1995, "date": "2021-08-19", "dong": "자양동", "floor": 6, "jibun": "761", "price": 143000}
+{"apt": "한강성원", "area": 84.12, "built": 1997, "date": "2021-08-19", "dong": "자양동", "floor": 14, "jibun": "831-1", "price": 66800}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2021-08-20", "dong": "자양동", "floor": 16, "jibun": "670", "price": 149000}
+{"apt": "중곡1단지", "area": 57.88, "built": 1976, "date": "2021-08-21", "dong": "중곡동", "floor": 4, "jibun": "191-77", "price": 59000}
+{"apt": "현대3", "area": 74.92, "built": 1990, "date": "2021-08-22", "dong": "광장동", "floor": 9, "jibun": "484", "price": 140000}
+{"apt": "워커힐푸르지오", "area": 65.66, "built": 1987, "date": "2021-08-23", "dong": "광장동", "floor": 5, "jibun": "148-4", "price": 115700}
+{"apt": "현대3", "area": 59.97, "built": 1996, "date": "2021-08-25", "dong": "자양동", "floor": 5, "jibun": "670", "price": 90000}
+{"apt": "중곡2단지", "area": 55.87, "built": 1976, "date": "2021-08-25", "dong": "중곡동", "floor": 4, "jibun": "190-26", "price": 62000}
+{"apt": "현대5", "area": 84.53, "built": 1989, "date": "2021-08-26", "dong": "광장동", "floor": 8, "jibun": "554-7", "price": 175000}
+{"apt": "구의현대6단지", "area": 84.92, "built": 1994, "date": "2021-08-26", "dong": "구의동", "floor": 6, "jibun": "610", "price": 143000}
+{"apt": "우성5", "area": 84.72, "built": 1990, "date": "2021-08-27", "dong": "자양동", "floor": 7, "jibun": "553-41", "price": 134000}
+{"apt": "극동1", "area": 84.55, "built": 1985, "date": "2021-08-28", "dong": "광장동", "floor": 10, "jibun": "218-1", "price": 185000}
+{"apt": "현대3", "area": 59.67, "built": 1990, "date": "2021-08-28", "dong": "광장동", "floor": 4, "jibun": "484", "price": 115000}
+{"apt": "자양삼성", "area": 59.76, "built": 1999, "date": "2021-08-28", "dong": "자양동", "floor": 3, "jibun": "787", "price": 104000}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2021-08-30", "dong": "군자동", "floor": 17, "jibun": "99", "price": 82000}
+{"apt": "자양삼성", "area": 84.96, "built": 1999, "date": "2021-08-31", "dong": "자양동", "floor": 7, "jibun": "787", "price": 148000}
+{"apt": "구의현대2단지", "area": 84.86, "built": 1996, "date": "2021-09-01", "dong": "구의동", "floor": 12, "jibun": "611", "price": 168000}
+{"apt": "자양삼성", "area": 59.76, "built": 1999, "date": "2021-09-04", "dong": "자양동", "floor": 3, "jibun": "787", "price": 101000}
+{"apt": "삼성광장1", "area": 79.53, "built": 1987, "date": "2021-09-05", "dong": "광장동", "floor": 12, "jibun": "561", "price": 183000}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2021-09-07", "dong": "자양동", "floor": 2, "jibun": "670", "price": 119000}
+{"apt": "현대강변", "area": 82.08, "built": 1991, "date": "2021-09-07", "dong": "자양동", "floor": 7, "jibun": "673", "price": 130000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2021-09-08", "dong": "광장동", "floor": 1, "jibun": "566", "price": 107000}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2021-09-08", "dong": "광장동", "floor": 19, "jibun": "566", "price": 155000}
+{"apt": "구의현대2단지", "area": 84.75, "built": 1996, "date": "2021-09-08", "dong": "구의동", "floor": 23, "jibun": "611", "price": 159000}
+{"apt": "현대프라임", "area": 84.99, "built": 1997, "date": "2021-09-09", "dong": "구의동", "floor": 11, "jibun": "631-1", "price": 172000}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2021-09-09", "dong": "자양동", "floor": 16, "jibun": "670", "price": 129000}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2021-09-11", "dong": "광장동", "floor": 19, "jibun": "566", "price": 144500}
+{"apt": "현대8(803동)", "area": 84.95, "built": 1996, "date": "2021-09-11", "dong": "광장동", "floor": 16, "jibun": "569", "price": 172000}
+{"apt": "현대프라임", "area": 126.66, "built": 1997, "date": "2021-09-11", "dong": "구의동", "floor": 9, "jibun": "631-1", "price": 230000}
+{"apt": "우성3", "area": 72.34, "built": 1989, "date": "2021-09-14", "dong": "자양동", "floor": 1, "jibun": "516", "price": 138000}
+{"apt": "중곡1단지", "area": 48.46, "built": 1976, "date": "2021-09-14", "dong": "중곡동", "floor": 3, "jibun": "191-77", "price": 50000}
+{"apt": "한강현대", "area": 83.45, "built": 1993, "date": "2021-09-15", "dong": "자양동", "floor": 17, "jibun": "829", "price": 125000}
+{"apt": "중곡1단지", "area": 48.46, "built": 1976, "date": "2021-09-15", "dong": "중곡동", "floor": 5, "jibun": "191-77", "price": 51000}
+{"apt": "중곡1단지", "area": 58.74, "built": 1976, "date": "2021-09-15", "dong": "중곡동", "floor": 5, "jibun": "191-77", "price": 60000}
+{"apt": "구의현대6단지", "area": 84.92, "built": 1994, "date": "2021-09-17", "dong": "구의동", "floor": 19, "jibun": "610", "price": 144000}
+{"apt": "우성3", "area": 84.91, "built": 1989, "date": "2021-09-23", "dong": "자양동", "floor": 10, "jibun": "516", "price": 170000}
+{"apt": "구의현대2단지", "area": 84.88, "built": 1996, "date": "2021-09-25", "dong": "구의동", "floor": 17, "jibun": "611", "price": 168500}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2021-10-02", "dong": "자양동", "floor": 2, "jibun": "670", "price": 111000}
+{"apt": "우성1", "area": 51.57, "built": 1988, "date": "2021-10-16", "dong": "자양동", "floor": 6, "jibun": "579", "price": 105000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2021-10-19", "dong": "광장동", "floor": 22, "jibun": "566", "price": 123500}
+{"apt": "극동1", "area": 156.92, "built": 1985, "date": "2021-10-22", "dong": "광장동", "floor": 8, "jibun": "218-1", "price": 270000}
+{"apt": "극동2", "area": 84.55, "built": 1989, "date": "2021-10-22", "dong": "광장동", "floor": 4, "jibun": "218-1", "price": 177500}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2021-10-26", "dong": "광장동", "floor": 20, "jibun": "566", "price": 114500}
+{"apt": "우성3", "area": 72.34, "built": 1989, "date": "2021-10-27", "dong": "자양동", "floor": 7, "jibun": "516", "price": 153000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2021-10-29", "dong": "광장동", "floor": 17, "jibun": "566", "price": 115500}
+{"apt": "중곡2단지", "area": 55.87, "built": 1976, "date": "2021-10-29", "dong": "중곡동", "floor": 1, "jibun": "190-26", "price": 62200}
+{"apt": "현대5", "area": 84.56, "built": 1989, "date": "2021-11-02", "deal_type": "중개거래", "dong": "광장동", "floor": 9, "jibun": "554-7", "price": 184000}
+{"apt": "구의현대7단지현대홈타운", "area": 59.97, "built": 1997, "date": "2021-11-02", "deal_type": "중개거래", "dong": "구의동", "floor": 3, "jibun": "587-54", "price": 107500}
+{"apt": "한강현대", "area": 83.45, "built": 1993, "date": "2021-11-02", "deal_type": "중개거래", "dong": "자양동", "floor": 21, "jibun": "829", "price": 150000}
+{"apt": "중곡2단지", "area": 55.87, "built": 1976, "date": "2021-11-02", "deal_type": "중개거래", "dong": "중곡동", "floor": 3, "jibun": "190-26", "price": 62000}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2021-11-04", "deal_type": "중개거래", "dong": "광장동", "floor": 8, "jibun": "566", "price": 146000}
+{"apt": "우성2", "area": 64.79, "built": 1989, "date": "2021-11-04", "deal_type": "중개거래", "dong": "자양동", "floor": 5, "jibun": "520-2", "price": 104000}
+{"apt": "자양삼성", "area": 84.96, "built": 1999, "date": "2021-11-05", "deal_type": "중개거래", "dong": "자양동", "floor": 22, "jibun": "787", "price": 150000}
+{"apt": "한강우성", "area": 84.72, "built": 1993, "date": "2021-11-06", "deal_type": "중개거래", "dong": "자양동", "floor": 2, "jibun": "87-1", "price": 125000}
+{"apt": "중곡2단지", "area": 55.87, "built": 1976, "date": "2021-11-08", "deal_type": "중개거래", "dong": "중곡동", "floor": 5, "jibun": "190-26", "price": 62000}
+{"apt": "우성2", "area": 64.79, "built": 1989, "date": "2021-11-10", "deal_type": "중개거래", "dong": "자양동", "floor": 6, "jibun": "520-2", "price": 110000}
+{"apt": "중곡1단지", "area": 58.74, "built": 1976, "date": "2021-11-10", "deal_type": "중개거래", "dong": "중곡동", "floor": 3, "jibun": "191-77", "price": 60000}
+{"apt": "우성6", "area": 84.72, "built": 1992, "date": "2021-11-12", "deal_type": "중개거래", "dong": "자양동", "floor": 2, "jibun": "515-1", "price": 130000}
+{"apt": "현대5", "area": 59.67, "built": 1989, "date": "2021-11-16", "deal_type": "중개거래", "dong": "광장동", "floor": 7, "jibun": "554-7", "price": 148500}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2021-11-20", "deal_type": "중개거래", "dong": "구의동", "floor": 13, "jibun": "631-1", "price": 125000}
+{"apt": "우성1", "area": 51.57, "built": 1988, "date": "2021-11-22", "deal_type": "중개거래", "dong": "자양동", "floor": 5, "jibun": "579", "price": 98500}
+{"apt": "구의현대6단지", "area": 84.84, "built": 1994, "date": "2021-11-24", "deal_type": "중개거래", "dong": "구의동", "floor": 23, "jibun": "610", "price": 148000}
+{"apt": "로얄동아", "area": 59.91, "built": 1999, "date": "2021-12-02", "deal_type": "중개거래", "dong": "자양동", "floor": 11, "jibun": "644", "price": 101000}
+{"apt": "한강우성", "area": 84.72, "built": 1993, "date": "2021-12-02", "deal_type": "중개거래", "dong": "자양동", "floor": 12, "jibun": "87-1", "price": 146000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2021-12-04", "deal_type": "중개거래", "dong": "광장동", "floor": 14, "jibun": "566", "price": 116000}
+{"apt": "광나루현대", "area": 84.59, "built": 1996, "date": "2021-12-04", "deal_type": "중개거래", "dong": "광장동", "floor": 11, "jibun": "567", "price": 128000}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2021-12-09", "deal_type": "중개거래", "dong": "자양동", "floor": 11, "jibun": "670", "price": 124500}
+{"apt": "극동2", "area": 84.55, "built": 1989, "date": "2021-12-25", "deal_type": "중개거래", "dong": "광장동", "floor": 11, "jibun": "218-1", "price": 175000}
+{"apt": "한라아파트", "area": 59.96, "built": 1996, "date": "2021-12-25", "deal_type": "중개거래", "dong": "자양동", "floor": 14, "jibun": "762", "price": 105000}
+{"apt": "워커힐푸르지오", "area": 92.4, "built": 1987, "date": "2022-01-04", "deal_type": "중개거래", "dong": "광장동", "floor": 7, "jibun": "148-4", "price": 147000}
+{"apt": "연세리버빌6차", "area": 174.83, "built": 1997, "date": "2022-01-06", "deal_type": "중개거래", "dong": "광장동", "floor": 8, "jibun": "184-1", "price": 170000}
+{"apt": "구의현대2단지", "area": 84.88, "built": 1996, "date": "2022-01-08", "deal_type": "중개거래", "dong": "구의동", "floor": 27, "jibun": "611", "price": 152200}
+{"apt": "현대프라임", "area": 126.66, "built": 1997, "date": "2022-01-14", "deal_type": "중개거래", "dong": "구의동", "floor": 11, "jibun": "631-1", "price": 216000}
+{"apt": "한양", "area": 107.31, "built": 1983, "date": "2022-01-15", "deal_type": "중개거래", "dong": "자양동", "floor": 11, "jibun": "695", "price": 185000}
+{"apt": "현대3", "area": 59.67, "built": 1990, "date": "2022-01-20", "deal_type": "중개거래", "dong": "광장동", "floor": 6, "jibun": "484", "price": 127000}
+{"apt": "한강우성", "area": 84.72, "built": 1993, "date": "2022-01-21", "deal_type": "중개거래", "dong": "자양동", "floor": 20, "jibun": "87-1", "price": 151000}
+{"apt": "현대3", "area": 59.67, "built": 1990, "date": "2022-01-24", "deal_type": "직거래", "dong": "광장동", "floor": 8, "jibun": "484", "price": 66000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2022-01-27", "deal_type": "중개거래", "dong": "구의동", "floor": 8, "jibun": "611", "price": 157500}
+{"apt": "워커힐리버빌", "area": 235.56, "built": 1997, "date": "2022-01-28", "deal_type": "중개거래", "dong": "광장동", "floor": 4, "jibun": "124", "price": 202000}
+{"apt": "우성1", "area": 79.75, "built": 1988, "date": "2022-01-28", "deal_type": "중개거래", "dong": "자양동", "floor": 11, "jibun": "579", "price": 133000}
+{"apt": "극동1", "area": 126.94, "built": 1985, "date": "2022-02-06", "deal_type": "중개거래", "dong": "광장동", "floor": 11, "jibun": "218-1", "price": 233000}
+{"apt": "한강아남", "area": 84.24, "built": 1995, "date": "2022-02-15", "deal_type": "중개거래", "dong": "자양동", "floor": 9, "jibun": "830", "price": 105000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2022-02-21", "deal_type": "중개거래", "dong": "구의동", "floor": 4, "jibun": "631-1", "price": 117000}
+{"apt": "자양2현대", "area": 84.88, "built": 1995, "date": "2022-02-24", "deal_type": "중개거래", "dong": "자양동", "floor": 6, "jibun": "761", "price": 137500}
+{"apt": "워커힐", "area": 226.45, "built": 1978, "date": "2022-03-01", "deal_type": "중개거래", "dong": "광장동", "floor": 4, "jibun": "145-8", "price": 300000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2022-03-04", "deal_type": "중개거래", "dong": "구의동", "floor": 8, "jibun": "611", "price": 157500}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2022-03-05", "deal_type": "중개거래", "dong": "구의동", "floor": 6, "jibun": "611", "price": 159500}
+{"apt": "극동2", "area": 84.55, "built": 1989, "date": "2022-03-07", "deal_type": "중개거래", "dong": "광장동", "floor": 7, "jibun": "218-1", "price": 180000}
+{"apt": "현대프라임", "area": 126.66, "built": 1997, "date": "2022-03-07", "deal_type": "중개거래", "dong": "구의동", "floor": 4, "jibun": "631-1", "price": 201000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2022-03-09", "deal_type": "중개거래", "dong": "구의동", "floor": 15, "jibun": "631-1", "price": 124000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2022-03-11", "deal_type": "중개거래", "dong": "광장동", "floor": 18, "jibun": "567", "price": 128000}
+{"apt": "워커힐", "area": 226.45, "built": 1978, "date": "2022-03-16", "deal_type": "중개거래", "dong": "광장동", "floor": 12, "jibun": "145-8", "price": 329000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2022-03-16", "deal_type": "중개거래", "dong": "광장동", "floor": 6, "jibun": "566", "price": 103000}
+{"apt": "극동1", "area": 126.94, "built": 1985, "date": "2022-03-19", "deal_type": "중개거래", "dong": "광장동", "floor": 7, "jibun": "218-1", "price": 229000}
+{"apt": "한강우성", "area": 84.72, "built": 1993, "date": "2022-03-19", "deal_type": "중개거래", "dong": "자양동", "floor": 7, "jibun": "87-1", "price": 153000}
+{"apt": "로얄동아", "area": 84.83, "built": 1999, "date": "2022-03-23", "deal_type": "중개거래", "dong": "자양동", "floor": 5, "jibun": "644", "price": 152500}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2022-03-27", "deal_type": "중개거래", "dong": "구의동", "floor": 20, "jibun": "631-1", "price": 125000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2022-03-28", "deal_type": "중개거래", "dong": "광장동", "floor": 6, "jibun": "566", "price": 105000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2022-04-02", "deal_type": "중개거래", "dong": "구의동", "floor": 5, "jibun": "631-1", "price": 115000}
+{"apt": "자양2현대", "area": 84.88, "built": 1995, "date": "2022-04-03", "deal_type": "중개거래", "dong": "자양동", "floor": 3, "jibun": "761", "price": 133000}
+{"apt": "우성1", "area": 79.75, "built": 1988, "date": "2022-04-04", "deal_type": "중개거래", "dong": "자양동", "floor": 9, "jibun": "579", "price": 135400}
+{"apt": "워커힐", "area": 196.0, "built": 1978, "date": "2022-04-07", "deal_type": "직거래", "dong": "광장동", "floor": 5, "jibun": "145-8", "price": 220000}
+{"apt": "워커힐", "area": 196.0, "built": 1978, "date": "2022-04-08", "deal_type": "중개거래", "dong": "광장동", "floor": 12, "jibun": "145-8", "price": 350000}
+{"apt": "극동1", "area": 84.55, "built": 1985, "date": "2022-04-09", "deal_type": "중개거래", "dong": "광장동", "floor": 4, "jibun": "218-1", "price": 185000}
+{"apt": "우성1", "area": 51.57, "built": 1988, "date": "2022-04-09", "deal_type": "중개거래", "dong": "자양동", "floor": 5, "jibun": "579", "price": 99700}
+{"apt": "로얄동아", "area": 59.91, "built": 1999, "date": "2022-04-10", "deal_type": "중개거래", "dong": "자양동", "floor": 9, "jibun": "644", "price": 101800}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2022-04-11", "deal_type": "중개거래", "dong": "광장동", "floor": 4, "jibun": "566", "price": 147000}
+{"apt": "현대8(801동,802동)", "area": 84.92, "built": 1995, "date": "2022-04-12", "deal_type": "중개거래", "dong": "광장동", "floor": 17, "jibun": "565", "price": 169000}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2022-04-15", "deal_type": "중개거래", "dong": "군자동", "floor": 11, "jibun": "99", "price": 74000}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2022-04-15", "deal_type": "중개거래", "dong": "군자동", "floor": 13, "jibun": "99", "price": 74000}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2022-04-15", "deal_type": "중개거래", "dong": "군자동", "floor": 13, "jibun": "99", "price": 74000}
+{"apt": "현대8(803동)", "area": 59.94, "built": 1996, "date": "2022-04-19", "deal_type": "직거래", "dong": "광장동", "floor": 12, "jibun": "569", "price": 100000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2022-04-19", "deal_type": "직거래", "dong": "구의동", "floor": 16, "jibun": "611", "price": 130000}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2022-04-22", "deal_type": "중개거래", "dong": "군자동", "floor": 10, "jibun": "99", "price": 74000}
+{"apt": "우성2", "area": 51.57, "built": 1989, "date": "2022-04-23", "deal_type": "중개거래", "dong": "자양동", "floor": 12, "jibun": "520-2", "price": 103750}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2022-04-27", "deal_type": "중개거래", "dong": "군자동", "floor": 8, "jibun": "99", "price": 80800}
+{"apt": "일성파크", "area": 84.96, "built": 1996, "date": "2022-04-29", "deal_type": "중개거래", "dong": "군자동", "floor": 17, "jibun": "99", "price": 92500}
+{"apt": "현대5", "area": 84.53, "built": 1989, "date": "2022-04-30", "deal_type": "중개거래", "dong": "광장동", "floor": 11, "jibun": "554-7", "price": 175000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2022-05-05", "deal_type": "중개거래", "dong": "구의동", "floor": 30, "jibun": "631-1", "price": 115000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2022-05-07", "deal_type": "중개거래", "dong": "구의동", "floor": 28, "jibun": "631-1", "price": 115000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2022-05-10", "deal_type": "중개거래", "dong": "구의동", "floor": 17, "jibun": "631-1", "price": 115000}
+{"apt": "일성파크", "area": 84.96, "built": 1996, "date": "2022-05-13", "deal_type": "중개거래", "dong": "군자동", "floor": 17, "jibun": "99", "price": 92500}
+{"apt": "자양동현대", "area": 84.55, "built": 1993, "date": "2022-05-16", "deal_type": "중개거래", "dong": "자양동", "floor": 8, "jibun": "645-5", "price": 127000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2022-05-21", "deal_type": "중개거래", "dong": "구의동", "floor": 5, "jibun": "631-1", "price": 115500}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2022-05-21", "deal_type": "중개거래", "dong": "자양동", "floor": 21, "jibun": "670", "price": 130000}
+{"apt": "한양", "area": 137.45, "built": 1983, "date": "2022-05-21", "deal_type": "중개거래", "dong": "자양동", "floor": 6, "jibun": "695", "price": 210000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2022-05-22", "deal_type": "중개거래", "dong": "광장동", "floor": 10, "jibun": "484", "price": 166500}
+{"apt": "한강현대", "area": 83.45, "built": 1993, "date": "2022-05-27", "deal_type": "중개거래", "dong": "자양동", "floor": 10, "jibun": "829", "price": 146500}
+{"apt": "극동1", "area": 84.55, "built": 1985, "date": "2022-05-28", "deal_type": "중개거래", "dong": "광장동", "floor": 10, "jibun": "218-1", "price": 184000}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2022-05-28", "deal_type": "중개거래", "dong": "군자동", "floor": 19, "jibun": "99", "price": 82500}
+{"apt": "상록타워아파트", "area": 59.4, "built": 1997, "date": "2022-05-30", "deal_type": "중개거래", "dong": "광장동", "floor": 14, "jibun": "570", "price": 90000}
+{"apt": "현대리버빌", "area": 223.92, "built": 1997, "date": "2022-05-31", "deal_type": "중개거래", "dong": "광장동", "floor": 8, "jibun": "131-1", "price": 297000}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2022-06-07", "deal_type": "중개거래", "dong": "광장동", "floor": 20, "jibun": "566", "price": 150000}
+{"apt": "우성5", "area": 84.72, "built": 1990, "date": "2022-06-08", "deal_type": "중개거래", "dong": "자양동", "floor": 3, "jibun": "553-41", "price": 110000}
+{"apt": "로얄동아", "area": 84.75, "built": 1999, "date": "2022-06-27", "deal_type": "중개거래", "dong": "자양동", "floor": 21, "jibun": "644", "price": 151000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2022-07-05", "deal_type": "중개거래", "dong": "구의동", "floor": 19, "jibun": "631-1", "price": 112000}
+{"apt": "삼민", "area": 73.56, "built": 1995, "date": "2022-07-06", "deal_type": "중개거래", "dong": "중곡동", "floor": 1, "jibun": "609", "price": 59200}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2022-07-09", "deal_type": "직거래", "dong": "광장동", "floor": 16, "jibun": "484", "price": 155000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2022-07-13", "deal_type": "중개거래", "dong": "광장동", "floor": 18, "jibun": "567", "price": 130000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2022-07-14", "deal_type": "중개거래", "dong": "구의동", "floor": 10, "jibun": "631-1", "price": 120000}
+{"apt": "현대8(803동)", "area": 84.95, "built": 1996, "date": "2022-07-21", "deal_type": "중개거래", "dong": "광장동", "floor": 5, "jibun": "569", "price": 120000}
+{"apt": "우성1", "area": 51.57, "built": 1988, "date": "2022-08-09", "deal_type": "직거래", "dong": "자양동", "floor": 8, "jibun": "579", "price": 70000}
+{"apt": "우성3", "area": 84.91, "built": 1989, "date": "2022-08-20", "deal_type": "중개거래", "dong": "자양동", "floor": 4, "jibun": "516", "price": 125000}
+{"apt": "한강우성", "area": 84.72, "built": 1993, "date": "2022-08-25", "deal_type": "중개거래", "dong": "자양동", "floor": 4, "jibun": "87-1", "price": 115500}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2022-09-07", "deal_type": "중개거래", "dong": "광장동", "floor": 21, "jibun": "566", "price": 99000}
+{"apt": "일성파크", "area": 79.28, "built": 1996, "date": "2022-09-15", "deal_type": "중개거래", "dong": "군자동", "floor": 13, "jibun": "99", "price": 95000}
+{"apt": "워커힐", "area": 226.54, "built": 1978, "date": "2022-09-29", "deal_type": "직거래", "dong": "광장동", "floor": 2, "jibun": "145-8", "price": 270000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2022-10-06", "deal_type": "중개거래", "dong": "구의동", "floor": 16, "jibun": "631-1", "price": 111000}
+{"apt": "우성3", "area": 72.34, "built": 1989, "date": "2022-10-19", "deal_type": "직거래", "dong": "자양동", "floor": 1, "jibun": "516", "price": 130000}
+{"apt": "워커힐", "area": 226.45, "built": 1978, "date": "2022-10-27", "deal_type": "중개거래", "dong": "광장동", "floor": 7, "jibun": "145-8", "price": 270000}
+{"apt": "한강극동", "area": 84.45, "built": 1991, "date": "2022-11-16", "deal_type": "중개거래", "dong": "자양동", "floor": 11, "jibun": "57-103", "price": 105000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2022-11-18", "deal_type": "직거래", "dong": "구의동", "floor": 5, "jibun": "611", "price": 100000}
+{"apt": "우성2", "area": 51.57, "built": 1989, "date": "2022-11-28", "deal_type": "직거래", "dong": "자양동", "floor": 12, "jibun": "520-2", "price": 85000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2022-12-16", "deal_type": "중개거래", "dong": "광장동", "floor": 14, "jibun": "567", "price": 92000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2022-12-17", "deal_type": "중개거래", "dong": "구의동", "floor": 5, "jibun": "631-1", "price": 88000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2022-12-24", "deal_type": "중개거래", "dong": "구의동", "floor": 15, "jibun": "631-1", "price": 89000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2022-12-30", "deal_type": "중개거래", "dong": "광장동", "floor": 18, "jibun": "566", "price": 84300}
+{"apt": "우성3", "area": 84.91, "built": 1989, "date": "2023-01-05", "deal_type": "직거래", "dong": "자양동", "dong_no": "308", "floor": 2, "jibun": "516", "price": 113000}
+{"apt": "중곡2단지", "area": 55.87, "built": 1976, "date": "2023-01-05", "deal_type": "중개거래", "dong": "중곡동", "dong_no": "6", "floor": 3, "jibun": "190-26", "price": 55000}
+{"apt": "한강성원", "area": 84.12, "built": 1997, "date": "2023-01-07", "deal_type": "중개거래", "dong": "자양동", "dong_no": "101", "floor": 3, "jibun": "831-1", "price": 106000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2023-01-13", "deal_type": "중개거래", "dong": "광장동", "dong_no": "103", "floor": 6, "jibun": "567", "price": 85000}
+{"apt": "구의현대2단지", "area": 84.75, "built": 1996, "date": "2023-01-16", "deal_type": "중개거래", "dong": "구의동", "dong_no": "214", "floor": 15, "jibun": "611", "price": 130000}
+{"apt": "한강성원", "area": 59.46, "built": 1997, "date": "2023-01-16", "deal_type": "중개거래", "dong": "자양동", "dong_no": "101", "floor": 6, "jibun": "831-1", "price": 90000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2023-01-17", "deal_type": "중개거래", "dong": "광장동", "dong_no": "101", "floor": 7, "jibun": "567", "price": 110000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-01-17", "deal_type": "직거래", "dong": "구의동", "dong_no": "1", "floor": 17, "jibun": "631-1", "price": 82000}
+{"apt": "현대5", "area": 84.56, "built": 1989, "date": "2023-01-20", "deal_type": "중개거래", "dong": "광장동", "dong_no": "506", "floor": 12, "jibun": "554-7", "price": 132000}
+{"apt": "한양", "area": 157.87, "built": 1983, "date": "2023-01-20", "deal_type": "중개거래", "dong": "자양동", "dong_no": "5", "floor": 12, "jibun": "695", "price": 180000}
+{"apt": "현대8(803동)", "area": 84.95, "built": 1996, "date": "2023-01-24", "deal_type": "중개거래", "dong": "광장동", "dong_no": "803", "floor": 21, "jibun": "569", "price": 117000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-01-26", "deal_type": "중개거래", "dong": "광장동", "dong_no": "103", "floor": 19, "jibun": "566", "price": 85000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-01-27", "deal_type": "중개거래", "dong": "구의동", "dong_no": "3", "floor": 4, "jibun": "631-1", "price": 88300}
+{"apt": "우성1", "area": 51.57, "built": 1988, "date": "2023-01-27", "deal_type": "중개거래", "dong": "자양동", "dong_no": "106", "floor": 4, "jibun": "579", "price": 75000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-01-30", "deal_type": "중개거래", "dong": "광장동", "dong_no": "307", "floor": 17, "jibun": "484", "price": 120000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2023-01-30", "deal_type": "중개거래", "dong": "광장동", "dong_no": "101", "floor": 1, "jibun": "567", "price": 85000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-01-30", "deal_type": "중개거래", "dong": "구의동", "dong_no": "208", "floor": 11, "jibun": "611", "price": 135200}
+{"apt": "우성2", "area": 51.57, "built": 1989, "date": "2023-01-30", "deal_type": "중개거래", "dong": "자양동", "dong_no": "202", "floor": 2, "jibun": "520-2", "price": 79000}
+{"apt": "우성3", "area": 72.34, "built": 1989, "date": "2023-02-01", "deal_type": "중개거래", "dong": "자양동", "dong_no": "301", "floor": 4, "jibun": "516", "price": 117000}
+{"apt": "경남아너스빌", "area": 59.79, "built": 1997, "date": "2023-02-02", "deal_type": "직거래", "dong": "자양동", "floor": 7, "jibun": "666-28", "price": 70000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-02-03", "deal_type": "중개거래", "dong": "광장동", "dong_no": "103", "floor": 8, "jibun": "566", "price": 89000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-02-04", "deal_type": "중개거래", "dong": "광장동", "dong_no": "304", "floor": 2, "jibun": "484", "price": 105000}
+{"apt": "현대5", "area": 59.67, "built": 1989, "date": "2023-02-04", "deal_type": "중개거래", "dong": "광장동", "dong_no": "501", "floor": 15, "jibun": "554-7", "price": 90000}
+{"apt": "구의현대2단지", "area": 84.86, "built": 1996, "date": "2023-02-04", "deal_type": "중개거래", "dong": "구의동", "dong_no": "209", "floor": 5, "jibun": "611", "price": 120000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-02-07", "deal_type": "중개거래", "dong": "구의동", "dong_no": "212", "floor": 13, "jibun": "611", "price": 130000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-02-10", "deal_type": "중개거래", "dong": "광장동", "dong_no": "304", "floor": 12, "jibun": "484", "price": 124500}
+{"apt": "우성2", "area": 51.57, "built": 1989, "date": "2023-02-10", "deal_type": "중개거래", "dong": "자양동", "dong_no": "202", "floor": 4, "jibun": "520-2", "price": 76500}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-02-11", "deal_type": "중개거래", "dong": "구의동", "dong_no": "203", "floor": 22, "jibun": "611", "price": 139500}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-02-11", "deal_type": "중개거래", "dong": "구의동", "dong_no": "1", "floor": 11, "jibun": "631-1", "price": 105700}
+{"apt": "한강극동", "area": 84.45, "built": 1991, "date": "2023-02-11", "deal_type": "중개거래", "dong": "자양동", "dong_no": "1", "floor": 9, "jibun": "57-103", "price": 110000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-02-13", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 9, "jibun": "566", "price": 87000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-02-13", "deal_type": "중개거래", "dong": "광장동", "dong_no": "103", "floor": 11, "jibun": "566", "price": 88500}
+{"apt": "현대3", "area": 59.67, "built": 1990, "date": "2023-02-16", "deal_type": "중개거래", "dong": "광장동", "dong_no": "309", "floor": 9, "jibun": "484", "price": 90000}
+{"apt": "한강극동", "area": 84.41, "built": 1991, "date": "2023-02-16", "deal_type": "중개거래", "dong": "자양동", "dong_no": "2", "floor": 3, "jibun": "57-103", "price": 76000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-02-23", "deal_type": "중개거래", "dong": "구의동", "dong_no": "8", "floor": 17, "jibun": "631-1", "price": 97500}
+{"apt": "우성2", "area": 80.1, "built": 1989, "date": "2023-02-24", "deal_type": "중개거래", "dong": "자양동", "dong_no": "201", "floor": 14, "jibun": "520-2", "price": 110000}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2023-02-24", "deal_type": "중개거래", "dong": "자양동", "dong_no": "301", "floor": 10, "jibun": "670", "price": 134500}
+{"apt": "현대5", "area": 59.67, "built": 1989, "date": "2023-02-25", "deal_type": "중개거래", "dong": "광장동", "dong_no": "506", "floor": 15, "jibun": "554-7", "price": 97000}
+{"apt": "극동2", "area": 84.55, "built": 1989, "date": "2023-03-03", "deal_type": "중개거래", "dong": "광장동", "dong_no": "6", "floor": 1, "jibun": "218-1", "price": 128500}
+{"apt": "현대8(801동,802동)", "area": 84.92, "built": 1995, "date": "2023-03-03", "deal_type": "중개거래", "dong": "광장동", "dong_no": "801", "floor": 12, "jibun": "565", "price": 121000}
+{"apt": "한강극동", "area": 84.47, "built": 1991, "date": "2023-03-04", "deal_type": "중개거래", "dong": "자양동", "dong_no": "2", "floor": 10, "jibun": "57-103", "price": 107000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-03-06", "deal_type": "중개거래", "dong": "구의동", "dong_no": "1", "floor": 16, "jibun": "631-1", "price": 93000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-03-06", "deal_type": "중개거래", "dong": "구의동", "dong_no": "8", "floor": 24, "jibun": "631-1", "price": 91500}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-03-07", "deal_type": "중개거래", "dong": "광장동", "dong_no": "305", "floor": 15, "jibun": "484", "price": 122000}
+{"apt": "구의현대6단지", "area": 84.92, "built": 1994, "date": "2023-03-08", "deal_type": "중개거래", "dong": "구의동", "dong_no": "602", "floor": 7, "jibun": "610", "price": 100500}
+{"apt": "한강우성", "area": 84.72, "built": 1993, "date": "2023-03-08", "deal_type": "중개거래", "dong": "자양동", "dong_no": "101", "floor": 12, "jibun": "87-1", "price": 139000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-03-11", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 19, "jibun": "566", "price": 90000}
+{"apt": "자양삼성", "area": 84.96, "built": 1999, "date": "2023-03-11", "deal_type": "중개거래", "dong": "자양동", "dong_no": "103", "floor": 3, "jibun": "787", "price": 92800}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-03-16", "deal_type": "중개거래", "dong": "구의동", "dong_no": "8", "floor": 21, "jibun": "631-1", "price": 93500}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-03-17", "deal_type": "중개거래", "dong": "광장동", "dong_no": "304", "floor": 12, "jibun": "484", "price": 123000}
+{"apt": "구의현대6단지", "area": 84.92, "built": 1994, "date": "2023-03-20", "deal_type": "중개거래", "dong": "구의동", "dong_no": "601", "floor": 6, "jibun": "610", "price": 100000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2023-03-21", "deal_type": "중개거래", "dong": "광장동", "dong_no": "102", "floor": 12, "jibun": "567", "price": 95000}
+{"apt": "현대3", "area": 74.92, "built": 1990, "date": "2023-03-22", "deal_type": "중개거래", "dong": "광장동", "dong_no": "301", "floor": 14, "jibun": "484", "price": 106000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-03-22", "deal_type": "중개거래", "dong": "광장동", "dong_no": "308", "floor": 8, "jibun": "484", "price": 122000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-03-23", "deal_type": "중개거래", "dong": "구의동", "dong_no": "1", "floor": 15, "jibun": "631-1", "price": 93000}
+{"apt": "우성2", "area": 64.79, "built": 1989, "date": "2023-03-23", "deal_type": "중개거래", "dong": "자양동", "dong_no": "203", "floor": 3, "jibun": "520-2", "price": 83500}
+{"apt": "극동1", "area": 156.92, "built": 1985, "date": "2023-03-29", "deal_type": "중개거래", "dong": "광장동", "dong_no": "5", "floor": 7, "jibun": "218-1", "price": 225000}
+{"apt": "한강우성", "area": 84.72, "built": 1993, "date": "2023-03-29", "deal_type": "중개거래", "dong": "자양동", "dong_no": "101", "floor": 24, "jibun": "87-1", "price": 127000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-03-30", "deal_type": "직거래", "dong": "구의동", "dong_no": "202", "floor": 3, "jibun": "611", "price": 115000}
+{"apt": "한양", "area": 157.87, "built": 1983, "date": "2023-03-30", "deal_type": "직거래", "dong": "자양동", "dong_no": "3", "floor": 4, "jibun": "695", "price": 174000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-03-31", "deal_type": "중개거래", "dong": "구의동", "dong_no": "1", "floor": 13, "jibun": "631-1", "price": 94000}
+{"apt": "극동1", "area": 84.55, "built": 1985, "date": "2023-04-01", "deal_type": "중개거래", "dong": "광장동", "dong_no": "1", "floor": 9, "jibun": "218-1", "price": 156000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-04-01", "deal_type": "중개거래", "dong": "광장동", "dong_no": "302", "floor": 1, "jibun": "484", "price": 109000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-04-01", "deal_type": "중개거래", "dong": "구의동", "dong_no": "202", "floor": 11, "jibun": "611", "price": 129500}
+{"apt": "구의현대2단지", "area": 84.86, "built": 1996, "date": "2023-04-03", "deal_type": "중개거래", "dong": "구의동", "dong_no": "209", "floor": 4, "jibun": "611", "price": 120000}
+{"apt": "구의현대2단지", "area": 84.75, "built": 1996, "date": "2023-04-04", "deal_type": "중개거래", "dong": "구의동", "dong_no": "211", "floor": 10, "jibun": "611", "price": 116000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-04-04", "deal_type": "중개거래", "dong": "구의동", "dong_no": "1", "floor": 25, "jibun": "631-1", "price": 96000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-04-06", "deal_type": "중개거래", "dong": "구의동", "dong_no": "8", "floor": 14, "jibun": "631-1", "price": 95000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-04-07", "deal_type": "중개거래", "dong": "구의동", "dong_no": "8", "floor": 27, "jibun": "631-1", "price": 93500}
+{"apt": "구의강변우성아파트", "area": 84.76, "built": 1992, "date": "2023-04-08", "deal_type": "중개거래", "dong": "구의동", "dong_no": "101", "floor": 17, "jibun": "546-7", "price": 110000}
+{"apt": "현대3", "area": 74.92, "built": 1990, "date": "2023-04-11", "deal_type": "중개거래", "dong": "광장동", "dong_no": "303", "floor": 9, "jibun": "484", "price": 110000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-04-11", "deal_type": "중개거래", "dong": "구의동", "dong_no": "3", "floor": 27, "jibun": "631-1", "price": 97200}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-04-15", "deal_type": "중개거래", "dong": "광장동", "dong_no": "103", "floor": 22, "jibun": "566", "price": 89000}
+{"apt": "구의현대2단지", "area": 84.86, "built": 1996, "date": "2023-04-15", "deal_type": "중개거래", "dong": "구의동", "dong_no": "210", "floor": 23, "jibun": "611", "price": 129000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-04-15", "deal_type": "중개거래", "dong": "구의동", "dong_no": "203", "floor": 7, "jibun": "611", "price": 138000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-04-15", "deal_type": "중개거래", "dong": "구의동", "dong_no": "8", "floor": 10, "jibun": "631-1", "price": 97300}
+{"apt": "워커힐", "area": 226.45, "built": 1978, "date": "2023-04-17", "deal_type": "중개거래", "dong": "광장동", "dong_no": "12", "floor": 2, "jibun": "145-8", "price": 300000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-04-22", "deal_type": "중개거래", "dong": "광장동", "dong_no": "305", "floor": 4, "jibun": "484", "price": 122000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-04-22", "deal_type": "중개거래", "dong": "구의동", "dong_no": "3", "floor": 29, "jibun": "631-1", "price": 97800}
+{"apt": "구의현대6단지", "area": 84.92, "built": 1994, "date": "2023-04-26", "deal_type": "중개거래", "dong": "구의동", "dong_no": "603", "floor": 4, "jibun": "610", "price": 120000}
+{"apt": "구의현대2단지", "area": 84.86, "built": 1996, "date": "2023-04-26", "deal_type": "중개거래", "dong": "구의동", "dong_no": "209", "floor": 16, "jibun": "611", "price": 132500}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-04-27", "deal_type": "직거래", "dong": "광장동", "dong_no": "310", "floor": 5, "jibun": "484", "price": 77000}
+{"apt": "워커힐", "area": 226.44, "built": 1978, "date": "2023-04-28", "deal_type": "중개거래", "dong": "광장동", "dong_no": "11", "floor": 10, "jibun": "145-8", "price": 317000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-04-28", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 9, "jibun": "566", "price": 91800}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-04-28", "deal_type": "중개거래", "dong": "구의동", "dong_no": "201", "floor": 4, "jibun": "611", "price": 120000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-04-29", "deal_type": "중개거래", "dong": "광장동", "dong_no": "308", "floor": 1, "jibun": "484", "price": 109000}
+{"apt": "현대8(801동,802동)", "area": 84.92, "built": 1995, "date": "2023-04-29", "deal_type": "중개거래", "dong": "광장동", "dong_no": "802", "floor": 23, "jibun": "565", "price": 140500}
+{"apt": "구의현대2단지", "area": 84.88, "built": 1996, "date": "2023-05-01", "deal_type": "중개거래", "dong": "구의동", "dong_no": "204", "floor": 3, "jibun": "611", "price": 124000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-05-01", "deal_type": "중개거래", "dong": "구의동", "dong_no": "1", "floor": 23, "jibun": "631-1", "price": 97000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-05-04", "deal_type": "중개거래", "dong": "광장동", "dong_no": "103", "floor": 14, "jibun": "566", "price": 86200}
+{"apt": "우성6", "area": 84.72, "built": 1992, "date": "2023-05-04", "deal_type": "중개거래", "dong": "자양동", "dong_no": "309", "floor": 4, "jibun": "515-1", "price": 114500}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-05-05", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 18, "jibun": "566", "price": 87500}
+{"apt": "우성1", "area": 51.57, "built": 1988, "date": "2023-05-06", "deal_type": "중개거래", "dong": "자양동", "dong_no": "106", "floor": 4, "jibun": "579", "price": 78000}
+{"apt": "현대8(803동)", "area": 59.94, "built": 1996, "date": "2023-05-08", "deal_type": "직거래", "dong": "광장동", "dong_no": "803", "floor": 18, "jibun": "569", "price": 66000}
+{"apt": "구의현대6단지", "area": 84.92, "built": 1994, "date": "2023-05-08", "deal_type": "중개거래", "dong": "구의동", "dong_no": "603", "floor": 8, "jibun": "610", "price": 116500}
+{"apt": "구의현대2단지", "area": 84.86, "built": 1996, "date": "2023-05-09", "deal_type": "중개거래", "dong": "구의동", "dong_no": "209", "floor": 16, "jibun": "611", "price": 130000}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2023-05-09", "deal_type": "중개거래", "dong": "군자동", "dong_no": "102", "floor": 16, "jibun": "99", "price": 67000}
+{"apt": "우성2", "area": 51.57, "built": 1989, "date": "2023-05-10", "deal_type": "중개거래", "dong": "자양동", "dong_no": "202", "floor": 8, "jibun": "520-2", "price": 80800}
+{"apt": "현대8(803동)", "area": 59.94, "built": 1996, "date": "2023-05-12", "deal_type": "중개거래", "dong": "광장동", "dong_no": "803", "floor": 23, "jibun": "569", "price": 98000}
+{"apt": "자양삼성", "area": 59.76, "built": 1999, "date": "2023-05-12", "deal_type": "중개거래", "dong": "자양동", "dong_no": "103", "floor": 3, "jibun": "787", "price": 88500}
+{"apt": "극동1", "area": 84.55, "built": 1985, "date": "2023-05-13", "deal_type": "중개거래", "dong": "광장동", "dong_no": "1", "floor": 3, "jibun": "218-1", "price": 157500}
+{"apt": "현대8(801동,802동)", "area": 84.92, "built": 1995, "date": "2023-05-13", "deal_type": "중개거래", "dong": "광장동", "dong_no": "802", "floor": 8, "jibun": "565", "price": 133500}
+{"apt": "현대프라임", "area": 84.99, "built": 1997, "date": "2023-05-15", "deal_type": "중개거래", "dong": "구의동", "dong_no": "11", "floor": 24, "jibun": "631-1", "price": 143500}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-05-16", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 21, "jibun": "566", "price": 88000}
+{"apt": "상록타워아파트", "area": 59.4, "built": 1997, "date": "2023-05-16", "deal_type": "중개거래", "dong": "광장동", "floor": 4, "jibun": "570", "price": 46000}
+{"apt": "한강우성", "area": 84.72, "built": 1993, "date": "2023-05-16", "deal_type": "중개거래", "dong": "자양동", "dong_no": "102", "floor": 1, "jibun": "87-1", "price": 99000}
+{"apt": "극동1", "area": 84.55, "built": 1985, "date": "2023-05-17", "deal_type": "중개거래", "dong": "광장동", "dong_no": "1", "floor": 8, "jibun": "218-1", "price": 166000}
+{"apt": "현대8(801동,802동)", "area": 84.92, "built": 1995, "date": "2023-05-17", "deal_type": "중개거래", "dong": "광장동", "dong_no": "802", "floor": 21, "jibun": "565", "price": 140000}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2023-05-17", "deal_type": "중개거래", "dong": "군자동", "dong_no": "101", "floor": 8, "jibun": "99", "price": 64000}
+{"apt": "현대3", "area": 59.67, "built": 1990, "date": "2023-05-18", "deal_type": "중개거래", "dong": "광장동", "dong_no": "301", "floor": 16, "jibun": "484", "price": 92000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-05-18", "deal_type": "중개거래", "dong": "광장동", "dong_no": "302", "floor": 3, "jibun": "484", "price": 120800}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-05-19", "deal_type": "중개거래", "dong": "광장동", "dong_no": "305", "floor": 5, "jibun": "484", "price": 133000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-05-19", "deal_type": "중개거래", "dong": "구의동", "dong_no": "208", "floor": 13, "jibun": "611", "price": 142000}
+{"apt": "한양", "area": 124.93, "built": 1983, "date": "2023-05-19", "deal_type": "중개거래", "dong": "자양동", "dong_no": "7", "floor": 2, "jibun": "695", "price": 165000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-05-20", "deal_type": "중개거래", "dong": "광장동", "dong_no": "305", "floor": 1, "jibun": "484", "price": 117000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-05-20", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 17, "jibun": "566", "price": 88000}
+{"apt": "우성2", "area": 51.57, "built": 1989, "date": "2023-05-20", "deal_type": "중개거래", "dong": "자양동", "dong_no": "202", "floor": 15, "jibun": "520-2", "price": 79000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-05-22", "deal_type": "중개거래", "dong": "광장동", "dong_no": "304", "floor": 5, "jibun": "484", "price": 122000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-05-23", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 13, "jibun": "566", "price": 89000}
+{"apt": "현대3", "area": 59.67, "built": 1990, "date": "2023-05-26", "deal_type": "중개거래", "dong": "광장동", "dong_no": "306", "floor": 12, "jibun": "484", "price": 96900}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-05-26", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 9, "jibun": "566", "price": 91000}
+{"apt": "구의강변우성아파트", "area": 84.76, "built": 1992, "date": "2023-05-28", "deal_type": "중개거래", "dong": "구의동", "dong_no": "102", "floor": 5, "jibun": "546-7", "price": 110000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-05-29", "deal_type": "중개거래", "dong": "광장동", "dong_no": "305", "floor": 2, "jibun": "484", "price": 118500}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-05-29", "deal_type": "중개거래", "dong": "구의동", "dong_no": "3", "floor": 5, "jibun": "631-1", "price": 95000}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2023-05-31", "deal_type": "중개거래", "dong": "광장동", "dong_no": "101", "floor": 21, "jibun": "566", "price": 135500}
+{"apt": "구의현대2단지", "area": 84.75, "built": 1996, "date": "2023-05-31", "deal_type": "중개거래", "dong": "구의동", "dong_no": "205", "floor": 10, "jibun": "611", "price": 130000}
+{"apt": "현대프라임", "area": 126.66, "built": 1997, "date": "2023-05-31", "deal_type": "중개거래", "dong": "구의동", "dong_no": "13", "floor": 23, "jibun": "631-1", "price": 206000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-06-01", "deal_type": "중개거래", "dong": "구의동", "dong_no": "8", "floor": 21, "jibun": "631-1", "price": 98000}
+{"apt": "현대프라임", "area": 126.66, "built": 1997, "date": "2023-06-01", "deal_type": "중개거래", "dong": "구의동", "dong_no": "14", "floor": 27, "jibun": "631-1", "price": 196500}
+{"apt": "구의현대2단지", "area": 84.88, "built": 1996, "date": "2023-06-02", "deal_type": "중개거래", "dong": "구의동", "dong_no": "204", "floor": 15, "jibun": "611", "price": 125000}
+{"apt": "현대5", "area": 59.67, "built": 1989, "date": "2023-06-03", "deal_type": "중개거래", "dong": "광장동", "dong_no": "504", "floor": 4, "jibun": "554-7", "price": 103200}
+{"apt": "현대8(803동)", "area": 59.94, "built": 1996, "date": "2023-06-03", "deal_type": "중개거래", "dong": "광장동", "dong_no": "803", "floor": 9, "jibun": "569", "price": 100000}
+{"apt": "구의현대2단지", "area": 84.75, "built": 1996, "date": "2023-06-03", "deal_type": "중개거래", "dong": "구의동", "dong_no": "214", "floor": 26, "jibun": "611", "price": 135000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-06-03", "deal_type": "중개거래", "dong": "구의동", "dong_no": "8", "floor": 25, "jibun": "631-1", "price": 99000}
+{"apt": "상록타워아파트", "area": 84.6, "built": 1997, "date": "2023-06-04", "deal_type": "중개거래", "dong": "광장동", "floor": 21, "jibun": "570", "price": 120000}
+{"apt": "우성1", "area": 51.57, "built": 1988, "date": "2023-06-05", "deal_type": "중개거래", "dong": "자양동", "dong_no": "105", "floor": 13, "jibun": "579", "price": 81500}
+{"apt": "구의현대6단지", "area": 84.92, "built": 1994, "date": "2023-06-06", "deal_type": "중개거래", "dong": "구의동", "dong_no": "603", "floor": 10, "jibun": "610", "price": 115500}
+{"apt": "현대프라임", "area": 183.87, "built": 1997, "date": "2023-06-07", "deal_type": "중개거래", "dong": "구의동", "dong_no": "5", "floor": 29, "jibun": "631-1", "price": 213000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-06-08", "deal_type": "중개거래", "dong": "광장동", "dong_no": "103", "floor": 6, "jibun": "566", "price": 89000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-06-09", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 12, "jibun": "566", "price": 88800}
+{"apt": "구의강변우성아파트", "area": 84.76, "built": 1992, "date": "2023-06-09", "deal_type": "중개거래", "dong": "구의동", "dong_no": "103", "floor": 3, "jibun": "546-7", "price": 106500}
+{"apt": "극동2", "area": 84.55, "built": 1989, "date": "2023-06-10", "deal_type": "중개거래", "dong": "광장동", "dong_no": "7", "floor": 14, "jibun": "218-1", "price": 130000}
+{"apt": "삼성광장1", "area": 79.53, "built": 1987, "date": "2023-06-10", "deal_type": "중개거래", "dong": "광장동", "dong_no": "1", "floor": 7, "jibun": "561", "price": 145000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-06-10", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 3, "jibun": "566", "price": 85300}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-06-10", "deal_type": "중개거래", "dong": "광장동", "dong_no": "103", "floor": 13, "jibun": "566", "price": 88000}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2023-06-10", "deal_type": "중개거래", "dong": "군자동", "dong_no": "101", "floor": 10, "jibun": "99", "price": 68000}
+{"apt": "자양2현대", "area": 84.66, "built": 1995, "date": "2023-06-10", "deal_type": "중개거래", "dong": "자양동", "floor": 3, "jibun": "761", "price": 105000}
+{"apt": "자양삼성", "area": 59.76, "built": 1999, "date": "2023-06-10", "deal_type": "중개거래", "dong": "자양동", "dong_no": "102", "floor": 11, "jibun": "787", "price": 101500}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-06-14", "deal_type": "중개거래", "dong": "광장동", "dong_no": "103", "floor": 20, "jibun": "566", "price": 89000}
+{"apt": "구의현대6단지", "area": 84.92, "built": 1994, "date": "2023-06-14", "deal_type": "중개거래", "dong": "구의동", "dong_no": "603", "floor": 16, "jibun": "610", "price": 119000}
+{"apt": "현대5", "area": 59.67, "built": 1989, "date": "2023-06-15", "deal_type": "중개거래", "dong": "광장동", "dong_no": "501", "floor": 12, "jibun": "554-7", "price": 101000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-06-15", "deal_type": "중개거래", "dong": "구의동", "dong_no": "206", "floor": 17, "jibun": "611", "price": 134000}
+{"apt": "우성3", "area": 84.91, "built": 1989, "date": "2023-06-15", "deal_type": "중개거래", "dong": "자양동", "dong_no": "308", "floor": 3, "jibun": "516", "price": 117000}
+{"apt": "한양", "area": 124.93, "built": 1983, "date": "2023-06-15", "deal_type": "직거래", "dong": "자양동", "dong_no": "7", "floor": 3, "jibun": "695", "price": 136000}
+{"apt": "현대8(801동,802동)", "area": 84.92, "built": 1995, "date": "2023-06-17", "deal_type": "중개거래", "dong": "광장동", "dong_no": "801", "floor": 5, "jibun": "565", "price": 138000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-06-17", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 15, "jibun": "566", "price": 90000}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2023-06-17", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 1, "jibun": "566", "price": 115000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2023-06-19", "deal_type": "중개거래", "dong": "광장동", "dong_no": "103", "floor": 15, "jibun": "567", "price": 96800}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-06-19", "deal_type": "직거래", "dong": "구의동", "dong_no": "1", "floor": 4, "jibun": "631-1", "price": 85000}
+{"apt": "우성4", "area": 84.91, "built": 1989, "date": "2023-06-19", "deal_type": "중개거래", "dong": "자양동", "dong_no": "111", "floor": 1, "jibun": "578", "price": 89500}
+{"apt": "한양", "area": 124.93, "built": 1983, "date": "2023-06-19", "deal_type": "중개거래", "dong": "자양동", "dong_no": "7", "floor": 10, "jibun": "695", "price": 179500}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-06-23", "deal_type": "중개거래", "dong": "구의동", "dong_no": "1", "floor": 29, "jibun": "631-1", "price": 102900}
+{"apt": "워커힐푸르지오", "area": 69.0, "built": 1987, "date": "2023-06-27", "deal_type": "중개거래", "dong": "광장동", "dong_no": "102", "floor": 10, "jibun": "148-4", "price": 92500}
+{"apt": "현대3", "area": 59.67, "built": 1990, "date": "2023-06-27", "deal_type": "중개거래", "dong": "광장동", "dong_no": "306", "floor": 21, "jibun": "484", "price": 93000}
+{"apt": "로얄동아", "area": 59.91, "built": 1999, "date": "2023-06-27", "deal_type": "중개거래", "dong": "자양동", "dong_no": "제104", "floor": 14, "jibun": "644", "price": 93000}
+{"apt": "자양2현대", "area": 59.95, "built": 1995, "date": "2023-06-28", "deal_type": "중개거래", "dong": "자양동", "floor": 1, "jibun": "761", "price": 84000}
+{"apt": "한라아파트", "area": 59.96, "built": 1996, "date": "2023-06-29", "deal_type": "중개거래", "dong": "자양동", "dong_no": "102", "floor": 8, "jibun": "762", "price": 85000}
+{"apt": "워커힐", "area": 196.0, "built": 1978, "date": "2023-06-30", "deal_type": "중개거래", "dong": "광장동", "dong_no": "23", "floor": 6, "jibun": "145-8", "price": 279000}
+{"apt": "극동2", "area": 75.55, "built": 1989, "date": "2023-06-30", "deal_type": "중개거래", "dong": "광장동", "dong_no": "13", "floor": 8, "jibun": "218-1", "price": 140000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-07-01", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 5, "jibun": "566", "price": 89000}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2023-07-01", "deal_type": "중개거래", "dong": "광장동", "dong_no": "103", "floor": 18, "jibun": "566", "price": 122300}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2023-07-01", "deal_type": "중개거래", "dong": "군자동", "dong_no": "101", "floor": 5, "jibun": "99", "price": 69000}
+{"apt": "현대8(801동,802동)", "area": 84.92, "built": 1995, "date": "2023-07-05", "deal_type": "중개거래", "dong": "광장동", "dong_no": "801", "floor": 18, "jibun": "565", "price": 152000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-07-05", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 23, "jibun": "566", "price": 94000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-07-05", "deal_type": "중개거래", "dong": "구의동", "dong_no": "8", "floor": 16, "jibun": "631-1", "price": 102500}
+{"apt": "상록타워아파트", "area": 59.4, "built": 1997, "date": "2023-07-06", "deal_type": "중개거래", "dong": "광장동", "floor": 13, "jibun": "570", "price": 91000}
+{"apt": "구의현대7단지현대홈타운", "area": 59.97, "built": 1997, "date": "2023-07-06", "deal_type": "중개거래", "dong": "구의동", "dong_no": "703", "floor": 10, "jibun": "587-54", "price": 85000}
+{"apt": "현대5", "area": 84.56, "built": 1989, "date": "2023-07-07", "deal_type": "중개거래", "dong": "광장동", "dong_no": "506", "floor": 14, "jibun": "554-7", "price": 160000}
+{"apt": "구의강변우성아파트", "area": 84.76, "built": 1992, "date": "2023-07-07", "deal_type": "중개거래", "dong": "구의동", "dong_no": "103", "floor": 14, "jibun": "546-7", "price": 120000}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2023-07-08", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 4, "jibun": "566", "price": 120000}
+{"apt": "우성3", "area": 72.34, "built": 1989, "date": "2023-07-08", "deal_type": "중개거래", "dong": "자양동", "dong_no": "303", "floor": 10, "jibun": "516", "price": 115000}
+{"apt": "우성1", "area": 51.57, "built": 1988, "date": "2023-07-08", "deal_type": "중개거래", "dong": "자양동", "dong_no": "106", "floor": 11, "jibun": "579", "price": 87800}
+{"apt": "극동2", "area": 84.55, "built": 1989, "date": "2023-07-10", "deal_type": "중개거래", "dong": "광장동", "dong_no": "8", "floor": 1, "jibun": "218-1", "price": 146000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2023-07-11", "deal_type": "중개거래", "dong": "광장동", "dong_no": "101", "floor": 13, "jibun": "567", "price": 136000}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2023-07-13", "deal_type": "중개거래", "dong": "광장동", "dong_no": "102", "floor": 21, "jibun": "566", "price": 124500}
+{"apt": "워커힐", "area": 162.41, "built": 1978, "date": "2023-07-15", "deal_type": "중개거래", "dong": "광장동", "dong_no": "53", "floor": 9, "jibun": "145-8", "price": 263000}
+{"apt": "현대5", "area": 59.67, "built": 1989, "date": "2023-07-15", "deal_type": "중개거래", "dong": "광장동", "dong_no": "506", "floor": 10, "jibun": "554-7", "price": 110000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-07-15", "deal_type": "중개거래", "dong": "구의동", "dong_no": "8", "floor": 23, "jibun": "631-1", "price": 103000}
+{"apt": "우성1", "area": 51.57, "built": 1988, "date": "2023-07-15", "deal_type": "중개거래", "dong": "자양동", "dong_no": "106", "floor": 6, "jibun": "579", "price": 88000}
+{"apt": "한양", "area": 108.35, "built": 1983, "date": "2023-07-17", "deal_type": "중개거래", "dong": "자양동", "dong_no": "6", "floor": 12, "jibun": "695", "price": 163000}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2023-07-19", "deal_type": "중개거래", "dong": "광장동", "dong_no": "103", "floor": 10, "jibun": "566", "price": 124500}
+{"apt": "우성2", "area": 80.1, "built": 1989, "date": "2023-07-19", "deal_type": "중개거래", "dong": "자양동", "dong_no": "201", "floor": 6, "jibun": "520-2", "price": 105000}
+{"apt": "우성1", "area": 59.91, "built": 1988, "date": "2023-07-19", "deal_type": "중개거래", "dong": "자양동", "dong_no": "104", "floor": 14, "jibun": "579", "price": 95000}
+{"apt": "현대프라임", "area": 84.99, "built": 1997, "date": "2023-07-20", "deal_type": "중개거래", "dong": "구의동", "dong_no": "11", "floor": 16, "jibun": "631-1", "price": 153000}
+{"apt": "우성1", "area": 79.75, "built": 1988, "date": "2023-07-20", "deal_type": "중개거래", "dong": "자양동", "dong_no": "101", "floor": 11, "jibun": "579", "price": 106000}
+{"apt": "현대5", "area": 59.67, "built": 1989, "date": "2023-07-22", "deal_type": "중개거래", "dong": "광장동", "dong_no": "501", "floor": 6, "jibun": "554-7", "price": 108500}
+{"apt": "상록타워아파트", "area": 59.4, "built": 1997, "date": "2023-07-22", "deal_type": "중개거래", "dong": "광장동", "floor": 15, "jibun": "570", "price": 97500}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-07-22", "deal_type": "중개거래", "dong": "구의동", "dong_no": "201", "floor": 12, "jibun": "611", "price": 143000}
+{"apt": "구의현대6단지", "area": 84.92, "built": 1994, "date": "2023-07-24", "deal_type": "중개거래", "dong": "구의동", "dong_no": "602", "floor": 25, "jibun": "610", "price": 114000}
+{"apt": "자양삼성", "area": 59.76, "built": 1999, "date": "2023-07-24", "deal_type": "중개거래", "dong": "자양동", "dong_no": "103", "floor": 8, "jibun": "787", "price": 94500}
+{"apt": "자양삼성", "area": 114.88, "built": 1999, "date": "2023-07-24", "deal_type": "중개거래", "dong": "자양동", "dong_no": "102", "floor": 2, "jibun": "787", "price": 130000}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2023-07-25", "deal_type": "중개거래", "dong": "광장동", "dong_no": "101", "floor": 8, "jibun": "567", "price": 110000}
+{"apt": "우성1", "area": 79.75, "built": 1988, "date": "2023-07-28", "deal_type": "중개거래", "dong": "자양동", "dong_no": "101", "floor": 5, "jibun": "579", "price": 114000}
+{"apt": "중곡1단지", "area": 48.46, "built": 1976, "date": "2023-07-29", "deal_type": "중개거래", "dong": "중곡동", "dong_no": "1", "floor": 3, "jibun": "191-77", "price": 48500}
+{"apt": "구의강변우성아파트", "area": 84.76, "built": 1992, "date": "2023-08-02", "deal_type": "중개거래", "dong": "구의동", "dong_no": "102", "floor": 2, "jibun": "546-7", "price": 113500}
+{"apt": "현대5", "area": 74.88, "built": 1989, "date": "2023-08-05", "deal_type": "중개거래", "dong": "광장동", "dong_no": "504", "floor": 18, "jibun": "554-7", "price": 135000}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2023-08-05", "deal_type": "중개거래", "dong": "광장동", "dong_no": "103", "floor": 14, "jibun": "566", "price": 125500}
+{"apt": "광나루현대", "area": 84.92, "built": 1996, "date": "2023-08-05", "deal_type": "중개거래", "dong": "광장동", "dong_no": "102", "floor": 14, "jibun": "567", "price": 128000}
+{"apt": "구의강변우성아파트", "area": 84.76, "built": 1992, "date": "2023-08-05", "deal_type": "중개거래", "dong": "구의동", "dong_no": "101", "floor": 2, "jibun": "546-7", "price": 108000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-08-05", "deal_type": "중개거래", "dong": "구의동", "dong_no": "215", "floor": 19, "jibun": "611", "price": 143000}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2023-08-07", "deal_type": "중개거래", "dong": "자양동", "dong_no": "301", "floor": 13, "jibun": "670", "price": 130000}
+{"apt": "자양2현대", "area": 84.88, "built": 1995, "date": "2023-08-07", "deal_type": "중개거래", "dong": "자양동", "floor": 1, "jibun": "761", "price": 105000}
+{"apt": "현대5", "area": 84.56, "built": 1989, "date": "2023-08-08", "deal_type": "중개거래", "dong": "광장동", "dong_no": "506", "floor": 18, "jibun": "554-7", "price": 167500}
+{"apt": "일성파크", "area": 59.96, "built": 1996, "date": "2023-08-08", "deal_type": "중개거래", "dong": "군자동", "dong_no": "102", "floor": 15, "jibun": "99", "price": 77000}
+{"apt": "자양삼성", "area": 114.88, "built": 1999, "date": "2023-08-09", "deal_type": "중개거래", "dong": "자양동", "dong_no": "102", "floor": 23, "jibun": "787", "price": 140000}
+{"apt": "현대5", "area": 84.53, "built": 1989, "date": "2023-08-11", "deal_type": "중개거래", "dong": "광장동", "dong_no": "505", "floor": 13, "jibun": "554-7", "price": 154000}
+{"apt": "구의현대7단지현대홈타운", "area": 59.97, "built": 1997, "date": "2023-08-12", "deal_type": "중개거래", "dong": "구의동", "dong_no": "703", "floor": 6, "jibun": "587-54", "price": 87500}
+{"apt": "자양2현대", "area": 84.88, "built": 1995, "date": "2023-08-12", "deal_type": "중개거래", "dong": "자양동", "floor": 17, "jibun": "761", "price": 122500}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-08-15", "deal_type": "직거래", "dong": "구의동", "dong_no": "8", "floor": 2, "jibun": "631-1", "price": 90000}
+{"apt": "워커힐", "area": 196.0, "built": 1978, "date": "2023-08-16", "deal_type": "중개거래", "dong": "광장동", "dong_no": "23", "floor": 12, "jibun": "145-8", "price": 280000}
+{"apt": "우성1", "area": 59.91, "built": 1988, "date": "2023-08-16", "deal_type": "중개거래", "dong": "자양동", "dong_no": "104", "floor": 8, "jibun": "579", "price": 93000}
+{"apt": "구의강변우성아파트", "area": 84.76, "built": 1992, "date": "2023-08-17", "deal_type": "중개거래", "dong": "구의동", "dong_no": "102", "floor": 9, "jibun": "546-7", "price": 117800}
+{"apt": "구의현대6단지", "area": 84.78, "built": 1994, "date": "2023-08-17", "deal_type": "중개거래", "dong": "구의동", "dong_no": "601", "floor": 4, "jibun": "610", "price": 111000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-08-17", "deal_type": "중개거래", "dong": "구의동", "dong_no": "212", "floor": 6, "jibun": "611", "price": 144000}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-08-19", "deal_type": "중개거래", "dong": "구의동", "dong_no": "215", "floor": 24, "jibun": "611", "price": 139000}
+{"apt": "우성3", "area": 84.91, "built": 1989, "date": "2023-08-19", "deal_type": "중개거래", "dong": "자양동", "dong_no": "308", "floor": 10, "jibun": "516", "price": 143500}
+{"apt": "우성2", "area": 80.1, "built": 1989, "date": "2023-08-19", "deal_type": "중개거래", "dong": "자양동", "dong_no": "201", "floor": 15, "jibun": "520-2", "price": 108000}
+{"apt": "현대3", "area": 74.92, "built": 1990, "date": "2023-08-21", "deal_type": "중개거래", "dong": "광장동", "dong_no": "309", "floor": 3, "jibun": "484", "price": 123000}
+{"apt": "구의현대7단지현대홈타운", "area": 59.97, "built": 1997, "date": "2023-08-22", "deal_type": "중개거래", "dong": "구의동", "dong_no": "703", "floor": 17, "jibun": "587-54", "price": 92000}
+{"apt": "현대프라임", "area": 84.99, "built": 1997, "date": "2023-08-22", "deal_type": "중개거래", "dong": "구의동", "dong_no": "11", "floor": 4, "jibun": "631-1", "price": 144000}
+{"apt": "우성1", "area": 51.57, "built": 1988, "date": "2023-08-22", "deal_type": "중개거래", "dong": "자양동", "dong_no": "106", "floor": 8, "jibun": "579", "price": 89500}
+{"apt": "우성2", "area": 51.57, "built": 1989, "date": "2023-08-23", "deal_type": "중개거래", "dong": "자양동", "dong_no": "202", "floor": 6, "jibun": "520-2", "price": 86500}
+{"apt": "우성1", "area": 59.91, "built": 1988, "date": "2023-08-23", "deal_type": "중개거래", "dong": "자양동", "dong_no": "104", "floor": 12, "jibun": "579", "price": 90000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-08-25", "deal_type": "중개거래", "dong": "광장동", "dong_no": "103", "floor": 17, "jibun": "566", "price": 94500}
+{"apt": "구의현대2단지", "area": 84.75, "built": 1996, "date": "2023-08-25", "deal_type": "중개거래", "dong": "구의동", "dong_no": "211", "floor": 9, "jibun": "611", "price": 143000}
+{"apt": "청구", "area": 59.95, "built": 1996, "date": "2023-08-26", "deal_type": "중개거래", "dong": "광장동", "dong_no": "104", "floor": 16, "jibun": "566", "price": 93000}
+{"apt": "현대8(803동)", "area": 84.95, "built": 1996, "date": "2023-08-26", "deal_type": "중개거래", "dong": "광장동", "dong_no": "803", "floor": 1, "jibun": "569", "price": 122000}
+{"apt": "현대3", "area": 59.67, "built": 1990, "date": "2023-08-29", "deal_type": "중개거래", "dong": "광장동", "dong_no": "306", "floor": 7, "jibun": "484", "price": 102000}
+{"apt": "한양", "area": 108.35, "built": 1983, "date": "2023-08-30", "deal_type": "중개거래", "dong": "자양동", "dong_no": "6", "floor": 6, "jibun": "695", "price": 161000}
+{"apt": "현대5", "area": 59.67, "built": 1989, "date": "2023-08-31", "deal_type": "중개거래", "dong": "광장동", "dong_no": "504", "floor": 18, "jibun": "554-7", "price": 113500}
+{"apt": "상록타워아파트", "area": 84.6, "built": 1997, "date": "2023-08-31", "deal_type": "중개거래", "dong": "광장동", "floor": 19, "jibun": "570", "price": 125000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-08-31", "deal_type": "중개거래", "dong": "구의동", "dong_no": "8", "floor": 6, "jibun": "631-1", "price": 104500}
+{"apt": "삼성광장2", "area": 69.06, "built": 1989, "date": "2023-09-01", "deal_type": "중개거래", "dong": "광장동", "dong_no": "나", "floor": 8, "jibun": "453-1", "price": 104000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-09-01", "deal_type": "중개거래", "dong": "광장동", "dong_no": "304", "floor": 8, "jibun": "484", "price": 135000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-09-02", "deal_type": "중개거래", "dong": "구의동", "dong_no": "8", "floor": 22, "jibun": "631-1", "price": 110000}
+{"apt": "현대3", "area": 84.9, "built": 1996, "date": "2023-09-02", "deal_type": "중개거래", "dong": "자양동", "dong_no": "302", "floor": 19, "jibun": "670", "price": 112000}
+{"apt": "자양2현대", "area": 59.95, "built": 1995, "date": "2023-09-02", "deal_type": "중개거래", "dong": "자양동", "floor": 14, "jibun": "761", "price": 102500}
+{"apt": "자양삼성", "area": 59.76, "built": 1999, "date": "2023-09-02", "deal_type": "중개거래", "dong": "자양동", "dong_no": "102", "floor": 3, "jibun": "787", "price": 93000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-09-04", "deal_type": "중개거래", "dong": "구의동", "dong_no": "1", "floor": 10, "jibun": "631-1", "price": 106000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-09-04", "deal_type": "중개거래", "dong": "구의동", "dong_no": "3", "floor": 11, "jibun": "631-1", "price": 109500}
+{"apt": "현대프라임", "area": 126.66, "built": 1997, "date": "2023-09-04", "deal_type": "중개거래", "dong": "구의동", "dong_no": "14", "floor": 8, "jibun": "631-1", "price": 209000}
+{"apt": "한양", "area": 110.22, "built": 1983, "date": "2023-09-04", "deal_type": "중개거래", "dong": "자양동", "dong_no": "6", "floor": 1, "jibun": "695", "price": 163000}
+{"apt": "현대5", "area": 83.96, "built": 1989, "date": "2023-09-05", "deal_type": "중개거래", "dong": "광장동", "dong_no": "502", "floor": 2, "jibun": "554-7", "price": 140000}
+{"apt": "워커힐푸르지오", "area": 92.4, "built": 1987, "date": "2023-09-06", "deal_type": "중개거래", "dong": "광장동", "dong_no": "101", "floor": 6, "jibun": "148-4", "price": 136300}
+{"apt": "구의현대6단지", "area": 84.92, "built": 1994, "date": "2023-09-06", "deal_type": "중개거래", "dong": "구의동", "dong_no": "602", "floor": 10, "jibun": "610", "price": 124000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-09-06", "deal_type": "중개거래", "dong": "구의동", "dong_no": "3", "floor": 1, "jibun": "631-1", "price": 99900}
+{"apt": "극동2", "area": 75.55, "built": 1989, "date": "2023-09-09", "deal_type": "중개거래", "dong": "광장동", "dong_no": "13", "floor": 2, "jibun": "218-1", "price": 143000}
+{"apt": "현대프라임", "area": 84.99, "built": 1997, "date": "2023-09-13", "deal_type": "중개거래", "dong": "구의동", "dong_no": "9", "floor": 26, "jibun": "631-1", "price": 155000}
+{"apt": "한강성원", "area": 59.46, "built": 1997, "date": "2023-09-13", "deal_type": "중개거래", "dong": "자양동", "dong_no": "101", "floor": 8, "jibun": "831-1", "price": 94000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-09-14", "deal_type": "중개거래", "dong": "구의동", "dong_no": "1", "floor": 21, "jibun": "631-1", "price": 103200}
+{"apt": "현대3", "area": 59.67, "built": 1990, "date": "2023-09-15", "deal_type": "중개거래", "dong": "광장동", "dong_no": "306", "floor": 8, "jibun": "484", "price": 105000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-09-16", "deal_type": "중개거래", "dong": "광장동", "dong_no": "307", "floor": 1, "jibun": "484", "price": 128000}
+{"apt": "현대3", "area": 84.97, "built": 1990, "date": "2023-09-16", "deal_type": "중개거래", "dong": "광장동", "dong_no": "310", "floor": 7, "jibun": "484", "price": 140000}
+{"apt": "삼성광장1", "area": 79.53, "built": 1987, "date": "2023-09-16", "deal_type": "중개거래", "dong": "광장동", "dong_no": "1", "floor": 1, "jibun": "561", "price": 154000}
+{"apt": "자양삼성", "area": 59.76, "built": 1999, "date": "2023-09-16", "deal_type": "중개거래", "dong": "자양동", "dong_no": "102", "floor": 12, "jibun": "787", "price": 102000}
+{"apt": "현대3", "area": 59.67, "built": 1990, "date": "2023-09-20", "deal_type": "중개거래", "dong": "광장동", "dong_no": "303", "floor": 16, "jibun": "484", "price": 104500}
+{"apt": "청구", "area": 84.86, "built": 1996, "date": "2023-09-22", "deal_type": "중개거래", "dong": "광장동", "dong_no": "102", "floor": 16, "jibun": "566", "price": 136500}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-09-23", "deal_type": "중개거래", "dong": "구의동", "dong_no": "1", "floor": 29, "jibun": "631-1", "price": 115000}
+{"apt": "우성3", "area": 51.39, "built": 1989, "date": "2023-09-23", "deal_type": "중개거래", "dong": "자양동", "dong_no": "305", "floor": 11, "jibun": "516", "price": 94000}
+{"apt": "우성3", "area": 72.34, "built": 1989, "date": "2023-09-23", "deal_type": "중개거래", "dong": "자양동", "dong_no": "307", "floor": 3, "jibun": "516", "price": 128000}
+{"apt": "자양삼성", "area": 84.96, "built": 1999, "date": "2023-09-23", "deal_type": "중개거래", "dong": "자양동", "dong_no": "102", "floor": 9, "jibun": "787", "price": 137500}
+{"apt": "극동2", "area": 84.55, "built": 1989, "date": "2023-09-25", "deal_type": "중개거래", "dong": "광장동", "dong_no": "8", "floor": 3, "jibun": "218-1", "price": 157000}
+{"apt": "현대8(803동)", "area": 59.94, "built": 1996, "date": "2023-09-25", "deal_type": "중개거래", "dong": "광장동", "dong_no": "803", "floor": 15, "jibun": "569", "price": 105500}
+{"apt": "구의현대2단지", "area": 84.88, "built": 1996, "date": "2023-09-25", "deal_type": "중개거래", "dong": "구의동", "dong_no": "205", "floor": 13, "jibun": "611", "price": 139500}
+{"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-09-25", "deal_type": "중개거래", "dong": "구의동", "dong_no": "213", "floor": 7, "jibun": "611", "price": 141000}
+{"apt": "현대프라임", "area": 59.82, "built": 1997, "date": "2023-09-25", "deal_type": "중개거래", "dong": "구의동", "dong_no": "1", "floor": 13, "jibun": "631-1", "price": 113500}
+{"apt": "자양2현대", "area": 84.88, "built": 1995, "date": "2023-09-25", "deal_type": "중개거래", "dong": "자양동", "floor": 6, "jibun": "761", "price": 106500}
+{"apt": "극동2", "area": 75.55, "built": 1989, "date": "2023-09-27", "deal_type": "중개거래", "dong": "광장동", "dong_no": "13", "floor": 2, "jibun": "218-1", "price": 139500}
 {"apt": "구의현대7단지현대홈타운", "area": 59.97, "built": 1997, "date": "2023-10-02", "deal_type": "중개거래", "dong": "구의동", "dong_no": "703", "floor": 17, "jibun": "587-54", "price": 88000}
 {"apt": "구의현대2단지", "area": 84.91, "built": 1996, "date": "2023-10-05", "deal_type": "중개거래", "dong": "구의동", "dong_no": "206", "floor": 18, "jibun": "611", "price": 144500}
 {"apt": "워커힐", "area": 196.0, "built": 1978, "date": "2023-10-11", "deal_type": "중개거래", "dong": "광장동", "dong_no": "25", "floor": 6, "jibun": "145-8", "price": 283000}

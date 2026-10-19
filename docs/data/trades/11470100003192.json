@@ -1,8 +1,9 @@
 {"id":"11470100003192",
 "name":"신목아파트",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":75,"pyeong":22.7,"jeonse_n":7,"wolse_n":0,"jeonse_median":45000,"jeonse_min":37500,"jeonse_max":50000,"jeonse_latest":50000,"jeonse_latest_date":"2026-08-26"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-12-30",74.64,1,64500,null,"중개거래",1992]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-08",74.64,4,37500,0,"갱신","25.12~27.12",null],

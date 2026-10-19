@@ -1,3 +1,760 @@
+{"apt": "건영", "area": 72.26, "built": 1994, "date": "2021-03-01", "dong": "인창동", "floor": 12, "jibun": "474", "price": 55800}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2021-03-01", "dong": "인창동", "floor": 5, "jibun": "663-1", "price": 60000}
+{"apt": "주공4-1", "area": 49.69, "built": 1996, "date": "2021-03-01", "dong": "인창동", "floor": 4, "jibun": "666-1", "price": 49500}
+{"apt": "주공6", "area": 39.87, "built": 1996, "date": "2021-03-01", "dong": "인창동", "floor": 19, "jibun": "668-1", "price": 40000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-03-02", "dong": "수택동", "floor": 18, "jibun": "854", "price": 56700}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2021-03-04", "dong": "교문동", "floor": 9, "jibun": "809-1", "price": 67000}
+{"apt": "대명(610-20)", "area": 57.87, "built": 1989, "date": "2021-03-05", "dong": "인창동", "floor": 4, "jibun": "610-20", "price": 34000}
+{"apt": "주공1", "area": 59.93, "built": 1996, "date": "2021-03-05", "dong": "인창동", "floor": 1, "jibun": "663-1", "price": 55800}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-03-05", "dong": "인창동", "floor": 6, "jibun": "665-1", "price": 75000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-03-05", "dong": "인창동", "floor": 13, "jibun": "665-1", "price": 85400}
+{"apt": "한성", "area": 71.79, "built": 1990, "date": "2021-03-08", "dong": "교문동", "floor": 1, "jibun": "766-1", "price": 65900}
+{"apt": "교문(대우)", "area": 134.64, "built": 1994, "date": "2021-03-08", "dong": "교문동", "floor": 14, "jibun": "809-3", "price": 94800}
+{"apt": "쌍용", "area": 59.92, "built": 1996, "date": "2021-03-09", "dong": "수택동", "floor": 9, "jibun": "440", "price": 49200}
+{"apt": "한가람아파트", "area": 121.77, "built": 1994, "date": "2021-03-12", "dong": "교문동", "floor": 8, "jibun": "809", "price": 93000}
+{"apt": "한가람아파트", "area": 121.77, "built": 1994, "date": "2021-03-13", "dong": "교문동", "floor": 16, "jibun": "809", "price": 95000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-03-13", "dong": "수택동", "floor": 18, "jibun": "854", "price": 53500}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2021-03-13", "dong": "수택동", "floor": 4, "jibun": "854", "price": 61500}
+{"apt": "삼호", "area": 56.7, "built": 1991, "date": "2021-03-13", "dong": "인창동", "floor": 8, "jibun": "590", "price": 44000}
+{"apt": "삼환", "area": 99.97, "built": 1996, "date": "2021-03-13", "dong": "인창동", "floor": 9, "jibun": "667-1", "price": 82000}
+{"apt": "신일", "area": 124.47, "built": 1996, "date": "2021-03-13", "dong": "인창동", "floor": 15, "jibun": "667-1", "price": 98500}
+{"apt": "주공6", "area": 49.67, "built": 1996, "date": "2021-03-13", "dong": "인창동", "floor": 17, "jibun": "668-1", "price": 50500}
+{"apt": "한인(가,나동)", "area": 45.53, "built": 1989, "date": "2021-03-14", "dong": "수택동", "floor": 5, "jibun": "517-3", "price": 32200}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2021-03-14", "dong": "수택동", "floor": 12, "jibun": "853", "price": 50800}
+{"apt": "엘지원앙", "area": 52.08, "built": 1995, "date": "2021-03-15", "dong": "수택동", "floor": 9, "jibun": "854-2", "price": 62000}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2021-03-15", "dong": "인창동", "floor": 19, "jibun": "663-1", "price": 59500}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-03-15", "dong": "인창동", "floor": 3, "jibun": "666-1", "price": 57500}
+{"apt": "주공4-2", "area": 59.93, "built": 1996, "date": "2021-03-15", "dong": "인창동", "floor": 9, "jibun": "666-1", "price": 53500}
+{"apt": "신일", "area": 99.97, "built": 1996, "date": "2021-03-15", "dong": "인창동", "floor": 6, "jibun": "667-1", "price": 88000}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2021-03-16", "dong": "수택동", "floor": 2, "jibun": "854-2", "price": 56000}
+{"apt": "삼호", "area": 56.7, "built": 1991, "date": "2021-03-16", "dong": "인창동", "floor": 1, "jibun": "590", "price": 44000}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2021-03-16", "dong": "인창동", "floor": 6, "jibun": "663-1", "price": 58000}
+{"apt": "교문(동양고속)", "area": 61.22, "built": 1994, "date": "2021-03-17", "dong": "교문동", "floor": 12, "jibun": "809-3", "price": 62000}
+{"apt": "대림한숲", "area": 84.25, "built": 1995, "date": "2021-03-17", "dong": "수택동", "floor": 18, "jibun": "854", "price": 83000}
+{"apt": "현대홈타운", "area": 82.08, "built": 2002, "date": "2021-03-17", "dong": "인창동", "floor": 1, "jibun": "508", "price": 69000}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2021-03-17", "dong": "인창동", "floor": 7, "jibun": "663-1", "price": 60000}
+{"apt": "주공4-2", "area": 59.97, "built": 1996, "date": "2021-03-18", "dong": "인창동", "floor": 14, "jibun": "666-1", "price": 56800}
+{"apt": "구리(우성)", "area": 101.37, "built": 1994, "date": "2021-03-19", "dong": "교문동", "floor": 17, "jibun": "809-2", "price": 97800}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2021-03-19", "dong": "수택동", "floor": 9, "jibun": "853", "price": 32000}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2021-03-19", "dong": "수택동", "floor": 8, "jibun": "853", "price": 52100}
+{"apt": "주공4-2", "area": 59.98, "built": 1996, "date": "2021-03-20", "dong": "인창동", "floor": 14, "jibun": "666-1", "price": 58000}
+{"apt": "건영", "area": 83.87, "built": 1994, "date": "2021-03-22", "dong": "인창동", "floor": 4, "jibun": "474", "price": 64000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-03-22", "dong": "인창동", "floor": 20, "jibun": "665-1", "price": 80900}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2021-03-23", "dong": "교문동", "floor": 3, "jibun": "809-1", "price": 69700}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-03-24", "dong": "교문동", "floor": 6, "jibun": "808", "price": 60000}
+{"apt": "부영103동", "area": 59.88, "built": 1997, "date": "2021-03-25", "dong": "인창동", "floor": 6, "jibun": "641-13", "price": 25000}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2021-03-26", "dong": "인창동", "floor": 20, "jibun": "664-1", "price": 67000}
+{"apt": "덕현", "area": 84.57, "built": 1993, "date": "2021-03-27", "dong": "교문동", "floor": 18, "jibun": "808", "price": 79800}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2021-03-27", "dong": "수택동", "floor": 1, "jibun": "853", "price": 31500}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-03-27", "dong": "인창동", "floor": 1, "jibun": "665-1", "price": 77000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-03-27", "dong": "인창동", "floor": 6, "jibun": "665-1", "price": 80000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-03-27", "dong": "인창동", "floor": 6, "jibun": "665-1", "price": 81000}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2021-03-30", "dong": "인창동", "floor": 6, "jibun": "668-1", "price": 57700}
+{"apt": "대명(610-20)", "area": 60.75, "built": 1989, "date": "2021-04-02", "dong": "인창동", "floor": 3, "jibun": "610-20", "price": 35000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-04-05", "dong": "인창동", "floor": 13, "jibun": "665-1", "price": 88500}
+{"apt": "주공4-1", "area": 37.67, "built": 1996, "date": "2021-04-05", "dong": "인창동", "floor": 15, "jibun": "666-1", "price": 36700}
+{"apt": "덕현", "area": 84.57, "built": 1993, "date": "2021-04-07", "dong": "교문동", "floor": 13, "jibun": "808", "price": 84000}
+{"apt": "한인(가,나동)", "area": 45.53, "built": 1989, "date": "2021-04-07", "dong": "수택동", "floor": 4, "jibun": "517-3", "price": 32200}
+{"apt": "신일", "area": 124.47, "built": 1996, "date": "2021-04-07", "dong": "인창동", "floor": 14, "jibun": "667-1", "price": 97000}
+{"apt": "한가람아파트", "area": 84.92, "built": 1994, "date": "2021-04-09", "dong": "교문동", "floor": 10, "jibun": "809", "price": 86500}
+{"apt": "한인(가,나동)", "area": 45.05, "built": 1989, "date": "2021-04-09", "dong": "수택동", "floor": 4, "jibun": "517-3", "price": 34900}
+{"apt": "한성", "area": 71.79, "built": 1990, "date": "2021-04-10", "dong": "교문동", "floor": 1, "jibun": "766-1", "price": 67000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-04-10", "dong": "교문동", "floor": 15, "jibun": "808", "price": 60500}
+{"apt": "구리(한양)", "area": 84.9, "built": 1994, "date": "2021-04-10", "dong": "교문동", "floor": 2, "jibun": "809-2", "price": 82400}
+{"apt": "구리두산", "area": 59.99, "built": 1991, "date": "2021-04-12", "dong": "교문동", "floor": 1, "jibun": "766", "price": 63000}
+{"apt": "교문(동양고속)", "area": 84.7, "built": 1994, "date": "2021-04-12", "dong": "교문동", "floor": 16, "jibun": "809-3", "price": 87000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-04-12", "dong": "인창동", "floor": 15, "jibun": "666-1", "price": 55600}
+{"apt": "한인(가,나동)", "area": 45.05, "built": 1989, "date": "2021-04-13", "dong": "수택동", "floor": 1, "jibun": "517-3", "price": 25000}
+{"apt": "원일(555)", "area": 58.32, "built": 1989, "date": "2021-04-13", "dong": "수택동", "floor": 4, "jibun": "555", "price": 47000}
+{"apt": "삼환", "area": 99.97, "built": 1996, "date": "2021-04-15", "dong": "인창동", "floor": 14, "jibun": "667-1", "price": 88500}
+{"apt": "덕현", "area": 134.98, "built": 1993, "date": "2021-04-16", "dong": "교문동", "floor": 6, "jibun": "808", "price": 92000}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2021-04-16", "dong": "수택동", "floor": 10, "jibun": "853", "price": 51000}
+{"apt": "현대홈타운", "area": 82.08, "built": 2002, "date": "2021-04-16", "dong": "인창동", "floor": 7, "jibun": "508", "price": 72000}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2021-04-16", "dong": "인창동", "floor": 8, "jibun": "664-1", "price": 69500}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2021-04-18", "dong": "인창동", "floor": 2, "jibun": "663-1", "price": 58000}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2021-04-19", "dong": "수택동", "floor": 4, "jibun": "853", "price": 53500}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2021-04-19", "dong": "인창동", "floor": 11, "jibun": "663-1", "price": 60000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-04-19", "dong": "인창동", "floor": 2, "jibun": "665-1", "price": 77500}
+{"apt": "개나리", "area": 56.97, "built": 1997, "date": "2021-04-20", "dong": "수택동", "floor": 4, "jibun": "611-1", "price": 26500}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2021-04-20", "dong": "인창동", "floor": 5, "jibun": "664-1", "price": 67000}
+{"apt": "한가람아파트", "area": 84.92, "built": 1994, "date": "2021-04-21", "dong": "교문동", "floor": 5, "jibun": "809", "price": 83500}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2021-04-21", "dong": "수택동", "floor": 11, "jibun": "853", "price": 52000}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2021-04-22", "dong": "수택동", "floor": 6, "jibun": "853", "price": 33000}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2021-04-22", "dong": "인창동", "floor": 9, "jibun": "664-1", "price": 72500}
+{"apt": "주공6", "area": 39.87, "built": 1996, "date": "2021-04-22", "dong": "인창동", "floor": 10, "jibun": "668-1", "price": 39750}
+{"apt": "주공6", "area": 39.87, "built": 1996, "date": "2021-04-22", "dong": "인창동", "floor": 13, "jibun": "668-1", "price": 41600}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2021-04-22", "dong": "인창동", "floor": 1, "jibun": "668-1", "price": 52000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-04-23", "dong": "수택동", "floor": 12, "jibun": "854", "price": 57000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-04-23", "dong": "수택동", "floor": 16, "jibun": "854", "price": 57000}
+{"apt": "엘지원앙", "area": 70.2, "built": 1995, "date": "2021-04-23", "dong": "수택동", "floor": 15, "jibun": "854-2", "price": 74700}
+{"apt": "현암", "area": 45.69, "built": 1989, "date": "2021-04-24", "dong": "수택동", "floor": 2, "jibun": "561-7", "price": 17800}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2021-04-24", "dong": "인창동", "floor": 2, "jibun": "663-1", "price": 57400}
+{"apt": "주공4-1", "area": 37.67, "built": 1996, "date": "2021-04-24", "dong": "인창동", "floor": 9, "jibun": "666-1", "price": 38800}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-04-24", "dong": "인창동", "floor": 11, "jibun": "666-1", "price": 59500}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-04-24", "dong": "인창동", "floor": 15, "jibun": "666-1", "price": 57600}
+{"apt": "주공2", "area": 49.95, "built": 1997, "date": "2021-04-25", "dong": "인창동", "floor": 9, "jibun": "664-1", "price": 49700}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-04-26", "dong": "교문동", "floor": 5, "jibun": "808", "price": 59000}
+{"apt": "구리(우성)", "area": 84.9, "built": 1994, "date": "2021-04-26", "dong": "교문동", "floor": 18, "jibun": "809-2", "price": 82900}
+{"apt": "범우", "area": 46.03, "built": 1988, "date": "2021-04-26", "dong": "수택동", "floor": 4, "jibun": "471-1", "price": 30250}
+{"apt": "범우", "area": 48.64, "built": 1988, "date": "2021-04-26", "dong": "수택동", "floor": 2, "jibun": "471-1", "price": 26000}
+{"apt": "주공1", "area": 59.93, "built": 1996, "date": "2021-04-26", "dong": "인창동", "floor": 5, "jibun": "663-1", "price": 58700}
+{"apt": "엘지원앙", "area": 52.08, "built": 1995, "date": "2021-04-27", "dong": "수택동", "floor": 2, "jibun": "854-2", "price": 58500}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-04-27", "dong": "인창동", "floor": 2, "jibun": "665-1", "price": 74800}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-04-27", "dong": "인창동", "floor": 5, "jibun": "665-1", "price": 60000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-04-27", "dong": "인창동", "floor": 14, "jibun": "666-1", "price": 58000}
+{"apt": "주공6", "area": 59.76, "built": 1996, "date": "2021-04-27", "dong": "인창동", "floor": 5, "jibun": "668-1", "price": 60000}
+{"apt": "한성", "area": 84.99, "built": 1990, "date": "2021-04-28", "dong": "교문동", "floor": 4, "jibun": "766-1", "price": 75500}
+{"apt": "범우", "area": 46.03, "built": 1988, "date": "2021-04-28", "dong": "수택동", "floor": 5, "jibun": "471-1", "price": 28000}
+{"apt": "주공6", "area": 39.87, "built": 1996, "date": "2021-04-28", "dong": "인창동", "floor": 7, "jibun": "668-1", "price": 42400}
+{"apt": "한성", "area": 71.79, "built": 1990, "date": "2021-04-29", "dong": "교문동", "floor": 1, "jibun": "766-1", "price": 69500}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2021-04-29", "dong": "인창동", "floor": 10, "jibun": "663-1", "price": 60000}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2021-04-29", "dong": "인창동", "floor": 3, "jibun": "664-1", "price": 72500}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-04-29", "dong": "인창동", "floor": 15, "jibun": "666-1", "price": 59500}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-04-30", "dong": "교문동", "floor": 5, "jibun": "808", "price": 60500}
+{"apt": "성경(626-18)", "area": 59.01, "built": 1997, "date": "2021-04-30", "dong": "수택동", "floor": 1, "jibun": "626-18", "price": 38000}
+{"apt": "주공6", "area": 59.56, "built": 1996, "date": "2021-05-03", "dong": "인창동", "floor": 3, "jibun": "668-1", "price": 59500}
+{"apt": "구리두산", "area": 59.99, "built": 1991, "date": "2021-05-04", "dong": "교문동", "floor": 5, "jibun": "766", "price": 62700}
+{"apt": "교문(동양고속)", "area": 84.7, "built": 1994, "date": "2021-05-04", "dong": "교문동", "floor": 2, "jibun": "809-3", "price": 77500}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2021-05-04", "dong": "수택동", "floor": 15, "jibun": "854", "price": 59000}
+{"apt": "한성", "area": 84.99, "built": 1990, "date": "2021-05-05", "dong": "교문동", "floor": 4, "jibun": "766-1", "price": 75000}
+{"apt": "원일(552)", "area": 69.89, "built": 1989, "date": "2021-05-05", "dong": "수택동", "floor": 5, "jibun": "552", "price": 53000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-05-05", "dong": "수택동", "floor": 11, "jibun": "854", "price": 59500}
+{"apt": "대림한숲", "area": 84.25, "built": 1995, "date": "2021-05-05", "dong": "수택동", "floor": 14, "jibun": "854", "price": 85000}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2021-05-05", "dong": "인창동", "floor": 3, "jibun": "664-1", "price": 70500}
+{"apt": "신일", "area": 124.47, "built": 1996, "date": "2021-05-05", "dong": "인창동", "floor": 10, "jibun": "667-1", "price": 110000}
+{"apt": "주공2", "area": 49.95, "built": 1997, "date": "2021-05-06", "dong": "인창동", "floor": 16, "jibun": "664-1", "price": 51000}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2021-05-07", "dong": "수택동", "floor": 16, "jibun": "854-2", "price": 57000}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2021-05-07", "dong": "인창동", "floor": 7, "jibun": "663-1", "price": 62000}
+{"apt": "주공2", "area": 49.95, "built": 1997, "date": "2021-05-07", "dong": "인창동", "floor": 4, "jibun": "664-1", "price": 50000}
+{"apt": "주공4-1", "area": 49.69, "built": 1996, "date": "2021-05-08", "dong": "인창동", "floor": 11, "jibun": "666-1", "price": 49470}
+{"apt": "주공4-2", "area": 59.97, "built": 1996, "date": "2021-05-08", "dong": "인창동", "floor": 16, "jibun": "666-1", "price": 57300}
+{"apt": "신일", "area": 99.97, "built": 1996, "date": "2021-05-08", "dong": "인창동", "floor": 3, "jibun": "667-1", "price": 84000}
+{"apt": "원일(552)", "area": 57.87, "built": 1989, "date": "2021-05-10", "dong": "수택동", "floor": 1, "jibun": "552", "price": 31500}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-05-10", "dong": "인창동", "floor": 14, "jibun": "666-1", "price": 58500}
+{"apt": "주공4-2", "area": 59.56, "built": 1996, "date": "2021-05-10", "dong": "인창동", "floor": 17, "jibun": "666-1", "price": 56850}
+{"apt": "엘지원앙", "area": 70.2, "built": 1995, "date": "2021-05-11", "dong": "수택동", "floor": 5, "jibun": "854-2", "price": 77800}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-05-12", "dong": "교문동", "floor": 4, "jibun": "808", "price": 59900}
+{"apt": "덕현", "area": 84.57, "built": 1993, "date": "2021-05-12", "dong": "교문동", "floor": 10, "jibun": "808", "price": 84700}
+{"apt": "한성", "area": 71.79, "built": 1990, "date": "2021-05-14", "dong": "교문동", "floor": 1, "jibun": "766-1", "price": 69000}
+{"apt": "주공1", "area": 37.67, "built": 1996, "date": "2021-05-14", "dong": "인창동", "floor": 7, "jibun": "663-1", "price": 40000}
+{"apt": "주공4-2", "area": 59.97, "built": 1996, "date": "2021-05-16", "dong": "인창동", "floor": 12, "jibun": "666-1", "price": 57500}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-05-17", "dong": "교문동", "floor": 7, "jibun": "808", "price": 61800}
+{"apt": "하나(한성)아파트", "area": 84.73, "built": 1994, "date": "2021-05-17", "dong": "교문동", "floor": 11, "jibun": "809-1", "price": 78000}
+{"apt": "쌍용", "area": 59.92, "built": 1996, "date": "2021-05-17", "dong": "수택동", "floor": 14, "jibun": "440", "price": 53700}
+{"apt": "범우", "area": 48.64, "built": 1988, "date": "2021-05-17", "dong": "수택동", "floor": 5, "jibun": "471-1", "price": 24000}
+{"apt": "한가람아파트", "area": 62.01, "built": 1994, "date": "2021-05-18", "dong": "교문동", "floor": 6, "jibun": "809", "price": 69900}
+{"apt": "구리(한양)", "area": 84.9, "built": 1994, "date": "2021-05-18", "dong": "교문동", "floor": 8, "jibun": "809-2", "price": 86500}
+{"apt": "교문(동양고속)", "area": 134.64, "built": 1994, "date": "2021-05-18", "dong": "교문동", "floor": 13, "jibun": "809-3", "price": 100000}
+{"apt": "엘지원앙", "area": 84.97, "built": 1995, "date": "2021-05-18", "dong": "수택동", "floor": 10, "jibun": "854-2", "price": 88500}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-05-18", "dong": "인창동", "floor": 8, "jibun": "666-1", "price": 60500}
+{"apt": "덕현", "area": 84.57, "built": 1993, "date": "2021-05-19", "dong": "교문동", "floor": 9, "jibun": "808", "price": 84500}
+{"apt": "구리(우성)", "area": 60.56, "built": 1994, "date": "2021-05-19", "dong": "교문동", "floor": 9, "jibun": "809-2", "price": 64500}
+{"apt": "쌍용", "area": 84.69, "built": 1996, "date": "2021-05-19", "dong": "수택동", "floor": 6, "jibun": "440", "price": 59800}
+{"apt": "주공4-2", "area": 59.98, "built": 1996, "date": "2021-05-19", "dong": "인창동", "floor": 11, "jibun": "666-1", "price": 58400}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2021-05-20", "dong": "교문동", "floor": 8, "jibun": "809-1", "price": 75000}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2021-05-21", "dong": "수택동", "floor": 2, "jibun": "854-2", "price": 56800}
+{"apt": "주공1", "area": 37.67, "built": 1996, "date": "2021-05-21", "dong": "인창동", "floor": 1, "jibun": "663-1", "price": 40000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-05-22", "dong": "수택동", "floor": 2, "jibun": "854", "price": 52000}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2021-05-22", "dong": "수택동", "floor": 4, "jibun": "854-2", "price": 57500}
+{"apt": "주공2", "area": 49.95, "built": 1997, "date": "2021-05-22", "dong": "인창동", "floor": 5, "jibun": "664-1", "price": 45500}
+{"apt": "쌍용", "area": 84.69, "built": 1996, "date": "2021-05-24", "dong": "수택동", "floor": 20, "jibun": "440", "price": 62600}
+{"apt": "주공6", "area": 39.87, "built": 1996, "date": "2021-05-24", "dong": "인창동", "floor": 6, "jibun": "668-1", "price": 41000}
+{"apt": "삼산", "area": 48.45, "built": 1991, "date": "2021-05-26", "dong": "교문동", "floor": 4, "jibun": "233-35", "price": 17000}
+{"apt": "주공1", "area": 37.67, "built": 1996, "date": "2021-05-26", "dong": "인창동", "floor": 14, "jibun": "663-1", "price": 40400}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-05-26", "dong": "인창동", "floor": 4, "jibun": "665-1", "price": 83800}
+{"apt": "하나(유원)아파트", "area": 122.58, "built": 1994, "date": "2021-05-27", "dong": "교문동", "floor": 13, "jibun": "809-1", "price": 104000}
+{"apt": "구리(한양)", "area": 101.95, "built": 1994, "date": "2021-05-27", "dong": "교문동", "floor": 4, "jibun": "809-2", "price": 93000}
+{"apt": "대림한숲", "area": 84.25, "built": 1995, "date": "2021-05-27", "dong": "수택동", "floor": 12, "jibun": "854", "price": 84000}
+{"apt": "한성3", "area": 59.72, "built": 1994, "date": "2021-05-27", "dong": "수택동", "floor": 5, "jibun": "854-3", "price": 64000}
+{"apt": "비둘기", "area": 62.16, "built": 1990, "date": "2021-05-27", "dong": "인창동", "floor": 5, "jibun": "383-36", "price": 27000}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2021-05-27", "dong": "인창동", "floor": 3, "jibun": "663-1", "price": 59500}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2021-05-27", "dong": "인창동", "floor": 20, "jibun": "664-1", "price": 45500}
+{"apt": "한가람아파트", "area": 62.01, "built": 1994, "date": "2021-05-29", "dong": "교문동", "floor": 2, "jibun": "809", "price": 64500}
+{"apt": "구리(한양)", "area": 60.44, "built": 1994, "date": "2021-05-29", "dong": "교문동", "floor": 13, "jibun": "809-2", "price": 65500}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-05-29", "dong": "수택동", "floor": 2, "jibun": "854", "price": 54500}
+{"apt": "엘지원앙", "area": 52.08, "built": 1995, "date": "2021-05-29", "dong": "수택동", "floor": 8, "jibun": "854-2", "price": 63800}
+{"apt": "건영", "area": 83.87, "built": 1994, "date": "2021-05-29", "dong": "인창동", "floor": 16, "jibun": "474", "price": 61500}
+{"apt": "주공1", "area": 37.67, "built": 1996, "date": "2021-05-29", "dong": "인창동", "floor": 9, "jibun": "663-1", "price": 42900}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2021-05-29", "dong": "인창동", "floor": 7, "jibun": "663-1", "price": 60000}
+{"apt": "주공4-2", "area": 59.56, "built": 1996, "date": "2021-05-29", "dong": "인창동", "floor": 15, "jibun": "666-1", "price": 59500}
+{"apt": "주공4-2", "area": 59.97, "built": 1996, "date": "2021-05-29", "dong": "인창동", "floor": 18, "jibun": "666-1", "price": 59300}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2021-05-29", "dong": "인창동", "floor": 6, "jibun": "668-1", "price": 63900}
+{"apt": "주공6", "area": 59.76, "built": 1996, "date": "2021-05-29", "dong": "인창동", "floor": 18, "jibun": "668-1", "price": 62800}
+{"apt": "주공2", "area": 39.86, "built": 1997, "date": "2021-05-30", "dong": "인창동", "floor": 20, "jibun": "664-1", "price": 39900}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2021-05-30", "dong": "인창동", "floor": 8, "jibun": "664-1", "price": 74950}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-05-31", "dong": "수택동", "floor": 15, "jibun": "854", "price": 56000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-05-31", "dong": "인창동", "floor": 3, "jibun": "666-1", "price": 56500}
+{"apt": "한가람아파트", "area": 84.92, "built": 1994, "date": "2021-06-02", "dong": "교문동", "floor": 12, "jibun": "809", "price": 89000}
+{"apt": "한성", "area": 84.99, "built": 1990, "date": "2021-06-03", "dong": "교문동", "floor": 1, "jibun": "766-1", "price": 78000}
+{"apt": "한인(라동)", "area": 67.86, "built": 1990, "date": "2021-06-03", "dong": "수택동", "floor": 3, "jibun": "517-1", "price": 42000}
+{"apt": "부영105동", "area": 55.05, "built": 1997, "date": "2021-06-04", "dong": "인창동", "floor": 4, "jibun": "641-12", "price": 25900}
+{"apt": "교문(대우)", "area": 134.64, "built": 1994, "date": "2021-06-07", "dong": "교문동", "floor": 6, "jibun": "809-3", "price": 107500}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2021-06-08", "dong": "인창동", "floor": 10, "jibun": "663-1", "price": 61500}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2021-06-08", "dong": "인창동", "floor": 8, "jibun": "664-1", "price": 74700}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2021-06-08", "dong": "인창동", "floor": 9, "jibun": "668-1", "price": 63200}
+{"apt": "주공4-1", "area": 49.69, "built": 1996, "date": "2021-06-10", "dong": "인창동", "floor": 13, "jibun": "666-1", "price": 52800}
+{"apt": "주공4-2", "area": 59.97, "built": 1996, "date": "2021-06-10", "dong": "인창동", "floor": 9, "jibun": "666-1", "price": 60000}
+{"apt": "주공2", "area": 49.95, "built": 1997, "date": "2021-06-11", "dong": "인창동", "floor": 2, "jibun": "664-1", "price": 48400}
+{"apt": "삼산", "area": 53.62, "built": 1991, "date": "2021-06-12", "dong": "교문동", "floor": 5, "jibun": "233-35", "price": 16000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-06-12", "dong": "수택동", "floor": 18, "jibun": "854", "price": 56000}
+{"apt": "현대홈타운", "area": 82.08, "built": 2002, "date": "2021-06-12", "dong": "인창동", "floor": 13, "jibun": "508", "price": 80000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-06-12", "dong": "인창동", "floor": 6, "jibun": "666-1", "price": 59700}
+{"apt": "주공6", "area": 49.67, "built": 1996, "date": "2021-06-12", "dong": "인창동", "floor": 11, "jibun": "668-1", "price": 50700}
+{"apt": "구리(우성)", "area": 60.56, "built": 1994, "date": "2021-06-14", "dong": "교문동", "floor": 4, "jibun": "809-2", "price": 63800}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2021-06-14", "dong": "수택동", "floor": 10, "jibun": "853", "price": 55000}
+{"apt": "일우(가,나동)", "area": 45.05, "built": 1997, "date": "2021-06-15", "dong": "수택동", "floor": 5, "jibun": "626-2", "price": 10000}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2021-06-16", "dong": "수택동", "floor": 11, "jibun": "853", "price": 49800}
+{"apt": "주공2", "area": 39.86, "built": 1997, "date": "2021-06-16", "dong": "인창동", "floor": 6, "jibun": "664-1", "price": 44500}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2021-06-17", "dong": "수택동", "floor": 6, "jibun": "853", "price": 36500}
+{"apt": "한성3", "area": 59.72, "built": 1994, "date": "2021-06-17", "dong": "수택동", "floor": 13, "jibun": "854-3", "price": 65700}
+{"apt": "삼호", "area": 56.7, "built": 1991, "date": "2021-06-17", "dong": "인창동", "floor": 12, "jibun": "590", "price": 54500}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2021-06-17", "dong": "인창동", "floor": 10, "jibun": "668-1", "price": 61000}
+{"apt": "건영", "area": 83.87, "built": 1994, "date": "2021-06-18", "dong": "인창동", "floor": 7, "jibun": "474", "price": 64000}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2021-06-18", "dong": "인창동", "floor": 7, "jibun": "663-1", "price": 59000}
+{"apt": "개나리", "area": 58.83, "built": 1997, "date": "2021-06-19", "dong": "수택동", "floor": 3, "jibun": "611-1", "price": 38000}
+{"apt": "주공4-2", "area": 59.93, "built": 1996, "date": "2021-06-19", "dong": "인창동", "floor": 9, "jibun": "666-1", "price": 58500}
+{"apt": "주공6", "area": 59.76, "built": 1996, "date": "2021-06-19", "dong": "인창동", "floor": 6, "jibun": "668-1", "price": 61800}
+{"apt": "원일(555)", "area": 58.32, "built": 1989, "date": "2021-06-20", "dong": "수택동", "floor": 3, "jibun": "555", "price": 49500}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2021-06-21", "dong": "인창동", "floor": 4, "jibun": "663-1", "price": 59700}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-06-21", "dong": "인창동", "floor": 3, "jibun": "666-1", "price": 62000}
+{"apt": "구리(우성)", "area": 60.56, "built": 1994, "date": "2021-06-22", "dong": "교문동", "floor": 9, "jibun": "809-2", "price": 63800}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2021-06-22", "dong": "인창동", "floor": 1, "jibun": "664-1", "price": 71000}
+{"apt": "주공4-1", "area": 49.69, "built": 1996, "date": "2021-06-22", "dong": "인창동", "floor": 14, "jibun": "666-1", "price": 50000}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2021-06-23", "dong": "교문동", "floor": 19, "jibun": "809-1", "price": 73800}
+{"apt": "엘지원앙", "area": 52.08, "built": 1995, "date": "2021-06-23", "dong": "수택동", "floor": 14, "jibun": "854-2", "price": 64700}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2021-06-23", "dong": "인창동", "floor": 12, "jibun": "663-1", "price": 61000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-06-24", "dong": "교문동", "floor": 13, "jibun": "808", "price": 61900}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2021-06-24", "dong": "수택동", "floor": 8, "jibun": "853", "price": 35000}
+{"apt": "신일", "area": 99.97, "built": 1996, "date": "2021-06-24", "dong": "인창동", "floor": 10, "jibun": "667-1", "price": 89000}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2021-06-24", "dong": "인창동", "floor": 1, "jibun": "668-1", "price": 58500}
+{"apt": "주공4-2", "area": 59.56, "built": 1996, "date": "2021-06-25", "dong": "인창동", "floor": 13, "jibun": "666-1", "price": 58000}
+{"apt": "교문(동양고속)", "area": 61.06, "built": 1994, "date": "2021-06-26", "dong": "교문동", "floor": 7, "jibun": "809-3", "price": 64500}
+{"apt": "범우", "area": 46.03, "built": 1988, "date": "2021-06-26", "dong": "수택동", "floor": 2, "jibun": "471-1", "price": 36000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-06-26", "dong": "수택동", "floor": 18, "jibun": "854", "price": 59800}
+{"apt": "건영", "area": 83.87, "built": 1994, "date": "2021-06-26", "dong": "인창동", "floor": 3, "jibun": "474", "price": 61500}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2021-06-26", "dong": "인창동", "floor": 10, "jibun": "663-1", "price": 62300}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2021-06-26", "dong": "인창동", "floor": 7, "jibun": "664-1", "price": 72000}
+{"apt": "교문(동양고속)", "area": 61.06, "built": 1994, "date": "2021-06-27", "dong": "교문동", "floor": 12, "jibun": "809-3", "price": 64500}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2021-06-28", "dong": "인창동", "floor": 2, "jibun": "663-1", "price": 59900}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2021-06-29", "dong": "수택동", "floor": 16, "jibun": "854", "price": 66000}
+{"apt": "주공1", "area": 59.93, "built": 1996, "date": "2021-06-29", "dong": "인창동", "floor": 10, "jibun": "663-1", "price": 59900}
+{"apt": "주공1", "area": 59.93, "built": 1996, "date": "2021-06-29", "dong": "인창동", "floor": 17, "jibun": "663-1", "price": 60000}
+{"apt": "주공4-2", "area": 59.98, "built": 1996, "date": "2021-06-30", "dong": "인창동", "floor": 5, "jibun": "666-1", "price": 58700}
+{"apt": "하나(한성)아파트", "area": 84.73, "built": 1994, "date": "2021-07-01", "dong": "교문동", "floor": 12, "jibun": "809-1", "price": 80500}
+{"apt": "주공1", "area": 59.93, "built": 1996, "date": "2021-07-01", "dong": "인창동", "floor": 1, "jibun": "663-1", "price": 57000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-07-02", "dong": "수택동", "floor": 14, "jibun": "854", "price": 61500}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2021-07-02", "dong": "인창동", "floor": 14, "jibun": "663-1", "price": 62700}
+{"apt": "한가람아파트", "area": 62.01, "built": 1994, "date": "2021-07-05", "dong": "교문동", "floor": 3, "jibun": "809", "price": 66000}
+{"apt": "부영A", "area": 45.0, "built": 1996, "date": "2021-07-05", "dong": "인창동", "floor": 2, "jibun": "640-44", "price": 23500}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2021-07-05", "dong": "인창동", "floor": 5, "jibun": "664-1", "price": 79700}
+{"apt": "주공4-2", "area": 59.98, "built": 1996, "date": "2021-07-05", "dong": "인창동", "floor": 2, "jibun": "666-1", "price": 53000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-07-06", "dong": "교문동", "floor": 1, "jibun": "808", "price": 55000}
+{"apt": "한가람아파트", "area": 62.01, "built": 1994, "date": "2021-07-06", "dong": "교문동", "floor": 6, "jibun": "809", "price": 69700}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-07-06", "dong": "수택동", "floor": 17, "jibun": "854", "price": 61800}
+{"apt": "덕현", "area": 84.57, "built": 1993, "date": "2021-07-07", "dong": "교문동", "floor": 18, "jibun": "808", "price": 85000}
+{"apt": "한가람아파트", "area": 84.92, "built": 1994, "date": "2021-07-07", "dong": "교문동", "floor": 15, "jibun": "809", "price": 85000}
+{"apt": "구리(우성)", "area": 84.9, "built": 1994, "date": "2021-07-07", "dong": "교문동", "floor": 14, "jibun": "809-2", "price": 89000}
+{"apt": "대명(610-20)", "area": 56.61, "built": 1989, "date": "2021-07-07", "dong": "인창동", "floor": 3, "jibun": "610-20", "price": 37000}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2021-07-07", "dong": "인창동", "floor": 3, "jibun": "663-1", "price": 59000}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2021-07-08", "dong": "수택동", "floor": 10, "jibun": "853", "price": 57000}
+{"apt": "한가람아파트", "area": 62.01, "built": 1994, "date": "2021-07-09", "dong": "교문동", "floor": 8, "jibun": "809", "price": 71000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-07-10", "dong": "교문동", "floor": 14, "jibun": "808", "price": 65000}
+{"apt": "하나(한성)아파트", "area": 84.73, "built": 1994, "date": "2021-07-10", "dong": "교문동", "floor": 8, "jibun": "809-1", "price": 82500}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-07-10", "dong": "인창동", "floor": 8, "jibun": "666-1", "price": 60000}
+{"apt": "교문(대우)", "area": 61.22, "built": 1994, "date": "2021-07-12", "dong": "교문동", "floor": 5, "jibun": "809-3", "price": 64500}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-07-12", "dong": "수택동", "floor": 9, "jibun": "854", "price": 59800}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2021-07-13", "dong": "수택동", "floor": 1, "jibun": "854-2", "price": 59500}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2021-07-13", "dong": "인창동", "floor": 7, "jibun": "668-1", "price": 65000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-07-14", "dong": "교문동", "floor": 6, "jibun": "808", "price": 64700}
+{"apt": "하나(한성)아파트", "area": 84.73, "built": 1994, "date": "2021-07-14", "dong": "교문동", "floor": 15, "jibun": "809-1", "price": 86000}
+{"apt": "삼호", "area": 81.06, "built": 1991, "date": "2021-07-14", "dong": "인창동", "floor": 6, "jibun": "590", "price": 61000}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2021-07-14", "dong": "인창동", "floor": 15, "jibun": "663-1", "price": 64500}
+{"apt": "주공6", "area": 49.67, "built": 1996, "date": "2021-07-14", "dong": "인창동", "floor": 11, "jibun": "668-1", "price": 58200}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2021-07-15", "dong": "수택동", "floor": 5, "jibun": "854-2", "price": 63500}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-07-15", "dong": "인창동", "floor": 10, "jibun": "665-1", "price": 93500}
+{"apt": "교문(동양고속)", "area": 61.06, "built": 1994, "date": "2021-07-16", "dong": "교문동", "floor": 8, "jibun": "809-3", "price": 65900}
+{"apt": "한인(가,나동)", "area": 45.05, "built": 1989, "date": "2021-07-16", "dong": "수택동", "floor": 5, "jibun": "517-3", "price": 37000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-07-16", "dong": "인창동", "floor": 9, "jibun": "665-1", "price": 86000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-07-16", "dong": "인창동", "floor": 15, "jibun": "666-1", "price": 60000}
+{"apt": "쌍용", "area": 59.92, "built": 1996, "date": "2021-07-17", "dong": "수택동", "floor": 16, "jibun": "440", "price": 54800}
+{"apt": "주공6", "area": 59.56, "built": 1996, "date": "2021-07-17", "dong": "인창동", "floor": 6, "jibun": "668-1", "price": 65500}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2021-07-19", "dong": "수택동", "floor": 1, "jibun": "853", "price": 34700}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2021-07-20", "dong": "인창동", "floor": 5, "jibun": "663-1", "price": 63000}
+{"apt": "한가람아파트", "area": 62.01, "built": 1994, "date": "2021-07-21", "dong": "교문동", "floor": 3, "jibun": "809", "price": 69000}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2021-07-21", "dong": "수택동", "floor": 13, "jibun": "854-2", "price": 64800}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-07-21", "dong": "인창동", "floor": 2, "jibun": "666-1", "price": 57800}
+{"apt": "한가람아파트", "area": 84.92, "built": 1994, "date": "2021-07-22", "dong": "교문동", "floor": 8, "jibun": "809", "price": 83000}
+{"apt": "삼호", "area": 56.7, "built": 1991, "date": "2021-07-22", "dong": "인창동", "floor": 4, "jibun": "590", "price": 54500}
+{"apt": "쌍용", "area": 84.69, "built": 1996, "date": "2021-07-23", "dong": "수택동", "floor": 4, "jibun": "440", "price": 68000}
+{"apt": "엘지원앙", "area": 52.08, "built": 1995, "date": "2021-07-23", "dong": "수택동", "floor": 3, "jibun": "854-2", "price": 64000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-07-24", "dong": "교문동", "floor": 13, "jibun": "808", "price": 64700}
+{"apt": "덕현", "area": 134.98, "built": 1993, "date": "2021-07-24", "dong": "교문동", "floor": 2, "jibun": "808", "price": 91000}
+{"apt": "덕현", "area": 134.98, "built": 1993, "date": "2021-07-24", "dong": "교문동", "floor": 17, "jibun": "808", "price": 104000}
+{"apt": "원일(555)", "area": 58.32, "built": 1989, "date": "2021-07-24", "dong": "수택동", "floor": 3, "jibun": "555", "price": 51500}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2021-07-24", "dong": "수택동", "floor": 2, "jibun": "853", "price": 37500}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-07-24", "dong": "수택동", "floor": 12, "jibun": "854", "price": 63800}
+{"apt": "대림한숲", "area": 84.25, "built": 1995, "date": "2021-07-24", "dong": "수택동", "floor": 10, "jibun": "854", "price": 84000}
+{"apt": "교문(대우)", "area": 84.7, "built": 1994, "date": "2021-07-26", "dong": "교문동", "floor": 12, "jibun": "809-3", "price": 97000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-07-26", "dong": "수택동", "floor": 9, "jibun": "854", "price": 61800}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2021-07-27", "dong": "수택동", "floor": 15, "jibun": "854", "price": 73000}
+{"apt": "한인(가,나동)", "area": 45.53, "built": 1989, "date": "2021-07-28", "dong": "수택동", "floor": 3, "jibun": "517-3", "price": 37000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-07-28", "dong": "인창동", "floor": 8, "jibun": "666-1", "price": 62500}
+{"apt": "구리두산", "area": 59.99, "built": 1991, "date": "2021-07-30", "dong": "교문동", "floor": 2, "jibun": "766", "price": 73000}
+{"apt": "덕현", "area": 101.86, "built": 1993, "date": "2021-07-30", "dong": "교문동", "floor": 12, "jibun": "808", "price": 97500}
+{"apt": "교문(대우)", "area": 134.64, "built": 1994, "date": "2021-07-30", "dong": "교문동", "floor": 11, "jibun": "809-3", "price": 105000}
+{"apt": "신일", "area": 124.47, "built": 1996, "date": "2021-07-30", "dong": "인창동", "floor": 4, "jibun": "667-1", "price": 108000}
+{"apt": "구리(한양)", "area": 101.95, "built": 1994, "date": "2021-07-31", "dong": "교문동", "floor": 9, "jibun": "809-2", "price": 103800}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2021-07-31", "dong": "수택동", "floor": 6, "jibun": "853", "price": 39800}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-07-31", "dong": "수택동", "floor": 18, "jibun": "854", "price": 63000}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2021-07-31", "dong": "수택동", "floor": 1, "jibun": "854", "price": 64900}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2021-07-31", "dong": "인창동", "floor": 15, "jibun": "663-1", "price": 58800}
+{"apt": "한가람아파트", "area": 121.77, "built": 1994, "date": "2021-08-02", "dong": "교문동", "floor": 1, "jibun": "809", "price": 95000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-08-02", "dong": "수택동", "floor": 16, "jibun": "854", "price": 61000}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2021-08-02", "dong": "인창동", "floor": 1, "jibun": "663-1", "price": 60000}
+{"apt": "주공1", "area": 59.93, "built": 1996, "date": "2021-08-02", "dong": "인창동", "floor": 13, "jibun": "663-1", "price": 62000}
+{"apt": "한가람아파트", "area": 62.01, "built": 1994, "date": "2021-08-03", "dong": "교문동", "floor": 16, "jibun": "809", "price": 69500}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-08-03", "dong": "수택동", "floor": 12, "jibun": "854", "price": 64500}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2021-08-03", "dong": "수택동", "floor": 1, "jibun": "854", "price": 67500}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2021-08-03", "dong": "인창동", "floor": 1, "jibun": "663-1", "price": 59900}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2021-08-03", "dong": "인창동", "floor": 12, "jibun": "663-1", "price": 64000}
+{"apt": "한성", "area": 84.99, "built": 1990, "date": "2021-08-04", "dong": "교문동", "floor": 5, "jibun": "766-1", "price": 75000}
+{"apt": "주공6", "area": 49.67, "built": 1996, "date": "2021-08-04", "dong": "인창동", "floor": 16, "jibun": "668-1", "price": 59000}
+{"apt": "주공6", "area": 59.76, "built": 1996, "date": "2021-08-09", "dong": "인창동", "floor": 19, "jibun": "668-1", "price": 70500}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-08-10", "dong": "교문동", "floor": 16, "jibun": "808", "price": 64800}
+{"apt": "덕현", "area": 134.98, "built": 1993, "date": "2021-08-10", "dong": "교문동", "floor": 7, "jibun": "808", "price": 100000}
+{"apt": "한가람아파트", "area": 62.01, "built": 1994, "date": "2021-08-10", "dong": "교문동", "floor": 14, "jibun": "809", "price": 71000}
+{"apt": "주공4-2", "area": 59.56, "built": 1996, "date": "2021-08-10", "dong": "인창동", "floor": 17, "jibun": "666-1", "price": 62500}
+{"apt": "하나(유원)아파트", "area": 122.58, "built": 1994, "date": "2021-08-11", "dong": "교문동", "floor": 8, "jibun": "809-1", "price": 109500}
+{"apt": "한가람아파트", "area": 62.01, "built": 1994, "date": "2021-08-12", "dong": "교문동", "floor": 11, "jibun": "809", "price": 67500}
+{"apt": "삼환", "area": 124.47, "built": 1996, "date": "2021-08-12", "dong": "인창동", "floor": 15, "jibun": "667-1", "price": 100000}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2021-08-13", "dong": "교문동", "floor": 18, "jibun": "809-1", "price": 81300}
+{"apt": "한성", "area": 71.79, "built": 1990, "date": "2021-08-14", "dong": "교문동", "floor": 1, "jibun": "766-1", "price": 74700}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2021-08-14", "dong": "인창동", "floor": 11, "jibun": "664-1", "price": 80000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2021-08-14", "dong": "인창동", "floor": 7, "jibun": "666-1", "price": 66000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-08-16", "dong": "교문동", "floor": 8, "jibun": "808", "price": 66000}
+{"apt": "한가람아파트", "area": 84.92, "built": 1994, "date": "2021-08-16", "dong": "교문동", "floor": 10, "jibun": "809", "price": 89200}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2021-08-16", "dong": "수택동", "floor": 2, "jibun": "854-2", "price": 64000}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2021-08-16", "dong": "인창동", "floor": 11, "jibun": "668-1", "price": 69800}
+{"apt": "교문(동양고속)", "area": 84.7, "built": 1994, "date": "2021-08-18", "dong": "교문동", "floor": 5, "jibun": "809-3", "price": 86000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-08-19", "dong": "수택동", "floor": 8, "jibun": "854", "price": 63000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2021-08-19", "dong": "수택동", "floor": 9, "jibun": "854", "price": 63500}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2021-08-20", "dong": "수택동", "floor": 12, "jibun": "854", "price": 75000}
+{"apt": "쌍용", "area": 59.92, "built": 1996, "date": "2021-08-23", "dong": "수택동", "floor": 9, "jibun": "440", "price": 55500}
+{"apt": "교문(동양고속)", "area": 61.06, "built": 1994, "date": "2021-08-24", "dong": "교문동", "floor": 10, "jibun": "809-3", "price": 70500}
+{"apt": "주공2", "area": 49.95, "built": 1997, "date": "2021-08-24", "dong": "인창동", "floor": 14, "jibun": "664-1", "price": 64850}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2021-08-26", "dong": "수택동", "floor": 6, "jibun": "853", "price": 41000}
+{"apt": "주공6", "area": 59.76, "built": 1996, "date": "2021-08-26", "dong": "인창동", "floor": 8, "jibun": "668-1", "price": 67000}
+{"apt": "덕현", "area": 84.57, "built": 1993, "date": "2021-08-27", "dong": "교문동", "floor": 12, "jibun": "808", "price": 83000}
+{"apt": "일우", "area": 48.64, "built": 1997, "date": "2021-08-27", "dong": "수택동", "floor": 2, "jibun": "611-2", "price": 31000}
+{"apt": "건영", "area": 83.87, "built": 1994, "date": "2021-08-27", "dong": "인창동", "floor": 10, "jibun": "474", "price": 62200}
+{"apt": "한인(가,나동)", "area": 45.53, "built": 1989, "date": "2021-08-28", "dong": "수택동", "floor": 5, "jibun": "517-3", "price": 39800}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2021-08-28", "dong": "인창동", "floor": 8, "jibun": "663-1", "price": 69000}
+{"apt": "주공2", "area": 39.86, "built": 1997, "date": "2021-08-28", "dong": "인창동", "floor": 8, "jibun": "664-1", "price": 49500}
+{"apt": "덕현", "area": 84.57, "built": 1993, "date": "2021-08-30", "dong": "교문동", "floor": 13, "jibun": "808", "price": 85700}
+{"apt": "주공6", "area": 39.87, "built": 1996, "date": "2021-09-02", "dong": "인창동", "floor": 10, "jibun": "668-1", "price": 55000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-09-03", "dong": "교문동", "floor": 4, "jibun": "808", "price": 64500}
+{"apt": "하나(한성)아파트", "area": 101.83, "built": 1994, "date": "2021-09-03", "dong": "교문동", "floor": 16, "jibun": "809-1", "price": 100000}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2021-09-04", "dong": "수택동", "floor": 1, "jibun": "853", "price": 60500}
+{"apt": "덕현", "area": 134.98, "built": 1993, "date": "2021-09-06", "dong": "교문동", "floor": 19, "jibun": "808", "price": 107000}
+{"apt": "덕현", "area": 84.57, "built": 1993, "date": "2021-09-07", "dong": "교문동", "floor": 10, "jibun": "808", "price": 87500}
+{"apt": "유창", "area": 53.82, "built": 1997, "date": "2021-09-08", "dong": "수택동", "floor": 5, "jibun": "454-44", "price": 39800}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-09-09", "dong": "교문동", "floor": 7, "jibun": "808", "price": 66800}
+{"apt": "교문(대우)", "area": 134.64, "built": 1994, "date": "2021-09-09", "dong": "교문동", "floor": 1, "jibun": "809-3", "price": 92500}
+{"apt": "한가람아파트", "area": 84.92, "built": 1994, "date": "2021-09-10", "dong": "교문동", "floor": 3, "jibun": "809", "price": 88000}
+{"apt": "건영", "area": 83.87, "built": 1994, "date": "2021-09-10", "dong": "인창동", "floor": 4, "jibun": "474", "price": 69000}
+{"apt": "현대홈타운", "area": 82.08, "built": 2002, "date": "2021-09-13", "dong": "인창동", "floor": 8, "jibun": "508", "price": 80500}
+{"apt": "한인", "area": 65.73, "built": 1991, "date": "2021-09-14", "dong": "교문동", "floor": 1, "jibun": "197-16", "price": 27900}
+{"apt": "건영", "area": 83.87, "built": 1994, "date": "2021-09-14", "dong": "인창동", "floor": 1, "jibun": "474", "price": 66000}
+{"apt": "주공4-2", "area": 59.98, "built": 1996, "date": "2021-09-14", "dong": "인창동", "floor": 14, "jibun": "666-1", "price": 67000}
+{"apt": "대림한숲", "area": 84.25, "built": 1995, "date": "2021-09-15", "dong": "수택동", "floor": 8, "jibun": "854", "price": 94000}
+{"apt": "한가람아파트", "area": 62.01, "built": 1994, "date": "2021-09-16", "dong": "교문동", "floor": 5, "jibun": "809", "price": 74500}
+{"apt": "충효", "area": 44.03, "built": 1989, "date": "2021-09-16", "dong": "인창동", "floor": 4, "jibun": "297-2", "price": 85300}
+{"apt": "현대홈타운", "area": 82.08, "built": 2002, "date": "2021-09-16", "dong": "인창동", "floor": 1, "jibun": "508", "price": 85000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-09-16", "dong": "인창동", "floor": 1, "jibun": "665-1", "price": 86800}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2021-09-16", "dong": "인창동", "floor": 19, "jibun": "665-1", "price": 101500}
+{"apt": "신일", "area": 124.47, "built": 1996, "date": "2021-09-16", "dong": "인창동", "floor": 17, "jibun": "667-1", "price": 116000}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2021-09-17", "dong": "수택동", "floor": 1, "jibun": "854", "price": 68500}
+{"apt": "대림한숲", "area": 84.25, "built": 1995, "date": "2021-09-17", "dong": "수택동", "floor": 4, "jibun": "854", "price": 90500}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2021-09-18", "dong": "수택동", "floor": 12, "jibun": "853", "price": 41700}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2021-09-18", "dong": "수택동", "floor": 5, "jibun": "854", "price": 74500}
+{"apt": "일우(다동)", "area": 48.06, "built": 1997, "date": "2021-09-24", "dong": "수택동", "floor": 5, "jibun": "626-11", "price": 20000}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2021-09-24", "dong": "수택동", "floor": 5, "jibun": "853", "price": 60800}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2021-09-28", "dong": "교문동", "floor": 9, "jibun": "809-1", "price": 82000}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2021-09-28", "dong": "수택동", "floor": 1, "jibun": "854", "price": 71500}
+{"apt": "대명(610-20)", "area": 56.61, "built": 1989, "date": "2021-09-28", "dong": "인창동", "floor": 5, "jibun": "610-20", "price": 36000}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2021-09-29", "dong": "인창동", "floor": 11, "jibun": "663-1", "price": 68000}
+{"apt": "교문(대우)", "area": 61.22, "built": 1994, "date": "2021-09-30", "dong": "교문동", "floor": 3, "jibun": "809-3", "price": 68400}
+{"apt": "덕현", "area": 84.57, "built": 1993, "date": "2021-10-04", "dong": "교문동", "floor": 11, "jibun": "808", "price": 89500}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-10-05", "dong": "교문동", "floor": 15, "jibun": "808", "price": 67000}
+{"apt": "신래(441-12)", "area": 78.98, "built": 1992, "date": "2021-10-07", "dong": "수택동", "floor": 1, "jibun": "441-12", "price": 45000}
+{"apt": "덕현", "area": 84.57, "built": 1993, "date": "2021-10-09", "dong": "교문동", "floor": 17, "jibun": "808", "price": 89500}
+{"apt": "한인", "area": 65.73, "built": 1991, "date": "2021-10-16", "dong": "교문동", "floor": 5, "jibun": "197-16", "price": 27200}
+{"apt": "주공2", "area": 39.86, "built": 1997, "date": "2021-10-16", "dong": "인창동", "floor": 2, "jibun": "664-1", "price": 49700}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2021-10-18", "dong": "인창동", "floor": 19, "jibun": "663-1", "price": 69500}
+{"apt": "주공2", "area": 39.86, "built": 1997, "date": "2021-10-18", "dong": "인창동", "floor": 2, "jibun": "664-1", "price": 50900}
+{"apt": "한성3", "area": 59.72, "built": 1994, "date": "2021-10-19", "dong": "수택동", "floor": 20, "jibun": "854-3", "price": 71500}
+{"apt": "건영", "area": 83.87, "built": 1994, "date": "2021-10-20", "dong": "인창동", "floor": 10, "jibun": "474", "price": 77000}
+{"apt": "주공4-1", "area": 37.67, "built": 1996, "date": "2021-10-20", "dong": "인창동", "floor": 3, "jibun": "666-1", "price": 52000}
+{"apt": "엘지원앙", "area": 70.2, "built": 1995, "date": "2021-10-23", "dong": "수택동", "floor": 6, "jibun": "854-2", "price": 82000}
+{"apt": "구리두산", "area": 59.99, "built": 1991, "date": "2021-11-01", "deal_type": "중개거래", "dong": "교문동", "floor": 5, "jibun": "766", "price": 73000}
+{"apt": "구리두산", "area": 59.99, "built": 1991, "date": "2021-11-02", "deal_type": "중개거래", "dong": "교문동", "floor": 2, "jibun": "766", "price": 77000}
+{"apt": "한성3", "area": 59.72, "built": 1994, "date": "2021-11-05", "deal_type": "중개거래", "dong": "수택동", "floor": 15, "jibun": "854-3", "price": 71000}
+{"apt": "주공4-1", "area": 37.67, "built": 1996, "date": "2021-11-07", "deal_type": "중개거래", "dong": "인창동", "floor": 4, "jibun": "666-1", "price": 53500}
+{"apt": "일우(다동)", "area": 59.91, "built": 1997, "date": "2021-11-08", "deal_type": "중개거래", "dong": "수택동", "floor": 3, "jibun": "626-11", "price": 48000}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2021-11-10", "deal_type": "중개거래", "dong": "수택동", "floor": 5, "jibun": "853", "price": 40000}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2021-11-10", "deal_type": "중개거래", "dong": "수택동", "floor": 6, "jibun": "853", "price": 39000}
+{"apt": "덕현", "area": 84.57, "built": 1993, "date": "2021-11-11", "deal_type": "중개거래", "dong": "교문동", "floor": 18, "jibun": "808", "price": 98000}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2021-11-11", "deal_type": "중개거래", "dong": "수택동", "floor": 2, "jibun": "854", "price": 68300}
+{"apt": "하나(한성)아파트", "area": 101.83, "built": 1994, "date": "2021-11-13", "deal_type": "중개거래", "dong": "교문동", "floor": 3, "jibun": "809-1", "price": 97000}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2021-11-13", "deal_type": "중개거래", "dong": "수택동", "floor": 12, "jibun": "853", "price": 60000}
+{"apt": "비둘기", "area": 62.16, "built": 1990, "date": "2021-11-14", "deal_type": "중개거래", "dong": "인창동", "floor": 4, "jibun": "383-36", "price": 35000}
+{"apt": "건영", "area": 83.87, "built": 1994, "date": "2021-11-14", "deal_type": "중개거래", "dong": "인창동", "floor": 8, "jibun": "474", "price": 71000}
+{"apt": "한인(가,나동)", "area": 45.53, "built": 1989, "date": "2021-11-16", "deal_type": "중개거래", "dong": "수택동", "floor": 2, "jibun": "517-3", "price": 37500}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2021-11-17", "deal_type": "중개거래", "dong": "인창동", "floor": 10, "jibun": "663-1", "price": 67000}
+{"apt": "하나(한성)아파트", "area": 84.73, "built": 1994, "date": "2021-11-22", "deal_type": "중개거래", "dong": "교문동", "floor": 13, "jibun": "809-1", "price": 92000}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2021-11-22", "deal_type": "중개거래", "dong": "인창동", "floor": 9, "jibun": "663-1", "price": 67700}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2021-11-24", "deal_type": "중개거래", "dong": "수택동", "floor": 4, "jibun": "853", "price": 60000}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2021-12-03", "deal_type": "중개거래", "dong": "수택동", "floor": 7, "jibun": "853", "price": 42700}
+{"apt": "부영102", "area": 59.94, "built": 1997, "date": "2021-12-14", "deal_type": "중개거래", "dong": "인창동", "floor": 4, "jibun": "641-5", "price": 29300}
+{"apt": "주공6", "area": 49.67, "built": 1996, "date": "2021-12-16", "deal_type": "중개거래", "dong": "인창동", "floor": 9, "jibun": "668-1", "price": 66900}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2021-12-21", "deal_type": "중개거래", "dong": "인창동", "floor": 7, "jibun": "663-1", "price": 65000}
+{"apt": "쌍용", "area": 59.92, "built": 1996, "date": "2021-12-22", "deal_type": "중개거래", "dong": "수택동", "floor": 3, "jibun": "440", "price": 57500}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2021-12-23", "deal_type": "중개거래", "dong": "교문동", "floor": 9, "jibun": "808", "price": 64800}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2021-12-30", "deal_type": "중개거래", "dong": "인창동", "floor": 5, "jibun": "664-1", "price": 74000}
+{"apt": "진양(626-25)", "area": 59.82, "built": 1997, "date": "2021-12-31", "deal_type": "중개거래", "dong": "수택동", "floor": 5, "jibun": "626-25", "price": 52000}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2022-01-05", "deal_type": "중개거래", "dong": "수택동", "floor": 2, "jibun": "853", "price": 57700}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2022-01-08", "deal_type": "중개거래", "dong": "수택동", "floor": 1, "jibun": "854-2", "price": 59800}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2022-01-08", "deal_type": "중개거래", "dong": "인창동", "floor": 2, "jibun": "664-1", "price": 73500}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2022-01-10", "deal_type": "중개거래", "dong": "인창동", "floor": 12, "jibun": "663-1", "price": 55000}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2022-01-10", "deal_type": "중개거래", "dong": "인창동", "floor": 6, "jibun": "664-1", "price": 77000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2022-01-14", "deal_type": "중개거래", "dong": "교문동", "floor": 16, "jibun": "808", "price": 60500}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2022-01-17", "deal_type": "중개거래", "dong": "수택동", "floor": 11, "jibun": "854", "price": 63500}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2022-01-18", "deal_type": "중개거래", "dong": "인창동", "floor": 3, "jibun": "663-1", "price": 60000}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2022-01-22", "deal_type": "중개거래", "dong": "수택동", "floor": 11, "jibun": "854-2", "price": 64500}
+{"apt": "주공1", "area": 37.67, "built": 1996, "date": "2022-01-25", "deal_type": "중개거래", "dong": "인창동", "floor": 11, "jibun": "663-1", "price": 45500}
+{"apt": "한인(가,나동)", "area": 45.05, "built": 1989, "date": "2022-01-29", "deal_type": "중개거래", "dong": "수택동", "floor": 4, "jibun": "517-3", "price": 44500}
+{"apt": "한성", "area": 84.99, "built": 1990, "date": "2022-02-07", "deal_type": "중개거래", "dong": "교문동", "floor": 3, "jibun": "766-1", "price": 81000}
+{"apt": "한가람아파트", "area": 121.77, "built": 1994, "date": "2022-02-16", "deal_type": "중개거래", "dong": "교문동", "floor": 10, "jibun": "809", "price": 87000}
+{"apt": "대명(610-20)", "area": 66.67, "built": 1989, "date": "2022-02-21", "deal_type": "직거래", "dong": "인창동", "floor": 1, "jibun": "610-20", "price": 37000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2022-02-21", "deal_type": "중개거래", "dong": "인창동", "floor": 4, "jibun": "665-1", "price": 90000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2022-02-22", "deal_type": "직거래", "dong": "교문동", "floor": 14, "jibun": "808", "price": 56000}
+{"apt": "덕현", "area": 84.57, "built": 1993, "date": "2022-02-23", "deal_type": "중개거래", "dong": "교문동", "floor": 17, "jibun": "808", "price": 89000}
+{"apt": "교문(대우)", "area": 61.06, "built": 1994, "date": "2022-02-23", "deal_type": "중개거래", "dong": "교문동", "floor": 10, "jibun": "809-3", "price": 69500}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2022-02-24", "deal_type": "중개거래", "dong": "인창동", "floor": 15, "jibun": "666-1", "price": 62000}
+{"apt": "한성", "area": 71.79, "built": 1990, "date": "2022-02-26", "deal_type": "중개거래", "dong": "교문동", "floor": 1, "jibun": "766-1", "price": 80000}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2022-02-26", "deal_type": "중개거래", "dong": "수택동", "floor": 16, "jibun": "854-2", "price": 57000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2022-03-01", "deal_type": "중개거래", "dong": "교문동", "floor": 4, "jibun": "808", "price": 60500}
+{"apt": "쌍용", "area": 84.69, "built": 1996, "date": "2022-03-04", "deal_type": "중개거래", "dong": "수택동", "floor": 14, "jibun": "440", "price": 70000}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2022-03-08", "deal_type": "중개거래", "dong": "수택동", "floor": 3, "jibun": "854-2", "price": 61500}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2022-03-09", "deal_type": "중개거래", "dong": "수택동", "floor": 3, "jibun": "854", "price": 71000}
+{"apt": "건영", "area": 83.87, "built": 1994, "date": "2022-03-09", "deal_type": "중개거래", "dong": "인창동", "floor": 7, "jibun": "474", "price": 72500}
+{"apt": "신동흥101동", "area": 53.55, "built": 1992, "date": "2022-03-09", "deal_type": "직거래", "dong": "인창동", "floor": 3, "jibun": "576-40", "price": 30000}
+{"apt": "부영(640-43)", "area": 59.22, "built": 1996, "date": "2022-03-09", "deal_type": "중개거래", "dong": "인창동", "floor": 2, "jibun": "640-43", "price": 27000}
+{"apt": "주공6", "area": 59.93, "built": 1996, "date": "2022-03-09", "deal_type": "중개거래", "dong": "인창동", "floor": 17, "jibun": "668-1", "price": 64000}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2022-03-11", "deal_type": "중개거래", "dong": "수택동", "floor": 4, "jibun": "854", "price": 68000}
+{"apt": "삼보", "area": 90.18, "built": 1996, "date": "2022-03-12", "deal_type": "중개거래", "dong": "인창동", "floor": 17, "jibun": "665-1", "price": 84000}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2022-03-15", "deal_type": "중개거래", "dong": "인창동", "floor": 9, "jibun": "664-1", "price": 77000}
+{"apt": "삼산", "area": 48.45, "built": 1991, "date": "2022-03-17", "deal_type": "중개거래", "dong": "교문동", "floor": 5, "jibun": "233-35", "price": 25000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2022-03-18", "deal_type": "중개거래", "dong": "교문동", "floor": 4, "jibun": "808", "price": 62000}
+{"apt": "엘지원앙", "area": 70.2, "built": 1995, "date": "2022-03-18", "deal_type": "직거래", "dong": "수택동", "floor": 10, "jibun": "854-2", "price": 80000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2022-03-22", "deal_type": "중개거래", "dong": "인창동", "floor": 7, "jibun": "665-1", "price": 88000}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2022-03-23", "deal_type": "중개거래", "dong": "교문동", "floor": 14, "jibun": "809-1", "price": 83000}
+{"apt": "교문(대우)", "area": 61.22, "built": 1994, "date": "2022-03-23", "deal_type": "중개거래", "dong": "교문동", "floor": 16, "jibun": "809-3", "price": 62500}
+{"apt": "교문(동양고속)", "area": 61.22, "built": 1994, "date": "2022-03-23", "deal_type": "중개거래", "dong": "교문동", "floor": 2, "jibun": "809-3", "price": 68000}
+{"apt": "교문(대우)", "area": 61.22, "built": 1994, "date": "2022-03-26", "deal_type": "중개거래", "dong": "교문동", "floor": 7, "jibun": "809-3", "price": 71800}
+{"apt": "대림한숲", "area": 84.25, "built": 1995, "date": "2022-03-31", "deal_type": "중개거래", "dong": "수택동", "floor": 13, "jibun": "854", "price": 90000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2022-04-06", "deal_type": "중개거래", "dong": "인창동", "floor": 11, "jibun": "665-1", "price": 98000}
+{"apt": "한성", "area": 71.79, "built": 1990, "date": "2022-04-08", "deal_type": "중개거래", "dong": "교문동", "floor": 1, "jibun": "766-1", "price": 78000}
+{"apt": "주공4-2", "area": 59.93, "built": 1996, "date": "2022-04-14", "deal_type": "중개거래", "dong": "인창동", "floor": 3, "jibun": "666-1", "price": 61000}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2022-04-15", "deal_type": "중개거래", "dong": "인창동", "floor": 8, "jibun": "664-1", "price": 75250}
+{"apt": "쌍용", "area": 84.69, "built": 1996, "date": "2022-04-18", "deal_type": "중개거래", "dong": "수택동", "floor": 8, "jibun": "440", "price": 74000}
+{"apt": "엘지원앙", "area": 70.2, "built": 1995, "date": "2022-04-20", "deal_type": "중개거래", "dong": "수택동", "floor": 9, "jibun": "854-2", "price": 80000}
+{"apt": "쌍용", "area": 84.69, "built": 1996, "date": "2022-04-22", "deal_type": "중개거래", "dong": "수택동", "floor": 1, "jibun": "440", "price": 67500}
+{"apt": "한성", "area": 71.79, "built": 1990, "date": "2022-04-23", "deal_type": "중개거래", "dong": "교문동", "floor": 5, "jibun": "766-1", "price": 74000}
+{"apt": "부영apt", "area": 59.88, "built": 1997, "date": "2022-04-23", "deal_type": "중개거래", "dong": "인창동", "floor": 3, "jibun": "640-45", "price": 29000}
+{"apt": "한성3", "area": 59.72, "built": 1994, "date": "2022-04-25", "deal_type": "중개거래", "dong": "수택동", "floor": 15, "jibun": "854-3", "price": 71800}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2022-04-26", "deal_type": "중개거래", "dong": "교문동", "floor": 15, "jibun": "809-1", "price": 80500}
+{"apt": "쌍용", "area": 59.92, "built": 1996, "date": "2022-04-29", "deal_type": "중개거래", "dong": "수택동", "floor": 10, "jibun": "440", "price": 60000}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2022-04-30", "deal_type": "중개거래", "dong": "수택동", "floor": 8, "jibun": "853", "price": 42500}
+{"apt": "주공6", "area": 59.56, "built": 1996, "date": "2022-04-30", "deal_type": "중개거래", "dong": "인창동", "floor": 19, "jibun": "668-1", "price": 64000}
+{"apt": "삼호", "area": 56.7, "built": 1991, "date": "2022-05-01", "deal_type": "중개거래", "dong": "인창동", "floor": 7, "jibun": "590", "price": 55700}
+{"apt": "구리두산", "area": 59.99, "built": 1991, "date": "2022-05-04", "deal_type": "중개거래", "dong": "교문동", "floor": 3, "jibun": "766", "price": 79000}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2022-05-05", "deal_type": "중개거래", "dong": "수택동", "floor": 11, "jibun": "853", "price": 59400}
+{"apt": "부영바동", "area": 59.4, "built": 1997, "date": "2022-05-06", "deal_type": "중개거래", "dong": "인창동", "floor": 2, "jibun": "640-49", "price": 26000}
+{"apt": "대성", "area": 69.39, "built": 1991, "date": "2022-05-11", "deal_type": "중개거래", "dong": "수택동", "floor": 3, "jibun": "430-2", "price": 57000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2022-05-12", "deal_type": "중개거래", "dong": "인창동", "floor": 14, "jibun": "666-1", "price": 62000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2022-05-13", "deal_type": "중개거래", "dong": "수택동", "floor": 6, "jibun": "854", "price": 67500}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2022-05-14", "deal_type": "중개거래", "dong": "인창동", "floor": 15, "jibun": "663-1", "price": 61500}
+{"apt": "대림한숲", "area": 84.25, "built": 1995, "date": "2022-05-16", "deal_type": "중개거래", "dong": "수택동", "floor": 11, "jibun": "854", "price": 92000}
+{"apt": "쌍용", "area": 59.92, "built": 1996, "date": "2022-05-18", "deal_type": "중개거래", "dong": "수택동", "floor": 18, "jibun": "440", "price": 59900}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2022-05-19", "deal_type": "중개거래", "dong": "수택동", "floor": 9, "jibun": "853", "price": 59200}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2022-05-23", "deal_type": "중개거래", "dong": "수택동", "floor": 11, "jibun": "854", "price": 68000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2022-05-27", "deal_type": "중개거래", "dong": "인창동", "floor": 5, "jibun": "665-1", "price": 94500}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2022-05-27", "deal_type": "중개거래", "dong": "인창동", "floor": 4, "jibun": "666-1", "price": 59000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2022-05-30", "deal_type": "중개거래", "dong": "교문동", "floor": 7, "jibun": "808", "price": 55000}
+{"apt": "한가람아파트", "area": 121.77, "built": 1994, "date": "2022-06-03", "deal_type": "중개거래", "dong": "교문동", "floor": 12, "jibun": "809", "price": 124000}
+{"apt": "하나(한성)아파트", "area": 84.73, "built": 1994, "date": "2022-06-03", "deal_type": "중개거래", "dong": "교문동", "floor": 11, "jibun": "809-1", "price": 91000}
+{"apt": "대림한숲", "area": 84.25, "built": 1995, "date": "2022-06-11", "deal_type": "중개거래", "dong": "수택동", "floor": 12, "jibun": "854", "price": 93500}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2022-06-11", "deal_type": "중개거래", "dong": "인창동", "floor": 20, "jibun": "663-1", "price": 60000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2022-06-11", "deal_type": "중개거래", "dong": "인창동", "floor": 3, "jibun": "665-1", "price": 88000}
+{"apt": "주공4-2", "area": 59.97, "built": 1996, "date": "2022-06-12", "deal_type": "중개거래", "dong": "인창동", "floor": 10, "jibun": "666-1", "price": 60300}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2022-06-13", "deal_type": "중개거래", "dong": "인창동", "floor": 8, "jibun": "668-1", "price": 65500}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2022-06-13", "deal_type": "중개거래", "dong": "인창동", "floor": 13, "jibun": "668-1", "price": 64000}
+{"apt": "광명", "area": 59.49, "built": 1992, "date": "2022-06-14", "deal_type": "중개거래", "dong": "수택동", "floor": 6, "jibun": "546", "price": 29500}
+{"apt": "주공2", "area": 39.86, "built": 1997, "date": "2022-06-16", "deal_type": "중개거래", "dong": "인창동", "floor": 15, "jibun": "664-1", "price": 49000}
+{"apt": "주공2", "area": 49.95, "built": 1997, "date": "2022-06-20", "deal_type": "중개거래", "dong": "인창동", "floor": 5, "jibun": "664-1", "price": 55500}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2022-06-27", "deal_type": "중개거래", "dong": "인창동", "floor": 11, "jibun": "663-1", "price": 59000}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2022-07-11", "deal_type": "직거래", "dong": "인창동", "floor": 3, "jibun": "663-1", "price": 58000}
+{"apt": "주공1", "area": 59.93, "built": 1996, "date": "2022-07-12", "deal_type": "중개거래", "dong": "인창동", "floor": 14, "jibun": "663-1", "price": 61000}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2022-07-30", "deal_type": "중개거래", "dong": "인창동", "floor": 12, "jibun": "668-1", "price": 63000}
+{"apt": "주공6", "area": 59.93, "built": 1996, "date": "2022-07-30", "deal_type": "중개거래", "dong": "인창동", "floor": 5, "jibun": "668-1", "price": 61000}
+{"apt": "한가람아파트", "area": 84.92, "built": 1994, "date": "2022-08-17", "deal_type": "중개거래", "dong": "교문동", "floor": 16, "jibun": "809", "price": 76000}
+{"apt": "쌍용", "area": 59.92, "built": 1996, "date": "2022-08-22", "deal_type": "중개거래", "dong": "수택동", "floor": 5, "jibun": "440", "price": 54000}
+{"apt": "주공4-2", "area": 59.98, "built": 1996, "date": "2022-09-07", "deal_type": "중개거래", "dong": "인창동", "floor": 14, "jibun": "666-1", "price": 57500}
+{"apt": "한성", "area": 84.99, "built": 1990, "date": "2022-09-15", "deal_type": "중개거래", "dong": "교문동", "floor": 1, "jibun": "766-1", "price": 75900}
+{"apt": "한성", "area": 84.99, "built": 1990, "date": "2022-09-23", "deal_type": "중개거래", "dong": "교문동", "floor": 3, "jibun": "766-1", "price": 76000}
+{"apt": "삼산", "area": 44.73, "built": 1991, "date": "2022-09-24", "deal_type": "중개거래", "dong": "교문동", "floor": 7, "jibun": "233-35", "price": 25500}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2022-10-13", "deal_type": "중개거래", "dong": "수택동", "floor": 9, "jibun": "854", "price": 55500}
+{"apt": "주공4-2", "area": 59.56, "built": 1996, "date": "2022-10-13", "deal_type": "중개거래", "dong": "인창동", "floor": 18, "jibun": "666-1", "price": 59000}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2022-11-16", "deal_type": "중개거래", "dong": "인창동", "floor": 4, "jibun": "663-1", "price": 50000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2022-11-30", "deal_type": "중개거래", "dong": "인창동", "floor": 10, "jibun": "666-1", "price": 52500}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2022-12-01", "deal_type": "중개거래", "dong": "교문동", "floor": 8, "jibun": "809-1", "price": 68000}
+{"apt": "구리(한양)", "area": 101.95, "built": 1994, "date": "2022-12-02", "deal_type": "중개거래", "dong": "교문동", "floor": 13, "jibun": "809-2", "price": 84500}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2022-12-04", "deal_type": "중개거래", "dong": "인창동", "floor": 9, "jibun": "663-1", "price": 48000}
+{"apt": "하나(한성)아파트", "area": 101.83, "built": 1994, "date": "2022-12-20", "deal_type": "직거래", "dong": "교문동", "floor": 14, "jibun": "809-1", "price": 85000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2022-12-26", "deal_type": "중개거래", "dong": "인창동", "floor": 2, "jibun": "665-1", "price": 62000}
+{"apt": "한성", "area": 84.99, "built": 1990, "date": "2022-12-28", "deal_type": "직거래", "dong": "교문동", "floor": 2, "jibun": "766-1", "price": 53500}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2022-12-29", "deal_type": "중개거래", "dong": "교문동", "floor": 13, "jibun": "809-1", "price": 62000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2023-01-10", "deal_type": "중개거래", "dong": "인창동", "dong_no": "406", "floor": 2, "jibun": "666-1", "price": 43000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2023-01-10", "deal_type": "중개거래", "dong": "인창동", "dong_no": "404", "floor": 5, "jibun": "666-1", "price": 50000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2023-01-14", "deal_type": "중개거래", "dong": "인창동", "dong_no": "402", "floor": 6, "jibun": "666-1", "price": 47500}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2023-01-17", "deal_type": "직거래", "dong": "인창동", "dong_no": "212", "floor": 18, "jibun": "664-1", "price": 67000}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2023-01-18", "deal_type": "중개거래", "dong": "수택동", "dong_no": "5", "floor": 6, "jibun": "853", "price": 44500}
+{"apt": "한성3", "area": 59.72, "built": 1994, "date": "2023-01-28", "deal_type": "중개거래", "dong": "수택동", "dong_no": "302", "floor": 12, "jibun": "854-3", "price": 55000}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2023-01-28", "deal_type": "중개거래", "dong": "인창동", "dong_no": "603", "floor": 14, "jibun": "668-1", "price": 50000}
+{"apt": "쌍용", "area": 84.69, "built": 1996, "date": "2023-02-01", "deal_type": "중개거래", "dong": "수택동", "dong_no": "101", "floor": 18, "jibun": "440", "price": 58000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2023-02-01", "deal_type": "중개거래", "dong": "수택동", "dong_no": "103", "floor": 11, "jibun": "854", "price": 51000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2023-02-01", "deal_type": "중개거래", "dong": "인창동", "dong_no": "404", "floor": 7, "jibun": "666-1", "price": 48000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2023-02-02", "deal_type": "중개거래", "dong": "수택동", "dong_no": "102", "floor": 15, "jibun": "854", "price": 57000}
+{"apt": "구리(우성)", "area": 60.56, "built": 1994, "date": "2023-02-03", "deal_type": "중개거래", "dong": "교문동", "dong_no": "101", "floor": 13, "jibun": "809-2", "price": 68000}
+{"apt": "주공4-2", "area": 59.93, "built": 1996, "date": "2023-02-03", "deal_type": "직거래", "dong": "인창동", "dong_no": "412", "floor": 10, "jibun": "666-1", "price": 35000}
+{"apt": "주공4-2", "area": 59.97, "built": 1996, "date": "2023-02-06", "deal_type": "중개거래", "dong": "인창동", "dong_no": "410", "floor": 12, "jibun": "666-1", "price": 49200}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2023-02-10", "deal_type": "중개거래", "dong": "인창동", "dong_no": "202", "floor": 9, "jibun": "664-1", "price": 63000}
+{"apt": "하나(한성)아파트", "area": 84.73, "built": 1994, "date": "2023-02-11", "deal_type": "중개거래", "dong": "교문동", "dong_no": "203", "floor": 8, "jibun": "809-1", "price": 64500}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2023-02-11", "deal_type": "중개거래", "dong": "인창동", "dong_no": "112", "floor": 8, "jibun": "663-1", "price": 50500}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2023-02-14", "deal_type": "중개거래", "dong": "인창동", "dong_no": "112", "floor": 6, "jibun": "663-1", "price": 49800}
+{"apt": "구리두산", "area": 59.99, "built": 1991, "date": "2023-02-15", "deal_type": "중개거래", "dong": "교문동", "dong_no": "105", "floor": 4, "jibun": "766", "price": 60500}
+{"apt": "덕현", "area": 134.98, "built": 1993, "date": "2023-02-15", "deal_type": "직거래", "dong": "교문동", "dong_no": "107", "floor": 10, "jibun": "808", "price": 75000}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2023-02-16", "deal_type": "중개거래", "dong": "수택동", "dong_no": "4", "floor": 3, "jibun": "853", "price": 44000}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2023-02-17", "deal_type": "중개거래", "dong": "인창동", "dong_no": "102", "floor": 19, "jibun": "663-1", "price": 49000}
+{"apt": "삼보", "area": 90.18, "built": 1996, "date": "2023-02-17", "deal_type": "중개거래", "dong": "인창동", "dong_no": "312", "floor": 5, "jibun": "665-1", "price": 69000}
+{"apt": "쌍용", "area": 84.69, "built": 1996, "date": "2023-02-21", "deal_type": "중개거래", "dong": "수택동", "dong_no": "102", "floor": 15, "jibun": "440", "price": 58000}
+{"apt": "하나(한성)아파트", "area": 101.83, "built": 1994, "date": "2023-02-22", "deal_type": "중개거래", "dong": "교문동", "dong_no": "205", "floor": 15, "jibun": "809-1", "price": 80000}
+{"apt": "주공4-2", "area": 59.56, "built": 1996, "date": "2023-02-25", "deal_type": "중개거래", "dong": "인창동", "dong_no": "414", "floor": 2, "jibun": "666-1", "price": 43000}
+{"apt": "한인(가,나동)", "area": 45.53, "built": 1989, "date": "2023-02-26", "deal_type": "중개거래", "dong": "수택동", "dong_no": "나", "floor": 4, "jibun": "517-3", "price": 34000}
+{"apt": "삼보", "area": 114.69, "built": 1996, "date": "2023-02-26", "deal_type": "중개거래", "dong": "인창동", "dong_no": "307", "floor": 10, "jibun": "665-1", "price": 88000}
+{"apt": "주공4-2", "area": 59.98, "built": 1996, "date": "2023-03-06", "deal_type": "직거래", "dong": "인창동", "dong_no": "416", "floor": 2, "jibun": "666-1", "price": 37000}
+{"apt": "신일", "area": 99.97, "built": 1996, "date": "2023-03-07", "deal_type": "중개거래", "dong": "인창동", "dong_no": "510", "floor": 1, "jibun": "667-1", "price": 66000}
+{"apt": "현대홈타운", "area": 82.08, "built": 2002, "date": "2023-03-08", "deal_type": "중개거래", "dong": "인창동", "dong_no": "101", "floor": 6, "jibun": "508", "price": 82000}
+{"apt": "주공6", "area": 59.76, "built": 1996, "date": "2023-03-09", "deal_type": "중개거래", "dong": "인창동", "dong_no": "607", "floor": 10, "jibun": "668-1", "price": 53000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2023-03-13", "deal_type": "직거래", "dong": "인창동", "dong_no": "404", "floor": 10, "jibun": "666-1", "price": 50000}
+{"apt": "주공4-2", "area": 59.98, "built": 1996, "date": "2023-03-14", "deal_type": "중개거래", "dong": "인창동", "dong_no": "413", "floor": 15, "jibun": "666-1", "price": 45000}
+{"apt": "주공4-2", "area": 59.97, "built": 1996, "date": "2023-03-15", "deal_type": "중개거래", "dong": "인창동", "dong_no": "410", "floor": 20, "jibun": "666-1", "price": 48000}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2023-03-16", "deal_type": "직거래", "dong": "수택동", "dong_no": "1", "floor": 12, "jibun": "853", "price": 33500}
+{"apt": "한가람아파트", "area": 62.01, "built": 1994, "date": "2023-03-17", "deal_type": "중개거래", "dong": "교문동", "dong_no": "102", "floor": 17, "jibun": "809", "price": 57800}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2023-03-18", "deal_type": "중개거래", "dong": "인창동", "dong_no": "407", "floor": 5, "jibun": "666-1", "price": 47500}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2023-03-20", "deal_type": "중개거래", "dong": "교문동", "dong_no": "110", "floor": 12, "jibun": "808", "price": 58000}
+{"apt": "한가람아파트", "area": 62.01, "built": 1994, "date": "2023-03-21", "deal_type": "중개거래", "dong": "교문동", "dong_no": "107", "floor": 7, "jibun": "809", "price": 56000}
+{"apt": "구리두산", "area": 59.99, "built": 1991, "date": "2023-03-22", "deal_type": "중개거래", "dong": "교문동", "dong_no": "102", "floor": 4, "jibun": "766", "price": 59500}
+{"apt": "구리(우성)", "area": 84.9, "built": 1994, "date": "2023-03-22", "deal_type": "중개거래", "dong": "교문동", "dong_no": "102", "floor": 5, "jibun": "809-2", "price": 80000}
+{"apt": "교문(대우)", "area": 134.64, "built": 1994, "date": "2023-03-22", "deal_type": "중개거래", "dong": "교문동", "dong_no": "202", "floor": 8, "jibun": "809-3", "price": 93000}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2023-03-22", "deal_type": "중개거래", "dong": "인창동", "dong_no": "103", "floor": 17, "jibun": "663-1", "price": 53000}
+{"apt": "삼환", "area": 99.97, "built": 1996, "date": "2023-03-22", "deal_type": "중개거래", "dong": "인창동", "dong_no": "501", "floor": 11, "jibun": "667-1", "price": 77000}
+{"apt": "삼보", "area": 90.18, "built": 1996, "date": "2023-03-23", "deal_type": "중개거래", "dong": "인창동", "dong_no": "312", "floor": 20, "jibun": "665-1", "price": 66000}
+{"apt": "교문(동양고속)", "area": 84.7, "built": 1994, "date": "2023-03-24", "deal_type": "중개거래", "dong": "교문동", "dong_no": "101", "floor": 16, "jibun": "809-3", "price": 69000}
+{"apt": "교문(대우)", "area": 61.22, "built": 1994, "date": "2023-03-25", "deal_type": "중개거래", "dong": "교문동", "dong_no": "204", "floor": 12, "jibun": "809-3", "price": 55000}
+{"apt": "주공4-1", "area": 37.67, "built": 1996, "date": "2023-03-25", "deal_type": "중개거래", "dong": "인창동", "dong_no": "408", "floor": 5, "jibun": "666-1", "price": 38500}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2023-03-25", "deal_type": "중개거래", "dong": "인창동", "dong_no": "403", "floor": 3, "jibun": "666-1", "price": 47500}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2023-03-28", "deal_type": "중개거래", "dong": "교문동", "dong_no": "210", "floor": 5, "jibun": "809-1", "price": 66500}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2023-03-30", "deal_type": "중개거래", "dong": "인창동", "dong_no": "402", "floor": 4, "jibun": "666-1", "price": 46000}
+{"apt": "한가람아파트", "area": 84.92, "built": 1994, "date": "2023-03-31", "deal_type": "중개거래", "dong": "교문동", "dong_no": "106", "floor": 16, "jibun": "809", "price": 74500}
+{"apt": "한성", "area": 84.99, "built": 1990, "date": "2023-04-03", "deal_type": "중개거래", "dong": "교문동", "dong_no": "109", "floor": 4, "jibun": "766-1", "price": 68500}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2023-04-03", "deal_type": "중개거래", "dong": "인창동", "dong_no": "304", "floor": 1, "jibun": "665-1", "price": 68500}
+{"apt": "삼환", "area": 124.47, "built": 1996, "date": "2023-04-08", "deal_type": "중개거래", "dong": "인창동", "dong_no": "503", "floor": 10, "jibun": "667-1", "price": 90000}
+{"apt": "신일", "area": 99.97, "built": 1996, "date": "2023-04-08", "deal_type": "중개거래", "dong": "인창동", "dong_no": "510", "floor": 14, "jibun": "667-1", "price": 79000}
+{"apt": "교문(대우)", "area": 61.06, "built": 1994, "date": "2023-04-10", "deal_type": "중개거래", "dong": "교문동", "dong_no": "204", "floor": 2, "jibun": "809-3", "price": 54000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2023-04-10", "deal_type": "중개거래", "dong": "인창동", "dong_no": "303", "floor": 16, "jibun": "665-1", "price": 76000}
+{"apt": "구리(우성)", "area": 84.9, "built": 1994, "date": "2023-04-12", "deal_type": "중개거래", "dong": "교문동", "dong_no": "102", "floor": 7, "jibun": "809-2", "price": 75500}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2023-04-14", "deal_type": "중개거래", "dong": "인창동", "dong_no": "202", "floor": 5, "jibun": "664-1", "price": 57000}
+{"apt": "주공4-2", "area": 59.98, "built": 1996, "date": "2023-04-14", "deal_type": "중개거래", "dong": "인창동", "dong_no": "416", "floor": 2, "jibun": "666-1", "price": 44900}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2023-04-17", "deal_type": "중개거래", "dong": "수택동", "dong_no": "2", "floor": 2, "jibun": "853", "price": 40000}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2023-04-17", "deal_type": "중개거래", "dong": "인창동", "dong_no": "115", "floor": 3, "jibun": "663-1", "price": 47500}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2023-04-18", "deal_type": "중개거래", "dong": "인창동", "dong_no": "104", "floor": 7, "jibun": "663-1", "price": 48000}
+{"apt": "주공1", "area": 59.93, "built": 1996, "date": "2023-04-19", "deal_type": "중개거래", "dong": "인창동", "dong_no": "104", "floor": 5, "jibun": "663-1", "price": 45000}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2023-04-19", "deal_type": "중개거래", "dong": "인창동", "dong_no": "601", "floor": 14, "jibun": "668-1", "price": 53000}
+{"apt": "구리(한양)", "area": 60.44, "built": 1994, "date": "2023-04-20", "deal_type": "중개거래", "dong": "교문동", "dong_no": "107", "floor": 12, "jibun": "809-2", "price": 56000}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2023-04-21", "deal_type": "중개거래", "dong": "인창동", "dong_no": "115", "floor": 13, "jibun": "663-1", "price": 48000}
+{"apt": "쌍용", "area": 59.92, "built": 1996, "date": "2023-04-24", "deal_type": "중개거래", "dong": "수택동", "dong_no": "102", "floor": 15, "jibun": "440", "price": 50000}
+{"apt": "화창", "area": 63.36, "built": 1991, "date": "2023-04-24", "deal_type": "중개거래", "dong": "수택동", "floor": 4, "jibun": "498-10", "price": 44045}
+{"apt": "부영101동", "area": 59.82, "built": 1997, "date": "2023-04-24", "deal_type": "중개거래", "dong": "인창동", "dong_no": "101", "floor": 3, "jibun": "641-7", "price": 24000}
+{"apt": "하나(유원)아파트", "area": 122.58, "built": 1994, "date": "2023-04-25", "deal_type": "중개거래", "dong": "교문동", "dong_no": "206", "floor": 6, "jibun": "809-1", "price": 91000}
+{"apt": "쌍용", "area": 59.92, "built": 1996, "date": "2023-04-25", "deal_type": "중개거래", "dong": "수택동", "dong_no": "102", "floor": 8, "jibun": "440", "price": 50000}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2023-04-25", "deal_type": "중개거래", "dong": "인창동", "dong_no": "104", "floor": 6, "jibun": "663-1", "price": 47000}
+{"apt": "주공4-1", "area": 37.67, "built": 1996, "date": "2023-04-27", "deal_type": "중개거래", "dong": "인창동", "dong_no": "408", "floor": 9, "jibun": "666-1", "price": 36000}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2023-05-01", "deal_type": "중개거래", "dong": "인창동", "dong_no": "204", "floor": 13, "jibun": "664-1", "price": 61500}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2023-05-02", "deal_type": "중개거래", "dong": "수택동", "dong_no": "104", "floor": 11, "jibun": "854", "price": 60000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2023-05-02", "deal_type": "직거래", "dong": "인창동", "dong_no": "407", "floor": 3, "jibun": "666-1", "price": 45000}
+{"apt": "하나(한성)아파트", "area": 84.73, "built": 1994, "date": "2023-05-04", "deal_type": "중개거래", "dong": "교문동", "dong_no": "203", "floor": 11, "jibun": "809-1", "price": 68000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2023-05-04", "deal_type": "중개거래", "dong": "수택동", "dong_no": "102", "floor": 17, "jibun": "854", "price": 49000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2023-05-04", "deal_type": "중개거래", "dong": "인창동", "dong_no": "304", "floor": 2, "jibun": "665-1", "price": 83000}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2023-05-10", "deal_type": "중개거래", "dong": "인창동", "dong_no": "109", "floor": 14, "jibun": "663-1", "price": 48800}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2023-05-11", "deal_type": "중개거래", "dong": "인창동", "dong_no": "603", "floor": 13, "jibun": "668-1", "price": 51500}
+{"apt": "주공4-2", "area": 59.97, "built": 1996, "date": "2023-05-12", "deal_type": "중개거래", "dong": "인창동", "dong_no": "410", "floor": 19, "jibun": "666-1", "price": 45000}
+{"apt": "한가람아파트", "area": 62.01, "built": 1994, "date": "2023-05-13", "deal_type": "중개거래", "dong": "교문동", "dong_no": "101", "floor": 7, "jibun": "809", "price": 61000}
+{"apt": "덕현", "area": 84.57, "built": 1993, "date": "2023-05-15", "deal_type": "중개거래", "dong": "교문동", "dong_no": "104", "floor": 15, "jibun": "808", "price": 74000}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2023-05-15", "deal_type": "중개거래", "dong": "수택동", "dong_no": "105", "floor": 16, "jibun": "854", "price": 58000}
+{"apt": "엘지원앙", "area": 52.08, "built": 1995, "date": "2023-05-15", "deal_type": "중개거래", "dong": "수택동", "dong_no": "106", "floor": 1, "jibun": "854-2", "price": 48000}
+{"apt": "엘지원앙", "area": 52.08, "built": 1995, "date": "2023-05-15", "deal_type": "중개거래", "dong": "수택동", "dong_no": "106", "floor": 11, "jibun": "854-2", "price": 50800}
+{"apt": "주공1", "area": 59.93, "built": 1996, "date": "2023-05-15", "deal_type": "중개거래", "dong": "인창동", "dong_no": "101", "floor": 9, "jibun": "663-1", "price": 50000}
+{"apt": "구리(우성)", "area": 84.9, "built": 1994, "date": "2023-05-16", "deal_type": "중개거래", "dong": "교문동", "dong_no": "102", "floor": 10, "jibun": "809-2", "price": 83000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2023-05-18", "deal_type": "중개거래", "dong": "수택동", "dong_no": "102", "floor": 8, "jibun": "854", "price": 47500}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2023-05-18", "deal_type": "중개거래", "dong": "수택동", "dong_no": "102", "floor": 9, "jibun": "854", "price": 51000}
+{"apt": "덕현", "area": 101.86, "built": 1993, "date": "2023-05-19", "deal_type": "중개거래", "dong": "교문동", "dong_no": "102", "floor": 7, "jibun": "808", "price": 84300}
+{"apt": "한가람아파트", "area": 62.01, "built": 1994, "date": "2023-05-19", "deal_type": "중개거래", "dong": "교문동", "dong_no": "107", "floor": 4, "jibun": "809", "price": 61500}
+{"apt": "주공1", "area": 59.93, "built": 1996, "date": "2023-05-19", "deal_type": "중개거래", "dong": "인창동", "dong_no": "101", "floor": 3, "jibun": "663-1", "price": 44700}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2023-05-20", "deal_type": "중개거래", "dong": "인창동", "dong_no": "102", "floor": 7, "jibun": "663-1", "price": 47000}
+{"apt": "범우", "area": 46.03, "built": 1988, "date": "2023-05-22", "deal_type": "중개거래", "dong": "수택동", "floor": 5, "jibun": "471-1", "price": 27500}
+{"apt": "구리두산", "area": 59.99, "built": 1991, "date": "2023-05-23", "deal_type": "중개거래", "dong": "교문동", "dong_no": "114", "floor": 4, "jibun": "766", "price": 59950}
+{"apt": "주공6", "area": 49.67, "built": 1996, "date": "2023-05-24", "deal_type": "중개거래", "dong": "인창동", "dong_no": "605", "floor": 7, "jibun": "668-1", "price": 46000}
+{"apt": "엘지원앙", "area": 52.08, "built": 1995, "date": "2023-05-25", "deal_type": "중개거래", "dong": "수택동", "dong_no": "107", "floor": 5, "jibun": "854-2", "price": 50000}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2023-05-26", "deal_type": "중개거래", "dong": "인창동", "dong_no": "213", "floor": 13, "jibun": "664-1", "price": 72500}
+{"apt": "주공6", "area": 59.76, "built": 1996, "date": "2023-05-26", "deal_type": "중개거래", "dong": "인창동", "dong_no": "607", "floor": 18, "jibun": "668-1", "price": 54500}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2023-05-27", "deal_type": "중개거래", "dong": "인창동", "dong_no": "111", "floor": 8, "jibun": "663-1", "price": 49000}
+{"apt": "주공6", "area": 59.56, "built": 1996, "date": "2023-05-27", "deal_type": "중개거래", "dong": "인창동", "dong_no": "608", "floor": 1, "jibun": "668-1", "price": 47500}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2023-05-30", "deal_type": "중개거래", "dong": "수택동", "dong_no": "105", "floor": 8, "jibun": "854", "price": 60250}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2023-05-30", "deal_type": "중개거래", "dong": "수택동", "dong_no": "105", "floor": 10, "jibun": "854-2", "price": 53000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2023-06-01", "deal_type": "중개거래", "dong": "수택동", "dong_no": "102", "floor": 9, "jibun": "854", "price": 49900}
+{"apt": "하나(한성)아파트", "area": 84.73, "built": 1994, "date": "2023-06-02", "deal_type": "중개거래", "dong": "교문동", "dong_no": "203", "floor": 13, "jibun": "809-1", "price": 77000}
+{"apt": "대림한숲", "area": 84.25, "built": 1995, "date": "2023-06-02", "deal_type": "중개거래", "dong": "수택동", "dong_no": "101", "floor": 9, "jibun": "854", "price": 73500}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2023-06-03", "deal_type": "중개거래", "dong": "인창동", "dong_no": "110", "floor": 8, "jibun": "663-1", "price": 50000}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2023-06-03", "deal_type": "중개거래", "dong": "인창동", "dong_no": "404", "floor": 7, "jibun": "666-1", "price": 48000}
+{"apt": "주공4-1", "area": 49.69, "built": 1996, "date": "2023-06-09", "deal_type": "중개거래", "dong": "인창동", "dong_no": "401", "floor": 6, "jibun": "666-1", "price": 43000}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2023-06-09", "deal_type": "직거래", "dong": "인창동", "dong_no": "609", "floor": 4, "jibun": "668-1", "price": 41000}
+{"apt": "화창", "area": 63.36, "built": 1991, "date": "2023-06-13", "deal_type": "중개거래", "dong": "수택동", "floor": 2, "jibun": "498-10", "price": 44385}
+{"apt": "주공1", "area": 37.67, "built": 1996, "date": "2023-06-19", "deal_type": "중개거래", "dong": "인창동", "dong_no": "113", "floor": 14, "jibun": "663-1", "price": 37800}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2023-06-20", "deal_type": "중개거래", "dong": "교문동", "dong_no": "209", "floor": 6, "jibun": "809-1", "price": 66600}
+{"apt": "엘지원앙", "area": 52.08, "built": 1995, "date": "2023-06-20", "deal_type": "직거래", "dong": "수택동", "dong_no": "106", "floor": 13, "jibun": "854-2", "price": 52000}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2023-06-20", "deal_type": "중개거래", "dong": "인창동", "dong_no": "112", "floor": 7, "jibun": "663-1", "price": 50000}
+{"apt": "주공2", "area": 49.95, "built": 1997, "date": "2023-06-20", "deal_type": "중개거래", "dong": "인창동", "dong_no": "205", "floor": 9, "jibun": "664-1", "price": 44000}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2023-06-23", "deal_type": "중개거래", "dong": "인창동", "dong_no": "610", "floor": 9, "jibun": "668-1", "price": 61000}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2023-06-24", "deal_type": "중개거래", "dong": "교문동", "dong_no": "210", "floor": 20, "jibun": "809-1", "price": 66000}
+{"apt": "교문(대우)", "area": 61.22, "built": 1994, "date": "2023-06-24", "deal_type": "중개거래", "dong": "교문동", "dong_no": "204", "floor": 14, "jibun": "809-3", "price": 58000}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2023-06-24", "deal_type": "중개거래", "dong": "인창동", "dong_no": "203", "floor": 4, "jibun": "664-1", "price": 69000}
+{"apt": "교문(동양고속)", "area": 61.22, "built": 1994, "date": "2023-06-26", "deal_type": "중개거래", "dong": "교문동", "dong_no": "102", "floor": 2, "jibun": "809-3", "price": 51700}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2023-06-26", "deal_type": "직거래", "dong": "수택동", "dong_no": "1", "floor": 11, "jibun": "853", "price": 24000}
+{"apt": "주공4-2", "area": 59.93, "built": 1996, "date": "2023-06-26", "deal_type": "중개거래", "dong": "인창동", "dong_no": "415", "floor": 14, "jibun": "666-1", "price": 49800}
+{"apt": "하나(한성)아파트", "area": 84.73, "built": 1994, "date": "2023-06-30", "deal_type": "중개거래", "dong": "교문동", "dong_no": "202", "floor": 5, "jibun": "809-1", "price": 77000}
+{"apt": "엘지원앙", "area": 52.08, "built": 1995, "date": "2023-06-30", "deal_type": "중개거래", "dong": "수택동", "dong_no": "106", "floor": 8, "jibun": "854-2", "price": 53000}
+{"apt": "교문(대우)", "area": 61.22, "built": 1994, "date": "2023-07-03", "deal_type": "중개거래", "dong": "교문동", "dong_no": "204", "floor": 14, "jibun": "809-3", "price": 59000}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2023-07-04", "deal_type": "중개거래", "dong": "수택동", "dong_no": "104", "floor": 12, "jibun": "854", "price": 61800}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2023-07-07", "deal_type": "중개거래", "dong": "수택동", "dong_no": "104", "floor": 15, "jibun": "854-2", "price": 55000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2023-07-08", "deal_type": "중개거래", "dong": "교문동", "dong_no": "110", "floor": 11, "jibun": "808", "price": 53000}
+{"apt": "교문(동양고속)", "area": 61.06, "built": 1994, "date": "2023-07-08", "deal_type": "중개거래", "dong": "교문동", "dong_no": "102", "floor": 4, "jibun": "809-3", "price": 58000}
+{"apt": "삼보", "area": 114.69, "built": 1996, "date": "2023-07-08", "deal_type": "중개거래", "dong": "인창동", "dong_no": "301", "floor": 12, "jibun": "665-1", "price": 85000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2023-07-12", "deal_type": "중개거래", "dong": "교문동", "dong_no": "103", "floor": 3, "jibun": "808", "price": 59000}
+{"apt": "덕현", "area": 101.86, "built": 1993, "date": "2023-07-12", "deal_type": "중개거래", "dong": "교문동", "dong_no": "102", "floor": 4, "jibun": "808", "price": 77000}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2023-07-12", "deal_type": "직거래", "dong": "수택동", "dong_no": "105", "floor": 17, "jibun": "854", "price": 55000}
+{"apt": "주공2", "area": 49.95, "built": 1997, "date": "2023-07-16", "deal_type": "중개거래", "dong": "인창동", "dong_no": "205", "floor": 4, "jibun": "664-1", "price": 36000}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2023-07-18", "deal_type": "중개거래", "dong": "인창동", "dong_no": "104", "floor": 8, "jibun": "663-1", "price": 48000}
+{"apt": "한성", "area": 71.79, "built": 1990, "date": "2023-07-19", "deal_type": "중개거래", "dong": "교문동", "dong_no": "106", "floor": 3, "jibun": "766-1", "price": 64400}
+{"apt": "교문(동양고속)", "area": 84.7, "built": 1994, "date": "2023-07-19", "deal_type": "중개거래", "dong": "교문동", "dong_no": "104", "floor": 14, "jibun": "809-3", "price": 80000}
+{"apt": "한성", "area": 84.99, "built": 1990, "date": "2023-07-22", "deal_type": "중개거래", "dong": "교문동", "dong_no": "113", "floor": 1, "jibun": "766-1", "price": 73500}
+{"apt": "주공1", "area": 59.93, "built": 1996, "date": "2023-07-22", "deal_type": "중개거래", "dong": "인창동", "dong_no": "108", "floor": 15, "jibun": "663-1", "price": 46000}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2023-07-22", "deal_type": "중개거래", "dong": "인창동", "dong_no": "304", "floor": 7, "jibun": "665-1", "price": 75000}
+{"apt": "삼환", "area": 99.97, "built": 1996, "date": "2023-07-22", "deal_type": "중개거래", "dong": "인창동", "dong_no": "504", "floor": 6, "jibun": "667-1", "price": 74000}
+{"apt": "하나(한성)아파트", "area": 101.83, "built": 1994, "date": "2023-07-26", "deal_type": "중개거래", "dong": "교문동", "dong_no": "204", "floor": 10, "jibun": "809-1", "price": 80000}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2023-07-27", "deal_type": "중개거래", "dong": "인창동", "dong_no": "112", "floor": 6, "jibun": "663-1", "price": 48500}
+{"apt": "화창", "area": 61.56, "built": 1991, "date": "2023-07-29", "deal_type": "중개거래", "dong": "수택동", "floor": 3, "jibun": "498-10", "price": 36840}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2023-07-29", "deal_type": "중개거래", "dong": "수택동", "dong_no": "103", "floor": 3, "jibun": "854", "price": 51000}
+{"apt": "삼보", "area": 114.69, "built": 1996, "date": "2023-07-31", "deal_type": "중개거래", "dong": "인창동", "dong_no": "307", "floor": 13, "jibun": "665-1", "price": 91000}
+{"apt": "한성", "area": 71.79, "built": 1990, "date": "2023-08-07", "deal_type": "중개거래", "dong": "교문동", "dong_no": "106", "floor": 1, "jibun": "766-1", "price": 64000}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2023-08-08", "deal_type": "중개거래", "dong": "인창동", "dong_no": "115", "floor": 6, "jibun": "663-1", "price": 50000}
+{"apt": "주공1", "area": 59.76, "built": 1996, "date": "2023-08-08", "deal_type": "중개거래", "dong": "인창동", "dong_no": "106", "floor": 7, "jibun": "663-1", "price": 54000}
+{"apt": "삼보", "area": 90.18, "built": 1996, "date": "2023-08-08", "deal_type": "중개거래", "dong": "인창동", "dong_no": "312", "floor": 16, "jibun": "665-1", "price": 75500}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2023-08-09", "deal_type": "중개거래", "dong": "인창동", "dong_no": "107", "floor": 10, "jibun": "663-1", "price": 53000}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2023-08-09", "deal_type": "중개거래", "dong": "인창동", "dong_no": "201", "floor": 9, "jibun": "664-1", "price": 73000}
+{"apt": "교문(대우)", "area": 61.22, "built": 1994, "date": "2023-08-11", "deal_type": "중개거래", "dong": "교문동", "dong_no": "204", "floor": 14, "jibun": "809-3", "price": 60000}
+{"apt": "건영", "area": 83.87, "built": 1994, "date": "2023-08-11", "deal_type": "중개거래", "dong": "인창동", "dong_no": "105", "floor": 4, "jibun": "474", "price": 54500}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2023-08-12", "deal_type": "중개거래", "dong": "교문동", "dong_no": "208", "floor": 8, "jibun": "809-1", "price": 65500}
+{"apt": "대림한숲", "area": 62.25, "built": 1995, "date": "2023-08-12", "deal_type": "중개거래", "dong": "수택동", "dong_no": "105", "floor": 4, "jibun": "854", "price": 60000}
+{"apt": "구리두산", "area": 59.99, "built": 1991, "date": "2023-08-14", "deal_type": "중개거래", "dong": "교문동", "dong_no": "106", "floor": 1, "jibun": "766", "price": 59000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2023-08-15", "deal_type": "중개거래", "dong": "교문동", "dong_no": "110", "floor": 9, "jibun": "808", "price": 55500}
+{"apt": "교문(대우)", "area": 84.7, "built": 1994, "date": "2023-08-15", "deal_type": "중개거래", "dong": "교문동", "dong_no": "203", "floor": 2, "jibun": "809-3", "price": 72000}
+{"apt": "덕현", "area": 84.57, "built": 1993, "date": "2023-08-17", "deal_type": "중개거래", "dong": "교문동", "dong_no": "101", "floor": 15, "jibun": "808", "price": 75500}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2023-08-17", "deal_type": "직거래", "dong": "인창동", "dong_no": "104", "floor": 7, "jibun": "663-1", "price": 33200}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2023-08-18", "deal_type": "중개거래", "dong": "인창동", "dong_no": "202", "floor": 7, "jibun": "664-1", "price": 65500}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2023-08-18", "deal_type": "중개거래", "dong": "인창동", "dong_no": "407", "floor": 14, "jibun": "666-1", "price": 49500}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2023-08-23", "deal_type": "중개거래", "dong": "수택동", "dong_no": "104", "floor": 4, "jibun": "854-2", "price": 54700}
+{"apt": "주공2", "area": 49.95, "built": 1997, "date": "2023-08-23", "deal_type": "중개거래", "dong": "인창동", "dong_no": "207", "floor": 3, "jibun": "664-1", "price": 42000}
+{"apt": "주공4-2", "area": 59.97, "built": 1996, "date": "2023-08-25", "deal_type": "중개거래", "dong": "인창동", "dong_no": "409", "floor": 14, "jibun": "666-1", "price": 49000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2023-08-26", "deal_type": "중개거래", "dong": "교문동", "dong_no": "106", "floor": 8, "jibun": "808", "price": 58500}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2023-08-26", "deal_type": "중개거래", "dong": "교문동", "dong_no": "210", "floor": 7, "jibun": "809-1", "price": 69000}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2023-08-28", "deal_type": "중개거래", "dong": "수택동", "dong_no": "103", "floor": 16, "jibun": "854", "price": 53000}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2023-08-28", "deal_type": "중개거래", "dong": "인창동", "dong_no": "203", "floor": 9, "jibun": "664-1", "price": 63000}
+{"apt": "삼호", "area": 56.7, "built": 1991, "date": "2023-08-29", "deal_type": "중개거래", "dong": "인창동", "dong_no": "2", "floor": 8, "jibun": "590", "price": 47500}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2023-08-29", "deal_type": "중개거래", "dong": "인창동", "dong_no": "403", "floor": 7, "jibun": "666-1", "price": 50300}
+{"apt": "대림한숲", "area": 51.66, "built": 1995, "date": "2023-08-30", "deal_type": "중개거래", "dong": "수택동", "dong_no": "103", "floor": 6, "jibun": "854", "price": 51300}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2023-08-30", "deal_type": "중개거래", "dong": "인창동", "dong_no": "405", "floor": 4, "jibun": "666-1", "price": 50500}
+{"apt": "엘지원앙", "area": 70.2, "built": 1995, "date": "2023-08-31", "deal_type": "중개거래", "dong": "수택동", "dong_no": "101", "floor": 5, "jibun": "854-2", "price": 66500}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2023-09-02", "deal_type": "중개거래", "dong": "교문동", "dong_no": "208", "floor": 12, "jibun": "809-1", "price": 68700}
+{"apt": "쌍용", "area": 84.69, "built": 1996, "date": "2023-09-03", "deal_type": "중개거래", "dong": "수택동", "dong_no": "101", "floor": 12, "jibun": "440", "price": 67500}
+{"apt": "덕현", "area": 134.98, "built": 1993, "date": "2023-09-04", "deal_type": "중개거래", "dong": "교문동", "dong_no": "102", "floor": 10, "jibun": "808", "price": 97500}
+{"apt": "원일(552)", "area": 57.15, "built": 1989, "date": "2023-09-04", "deal_type": "중개거래", "dong": "수택동", "dong_no": "라", "floor": 3, "jibun": "552", "price": 35000}
+{"apt": "삼보", "area": 90.18, "built": 1996, "date": "2023-09-04", "deal_type": "중개거래", "dong": "인창동", "dong_no": "312", "floor": 18, "jibun": "665-1", "price": 76000}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2023-09-05", "deal_type": "중개거래", "dong": "수택동", "dong_no": "104", "floor": 3, "jibun": "854-2", "price": 48500}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2023-09-05", "deal_type": "중개거래", "dong": "인창동", "dong_no": "310", "floor": 7, "jibun": "665-1", "price": 82800}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2023-09-06", "deal_type": "중개거래", "dong": "인창동", "dong_no": "209", "floor": 4, "jibun": "664-1", "price": 63000}
+{"apt": "구리(우성)", "area": 84.9, "built": 1994, "date": "2023-09-07", "deal_type": "중개거래", "dong": "교문동", "dong_no": "102", "floor": 1, "jibun": "809-2", "price": 74500}
+{"apt": "주공1", "area": 58.14, "built": 1996, "date": "2023-09-07", "deal_type": "중개거래", "dong": "인창동", "dong_no": "114", "floor": 12, "jibun": "663-1", "price": 53500}
+{"apt": "하나(유원)아파트", "area": 71.08, "built": 1994, "date": "2023-09-08", "deal_type": "중개거래", "dong": "교문동", "dong_no": "208", "floor": 3, "jibun": "809-1", "price": 65500}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2023-09-09", "deal_type": "중개거래", "dong": "인창동", "dong_no": "209", "floor": 6, "jibun": "664-1", "price": 60000}
+{"apt": "주공4-2", "area": 59.56, "built": 1996, "date": "2023-09-09", "deal_type": "중개거래", "dong": "인창동", "dong_no": "415", "floor": 10, "jibun": "666-1", "price": 50000}
+{"apt": "신일", "area": 99.97, "built": 1996, "date": "2023-09-11", "deal_type": "중개거래", "dong": "인창동", "dong_no": "509", "floor": 15, "jibun": "667-1", "price": 73000}
+{"apt": "한가람아파트", "area": 121.77, "built": 1994, "date": "2023-09-12", "deal_type": "중개거래", "dong": "교문동", "dong_no": "105", "floor": 15, "jibun": "809", "price": 119000}
+{"apt": "한인(가,나동)", "area": 45.05, "built": 1989, "date": "2023-09-13", "deal_type": "중개거래", "dong": "수택동", "dong_no": "가", "floor": 4, "jibun": "517-3", "price": 36000}
+{"apt": "원일(552)", "area": 69.89, "built": 1989, "date": "2023-09-13", "deal_type": "직거래", "dong": "수택동", "dong_no": "가", "floor": 4, "jibun": "552", "price": 45000}
+{"apt": "주공6", "area": 49.67, "built": 1996, "date": "2023-09-13", "deal_type": "중개거래", "dong": "인창동", "dong_no": "605", "floor": 14, "jibun": "668-1", "price": 49000}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2023-09-13", "deal_type": "중개거래", "dong": "인창동", "dong_no": "602", "floor": 8, "jibun": "668-1", "price": 54000}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2023-09-14", "deal_type": "중개거래", "dong": "인창동", "dong_no": "203", "floor": 7, "jibun": "664-1", "price": 62300}
+{"apt": "주공4-1", "area": 58.14, "built": 1996, "date": "2023-09-14", "deal_type": "중개거래", "dong": "인창동", "dong_no": "404", "floor": 4, "jibun": "666-1", "price": 51000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2023-09-15", "deal_type": "중개거래", "dong": "교문동", "dong_no": "106", "floor": 6, "jibun": "808", "price": 58000}
+{"apt": "구리두산", "area": 59.99, "built": 1991, "date": "2023-09-21", "deal_type": "중개거래", "dong": "교문동", "dong_no": "103", "floor": 1, "jibun": "766", "price": 60000}
+{"apt": "쌍용", "area": 59.92, "built": 1996, "date": "2023-09-21", "deal_type": "중개거래", "dong": "수택동", "dong_no": "102", "floor": 9, "jibun": "440", "price": 50500}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2023-09-21", "deal_type": "중개거래", "dong": "인창동", "dong_no": "201", "floor": 9, "jibun": "664-1", "price": 71000}
+{"apt": "삼보", "area": 114.69, "built": 1996, "date": "2023-09-21", "deal_type": "중개거래", "dong": "인창동", "dong_no": "307", "floor": 11, "jibun": "665-1", "price": 94500}
+{"apt": "주공6", "area": 39.87, "built": 1996, "date": "2023-09-25", "deal_type": "중개거래", "dong": "인창동", "dong_no": "604", "floor": 19, "jibun": "668-1", "price": 36000}
+{"apt": "한인(라동)", "area": 67.86, "built": 1990, "date": "2023-09-26", "deal_type": "중개거래", "dong": "수택동", "floor": 1, "jibun": "517-1", "price": 40500}
+{"apt": "럭키", "area": 33.06, "built": 1992, "date": "2023-10-04", "deal_type": "중개거래", "dong": "수택동", "dong_no": "1", "floor": 4, "jibun": "853", "price": 34500}
+{"apt": "구리(한양)", "area": 91.15, "built": 1994, "date": "2023-10-05", "deal_type": "중개거래", "dong": "교문동", "dong_no": "103", "floor": 1, "jibun": "809-2", "price": 74000}
+{"apt": "삼환", "area": 99.97, "built": 1996, "date": "2023-10-05", "deal_type": "중개거래", "dong": "인창동", "dong_no": "504", "floor": 13, "jibun": "667-1", "price": 74000}
+{"apt": "부영103동", "area": 59.94, "built": 1997, "date": "2023-10-09", "deal_type": "중개거래", "dong": "인창동", "dong_no": "103", "floor": 3, "jibun": "641-13", "price": 29500}
+{"apt": "주공2", "area": 84.99, "built": 1997, "date": "2023-10-09", "deal_type": "중개거래", "dong": "인창동", "dong_no": "212", "floor": 19, "jibun": "664-1", "price": 69000}
+{"apt": "주공6", "area": 59.56, "built": 1996, "date": "2023-10-10", "deal_type": "중개거래", "dong": "인창동", "dong_no": "606", "floor": 14, "jibun": "668-1", "price": 55000}
+{"apt": "주공1", "area": 59.56, "built": 1996, "date": "2023-10-12", "deal_type": "중개거래", "dong": "인창동", "dong_no": "108", "floor": 2, "jibun": "663-1", "price": 49989}
+{"apt": "주공4-2", "area": 59.56, "built": 1996, "date": "2023-10-12", "deal_type": "중개거래", "dong": "인창동", "dong_no": "412", "floor": 12, "jibun": "666-1", "price": 51500}
+{"apt": "교문(동양고속)", "area": 84.7, "built": 1994, "date": "2023-10-14", "deal_type": "중개거래", "dong": "교문동", "dong_no": "101", "floor": 5, "jibun": "809-3", "price": 78000}
+{"apt": "대명(610-20)", "area": 56.61, "built": 1989, "date": "2023-10-14", "deal_type": "중개거래", "dong": "인창동", "dong_no": "2", "floor": 2, "jibun": "610-20", "price": 33350}
+{"apt": "삼보", "area": 101.94, "built": 1996, "date": "2023-10-16", "deal_type": "중개거래", "dong": "인창동", "dong_no": "303", "floor": 19, "jibun": "665-1", "price": 84900}
+{"apt": "주공4-1", "area": 49.69, "built": 1996, "date": "2023-10-16", "deal_type": "중개거래", "dong": "인창동", "dong_no": "401", "floor": 5, "jibun": "666-1", "price": 43000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2023-10-18", "deal_type": "중개거래", "dong": "교문동", "dong_no": "110", "floor": 6, "jibun": "808", "price": 56700}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2023-10-19", "deal_type": "중개거래", "dong": "인창동", "dong_no": "603", "floor": 14, "jibun": "668-1", "price": 54500}
+{"apt": "주공6", "area": 59.56, "built": 1996, "date": "2023-10-20", "deal_type": "중개거래", "dong": "인창동", "dong_no": "606", "floor": 8, "jibun": "668-1", "price": 52500}
+{"apt": "주공6", "area": 58.14, "built": 1996, "date": "2023-10-21", "deal_type": "중개거래", "dong": "인창동", "dong_no": "601", "floor": 14, "jibun": "668-1", "price": 59300}
+{"apt": "주공6", "area": 59.76, "built": 1996, "date": "2023-10-24", "deal_type": "중개거래", "dong": "인창동", "dong_no": "607", "floor": 4, "jibun": "668-1", "price": 53000}
+{"apt": "덕현", "area": 62.1, "built": 1993, "date": "2023-10-27", "deal_type": "직거래", "dong": "교문동", "dong_no": "103", "floor": 4, "jibun": "808", "price": 54000}
+{"apt": "럭키", "area": 59.34, "built": 1992, "date": "2023-10-29", "deal_type": "중개거래", "dong": "수택동", "dong_no": "4", "floor": 3, "jibun": "853", "price": 47900}
+{"apt": "진양(626-25)", "area": 59.82, "built": 1997, "date": "2023-10-30", "deal_type": "중개거래", "dong": "수택동", "floor": 5, "jibun": "626-25", "price": 34000}
+{"apt": "엘지원앙", "area": 49.83, "built": 1995, "date": "2023-10-30", "deal_type": "중개거래", "dong": "수택동", "dong_no": "104", "floor": 13, "jibun": "854-2", "price": 57500}
 {"apt": "삼환", "area": 99.97, "built": 1996, "date": "2023-11-04", "deal_type": "중개거래", "dong": "인창동", "dong_no": "504", "floor": 16, "jibun": "667-1", "price": 70000}
 {"apt": "삼호", "area": 56.7, "built": 1991, "date": "2023-11-06", "deal_type": "중개거래", "dong": "인창동", "dong_no": "1", "floor": 5, "jibun": "590", "price": 46800}
 {"apt": "하나(유원)아파트", "area": 122.58, "built": 1994, "date": "2023-11-08", "deal_type": "직거래", "dong": "교문동", "dong_no": "206", "floor": 4, "jibun": "809-1", "price": 95000}

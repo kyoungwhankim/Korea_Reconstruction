@@ -1,8 +1,12 @@
 {"id":"41287100008049",
 "name":"일산동원(23-91)",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":48,"pyeong":14.5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":52}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-12-17",46.89,3,10000,null,"직거래",1989],
+["2022-05-13",46.89,1,17500,null,"중개거래",1989],
+["2022-06-15",46.98,5,12000,null,"직거래",1989],
+["2023-10-25",48.6,5,11100,"나","중개거래",1989]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-02-24",48.15,1,500,52,"신규","26.03~28.03",null]

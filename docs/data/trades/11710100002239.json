@@ -3,6 +3,9 @@
 "basis":"단지",
 "by_area":[{"area":80,"pyeong":24.2,"n":6,"median":144000,"min":135000,"max":150000,"latest_price":141000,"latest_date":"2026-08-05","latest_floor":3,"jeonse_n":2,"wolse_n":3,"jeonse_median":61437,"jeonse_min":49875,"jeonse_max":73000,"jeonse_latest":73000,"jeonse_latest_date":"2026-05-04","jeonse_ratio":42.7,"wolse_deposit_median":20000,"wolse_monthly_median":150},{"area":82,"pyeong":24.8,"n":2,"median":142500,"min":135000,"max":150000,"latest_price":150000,"latest_date":"2026-04-09","latest_floor":4,"jeonse_n":3,"wolse_n":3,"jeonse_median":54500,"jeonse_min":44000,"jeonse_max":70000,"jeonse_latest":54500,"jeonse_latest_date":"2026-04-04","jeonse_ratio":38.2,"wolse_deposit_median":5000,"wolse_monthly_median":135}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-03-15",80.01,4,107500,null,null,1989],
+["2021-08-18",82.0,5,120000,null,null,1989],
+["2023-05-08",80.01,2,86000,"101","중개거래",1989],
 ["2024-07-19",80.01,8,97500,"101","중개거래",1989],
 ["2024-09-12",82.0,5,98000,"101","중개거래",1989],
 ["2025-02-21",82.0,7,107000,"101","중개거래",1989],

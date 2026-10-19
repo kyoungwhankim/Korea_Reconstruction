@@ -1,0 +1,9 @@
+{"id":"서울-금천구-시흥동현대",
+"name":"시흥동현대아파트",
+"basis":"기존 단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2023-08-07",49.14,3,47800,"2","중개거래",1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

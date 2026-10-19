@@ -1,3 +1,433 @@
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-02-01", "dong": "봉천동", "floor": 10, "jibun": "1000", "price": 84000}
+{"apt": "현대(관악)", "area": 123.29, "built": 1992, "date": "2021-02-01", "dong": "봉천동", "floor": 6, "jibun": "1000", "price": 122000}
+{"apt": "복권", "area": 47.61, "built": 1971, "date": "2021-02-01", "dong": "봉천동", "floor": 1, "jibun": "645-87", "price": 28800}
+{"apt": "신림현대", "area": 105.36, "built": 1993, "date": "2021-02-03", "dong": "신림동", "floor": 5, "jibun": "1694", "price": 90000}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2021-02-04", "dong": "봉천동", "floor": 10, "jibun": "1698-1", "price": 89300}
+{"apt": "신림현대", "area": 105.36, "built": 1993, "date": "2021-02-04", "dong": "신림동", "floor": 10, "jibun": "1694", "price": 88000}
+{"apt": "라이프", "area": 114.9, "built": 1996, "date": "2021-02-05", "dong": "신림동", "floor": 1, "jibun": "1700", "price": 65000}
+{"apt": "건영2", "area": 43.92, "built": 1988, "date": "2021-02-06", "dong": "신림동", "floor": 5, "jibun": "721-2", "price": 30500}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2021-02-07", "dong": "신림동", "floor": 15, "jibun": "1693", "price": 55000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-02-08", "dong": "신림동", "floor": 14, "jibun": "1694", "price": 51000}
+{"apt": "국제산장", "area": 59.94, "built": 1993, "date": "2021-02-10", "dong": "신림동", "floor": 15, "jibun": "1693", "price": 47400}
+{"apt": "라이프", "area": 59.04, "built": 1996, "date": "2021-02-11", "dong": "신림동", "floor": 10, "jibun": "1700", "price": 51500}
+{"apt": "LIG5차", "area": 59.9, "built": 1995, "date": "2021-02-14", "dong": "신림동", "floor": 2, "jibun": "233-11", "price": 60000}
+{"apt": "보라매삼성", "area": 84.78, "built": 1996, "date": "2021-02-16", "dong": "봉천동", "floor": 13, "jibun": "1698-1", "price": 82000}
+{"apt": "미래", "area": 59.78, "built": 1997, "date": "2021-02-17", "dong": "신림동", "floor": 7, "jibun": "1563-85", "price": 34400}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-02-20", "dong": "신림동", "floor": 10, "jibun": "1694", "price": 49000}
+{"apt": "신림현대", "area": 82.2, "built": 1993, "date": "2021-02-20", "dong": "신림동", "floor": 2, "jibun": "1694", "price": 78000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2021-02-21", "dong": "봉천동", "floor": 12, "jibun": "1000", "price": 80000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-02-22", "dong": "봉천동", "floor": 6, "jibun": "1000", "price": 88000}
+{"apt": "현대", "area": 84.44, "built": 1991, "date": "2021-02-23", "dong": "신림동", "floor": 10, "jibun": "255-189", "price": 60000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 84.82, "built": 1996, "date": "2021-02-24", "dong": "신림동", "floor": 3, "jibun": "1703-1", "price": 70000}
+{"apt": "금호(1차)", "area": 84.96, "built": 1997, "date": "2021-02-25", "dong": "신림동", "floor": 8, "jibun": "1705", "price": 53000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 58.9, "built": 1996, "date": "2021-02-27", "dong": "신림동", "floor": 4, "jibun": "1703-1", "price": 62500}
+{"apt": "해태보라매타워", "area": 84.04, "built": 1996, "date": "2021-02-28", "dong": "봉천동", "floor": 8, "jibun": "729-32", "price": 71900}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2021-02-28", "dong": "신림동", "floor": 2, "jibun": "1693", "price": 60000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-03-01", "dong": "신림동", "floor": 10, "jibun": "1694", "price": 51000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-03-01", "dong": "신림동", "floor": 14, "jibun": "1694", "price": 52000}
+{"apt": "동문", "area": 59.4, "built": 1995, "date": "2021-03-02", "dong": "신림동", "floor": 2, "jibun": "1696", "price": 36000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 58.89, "built": 1996, "date": "2021-03-02", "dong": "신림동", "floor": 1, "jibun": "1703-1", "price": 57000}
+{"apt": "현대", "area": 71.9, "built": 1991, "date": "2021-03-02", "dong": "신림동", "floor": 2, "jibun": "255-189", "price": 45000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-03-03", "dong": "신림동", "floor": 9, "jibun": "1694", "price": 49000}
+{"apt": "현대(관악)", "area": 123.29, "built": 1992, "date": "2021-03-05", "dong": "봉천동", "floor": 12, "jibun": "1000", "price": 125000}
+{"apt": "낙성대현대아파트", "area": 61.74, "built": 1988, "date": "2021-03-06", "dong": "봉천동", "floor": 4, "jibun": "179-58", "price": 71000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-03-06", "dong": "신림동", "floor": 15, "jibun": "1694", "price": 49500}
+{"apt": "동부", "area": 50.57, "built": 1993, "date": "2021-03-06", "dong": "신림동", "floor": 2, "jibun": "1695", "price": 60000}
+{"apt": "건영2", "area": 43.92, "built": 1988, "date": "2021-03-09", "dong": "신림동", "floor": 8, "jibun": "721-2", "price": 32500}
+{"apt": "한양", "area": 84.79, "built": 1992, "date": "2021-03-10", "dong": "신림동", "floor": 14, "jibun": "1563-82", "price": 61700}
+{"apt": "동부", "area": 50.57, "built": 1993, "date": "2021-03-12", "dong": "신림동", "floor": 10, "jibun": "1695", "price": 61000}
+{"apt": "건영2", "area": 43.92, "built": 1988, "date": "2021-03-12", "dong": "신림동", "floor": 4, "jibun": "721-2", "price": 34750}
+{"apt": "라이프", "area": 84.38, "built": 1996, "date": "2021-03-15", "dong": "신림동", "floor": 4, "jibun": "1700", "price": 58000}
+{"apt": "신림2차현대", "area": 84.6, "built": 1996, "date": "2021-03-15", "dong": "신림동", "floor": 11, "jibun": "551-9", "price": 70000}
+{"apt": "현대(관악)", "area": 84.74, "built": 1992, "date": "2021-03-16", "dong": "봉천동", "floor": 8, "jibun": "1000", "price": 102500}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-03-16", "dong": "신림동", "floor": 12, "jibun": "1694", "price": 51000}
+{"apt": "일두(1021)", "area": 38.92, "built": 1985, "date": "2021-03-23", "dong": "봉천동", "floor": 4, "jibun": "1021", "price": 41000}
+{"apt": "현대", "area": 84.44, "built": 1991, "date": "2021-03-23", "dong": "신림동", "floor": 2, "jibun": "255-189", "price": 58000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-03-26", "dong": "신림동", "floor": 9, "jibun": "1694", "price": 49800}
+{"apt": "라이프", "area": 84.38, "built": 1996, "date": "2021-03-26", "dong": "신림동", "floor": 5, "jibun": "1700", "price": 47000}
+{"apt": "주공1", "area": 59.5, "built": 1995, "date": "2021-03-28", "dong": "신림동", "floor": 10, "jibun": "1704-1", "price": 46000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-03-30", "dong": "신림동", "floor": 2, "jibun": "1694", "price": 48000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-03-31", "dong": "신림동", "floor": 13, "jibun": "1694", "price": 48000}
+{"apt": "신림현대", "area": 119.49, "built": 1993, "date": "2021-04-03", "dong": "신림동", "floor": 4, "jibun": "1694", "price": 97000}
+{"apt": "주공1", "area": 59.5, "built": 1995, "date": "2021-04-03", "dong": "신림동", "floor": 4, "jibun": "1704-1", "price": 46800}
+{"apt": "낙성대현대아파트", "area": 61.74, "built": 1988, "date": "2021-04-05", "dong": "봉천동", "floor": 12, "jibun": "179-58", "price": 71500}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 84.82, "built": 1996, "date": "2021-04-06", "dong": "신림동", "floor": 15, "jibun": "1703-1", "price": 50000}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2021-04-09", "dong": "신림동", "floor": 13, "jibun": "1693", "price": 60800}
+{"apt": "현대(관악)", "area": 123.29, "built": 1992, "date": "2021-04-10", "dong": "봉천동", "floor": 12, "jibun": "1000", "price": 120000}
+{"apt": "해태보라매타워", "area": 59.94, "built": 1996, "date": "2021-04-10", "dong": "봉천동", "floor": 21, "jibun": "729-32", "price": 60000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 69.17, "built": 1996, "date": "2021-04-10", "dong": "신림동", "floor": 5, "jibun": "1703-1", "price": 69900}
+{"apt": "낙성대현대아파트", "area": 136.11, "built": 1988, "date": "2021-04-12", "dong": "봉천동", "floor": 1, "jibun": "179-58", "price": 90000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2021-04-17", "dong": "봉천동", "floor": 15, "jibun": "1000", "price": 77000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 69.17, "built": 1996, "date": "2021-04-19", "dong": "신림동", "floor": 12, "jibun": "1703-1", "price": 72800}
+{"apt": "관악", "area": 57.43, "built": 1983, "date": "2021-04-19", "dong": "신림동", "floor": 5, "jibun": "244", "price": 44500}
+{"apt": "건영2", "area": 43.92, "built": 1988, "date": "2021-04-19", "dong": "신림동", "floor": 6, "jibun": "721-2", "price": 35800}
+{"apt": "국제산장", "area": 59.94, "built": 1993, "date": "2021-04-21", "dong": "신림동", "floor": 2, "jibun": "1693", "price": 48000}
+{"apt": "신림현대", "area": 105.36, "built": 1993, "date": "2021-04-21", "dong": "신림동", "floor": 14, "jibun": "1694", "price": 87000}
+{"apt": "건영2", "area": 59.76, "built": 1988, "date": "2021-04-22", "dong": "신림동", "floor": 5, "jibun": "721-2", "price": 44300}
+{"apt": "복권", "area": 47.61, "built": 1971, "date": "2021-04-26", "dong": "봉천동", "floor": 4, "jibun": "645-87", "price": 28200}
+{"apt": "금호(1차)", "area": 59.4, "built": 1997, "date": "2021-04-26", "dong": "신림동", "floor": 1, "jibun": "1705", "price": 43500}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-04-27", "dong": "봉천동", "floor": 13, "jibun": "1000", "price": 82000}
+{"apt": "금호(1차)", "area": 59.4, "built": 1997, "date": "2021-04-27", "dong": "신림동", "floor": 15, "jibun": "1705", "price": 50000}
+{"apt": "금호(1차)", "area": 59.4, "built": 1997, "date": "2021-04-28", "dong": "신림동", "floor": 1, "jibun": "1705", "price": 43000}
+{"apt": "일두(1021)", "area": 38.92, "built": 1985, "date": "2021-04-29", "dong": "봉천동", "floor": 3, "jibun": "1021", "price": 38800}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 58.9, "built": 1996, "date": "2021-04-30", "dong": "신림동", "floor": 5, "jibun": "1703-1", "price": 63000}
+{"apt": "해태보라매타워", "area": 59.94, "built": 1996, "date": "2021-05-01", "dong": "봉천동", "floor": 14, "jibun": "729-32", "price": 59990}
+{"apt": "태영", "area": 49.92, "built": 1997, "date": "2021-05-01", "dong": "신림동", "floor": 15, "jibun": "1424-28", "price": 47000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-05-01", "dong": "신림동", "floor": 7, "jibun": "1694", "price": 52400}
+{"apt": "신림현대", "area": 82.2, "built": 1993, "date": "2021-05-01", "dong": "신림동", "floor": 12, "jibun": "1694", "price": 79500}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-05-02", "dong": "신림동", "floor": 5, "jibun": "1694", "price": 54800}
+{"apt": "금호(1차)", "area": 59.4, "built": 1997, "date": "2021-05-04", "dong": "신림동", "floor": 12, "jibun": "1705", "price": 52500}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2021-05-05", "dong": "신림동", "floor": 10, "jibun": "1693", "price": 59800}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-05-05", "dong": "신림동", "floor": 4, "jibun": "1694", "price": 50600}
+{"apt": "건영2", "area": 59.76, "built": 1988, "date": "2021-05-06", "dong": "신림동", "floor": 3, "jibun": "721-2", "price": 43700}
+{"apt": "건영2", "area": 73.48, "built": 1988, "date": "2021-05-07", "dong": "신림동", "floor": 12, "jibun": "721-2", "price": 57000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-05-08", "dong": "봉천동", "floor": 10, "jibun": "1000", "price": 88000}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2021-05-08", "dong": "신림동", "floor": 9, "jibun": "1693", "price": 64500}
+{"apt": "금호(1차)", "area": 59.4, "built": 1997, "date": "2021-05-10", "dong": "신림동", "floor": 3, "jibun": "1705", "price": 50000}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2021-05-12", "dong": "봉천동", "floor": 12, "jibun": "1698-1", "price": 98500}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-05-12", "dong": "신림동", "floor": 1, "jibun": "1694", "price": 50500}
+{"apt": "금호(1차)", "area": 84.96, "built": 1997, "date": "2021-05-12", "dong": "신림동", "floor": 6, "jibun": "1705", "price": 68000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2021-05-13", "dong": "봉천동", "floor": 11, "jibun": "1000", "price": 81000}
+{"apt": "LIG5차", "area": 84.23, "built": 1995, "date": "2021-05-17", "dong": "신림동", "floor": 1, "jibun": "233-11", "price": 72000}
+{"apt": "현대(관악)", "area": 84.74, "built": 1992, "date": "2021-05-18", "dong": "봉천동", "floor": 12, "jibun": "1000", "price": 98000}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2021-05-18", "dong": "봉천동", "floor": 9, "jibun": "1698-1", "price": 98900}
+{"apt": "건영1", "area": 41.04, "built": 1984, "date": "2021-05-18", "dong": "신림동", "floor": 2, "jibun": "746-43", "price": 51000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-05-19", "dong": "신림동", "floor": 14, "jibun": "1694", "price": 54300}
+{"apt": "신림2차현대", "area": 84.6, "built": 1996, "date": "2021-05-19", "dong": "신림동", "floor": 2, "jibun": "551-9", "price": 72000}
+{"apt": "라이프", "area": 114.9, "built": 1996, "date": "2021-05-20", "dong": "신림동", "floor": 21, "jibun": "1700", "price": 76000}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2021-05-21", "dong": "봉천동", "floor": 10, "jibun": "1698-1", "price": 98000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 69.17, "built": 1996, "date": "2021-05-22", "dong": "신림동", "floor": 10, "jibun": "1703-1", "price": 72700}
+{"apt": "건영4", "area": 84.89, "built": 1997, "date": "2021-05-24", "dong": "신림동", "floor": 12, "jibun": "1702-1", "price": 78500}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2021-05-26", "dong": "봉천동", "floor": 15, "jibun": "1000", "price": 78800}
+{"apt": "현대", "area": 84.44, "built": 1991, "date": "2021-05-26", "dong": "신림동", "floor": 5, "jibun": "255-189", "price": 55000}
+{"apt": "신림현대", "area": 59.85, "built": 1993, "date": "2021-05-28", "dong": "신림동", "floor": 10, "jibun": "1694", "price": 70800}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2021-05-29", "dong": "봉천동", "floor": 6, "jibun": "1000", "price": 78500}
+{"apt": "복권", "area": 47.61, "built": 1971, "date": "2021-05-29", "dong": "봉천동", "floor": 3, "jibun": "645-87", "price": 29300}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2021-05-29", "dong": "신림동", "floor": 9, "jibun": "1693", "price": 60000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-06-02", "dong": "신림동", "floor": 13, "jibun": "1694", "price": 56000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2021-06-03", "dong": "봉천동", "floor": 12, "jibun": "1000", "price": 77500}
+{"apt": "관악", "area": 57.43, "built": 1983, "date": "2021-06-05", "dong": "신림동", "floor": 5, "jibun": "244", "price": 44400}
+{"apt": "주공1", "area": 59.5, "built": 1995, "date": "2021-06-06", "dong": "신림동", "floor": 16, "jibun": "1704-1", "price": 49000}
+{"apt": "낙성대현대아파트", "area": 61.74, "built": 1988, "date": "2021-06-07", "dong": "봉천동", "floor": 11, "jibun": "179-58", "price": 75000}
+{"apt": "보라매우성", "area": 58.86, "built": 1995, "date": "2021-06-08", "dong": "봉천동", "floor": 20, "jibun": "1696", "price": 70500}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 58.9, "built": 1996, "date": "2021-06-12", "dong": "신림동", "floor": 11, "jibun": "1703-1", "price": 66300}
+{"apt": "신림현대", "area": 119.49, "built": 1993, "date": "2021-06-13", "dong": "신림동", "floor": 1, "jibun": "1694", "price": 94500}
+{"apt": "건영2", "area": 73.48, "built": 1988, "date": "2021-06-14", "dong": "신림동", "floor": 3, "jibun": "721-2", "price": 55000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-06-15", "dong": "봉천동", "floor": 13, "jibun": "1000", "price": 88000}
+{"apt": "현대(관악)", "area": 116.72, "built": 1992, "date": "2021-06-15", "dong": "봉천동", "floor": 9, "jibun": "1000", "price": 110500}
+{"apt": "일두(1021)", "area": 57.66, "built": 1985, "date": "2021-06-17", "dong": "봉천동", "floor": 1, "jibun": "1021", "price": 58000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 58.89, "built": 1996, "date": "2021-06-18", "dong": "신림동", "floor": 14, "jibun": "1703-1", "price": 67000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 69.17, "built": 1996, "date": "2021-06-18", "dong": "신림동", "floor": 4, "jibun": "1703-1", "price": 71500}
+{"apt": "라이프", "area": 84.38, "built": 1996, "date": "2021-06-19", "dong": "신림동", "floor": 13, "jibun": "1700", "price": 67000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 58.9, "built": 1996, "date": "2021-06-24", "dong": "신림동", "floor": 8, "jibun": "1703-1", "price": 65900}
+{"apt": "한양", "area": 84.79, "built": 1992, "date": "2021-06-25", "dong": "신림동", "floor": 12, "jibun": "1563-82", "price": 59500}
+{"apt": "건영2", "area": 43.92, "built": 1988, "date": "2021-06-27", "dong": "신림동", "floor": 5, "jibun": "721-2", "price": 36000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-06-29", "dong": "신림동", "floor": 11, "jibun": "1694", "price": 55700}
+{"apt": "금호(1차)", "area": 59.4, "built": 1997, "date": "2021-06-29", "dong": "신림동", "floor": 2, "jibun": "1705", "price": 50000}
+{"apt": "현대", "area": 84.44, "built": 1991, "date": "2021-06-30", "dong": "신림동", "floor": 5, "jibun": "255-189", "price": 59300}
+{"apt": "태영", "area": 42.24, "built": 1997, "date": "2021-07-02", "dong": "신림동", "floor": 23, "jibun": "1424-28", "price": 39000}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2021-07-03", "dong": "신림동", "floor": 12, "jibun": "1693", "price": 64500}
+{"apt": "해태보라매타워", "area": 84.33, "built": 1996, "date": "2021-07-07", "dong": "봉천동", "floor": 10, "jibun": "729-32", "price": 82000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 58.9, "built": 1996, "date": "2021-07-07", "dong": "신림동", "floor": 3, "jibun": "1703-1", "price": 65500}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2021-07-08", "dong": "신림동", "floor": 6, "jibun": "1693", "price": 59000}
+{"apt": "현대(관악)", "area": 116.86, "built": 1992, "date": "2021-07-10", "dong": "봉천동", "floor": 8, "jibun": "1000", "price": 113750}
+{"apt": "신림현대", "area": 59.85, "built": 1993, "date": "2021-07-10", "dong": "신림동", "floor": 2, "jibun": "1694", "price": 76250}
+{"apt": "현대(관악)", "area": 123.29, "built": 1992, "date": "2021-07-11", "dong": "봉천동", "floor": 4, "jibun": "1000", "price": 112000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-07-12", "dong": "봉천동", "floor": 6, "jibun": "1000", "price": 85000}
+{"apt": "신림현대", "area": 59.85, "built": 1993, "date": "2021-07-13", "dong": "신림동", "floor": 8, "jibun": "1694", "price": 69500}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 58.9, "built": 1996, "date": "2021-07-14", "dong": "신림동", "floor": 6, "jibun": "1703-1", "price": 67500}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2021-07-15", "dong": "봉천동", "floor": 5, "jibun": "1000", "price": 78000}
+{"apt": "동부", "area": 50.57, "built": 1993, "date": "2021-07-15", "dong": "신림동", "floor": 14, "jibun": "1695", "price": 67300}
+{"apt": "동부", "area": 60.38, "built": 1993, "date": "2021-07-15", "dong": "신림동", "floor": 12, "jibun": "1695", "price": 81000}
+{"apt": "현대(관악)", "area": 116.86, "built": 1992, "date": "2021-07-16", "dong": "봉천동", "floor": 8, "jibun": "1000", "price": 111000}
+{"apt": "복권", "area": 47.61, "built": 1971, "date": "2021-07-16", "dong": "봉천동", "floor": 6, "jibun": "645-87", "price": 29500}
+{"apt": "신림현대", "area": 105.36, "built": 1993, "date": "2021-07-16", "dong": "신림동", "floor": 3, "jibun": "1694", "price": 85000}
+{"apt": "태영", "area": 42.24, "built": 1997, "date": "2021-07-17", "dong": "신림동", "floor": 16, "jibun": "1424-28", "price": 40000}
+{"apt": "동마", "area": 59.99, "built": 1995, "date": "2021-07-17", "dong": "신림동", "floor": 10, "jibun": "1699", "price": 50800}
+{"apt": "건영1", "area": 41.04, "built": 1984, "date": "2021-07-17", "dong": "신림동", "floor": 2, "jibun": "746-43", "price": 52000}
+{"apt": "건영2", "area": 59.76, "built": 1988, "date": "2021-07-18", "dong": "신림동", "floor": 4, "jibun": "721-2", "price": 48500}
+{"apt": "건영2", "area": 73.48, "built": 1988, "date": "2021-07-18", "dong": "신림동", "floor": 10, "jibun": "721-2", "price": 58500}
+{"apt": "현대", "area": 71.9, "built": 1991, "date": "2021-07-19", "dong": "신림동", "floor": 4, "jibun": "255-189", "price": 48000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-07-20", "dong": "봉천동", "floor": 13, "jibun": "1000", "price": 89400}
+{"apt": "현대(관악)", "area": 84.74, "built": 1992, "date": "2021-07-20", "dong": "봉천동", "floor": 7, "jibun": "1000", "price": 101000}
+{"apt": "건영4", "area": 84.89, "built": 1997, "date": "2021-07-20", "dong": "신림동", "floor": 6, "jibun": "1702-1", "price": 77000}
+{"apt": "신림2차현대", "area": 84.6, "built": 1996, "date": "2021-07-21", "dong": "신림동", "floor": 14, "jibun": "551-9", "price": 84000}
+{"apt": "국제산장", "area": 59.94, "built": 1993, "date": "2021-07-24", "dong": "신림동", "floor": 11, "jibun": "1693", "price": 52900}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-07-24", "dong": "신림동", "floor": 2, "jibun": "1694", "price": 54000}
+{"apt": "신림현대", "area": 105.36, "built": 1993, "date": "2021-07-25", "dong": "신림동", "floor": 7, "jibun": "1694", "price": 93000}
+{"apt": "현대(관악)", "area": 123.29, "built": 1992, "date": "2021-07-26", "dong": "봉천동", "floor": 6, "jibun": "1000", "price": 126500}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-07-26", "dong": "신림동", "floor": 9, "jibun": "1694", "price": 55500}
+{"apt": "신림현대", "area": 105.36, "built": 1993, "date": "2021-07-26", "dong": "신림동", "floor": 8, "jibun": "1694", "price": 94000}
+{"apt": "건영4", "area": 84.89, "built": 1997, "date": "2021-07-27", "dong": "신림동", "floor": 9, "jibun": "1702-1", "price": 82500}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2021-07-29", "dong": "봉천동", "floor": 9, "jibun": "1000", "price": 78000}
+{"apt": "동부", "area": 50.57, "built": 1993, "date": "2021-07-30", "dong": "신림동", "floor": 3, "jibun": "1695", "price": 60000}
+{"apt": "건영2", "area": 59.76, "built": 1988, "date": "2021-07-30", "dong": "신림동", "floor": 6, "jibun": "721-2", "price": 51800}
+{"apt": "건영2", "area": 73.48, "built": 1988, "date": "2021-07-31", "dong": "신림동", "floor": 8, "jibun": "721-2", "price": 59000}
+{"apt": "동부", "area": 60.38, "built": 1993, "date": "2021-08-02", "dong": "신림동", "floor": 5, "jibun": "1695", "price": 82000}
+{"apt": "현대(관악)", "area": 116.86, "built": 1992, "date": "2021-08-03", "dong": "봉천동", "floor": 9, "jibun": "1000", "price": 114000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-08-03", "dong": "신림동", "floor": 15, "jibun": "1694", "price": 56500}
+{"apt": "관악", "area": 56.39, "built": 1983, "date": "2021-08-04", "dong": "신림동", "floor": 1, "jibun": "244", "price": 47000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-08-05", "dong": "봉천동", "floor": 13, "jibun": "1000", "price": 86700}
+{"apt": "한양", "area": 84.79, "built": 1992, "date": "2021-08-05", "dong": "신림동", "floor": 4, "jibun": "1563-82", "price": 61700}
+{"apt": "신림현대", "area": 119.49, "built": 1993, "date": "2021-08-05", "dong": "신림동", "floor": 3, "jibun": "1694", "price": 105000}
+{"apt": "신동아", "area": 84.3, "built": 1994, "date": "2021-08-06", "dong": "신림동", "floor": 11, "jibun": "산28-9", "price": 58000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2021-08-07", "dong": "봉천동", "floor": 15, "jibun": "1000", "price": 76000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-08-09", "dong": "봉천동", "floor": 11, "jibun": "1000", "price": 88000}
+{"apt": "현대", "area": 84.44, "built": 1991, "date": "2021-08-09", "dong": "신림동", "floor": 15, "jibun": "255-189", "price": 64500}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-08-10", "dong": "봉천동", "floor": 13, "jibun": "1000", "price": 89000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-08-11", "dong": "봉천동", "floor": 6, "jibun": "1000", "price": 87000}
+{"apt": "보라매삼성", "area": 84.78, "built": 1996, "date": "2021-08-11", "dong": "봉천동", "floor": 1, "jibun": "1698-1", "price": 95000}
+{"apt": "현대(관악)", "area": 84.74, "built": 1992, "date": "2021-08-12", "dong": "봉천동", "floor": 11, "jibun": "1000", "price": 105000}
+{"apt": "동부", "area": 60.38, "built": 1993, "date": "2021-08-12", "dong": "신림동", "floor": 7, "jibun": "1695", "price": 80000}
+{"apt": "현대(관악)", "area": 84.74, "built": 1992, "date": "2021-08-13", "dong": "봉천동", "floor": 6, "jibun": "1000", "price": 102000}
+{"apt": "태영", "area": 49.92, "built": 1997, "date": "2021-08-14", "dong": "신림동", "floor": 16, "jibun": "1424-28", "price": 49800}
+{"apt": "태영", "area": 49.92, "built": 1997, "date": "2021-08-14", "dong": "신림동", "floor": 21, "jibun": "1424-28", "price": 48800}
+{"apt": "건영4", "area": 84.89, "built": 1997, "date": "2021-08-16", "dong": "신림동", "floor": 18, "jibun": "1702-1", "price": 82000}
+{"apt": "현대", "area": 84.44, "built": 1991, "date": "2021-08-17", "dong": "신림동", "floor": 11, "jibun": "255-189", "price": 63000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-08-18", "dong": "봉천동", "floor": 15, "jibun": "1000", "price": 86750}
+{"apt": "신림현대", "area": 82.2, "built": 1993, "date": "2021-08-21", "dong": "신림동", "floor": 9, "jibun": "1694", "price": 92000}
+{"apt": "신림현대", "area": 59.85, "built": 1993, "date": "2021-08-22", "dong": "신림동", "floor": 14, "jibun": "1694", "price": 76000}
+{"apt": "신안", "area": 55.21, "built": 1978, "date": "2021-08-23", "dong": "신림동", "floor": 5, "jibun": "10-10", "price": 47500}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 58.9, "built": 1996, "date": "2021-08-23", "dong": "신림동", "floor": 4, "jibun": "1703-1", "price": 66500}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2021-08-24", "dong": "봉천동", "floor": 6, "jibun": "1000", "price": 82500}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2021-08-27", "dong": "봉천동", "floor": 9, "jibun": "1698-1", "price": 108000}
+{"apt": "신동아", "area": 84.3, "built": 1994, "date": "2021-08-27", "dong": "신림동", "floor": 2, "jibun": "산28-9", "price": 52500}
+{"apt": "선경", "area": 76.5, "built": 1996, "date": "2021-08-28", "dong": "봉천동", "floor": 2, "jibun": "1697", "price": 80000}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2021-08-29", "dong": "신림동", "floor": 1, "jibun": "1693", "price": 61500}
+{"apt": "현대(관악)", "area": 116.72, "built": 1992, "date": "2021-08-30", "dong": "봉천동", "floor": 3, "jibun": "1000", "price": 113000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 69.17, "built": 1996, "date": "2021-08-31", "dong": "신림동", "floor": 8, "jibun": "1703-1", "price": 72500}
+{"apt": "현대", "area": 84.22, "built": 1991, "date": "2021-09-01", "dong": "신림동", "floor": 3, "jibun": "255-189", "price": 64500}
+{"apt": "태흥", "area": 59.86, "built": 1995, "date": "2021-09-04", "dong": "신림동", "floor": 11, "jibun": "1698", "price": 53000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 84.82, "built": 1996, "date": "2021-09-04", "dong": "신림동", "floor": 10, "jibun": "1703-1", "price": 92000}
+{"apt": "라이프", "area": 59.04, "built": 1996, "date": "2021-09-07", "dong": "신림동", "floor": 12, "jibun": "1700", "price": 59000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2021-09-10", "dong": "봉천동", "floor": 1, "jibun": "1000", "price": 76000}
+{"apt": "신림현대", "area": 59.85, "built": 1993, "date": "2021-09-10", "dong": "신림동", "floor": 11, "jibun": "1694", "price": 77500}
+{"apt": "건영1", "area": 60.27, "built": 1984, "date": "2021-09-10", "dong": "신림동", "floor": 9, "jibun": "746-43", "price": 70000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-09-11", "dong": "봉천동", "floor": 9, "jibun": "1000", "price": 90000}
+{"apt": "현대(관악)", "area": 105.84, "built": 1992, "date": "2021-09-11", "dong": "봉천동", "floor": 13, "jibun": "1000", "price": 118000}
+{"apt": "신림현대", "area": 59.85, "built": 1993, "date": "2021-09-11", "dong": "신림동", "floor": 3, "jibun": "1694", "price": 75000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 58.9, "built": 1996, "date": "2021-09-11", "dong": "신림동", "floor": 12, "jibun": "1703-1", "price": 72000}
+{"apt": "신림현대", "area": 105.36, "built": 1993, "date": "2021-09-12", "dong": "신림동", "floor": 2, "jibun": "1694", "price": 89500}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-09-13", "dong": "봉천동", "floor": 11, "jibun": "1000", "price": 91000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-09-13", "dong": "신림동", "floor": 3, "jibun": "1694", "price": 59990}
+{"apt": "신림현대", "area": 82.2, "built": 1993, "date": "2021-09-13", "dong": "신림동", "floor": 2, "jibun": "1694", "price": 87500}
+{"apt": "보라매롯데캐슬", "area": 170.11, "built": 1997, "date": "2021-09-14", "dong": "봉천동", "floor": 11, "jibun": "729-22", "price": 149900}
+{"apt": "현대(관악)", "area": 105.84, "built": 1992, "date": "2021-09-15", "dong": "봉천동", "floor": 5, "jibun": "1000", "price": 115000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2021-09-16", "dong": "봉천동", "floor": 7, "jibun": "1000", "price": 79000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-09-17", "dong": "봉천동", "floor": 11, "jibun": "1000", "price": 89750}
+{"apt": "동부", "area": 60.38, "built": 1993, "date": "2021-09-23", "dong": "신림동", "floor": 13, "jibun": "1695", "price": 85000}
+{"apt": "복권", "area": 47.61, "built": 1971, "date": "2021-09-24", "dong": "봉천동", "floor": 4, "jibun": "645-87", "price": 29500}
+{"apt": "복권", "area": 47.61, "built": 1971, "date": "2021-09-25", "dong": "봉천동", "floor": 6, "jibun": "645-87", "price": 29800}
+{"apt": "신림현대", "area": 82.2, "built": 1993, "date": "2021-09-26", "dong": "신림동", "floor": 3, "jibun": "1694", "price": 89700}
+{"apt": "신림현대", "area": 119.49, "built": 1993, "date": "2021-09-26", "dong": "신림동", "floor": 8, "jibun": "1694", "price": 130000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 84.82, "built": 1996, "date": "2021-09-26", "dong": "신림동", "floor": 1, "jibun": "1703-1", "price": 77000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-09-28", "dong": "봉천동", "floor": 1, "jibun": "1000", "price": 85000}
+{"apt": "일두(1021)", "area": 38.92, "built": 1985, "date": "2021-09-28", "dong": "봉천동", "floor": 5, "jibun": "1021", "price": 43000}
+{"apt": "보라매우성", "area": 58.86, "built": 1995, "date": "2021-09-28", "dong": "봉천동", "floor": 6, "jibun": "1696", "price": 72000}
+{"apt": "동마", "area": 78.74, "built": 1995, "date": "2021-09-30", "dong": "신림동", "floor": 1, "jibun": "1699", "price": 59500}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2021-10-01", "dong": "봉천동", "floor": 1, "jibun": "1000", "price": 78000}
+{"apt": "신동아", "area": 84.3, "built": 1994, "date": "2021-10-01", "dong": "신림동", "floor": 1, "jibun": "산28-9", "price": 52000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-10-04", "dong": "봉천동", "floor": 6, "jibun": "1000", "price": 81000}
+{"apt": "신림현대", "area": 59.85, "built": 1993, "date": "2021-10-04", "dong": "신림동", "floor": 7, "jibun": "1694", "price": 78500}
+{"apt": "금호(1차)", "area": 84.96, "built": 1997, "date": "2021-10-04", "dong": "신림동", "floor": 11, "jibun": "1705", "price": 72000}
+{"apt": "복권", "area": 47.61, "built": 1971, "date": "2021-10-06", "dong": "봉천동", "floor": 1, "jibun": "645-87", "price": 30000}
+{"apt": "건영4", "area": 84.89, "built": 1997, "date": "2021-10-06", "dong": "신림동", "floor": 16, "jibun": "1702-1", "price": 65000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 58.9, "built": 1996, "date": "2021-10-06", "dong": "신림동", "floor": 9, "jibun": "1703-1", "price": 70000}
+{"apt": "건영4", "area": 84.71, "built": 1997, "date": "2021-10-07", "dong": "신림동", "floor": 10, "jibun": "1702-1", "price": 84500}
+{"apt": "태영", "area": 49.92, "built": 1997, "date": "2021-10-09", "dong": "신림동", "floor": 18, "jibun": "1424-28", "price": 50000}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2021-10-12", "dong": "신림동", "floor": 12, "jibun": "1693", "price": 64000}
+{"apt": "신림현대", "area": 82.2, "built": 1993, "date": "2021-10-13", "dong": "신림동", "floor": 4, "jibun": "1694", "price": 96000}
+{"apt": "신림현대", "area": 82.2, "built": 1993, "date": "2021-10-14", "dong": "신림동", "floor": 12, "jibun": "1694", "price": 90000}
+{"apt": "한양", "area": 84.79, "built": 1992, "date": "2021-10-15", "dong": "신림동", "floor": 1, "jibun": "1563-82", "price": 63000}
+{"apt": "신안", "area": 55.21, "built": 1978, "date": "2021-10-16", "dong": "신림동", "floor": 3, "jibun": "10-10", "price": 49000}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2021-10-20", "dong": "신림동", "floor": 7, "jibun": "1693", "price": 67500}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-10-21", "dong": "봉천동", "floor": 12, "jibun": "1000", "price": 91000}
+{"apt": "신안", "area": 55.21, "built": 1978, "date": "2021-10-22", "dong": "신림동", "floor": 5, "jibun": "10-10", "price": 51800}
+{"apt": "보라매롯데캐슬", "area": 170.11, "built": 1997, "date": "2021-10-24", "dong": "봉천동", "floor": 15, "jibun": "729-22", "price": 160000}
+{"apt": "보라매삼성", "area": 84.78, "built": 1996, "date": "2021-10-27", "dong": "봉천동", "floor": 2, "jibun": "1698-1", "price": 85000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2021-10-28", "dong": "신림동", "floor": 9, "jibun": "1694", "price": 59800}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2021-11-03", "deal_type": "중개거래", "dong": "봉천동", "floor": 8, "jibun": "1000", "price": 89300}
+{"apt": "현대(관악)", "area": 116.86, "built": 1992, "date": "2021-11-03", "deal_type": "중개거래", "dong": "봉천동", "floor": 3, "jibun": "1000", "price": 115000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 84.82, "built": 1996, "date": "2021-11-05", "deal_type": "중개거래", "dong": "신림동", "floor": 12, "jibun": "1703-1", "price": 91000}
+{"apt": "낙성대현대아파트", "area": 61.74, "built": 1988, "date": "2021-11-09", "deal_type": "중개거래", "dong": "봉천동", "floor": 4, "jibun": "179-58", "price": 77750}
+{"apt": "태영", "area": 49.92, "built": 1997, "date": "2021-11-11", "deal_type": "중개거래", "dong": "신림동", "floor": 21, "jibun": "1424-28", "price": 49000}
+{"apt": "신림현대", "area": 59.85, "built": 1993, "date": "2021-11-11", "deal_type": "중개거래", "dong": "신림동", "floor": 4, "jibun": "1694", "price": 79000}
+{"apt": "현대(관악)", "area": 84.74, "built": 1992, "date": "2021-11-13", "deal_type": "중개거래", "dong": "봉천동", "floor": 7, "jibun": "1000", "price": 102000}
+{"apt": "건영1", "area": 41.04, "built": 1984, "date": "2021-11-17", "deal_type": "중개거래", "dong": "신림동", "floor": 5, "jibun": "746-43", "price": 55500}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2021-11-19", "deal_type": "중개거래", "dong": "봉천동", "floor": 15, "jibun": "1000", "price": 81000}
+{"apt": "신동아", "area": 84.3, "built": 1994, "date": "2021-11-19", "deal_type": "중개거래", "dong": "신림동", "floor": 14, "jibun": "산28-9", "price": 56000}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2021-11-24", "deal_type": "중개거래", "dong": "봉천동", "floor": 12, "jibun": "1698-1", "price": 107000}
+{"apt": "신안", "area": 53.88, "built": 1978, "date": "2021-11-24", "deal_type": "중개거래", "dong": "신림동", "floor": 1, "jibun": "10-10", "price": 53000}
+{"apt": "라이프", "area": 59.04, "built": 1996, "date": "2021-12-01", "deal_type": "중개거래", "dong": "신림동", "floor": 6, "jibun": "1700", "price": 57000}
+{"apt": "건영2", "area": 43.92, "built": 1988, "date": "2021-12-03", "deal_type": "중개거래", "dong": "신림동", "floor": 11, "jibun": "721-2", "price": 49500}
+{"apt": "신림현대", "area": 82.2, "built": 1993, "date": "2021-12-07", "deal_type": "중개거래", "dong": "신림동", "floor": 12, "jibun": "1694", "price": 100000}
+{"apt": "복권", "area": 47.61, "built": 1971, "date": "2021-12-08", "deal_type": "중개거래", "dong": "봉천동", "floor": 1, "jibun": "645-87", "price": 32700}
+{"apt": "신림2차현대", "area": 59.91, "built": 1996, "date": "2021-12-16", "deal_type": "중개거래", "dong": "신림동", "floor": 16, "jibun": "551-9", "price": 63000}
+{"apt": "복권", "area": 47.61, "built": 1971, "date": "2021-12-24", "deal_type": "중개거래", "dong": "봉천동", "floor": 6, "jibun": "645-87", "price": 32400}
+{"apt": "태흥", "area": 59.86, "built": 1995, "date": "2022-01-03", "deal_type": "중개거래", "dong": "신림동", "floor": 12, "jibun": "1698", "price": 58500}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2022-01-10", "deal_type": "중개거래", "dong": "신림동", "floor": 15, "jibun": "1693", "price": 60000}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2022-01-12", "deal_type": "중개거래", "dong": "봉천동", "floor": 10, "jibun": "1698-1", "price": 95000}
+{"apt": "건영1", "area": 60.27, "built": 1984, "date": "2022-01-12", "deal_type": "중개거래", "dong": "신림동", "floor": 10, "jibun": "746-43", "price": 75000}
+{"apt": "동마", "area": 59.99, "built": 1995, "date": "2022-01-15", "deal_type": "중개거래", "dong": "신림동", "floor": 7, "jibun": "1699", "price": 51000}
+{"apt": "건영2", "area": 43.92, "built": 1988, "date": "2022-01-19", "deal_type": "중개거래", "dong": "신림동", "floor": 1, "jibun": "721-2", "price": 36000}
+{"apt": "태영", "area": 49.92, "built": 1997, "date": "2022-01-22", "deal_type": "중개거래", "dong": "신림동", "floor": 20, "jibun": "1424-28", "price": 50000}
+{"apt": "라이프", "area": 59.13, "built": 1996, "date": "2022-01-28", "deal_type": "중개거래", "dong": "신림동", "floor": 7, "jibun": "1700", "price": 45000}
+{"apt": "라이프", "area": 59.04, "built": 1996, "date": "2022-02-11", "deal_type": "중개거래", "dong": "신림동", "floor": 9, "jibun": "1700", "price": 57000}
+{"apt": "신림현대", "area": 82.2, "built": 1993, "date": "2022-02-15", "deal_type": "중개거래", "dong": "신림동", "floor": 9, "jibun": "1694", "price": 85000}
+{"apt": "라이프", "area": 59.04, "built": 1996, "date": "2022-02-19", "deal_type": "중개거래", "dong": "신림동", "floor": 4, "jibun": "1700", "price": 58200}
+{"apt": "라이프", "area": 84.38, "built": 1996, "date": "2022-02-19", "deal_type": "중개거래", "dong": "신림동", "floor": 8, "jibun": "1700", "price": 67000}
+{"apt": "신림현대", "area": 59.85, "built": 1993, "date": "2022-02-26", "deal_type": "중개거래", "dong": "신림동", "floor": 5, "jibun": "1694", "price": 77000}
+{"apt": "금호(1차)", "area": 59.4, "built": 1997, "date": "2022-02-26", "deal_type": "중개거래", "dong": "신림동", "floor": 3, "jibun": "1705", "price": 51000}
+{"apt": "동부", "area": 50.57, "built": 1993, "date": "2022-02-28", "deal_type": "직거래", "dong": "신림동", "floor": 14, "jibun": "1695", "price": 60000}
+{"apt": "신림현대", "area": 105.36, "built": 1993, "date": "2022-03-03", "deal_type": "중개거래", "dong": "신림동", "floor": 11, "jibun": "1694", "price": 103000}
+{"apt": "신림현대", "area": 59.85, "built": 1993, "date": "2022-03-07", "deal_type": "중개거래", "dong": "신림동", "floor": 6, "jibun": "1694", "price": 77000}
+{"apt": "금호(1차)", "area": 59.4, "built": 1997, "date": "2022-03-16", "deal_type": "중개거래", "dong": "신림동", "floor": 10, "jibun": "1705", "price": 55000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2022-03-17", "deal_type": "중개거래", "dong": "신림동", "floor": 9, "jibun": "1694", "price": 55000}
+{"apt": "신안", "area": 53.88, "built": 1978, "date": "2022-03-23", "deal_type": "중개거래", "dong": "신림동", "floor": 1, "jibun": "10-10", "price": 51000}
+{"apt": "국제산장", "area": 59.94, "built": 1993, "date": "2022-03-25", "deal_type": "중개거래", "dong": "신림동", "floor": 13, "jibun": "1693", "price": 53700}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2022-03-26", "deal_type": "중개거래", "dong": "봉천동", "floor": 15, "jibun": "1698-1", "price": 98000}
+{"apt": "신안", "area": 55.21, "built": 1978, "date": "2022-03-26", "deal_type": "중개거래", "dong": "신림동", "floor": 4, "jibun": "10-10", "price": 55000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2022-03-30", "deal_type": "중개거래", "dong": "신림동", "floor": 5, "jibun": "1694", "price": 56000}
+{"apt": "신안", "area": 56.86, "built": 1978, "date": "2022-04-04", "deal_type": "중개거래", "dong": "신림동", "floor": 5, "jibun": "10-10", "price": 50000}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2022-04-05", "deal_type": "중개거래", "dong": "봉천동", "floor": 15, "jibun": "1698-1", "price": 98500}
+{"apt": "동부", "area": 60.38, "built": 1993, "date": "2022-04-06", "deal_type": "중개거래", "dong": "신림동", "floor": 2, "jibun": "1695", "price": 85400}
+{"apt": "보라매삼성", "area": 84.99, "built": 1996, "date": "2022-04-15", "deal_type": "중개거래", "dong": "봉천동", "floor": 2, "jibun": "1698-1", "price": 93000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2022-04-29", "deal_type": "중개거래", "dong": "봉천동", "floor": 2, "jibun": "1000", "price": 78000}
+{"apt": "관악", "area": 56.39, "built": 1983, "date": "2022-04-29", "deal_type": "중개거래", "dong": "신림동", "floor": 4, "jibun": "244", "price": 51000}
+{"apt": "현대(관악)", "area": 116.72, "built": 1992, "date": "2022-04-30", "deal_type": "중개거래", "dong": "봉천동", "floor": 10, "jibun": "1000", "price": 118000}
+{"apt": "동부", "area": 78.43, "built": 1993, "date": "2022-05-01", "deal_type": "중개거래", "dong": "신림동", "floor": 4, "jibun": "1695", "price": 97000}
+{"apt": "동부", "area": 60.38, "built": 1993, "date": "2022-05-04", "deal_type": "중개거래", "dong": "신림동", "floor": 5, "jibun": "1695", "price": 78000}
+{"apt": "복권", "area": 47.61, "built": 1971, "date": "2022-05-16", "deal_type": "중개거래", "dong": "봉천동", "floor": 6, "jibun": "645-87", "price": 30500}
+{"apt": "현대(관악)", "area": 116.72, "built": 1992, "date": "2022-05-20", "deal_type": "중개거래", "dong": "봉천동", "floor": 8, "jibun": "1000", "price": 108500}
+{"apt": "신안", "area": 55.21, "built": 1978, "date": "2022-05-21", "deal_type": "중개거래", "dong": "신림동", "floor": 5, "jibun": "10-10", "price": 54000}
+{"apt": "현대", "area": 71.9, "built": 1991, "date": "2022-05-25", "deal_type": "중개거래", "dong": "신림동", "floor": 5, "jibun": "255-189", "price": 51000}
+{"apt": "관악", "area": 62.69, "built": 1983, "date": "2022-06-14", "deal_type": "중개거래", "dong": "신림동", "floor": 5, "jibun": "244", "price": 45000}
+{"apt": "보라매롯데캐슬", "area": 166.39, "built": 1997, "date": "2022-06-17", "deal_type": "중개거래", "dong": "봉천동", "floor": 27, "jibun": "729-22", "price": 165000}
+{"apt": "윤정", "area": 59.82, "built": 1993, "date": "2022-06-27", "deal_type": "직거래", "dong": "신림동", "floor": 6, "jibun": "546-7", "price": 30000}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2022-07-02", "deal_type": "중개거래", "dong": "봉천동", "floor": 11, "jibun": "1698-1", "price": 97800}
+{"apt": "관악", "area": 56.39, "built": 1983, "date": "2022-07-16", "deal_type": "중개거래", "dong": "신림동", "floor": 2, "jibun": "244", "price": 49000}
+{"apt": "보라매롯데캐슬", "area": 166.39, "built": 1997, "date": "2022-07-21", "deal_type": "중개거래", "dong": "봉천동", "floor": 29, "jibun": "729-22", "price": 165000}
+{"apt": "보라매삼성", "area": 84.78, "built": 1996, "date": "2022-07-26", "deal_type": "중개거래", "dong": "봉천동", "floor": 15, "jibun": "1698-1", "price": 103000}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2022-08-04", "deal_type": "중개거래", "dong": "신림동", "floor": 8, "jibun": "1693", "price": 62200}
+{"apt": "현대(관악)", "area": 116.72, "built": 1992, "date": "2022-09-15", "deal_type": "중개거래", "dong": "봉천동", "floor": 6, "jibun": "1000", "price": 93200}
+{"apt": "신동아", "area": 84.3, "built": 1994, "date": "2022-11-03", "deal_type": "중개거래", "dong": "신림동", "floor": 3, "jibun": "산28-9", "price": 53000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 84.82, "built": 1996, "date": "2022-11-11", "deal_type": "중개거래", "dong": "신림동", "floor": 13, "jibun": "1703-1", "price": 83500}
+{"apt": "한양", "area": 84.79, "built": 1992, "date": "2023-01-11", "deal_type": "중개거래", "dong": "신림동", "dong_no": "2", "floor": 13, "jibun": "1563-82", "price": 50000}
+{"apt": "현대(관악)", "area": 84.74, "built": 1992, "date": "2023-01-12", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "120", "floor": 5, "jibun": "1000", "price": 79000}
+{"apt": "현대", "area": 71.9, "built": 1991, "date": "2023-02-06", "deal_type": "중개거래", "dong": "신림동", "dong_no": "105", "floor": 9, "jibun": "255-189", "price": 49000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 69.17, "built": 1996, "date": "2023-02-13", "deal_type": "중개거래", "dong": "신림동", "dong_no": "7", "floor": 12, "jibun": "1703-1", "price": 60000}
+{"apt": "낙성대현대아파트", "area": 136.11, "built": 1988, "date": "2023-02-14", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "102", "floor": 7, "jibun": "179-58", "price": 94900}
+{"apt": "동부", "area": 50.57, "built": 1993, "date": "2023-02-16", "deal_type": "중개거래", "dong": "신림동", "dong_no": "101", "floor": 10, "jibun": "1695", "price": 54800}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2023-02-18", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "103", "floor": 1, "jibun": "1698-1", "price": 79000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2023-02-20", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "126", "floor": 6, "jibun": "1000", "price": 61000}
+{"apt": "현대(관악)", "area": 84.74, "built": 1992, "date": "2023-02-20", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "120", "floor": 4, "jibun": "1000", "price": 76000}
+{"apt": "라이프", "area": 59.04, "built": 1996, "date": "2023-02-24", "deal_type": "중개거래", "dong": "신림동", "floor": 10, "jibun": "1700", "price": 40000}
+{"apt": "현대", "area": 84.22, "built": 1991, "date": "2023-02-27", "deal_type": "중개거래", "dong": "신림동", "dong_no": "102", "floor": 13, "jibun": "255-189", "price": 59000}
+{"apt": "현대", "area": 84.28, "built": 1991, "date": "2023-02-27", "deal_type": "중개거래", "dong": "신림동", "dong_no": "105", "floor": 2, "jibun": "255-189", "price": 49000}
+{"apt": "국제산장", "area": 59.94, "built": 1993, "date": "2023-03-07", "deal_type": "직거래", "dong": "신림동", "dong_no": "107", "floor": 3, "jibun": "1693", "price": 36600}
+{"apt": "일두(1021)", "area": 38.92, "built": 1985, "date": "2023-03-13", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "2", "floor": 4, "jibun": "1021", "price": 30000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 69.17, "built": 1996, "date": "2023-03-16", "deal_type": "중개거래", "dong": "신림동", "dong_no": "3", "floor": 15, "jibun": "1703-1", "price": 57000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2023-03-22", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "119", "floor": 8, "jibun": "1000", "price": 62000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2023-03-23", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "109", "floor": 5, "jibun": "1000", "price": 71000}
+{"apt": "일두(1021)", "area": 38.92, "built": 1985, "date": "2023-03-29", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "2", "floor": 6, "jibun": "1021", "price": 28000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2023-03-31", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "119", "floor": 11, "jibun": "1000", "price": 58800}
+{"apt": "현대(관악)", "area": 84.74, "built": 1992, "date": "2023-04-03", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "120", "floor": 10, "jibun": "1000", "price": 81500}
+{"apt": "신림현대", "area": 119.49, "built": 1993, "date": "2023-04-03", "deal_type": "중개거래", "dong": "신림동", "dong_no": "107", "floor": 12, "jibun": "1694", "price": 93000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2023-04-08", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "126", "floor": 13, "jibun": "1000", "price": 59000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2023-04-15", "deal_type": "중개거래", "dong": "신림동", "dong_no": "108", "floor": 3, "jibun": "1694", "price": 47000}
+{"apt": "동부", "area": 50.57, "built": 1993, "date": "2023-04-16", "deal_type": "중개거래", "dong": "신림동", "dong_no": "101", "floor": 15, "jibun": "1695", "price": 55000}
+{"apt": "주공1", "area": 59.5, "built": 1995, "date": "2023-04-22", "deal_type": "중개거래", "dong": "신림동", "dong_no": "107", "floor": 20, "jibun": "1704-1", "price": 44500}
+{"apt": "선경", "area": 50.49, "built": 1996, "date": "2023-04-25", "deal_type": "직거래", "dong": "봉천동", "floor": 8, "jibun": "1697", "price": 38000}
+{"apt": "현대(관악)", "area": 123.29, "built": 1992, "date": "2023-04-28", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "124", "floor": 12, "jibun": "1000", "price": 98000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 58.9, "built": 1996, "date": "2023-05-02", "deal_type": "직거래", "dong": "신림동", "dong_no": "2", "floor": 3, "jibun": "1703-1", "price": 45000}
+{"apt": "해태보라매타워", "area": 84.04, "built": 1996, "date": "2023-05-04", "deal_type": "중개거래", "dong": "봉천동", "floor": 10, "jibun": "729-32", "price": 77000}
+{"apt": "윤정", "area": 75.45, "built": 1993, "date": "2023-05-12", "deal_type": "중개거래", "dong": "신림동", "floor": 6, "jibun": "546-7", "price": 42500}
+{"apt": "일두(1021)", "area": 57.66, "built": 1985, "date": "2023-05-13", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "4", "floor": 5, "jibun": "1021", "price": 28000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 58.9, "built": 1996, "date": "2023-05-20", "deal_type": "중개거래", "dong": "신림동", "dong_no": "3", "floor": 12, "jibun": "1703-1", "price": 51000}
+{"apt": "건영1", "area": 41.04, "built": 1984, "date": "2023-05-20", "deal_type": "중개거래", "dong": "신림동", "dong_no": "가", "floor": 3, "jibun": "746-43", "price": 40000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2023-05-22", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "119", "floor": 13, "jibun": "1000", "price": 60000}
+{"apt": "보라매우성", "area": 58.86, "built": 1995, "date": "2023-05-22", "deal_type": "중개거래", "dong": "봉천동", "floor": 9, "jibun": "1696", "price": 57000}
+{"apt": "현대(관악)", "area": 116.86, "built": 1992, "date": "2023-05-24", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "113", "floor": 12, "jibun": "1000", "price": 92500}
+{"apt": "현대(관악)", "area": 116.86, "built": 1992, "date": "2023-05-24", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "116", "floor": 13, "jibun": "1000", "price": 90000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2023-05-28", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "119", "floor": 12, "jibun": "1000", "price": 61000}
+{"apt": "현대(관악)", "area": 84.74, "built": 1992, "date": "2023-05-28", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "102", "floor": 2, "jibun": "1000", "price": 81000}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2023-06-07", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "104", "floor": 4, "jibun": "1698-1", "price": 82000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2023-06-09", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "101", "floor": 14, "jibun": "1000", "price": 66700}
+{"apt": "금호(1차)", "area": 59.4, "built": 1997, "date": "2023-06-10", "deal_type": "중개거래", "dong": "신림동", "dong_no": "101", "floor": 4, "jibun": "1705", "price": 44000}
+{"apt": "건영1", "area": 60.27, "built": 1984, "date": "2023-06-10", "deal_type": "중개거래", "dong": "신림동", "dong_no": "다", "floor": 6, "jibun": "746-43", "price": 58000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2023-06-13", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "115", "floor": 11, "jibun": "1000", "price": 71500}
+{"apt": "낙성대현대아파트", "area": 136.11, "built": 1988, "date": "2023-06-15", "deal_type": "직거래", "dong": "봉천동", "dong_no": "102", "floor": 3, "jibun": "179-58", "price": 87000}
+{"apt": "건영4", "area": 84.89, "built": 1997, "date": "2023-06-15", "deal_type": "중개거래", "dong": "신림동", "dong_no": "103", "floor": 8, "jibun": "1702-1", "price": 72000}
+{"apt": "삼성", "area": 64.12, "built": 1974, "date": "2023-06-19", "deal_type": "중개거래", "dong": "봉천동", "floor": 3, "jibun": "941-2", "price": 28000}
+{"apt": "한양", "area": 84.79, "built": 1992, "date": "2023-06-19", "deal_type": "중개거래", "dong": "신림동", "dong_no": "1", "floor": 5, "jibun": "1563-82", "price": 50000}
+{"apt": "현대(관악)", "area": 84.74, "built": 1992, "date": "2023-06-20", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "122", "floor": 6, "jibun": "1000", "price": 80000}
+{"apt": "현대(관악)", "area": 123.29, "built": 1992, "date": "2023-06-20", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "123", "floor": 15, "jibun": "1000", "price": 104500}
+{"apt": "동마", "area": 59.99, "built": 1995, "date": "2023-06-20", "deal_type": "중개거래", "dong": "신림동", "floor": 4, "jibun": "1699", "price": 40000}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2023-06-24", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "107", "floor": 11, "jibun": "1698-1", "price": 89000}
+{"apt": "낙성대현대아파트", "area": 136.11, "built": 1988, "date": "2023-06-26", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "102", "floor": 5, "jibun": "179-58", "price": 89000}
+{"apt": "건영4", "area": 84.89, "built": 1997, "date": "2023-06-27", "deal_type": "중개거래", "dong": "신림동", "dong_no": "103", "floor": 9, "jibun": "1702-1", "price": 75000}
+{"apt": "현대(관악)", "area": 84.74, "built": 1992, "date": "2023-07-02", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "122", "floor": 14, "jibun": "1000", "price": 83000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2023-07-03", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "115", "floor": 14, "jibun": "1000", "price": 73000}
+{"apt": "동부", "area": 50.57, "built": 1993, "date": "2023-07-05", "deal_type": "중개거래", "dong": "신림동", "dong_no": "101", "floor": 2, "jibun": "1695", "price": 49000}
+{"apt": "건영4", "area": 84.89, "built": 1997, "date": "2023-07-06", "deal_type": "직거래", "dong": "신림동", "dong_no": "103", "floor": 13, "jibun": "1702-1", "price": 68000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2023-07-08", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "101", "floor": 2, "jibun": "1000", "price": 63000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2023-07-11", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "126", "floor": 6, "jibun": "1000", "price": 66000}
+{"apt": "현대(관악)", "area": 58.59, "built": 1992, "date": "2023-07-14", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "119", "floor": 11, "jibun": "1000", "price": 69000}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2023-07-17", "deal_type": "중개거래", "dong": "신림동", "dong_no": "105", "floor": 15, "jibun": "1693", "price": 54000}
+{"apt": "건영1", "area": 41.04, "built": 1984, "date": "2023-07-19", "deal_type": "중개거래", "dong": "신림동", "dong_no": "가", "floor": 11, "jibun": "746-43", "price": 39000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2023-07-21", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "117", "floor": 14, "jibun": "1000", "price": 75000}
+{"apt": "건영2", "area": 59.76, "built": 1988, "date": "2023-07-25", "deal_type": "직거래", "dong": "신림동", "dong_no": "나", "floor": 4, "jibun": "721-2", "price": 34000}
+{"apt": "태영", "area": 49.92, "built": 1997, "date": "2023-07-28", "deal_type": "중개거래", "dong": "신림동", "floor": 9, "jibun": "1424-28", "price": 40000}
+{"apt": "건영1", "area": 74.22, "built": 1984, "date": "2023-07-29", "deal_type": "중개거래", "dong": "신림동", "dong_no": "다", "floor": 5, "jibun": "746-43", "price": 66000}
+{"apt": "건영1", "area": 41.04, "built": 1984, "date": "2023-08-02", "deal_type": "중개거래", "dong": "신림동", "dong_no": "다", "floor": 12, "jibun": "746-43", "price": 40000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2023-08-07", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "109", "floor": 2, "jibun": "1000", "price": 73000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2023-08-07", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "121", "floor": 4, "jibun": "1000", "price": 72500}
+{"apt": "동부", "area": 60.38, "built": 1993, "date": "2023-08-11", "deal_type": "중개거래", "dong": "신림동", "dong_no": "105", "floor": 5, "jibun": "1695", "price": 60000}
+{"apt": "건영1", "area": 60.27, "built": 1984, "date": "2023-08-11", "deal_type": "중개거래", "dong": "신림동", "dong_no": "가", "floor": 1, "jibun": "746-43", "price": 54850}
+{"apt": "현대(관악)", "area": 116.72, "built": 1992, "date": "2023-08-12", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "114", "floor": 13, "jibun": "1000", "price": 93500}
+{"apt": "동부", "area": 50.57, "built": 1993, "date": "2023-08-12", "deal_type": "중개거래", "dong": "신림동", "dong_no": "101", "floor": 3, "jibun": "1695", "price": 53500}
+{"apt": "동부", "area": 60.38, "built": 1993, "date": "2023-08-12", "deal_type": "중개거래", "dong": "신림동", "dong_no": "102", "floor": 10, "jibun": "1695", "price": 64000}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 69.17, "built": 1996, "date": "2023-08-12", "deal_type": "중개거래", "dong": "신림동", "dong_no": "2", "floor": 5, "jibun": "1703-1", "price": 56000}
+{"apt": "현대(관악)", "area": 116.72, "built": 1992, "date": "2023-08-18", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "125", "floor": 15, "jibun": "1000", "price": 94000}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2023-08-20", "deal_type": "중개거래", "dong": "신림동", "dong_no": "111", "floor": 14, "jibun": "1694", "price": 48500}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2023-08-24", "deal_type": "중개거래", "dong": "신림동", "dong_no": "103", "floor": 3, "jibun": "1693", "price": 48000}
+{"apt": "동부", "area": 50.57, "built": 1993, "date": "2023-08-24", "deal_type": "중개거래", "dong": "신림동", "dong_no": "101", "floor": 4, "jibun": "1695", "price": 54500}
+{"apt": "라이프", "area": 59.04, "built": 1996, "date": "2023-08-24", "deal_type": "중개거래", "dong": "신림동", "floor": 16, "jibun": "1700", "price": 54000}
+{"apt": "현대(관악)", "area": 84.74, "built": 1992, "date": "2023-08-26", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "122", "floor": 1, "jibun": "1000", "price": 75500}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2023-08-26", "deal_type": "중개거래", "dong": "신림동", "dong_no": "108", "floor": 12, "jibun": "1694", "price": 48500}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2023-08-30", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "107", "floor": 5, "jibun": "1698-1", "price": 85500}
+{"apt": "신림현대", "area": 34.86, "built": 1993, "date": "2023-09-03", "deal_type": "중개거래", "dong": "신림동", "dong_no": "111", "floor": 14, "jibun": "1694", "price": 49500}
+{"apt": "현대", "area": 84.44, "built": 1991, "date": "2023-09-03", "deal_type": "중개거래", "dong": "신림동", "dong_no": "103", "floor": 3, "jibun": "255-189", "price": 44500}
+{"apt": "한양", "area": 84.79, "built": 1992, "date": "2023-09-04", "deal_type": "중개거래", "dong": "신림동", "dong_no": "3", "floor": 14, "jibun": "1563-82", "price": 63000}
+{"apt": "현대(관악)", "area": 105.84, "built": 1992, "date": "2023-09-08", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "103", "floor": 8, "jibun": "1000", "price": 98500}
+{"apt": "현대(관악)", "area": 123.29, "built": 1992, "date": "2023-09-08", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "110", "floor": 9, "jibun": "1000", "price": 99000}
+{"apt": "신림현대", "area": 82.2, "built": 1993, "date": "2023-09-08", "deal_type": "중개거래", "dong": "신림동", "dong_no": "101", "floor": 13, "jibun": "1694", "price": 71500}
+{"apt": "신림현대", "area": 82.2, "built": 1993, "date": "2023-09-09", "deal_type": "중개거래", "dong": "신림동", "dong_no": "105", "floor": 11, "jibun": "1694", "price": 74000}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2023-09-12", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "101", "floor": 15, "jibun": "1698-1", "price": 90000}
+{"apt": "건영4", "area": 84.89, "built": 1997, "date": "2023-09-14", "deal_type": "중개거래", "dong": "신림동", "dong_no": "102", "floor": 1, "jibun": "1702-1", "price": 69500}
+{"apt": "건영1", "area": 74.22, "built": 1984, "date": "2023-09-14", "deal_type": "중개거래", "dong": "신림동", "dong_no": "가", "floor": 11, "jibun": "746-43", "price": 64800}
+{"apt": "현대(관악)", "area": 123.29, "built": 1992, "date": "2023-09-15", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "123", "floor": 13, "jibun": "1000", "price": 116000}
+{"apt": "현대(관악)", "area": 116.72, "built": 1992, "date": "2023-09-18", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "125", "floor": 1, "jibun": "1000", "price": 90000}
+{"apt": "일두(1021)", "area": 57.66, "built": 1985, "date": "2023-09-18", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "4", "floor": 4, "jibun": "1021", "price": 49500}
+{"apt": "보라매삼성", "area": 84.84, "built": 1996, "date": "2023-09-18", "deal_type": "직거래", "dong": "봉천동", "dong_no": "101", "floor": 6, "jibun": "1698-1", "price": 48800}
+{"apt": "LIG대학마을(건영아파트3차)", "area": 69.17, "built": 1996, "date": "2023-09-18", "deal_type": "중개거래", "dong": "신림동", "dong_no": "1", "floor": 10, "jibun": "1703-1", "price": 55500}
+{"apt": "금호(1차)", "area": 59.4, "built": 1997, "date": "2023-09-18", "deal_type": "중개거래", "dong": "신림동", "dong_no": "101", "floor": 11, "jibun": "1705", "price": 45000}
+{"apt": "신동아", "area": 84.3, "built": 1994, "date": "2023-09-18", "deal_type": "중개거래", "dong": "신림동", "floor": 3, "jibun": "산28-9", "price": 50500}
+{"apt": "보라매롯데캐슬", "area": 166.39, "built": 1997, "date": "2023-09-19", "deal_type": "중개거래", "dong": "봉천동", "floor": 32, "jibun": "729-22", "price": 139000}
+{"apt": "낙성대현대아파트", "area": 84.69, "built": 1988, "date": "2023-09-20", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "101", "floor": 15, "jibun": "179-58", "price": 75000}
+{"apt": "동부", "area": 50.57, "built": 1993, "date": "2023-09-20", "deal_type": "중개거래", "dong": "신림동", "dong_no": "101", "floor": 16, "jibun": "1695", "price": 60800}
+{"apt": "라이프", "area": 84.38, "built": 1996, "date": "2023-09-20", "deal_type": "중개거래", "dong": "신림동", "floor": 9, "jibun": "1700", "price": 65000}
+{"apt": "현대(관악)", "area": 68.8, "built": 1992, "date": "2023-09-25", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "117", "floor": 9, "jibun": "1000", "price": 78000}
+{"apt": "건영2", "area": 73.48, "built": 1988, "date": "2023-09-25", "deal_type": "중개거래", "dong": "신림동", "dong_no": "라", "floor": 4, "jibun": "721-2", "price": 49500}
+{"apt": "LIG5차", "area": 59.88, "built": 1995, "date": "2023-10-04", "deal_type": "중개거래", "dong": "신림동", "floor": 6, "jibun": "233-11", "price": 50000}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2023-10-05", "deal_type": "중개거래", "dong": "신림동", "dong_no": "102", "floor": 3, "jibun": "1693", "price": 54500}
+{"apt": "국제산장", "area": 84.15, "built": 1993, "date": "2023-10-06", "deal_type": "중개거래", "dong": "신림동", "dong_no": "103", "floor": 4, "jibun": "1693", "price": 50000}
+{"apt": "신림현대", "area": 105.36, "built": 1993, "date": "2023-10-06", "deal_type": "중개거래", "dong": "신림동", "dong_no": "110", "floor": 9, "jibun": "1694", "price": 80000}
+{"apt": "건영4", "area": 84.89, "built": 1997, "date": "2023-10-06", "deal_type": "중개거래", "dong": "신림동", "dong_no": "103", "floor": 18, "jibun": "1702-1", "price": 76000}
+{"apt": "국제산장", "area": 59.94, "built": 1993, "date": "2023-10-14", "deal_type": "중개거래", "dong": "신림동", "dong_no": "107", "floor": 12, "jibun": "1693", "price": 45900}
+{"apt": "관악", "area": 56.39, "built": 1983, "date": "2023-10-15", "deal_type": "중개거래", "dong": "신림동", "dong_no": "제4동", "floor": 3, "jibun": "244", "price": 49000}
+{"apt": "복권", "area": 47.61, "built": 1971, "date": "2023-10-24", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "제3호동", "floor": 6, "jibun": "645-87", "price": 29000}
+{"apt": "현대(관악)", "area": 105.84, "built": 1992, "date": "2023-10-26", "deal_type": "중개거래", "dong": "봉천동", "dong_no": "103", "floor": 9, "jibun": "1000", "price": 90500}
 {"apt": "신림현대", "area": 119.49, "built": 1993, "date": "2023-11-01", "deal_type": "중개거래", "dong": "신림동", "dong_no": "109", "floor": 13, "jibun": "1694", "price": 95000}
 {"apt": "건영2", "area": 59.76, "built": 1988, "date": "2023-11-04", "deal_type": "중개거래", "dong": "신림동", "dong_no": "나", "floor": 7, "jibun": "721-2", "price": 41500}
 {"apt": "주공1", "area": 59.5, "built": 1995, "date": "2023-11-06", "deal_type": "중개거래", "dong": "신림동", "dong_no": "107", "floor": 15, "jibun": "1704-1", "price": 41000}

@@ -1,0 +1,9 @@
+{"id":"11140100000102",
+"name":"별장아파트",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-05-13",62.81,2,20500,null,null,1980]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

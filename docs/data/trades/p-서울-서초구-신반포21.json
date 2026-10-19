@@ -1,0 +1,9 @@
+{"id":"서울-서초구-신반포21",
+"name":"신반포21차",
+"basis":"준공 후 신축",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-02-19",129.47,3,240000,null,null,1984]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

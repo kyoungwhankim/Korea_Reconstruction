@@ -1,8 +1,13 @@
 {"id":"41281100007740",
 "name":"영신(575-9)",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":39,"pyeong":11.8,"jeonse_n":1,"wolse_n":0,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-04-28"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-04-17",39.24,4,11800,null,null,1987],
+["2021-06-08",39.24,5,12500,null,null,1987],
+["2021-10-21",39.24,5,14400,null,null,1987],
+["2022-04-18",39.24,1,17500,null,"중개거래",1987],
+["2023-09-02",39.24,4,15000,null,"중개거래",1987]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-04-28",39.24,5,10000,0,"신규","26.05~28.05",null]

@@ -3,6 +3,11 @@
 "basis":"단지",
 "by_area":[{"area":43,"pyeong":13.0,"n":1,"median":53000,"min":53000,"max":53000,"latest_price":53000,"latest_date":"2026-09-09","latest_floor":7,"jeonse_n":1,"wolse_n":1,"jeonse_median":22000,"jeonse_min":22000,"jeonse_max":22000,"jeonse_latest":22000,"jeonse_latest_date":"2026-04-27","jeonse_ratio":41.5,"wolse_deposit_median":13000,"wolse_monthly_median":30},{"area":59,"pyeong":17.8,"n":2,"median":48250,"min":35000,"max":61500,"latest_price":61500,"latest_date":"2026-05-27","latest_floor":5,"jeonse_n":2,"wolse_n":0,"jeonse_median":26000,"jeonse_min":24000,"jeonse_max":28000,"jeonse_latest":24000,"jeonse_latest_date":"2026-04-01","jeonse_ratio":53.9},{"area":60,"pyeong":18.1,"jeonse_n":1,"wolse_n":0,"jeonse_median":39500,"jeonse_min":39500,"jeonse_max":39500,"jeonse_latest":39500,"jeonse_latest_date":"2026-01-18"},{"area":70,"pyeong":21.2,"n":1,"median":66000,"min":66000,"max":66000,"latest_price":66000,"latest_date":"2026-02-13","latest_floor":4,"jeonse_n":3,"wolse_n":1,"jeonse_median":46500,"jeonse_min":40000,"jeonse_max":46500,"jeonse_latest":46500,"jeonse_latest_date":"2026-04-24","jeonse_ratio":70.5,"wolse_deposit_median":21000,"wolse_monthly_median":10},{"area":73,"pyeong":22.1,"n":1,"median":61800,"min":61800,"max":61800,"latest_price":61800,"latest_date":"2026-04-27","latest_floor":6,"jeonse_n":4,"wolse_n":0,"jeonse_median":36000,"jeonse_min":32000,"jeonse_max":40000,"jeonse_latest":32000,"jeonse_latest_date":"2026-02-01","jeonse_ratio":58.3},{"area":82,"pyeong":24.8,"jeonse_n":1,"wolse_n":0,"jeonse_median":30000,"jeonse_min":30000,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-07-07"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-04-15",58.77,4,55000,null,null,1983],
+["2021-05-27",59.68,6,61500,null,null,1983],
+["2021-06-19",72.64,5,69000,null,null,1983],
+["2021-07-25",42.93,5,54000,null,null,1983],
+["2022-04-16",81.72,4,69000,null,"중개거래",1983],
 ["2024-03-17",59.68,5,58500,"5","중개거래",1983],
 ["2024-06-24",59.68,7,41000,"5","중개거래",1983],
 ["2025-04-22",81.72,8,62800,"2","중개거래",1983],

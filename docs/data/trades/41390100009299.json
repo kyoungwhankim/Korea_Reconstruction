@@ -1,8 +1,15 @@
 {"id":"41390100009299",
 "name":"진양아파트",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":46,"pyeong":13.9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":40},{"area":49,"pyeong":14.8,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1000,"wolse_monthly_median":52}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2022-02-25",46.41,3,13000,null,"중개거래",1986],
+["2022-04-02",46.41,4,12500,null,"중개거래",1986],
+["2022-05-03",46.41,2,17400,null,"중개거래",1986],
+["2022-05-16",48.57,2,18000,null,"중개거래",1986],
+["2022-06-13",46.41,4,17700,null,"중개거래",1986],
+["2022-08-15",48.57,4,17500,null,"중개거래",1986],
+["2023-03-13",48.57,3,17000,"나","직거래",1986]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-01-20",46.41,4,1000,40,"신규","26.02~28.02",null],

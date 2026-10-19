@@ -1,8 +1,9 @@
 {"id":"11620100002157",
 "name":"동문아파트",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":85,"pyeong":25.7,"jeonse_n":1,"wolse_n":0,"jeonse_median":33000,"jeonse_min":33000,"jeonse_max":33000,"jeonse_latest":33000,"jeonse_latest_date":"2026-04-27"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-03-02",59.4,2,36000,null,null,1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-04-27",84.75,1,33000,0,"신규","26.06~28.05",null]

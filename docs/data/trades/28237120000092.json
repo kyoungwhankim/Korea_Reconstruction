@@ -3,6 +3,9 @@
 "basis":"단지",
 "by_area":[],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-07-24",64.62,1,27000,null,null,1983],
+["2021-08-02",55.26,4,26500,null,null,1983],
+["2021-12-21",64.62,4,27300,null,"중개거래",1983],
 ["2023-12-18",55.26,2,24000,"바","중개거래",1983]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

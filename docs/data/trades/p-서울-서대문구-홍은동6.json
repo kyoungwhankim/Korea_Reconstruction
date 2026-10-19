@@ -1,0 +1,9 @@
+{"id":"서울-서대문구-홍은동6",
+"name":"홍은동제6",
+"basis":"기존 단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2022-08-26",59.75,14,88000,null,"중개거래",2021]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

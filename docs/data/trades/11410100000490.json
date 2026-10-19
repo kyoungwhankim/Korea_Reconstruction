@@ -3,6 +3,9 @@
 "basis":"단지",
 "by_area":[{"area":17,"pyeong":5.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":57},{"area":50,"pyeong":15.1,"n":1,"median":26500,"min":26500,"max":26500,"latest_price":26500,"latest_date":"2026-03-03","latest_floor":2,"jeonse_n":1,"wolse_n":0,"jeonse_median":18000,"jeonse_min":18000,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-07-27","jeonse_ratio":67.9}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2021-02-28",49.59,1,24500,null,null,1971],
+["2022-06-08",102.48,1,30000,null,"중개거래",1971],
+["2023-04-14",49.59,3,34000,null,"중개거래",1971],
 ["2026-03-03",49.59,2,26500,null,"중개거래",1971]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
