@@ -180,6 +180,7 @@ GENERIC = {
     "단독", "아주", "동백", "천천", "인계", "송림", "동남", "월드", "반도", "서강", "대흥", "한솔", "가람",   # 일반 낱말·지명과 같은 이름
 }
 PAREN_SKIP = re.compile(r"(재촉|통합재건축|\d+~\d+동.*|.*동 제외)")
+DROP_KEYS = {"서울", "경기", "인천", "수도권", "한국", "대한"}   # 어떤 기사에나 나오는 말: 별칭으로 쓰지 않는다('서울아파트'의 '서울')
 
 
 def generic_key(k: str) -> bool:
@@ -226,7 +227,7 @@ def profile(pid: str, rec: dict, shared: set[str]) -> dict:
     strong, medium, weak = {}, {}, {}
     for alias, kind in rec.get("_aliases") or []:
         k = cr.zone_key(alias)
-        if len(k) < 2 or re.fullmatch(r"[\d\-_]+", k) or k in strong or k in medium or k in weak:
+        if len(k) < 2 or re.fullmatch(r"[\d\-_]+", k) or k in DROP_KEYS or k in strong or k in medium or k in weak:
             continue
         if generic_key(k) or k in shared:
             weak[k] = alias                 # 흔한 이름·여러 사업장이 쓰는 별칭: 지역 이름이 함께 있어야 한다
@@ -478,12 +479,16 @@ def prune(state: dict[str, dict], profiles: dict[str, dict], dismissed: set[str]
         if pid not in profiles:                    # 사라졌거나 더 볼 단계가 없는 사업장
             del state[pid]
             continue
-        order, kept = profiles[pid]["order"], {}
+        prof = profiles[pid]
+        order, kept = prof["order"], {}
+        keys = set(prof["strong"]) | set(prof["medium"]) | set(prof["weak"])
         # 같은 기사가 네이버·구글에 다른 제목 꼬리로 들어오면 하나만 남긴다(네이버 링크 우선)
         cands = sorted(st.get("candidates") or [], key=lambda c: (c.get("source") != "네이버", c.get("first_seen") or "", c["id"]))
         for c in cands:
+            if cr.zone_key(c.get("matched") or "") not in keys:   # 더는 별칭으로 안 쓰는 이름으로 맞은 후보는 뺀다
+                continue
             # 판정 규칙이 나아지면 저장된 후보도 같은 규칙으로 다시 매긴다(제목 기준이라 결정적)
-            det = stage_for(profiles[pid], c["title"], "", allow_hedged=c.get("source") != SEOUL_SOURCE)
+            det = stage_for(prof, c["title"], "", allow_hedged=c.get("source") != SEOUL_SOURCE)
             if not det:
                 continue
             c["stage"], c["confidence"] = det
