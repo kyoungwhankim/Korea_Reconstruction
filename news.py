@@ -293,6 +293,18 @@ def match_name(prof: dict, title: str, desc: str = "") -> str | None:
 CONTEXT = re.compile(r"재건축|아파트|정비|조합|단지|주공|재개발|시공")
 
 
+def stage_for(prof: dict, title: str, desc: str = "", allow_hedged: bool = True) -> tuple[str, str] | None:
+    """이 사업장 기준의 단계 판정: 제목이 말줄임표로 나뉘면 사업장 이름이 처음 나온 토막부터만 읽는다 —
+    '도봉구 첫 ○○ 입주…△△ 시공자 선정'처럼 앞 토막의 다른 단지 이야기에 속지 않게.
+    이름이 어느 토막에도 따로 안 보이면 제목 전체를 쓴다."""
+    segs = re.split(r"…|\.{3}", title)
+    if len(segs) > 1:
+        idx = next((i for i, s in enumerate(segs) if match_name(prof, s, desc)), None)
+        if idx is not None:
+            title = "…".join(segs[idx:])
+    return detect_stage(title, allow_hedged)
+
+
 def load_projects() -> dict[str, dict]:
     """state/projects.jsonl의 활성 아파트 재건축 사업장(현재 단계에 manual_stage.csv가 이미 반영돼 있다)."""
     out = {}
@@ -375,10 +387,14 @@ def google_search(q: str, days: int) -> list[dict]:
     out = []
     for it in root.iter("item"):
         title, src = clean(it.findtext("title")), clean(it.findtext("source"))
-        if src and title.endswith(src):                     # '제목 - 매체명' 꼬리를 뗀다(대시 종류가 제각각)
-            title = title[: -len(src)].rstrip(" -–—‐|·:")
-        else:
-            title = re.sub(r"\s+[-–—‐]\s+[^-–—‐]{1,30}$", "", title)
+        for _ in range(2):                                  # '제목 - 매체명 - 매체명' 꼬리를 뗀다(매체명이 두 번 붙기도 한다)
+            if src and title.endswith(src):
+                title = title[: -len(src)].rstrip(" -–—‐|·:")
+            else:
+                stripped = re.sub(r"\s+[-–—‐]\s+[^-–—‐]{1,30}$", "", title)
+                if stripped == title:
+                    break
+                title = stripped
         d = to_kst_date(it.findtext("pubDate"))
         if d and title:
             out.append({"title": title, "link": it.findtext("link"), "published": d, "desc": "", "source": "구글"})
@@ -462,18 +478,27 @@ def prune(state: dict[str, dict], profiles: dict[str, dict], dismissed: set[str]
         if pid not in profiles:                    # 사라졌거나 더 볼 단계가 없는 사업장
             del state[pid]
             continue
-        order, kept = profiles[pid]["order"], []
-        for c in st.get("candidates") or []:
+        order, kept = profiles[pid]["order"], {}
+        # 같은 기사가 네이버·구글에 다른 제목 꼬리로 들어오면 하나만 남긴다(네이버 링크 우선)
+        cands = sorted(st.get("candidates") or [], key=lambda c: (c.get("source") != "네이버", c.get("first_seen") or "", c["id"]))
+        for c in cands:
             # 판정 규칙이 나아지면 저장된 후보도 같은 규칙으로 다시 매긴다(제목 기준이라 결정적)
-            det = detect_stage(c["title"], allow_hedged=c.get("source") != SEOUL_SOURCE)
+            det = stage_for(profiles[pid], c["title"], "", allow_hedged=c.get("source") != SEOUL_SOURCE)
             if not det:
                 continue
             c["stage"], c["confidence"] = det
-            if c["id"] not in dismissed and cr.STAGE_ORDER[c["stage"]] > order and c["published"] >= expire:
-                kept.append(c)
-        st["candidates"] = kept
+            key = title_key(c["title"])
+            if c["id"] not in dismissed and cr.STAGE_ORDER[c["stage"]] > order and c["published"] >= expire and key not in kept:
+                kept[key] = c
+        st["candidates"] = list(kept.values())
         if not st["candidates"] and not st["seen"] and not st.get("checked_at"):
             del state[pid]
+
+
+def title_key(title: str) -> str:
+    """중복 판별용 제목 키: '… - 매체명' 꼬리를 떼고 기호·공백을 뺀다."""
+    t = re.sub(r"(\s+[-–—‐]\s+[^-–—‐]{1,30})+$", "", title)
+    return re.sub(r"[\W_]+", "", t.lower())
 
 
 # ---------------------------------------------------------------- 조회
@@ -509,7 +534,7 @@ def classify(pid: str, prof: dict, items: list[dict], st: dict, today: date, sta
         alias = match_name(prof, it["title"], it.get("desc", ""))
         if not alias:
             continue
-        det = detect_stage(it["title"])
+        det = stage_for(prof, it["title"], it.get("desc", ""))
         if not det or cr.STAGE_ORDER[det[0]] <= prof["order"]:
             continue
         cand = {"id": aid, "stage": det[0], "confidence": det[1], "title": it["title"], "link": it["link"],
@@ -523,6 +548,8 @@ def classify(pid: str, prof: dict, items: list[dict], st: dict, today: date, sta
 def fetch_google(prof: dict, st: dict, srcs: Sources, stats: dict) -> tuple[list[dict], bool]:
     """구글 RSS 1건 — 네이버 조회와 겹쳐 돌릴 수 있게 따로 뗀다(요청 간격은 이 안에서 지킨다)."""
     days = GOOGLE_NEXT_DAYS if st.get("checked_at") else GOOGLE_FIRST_DAYS
+    if not srcs.google:                 # 미리 걸어 둔 조회라도 그 사이 차단됐으면 보내지 않는다
+        return [], False
     try:
         stats["google_calls"] += 1
         items = google_search(prof["google_query"], days)
@@ -541,12 +568,14 @@ def fetch_google(prof: dict, st: dict, srcs: Sources, stats: dict) -> tuple[list
     return [], False
 
 
-POOL = ThreadPoolExecutor(max_workers=1)   # 구글 1건을 네이버 조회와 나란히
+POOL = ThreadPoolExecutor(max_workers=2)   # 구글 조회(응답이 2초쯤 걸린다)를 네이버 조회와 나란히, 다음 사업장 것은 미리
 
 
-def check_project(prof: dict, st: dict, srcs: Sources, today: date, stats: dict) -> list[dict]:
+def check_project(prof: dict, st: dict, srcs: Sources, today: date, stats: dict, future=None) -> list[dict]:
+    """한 사업장을 조회해 새 후보를 돌려준다. future: 미리 걸어 둔 구글 조회(없으면 여기서 건다)."""
     items, ok = [], False
-    future = POOL.submit(fetch_google, prof, st, srcs, stats) if srcs.google else None
+    if future is None and srcs.google:
+        future = POOL.submit(fetch_google, prof, st, srcs, stats)
     if srcs.naver:
         for q in prof["queries"]:
             if stats["naver_calls"] >= NAVER_BUDGET:
@@ -584,14 +613,14 @@ def check_seoul(profiles: dict[str, dict], state: dict[str, dict], today: date, 
         if n["id"] in st["seen"] or n["published"] < since.isoformat():
             continue
         st["seen"][n["id"]] = today_s
-        det = detect_stage(n["title"], allow_hedged=False)
-        if not det:
+        if not detect_stage(n["title"], allow_hedged=False):   # 단계 표현이 아예 없는 공고는 건너뛴다
             continue
         for prof in seoul:
-            if cr.STAGE_ORDER[det[0]] <= prof["order"]:
-                continue
             alias = match_name(prof, n["title"], n["dept"])     # 등록기관(자치구)이 지역 이름 구실을 한다
             if not alias:
+                continue
+            det = stage_for(prof, n["title"], n["dept"], allow_hedged=False)
+            if not det or cr.STAGE_ORDER[det[0]] <= prof["order"]:
                 continue
             pst = state.setdefault(prof["pid"], blank(prof["pid"]))
             aid = article_id(prof["pid"], n["title"])
@@ -697,13 +726,22 @@ def main() -> None:
         if args.limit:
             todo = todo[: args.limit]
         print(f"[뉴스] 사업장 {len(todo)}곳 조회 (네이버 {'O' if srcs.naver else 'X'} · 구글 {'O' if srcs.google else 'X'})")
+        ahead: dict[str, object] = {}       # 다음 사업장의 구글 조회를 미리 걸어 둔다(구글 응답 대기가 전체 시간을 좌우한다)
+
+        def prefetch(j: int) -> None:
+            if j < len(todo) and srcs.google:
+                p = todo[j]
+                ahead[p["pid"]] = POOL.submit(fetch_google, p, state.setdefault(p["pid"], blank(p["pid"])), srcs, stats)
+
+        prefetch(0)
         for i, prof in enumerate(todo, 1):
             if not srcs.naver and not srcs.google:
                 print("   ! 쓸 수 있는 뉴스 출처가 없어 중단 — 남은 사업장은 다음 실행에서", file=sys.stderr)
                 break
+            prefetch(i)
             st = state.setdefault(prof["pid"], blank(prof["pid"]))
             try:
-                for c in check_project(prof, st, srcs, today, stats):
+                for c in check_project(prof, st, srcs, today, stats, ahead.pop(prof["pid"], None)):
                     new.append({**c, "_pid": prof["pid"]})
                     print(f"   + {prof['name']}: {prof['stage']} → {c['stage']}({c['confidence']}) · {c['title'][:70]} · {c['published']}")
             except Exception as e:  # 한 사업장의 예외로 전체 실행을 잃지 않는다
