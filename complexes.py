@@ -181,37 +181,54 @@ def _clean(n) -> str:
     return re.sub(r"\s*\(\d+\s*동\)\s*$", "", str(n or "")).strip()
 
 
-def unit_alias(nm1: str, dong_numbers: set[str], kapt_name: str | None) -> str | None:
-    """'가야주공' + 동 501~516 + K-apt '가야1차' → '가야주공5단지1차'.
+_UNIT_NO = r"\d+(?:[-,]\d+)*"   # 단지 번호: '10', '4-1', '3,4'
 
-    1기 신도시 등 대단지 주공은 동 번호의 백 자리가 단지 번호인 관행이 뚜렷하다(501동 = 5단지).
-    101~1xx동은 보통 단지와 무관한 일반 번호라 백 자리 1은 쓰지 않는다. 추정값이므로 별칭 종류를 '동번호 추정'으로 둔다.
-    """
-    if "주공" not in nm1 or re.search(r"\d+\s*단지", nm1):
-        return None
+
+def _dong_hundreds(dong_numbers: set[str]) -> int | None:
+    """동 번호의 백 자리(501~516동 → 5). 동이 둘 미만이거나 백 자리가 하나로 모이지 않으면 None."""
     nums = sorted(int(n) for n in dong_numbers if n.isdigit())
     if len(nums) < 2 or nums[-1] - nums[0] >= 100:
         return None
     hund = {n // 100 for n in nums}
-    if len(hund) != 1:
+    return next(iter(hund)) if len(hund) == 1 else None
+
+
+def unit_alias(nm1: str, dong_numbers: set[str], kapt_name: str | None) -> str | None:
+    """'가야주공' + 동 501~516 + K-apt '가야1차' → '가야주공5단지1차', '상계주공10(고층)' + 동 1001~1027 → '상계주공10단지(고층)'.
+
+    1기 신도시 등 대단지 주공은 동 번호의 백 자리가 단지 번호인 관행이 뚜렷하다(501동 = 5단지).
+    이름 끝(괄호 제외)에 번호가 있으면 그 번호가 단지 번호다('상계주공10' → 10단지, '주공4-1' → 4-1단지). 그때 동 번호 백 자리는
+    그 번호와 같을 때만 믿고, 다르면 추정하지 않는다 — 백 자리를 번호 뒤에 그대로 붙이면 '상계주공1010단지'가 된다.
+    이름에 번호가 없을 때만 백 자리를 단지 번호로 쓰되, 101~1xx동은 보통 단지와 무관한 일반 번호라 백 자리 1은 쓰지 않는다.
+    'N단지'·'N차'가 이미 든 이름은 건드리지 않는다. 추정값이므로 별칭 종류를 '동번호 추정'으로 둔다.
+    """
+    if "주공" not in nm1 or re.search(r"\d+\s*(단지|차)", nm1):
         return None
-    h = next(iter(hund))
-    if not 2 <= h <= 20:
-        return None
-    base = re.sub(r"\d+(?=주공)", "", re.sub(r"\(.*?\)", "", nm1)).strip()
+    stem = re.sub(r"\(.*?\)", "", nm1).strip()
     paren = "".join(re.findall(r"\(.*?\)", nm1))
+    h = _dong_hundreds(dong_numbers)
+    named = re.search(_UNIT_NO + r"$", stem)
+    if named:
+        if h is None or h != int(re.match(r"\d+", named.group()).group()):
+            return None
+        base, unit = stem[: named.start()].rstrip(), named.group()
+    else:
+        if h is None or not 2 <= h <= 20:
+            return None
+        base, unit = re.sub(r"\d+(?=주공)", "", stem).strip(), str(h)
     m = re.search(r"(\d+)\s*차", kapt_name or "")
-    return f"{base}{h}단지{m.group(1) + '차' if m else ''}{paren}"
+    return f"{base}{unit}단지{m.group(1) + '차' if m else ''}{paren}"
 
 
 def complex_names(reb_names: list[str], hist_names: list[str], kapt_name: str | None,
                   trade_names: list[str], reg_name: str | None, dong_numbers: set[str]) -> tuple[str, list[tuple[str, str]]]:
     """(보여줄 이름, [(별칭, 종류)]) — 'N단지'·'N차'가 들어간 이름을 우선 보여준다."""
     nm1 = _clean(reb_names[0]) if reb_names else None
-    guess = unit_alias(nm1, dong_numbers, kapt_name) if nm1 else None
-    # 보여줄 이름: ① 동 번호로 추정한 'N단지N차'(차수까지 있을 때) ② 'N단지'·'N차'가 든 이름 ③ 부동산원 1순위 이름
+    guess = unit_alias(nm1, dong_numbers, kapt_name) if nm1 else None   # '가야주공5단지1차'·'상계주공10단지(고층)'(이름의 번호·동 번호로 추정)
+    # 보여줄 이름: ① 추정한 'N단지N차'(차수까지 있을 때) ② 'N단지'·'N차'가 든 이름('연수주공2차아파트 201동'처럼 동 번호로 끝나는 것은 제외)
+    #            ③ 부동산원 1순위 이름
     ordered = ([guess] if guess and re.search(r"\d+\s*차", guess) else []) + [_clean(n) for n in reb_names[1:]] + [kapt_name]
-    unitish = [n for n in ordered if n and re.search(r"\d+\s*(단지|차)", n)]
+    unitish = [n for n in ordered if n and re.search(r"\d+\s*(단지|차)", n) and not re.search(r"\d+\s*동$", n)]
     display = unitish[0] if unitish else (nm1 or kapt_name or (trade_names or [reg_name or "?"])[0])
     if display == nm1 and nm1 and not _SUFFIXED.search(nm1) and not re.search(r"\(.*\)$", nm1):
         display = nm1 + "아파트"
@@ -234,7 +251,7 @@ def complex_names(reb_names: list[str], hist_names: list[str], kapt_name: str | 
     if guess:
         add(guess, "동번호 추정")
         if kapt_name and re.search(r"\d+\s*차", kapt_name):
-            add(re.sub(r"\d+\s*단지", "", guess), "동번호 추정")  # '가야주공1차'
+            add(re.sub(_UNIT_NO + r"\s*단지", "", guess), "동번호 추정")  # '가야주공1차'
     base_names = list(aliases)
     for n in base_names:  # 표기 변형: 띄어쓰기, '아파트' 붙이기/떼기
         add(n.replace(" ", ""), "표기 변형")

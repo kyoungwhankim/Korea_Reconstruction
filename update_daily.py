@@ -3,6 +3,7 @@
     python update_daily.py --init     # 최초 1회: 전체 구축 후 상태 파일(state/) 생성
     python update_daily.py            # 매일 실행 (GitHub Actions: .github/workflows/daily-update.yml)
     python update_daily.py --dry-run  # 무엇이 바뀔지만 출력하고 저장하지 않음
+    python update_daily.py --export-only  # 출처를 확인하지 않고 현재 상태(state/)로 출력 파일만 다시 만듦(이름·별칭 같은 계산 규칙을 바꾼 뒤)
 
 상태 저장: state/ 아래 텍스트 파일(한 줄 = 한 행, 정렬·고정 형식)로 저장해 git diff에 바뀐 줄만 보이게 한다.
   state/sources.json               출처별 마지막 probe 값·내용 해시·변경일
@@ -503,6 +504,9 @@ def main() -> None:
                          f"실행 {HISTORY_TIME_LIMIT // 60}분까지; 0이면 받지 않음)")
     ap.add_argument("--accept-shrink", action="store_true",
                     help="출처의 행이 30%% 넘게 사라져도 반영(기본은 부분 응답으로 보고 실패 처리)")
+    ap.add_argument("--export-only", action="store_true",
+                    help="출처를 확인하지 않고 현재 상태(state/)로 출력 파일만 다시 만든다(노후 단지 이름·별칭 같은 파생 계산 규칙을 바꾼 뒤; "
+                         "사업장 레코드는 다시 계산하지 않으니 그때는 --migrate)")
     ap.add_argument("--date", default=date.today().isoformat(), help="기록용 날짜(테스트용)")
     args = ap.parse_args()
 
@@ -510,6 +514,10 @@ def main() -> None:
     if args.init:
         init(con, args.date)
         export(con, [], args.date)
+        return
+    if args.export_only:   # 상태 파일·변경 이력은 그대로 두고, 저장된 상태에서 출력 파일만 다시 만든다
+        export(con, [], args.date)
+        print("[완료] --export-only: 출력 파일만 다시 만듦 (상태 파일은 그대로 둠)")
         return
     failed: list[str] = []
     log = update(con, args.date, force=args.force or args.migrate, failed=failed, accept_shrink=args.accept_shrink)

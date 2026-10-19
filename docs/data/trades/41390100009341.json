@@ -1,5 +1,5 @@
 {"id":"41390100009341",
-"name":"아주4차아파트402동",
+"name":"아주4차아파트",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":10,"median":15000,"min":13800,"max":15700,"latest_price":15300,"latest_date":"2026-10-03","latest_floor":8,"jeonse_n":9,"wolse_n":10,"jeonse_median":11550,"jeonse_min":9500,"jeonse_max":13000,"jeonse_latest":12000,"jeonse_latest_date":"2026-08-01","jeonse_ratio":77.0,"wolse_deposit_median":2000,"wolse_monthly_median":50},{"area":84,"pyeong":25.4,"n":4,"median":23250,"min":21000,"max":25000,"latest_price":21000,"latest_date":"2026-06-16","latest_floor":1,"jeonse_n":8,"wolse_n":1,"jeonse_median":17500,"jeonse_min":13000,"jeonse_max":20000,"jeonse_latest":18900,"jeonse_latest_date":"2026-07-01","jeonse_ratio":75.3,"wolse_deposit_median":10000,"wolse_monthly_median":30}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

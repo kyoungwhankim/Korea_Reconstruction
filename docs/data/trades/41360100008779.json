@@ -1,5 +1,5 @@
 {"id":"41360100008779",
-"name":"인정하이츠아파트1단지103동",
+"name":"인정하이츠1아파트",
 "basis":"단지",
 "by_area":[{"area":49,"pyeong":14.8,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":750,"wolse_monthly_median":40},{"area":59,"pyeong":17.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":40},{"area":60,"pyeong":18.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":65}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
