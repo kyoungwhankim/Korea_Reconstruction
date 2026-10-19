@@ -287,7 +287,7 @@ def build(today: str, projects: list[dict], lots: dict[str, dict], book=None) ->
         # K-apt: 같은 지번의 등록 단지 중 이름이 맞는 것
         kapt = None
         for k in kapt_by_lot.get(lot, []):
-            if (r is None and len(kapt_by_lot[lot]) == 1) or (r is not None and idx.match_name(lot, k["name"]) == cid):
+            if (r is None and len(kapt_by_lot[lot]) == 1) or                     (r is not None and idx.match_name(lot, k["name"], households=k.get("households")) == cid):
                 kapt = k
                 break
         # 준공연도: 부동산원 사용승인일 > K-apt > 실거래 건축년도 > 건축물대장

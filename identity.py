@@ -290,8 +290,10 @@ class Index:
                 return by_dong[0]["pk"], "동"
         return None, "지번공통"
 
-    def match_name(self, lot: str | None, name: str, threshold: float = 0.6) -> str | None:
-        """K-apt·대장처럼 지번과 이름만 있는 레코드 → 단지(같은 지번 안에서 이름이 가장 비슷한 하나)."""
+    def match_name(self, lot: str | None, name: str, threshold: float = 0.6,
+                   households: int | None = None) -> str | None:
+        """K-apt·대장처럼 지번과 이름만 있는 레코드 → 단지. 같은 지번에 단지가 여럿이면 이름이 가장 비슷한 하나,
+        이름으로 못 가리면 세대수가 같은 하나(산본동 1155-7: K-apt '산본가야2차' 900세대 ↔ 부동산원 '가야주공(임대)' 900세대)."""
         cands = self.apartments_on(lot)
         if len(cands) == 1:
             return cands[0]["pk"]
@@ -300,6 +302,10 @@ class Index:
                          for c in cands), reverse=True)
         if scored and scored[0][0] >= threshold and (len(scored) == 1 or scored[1][0] < scored[0][0] - 0.05):
             return scored[0][1]
+        if households:
+            same = [c["pk"] for c in cands if c.get("units") and abs(c["units"] - households) <= max(2, households * 0.02)]
+            if len(same) == 1:
+                return same[0]
         return None
 
     def dong_range(self, pk: str) -> str | None:
