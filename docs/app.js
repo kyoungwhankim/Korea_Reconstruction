@@ -573,7 +573,7 @@ function projectDetail(p) {
       ["stage_date", "현재 단계 일자"], ["stage_by_source", "출처별 단계"], ["source_updated_at", "출처 기준일"],
     ])}
     ${reviewBox(p)}
-    <p class="aliases">현재 단계 근거: ${esc(p.stage_source || "–")}${p.stage_evidence ? ` · <a href="${esc(p.stage_evidence)}" target="_blank" rel="noopener">${(p.stage_source || "").startsWith("수동") ? "근거 링크(뉴스·고시)" : "정보몽땅 사업장 페이지"}</a>` : ""}${(p.sources || "").includes("manual_projects.csv") ? " · 공공 출처에 아직 없는 사업장을 근거와 함께 수동 등록(manual_projects.csv)한 것입니다" : ""}</p>
+    <p class="aliases">현재 단계 근거: ${esc(p.stage_source || "–")}${p.stage_evidence ? ` · <a href="${esc(p.stage_evidence)}" target="_blank" rel="noopener">${/^(수동|자동)/.test(p.stage_source || "") ? "근거 링크(뉴스·고시)" : "정비사업 정보몽땅 사업장 페이지"}</a>` : ""}${(p.stage_source || "").startsWith("자동") ? " · 서로 다른 기사 2건 이상(또는 고시)이 이 단계를 확정으로 전해 자동 반영된 것입니다" : ""}${(p.sources || "").includes("manual_projects.csv") ? " · 공공 출처에 아직 없는 사업장을 근거와 함께 수동 등록(manual_projects.csv)한 것입니다" : (p.sources || "").includes("auto_projects.csv") ? " · 공공 출처에 아직 없는 단지를 뉴스 2건 이상의 근거로 자동 등록(auto_projects.csv)한 것입니다" : ""}</p>
     ${tradeSection(p)}
     <p class="aliases">다른 이름: ${esc((p.aliases || []).slice(0, 30).join(" · "))}</p>
     ${home}

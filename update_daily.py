@@ -28,6 +28,8 @@
   - 공공 출처에 아직 없는 초기 단계(안전진단·추진위 준비) 단지는 manual_projects.csv에 근거와 함께 적는다.
     이 파일은 보통 출처처럼 다뤄진다(출처 이름 'manual_projects.csv', probe = 파일 해시): 행이 생기면 노후 단지 자료로
     사업장을 만들고(이력 '신규 사업장(수동 등록)'), 나중에 공공 출처에 같은 사업장이 실리면 이름·대표 지번으로 같은 project_id에 붙는다.
+  - 사람이 검토하지 않아도 돌아가게, news.py가 확신할 수 있는 후보(서로 다른 기사 2건 이상 또는 고시가 같은 단계를 '확정'으로 전함)를
+    auto_stage.csv·auto_projects.csv에 적는다. 같은 형식·같은 처리이며 stage_source='자동(뉴스)'로 구분된다. 수동 파일이 앞선다.
 """
 from __future__ import annotations
 
@@ -204,10 +206,15 @@ def init(con: sqlite3.Connection, today: str) -> None:
         area = f"{rec['region_sido']}|{cr.sgg_key(rec['region_sigungu'], rec['region_sido'])}"
         con.execute("INSERT INTO projects VALUES (?,?,?,?,?)", (rec["project_id"], area, dumps(rec), today, today))
     con.execute("INSERT OR REPLACE INTO meta VALUES ('manual_hash', ?)", (manual_hash(),))
-    con.execute("INSERT OR REPLACE INTO meta VALUES ('manual_stage_hash', ?)", (file_hash(cr.MANUAL_STAGE_FILE),))
+    con.execute("INSERT OR REPLACE INTO meta VALUES ('manual_stage_hash', ?)", (stage_files_hash(),))
     con.commit()
     save_state(con)
     print(f"[초기화] 출처 {len(fetched)}개, 행 {len(links)}개, 사업장 {len(recs)}개")
+
+
+def stage_files_hash() -> str:
+    """manual_stage.csv + auto_stage.csv(news.py 자동 반영)의 해시 — 어느 쪽이 바뀌어도 모든 사업장을 다시 계산한다."""
+    return "+".join(file_hash(p) for p, _ in cr.STAGE_FILES)
 
 
 # ---------------------------------------------------------------- 새 행 연결
@@ -295,9 +302,10 @@ def recompute(con, pid: str, manual: pd.DataFrame, today: str, log: list, manual
     if dumps(new) == old_json:
         return
     if not old:
-        manual_only = all(s == cr.MANUAL_PROJECTS_SOURCE for s, _, _ in rows)
-        log.append((today, pid, "신규 사업장(수동 등록)" if manual_only else "신규 사업장", "stage", None, new.get("stage"),
-                    new.get("sources")))
+        srcs = {s for s, _, _ in rows}
+        kind = "신규 사업장" if srcs - set(cr.PROJECT_FILE_SOURCES) else \
+            "신규 사업장(수동 등록)" if cr.MANUAL_PROJECTS_SOURCE in srcs else "신규 사업장(자동 등록)"
+        log.append((today, pid, kind, "stage", None, new.get("stage"), new.get("sources")))
     else:
         for f in sorted(set(old) | set(new)):
             if f in IGNORE_FIELDS or old.get(f) == new.get(f):
@@ -306,19 +314,20 @@ def recompute(con, pid: str, manual: pd.DataFrame, today: str, log: list, manual
             if f == "stage":
                 o, n = cr.STAGE_ORDER.get(old.get(f), -1), cr.STAGE_ORDER.get(new.get(f), -1)
                 kind = "단계 진전" if n > o else "단계 후퇴(확인 필요)"
-            # 수동 단계(manual_stage.csv) 또는 수동 등록(manual_projects.csv)이 만든 변경은 출처 칸에 파일 이름을 남긴다
-            by_manual = f in MANUAL_STAGE_FIELDS and new.get("stage_source") == cr.MANUAL_STAGE_SOURCE
+            # 수동·자동 단계(manual_stage.csv·auto_stage.csv) 또는 수동·자동 등록(manual_projects.csv·auto_projects.csv)이 만든 변경은
+            # 출처 칸에 파일 이름을 남긴다
+            by_manual = f in MANUAL_STAGE_FIELDS and new.get("stage_source") in (cr.MANUAL_STAGE_SOURCE, cr.AUTO_STAGE_SOURCE)
             log.append((today, pid, kind, f, _s(old.get(f)), _s(new.get(f)), _manual_file(new, rows) if by_manual else ""))
     con.execute("UPDATE projects SET record=?, updated_at=? WHERE project_id=?", (dumps(new), today, pid))
 
 
 def _manual_file(rec: dict, rows: list[tuple[str, str, dict]]) -> str:
-    """'수동(근거)' 단계가 어느 파일에서 왔는지: 수동 등록 행의 단계·근거가 레코드와 같으면 manual_projects.csv."""
+    """'수동(근거)'·'자동(뉴스)' 단계가 어느 파일에서 왔는지: 등록 행의 단계·근거가 레코드와 같으면 그 등록 파일, 아니면 단계 파일."""
     for s, _, p in rows:
-        if s == cr.MANUAL_PROJECTS_SOURCE and cr.norm_stage(p.get("stage_raw")) == rec.get("stage") \
+        if s in cr.PROJECT_FILE_SOURCES and cr.norm_stage(p.get("stage_raw")) == rec.get("stage") \
                 and p.get("evidence_url") == rec.get("stage_evidence"):
-            return "manual_projects.csv"
-    return "manual_stage.csv"
+            return s
+    return "auto_stage.csv" if rec.get("stage_source") == cr.AUTO_STAGE_SOURCE else "manual_stage.csv"
 
 
 def _s(v):
@@ -327,13 +336,14 @@ def _s(v):
 
 # ---------------------------------------------------------------- 매일 갱신
 def update(con: sqlite3.Connection, today: str, force: bool = False,
-           failed: list[str] | None = None, accept_shrink: bool = False) -> list[tuple]:
+           failed: list[str] | None = None, accept_shrink: bool = False, local_only: bool = False) -> list[tuple]:
+    """local_only: 공공 출처는 확인하지 않고 저장소 안의 파일(manual_*.csv·auto_*.csv)만 반영한다."""
     if not con.execute("SELECT COUNT(*) FROM projects").fetchone()[0]:
         sys.exit("상태가 비어 있습니다. 먼저 `python update_daily.py --init` 을 실행하세요.")
     manual = cr.load_manual()
     dirty: set[str] = set()
     log: list[tuple] = []
-    pending, errors = list(cr.SOURCES), {}
+    pending, errors = [s for s in cr.SOURCES if s.local or not local_only], {}
     for attempt, wait in enumerate((0, *RETRY_WAITS)):
         if not pending:
             break
@@ -371,11 +381,12 @@ def update(con: sqlite3.Connection, today: str, force: bool = False,
         dirty |= apply_manual(con, manual, today, log)
         con.execute("INSERT OR REPLACE INTO meta VALUES ('manual_hash', ?)", (mh,))
 
-    # 수동 단계표가 바뀌었으면(추가·수정·삭제) 모든 사업장을 다시 계산한다 — 바뀐 레코드만 이력에 남는다
+    # 수동·자동 단계표가 바뀌었으면(추가·수정·삭제) 모든 사업장을 다시 계산한다 — 바뀐 레코드만 이력에 남는다
     manual_stage = cr.load_manual_stage()
-    msh = file_hash(cr.MANUAL_STAGE_FILE)
+    msh = stage_files_hash()
     if msh != (con.execute("SELECT value FROM meta WHERE key='manual_stage_hash'").fetchone() or [""])[0]:
-        print(f"[변경] manual_stage.csv (수동 단계 {len(manual_stage)}곳) — 모든 사업장 다시 계산")
+        n_auto = sum(v.get("source") == cr.AUTO_STAGE_SOURCE for v in manual_stage.values())
+        print(f"[변경] manual_stage.csv·auto_stage.csv (수동 {len(manual_stage) - n_auto}곳 · 자동 {n_auto}곳) — 모든 사업장 다시 계산")
         dirty |= {pid for (pid,) in con.execute("SELECT project_id FROM projects")}
         con.execute("INSERT OR REPLACE INTO meta VALUES ('manual_stage_hash', ?)", (msh,))
 
@@ -486,9 +497,10 @@ def export(con: sqlite3.Connection, log: list, today: str) -> None:
 
 
 def manual_complexes(con) -> dict[str, str]:
-    """수동 등록(manual_projects.csv) 행의 단지 → 사업장. 노후 단지 목록에서 그 단지에만 사업 단계를 붙이는 데 쓴다."""
+    """수동·자동 등록(manual_projects.csv·auto_projects.csv) 행의 단지 → 사업장. 노후 단지 목록에서 그 단지에만 사업 단계를 붙이는 데 쓴다."""
     return {json.loads(p)["complex_id"]: pid for pid, p in con.execute(
-        "SELECT project_id, payload FROM source_rows WHERE source=? AND removed_at IS NULL", (cr.MANUAL_PROJECTS_SOURCE,))}
+        "SELECT project_id, payload FROM source_rows WHERE source IN (?, ?) AND removed_at IS NULL",
+        (cr.MANUAL_PROJECTS_SOURCE, cr.AUTO_PROJECTS_SOURCE))}
 
 
 def main() -> None:
@@ -507,6 +519,8 @@ def main() -> None:
     ap.add_argument("--export-only", action="store_true",
                     help="출처를 확인하지 않고 현재 상태(state/)로 출력 파일만 다시 만든다(노후 단지 이름·별칭 같은 파생 계산 규칙을 바꾼 뒤; "
                          "사업장 레코드는 다시 계산하지 않으니 그때는 --migrate)")
+    ap.add_argument("--local-only", action="store_true",
+                    help="공공 출처는 확인하지 않고 저장소 안의 파일(manual_*.csv·auto_*.csv)만 반영한다(news.py 자동 반영 뒤 바로 적용할 때)")
     ap.add_argument("--date", default=date.today().isoformat(), help="기록용 날짜(테스트용)")
     args = ap.parse_args()
 
@@ -520,7 +534,8 @@ def main() -> None:
         print("[완료] --export-only: 출력 파일만 다시 만듦 (상태 파일은 그대로 둠)")
         return
     failed: list[str] = []
-    log = update(con, args.date, force=args.force or args.migrate, failed=failed, accept_shrink=args.accept_shrink)
+    log = update(con, args.date, force=args.force or args.migrate, failed=failed, accept_shrink=args.accept_shrink,
+                 local_only=args.local_only)
     if args.migrate:  # 계산 규칙·열이 바뀌었을 수 있으니 모든 사업장을 다시 계산한다(바뀐 것만 이력에 남는다)
         manual, manual_stage = cr.load_manual(), cr.load_manual_stage()
         for (pid,) in con.execute("SELECT project_id FROM projects").fetchall():
@@ -584,7 +599,8 @@ def with_enrichment(recs: list[dict], book=None) -> list[dict]:
 
 def migration_log(log: list[tuple], today: str) -> list[tuple]:
     """스키마 확장 실행의 이력: 행 추가·삭제와 단계·일자 변경만 남기고, 새 열이 채워지며 생긴 변경은 한 줄로 요약."""
-    row_kinds = {"출처 행 추가", "출처에서 삭제", "신규 사업장", "신규 사업장(수동 등록)", "모든 출처에서 사라짐", "수동 병합"}
+    row_kinds = {"출처 행 추가", "출처에서 삭제", "신규 사업장", "신규 사업장(수동 등록)", "신규 사업장(자동 등록)", "모든 출처에서 사라짐",
+                 "수동 병합"}
     keep_fields = {"stage", "status", *cr.DATE_COLS}
     kept = [r for r in log if (r[2] in row_kinds or r[3] in keep_fields)
             and not (r[3] == "stage" and (r[4], r[5]) in cr.RENAMED_STAGES)]  # 단계 이름만 바뀐 것은 변경이 아니다

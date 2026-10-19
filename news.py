@@ -126,15 +126,20 @@ MARKET = re.compile(r"분양권|입주권|경매|공매|낙찰|신고가|호가|
 HEDGE = re.compile(r"앞두|앞둔|예정|목표|추진|신청|준비|임박|가시화|눈앞|채비|시동|박차|나선|나섰|동의서|동의율|설명회|공청회|"
                    r"입찰|시공사|시공권|수주|총회|촉구|요구|요청|기대|전망|가능성|검토|논의|협의|갈등|반발|소송|난항|지연|연기|"
                    r"초읽기|코앞|청신호|가속|탄력|순항|급물살|물꼬|첫발|첫걸음|방침|용역|공모|도전|노린|노려|겨냥|위해|위한|"
-                   r"관건|변수|기로|촉각|주목|예고|시기|언제|가능할까|되나|될까|향해|향한|남았|남은|예상|앞으로|수순|순서|절차")
+                   r"관건|변수|기로|촉각|주목|예고|시기|언제|가능할까|되나|될까|향해|향한|남았|남은|예상|앞으로|수순|순서|절차|공람|열람")
+DRAFT = re.compile(r"\(안\)|안\)|공람|열람|고시안")       # 계획안·공람 단계: 지정·인가 자체가 아직 아니다('정비구역 지정(안) 재공람공고')
+DRAFT_STAGES = {"정비구역지정", "건축심의", "사업시행인가", "관리처분인가"}   # 정비계획수립은 열람공고 자체가 그 단계라 제외
 POSITIVE = re.compile(r"^.{0,2}(받|통과|획득|취득|따냈|따내|확정|고시|승인|완료|마쳤|마무리|됐|돼|했다|결정|인가|나왔|떨어졌|났다|확보)")
 BREAK = re.compile(r"…|\.{2,}|·+|,|—|–|~|\||/|\]|\)")                 # 절이 바뀌는 자리: 그 뒤의 말은 앞 사건을 꾸미지 않는다
-BEFORE_HEDGE = re.compile(r"연내|내년|내달|다음달|상반기|하반기|조만간|이르면|늦어도|이달중|향후|목표")   # '연내 사업시행인가'
+BREAK_BEFORE = re.compile(r"…|\.{2,}|—|–|~|\||/|\]|\)")                # 사건 앞쪽 절의 시작(쉼표·따옴표는 끊지 않는다: '11월, 1800가구 일반분양')
+QUOTES = re.compile(r"[‘’'\"“”「」『』\[(]")
+BEFORE_HEDGE = re.compile(r"연내|내년|내달|다음달|상반기|하반기|조만간|이르면|늦어도|이달중|향후|목표|\d{1,2}월")   # '연내 사업시행인가', '12월 이주 시작'
+AGE = re.compile(r"(준공|입주|완공|지은지)\d+년(차)?|\d+년(차|된|넘은|지난|묵은|만에)")   # '준공 46년 신반포4차'의 '준공'은 사건이 아니다
 
 
 def detect_stage(title: str, allow_hedged: bool = True) -> tuple[str, str] | None:
     """기사 제목 → (표준 단계, '확정'|'예정') 또는 None. 가장 진전된 단계를 고른다."""
-    t = re.sub(r"\s+", "", title)
+    t = AGE.sub(" ", re.sub(r"\s+", "", title))
     if SKIP_TITLE.search(t) or NEGATIVE.search(t):
         return None
     events, rest = [], t
@@ -153,15 +158,17 @@ def detect_stage(title: str, allow_hedged: bool = True) -> tuple[str, str] | Non
         for s, e, _ in events:
             masked[s:e] = " " * (e - s)
         masked = "".join(masked)
+        draft = bool(DRAFT.search(masked))     # 사건 표현 밖에 '(안)'·'공람'이 있으면 지정·인가는 아직이다(같은 단계 사건이 둘이어도)
         judged = []
         for s, e, stage in events:
             raw = masked[e:e + 14].lstrip()
-            if POSITIVE.match(raw):                               # '…인가 받았다', '…통과했다'
+            if POSITIVE.match(raw) and not (draft and stage in DRAFT_STAGES):   # '…인가 받았다', '…통과했다'
                 judged.append((stage, "확정", s))
                 break
             # 바로 뒤가 '…'·','·'·'이면 다른 절(다음 계획)이라 보지 않는다; 따옴표는 벗기고 같은 절만 본다
             clause = "" if BREAK.match(raw) else BREAK.split(raw.lstrip("‘’'\"“”[(「『"), 1)[0]
-            hedged = bool(HEDGE.search(clause) or BEFORE_HEDGE.search(masked[max(0, s - 6):s]))
+            before = BREAK_BEFORE.split(QUOTES.sub("", masked[:s]))[-1][-20:]   # 같은 절의 앞말: '내년 ○○ 첫삽', '12월 이주 시작'
+            hedged = bool(HEDGE.search(clause) or BEFORE_HEDGE.search(before) or (draft and stage in DRAFT_STAGES))
             judged.append((stage, "예정" if hedged else "확정", s))
         stage, conf, start = judged[0] if judged[0][1] == "확정" or len(judged) == 1 else \
             next((j for j in judged if j[1] == "확정"), judged[0])
@@ -192,6 +199,7 @@ GENERIC = {
 }
 PAREN_SKIP = re.compile(r"(재촉|통합재건축|\d+~\d+동.*|.*동 제외)")
 DROP_KEYS = {"서울", "경기", "인천", "수도권", "한국", "대한"}   # 어떤 기사에나 나오는 말: 별칭으로 쓰지 않는다('서울아파트'의 '서울')
+COMPANY = re.compile(r"신탁|건설|주택공사|LH|SH공사|공사$|개발$|산업$|자산|시행자")   # '신길10(한국토지신탁)'의 괄호 안은 사업시행자지 단지 이름이 아니다
 
 
 def generic_key(k: str) -> bool:
@@ -241,6 +249,8 @@ def profile(pid: str, rec: dict, shared: set[str]) -> dict:
     for alias, kind in rec.get("_aliases") or []:
         k = cr.zone_key(alias)
         if len(k) < 2 or re.fullmatch(r"[\d\-_]+", k) or k in DROP_KEYS or k in strong or k in medium or k in weak:
+            continue
+        if kind == "괄호 안 이름" and COMPANY.search(alias):   # 시행자·신탁사 이름은 사업장 이름이 아니다
             continue
         if generic_key(k) or k in shared:
             weak[k] = alias                 # 흔한 이름·여러 사업장이 쓰는 별칭: 지역 이름이 함께 있어야 한다
@@ -352,8 +362,8 @@ def stage_for(prof: dict, title: str, desc: str = "", allow_hedged: bool = True)
     '도봉구 첫 ○○ 입주…△△ 시공자 선정'처럼 앞 토막의 다른 단지 이야기에 속지 않게.
     이름이 어느 토막에도 따로 안 보이면 제목 전체를 쓴다."""
     segs = re.split(r"…|\.{3}", title)
-    if len(segs) > 1:
-        idx = next((i for i, s in enumerate(segs) if match_name(prof, s, desc)), None)
+    if len(segs) > 1:   # 지역 이름은 제목 어디에 있어도 된다('강남구, 개포6·7단지 관리처분 인가…가람아파트도 조합 승인'의 '가람')
+        idx = next((i for i, s in enumerate(segs) if match_name(prof, s, f"{desc} {title}")), None)
         if idx is not None:
             title = "…".join(segs[idx:])
     return detect_stage(title, allow_hedged)
@@ -717,6 +727,109 @@ def check_seoul(profiles: dict[str, dict], state: dict[str, dict], today: date, 
     return new
 
 
+# ---------------------------------------------------------------- 자동 반영 (auto_stage.csv · auto_projects.csv)
+# 사람이 검토하지 않아도 되게, 확신할 수 있는 후보만 update_daily.py가 읽는 파일에 적는다.
+#   - 같은 사업장(또는 단지)·같은 단계를 '확정'으로 전한 서로 다른 제목의 기사가 AUTO_MIN_ARTICLES건 이상이거나, 정보몽땅 고시가 1건이라도 있을 때
+#   - 사업장 단계는 현재보다 AUTO_MAX_JUMP단계 넘게 건너뛰지 않을 때(조합설립 → 준공 같은 오탐 차단)
+#   - 신규 사업장(단지)은 AUTO_NEW_MAX_STAGE 이하의 단계일 때(그 뒤 단계면 공공 자료에 있어야 정상)
+#   - 회사 이름(신탁사·시행자)으로 맞은 기사는 세지 않는다
+# 같은 사업장에 이미 적힌 행보다 앞선 단계만 다시 적고, 수동 파일(manual_*.csv)의 행이 같은 단계면 수동이 앞선다.
+AUTO_MIN_ARTICLES = 2
+AUTO_MAX_JUMP = 4
+AUTO_NEW_MAX_STAGE = "조합설립인가"
+AUTO_STAGE_COLS = ["project_id", "stage", "date", "evidence_url", "note"]
+AUTO_PROJECT_COLS = ["complex_id", "name", "stage", "date", "evidence_url", "note"]
+
+
+def read_auto(path, cols: list[str]) -> dict[str, dict]:
+    """자동 반영 파일 → {첫 열 값: 행}. 없으면 빈 dict."""
+    if not path.exists():
+        return {}
+    with open(path, encoding="utf-8-sig", newline="") as f:
+        return {r[cols[0]]: {c: (r.get(c) or "") for c in cols} for r in csv.DictReader(f) if r.get(cols[0])}
+
+
+def write_auto(path, cols: list[str], rows: dict[str, dict]) -> bool:
+    """정렬된 고정 형식으로 쓴다(내용이 같으면 파일도 같다). → 바뀌었는지"""
+    out = []
+    w = csv.writer(_Buf(out), lineterminator="\n")
+    w.writerow(cols)
+    for k in sorted(rows):
+        w.writerow([rows[k].get(c, "") for c in cols])
+    text = "".join(out)
+    old = path.read_text(encoding="utf-8-sig") if path.exists() else None
+    if old == text:
+        return False
+    path.write_text(text, encoding="utf-8-sig", newline="\n")
+    return True
+
+
+class _Buf:
+    def __init__(self, out: list):
+        self.out = out
+
+    def write(self, s: str) -> None:
+        self.out.append(s)
+
+
+def auto_apply(rows: list[dict], profiles: dict[str, dict], today: date, write: bool = True) -> list[dict]:
+    """대기열에서 확신할 수 있는 후보를 골라 auto_stage.csv(사업장 단계) / auto_projects.csv(신규 사업장)에 적는다.
+    → [{key, name, kind, stage, n, new(이번에 새로 적음), article_ids}] — 적용된(또는 이미 적혀 있는) 후보는 대기열에서 뺀다."""
+    groups: dict[tuple[str, str], list[dict]] = {}
+    for r in rows:
+        if r["confidence"] != "확정" or COMPANY.search(r.get("matched_alias") or ""):
+            continue
+        key = r["project_id"] or (COMPLEX_PREFIX + (r["complex_id"] or ""))
+        groups.setdefault((key, r["article_stage"]), []).append(r)
+    stages = read_auto(cr.AUTO_STAGE_FILE, AUTO_STAGE_COLS)
+    projects = read_auto(cr.AUTO_PROJECTS_FILE, AUTO_PROJECT_COLS)
+    manual_stage = {k: v for k, v in cr.load_manual_stage().items() if v.get("source") == cr.MANUAL_STAGE_SOURCE}
+    applied: list[dict] = []
+    for (key, stage), rs in groups.items():
+        prof = profiles.get(key)
+        if not prof:
+            continue
+        titles: dict[str, dict] = {}
+        for r in sorted(rs, key=lambda r: (r["published"], r["article_id"])):
+            titles.setdefault(title_key(r["title"]), r)
+        notice = any(r["source"] == SEOUL_SOURCE for r in rs)
+        if len(titles) < AUTO_MIN_ARTICLES and not notice:
+            continue
+        order = cr.STAGE_ORDER[stage]
+        first = sorted(titles.values(), key=lambda r: (r["source"] != SEOUL_SOURCE, r["published"]))[0]
+        note = f"자동 반영 {today.isoformat()}: 확정 기사 {len(titles)}건 — " + " | ".join(r["title"][:60] for r in list(titles.values())[:3])
+        item = {"key": key, "name": prof["name"], "kind": prof["kind"], "stage": stage, "n": len(titles), "new": False,
+                "article_ids": [r["article_id"] for r in rs], "link": first["link"]}
+        if prof["kind"] == STAGE_KIND:
+            if order - prof["order"] > AUTO_MAX_JUMP:
+                continue
+            if cr.STAGE_ORDER.get((manual_stage.get(key) or {}).get("stage"), -1) >= order:
+                continue                                   # 사람이 적은 단계가 이미 같거나 앞선다
+            have = stages.get(key)
+            if have and cr.STAGE_ORDER.get(cr.norm_stage(have["stage"]), -1) >= order:
+                applied.append(item)                       # 이미 적혀 있다(update_daily가 아직 반영 전이거나 오늘 반영됨)
+                continue
+            stages[key] = {"project_id": key, "stage": stage, "date": first["published"], "evidence_url": first["link"], "note": note}
+        else:
+            if order > cr.STAGE_ORDER[AUTO_NEW_MAX_STAGE]:
+                continue
+            cid = prof.get("complex_id") or ""
+            have = projects.get(cid)
+            if have and cr.STAGE_ORDER.get(cr.norm_stage(have["stage"]), -1) >= order:
+                applied.append(item)
+                continue
+            projects[cid] = {"complex_id": cid, "name": (have or {}).get("name") or prof["name"], "stage": stage,
+                             "date": first["published"], "evidence_url": first["link"], "note": note}
+        item["new"] = True
+        applied.append(item)
+    if write:
+        changed = write_auto(cr.AUTO_STAGE_FILE, AUTO_STAGE_COLS, stages) if any(a["new"] and a["kind"] == STAGE_KIND for a in applied) else False
+        changed |= write_auto(cr.AUTO_PROJECTS_FILE, AUTO_PROJECT_COLS, projects) if any(a["new"] and a["kind"] == NEW_KIND for a in applied) else False
+        if changed:
+            print(f"[자동 반영] {cr.AUTO_STAGE_FILE.name} / {cr.AUTO_PROJECTS_FILE.name} 갱신 — update_daily.py가 다음 실행 때 반영")
+    return applied
+
+
 # ---------------------------------------------------------------- 출력
 QUEUE_COLS = ["kind", "project_id", "complex_id", "region_sido", "region_sigungu", "dong", "zone_name", "current_stage",
               "article_stage", "confidence", "published", "title", "link", "source", "matched_alias", "first_seen", "article_id"]
@@ -758,14 +871,20 @@ def write_outputs(rows: list[dict], today: date) -> None:
                            encoding="utf-8", newline="\n")
 
 
-def write_summary(today: date, stats: dict, new: list[dict], rows: list[dict], srcs: Sources | None, profiles: dict) -> None:
+def write_summary(today: date, stats: dict, new: list[dict], rows: list[dict], srcs: Sources | None, profiles: dict,
+                  applied: list[dict] | None = None) -> None:
     sure = sum(r["confidence"] == "확정" for r in rows)
     newcx = sum(r["kind"] == NEW_KIND for r in rows)
+    applied = applied or []
     lines = [f"## 뉴스·고시 감시 {today.isoformat()}", "",
              f"- 조회 사업장 {stats['checked']}곳 · 사업장 없는 노후 단지 {stats.get('checked_cx', 0)}곳 "
              f"(네이버 {stats['naver_calls']}건 · 구글 {stats['google_calls']}건 호출, "
-             f"새 기사 {stats['articles']}건 판정) · 정보몽땅 고시·공고 {stats.get('seoul_notices', 0)}건 확인",
-             f"- 새 후보 {len(new)}건 · 검토 대기열 {len(rows)}건 (확정 {sure} · 예정 {len(rows) - sure} · 그중 신규 사업장 후보 {newcx})"]
+             f"새 기사 {stats['articles']}건 판정) · 정비사업 정보몽땅 고시·공고 {stats.get('seoul_notices', 0)}건 확인",
+             f"- 새 후보 {len(new)}건 · 검토 대기열 {len(rows)}건 (확정 {sure} · 예정 {len(rows) - sure} · 그중 신규 사업장 후보 {newcx})",
+             f"- 자동 반영 {sum(a['new'] for a in applied)}건 새로 적음 (auto_stage.csv·auto_projects.csv, 적힌 채 대기 {sum(not a['new'] for a in applied)}건)"]
+    for a in applied:
+        if a["new"]:
+            lines.append(f"  - {'신규 사업장 ' if a['kind'] == NEW_KIND else ''}{a['name']} → {a['stage']} (확정 기사 {a['n']}건, [근거]({a['link']}))")
     for n in (srcs.notes if srcs else []):
         lines.append(f"- ⚠️ {n}")
     if new:
@@ -795,6 +914,7 @@ def main() -> None:
     ap.add_argument("--no-google", action="store_true")
     ap.add_argument("--no-seoul", action="store_true")
     ap.add_argument("--rebuild", action="store_true", help="조회 없이 저장된 후보로 출력 파일만 다시 만든다")
+    ap.add_argument("--no-auto", action="store_true", help="확신 후보를 auto_stage.csv·auto_projects.csv에 자동 반영하지 않는다(판정만 출력)")
     ap.add_argument("--date", default=date.today().isoformat(), help="기록용 날짜(테스트용)")
     args = ap.parse_args()
     today = date.fromisoformat(args.date)
@@ -864,9 +984,15 @@ def main() -> None:
 
     prune(state, profiles, dismissed, today)
     rows = queue_rows(state, profiles)
+    applied = auto_apply(rows, profiles, today, write=not (args.dry_run or args.no_auto))
+    done = {aid for a in applied for aid in a["article_ids"]}
+    rows = [r for r in rows if r["article_id"] not in done]   # 자동 반영된(또는 반영 대기 중인) 후보는 대기열에서 뺀다
+    for a in applied:
+        if a["new"]:
+            print(f"   = 자동 반영: {a['name']}{' [신규 사업장]' if a['kind'] == NEW_KIND else ''} → {a['stage']} (확정 기사 {a['n']}건)")
     changed = serialize(state) != before
     if args.dry_run:
-        print(f"[dry-run] 새 후보 {len(new)}건 · 대기열 {len(rows)}건 (저장 안 함)")
+        print(f"[dry-run] 새 후보 {len(new)}건 · 대기열 {len(rows)}건 · 자동 반영 {sum(a['new'] for a in applied)}건 (저장 안 함)")
     else:
         if changed:
             STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -874,7 +1000,7 @@ def main() -> None:
         write_outputs(rows, today)
         print(f"[저장] 대기열 {len(rows)}건 → {QUEUE_CSV.relative_to(cr.BASE)}, {SITE_REVIEW.relative_to(cr.BASE)}"
               + ("" if changed else " (상태 변경 0건)"))
-    write_summary(today, stats, new, rows, srcs, profiles)
+    write_summary(today, stats, new, rows, srcs, profiles, applied)
     if srcs and todo and stats["checked"] + stats["checked_cx"] == 0 and "seoul_notices" not in stats:
         sys.exit(1)   # 뉴스 출처도 고시 목록도 하나도 못 읽었다(인증·차단) — Actions 로그에 알린다
 

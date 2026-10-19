@@ -2,7 +2,7 @@ name: Daily reconstruction update
 
 on:
   schedule:
-    - cron: "30 22 * * *"   # 매일 07:30 KST (UTC 22:30). GitHub 사정으로 수십 분 늦어질 수 있음
+    - cron: "30 22 * * *"   # 매일 07:30 KST (UTC 22:30). GitHub 사정으로 수십 분 늦어지거나 건너뛰기도 한다
     - cron: "30 5 * * *"    # 14:30 KST 보조 실행 — 아침에 막힌 출처를 채운다(아침이 성공했으면 probe만 하고 끝남)
   workflow_dispatch:
     inputs:
@@ -35,6 +35,14 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # 뉴스·고시 감시를 먼저: 확신할 수 있는 후보를 auto_stage.csv·auto_projects.csv에 적어 두면 바로 뒤의 갱신이 같은 날 반영한다
+      - name: News watch (review queue, auto apply)
+        continue-on-error: true   # 뉴스·고시 감시가 실패해도 데이터 갱신 커밋은 그대로 간다
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}           # NAVER API HUB 뉴스 검색 (없으면 구글 RSS·정보몽땅 고시만)
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: python news.py
+
       - name: Incremental update
         id: update
         continue-on-error: true   # 일부 출처가 실패해도 성공한 출처의 변경은 커밋한다
@@ -42,16 +50,9 @@ jobs:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}   # 건축물대장·실거래가 오픈API (없으면 보강만 건너뜀)
         run: python update_daily.py ${{ inputs.force && '--force' || '' }}
 
-      - name: News watch (review queue)
-        continue-on-error: true   # 뉴스·고시 감시가 실패해도 데이터 갱신 커밋은 그대로 간다
-        env:
-          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}           # NAVER API HUB 뉴스 검색 (없으면 구글 RSS·정보몽땅 고시만)
-          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
-        run: python news.py
-
       - name: Commit changes
         run: |
-          git add state output docs/data
+          git add state output docs/data auto_stage.csv auto_projects.csv
           if git diff --cached --quiet; then
             echo "변경 없음 — 커밋하지 않음"
             exit 0
