@@ -24,6 +24,9 @@
   - 같은 입력이면 같은 출력: 사업장 레코드는 연결된 출처 행들만으로 계산된다(collect_reconstruction.build_record).
   - 사람이 뉴스·고시로 확인한 단계는 manual_stage.csv에 적는다(news.py의 검토 대기열 → 사람 확인 → 수동 반영).
     출처 단계보다 앞설 때만 현재 단계로 쓰고(stage_source='수동(근거)'), 출처가 따라오면 자연히 무시된다.
+  - 공공 출처에 아직 없는 초기 단계(안전진단·추진위 준비) 단지는 manual_projects.csv에 근거와 함께 적는다.
+    이 파일은 보통 출처처럼 다뤄진다(출처 이름 'manual_projects.csv', probe = 파일 해시): 행이 생기면 노후 단지 자료로
+    사업장을 만들고(이력 '신규 사업장(수동 등록)'), 나중에 공공 출처에 같은 사업장이 실리면 이름·대표 지번으로 같은 project_id에 붙는다.
 """
 from __future__ import annotations
 
@@ -63,6 +66,7 @@ CREATE TABLE IF NOT EXISTS meta(key TEXT PRIMARY KEY, value TEXT);
 """
 IGNORE_FIELDS = {"search_keys", "_aliases", "source_updated_at"}  # 이력에 남길 필요 없는 파생 필드
 LINK_THRESHOLD = 0.75
+LOT_LINK_THRESHOLD = 0.5   # 대표 지번이 같은 기존 사업장이 하나뿐이면 이름이 이만큼만 닮아도 그 사업장으로(수동 등록 단지 ↔ 공공 출처 표기 차이)
 
 
 def connect() -> sqlite3.Connection:
@@ -149,11 +153,7 @@ def failure_ages(con: sqlite3.Connection, failed: list[str], today: str) -> dict
     return ages
 
 
-def file_hash(path: Path) -> str:
-    """줄바꿈(CRLF/LF) 차이는 무시 — Windows와 GitHub Actions(Linux)에서 같은 값이 나오게."""
-    if not path.exists():
-        return ""
-    return hashlib.sha1(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+file_hash = cr.file_hash   # 줄바꿈(CRLF/LF) 차이를 무시하는 파일 해시
 
 
 def manual_hash() -> str:
@@ -215,11 +215,21 @@ def active_rows(con, project_id: str) -> list[tuple[str, str, dict]]:
         "SELECT source, row_key, payload FROM source_rows WHERE project_id=? AND removed_at IS NULL", (project_id,))]
 
 
+def _complex_keys(payload: dict) -> set[str]:
+    """수동 등록 행에 붙은 단지 이름들(부동산원·K-apt 표기)의 키 — 공공 출처가 다른 표기로 실려도 같은 사업장으로 알아보게."""
+    return {k for k in (cr.zone_key(a) for a in payload.get("complex_aliases") or []) if k}
+
+
 def link_row(con, source: str, payload: dict, manual: pd.DataFrame, today: str) -> tuple[str, str]:
-    """새로 나타난 출처 행을 기존 사업장에 붙이거나 새 사업장을 만든다. → (project_id, 설명)"""
+    """새로 나타난 출처 행을 기존 사업장에 붙이거나 새 사업장을 만든다. → (project_id, 설명)
+
+    이름 유사도 LINK_THRESHOLD 이상이면 연결(비슷한 후보가 둘이면 대표 지번이 같은 쪽). 그에 못 미쳐도 대표 지번이 같은
+    기존 사업장이 하나뿐이고 이름이 LOT_LINK_THRESHOLD 이상 닮았으면 그 사업장으로 — 수동 등록한 '가야주공5단지1차'가
+    나중에 공공 출처에 '가야5단지1차'처럼 실려도 새 사업장을 만들지 않는다.
+    """
     area = f"{payload['region_sido']}|{cr.sgg_key(payload['region_sigungu'], payload['region_sido'])}"
     tag = f"{source}/{payload.get('project_type') or ''}"
-    mine = cr.name_keys([payload["zone_name"]])
+    mine = cr.name_keys([payload["zone_name"]]) | _complex_keys(payload)
     my_lot = _lot_of(payload)
     scored = []
     for (pid,) in con.execute("SELECT project_id FROM projects WHERE area=? ORDER BY project_id", (area,)):
@@ -231,6 +241,8 @@ def link_row(con, source: str, payload: dict, manual: pd.DataFrame, today: str) 
             continue  # 같은 출처에 이미 다른 행으로 실린 사업장 = 다른 사업장 (이름이 완전히 같으면 같은 사업장의 중복 등재로 본다)
         keys = cr.name_keys(names) | set(manual.loc[manual["_area"].eq(area) & manual["name_key"].isin(
             {cr.zone_key(n) for n in names}), "alias_key"])
+        for _, _, p in rows:
+            keys |= _complex_keys(p)
         same_lot = bool(my_lot) and any(_lot_of(p) == my_lot for _, _, p in rows)
         scored.append((max(cr._score(a, b) for a in mine for b in keys), same_lot, pid))
     scored.sort(reverse=True)
@@ -240,6 +252,9 @@ def link_row(con, source: str, payload: dict, manual: pd.DataFrame, today: str) 
         if clear or (best[1] and not runner[1]):  # 이름 점수가 비슷하면 대표지번이 같은 쪽
             how = f"유사도 {best[0]:.2f}" + (" · 지번 일치" if best[1] else "")
             return best[2], f"기존 사업장에 연결({how})"
+    lot_hits = [s for s in scored if s[1]]
+    if len(lot_hits) == 1 and lot_hits[0][0] >= LOT_LINK_THRESHOLD:
+        return lot_hits[0][2], f"기존 사업장에 연결(지번 일치 · 유사도 {lot_hits[0][0]:.2f})"
     used = {r[0] for r in con.execute("SELECT project_id FROM projects")}
     pid = cr.unique_project_id(payload, used)
     con.execute("INSERT INTO projects VALUES (?,?,?,?,?)", (pid, area, "{}", today, today))
@@ -279,7 +294,9 @@ def recompute(con, pid: str, manual: pd.DataFrame, today: str, log: list, manual
     if dumps(new) == old_json:
         return
     if not old:
-        log.append((today, pid, "신규 사업장", "stage", None, new.get("stage"), new.get("sources")))
+        manual_only = all(s == cr.MANUAL_PROJECTS_SOURCE for s, _, _ in rows)
+        log.append((today, pid, "신규 사업장(수동 등록)" if manual_only else "신규 사업장", "stage", None, new.get("stage"),
+                    new.get("sources")))
     else:
         for f in sorted(set(old) | set(new)):
             if f in IGNORE_FIELDS or old.get(f) == new.get(f):
@@ -288,10 +305,19 @@ def recompute(con, pid: str, manual: pd.DataFrame, today: str, log: list, manual
             if f == "stage":
                 o, n = cr.STAGE_ORDER.get(old.get(f), -1), cr.STAGE_ORDER.get(new.get(f), -1)
                 kind = "단계 진전" if n > o else "단계 후퇴(확인 필요)"
-            # 수동 단계(manual_stage.csv)가 만든 변경은 출처 칸에 파일 이름을 남긴다
+            # 수동 단계(manual_stage.csv) 또는 수동 등록(manual_projects.csv)이 만든 변경은 출처 칸에 파일 이름을 남긴다
             by_manual = f in MANUAL_STAGE_FIELDS and new.get("stage_source") == cr.MANUAL_STAGE_SOURCE
-            log.append((today, pid, kind, f, _s(old.get(f)), _s(new.get(f)), "manual_stage.csv" if by_manual else ""))
+            log.append((today, pid, kind, f, _s(old.get(f)), _s(new.get(f)), _manual_file(new, rows) if by_manual else ""))
     con.execute("UPDATE projects SET record=?, updated_at=? WHERE project_id=?", (dumps(new), today, pid))
+
+
+def _manual_file(rec: dict, rows: list[tuple[str, str, dict]]) -> str:
+    """'수동(근거)' 단계가 어느 파일에서 왔는지: 수동 등록 행의 단계·근거가 레코드와 같으면 manual_projects.csv."""
+    for s, _, p in rows:
+        if s == cr.MANUAL_PROJECTS_SOURCE and cr.norm_stage(p.get("stage_raw")) == rec.get("stage") \
+                and p.get("evidence_url") == rec.get("stage_evidence"):
+            return "manual_projects.csv"
+    return "manual_stage.csv"
 
 
 def _s(v):
@@ -328,12 +354,14 @@ def update(con: sqlite3.Connection, today: str, force: bool = False,
                 print(f"[실패] {src.name}: {e}", file=sys.stderr)
                 if isinstance(e, NETWORK_ERRORS) and src.host:
                     down_hosts.add(src.host)
-                still.append(src)
+                if not src.local:  # 저장소 안의 파일은 기다려도 달라지지 않는다 — 재시도 없이 이전 상태 유지
+                    still.append(src)
         pending = still
-    for src in pending:  # 끝까지 실패한 출처는 이전 데이터를 그대로 둔다
-        print(f"[포기] {src.name} — 이전 데이터 유지", file=sys.stderr)
-        if failed is not None:
-            failed.append(f"{src.name}: {errors.get(src.name)}")
+    for src in cr.SOURCES:  # 끝까지 실패한 출처는 이전 데이터를 그대로 둔다
+        if src.name in errors:
+            print(f"[포기] {src.name} — 이전 데이터 유지", file=sys.stderr)
+            if failed is not None:
+                failed.append(f"{src.name}: {errors.get(src.name)}")
 
     # 수동 별칭표가 바뀌었으면: 지정된 병합을 적용하고 해당 지역 사업장을 다시 계산
     mh = manual_hash()
@@ -365,7 +393,7 @@ def sync_source(con, src: cr.Source, today: str, force: bool, manual: pd.DataFra
     stored = con.execute("SELECT fingerprint, content_hash FROM sources WHERE name=?", (src.name,)).fetchone()
     fp = safe_probe(src)
     if not force and fp and stored and stored[0] == fp:
-        print(f"[그대로] {src.name} (probe 동일 — 다운로드 생략)")
+        print(f"[그대로] {src.name} ({'파일 해시 동일' if src.local else 'probe 동일 — 다운로드 생략'})")
         con.execute("UPDATE sources SET checked_at=? WHERE name=?", (today, src.name))
         return
     payloads = cr.fetch_payloads(src)
@@ -381,7 +409,7 @@ def sync_source(con, src: cr.Source, today: str, force: bool, manual: pd.DataFra
     removed = sorted(live - payloads.keys())
     added = sorted(k for k in payloads if k not in live)
     changed = sorted(k for k in payloads if k in live and old[k][0] != cr.row_hash(payloads[k]))
-    if len(live) >= 20 and len(removed) > SHRINK_LIMIT * len(live) and not accept_shrink:
+    if len(live) >= 20 and len(removed) > SHRINK_LIMIT * len(live) and not accept_shrink and not src.local:
         raise RuntimeError(f"행 수 급감: 살아 있는 {len(live)}행 중 {len(removed)}행이 한꺼번에 사라짐 — "
                            f"부분 응답으로 보고 반영하지 않음(실제 축소면 --accept-shrink)")
     print(f"[변경] {src.name}: 추가 {len(added)} · 수정 {len(changed)} · 삭제 {len(removed)}")
@@ -442,7 +470,7 @@ def export(con: sqlite3.Connection, log: list, today: str) -> None:
     res, excluded = cr.records_frame(recs)
     cr.write_outputs(res, excluded, "latest")
     if complexes.REGISTRY_FILE.exists() or enrich.TRADES_FILE.exists():  # 30년 이상 노후 단지 목록
-        rows = complexes.build(today, recs, lots, book)
+        rows = complexes.build(today, recs, lots, book, manual_complexes(con))
         complexes.write(rows, today)
         book.write_files(rows, [r for r in recs if r.get("_apartment")])
     if log:
@@ -454,6 +482,12 @@ def export(con: sqlite3.Connection, log: list, today: str) -> None:
         new = not path.exists()  # 같은 날 두 번 실행되면 이어 붙인다(BOM은 처음 한 번만)
         df.to_csv(path, mode="a", header=new, index=False, encoding="utf-8-sig" if new else "utf-8", lineterminator="\n")
         print(f"[이력] {len(log)}건 → {path.relative_to(cr.BASE)}")
+
+
+def manual_complexes(con) -> dict[str, str]:
+    """수동 등록(manual_projects.csv) 행의 단지 → 사업장. 노후 단지 목록에서 그 단지에만 사업 단계를 붙이는 데 쓴다."""
+    return {json.loads(p)["complex_id"]: pid for pid, p in con.execute(
+        "SELECT project_id, payload FROM source_rows WHERE source=? AND removed_at IS NULL", (cr.MANUAL_PROJECTS_SOURCE,))}
 
 
 def main() -> None:
@@ -542,7 +576,7 @@ def with_enrichment(recs: list[dict], book=None) -> list[dict]:
 
 def migration_log(log: list[tuple], today: str) -> list[tuple]:
     """스키마 확장 실행의 이력: 행 추가·삭제와 단계·일자 변경만 남기고, 새 열이 채워지며 생긴 변경은 한 줄로 요약."""
-    row_kinds = {"출처 행 추가", "출처에서 삭제", "신규 사업장", "모든 출처에서 사라짐", "수동 병합"}
+    row_kinds = {"출처 행 추가", "출처에서 삭제", "신규 사업장", "신규 사업장(수동 등록)", "모든 출처에서 사라짐", "수동 병합"}
     keep_fields = {"stage", "status", *cr.DATE_COLS}
     kept = [r for r in log if (r[2] in row_kinds or r[3] in keep_fields)
             and not (r[3] == "stage" and (r[4], r[5]) in cr.RENAMED_STAGES)]  # 단계 이름만 바뀐 것은 변경이 아니다

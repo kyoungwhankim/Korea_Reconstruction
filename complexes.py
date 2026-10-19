@@ -243,18 +243,87 @@ def complex_names(reb_names: list[str], hist_names: list[str], kapt_name: str | 
     return display, list(aliases.items())
 
 
-def build(today: str, projects: list[dict], lots: dict[str, dict], book=None) -> list[dict]:
+def _kapt_by_lot() -> dict[str, list[dict]]:
+    out: dict[str, list[dict]] = {}
+    for k in en._read_jsonl(KAPT_FILE):
+        if k.get("key"):
+            out.setdefault(k["key"], []).append(k)
+    return out
+
+
+def _kapt_for(idx: Index, kapt_by_lot: dict, lot: str, cid: str, r: dict | None) -> dict | None:
+    """같은 지번의 K-apt 등록 단지 중 이 단지에 맞는 것(지번에 단지가 하나뿐이면 그것, 여럿이면 이름·세대수로)."""
+    for k in kapt_by_lot.get(lot, []):
+        if (r is None and len(kapt_by_lot[lot]) == 1) or \
+                (r is not None and idx.match_name(lot, k["name"], households=k.get("households")) == cid):
+            return k
+    return None
+
+
+def _built_year(r: dict | None, kapt: dict | None, trade_years: list[int], regrow: dict) -> int | None:
+    """준공연도: 부동산원 사용승인일 > K-apt > 실거래 건축년도 > 건축물대장 (MIN_YEAR 이전 값은 오기로 보고 버린다)."""
+    for cand in ([r.get("use_apr")] if r else []) + ([kapt.get("use_apr")] if kapt else []):
+        if cand and int(cand[:4]) >= MIN_YEAR:
+            return int(cand[:4])
+    tyears = [y for y in trade_years if y and y >= MIN_YEAR]
+    ryears = [int(d[:4]) for d in (regrow.get("use_apr"), regrow.get("use_apr_title")) if d and int(d[:4]) >= MIN_YEAR]
+    return min(tyears) if tyears else (min(ryears) if ryears else None)
+
+
+def lookup(complex_ids) -> dict[str, dict]:
+    """manual_projects.csv의 complex_id(부동산원 COMPLEX_PK 또는 노후 단지 목록의 'lot:지번키') → 단지 정보.
+    이름·별칭(부동산원·K-apt·건축물대장·동번호 추정)·주소·지번·지역·세대수·동수·준공연도를 돌려준다. 못 찾은 단지는 뺀다."""
+    ids = {str(c).strip() for c in complex_ids if str(c).strip()}
+    if not ids or not identity.REB_FILE.exists():
+        return {}
+    idx = Index()
+    reg = {r["key"]: r for r in en._read_jsonl(REGISTRY_FILE)}
+    kapt_by_lot = _kapt_by_lot()
+    bjd_names = {c: n for c, n in en.bjd_table()}
+    out = {}
+    for cid in sorted(ids):
+        r = idx.by_pk.get(cid)
+        lot = r["lot"] if r else (cid[4:] if cid.startswith("lot:") else None)
+        if not lot or (r is not None and r["type"] != "아파트"):
+            continue
+        regrow = reg.get(lot, {})
+        if r is None and not regrow:
+            continue
+        kapt = _kapt_for(idx, kapt_by_lot, lot, cid, r)
+        bjd, plat, bun, ji = lot.split("-")
+        parts = bjd_names.get(bjd, "").split()
+        if len(parts) < 2:
+            continue
+        jibun = ("산 " if plat == "1" else "") + str(int(bun)) + (f"-{int(ji)}" if int(ji) else "")
+        hist = [h.get(k) for h in idx.extra.get(cid, {}).get("hist", []) for k in ("old", "new")]
+        name, aliases = complex_names((r or {}).get("names", []), [h for h in hist if h], (kapt or {}).get("name"),
+                                      [], regrow.get("name"), idx.dong_numbers(cid))
+        out[cid] = {
+            "complex_id": cid, "name": name, "aliases": [a for a, _ in aliases],
+            "region_sido": parts[0], "region_sigungu": " ".join(parts[1:-1]) if len(parts) > 2 else None,
+            "dong": parts[-1], "jibun": jibun, "lot": lot,
+            "address": (r or {}).get("address") or f"{parts[0]} {' '.join(parts[1:])} {jibun}",
+            "road_address": (r or {}).get("road_address") or (kapt or {}).get("road_address"),
+            "units": (r or {}).get("units") or (kapt or {}).get("households") or regrow.get("households"),
+            "buildings": (r or {}).get("dong_cnt") or (kapt or {}).get("buildings") or regrow.get("buildings"),
+            "built_year": _built_year(r, kapt, [], regrow), "dong_range": idx.dong_range(cid) if r else None,
+        }
+    return out
+
+
+def build(today: str, projects: list[dict], lots: dict[str, dict], book=None,
+          complex_pids: dict[str, str] | None = None) -> list[dict]:
     """노후 단지 목록. 단지 1개 = 부동산원 단지(아파트). 부동산원에 없는 지번은 지번 단위 항목으로 남긴다.
-    projects: 내보내는 사업장 레코드, lots: 사업장 대표 지번(enrich.project_lots), book: 거래 장부(tradebook.Book)."""
+    projects: 내보내는 사업장 레코드, lots: 사업장 대표 지번(enrich.project_lots), book: 거래 장부(tradebook.Book),
+    complex_pids: 수동 등록(manual_projects.csv)으로 생긴 사업장 {complex_id: project_id} — 지번이 같은 다른 단지에는 붙이지 않는다."""
     import tradebook
     cutoff = en.old_cutoff(today)
     idx = Index()
     book = book or tradebook.Book(today, lots, {}, {p["project_id"]: p for p in projects})
     reg = {r["key"]: r for r in en._read_jsonl(REGISTRY_FILE)}
-    kapt_by_lot: dict[str, list[dict]] = {}
-    for k in en._read_jsonl(KAPT_FILE):
-        if k.get("key"):
-            kapt_by_lot.setdefault(k["key"], []).append(k)
+    kapt_by_lot = _kapt_by_lot()
+    complex_pids = complex_pids or {}
+    manual_pids = set(complex_pids.values())
     trades_cx: dict[str, list[dict]] = {}
     trades_lot: dict[str, list[dict]] = {}   # 단지를 못 정한 거래(지번 공통) — 사업장·준공연도 판단용(최근 12개월)
     for t in en._read_jsonl(en.TRADES_FILE):
@@ -285,21 +354,9 @@ def build(today: str, projects: list[dict], lots: dict[str, dict], book=None) ->
         if r is None:
             ts += shared
         # K-apt: 같은 지번의 등록 단지 중 이름이 맞는 것
-        kapt = None
-        for k in kapt_by_lot.get(lot, []):
-            if (r is None and len(kapt_by_lot[lot]) == 1) or                     (r is not None and idx.match_name(lot, k["name"], households=k.get("households")) == cid):
-                kapt = k
-                break
+        kapt = _kapt_for(idx, kapt_by_lot, lot, cid, r)
         # 준공연도: 부동산원 사용승인일 > K-apt > 실거래 건축년도 > 건축물대장
-        year = None
-        for cand in ([r.get("use_apr")] if r else []) + ([kapt.get("use_apr")] if kapt else []):
-            if cand and int(cand[:4]) >= MIN_YEAR:
-                year = int(cand[:4])
-                break
-        if year is None:
-            tyears = [t["built"] for t in ts if t.get("built") and t["built"] >= MIN_YEAR]
-            ryears = [int(d[:4]) for d in (regrow.get("use_apr"), regrow.get("use_apr_title")) if d and int(d[:4]) >= MIN_YEAR]
-            year = min(tyears) if tyears else (min(ryears) if ryears else None)
+        year = _built_year(r, kapt, [t.get("built") for t in ts], regrow)
         if year is None or year > cutoff:
             continue
         units = (r or {}).get("units") or (kapt or {}).get("households") or (regrow.get("households") if len(siblings) <= 1 else None)
@@ -317,9 +374,16 @@ def build(today: str, projects: list[dict], lots: dict[str, dict], book=None) ->
         land = regrow.get("land_area_m2")
         land_share = round(land / sum(sib_units), 1) if land and siblings and all(sib_units) else \
             (round(land / units, 1) if land and units and not siblings else None)
-        pid = proj_lot.get(lot) or next((t["project_id"] for t in ts if t.get("project_id")), None)
+        # 사업장: 수동 등록 단지는 그 단지에만(같은 지번의 다른 단지에는 붙이지 않는다) → 대표 지번이 같은 사업장 → 거래의 사업장
+        pid = complex_pids.get(cid)
+        if not pid:
+            pid = proj_lot.get(lot) or next((t["project_id"] for t in ts if t.get("project_id")), None)
+            if pid in manual_pids:
+                pid = None
         if pid and pid not in proj:
             pid = None
+        if cid in complex_pids and pid and proj[pid].get("zone_name") not in dict(aliases):
+            aliases.append((proj[pid]["zone_name"], "사업장 이름"))   # 수동 등록 때 적은 이름('가야주공5단지1차')으로도 찾히게
         row = {
             "complex_id": cid, "name": name, "aliases": [a for a, _ in aliases],
             "name_variants": " | ".join(dict.fromkeys([name, *(a for a, k in aliases if k != "표기 변형")])),

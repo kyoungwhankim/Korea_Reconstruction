@@ -20,11 +20,18 @@
      '앞두고·신청·예정·총회' 같은 말이 있으면 confidence='예정'(아직 그 단계가 아님), 아니면 '확정'.
   3) 기사 단계가 현재 단계보다 앞설 때만 후보로 올린다. 현재 단계가 따라오면(출처 갱신 또는 manual_stage.csv) 후보는 자연히 빠진다.
 
+신규 사업장 후보 (kind='신규 사업장 후보')
+  사업장이 없는 노후 단지(docs/data/apartments.json에서 project_id가 없고 COMPLEX_MIN_UNITS세대 이상)도 하루 COMPLEX_DAILY곳씩
+  돌아가며 조회한다(약 1,300곳 → 일주일에 한 바퀴; 구글 창 14일 안). 단지 이름은 흔해서(현대·주공…) 제목에 동·시군구 이름이
+  함께 있어야 하고, 어떤 단계 표현이든(안전진단 통과·추진위 승인·동의서·정비구역 지정…) 보이면 후보가 된다.
+  상태 키는 'cx:<complex_id>'. 페이지의 '등록 행' 버튼이 manual_projects.csv 한 줄을 복사해 준다 → update_daily.py가 사업장을 만든다.
+
 상태·출력
   state/news.jsonl                 사업장별 마지막 조회일, 본 기사 해시(제목 기준), 후보 목록 — 매일 새 기사만 본다
   output/review_queue_latest.csv   검토 대기열(사람이 보는 표)
   docs/data/review.json            페이지의 '검토 대기' 보기
   manual_stage.csv                 확인된 후보를 사람이 적는 곳(project_id, stage, date, evidence_url, note) → update_daily.py가 반영
+  manual_projects.csv              신규 사업장 후보를 사람이 등록하는 곳(complex_id, name, stage, date, evidence_url, note)
   review_dismissed.csv             후보가 아니라고 판단한 기사(article_id) → 대기열에서 뺀다
 """
 from __future__ import annotations
@@ -64,6 +71,10 @@ SEOUL_SOURCE = "정보몽땅 고시·공고"
 SEOUL_GAP = 1.1              # 공개 페이지는 초당 1건 이하
 SEOUL_MAX_PAGES = 10         # 기간을 걸어 읽으므로(한 달 10여 건) 보통 1~2쪽이면 끝난다
 
+COMPLEX_MIN_UNITS = 300      # 신규 사업장 후보로 지켜볼 노후 단지의 최소 세대수(사업장이 없는 단지 약 1,300곳)
+COMPLEX_DAILY = 200          # 하루에 조회하는 사업장 없는 노후 단지 수(오래 안 본 순 → 약 일주일에 한 바퀴)
+COMPLEX_PREFIX = "cx:"       # 상태·대기열에서 단지 후보의 키: 'cx:<complex_id>'
+STAGE_KIND, NEW_KIND = "단계 변경", "신규 사업장 후보"
 WINDOW_DAYS = 60             # 이보다 오래된 기사는 보지 않는다
 GOOGLE_FIRST_DAYS, GOOGLE_NEXT_DAYS = 60, 14   # 구글 검색 기간(when:Nd): 처음 / 그 뒤
 EXPIRE_DAYS = 90             # 후보는 기사 날짜 기준 90일이 지나면 대기열에서 뺀다
@@ -88,7 +99,7 @@ STAGE_PATTERNS = [
                  r"도시계획위원회.{0,10}(통과|가결)|도계위.{0,10}(통과|가결)", False),
     ("정비구역지정", r"도시계획위원회|도계위|정비구역", True),
     ("추진위구성", r"추진위(원회)?(구성)?승인|추진위(원회)?(구성|설립|출범)", False),
-    ("추진위구성", r"추진위", True),
+    ("추진위구성", r"추진위|추진준비위|준비위원회|동의서", True),   # 동의서 징구 = 추진위·조합 설립 준비(아직 아님)
     ("조합설립인가", r"조합설립(인가|승인)|조합설립.{0,3}인가|조합(이)?설립(됐|되|완료)|사업시행자(로)?지정|신탁.{0,10}사업시행자", False),
     ("조합설립인가", r"조합설립|창립총회|조합원모집", True),
     ("건축심의", r"건축심의.{0,6}(통과|가결|승인|완료)|건축위원회.{0,8}(통과|가결)|통합심의.{0,8}(통과|가결)", False),
@@ -257,9 +268,29 @@ def profile(pid: str, rec: dict, shared: set[str]) -> dict:
             queries.append(q)
     region, region_full = region_tokens(rec)
     return {"pid": pid, "name": zone, "sido": rec.get("region_sido"), "sgg": rec.get("region_sigungu"),
-            "stage": rec.get("stage"), "order": cr.STAGE_ORDER.get(rec.get("stage"), -1),
+            "stage": rec.get("stage"), "order": cr.STAGE_ORDER.get(rec.get("stage"), -1), "kind": STAGE_KIND,
             "strong": strong, "medium": medium, "weak": weak, "region": region, "region_full": region_full,
             "queries": queries[:2] or [f"{zone} 재건축"], "google_query": (queries or [f"{zone} 재건축"])[0]}
+
+
+def complex_profile(key: str, apt: dict, shared: set[str]) -> dict:
+    """사업장이 없는 노후 단지(apartments.json 한 줄)의 프로필 — 신규 사업장 후보 감지용.
+    단지 이름은 사업장 이름보다 흔하고(현대·주공…) 다른 시·도에 같은 이름이 많아, 5자 이상의 고유한 이름만 이름만으로 믿고
+    나머지는 제목에 동·시군구 이름이 함께 있어야 한다. 질의도 항상 시군구 이름을 앞에 붙인다(1건)."""
+    names = list(dict.fromkeys(n for n in [apt.get("name"), *(apt.get("aliases") or [])] if n))
+    rec = {"zone_name": apt.get("name") or "?", "_aliases": [(n, "단지 이름") for n in names],
+           "address": " ".join(str(apt.get(k) or "") for k in ("region_sigungu", "dong", "jibun")),   # 지역 이름: 시군구·동
+           "region_sido": apt.get("region_sido"), "region_sigungu": apt.get("region_sigungu"), "stage": None}
+    p = profile(key, rec, shared)
+    strong = {k: a for k, a in p["strong"].items() if len(k) >= 5}
+    p["weak"] = {**{k: a for k, a in p["strong"].items() if k not in strong}, **p["medium"], **p["weak"]}
+    p["strong"], p["medium"] = strong, {}
+    sgg_short = re.sub(r"(특별시|광역시|시|군|구)$", "", apt.get("region_sigungu") or "")
+    core = cr._core(re.sub(r"\(.*?\)", "", rec["zone_name"]))
+    q = f"{sgg_short} {core} 재건축" if sgg_short and not core.startswith(sgg_short) else f"{core} 재건축"
+    p.update({"kind": NEW_KIND, "complex_id": apt.get("complex_id"), "units": apt.get("households"),
+              "dong": apt.get("dong"), "queries": [q], "google_query": q})
+    return p
 
 
 def contains(text_key: str, k: str) -> bool:
@@ -319,15 +350,34 @@ def load_projects() -> dict[str, dict]:
     return out
 
 
-def build_profiles(projects: dict[str, dict]) -> dict[str, dict]:
+def load_complexes() -> dict[str, dict]:
+    """사업장이 없는 노후 단지(docs/data/apartments.json — update_daily.py가 같은 실행에서 먼저 쓴다) 중
+    COMPLEX_MIN_UNITS세대 이상. 키 'cx:<complex_id>' → 단지 한 줄."""
+    path = cr.BASE / "docs" / "data" / "apartments.json"   # complexes.SITE_FILE (모듈을 불러오지 않고 경로만 쓴다)
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return {COMPLEX_PREFIX + a["complex_id"]: a for a in data.get("apartments", [])
+            if not a.get("project_id") and (a.get("households") or 0) >= COMPLEX_MIN_UNITS and a.get("name")}
+
+
+def build_profiles(projects: dict[str, dict], apartments: dict[str, dict] | None = None) -> dict[str, dict]:
+    """사업장 프로필 + (있으면) 사업장 없는 노후 단지 프로필. 여러 곳이 같이 쓰는 별칭·지역 이름은 이름만으로 못 가린다."""
+    apartments = apartments or {}
     owners: dict[str, set[str]] = {}
     places: set[str] = set()          # 동·시군구 이름('산본', '중동')은 단지 이름이어도 이름만으로는 못 가린다
     for pid, rec in projects.items():
         for alias, _ in rec.get("_aliases") or []:
             owners.setdefault(cr.zone_key(alias), set()).add(pid)
         places |= region_tokens(rec)[0]
+    for key, apt in apartments.items():
+        for alias in [apt.get("name"), *(apt.get("aliases") or [])]:
+            owners.setdefault(cr.zone_key(alias or ""), set()).add(key)
+        places |= region_tokens({"address": f"{apt.get('dong') or ''} 1", "region_sigungu": apt.get("region_sigungu")})[0]
     shared = {k for k, pids in owners.items() if len(pids) > 1}
-    return {pid: profile(pid, rec, shared | places) for pid, rec in projects.items()}
+    out = {pid: profile(pid, rec, shared | places) for pid, rec in projects.items()}
+    out.update({key: complex_profile(key, apt, shared | places) for key, apt in apartments.items()})
+    return out
 
 
 # ---------------------------------------------------------------- 출처
@@ -608,6 +658,7 @@ def check_project(prof: dict, st: dict, srcs: Sources, today: date, stats: dict,
 
 
 def check_seoul(profiles: dict[str, dict], state: dict[str, dict], today: date, stats: dict) -> list[dict]:
+    """정보몽땅 고시·공고를 서울 사업장(과 사업장 없는 서울 노후 단지 — 신규 사업장 후보)의 이름과 대조한다."""
     st = state.setdefault("_seoul", blank("_seoul"))
     since = date.fromisoformat(st["checked_at"]) - timedelta(days=3) if st.get("checked_at") else today - timedelta(days=WINDOW_DAYS)
     notices = seoul_notices(since, today)
@@ -640,22 +691,25 @@ def check_seoul(profiles: dict[str, dict], state: dict[str, dict], today: date, 
 
 
 # ---------------------------------------------------------------- 출력
-QUEUE_COLS = ["project_id", "region_sido", "region_sigungu", "zone_name", "current_stage", "article_stage", "confidence",
-              "published", "title", "link", "source", "matched_alias", "first_seen", "article_id"]
+QUEUE_COLS = ["kind", "project_id", "complex_id", "region_sido", "region_sigungu", "dong", "zone_name", "current_stage",
+              "article_stage", "confidence", "published", "title", "link", "source", "matched_alias", "first_seen", "article_id"]
 
 
 def queue_rows(state: dict[str, dict], profiles: dict[str, dict]) -> list[dict]:
+    """kind='단계 변경'(사업장, project_id) 또는 '신규 사업장 후보'(사업장 없는 노후 단지, complex_id)."""
     rows = []
-    for pid, st in state.items():
-        p = profiles.get(pid)
+    for key, st in state.items():
+        p = profiles.get(key)
         if not p:
             continue
+        new = p["kind"] == NEW_KIND
         for c in st.get("candidates") or []:
-            rows.append({"project_id": pid, "region_sido": p["sido"], "region_sigungu": p["sgg"], "zone_name": p["name"],
+            rows.append({"kind": p["kind"], "project_id": None if new else key, "complex_id": p.get("complex_id") if new else None,
+                         "region_sido": p["sido"], "region_sigungu": p["sgg"], "zone_name": p["name"], "dong": p.get("dong"),
                          "current_stage": p["stage"], "article_stage": c["stage"], "confidence": c["confidence"],
                          "published": c["published"], "title": c["title"], "link": c["link"], "source": c["source"],
                          "matched_alias": c["matched"], "first_seen": c["first_seen"], "article_id": c["id"]})
-    rows.sort(key=lambda r: (r["published"], r["project_id"], r["article_id"]), reverse=True)
+    rows.sort(key=lambda r: (r["published"], r["project_id"] or r["complex_id"] or "", r["article_id"]), reverse=True)
     return rows
 
 
@@ -665,10 +719,12 @@ def write_outputs(rows: list[dict], today: date) -> None:
         w = csv.DictWriter(f, fieldnames=QUEUE_COLS, lineterminator="\n")
         w.writeheader()
         w.writerows(rows)
-    items = [{"id": r["article_id"], "project_id": r["project_id"], "zone_name": r["zone_name"], "region_sido": r["region_sido"],
+    items = [{"id": r["article_id"], "kind": r["kind"], "project_id": r["project_id"], "complex_id": r["complex_id"],
+              "zone_name": r["zone_name"], "region_sido": r["region_sido"], "dong": r.get("dong"),
               "region_sigungu": r["region_sigungu"], "stage": r["current_stage"], "article_stage": r["article_stage"],
               "confidence": r["confidence"], "published": r["published"], "title": r["title"], "link": r["link"],
               "source": r["source"], "matched": r["matched_alias"], "first_seen": r["first_seen"]} for r in rows]
+    items = [{k: v for k, v in it.items() if v is not None} for it in items]
     data = {"generated_at": today.isoformat(), "count": len(items), "items": items}
     SITE_REVIEW.parent.mkdir(parents=True, exist_ok=True)
     SITE_REVIEW.write_text(json.dumps(data, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n",
@@ -677,17 +733,20 @@ def write_outputs(rows: list[dict], today: date) -> None:
 
 def write_summary(today: date, stats: dict, new: list[dict], rows: list[dict], srcs: Sources | None, profiles: dict) -> None:
     sure = sum(r["confidence"] == "확정" for r in rows)
+    newcx = sum(r["kind"] == NEW_KIND for r in rows)
     lines = [f"## 뉴스·고시 감시 {today.isoformat()}", "",
-             f"- 조회 사업장 {stats['checked']}곳 (네이버 {stats['naver_calls']}건 · 구글 {stats['google_calls']}건 호출, "
+             f"- 조회 사업장 {stats['checked']}곳 · 사업장 없는 노후 단지 {stats.get('checked_cx', 0)}곳 "
+             f"(네이버 {stats['naver_calls']}건 · 구글 {stats['google_calls']}건 호출, "
              f"새 기사 {stats['articles']}건 판정) · 정보몽땅 고시·공고 {stats.get('seoul_notices', 0)}건 확인",
-             f"- 새 후보 {len(new)}건 · 검토 대기열 {len(rows)}건 (확정 {sure} · 예정 {len(rows) - sure})"]
+             f"- 새 후보 {len(new)}건 · 검토 대기열 {len(rows)}건 (확정 {sure} · 예정 {len(rows) - sure} · 그중 신규 사업장 후보 {newcx})"]
     for n in (srcs.notes if srcs else []):
         lines.append(f"- ⚠️ {n}")
     if new:
-        lines += ["", "| 사업장 | 현재 → 기사 단계 | 기사 | 날짜 |", "|---|---|---|---|"]
+        lines += ["", "| 사업장·단지 | 현재 → 기사 단계 | 기사 | 날짜 |", "|---|---|---|---|"]
         for c in new[:40]:
             p = profiles.get(c["_pid"], {})
-            lines.append(f"| {p.get('name', c['_pid'])} ({p.get('sgg', '')}) | {p.get('stage')} → {c['stage']} ({c['confidence']}) "
+            tag = " (신규 사업장 후보)" if p.get("kind") == NEW_KIND else ""
+            lines.append(f"| {p.get('name', c['_pid'])} ({p.get('sgg', '')}){tag} | {p.get('stage') or '사업 미지정'} → {c['stage']} ({c['confidence']}) "
                          f"| [{c['title'][:60]}]({c['link']}) | {c['published']} |")
     text = "\n".join(lines)
     print(text)
@@ -700,8 +759,10 @@ def write_summary(today: date, stats: dict, new: list[dict], rows: list[dict], s
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--dry-run", action="store_true", help="저장하지 않고 결과만 출력")
-    ap.add_argument("--only", help="이름에 이 말이 든 사업장만(쉼표로 여러 개)")
+    ap.add_argument("--only", help="이름에 이 말이 든 사업장·단지만(쉼표로 여러 개)")
     ap.add_argument("--limit", type=int, help="최대 이만큼의 사업장만 조회(오래 안 본 순)")
+    ap.add_argument("--complex-limit", type=int, default=COMPLEX_DAILY, metavar="N",
+                    help=f"사업장 없는 노후 단지(신규 사업장 후보)는 이만큼만 조회(기본 {COMPLEX_DAILY}, 0이면 안 함)")
     ap.add_argument("--force", action="store_true", help="오늘 이미 조회한 사업장도 다시 조회")
     ap.add_argument("--no-naver", action="store_true")
     ap.add_argument("--no-google", action="store_true")
@@ -712,25 +773,33 @@ def main() -> None:
     today = date.fromisoformat(args.date)
 
     projects = load_projects()
-    profiles = build_profiles(projects)
+    profiles = build_profiles(projects, load_complexes())
     state = load_state()
     before = serialize(state)
     dismissed = load_dismissed()
-    stats = {"checked": 0, "naver_calls": 0, "google_calls": 0, "articles": 0, "errors": 0}
+    stats = {"checked": 0, "checked_cx": 0, "naver_calls": 0, "google_calls": 0, "articles": 0, "errors": 0}
     new: list[dict] = []
     srcs, todo = None, []
     if not args.rebuild:
         srcs = Sources(not args.no_naver, not args.no_google, not args.no_seoul)
-        todo = [p for p in profiles.values() if p["order"] < cr.STAGE_ORDER[LAST_STAGE]]
+        todo = [p for p in profiles.values() if p["kind"] == STAGE_KIND and p["order"] < cr.STAGE_ORDER[LAST_STAGE]]
+        todo_cx = [p for p in profiles.values() if p["kind"] == NEW_KIND]
         if args.only:
             words = [w.strip() for w in args.only.split(",") if w.strip()]
-            todo = [p for p in todo if any(w in p["name"] or w in " ".join(p["strong"].values()) for w in words)]
-        todo.sort(key=lambda p: ((state.get(p["pid"]) or {}).get("checked_at") or "", p["pid"]))  # 오래 안 본 곳부터
+            pick = lambda p: any(w in p["name"] or w in " ".join({**p["strong"], **p["weak"]}.values()) for w in words)  # noqa: E731
+            todo, todo_cx = [p for p in todo if pick(p)], [p for p in todo_cx if pick(p)]
+        for lst in (todo, todo_cx):
+            lst.sort(key=lambda p: ((state.get(p["pid"]) or {}).get("checked_at") or "", p["pid"]))  # 오래 안 본 곳부터
         if not args.force:
             todo = [p for p in todo if (state.get(p["pid"]) or {}).get("checked_at") != today.isoformat()]
+            todo_cx = [p for p in todo_cx if (state.get(p["pid"]) or {}).get("checked_at") != today.isoformat()]
         if args.limit:
             todo = todo[: args.limit]
-        print(f"[뉴스] 사업장 {len(todo)}곳 조회 (네이버 {'O' if srcs.naver else 'X'} · 구글 {'O' if srcs.google else 'X'})")
+        todo_cx = todo_cx[: max(args.complex_limit, 0)]
+        n_proj = len(todo)
+        todo += todo_cx   # 사업장을 먼저(한도·시간이 모자라면 단지 후보가 밀린다), 그 뒤 사업장 없는 노후 단지
+        print(f"[뉴스] 사업장 {n_proj}곳 · 사업장 없는 노후 단지 {len(todo_cx)}곳 조회 "
+              f"(네이버 {'O' if srcs.naver else 'X'} · 구글 {'O' if srcs.google else 'X'})")
         ahead: dict[str, object] = {}       # 다음 사업장의 구글 조회를 미리 걸어 둔다(구글 응답 대기가 전체 시간을 좌우한다)
 
         def prefetch(j: int) -> None:
@@ -748,18 +817,20 @@ def main() -> None:
             try:
                 for c in check_project(prof, st, srcs, today, stats, ahead.pop(prof["pid"], None)):
                     new.append({**c, "_pid": prof["pid"]})
-                    print(f"   + {prof['name']}: {prof['stage']} → {c['stage']}({c['confidence']}) · {c['title'][:70]} · {c['published']}")
+                    print(f"   + {prof['name']}{' [신규 후보]' if prof['kind'] == NEW_KIND else ''}: {prof['stage'] or '사업 미지정'} → "
+                          f"{c['stage']}({c['confidence']}) · {c['title'][:70]} · {c['published']}")
             except Exception as e:  # 한 사업장의 예외로 전체 실행을 잃지 않는다
                 stats["errors"] += 1
                 print(f"   ! {prof['name']}: {type(e).__name__}: {e}", file=sys.stderr)
-            stats["checked"] += 1
+            stats["checked_cx" if prof["kind"] == NEW_KIND else "checked"] += 1
             if i % 50 == 0:
                 print(f"   … {i}/{len(todo)} (네이버 {stats['naver_calls']}건 · 구글 {stats['google_calls']}건)")
         if srcs.seoul and (args.force or (state.get("_seoul") or {}).get("checked_at") != today.isoformat()) and not args.only:
             try:
                 for c in check_seoul(profiles, state, today, stats):
                     new.append(c)
-                    print(f"   + [고시] {profiles[c['_pid']]['name']}: {c['title'][:80]} → {c['stage']} · {c['published']}")
+                    p = profiles[c["_pid"]]
+                    print(f"   + [고시] {p['name']}{' [신규 후보]' if p['kind'] == NEW_KIND else ''}: {c['title'][:80]} → {c['stage']} · {c['published']}")
             except (requests.RequestException, RuntimeError) as e:
                 srcs.notes.append(f"{SEOUL_SOURCE}: {e}")
                 print(f"   ! {SEOUL_SOURCE}: {e}", file=sys.stderr)
@@ -777,7 +848,7 @@ def main() -> None:
         print(f"[저장] 대기열 {len(rows)}건 → {QUEUE_CSV.relative_to(cr.BASE)}, {SITE_REVIEW.relative_to(cr.BASE)}"
               + ("" if changed else " (상태 변경 0건)"))
     write_summary(today, stats, new, rows, srcs, profiles)
-    if srcs and todo and stats["checked"] == 0 and "seoul_notices" not in stats:
+    if srcs and todo and stats["checked"] + stats["checked_cx"] == 0 and "seoul_notices" not in stats:
         sys.exit(1)   # 뉴스 출처도 고시 목록도 하나도 못 읽었다(인증·차단) — Actions 로그에 알린다
 
 

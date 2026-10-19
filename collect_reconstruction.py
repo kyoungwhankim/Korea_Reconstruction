@@ -702,6 +702,64 @@ def load_yeonsu() -> pd.DataFrame:
     })
 
 
+# ---------------------------------------------------------------- 수동 등록 사업장 (manual_projects.csv)
+MANUAL_PROJECTS_FILE = BASE / "manual_projects.csv"
+MANUAL_PROJECTS_SOURCE = "manual_projects.csv"   # 출처 행의 source 열 값 = 파일 이름(이력의 출처 칸에도 그대로 보인다)
+
+
+def file_hash(path: Path) -> str:
+    """파일 내용 해시. 줄바꿈(CRLF/LF) 차이는 무시 — Windows와 GitHub Actions(Linux)에서 같은 값이 나오게."""
+    if not path.exists():
+        return ""
+    return hashlib.sha1(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+
+
+def load_manual_projects() -> pd.DataFrame:
+    """manual_projects.csv: 공공 출처에 아직 없는 초기 단계(안전진단·추진위 준비) 단지를 사람이 근거와 함께 등록한다.
+
+    열: complex_id(부동산원 COMPLEX_PK 또는 노후 단지 목록의 complex_id), name, stage, date, evidence_url, note.
+    단지 정보(이름·별칭·주소·지번·세대수·동수·준공연도)는 노후 단지 자료(complexes.lookup)에서 가져와
+    다른 출처와 같은 모양의 출처 행 하나로 만든다 → update_daily가 보통 출처처럼 연결·재계산한다.
+    잘못된 행(모르는 단지·단계, 근거 링크 없음)은 경고만 내고 건너뛴다 — 파일 한 줄 때문에 갱신이 멈추지 않게.
+    """
+    cols = ["source", "source_pk", "region_sido", "region_sigungu", "zone_name", "project_type", "address",
+            "stage_raw", "stage_date", "evidence_url", "note", "existing_units", "existing_buildings",
+            "existing_built_year", "complex_id", "complex_aliases", "source_updated_at"]
+    if not MANUAL_PROJECTS_FILE.exists():
+        return pd.DataFrame(columns=cols)
+    m = pd.read_csv(MANUAL_PROJECTS_FILE, dtype=str, encoding="utf-8-sig").fillna("")
+    m["complex_id"] = m["complex_id"].str.strip()
+    m = m[m["complex_id"] != ""]
+    import complexes  # 순환 import 회피(complexes가 이 모듈을 쓴다)
+    info = complexes.lookup(set(m["complex_id"]))
+    rows = []
+    for _, r in m.iterrows():
+        cid, cx = r["complex_id"], info.get(r["complex_id"])
+        stage, url = norm_stage(r.get("stage", "")), str(r.get("evidence_url", "")).strip()
+        if not cx:
+            print(f"   ! manual_projects.csv: 단지 {cid}를 노후 단지 자료(부동산원·건축물대장)에서 찾지 못함 — 무시", file=sys.stderr)
+            continue
+        if not stage:
+            print(f"   ! manual_projects.csv: {cid}의 단계 '{r.get('stage')}'를 모름 — 무시", file=sys.stderr)
+            continue
+        if not url.startswith("http"):
+            print(f"   ! manual_projects.csv: {cid}에 근거 링크(evidence_url)가 없음 — 무시", file=sys.stderr)
+            continue
+        d = parse_date(r.get("date", ""))
+        name = str(r.get("name", "")).strip() or cx["name"]
+        rows.append({
+            "source": MANUAL_PROJECTS_SOURCE, "source_pk": cid, "region_sido": cx["region_sido"],
+            "region_sigungu": cx["region_sigungu"], "zone_name": name, "project_type": "재건축(수동 등록)",
+            "address": cx["address"], "stage_raw": stage, "stage_date": d.isoformat() if d else None,
+            "evidence_url": url, "note": str(r.get("note", "")).strip() or None,
+            "existing_units": cx.get("units"), "existing_buildings": cx.get("buildings"),
+            "existing_built_year": cx.get("built_year"), "complex_id": cid,
+            "complex_aliases": [a for a in dict.fromkeys([cx["name"], *cx.get("aliases", [])]) if a != name],
+            "source_updated_at": None,
+        })
+    return pd.DataFrame(rows, columns=cols)
+
+
 # ---------------------------------------------------------------- 출처 목록(우선순위 순) + 변경 감지용 probe
 @dataclass
 class Source:
@@ -710,6 +768,7 @@ class Source:
     load: Callable[[], pd.DataFrame]
     probe: Callable[[], str | None] | None = None  # 파일을 받지 않고 '바뀌었는지'만 알려주는 값(파일ID·파일명 등)
     host: str = ""                              # 접속 실패 시 같은 호스트의 다른 출처는 이번 회차에 건너뛴다
+    local: bool = False                         # 저장소 안의 파일(수동 등록): 재시도·부분 응답 검사를 하지 않는다
 
 
 def _probe_datagokr(page_id: str) -> str | None:
@@ -742,6 +801,9 @@ SOURCES = [
     Source("michuhol", "미추홀구_정비사업추진현황", load_michuhol, lambda: _probe_datagokr("15150904"), host="www.data.go.kr"),
     Source("yeonsu", "연수구_도시정비사업현황", load_yeonsu, lambda: _probe_datagokr("15039862"), host="www.data.go.kr"),
     Source("molit", "국토부_전국도시정비사업통합데이터", load_molit, lambda: _probe_datagokr("15160169"), host="www.data.go.kr"),
+    # 수동 등록(근거 필수)은 맨 뒤 = 우선순위 최하: 공공 출처가 같은 사업장을 올리면 일자·세대수 등은 공공 값을 쓴다.
+    # probe = 파일 해시 → 파일이 바뀐 날에만 다시 읽는다.
+    Source("manual_projects", MANUAL_PROJECTS_SOURCE, load_manual_projects, lambda: file_hash(MANUAL_PROJECTS_FILE), local=True),
 ]
 PRIORITY = {s.name: i for i, s in enumerate(SOURCES)}  # 앞일수록 우선(일자·세대수 등은 앞 출처 값을 쓴다)
 
@@ -799,7 +861,8 @@ def row_hash(payload: dict) -> str:
 def rows_frame(items: list[tuple[str, dict]]) -> pd.DataFrame:
     """[(row_key, payload)] → 병합 계산용 DataFrame. 전체 구축과 증분 갱신이 똑같은 입력 형태를 쓰게 한다."""
     df = pd.DataFrame([{**p, "_row_key": k} for k, p in items])
-    for c in ["address", "stage_date", "stage_raw", "project_type", "source_updated_at", "zone_name"]:
+    for c in ["address", "stage_date", "stage_raw", "project_type", "source_updated_at", "zone_name",
+              "evidence_url", "complex_aliases"]:   # 뒤 둘은 수동 등록 행(manual_projects.csv)에만 있다
         if c not in df:
             df[c] = None
     df["stage_std"] = df["stage_raw"].map(norm_stage)
@@ -977,6 +1040,11 @@ def _txt(v) -> str:
     return "-" if v is None else str(v)
 
 
+def _source_label(source: str) -> str:
+    """stage_by_source에 쓰는 짧은 출처 이름: '서울시_정비사업…' → '서울시', 수동 등록 파일 → '수동등록'."""
+    return "수동등록" if source == MANUAL_PROJECTS_SOURCE else source.split("_")[0]
+
+
 def build_record(g: pd.DataFrame, manual: pd.DataFrame, manual_stage: dict | None = None) -> dict:
     """한 사업장에 연결된 출처 행들 → 사업장 1행. 같은 입력이면 항상 같은 결과.
     manual_stage: 이 사업장의 manual_stage.csv 행(load_manual_stage) — 출처보다 앞선 단계일 때만 반영된다."""
@@ -991,17 +1059,24 @@ def build_record(g: pd.DataFrame, manual: pd.DataFrame, manual_stage: dict | Non
         best = g_st.loc[g_st["stage_std"].map(STAGE_ORDER).idxmax()]
         rec["stage"] = best["stage_std"]
         rec["stage_order"] = STAGE_ORDER[best["stage_std"]]
-        rec["stage_source"] = best["source"]                       # 이 단계를 알려준 출처
-        rec["stage_evidence"] = best.get("homepage") if "정보몽땅" in best["source"] else None
+        if best["source"] == MANUAL_PROJECTS_SOURCE:                 # 수동 등록 단지: 사람이 적은 근거 링크가 단계의 근거
+            rec["stage_source"], rec["stage_evidence"] = MANUAL_STAGE_SOURCE, best.get("evidence_url")
+        else:
+            rec["stage_source"] = best["source"]                   # 이 단계를 알려준 출처
+            rec["stage_evidence"] = best.get("homepage") if "정보몽땅" in best["source"] else None
         # 최신 단계를 알려준 출처(서울플랜+ 등)의 단계 일자로 비어 있는 단계별 일자를 채운다
         col = STAGE_DATE_COL.get(best["stage_std"])
         if col and not rec.get(col) and pd.notna(best.get("stage_date")):
             rec[col] = best["stage_date"]
-    rec["stage_by_source"] = "; ".join(f"{s.split('_')[0]}={_txt(r)}" for s, r in zip(g["source"], g["stage_raw"]))
+    rec["stage_by_source"] = "; ".join(f"{_source_label(s)}={_txt(r)}" for s, r in zip(g["source"], g["stage_raw"]))
     apply_manual_stage(rec, manual_stage)
     rec["name_variants"] = " | ".join(dict.fromkeys(g["zone_name"]))
     rec["_aliases"] = build_aliases(list(dict.fromkeys(g["zone_name"])),
                                     list(dict.fromkeys(g["address"].dropna())), rec.get("region_sigungu"))
+    for al in g["complex_aliases"]:  # 수동 등록 단지의 이름들(부동산원·K-apt·건축물대장·동번호 추정) — 어느 이름으로든 찾히게
+        for a in (al if isinstance(al, list) else []):
+            if a not in dict(rec["_aliases"]):
+                rec["_aliases"].append((a, "단지 이름"))
     keys = set(g["zone_name"].map(zone_key))
     for alias in manual.loc[manual["_area"].eq(g["_area"].iloc[0]) & manual["name_key"].isin(keys), "alias"]:
         if alias not in dict(rec["_aliases"]):

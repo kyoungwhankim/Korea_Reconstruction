@@ -9,6 +9,7 @@ const STAGES = [
 ];
 const STAGE_CLASS = Object.fromEntries(STAGES);
 const NO_PROJECT = "사업 미지정";
+const NEW_KIND = "신규 사업장 후보";   // 검토 대기열의 종류: 사업장이 없는 노후 단지에서 단계 표현이 보인 기사 (news.py NEW_KIND)
 
 const DATE_FIELDS = [
   ["designated_at", "정비구역지정"], ["committee_at", "추진위구성"], ["union_approved_at", "조합설립인가"],
@@ -98,7 +99,7 @@ function normalize(s) {
 const $ = sel => document.querySelector(sel);
 const fmt = new Intl.NumberFormat("ko-KR", { maximumFractionDigits: 1 });
 const CACHE = {};
-const REVIEW = { items: [], byPid: {}, generated_at: "" };  // 검토 대기열(docs/data/review.json)
+const REVIEW = { items: [], byPid: {}, byCid: {}, generated_at: "" };  // 검토 대기열(docs/data/review.json): 사업장별 · 단지(후보)별
 let viewName = "projects";
 let V = VIEWS.projects;
 let DATA = [];
@@ -117,6 +118,7 @@ async function init() {
   $("#resetBtn").addEventListener("click", () => { f.reset(); fillSgg(); render(); });
   $("#downloadBtn").addEventListener("click", downloadCsv);
   $("#body").addEventListener("click", e => {
+    if (e.target.closest("button.copy")) return copyRow(e);   // 노후 단지 상세의 '등록 행' 등
     const tr = e.target.closest("tr.item");
     if (!tr || e.target.closest("a")) return;
     openId = openId === tr.dataset.id ? null : tr.dataset.id;
@@ -126,6 +128,7 @@ async function init() {
     b.addEventListener("click", () => switchView(b.dataset.view, true)));
   $("#rvQ").addEventListener("input", renderReview);
   $("#rvConf").addEventListener("input", renderReview);
+  $("#rvKind").addEventListener("input", renderReview);
   $("#rvBody").addEventListener("click", copyRow);
   await loadReview();
   const u = new URLSearchParams(location.search);
@@ -185,7 +188,9 @@ function buildControls() {
   f.sido.replaceChildren(new Option("전체", ""), ...sidos.map(v => new Option(v, v)));
   fillSgg();
 
-  $("#reviewOnly").hidden = viewName !== "projects" || !REVIEW.items.length;
+  const hasRv = viewName === "projects" ? Object.keys(REVIEW.byPid).length : viewName === "apartments" ? Object.keys(REVIEW.byCid).length : 0;
+  $("#reviewOnly").hidden = !hasRv;
+  $("#reviewOnly").lastChild.textContent = viewName === "apartments" ? " 신규 사업장 후보 있는 곳만" : " 검토 대기 있는 곳만";
   const counts = {};
   DATA.forEach(p => { counts[p.stage] = (counts[p.stage] || 0) + 1; });
   $("#stageChips").replaceChildren(...STAGES.filter(([s]) => counts[s]).map(([s]) => {
@@ -236,7 +241,7 @@ function criteria() {
   const c = {
     q: f.q.value.trim(), sido: f.sido.value, sgg: f.sgg.value, addr: f.addr.value.trim(),
     stages: [...f.querySelectorAll("input[name=stage]:checked")].map(i => i.value), ranges: [],
-    reviewOnly: viewName === "projects" && f.review_only.checked,
+    reviewOnly: f.review_only.checked && !$("#reviewOnly").hidden,
   };
   for (const [key] of V.ranges) {
     const lo = f[`min_${key}`].value, hi = f[`max_${key}`].value;
@@ -249,7 +254,7 @@ function matches(p, c) {
   if (c.sido && p.region_sido !== c.sido) return false;
   if (c.sgg && p.region_sigungu !== c.sgg) return false;
   if (c.stages.length && !c.stages.includes(p.stage)) return false;
-  if (c.reviewOnly && !REVIEW.byPid[p.project_id]) return false;
+  if (c.reviewOnly && !reviewItems(p).length) return false;
   if (c.addr && !V.address(p).replace(/\s/g, "").includes(c.addr.replace(/\s/g, ""))) return false;
   for (const [key, lo, hi] of c.ranges) {
     const v = p[key];
@@ -330,10 +335,17 @@ function place(p) {
     .filter(Boolean).join(" ");
 }
 
+// 이 행의 검토 대기 후보: 사업장 보기는 사업장별, 노후 단지 보기는 단지별(신규 사업장 후보)
+function reviewItems(p) {
+  return (viewName === "projects" ? REVIEW.byPid[p.project_id] : viewName === "apartments" ? REVIEW.byCid[p.complex_id] : null) || [];
+}
+
 function cell(p, k, isNum) {
   if (k === V.name) {
-    const n = viewName === "projects" ? (REVIEW.byPid[p.project_id] || []).length : 0;
-    const rv = n ? ` <span class="rv" title="뉴스·고시에서 더 앞선 단계가 보임 — 검토 대기">검토 ${n}</span>` : "";
+    const n = reviewItems(p).length;
+    const rv = !n ? "" : viewName === "projects"
+      ? ` <span class="rv" title="뉴스·고시에서 더 앞선 단계가 보임 — 검토 대기">검토 ${n}</span>`
+      : ` <span class="rv" title="뉴스·고시에서 이 단지의 재건축 단계 표현이 보임 — 신규 사업장 후보(사람 확인 전)">후보 ${n}</span>`;
     return `<td class="name">${esc(p[k] || "")}${rv}<small>${esc(place(p))}</small></td>`;
   }
   if (k === "stage_order") {
@@ -558,10 +570,10 @@ function projectDetail(p) {
       ["bld_name", "건축물대장 단지명"], ["land_area_m2", "대지면적(㎡)"], ["bld_households", "건축물대장 세대수"],
       ["land_share_m2", "평균 대지지분(㎡)"], ["bld_far", "기존 용적률(대장, %)"], ["bld_bcr", "기존 건폐율(대장, %)"],
       ["bld_approved", "사용승인일"], ["bld_buildings", "주거동 수"],
-      ["stage_by_source", "출처별 단계"], ["source_updated_at", "출처 기준일"],
+      ["stage_date", "현재 단계 일자"], ["stage_by_source", "출처별 단계"], ["source_updated_at", "출처 기준일"],
     ])}
     ${reviewBox(p)}
-    <p class="aliases">현재 단계 근거: ${esc(p.stage_source || "–")}${p.stage_evidence ? ` · <a href="${esc(p.stage_evidence)}" target="_blank" rel="noopener">${(p.stage_source || "").startsWith("수동") ? "근거 링크(뉴스·고시)" : "정보몽땅 사업장 페이지"}</a>` : ""}</p>
+    <p class="aliases">현재 단계 근거: ${esc(p.stage_source || "–")}${p.stage_evidence ? ` · <a href="${esc(p.stage_evidence)}" target="_blank" rel="noopener">${(p.stage_source || "").startsWith("수동") ? "근거 링크(뉴스·고시)" : "정보몽땅 사업장 페이지"}</a>` : ""}${(p.sources || "").includes("manual_projects.csv") ? " · 공공 출처에 아직 없는 사업장을 근거와 함께 수동 등록(manual_projects.csv)한 것입니다" : ""}</p>
     ${tradeSection(p)}
     <p class="aliases">다른 이름: ${esc((p.aliases || []).slice(0, 30).join(" · "))}</p>
     ${home}
@@ -572,12 +584,15 @@ function apartmentDetail(p) {
   const project = p.project_id
     ? `<p>재건축 사업: <a href="?view=projects&q=${encodeURIComponent(p.project_name || "")}">${esc(p.project_name || p.project_id)}</a>
        <span class="stage ${STAGE_CLASS[p.stage] || ""}">${esc(p.stage)}</span></p>`
-    : `<p class="aliases">공공데이터에서 확인된 재건축 사업이 없습니다(추진 준비 단계이거나 아직 사업이 없음).</p>`;
+    : `<p class="aliases">공공데이터에서 확인된 재건축 사업이 없습니다(추진 준비 단계이거나 아직 사업이 없음).
+       근거(기사·고시)가 있으면 <a href="https://github.com/kyoungwhankim/Korea_Reconstruction/edit/main/manual_projects.csv" target="_blank" rel="noopener">manual_projects.csv</a>에
+       <code>${esc(p.complex_id)},${esc(p.name)},단계,날짜,근거링크,메모</code> 한 줄을 적으면 다음 갱신 때 사업장으로 올라옵니다.</p>`;
   const lotNote = p.siblings > 1
     ? `<p class="aliases">같은 지번(${esc(p.jibun)})에 단지 ${p.siblings}개: ${esc(p.sibling_names || "")} — 대지면적·용적률은 지번 전체 값이고, 동 번호가 없는 거래 ${fmt.format(p.shared_trades || 0)}건은 단지를 가리지 못했습니다.</p>`
     : "";
   return wrapDetail(`
     ${project}
+    ${reviewBox(p)}
     ${lotNote}
     ${grid(p, [
       ["jibun", "지번"], ["dong_range", "동"], ["road_address", "도로명 주소"], ["built_year", "준공연도"], ["age", "경과 연수"],
@@ -650,8 +665,31 @@ async function loadReview() {
     REVIEW.generated_at = data.generated_at || "";
   } catch { REVIEW.items = []; }
   REVIEW.byPid = {};
-  for (const it of REVIEW.items) (REVIEW.byPid[it.project_id] ||= []).push(it);
+  REVIEW.byCid = {};
+  for (const it of REVIEW.items) {
+    it.kind ||= "단계 변경";
+    if (it.project_id) (REVIEW.byPid[it.project_id] ||= []).push(it);
+    if (it.complex_id) (REVIEW.byCid[it.complex_id] ||= []).push(it);
+  }
   $("#reviewCount").textContent = fmt.format(REVIEW.items.length);
+}
+
+// CSV 한 칸: 쉼표·따옴표·줄바꿈이 있으면 따옴표로 감싼다
+function csvField(v) {
+  const s = v == null ? "" : String(v);
+  return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
+}
+
+// 후보 1건의 복사 버튼: 사업장 후보는 manual_stage.csv 행, 신규 사업장 후보는 manual_projects.csv 행 + 기각 행
+function copyButtons(it) {
+  const btn = (label, row, title) => `<button type="button" class="copy" data-text="${esc(row)}" title="${esc(title)}">${label}</button>`;
+  if (it.kind === NEW_KIND) {
+    return btn("등록 행", [it.complex_id, it.zone_name, it.article_stage, it.published, it.link, ""].map(csvField).join(","),
+      "manual_projects.csv에 붙여 넣을 행 복사 — 다음 갱신 때 이 단지가 사업장으로 올라옵니다(단계·날짜·이름은 기사에 맞게 고쳐도 됨)")
+      + " " + btn("기각 행", [it.id, `cx:${it.complex_id}`, ""].map(csvField).join(","), "review_dismissed.csv에 붙여 넣을 행 복사");
+  }
+  return btn("반영 행", [it.project_id, it.article_stage, it.published, it.link, ""].map(csvField).join(","), "manual_stage.csv에 붙여 넣을 행 복사")
+    + " " + btn("기각 행", [it.id, it.project_id, ""].map(csvField).join(","), "review_dismissed.csv에 붙여 넣을 행 복사");
 }
 
 function confClass(c) {
@@ -661,9 +699,12 @@ function confClass(c) {
 function renderReview() {
   const q = $("#rvQ").value.trim().toLowerCase();
   const confs = [...document.querySelectorAll("#rvConf input:checked")].map(i => i.value);
-  const rows = REVIEW.items.filter(it => (!confs.length || confs.includes(it.confidence))
-    && (!q || `${it.zone_name} ${it.region_sigungu} ${it.title} ${it.article_stage}`.toLowerCase().includes(q)));
-  $("#rvCount").textContent = `${fmt.format(rows.length)}건 / 전체 ${fmt.format(REVIEW.items.length)}건 · 갱신 ${REVIEW.generated_at || "–"}`;
+  const kinds = [...document.querySelectorAll("#rvKind input:checked")].map(i => i.value);
+  const rows = REVIEW.items.filter(it => (!confs.length || confs.includes(it.confidence)) && (!kinds.length || kinds.includes(it.kind))
+    && (!q || `${it.zone_name} ${it.region_sigungu} ${it.dong || ""} ${it.title} ${it.article_stage} ${it.kind}`.toLowerCase().includes(q)));
+  const newN = REVIEW.items.filter(it => it.kind === NEW_KIND).length;
+  $("#rvCount").textContent = `${fmt.format(rows.length)}건 / 전체 ${fmt.format(REVIEW.items.length)}건`
+    + (newN ? ` (신규 사업장 후보 ${fmt.format(newN)}건)` : "") + ` · 갱신 ${REVIEW.generated_at || "–"}`;
   $("#rvBody").replaceChildren(...rows.map(it => {
     const tr = document.createElement("tr");
     tr.innerHTML = reviewRow(it);
@@ -673,15 +714,17 @@ function renderReview() {
 }
 
 function reviewRow(it) {
-  const manualRow = [it.project_id, it.article_stage, it.published, it.link, ""].join(",");   // manual_stage.csv 한 줄
-  const dismissRow = [it.id, it.project_id, ""].join(",");                                    // review_dismissed.csv 한 줄
-  return `<td class="name"><a href="?q=${encodeURIComponent(it.zone_name)}">${esc(it.zone_name)}</a><small>${esc(place(it))}</small></td>
-    <td><span class="stage ${STAGE_CLASS[it.stage] || ""}">${esc(it.stage || "–")}</span> → <span class="stage ${STAGE_CLASS[it.article_stage] || ""}">${esc(it.article_stage)}</span></td>
+  const isNew = it.kind === NEW_KIND;
+  const link = isNew ? `?view=apartments&q=${encodeURIComponent(it.zone_name)}` : `?q=${encodeURIComponent(it.zone_name)}`;
+  const tag = isNew ? ` <span class="kind-new" title="사업장이 없는 노후 단지 — 맞으면 '등록 행'으로 manual_projects.csv에 등록">신규 사업장 후보</span>` : "";
+  const where = [place(it), it.dong].filter(Boolean).join(" ");
+  const cur = isNew ? NO_PROJECT : (it.stage || "–");
+  return `<td class="name"><a href="${link}">${esc(it.zone_name)}</a>${tag}<small>${esc(where)}</small></td>
+    <td><span class="stage ${STAGE_CLASS[cur] || ""}">${esc(cur)}</span> → <span class="stage ${STAGE_CLASS[it.article_stage] || ""}">${esc(it.article_stage)}</span></td>
     <td><span class="${confClass(it.confidence)}">${esc(it.confidence)}</span></td>
     <td class="art"><a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.title)}</a><small>${esc(it.source)} · 일치한 이름: ${esc(it.matched || "")}</small></td>
     <td>${esc(it.published)}</td>
-    <td class="ops"><button type="button" class="copy" data-text="${esc(manualRow)}" title="manual_stage.csv에 붙여 넣을 행 복사">반영 행</button>
-      <button type="button" class="copy" data-text="${esc(dismissRow)}" title="review_dismissed.csv에 붙여 넣을 행 복사">기각 행</button></td>`;
+    <td class="ops">${copyButtons(it)}</td>`;
 }
 
 async function copyRow(e) {
@@ -697,10 +740,15 @@ async function copyRow(e) {
 }
 
 function reviewBox(p) {
-  const rv = REVIEW.byPid[p.project_id] || [];
+  const rv = reviewItems(p);
   if (!rv.length) return "";
-  return `<div class="rv-box"><b>검토 대기 ${rv.length}건</b> — 뉴스·고시 제목에 현재 단계보다 앞선 단계가 보였습니다(사람 확인 전, 자동 반영 안 함).
+  const isNew = viewName === "apartments";
+  const head = isNew
+    ? `<b>신규 사업장 후보 ${rv.length}건</b> — 뉴스·고시 제목에 이 단지 이름과 재건축 단계 표현이 함께 보였습니다(사람 확인 전, 자동 등록 안 함).
+       기사가 맞으면 <b>등록 행</b>을 복사해 <a href="https://github.com/kyoungwhankim/Korea_Reconstruction/edit/main/manual_projects.csv" target="_blank" rel="noopener">manual_projects.csv</a>에 붙여 넣으세요.`
+    : `<b>검토 대기 ${rv.length}건</b> — 뉴스·고시 제목에 현재 단계보다 앞선 단계가 보였습니다(사람 확인 전, 자동 반영 안 함).`;
+  return `<div class="rv-box">${head}
     <a href="?view=review">검토 대기열 보기</a><ul>${rv.map(it => `<li><span class="stage ${STAGE_CLASS[it.article_stage] || ""}">${esc(it.article_stage)}</span>
     <span class="${confClass(it.confidence)}">${esc(it.confidence)}</span> <a href="${esc(it.link)}" target="_blank" rel="noopener">${esc(it.title)}</a>
-    <small>${esc(it.published)} · ${esc(it.source)}</small></li>`).join("")}</ul></div>`;
+    <small>${esc(it.published)} · ${esc(it.source)}</small>${isNew ? ` <span class="ops">${copyButtons(it)}</span>` : ""}</li>`).join("")}</ul></div>`;
 }
