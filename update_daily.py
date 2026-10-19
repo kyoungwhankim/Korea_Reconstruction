@@ -37,6 +37,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sqlite3
 import sys
 import time
@@ -142,7 +143,7 @@ def save_meta(con: sqlite3.Connection) -> None:
 def failure_ages(con: sqlite3.Connection, failed: list[str], today: str) -> dict[str, int]:
     """실패한 출처마다 언제부터 실패 중인지(meta의 fail_since:<이름>)를 기록하고 오늘로 며칠째인지 돌려준다.
     성공한 출처의 기록은 지운다 → 실패가 시작되거나 끝날 때만 상태 파일이 바뀐다."""
-    names = [f.split(":", 1)[0].strip() for f in failed]
+    names = [fail_name(f) for f in failed]
     for (key,) in con.execute("SELECT key FROM meta WHERE key LIKE 'fail_since:%'").fetchall():
         if key[len("fail_since:"):] not in names:
             con.execute("DELETE FROM meta WHERE key=?", (key,))
@@ -157,6 +158,13 @@ def failure_ages(con: sqlite3.Connection, failed: list[str], today: str) -> dict
 
 
 file_hash = cr.file_hash   # 줄바꿈(CRLF/LF) 차이를 무시하는 파일 해시
+
+
+def fail_name(f: str) -> str:
+    """실패 메시지 '출처: 이유' → 상태 키로 쓸 이름. '매매 이력 24건 실패 (예: …)'처럼 괄호 안 콜론에서 잘린 꼬리를 떼고
+    건수는 N으로 바꿔, 날마다 숫자가 달라도 같은 실패로 센다."""
+    name = re.sub(r"\s*\(예$", "", f.split(":", 1)[0].strip())
+    return re.sub(r"\d+", "N", name)
 
 
 def manual_hash() -> str:
@@ -239,6 +247,9 @@ def link_row(con, source: str, payload: dict, manual: pd.DataFrame, today: str) 
     tag = f"{source}/{payload.get('project_type') or ''}"
     mine = cr.name_keys([payload["zone_name"]]) | _complex_keys(payload)
     my_lot = _lot_of(payload)
+    # 수동·자동 등록 행은 단지 이름이 흔할 수 있다('대림아파트'): 지번이 다르면 또렷한 이름(4자 이상, 유사도 0.9 이상)일 때만 기존 사업장에 붙인다
+    registered = source in cr.PROJECT_FILE_SOURCES
+    plain_name = len(cr.zone_key(payload["zone_name"])) >= 4
     scored = []
     for (pid,) in con.execute("SELECT project_id FROM projects WHERE area=? ORDER BY project_id", (area,)):
         rows = active_rows(con, pid)
@@ -257,7 +268,8 @@ def link_row(con, source: str, payload: dict, manual: pd.DataFrame, today: str) 
     if scored and scored[0][0] >= LINK_THRESHOLD:
         best, runner = scored[0], (scored[1] if len(scored) > 1 else None)
         clear = runner is None or runner[0] < best[0] - 0.03
-        if clear or (best[1] and not runner[1]):  # 이름 점수가 비슷하면 대표지번이 같은 쪽
+        trusted = not registered or best[1] or (best[0] >= 0.9 and plain_name)
+        if (clear or (best[1] and not runner[1])) and trusted:  # 이름 점수가 비슷하면 대표지번이 같은 쪽
             how = f"유사도 {best[0]:.2f}" + (" · 지번 일치" if best[1] else "")
             return best[2], f"기존 사업장에 연결({how})"
     lot_hits = [s for s in scored if s[1]]
@@ -574,7 +586,7 @@ def main() -> None:
     write_summary(log, failed, args.date, ages)
     stale = [n for n, d in ages.items() if d > GRACE_DAYS]
     for f in failed:
-        n = f.split(":", 1)[0].strip()
+        n = fail_name(f)
         print(f"[{'계속 실패' if n in stale else '일시 실패'}] {n} — {ages[n]}일째, 이전 데이터 유지", file=sys.stderr)
     if stale:  # 성공한 출처의 변경은 저장했다. 며칠째 계속 실패하는 출처가 있을 때만 종료 코드로 알린다(Actions에서 빨간불)
         sys.exit(1)
@@ -619,7 +631,7 @@ def write_summary(log: list[tuple], failed: list[str], today: str, ages: dict[st
     lines = [f"## 재건축 데이터 갱신 {today}", "", f"- 변경 {len(log)}건"]
     lines += [f"  - {k}: {v}건" for k, v in kinds.items()]
     for f in failed:
-        d = ages.get(f.split(":", 1)[0].strip(), 1)
+        d = ages.get(fail_name(f), 1)
         lines.append((f"- ❌ 계속 실패({d}일째, 확인 필요): " if d > GRACE_DAYS else f"- ⚠️ 일시 실패({d}일째, 이전 데이터 유지): ") + f)
     stages = [r for r in log if r[3] == "stage"]
     if stages:

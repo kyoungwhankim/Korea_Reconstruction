@@ -313,7 +313,8 @@ def complex_profile(key: str, apt: dict, shared: set[str]) -> dict:
             if re.search(r"\d", k) or not any(n.startswith(k) and n[len(k)].isdigit() for n in numbered)}
     p["strong"] = {k: a for k, a in keys.items() if k in p["strong"] and len(k) >= 5}
     p["medium"], p["weak"] = {}, {k: a for k, a in keys.items() if k not in p["strong"]}
-    if keys and all(generic_key(k) for k in keys):
+    # 보여주는 이름이 흔한 이름이면('대림아파트') 다른 별칭이 있어도 동 이름이 제목에 있어야 한다 — '동작구 대림삼거리역 …'이 대방동 대림에 붙지 않게
+    if keys and (generic_key(cr.zone_key(apt.get("name") or "")) or all(generic_key(k) for k in keys)):
         dong = apt.get("dong") or ""
         stem = re.sub(r"\d*(동|가)$", "", dong)
         p["region"], p["region_full"] = ({stem} if len(stem) >= 2 else set()), ({dong} if dong else set())
@@ -325,13 +326,19 @@ def complex_profile(key: str, apt: dict, shared: set[str]) -> dict:
     return p
 
 
-def contains(text_key: str, k: str) -> bool:
-    """정규화한 제목에 별칭 키가 있는가. 숫자 경계는 지킨다(신반포2 ⊄ 신반포22, 창전1 ⊄ 창전12)."""
+PLACE_AFTER = re.compile(r"^(역|동|삼거리|사거리|로|길|시장|공원|대교|터널|천|산|초등|중학|고등)")   # '대림삼거리역'·'대림동'·'잠실대교'는 단지가 아니다
+
+
+def contains(text_key: str, k: str, strict: bool = False) -> bool:
+    """정규화한 제목에 별칭 키가 있는가. 숫자 경계는 지킨다(신반포2 ⊄ 신반포22, 창전1 ⊄ 창전12).
+    strict: 흔한 이름(약한 키)은 바로 뒤에 역·동·삼거리 같은 지명 꼬리가 붙은 자리는 세지 않는다."""
     i = text_key.find(k)
     while i >= 0:
-        after = text_key[i + len(k): i + len(k) + 1]
+        rest = text_key[i + len(k):]
+        after = rest[:1]
         before = text_key[i - 1: i] if i else ""
-        if not (k[-1].isdigit() and after.isdigit()) and not (k[0].isdigit() and before.isdigit()):
+        if not (k[-1].isdigit() and after.isdigit()) and not (k[0].isdigit() and before.isdigit()) \
+                and not (strict and PLACE_AFTER.match(rest)):
             return True
         i = text_key.find(k, i + 1)
     return False
@@ -345,11 +352,11 @@ def match_name(prof: dict, title: str, desc: str = "") -> str | None:
             return alias
     if CONTEXT.search(title):
         for k, alias in prof["medium"].items():
-            if contains(tk, k):
+            if contains(tk, k, strict=True):
                 return alias
     if any(tok in title for tok in prof["region"]) or any(tok in desc for tok in prof["region_full"]):
         for k, alias in {**prof["medium"], **prof["weak"]}.items():
-            if contains(tk, k):
+            if contains(tk, k, strict=True):
                 return alias
     return None
 
