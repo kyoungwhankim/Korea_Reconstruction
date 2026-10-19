@@ -326,22 +326,28 @@ def complex_profile(key: str, apt: dict, shared: set[str]) -> dict:
     return p
 
 
-PLACE_AFTER = re.compile(r"^(역|동|삼거리|사거리|로|길|시장|공원|대교|터널|천|산|초등|중학|고등)")   # '대림삼거리역'·'대림동'·'잠실대교'는 단지가 아니다
+PLACE_AFTER = re.compile(r"^(역|동|구|시|군|삼거리|사거리|로|길|시장|공원|대교|터널|천|산|초등|중학|고등|"          # '대림삼거리역'·'남동구'는 지명
+                         r"자산|신탁|건설|산업|개발|물산|엔지니어링|그룹|증권|은행|보험|카드|생명|홀딩스)")   # '하나자산신탁'·'현대건설'은 회사
 
 
-def contains(text_key: str, k: str, strict: bool = False) -> bool:
-    """정규화한 제목에 별칭 키가 있는가. 숫자 경계는 지킨다(신반포2 ⊄ 신반포22, 창전1 ⊄ 창전12).
-    strict: 흔한 이름(약한 키)은 바로 뒤에 역·동·삼거리 같은 지명 꼬리가 붙은 자리는 세지 않는다."""
+def contains(text_key: str, k: str) -> bool:
+    """정규화한 제목에 별칭 키가 있는가. 숫자 경계는 지킨다(신반포2 ⊄ 신반포22, 창전1 ⊄ 창전12)."""
     i = text_key.find(k)
     while i >= 0:
-        rest = text_key[i + len(k):]
-        after = rest[:1]
+        after = text_key[i + len(k): i + len(k) + 1]
         before = text_key[i - 1: i] if i else ""
-        if not (k[-1].isdigit() and after.isdigit()) and not (k[0].isdigit() and before.isdigit()) \
-                and not (strict and PLACE_AFTER.match(rest)):
+        if not (k[-1].isdigit() and after.isdigit()) and not (k[0].isdigit() and before.isdigit()):
             return True
         i = text_key.find(k, i + 1)
     return False
+
+
+def place_like(title: str, k: str) -> bool:
+    """흔한 이름(약한 키)이 원래 제목에서 지명·회사 이름의 일부로만 쓰였는가: '대림삼거리역', '남동구', '하나자산신탁'.
+    공백만 뺀 제목에서 키가 나온 자리마다 바로 뒤를 보고, 모두 그런 꼬리면 참(한 번이라도 '대림아파트'처럼 쓰였으면 거짓)."""
+    raw = re.sub(r"\s+", "", title)
+    ends = [m.end() for m in re.finditer(re.escape(k), raw)]
+    return bool(ends) and all(PLACE_AFTER.match(raw[e:]) for e in ends)
 
 
 def match_name(prof: dict, title: str, desc: str = "") -> str | None:
@@ -352,11 +358,11 @@ def match_name(prof: dict, title: str, desc: str = "") -> str | None:
             return alias
     if CONTEXT.search(title):
         for k, alias in prof["medium"].items():
-            if contains(tk, k, strict=True):
+            if contains(tk, k) and not place_like(title, k):
                 return alias
     if any(tok in title for tok in prof["region"]) or any(tok in desc for tok in prof["region_full"]):
         for k, alias in {**prof["medium"], **prof["weak"]}.items():
-            if contains(tk, k, strict=True):
+            if contains(tk, k) and not place_like(title, k):
                 return alias
     return None
 
