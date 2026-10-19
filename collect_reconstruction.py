@@ -819,7 +819,11 @@ DETAIL_COLS = [  # 단지·사업 지표 (planned = 정비계획상 신축 계�
 ENRICH_COLS = [  # 오픈API 보강(enrich.py): 건축물대장·실거래가 — 상태 레코드와 따로 저장, 내보낼 때만 붙인다
     "bld_name", "land_area_m2", "bld_households", "land_share_m2", "bld_far", "bld_bcr", "bld_approved",
     "bld_buildings", "trade_basis", "trade_count_12m", "trade_latest_date", "trade_latest_price",
-    "trade_latest_area", "trade_median_ppp", "trades_by_area_text"]
+    "trade_latest_area", "trade_median_ppp", "trades_by_area_text",
+    "trade_count_all", "trade_since",                                    # 매매 이력(2006년~) 건수·첫 해
+    "rent_count_12m", "jeonse_median", "jeonse_area", "jeonse_ratio",     # 전월세 12개월: 대표 면적대 전세 중위·전세가율(%)
+    "silv_count", "silv_entry_count", "silv_latest_date", "silv_latest_price", "silv_latest_area",  # 분양권·입주권 36개월
+    "trades"]                                                             # 단지별 거래 파일(docs/data/trades/) 있음
 DATE_COLS = ["designated_at", "committee_at", "union_approved_at", "arch_review_at", "plan_approved_at",
              "mgmt_approved_at", "relocation_started_at", "started_at", "completed_at"]
 OUT_COLS = ["project_id", "region_sido", "region_sigungu", "zone_name", "aliases", "name_variants", "project_type",
@@ -976,12 +980,14 @@ def records_frame(recs: list[dict]) -> tuple[pd.DataFrame, pd.DataFrame]:
     excluded = res[~res["_apartment"].astype(bool)].reindex(
         columns=["project_id", "region_sido", "region_sigungu", "zone_name", "name_variants", "project_type",
                  "stage", "sources"])
-    res = res[res["_apartment"].astype(bool)].reindex(columns=OUT_COLS + ["_aliases", "trades_by_area"])
+    res = res[res["_apartment"].astype(bool)].reindex(columns=OUT_COLS + ["_aliases", "trades_by_area", "rents_by_area"])
     for c in ["stage_order", "existing_units", "planned_units", "units_sale", "units_rent", "floors_planned",
               "buildings_planned", "existing_built_year", "existing_buildings", "owners_count", "members_count",
               "bld_households", "bld_buildings", "trade_count_12m", "trade_latest_price", "trade_latest_area",
-              "trade_median_ppp"]:
+              "trade_median_ppp", "trade_count_all", "trade_since", "rent_count_12m", "jeonse_median", "jeonse_area",
+              "silv_count", "silv_entry_count", "silv_latest_price", "silv_latest_area"]:
         res[c] = pd.to_numeric(res[c], errors="coerce").astype("Int64")
+    res["trades"] = res["trades"].map(lambda v: True if v is True else None).astype(object)
     res = res.sort_values(["region_sido", "region_sigungu", "stage_order", "zone_name", "project_id"],
                           ascending=[False, True, False, True, True])
     return res, excluded
@@ -990,7 +996,8 @@ def records_frame(recs: list[dict]) -> tuple[pd.DataFrame, pd.DataFrame]:
 def write_outputs(res: pd.DataFrame, excluded: pd.DataFrame, tag: str) -> None:
     OUT.mkdir(exist_ok=True)
     path = OUT / f"capital_area_apartment_reconstruction_{tag}.csv"
-    res.drop(columns=["_aliases", "trades_by_area"]).to_csv(path, index=False, encoding="utf-8-sig", lineterminator="\n")
+    res.drop(columns=["_aliases", "trades_by_area", "rents_by_area", "trades"]).to_csv(
+        path, index=False, encoding="utf-8-sig", lineterminator="\n")
     at = alias_table(res)
     at.to_csv(OUT / f"reconstruction_aliases_{tag}.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
     excluded.to_csv(OUT / f"excluded_single_house_{tag}.csv", index=False, encoding="utf-8-sig", lineterminator="\n")
@@ -1002,7 +1009,7 @@ def write_outputs(res: pd.DataFrame, excluded: pd.DataFrame, tag: str) -> None:
 SITE_DATA = BASE / "docs" / "data" / "projects.json"
 SITE_FIELDS = ["project_id", "region_sido", "region_sigungu", "zone_name", "name_variants", "project_type", "stage",
                "stage_order", "stage_date", *DATE_COLS, "existing_units", "planned_units", *DETAIL_COLS,
-               *[c for c in ENRICH_COLS if c != "trades_by_area_text"], "trades_by_area",
+               *[c for c in ENRICH_COLS if c != "trades_by_area_text"],   # 면적대별 표는 docs/data/trades/<id>.json 에만
                "operator_type", "address", "homepage", "stage_source", "stage_evidence", "stage_by_source",
                "sources", "source_updated_at", "search_keys"]
 
@@ -1016,7 +1023,7 @@ def write_site_data(res: pd.DataFrame) -> None:
         # 세대당 구역면적: 대지지분의 참고치(구역에 도로·공원이 포함될 수 있어 실제 대지지분보다 클 수 있음)
         if row.get("site_area_m2") and row.get("existing_units"):
             row["site_area_per_unit_m2"] = round(row["site_area_m2"] / row["existing_units"], 1)
-        rows.append({k: v for k, v in row.items() if v not in (None, "", [])})
+        rows.append({k: v for k, v in row.items() if v not in (None, "", [], False)})
     data = {"generated_at": date.today().isoformat(), "count": len(rows), "projects": rows,
             "sources": [{"key": s.key, "name": s.name} for s in SOURCES]}
     SITE_DATA.parent.mkdir(parents=True, exist_ok=True)

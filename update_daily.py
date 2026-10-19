@@ -41,9 +41,12 @@ import requests
 import collect_reconstruction as cr
 import complexes
 import enrich
+import tradebook
 
 STATE = cr.BASE / "state"
 CHANGES = cr.OUT / "changes"
+RUN_START = time.monotonic()
+HISTORY_TIME_LIMIT = 32 * 60   # 매매 이력 수집은 실행 시작 32분까지만(워크플로 timeout 50분 — 내보내기·커밋 시간을 남긴다)
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS sources(
     name TEXT PRIMARY KEY, fingerprint TEXT, content_hash TEXT, checked_at TEXT, changed_at TEXT);
@@ -410,12 +413,18 @@ def apply_manual(con, manual: pd.DataFrame, today: str, log: list) -> set[str]:
 # ---------------------------------------------------------------- 내보내기
 def export(con: sqlite3.Connection, log: list, today: str) -> None:
     recs = [json.loads(r) for (r,) in con.execute("SELECT record FROM projects WHERE record != '{}'")]
-    recs = with_enrichment(recs)
+    lots, names = enrich.project_lots(con), enrich.project_names(con)
+    book = tradebook.Book(today, lots, names, {r["project_id"]: r for r in recs})  # 매매 창+이력·전월세·분양권을 단지·사업장별로
+    if book.history_rows:
+        print(f"[거래] 매매 이력 {book.history_rows:,}건 읽음")
+    recs = with_enrichment(recs, book)
     recs = [r for r in recs if active_rows(con, r["project_id"]) or r.get("status") == "출처에서 사라짐"]
     res, excluded = cr.records_frame(recs)
     cr.write_outputs(res, excluded, "latest")
     if complexes.REGISTRY_FILE.exists() or enrich.TRADES_FILE.exists():  # 30년 이상 노후 단지 목록
-        complexes.write(complexes.build(today, recs, enrich.project_lots(con)), today)
+        rows = complexes.build(today, recs, lots, book)
+        complexes.write(rows, today)
+        book.write_files(rows, [r for r in recs if r.get("_apartment")])
     if log:
         CHANGES.mkdir(parents=True, exist_ok=True)
         path = CHANGES / f"changes_{today.replace('-', '')}.csv"
@@ -435,6 +444,9 @@ def main() -> None:
     ap.add_argument("--migrate", action="store_true",
                     help="수집 열을 늘린 뒤 1회 실행: 모든 출처를 다시 받아 반영하되, 새 열 때문에 생긴 변경은 이력에서 뺀다")
     ap.add_argument("--skip-enrich", action="store_true", help="건축물대장·실거래가 보강을 건너뜀")
+    ap.add_argument("--history-budget", type=int, default=None, metavar="N",
+                    help=f"이번 실행에서 매매 이력(2006년~)을 받을 최대 요청 수 (기본: 하루 {enrich.HISTORY_DAILY_CAP}건 안에서 "
+                         f"실행 {HISTORY_TIME_LIMIT // 60}분까지; 0이면 받지 않음)")
     ap.add_argument("--accept-shrink", action="store_true",
                     help="출처의 행이 30%% 넘게 사라져도 반영(기본은 부분 응답으로 보고 실패 처리)")
     ap.add_argument("--date", default=date.today().isoformat(), help="기록용 날짜(테스트용)")
@@ -465,8 +477,12 @@ def main() -> None:
     elif enrich.api_key():
         try:
             enriched = enrich.update(con, args.date, log, failed)
-            project_lots = {enrich.lot_key(l) for l in enrich.project_lots(con).values()}
-            enriched = complexes.update(args.date, failed, project_lots) or enriched
+            lots = enrich.project_lots(con)
+            enriched = complexes.update(args.date, failed, {enrich.lot_key(l) for l in lots.values()}) or enriched
+            # 매매 이력(2006년~)은 맨 마지막에: 다른 일 예산을 다 쓴 뒤 남은 실행 시간만 쓴다
+            enriched = enrich.update_history(lots, enrich.project_names(con), args.date, failed,
+                                             budget=args.history_budget,
+                                             deadline=RUN_START + HISTORY_TIME_LIMIT) or enriched
         except Exception as e:  # 보강이 실패해도 사업장 데이터 갱신은 그대로 반영한다
             failed.append(f"보강(건축물대장·실거래가): {e}")
     else:
@@ -487,10 +503,10 @@ def main() -> None:
         sys.exit(1)
 
 
-def with_enrichment(recs: list[dict]) -> list[dict]:
+def with_enrichment(recs: list[dict], book=None) -> list[dict]:
     """건축물대장·실거래가(enrich.py가 state/에 저장)를 사업장 레코드에 붙인다.
     출처에 없는 기존 단지 값(세대수·용적률·준공연도)은 건축물대장 값으로 채운다."""
-    extra = enrich.fields({r["project_id"]: r for r in recs})
+    extra = enrich.fields({r["project_id"]: r for r in recs}, book)
     out = []
     for r in recs:
         e = extra.get(r["project_id"], {})

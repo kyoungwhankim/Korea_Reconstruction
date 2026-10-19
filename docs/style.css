@@ -116,6 +116,23 @@ table.mini td, table.mini th { padding: 4px 10px; white-space: nowrap; }
 .mini-wrap { overflow-x: auto; max-width: 100%; }
 small { color: var(--muted); }
 
+/* 거래 상세: 종류·면적·기간 선택, SVG 가격 추이, 건별 표 */
+.trades { display: block; margin-top: 4px; }
+.trade-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 6px 0 8px; }
+.tabs.small { margin: 0; }
+.tabs.small button { padding: 3px 10px; font-size: 13px; }
+.tabs.small button small { color: inherit; opacity: .75; }
+.trade-controls select { font-size: 13px; padding: 4px 8px; max-width: 100%; }
+.chart { margin: 4px 0 10px; }
+.chart svg { display: block; width: 100%; max-width: 760px; height: auto; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; }
+.chart .grid { stroke: var(--line); stroke-width: 1; }
+.chart .lbl { fill: var(--muted); font-size: 11px; }
+.chart .dot { fill: var(--accent); fill-opacity: .45; }
+.chart .dot:hover { fill-opacity: 1; }
+.chart .med { fill: none; stroke: var(--stage-early); stroke-width: 2; stroke-linejoin: round; }
+.chart .med-dot { fill: var(--stage-early); }
+.chart figcaption { color: var(--muted); font-size: 12px; margin-top: 4px; }
+
 .empty { color: var(--muted); text-align: center; padding: 24px; }
 .notes { color: var(--muted); font-size: 13px; margin: 28px 0 40px; }
 .notes h2 { font-size: 15px; color: var(--fg); }

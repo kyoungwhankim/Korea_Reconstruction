@@ -19,7 +19,13 @@ const TRADE_RANGES = [
   ["trade_latest_price", "최근 거래가", "만원"],
   ["trade_median_ppp", "평당가(전용, 1년 중위)", "만원"],
   ["trade_count_12m", "1년 거래 건수", "건"],
+  ["trade_count_all", "매매 이력 건수(2006년~)", "건"],
+  ["jeonse_median", "전세 중위(대표 면적, 1년)", "만원"],
+  ["jeonse_ratio", "전세가율(전세 중위 ÷ 매매 중위)", "%"],
+  ["rent_count_12m", "1년 전월세 건수", "건"],
 ];
+const TRADE_CSV = ["trade_count_12m", "trade_latest_date", "trade_latest_price", "trade_median_ppp", "trade_count_all",
+  "trade_since", "rent_count_12m", "jeonse_area", "jeonse_median", "jeonse_ratio"];
 
 // 두 가지 보기: [필드, 제목, 숫자 여부] 열 / [필드, 라벨, 단위] 숫자 조건
 const VIEWS = {
@@ -33,7 +39,7 @@ const VIEWS = {
       ["far_existing", "기존 용적률", true], ["far_planned", "계획 용적률", true],
       ["land_share_m2", "대지지분(㎡)", true], ["site_area_per_unit_m2", "세대당 구역면적(㎡)", true],
       ["trade_latest_price", "최근 거래가", true], ["trade_median_ppp", "평당가(전용)", true],
-      ["existing_built_year", "준공연도", true],
+      ["jeonse_ratio", "전세가율", true], ["existing_built_year", "준공연도", true],
     ],
     ranges: [
       ["far_existing", "기존 용적률", "%"], ["far_planned", "계획 용적률", "%"], ["bcr_planned", "계획 건폐율", "%"],
@@ -46,8 +52,8 @@ const VIEWS = {
     detail: projectDetail,
     csv: ["project_id", "region_sido", "region_sigungu", "zone_name", "stage", ...DATE_FIELDS.map(([k]) => k),
       "existing_units", "planned_units", "far_existing", "far_planned", "bcr_planned", "site_area_m2",
-      "site_area_per_unit_m2", "land_share_m2", "existing_built_year", "trade_count_12m", "trade_latest_date",
-      "trade_latest_price", "trade_median_ppp", "address", "zoning_before", "zoning_after", "name_variants"],
+      "site_area_per_unit_m2", "land_share_m2", "existing_built_year", ...TRADE_CSV, "silv_count", "silv_entry_count",
+      "silv_latest_date", "silv_latest_price", "address", "zoning_before", "zoning_after", "name_variants"],
   },
   apartments: {
     label: "30년 이상 노후 단지", unit: "단지", file: "data/apartments.json", list: "apartments",
@@ -58,7 +64,7 @@ const VIEWS = {
       ["built_year", "준공연도", true], ["households", "세대수", true], ["far", "용적률", true],
       ["bcr", "건폐율", true], ["land_share_m2", "대지지분(㎡)", true],
       ["trade_latest_price", "최근 거래가", true], ["trade_median_ppp", "평당가(전용)", true],
-      ["trade_count_12m", "1년 거래", true],
+      ["jeonse_ratio", "전세가율", true], ["trade_count_12m", "1년 거래", true],
     ],
     ranges: [
       ["built_year", "준공연도", "년"], ["age", "경과 연수", "년"], ["households", "세대수", "세대"],
@@ -68,11 +74,12 @@ const VIEWS = {
     detail: apartmentDetail,
     csv: ["complex_id", "region_sido", "region_sigungu", "dong", "jibun", "dong_range", "siblings", "name", "stage", "project_name",
       "built_year", "age", "households", "buildings", "top_floor", "heating", "builder", "land_area_m2", "land_share_m2", "far", "bcr",
-      "trade_count_12m", "trade_latest_date", "trade_latest_price", "trade_median_ppp", "name_variants", "sources"],
+      ...TRADE_CSV, "name_variants", "sources"],
   },
 };
-const MONEY = new Set(["trade_latest_price"]);  // 만원 → '34.0억'
-const YEAR = new Set(["existing_built_year", "built_year"]);
+const MONEY = new Set(["trade_latest_price", "jeonse_median", "silv_latest_price"]);  // 만원 → '34.0억'
+const PERCENT = new Set(["jeonse_ratio"]);
+const YEAR = new Set(["existing_built_year", "built_year", "trade_since"]);
 
 // 검색어 정규화 — collect_reconstruction.zone_key와 같은 규칙(표기 차이 무시)
 const CIRCLED = Object.fromEntries([..."①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳"].map((c, i) => [c, String(i + 1)]));
@@ -294,6 +301,7 @@ function render(updateUrl = true) {
   more.onclick = () => { shown += PAGE; render(false); };
   window.__lastRows = rows;
   if (updateUrl) writeUrl(c);
+  if (openId != null) hydrateTrades();
 }
 
 function esc(s) {
@@ -313,6 +321,7 @@ function cell(p, k, isNum) {
   const v = p[k];
   if (v == null) return `<td class="num na">–</td>`;
   if (MONEY.has(k)) return `<td class="num" title="${esc(p.trade_latest_date || "")} · 전용 ${esc(p.trade_latest_area || "")}㎡">${eok(v)}</td>`;
+  if (PERCENT.has(k)) return `<td class="num" title="전용 ${esc(p.jeonse_area || "")}㎡ 전세 중위 ${eok(p.jeonse_median || 0)} ÷ 매매 중위">${v}%</td>`;
   return `<td class="num">${YEAR.has(k) ? v : fmt.format(v)}</td>`;
 }
 
@@ -321,16 +330,181 @@ function eok(v) {
   return v >= 10000 ? `${(v / 10000).toFixed(1)}억` : `${fmt.format(v)}만`;
 }
 
-function tradeTable(p) {
-  if (!p.trades_by_area?.length) return "";
-  const rows = p.trades_by_area.map(a => `<tr><td>${a.area}㎡ <small>(${a.pyeong}평)</small></td><td class="num">${a.n}</td>
-    <td class="num">${eok(a.median)}</td><td class="num">${eok(a.min)} ~ ${eok(a.max)}</td>
-    <td class="num">${eok(a.latest_price)} <small>${esc(a.latest_date)} · ${a.latest_floor}층</small></td></tr>`).join("");
-  const note = p.trade_basis === "준공 후 신축" ? " — 준공 후 새 아파트의 거래"
-    : p.trade_basis === "지번 공통(동 미상)" ? " — 같은 지번의 다른 단지 거래가 섞여 있을 수 있음" : "";
+// ---------------------------------------------------------------- 거래 상세 (단지별 파일을 상세를 열 때만 읽는다)
+const TRADE_CACHE = {};   // 파일 id → 자료
+const TRADE_UI = {};      // 파일 id → 패널 상태(거래 종류·면적·기간·펼친 줄 수)
+const TRADE_PAGE = 30;
+const KIND_LABEL = { sales: "매매", rents: "전월세", silv: "입주권·분양권" };
+
+function tradeFileId(p) {
+  return viewName === "projects" ? `p-${p.project_id}` : String(p.complex_id).replace(":", "_");
+}
+
+function tradeSection(p) {
+  if (!p.trades) return `<p class="aliases">국토교통부 실거래가에 이 단지의 매매·전월세 신고가 없습니다.</p>`;
+  const fid = tradeFileId(p);
+  const cached = TRADE_CACHE[fid];
+  return `<section class="trades" data-file="${esc(fid)}">${cached ? "" : `<p class="aliases">거래 자료 불러오는 중…</p>`}</section>`;
+}
+
+async function hydrateTrades() {
+  for (const el of document.querySelectorAll("section.trades")) {
+    const fid = el.dataset.file;
+    if (!TRADE_CACHE[fid]) {
+      try {
+        const res = await fetch(`data/trades/${encodeURIComponent(fid)}.json`, { cache: "no-cache" });
+        if (!res.ok) throw new Error(String(res.status));
+        TRADE_CACHE[fid] = await res.json();
+      } catch (e) {
+        el.innerHTML = `<p class="aliases">거래 자료를 불러오지 못했습니다 (${esc(e.message)}).</p>`;
+        continue;
+      }
+    }
+    if (el.isConnected) renderTrades(el, TRADE_CACHE[fid]);
+  }
+}
+
+function rowsOf(section) {
+  if (!section?.rows?.length) return [];
+  return section.rows.map(r => Object.fromEntries(section.cols.map((c, i) => [c, r[i]])));
+}
+
+function byAreaTable(data) {
+  if (!data.by_area?.length) return "";
+  const hasRent = data.by_area.some(a => a.jeonse_n || a.wolse_n);
+  const rows = data.by_area.map(a => `<tr><td>${a.area}㎡ <small>(${a.pyeong}평)</small></td>
+    <td class="num">${a.n ?? "–"}</td><td class="num">${a.median ? eok(a.median) : "–"}</td>
+    <td class="num">${a.min ? `${eok(a.min)} ~ ${eok(a.max)}` : "–"}</td>
+    <td class="num">${a.latest_price ? `${eok(a.latest_price)} <small>${esc(a.latest_date)} · ${a.latest_floor}층</small>` : "–"}</td>
+    ${hasRent ? `<td class="num">${a.jeonse_n || "–"}</td><td class="num">${a.jeonse_median ? eok(a.jeonse_median) : "–"}</td>
+    <td class="num">${a.jeonse_ratio ? `${a.jeonse_ratio}%` : "–"}</td>
+    <td class="num">${a.wolse_n ? `${a.wolse_n} <small>${eok(a.wolse_deposit_median)}/${fmt.format(a.wolse_monthly_median)}만</small>` : "–"}</td>` : ""}
+    </tr>`).join("");
+  const note = data.basis === "준공 후 신축" ? " — 준공 후 새 아파트의 거래"
+    : data.basis === "지번 공통(동 미상)" ? " — 같은 지번의 다른 단지 거래가 섞여 있을 수 있음" : "";
   return `<h3 class="sub-h">전용면적별 실거래 (최근 12개월${note})</h3>
-    <div class="mini-wrap"><table class="mini"><thead><tr><th>전용면적</th><th class="num">건수</th><th class="num">중위가</th>
-    <th class="num">최저 ~ 최고</th><th class="num">최근 거래</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+    <div class="mini-wrap"><table class="mini"><thead><tr><th>전용면적</th><th class="num">매매</th><th class="num">매매 중위</th>
+    <th class="num">최저 ~ 최고</th><th class="num">최근 매매</th>${hasRent ? `<th class="num">전세</th><th class="num">전세 중위</th>
+    <th class="num">전세가율</th><th class="num">월세 <small>보증금/월세 중위</small></th>` : ""}</tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+function renderTrades(el, data) {
+  const fid = el.dataset.file;
+  const ui = (TRADE_UI[fid] ||= { kind: "sales", area: null, range: "5y", shown: TRADE_PAGE });
+  const kinds = ["sales", "rents", "silv"].filter(k => data[k]?.rows?.length);
+  if (!kinds.includes(ui.kind)) ui.kind = kinds[0];
+  const all = ui.kind ? rowsOf(data[ui.kind]) : [];
+  const counts = {};
+  all.forEach(r => { const a = Math.round(r.area); counts[a] = (counts[a] || 0) + 1; });
+  const areas = Object.keys(counts).map(Number).sort((a, b) => a - b);
+  if (ui.area !== "all" && !counts[ui.area]) ui.area = areas.reduce((b, a) => (counts[a] > (counts[b] ?? -1) ? a : b), null);
+  const rows = all.filter(r => ui.area === "all" || Math.round(r.area) === ui.area);
+  const chartRows = ui.kind === "rents" ? rows.filter(r => r.monthly === 0) : rows;
+  const valueOf = ui.kind === "rents" ? r => r.deposit : r => r.price;
+  const tabs = kinds.map(k => `<button type="button" data-kind="${k}" aria-pressed="${k === ui.kind}">${KIND_LABEL[k]} <small>${fmt.format(data[k].rows.length)}</small></button>`).join("");
+  const areaOpts = [`<option value="all"${ui.area === "all" ? " selected" : ""}>전체 면적 (${fmt.format(all.length)}건)</option>`,
+    ...areas.map(a => `<option value="${a}"${ui.area === a ? " selected" : ""}>전용 ${a}㎡ · ${(a / 3.3058).toFixed(1)}평 (${fmt.format(counts[a])}건)</option>`)].join("");
+  const ranges = [["5y", "최근 5년"], ["all", "전체"]].map(([r, l]) =>
+    `<button type="button" data-range="${r}" aria-pressed="${r === ui.range}">${l}</button>`).join("");
+  const sorted = [...rows].sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+  const visible = sorted.slice(0, ui.shown);
+  el.innerHTML = `${byAreaTable(data)}
+    <h3 class="sub-h">거래 이력</h3>
+    <div class="trade-controls">
+      <div class="tabs small" role="tablist">${tabs}</div>
+      <select class="area" aria-label="전용면적">${areaOpts}</select>
+      <div class="tabs small">${ranges}</div>
+    </div>
+    ${priceChart(chartRows, valueOf, ui.range, ui.kind)}
+    ${tradeRows(ui.kind, visible)}
+    ${sorted.length > ui.shown ? `<p class="more-wrap"><button type="button" class="more-trades">${fmt.format(Math.min(100, sorted.length - ui.shown))}건 더 보기 (남은 ${fmt.format(sorted.length - ui.shown)}건)</button></p>` : ""}`;
+  el.querySelectorAll("button[data-kind]").forEach(b => b.addEventListener("click", () => {
+    ui.kind = b.dataset.kind; ui.shown = TRADE_PAGE; renderTrades(el, data);
+  }));
+  el.querySelectorAll("button[data-range]").forEach(b => b.addEventListener("click", () => {
+    ui.range = b.dataset.range; renderTrades(el, data);
+  }));
+  el.querySelector("select.area").addEventListener("change", e => {
+    ui.area = e.target.value === "all" ? "all" : +e.target.value; ui.shown = TRADE_PAGE; renderTrades(el, data);
+  });
+  el.querySelector("button.more-trades")?.addEventListener("click", () => { ui.shown += 100; renderTrades(el, data); });
+}
+
+function tradeRows(kind, rows) {
+  if (!rows.length) return `<p class="aliases">표시할 거래가 없습니다.</p>`;
+  const td = (v, cls = "") => `<td${cls ? ` class="${cls}"` : ""}>${v == null || v === "" ? "–" : v}</td>`;
+  let head, body;
+  if (kind === "rents") {
+    head = `<th>계약일</th><th>구분</th><th class="num">전용(㎡)</th><th class="num">층</th><th class="num">보증금</th><th class="num">월세</th><th>계약</th><th>기간</th>`;
+    body = rows.map(r => `<tr>${td(esc(r.date))}${td(r.monthly === 0 ? "전세" : "월세")}${td(r.area, "num")}${td(r.floor, "num")}
+      ${td(eok(r.deposit), "num")}${td(r.monthly ? `${fmt.format(r.monthly)}만` : "–", "num")}
+      ${td(r.contract ? esc(r.contract) + (r.renewal ? " <small>갱신요구권</small>" : "") : null)}${td(r.term ? esc(r.term) : null)}</tr>`).join("");
+  } else if (kind === "silv") {
+    head = `<th>계약일</th><th>구분</th><th class="num">전용(㎡)</th><th class="num">층</th><th class="num">가격</th><th>거래</th>`;
+    body = rows.map(r => `<tr>${td(esc(r.date))}${td(esc(r.kind))}${td(r.area, "num")}${td(r.floor, "num")}${td(eok(r.price), "num")}${td(r.type ? esc(r.type) : null)}</tr>`).join("");
+  } else {
+    const showBuilt = viewName === "projects" && new Set(rows.map(r => r.built)).size > 1;
+    head = `<th>계약일</th><th class="num">전용(㎡)</th><th class="num">층</th><th class="num">가격</th><th>동</th><th>거래</th>${showBuilt ? "<th class=\"num\">건축년도</th>" : ""}`;
+    const dong = d => !d ? null : /^\d+$/.test(d) ? `${d}동` : /동$/.test(d) ? esc(d) : `${esc(d)}동`;  // '101' / '제101' → 101동 / 제101동
+    body = rows.map(r => `<tr>${td(esc(r.date))}${td(r.area, "num")}${td(r.floor, "num")}${td(eok(r.price), "num")}
+      ${td(dong(r.dong))}${td(r.type ? esc(r.type) : null)}${showBuilt ? td(r.built, "num") : ""}</tr>`).join("");
+  }
+  return `<div class="mini-wrap"><table class="mini"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+}
+
+// 가격 추이: 거래 1건 = 점, 분기(또는 연)별 중위가 = 선. 외부 라이브러리 없이 SVG로 그린다.
+function priceChart(rows, valueOf, range, kind) {
+  const pts = rows.map(r => ({ t: Date.parse(r.date), v: valueOf(r), r })).filter(p => p.v > 0 && !isNaN(p.t));
+  const now = Date.now();
+  const t0 = range === "5y" ? now - 5 * 365.25 * 864e5 : (pts.length ? Math.min(...pts.map(p => p.t)) : now - 365.25 * 864e5);
+  const shown = pts.filter(p => p.t >= t0);
+  if (!shown.length) return `<p class="aliases">이 기간에 ${KIND_LABEL[kind] || ""} 거래가 없습니다.</p>`;
+  const W = 760, H = 260, L = 64, R = 16, T = 14, B = 30;
+  const t1 = Math.max(now, ...shown.map(p => p.t));
+  const span = (t1 - t0) / (365.25 * 864e5);
+  const vmax = Math.max(...shown.map(p => p.v)), vmin = Math.min(...shown.map(p => p.v));
+  const pad = Math.max((vmax - vmin) * 0.12, vmax * 0.05, 1);
+  const step = niceStep((vmax + pad - Math.max(0, vmin - pad)) / 5);
+  const yBot = Math.max(0, Math.floor((vmin - pad) / step) * step), yTop = Math.ceil((vmax + pad) / step) * step;
+  const x = t => L + (t - t0) / (t1 - t0) * (W - L - R);
+  const y = v => T + (yTop - v) / (yTop - yBot) * (H - T - B);
+  let grid = "";
+  for (let v = yBot; v <= yTop + 1e-9; v += step) {
+    grid += `<line x1="${L}" x2="${W - R}" y1="${y(v).toFixed(1)}" y2="${y(v).toFixed(1)}" class="grid"/>
+      <text x="${L - 6}" y="${(y(v) + 4).toFixed(1)}" class="lbl" text-anchor="end">${eok(Math.round(v))}</text>`;
+  }
+  const y0 = new Date(t0).getFullYear(), y1 = new Date(t1).getFullYear();
+  const every = span > 14 ? 3 : span > 7 ? 2 : 1;
+  for (let yr = y0 + 1; yr <= y1; yr++) {
+    if ((yr - y1) % every) continue;
+    const t = Date.UTC(yr, 0, 1);
+    if (t < t0) continue;
+    grid += `<line x1="${x(t).toFixed(1)}" x2="${x(t).toFixed(1)}" y1="${T}" y2="${H - B}" class="grid"/>
+      <text x="${x(t).toFixed(1)}" y="${H - B + 16}" class="lbl" text-anchor="middle">${yr}</text>`;
+  }
+  // 중위가 선: 기간이 6년을 넘으면 연도별, 아니면 분기별
+  const key = span > 6 ? p => new Date(p.t).getUTCFullYear() : p => { const d = new Date(p.t); return `${d.getUTCFullYear()}Q${Math.floor(d.getUTCMonth() / 3)}`; };
+  const groups = {};
+  shown.forEach(p => { (groups[key(p)] ||= []).push(p); });
+  const line = Object.values(groups).map(g => {
+    const vs = g.map(p => p.v).sort((a, b) => a - b);
+    const med = vs.length % 2 ? vs[(vs.length - 1) / 2] : (vs[vs.length / 2 - 1] + vs[vs.length / 2]) / 2;
+    const tm = g.reduce((s, p) => s + p.t, 0) / g.length;
+    return { t: tm, v: med, n: g.length };
+  }).sort((a, b) => a.t - b.t);
+  const path = line.map((p, i) => `${i ? "L" : "M"}${x(p.t).toFixed(1)},${y(p.v).toFixed(1)}`).join(" ");
+  const dots = shown.map(p => `<circle cx="${x(p.t).toFixed(1)}" cy="${y(p.v).toFixed(1)}" r="2.6" class="dot"><title>${esc(p.r.date)} · 전용 ${p.r.area}㎡ · ${p.r.floor}층 · ${eok(p.v)}${p.r.kind ? ` · ${esc(p.r.kind)}` : ""}</title></circle>`).join("");
+  const medDots = line.map(p => `<circle cx="${x(p.t).toFixed(1)}" cy="${y(p.v).toFixed(1)}" r="3.2" class="med-dot"><title>중위 ${eok(Math.round(p.v))} (${p.n}건)</title></circle>`).join("");
+  const unit = kind === "rents" ? "전세 보증금" : "거래가";
+  return `<figure class="chart"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${unit} 추이 차트">
+    ${grid}<path d="${path}" class="med"/>${dots}${medDots}</svg>
+    <figcaption>점 = 거래 1건(${fmt.format(shown.length)}건), 선 = ${span > 6 ? "연도" : "분기"}별 중위 ${unit}. 해제된 거래는 뺐습니다.</figcaption></figure>`;
+}
+
+function niceStep(raw) {
+  const pow = 10 ** Math.floor(Math.log10(Math.max(raw, 1)));
+  const f = raw / pow;
+  return (f <= 1 ? 1 : f <= 2 ? 2 : f <= 2.5 ? 2.5 : f <= 5 ? 5 : 10) * pow;
 }
 
 function grid(p, fields) {
@@ -353,6 +527,8 @@ function projectDetail(p) {
     <div class="timeline">${steps}</div>
     ${grid(p, [
       ["address", "위치"], ["project_type", "사업 유형"], ["operator_type", "시행 방식"],
+      ["trade_count_all", "매매 이력(2006년~, 건)"], ["jeonse_ratio", "전세가율(%)"],
+      ["silv_count", "입주권·분양권 거래(3년, 건)"], ["silv_latest_price", "최근 입주권·분양권가(만원)"],
       ["zoning_before", "용도지역(기존)"], ["zoning_after", "용도지역(변경)"],
       ["existing_buildings", "기존 동수"], ["buildings_planned", "계획 동수"],
       ["gfa_planned_m2", "계획 연면적(㎡)"], ["height_planned_m", "계획 높이(m)"],
@@ -364,7 +540,7 @@ function projectDetail(p) {
       ["stage_by_source", "출처별 단계"], ["source_updated_at", "출처 기준일"],
     ])}
     <p class="aliases">현재 단계 근거: ${esc(p.stage_source || "–")}${p.stage_evidence ? ` · <a href="${esc(p.stage_evidence)}" target="_blank" rel="noopener">정보몽땅 사업장 페이지</a>` : ""}</p>
-    ${tradeTable(p)}
+    ${tradeSection(p)}
     <p class="aliases">다른 이름: ${esc((p.aliases || []).slice(0, 30).join(" · "))}</p>
     ${home}
     <p class="aliases">출처: ${esc(p.sources || "")}</p>`);
@@ -385,9 +561,10 @@ function apartmentDetail(p) {
       ["jibun", "지번"], ["dong_range", "동"], ["road_address", "도로명 주소"], ["built_year", "준공연도"], ["age", "경과 연수"],
       ["households", "세대수"], ["buildings", "동수"], ["top_floor", "최고층"], ["heating", "난방"],
       ["builder", "시공사"], ["land_area_m2", "대지면적(㎡)"], ["land_share_m2", "평균 대지지분(㎡)"],
-      ["far", "용적률(%)"], ["bcr", "건폐율(%)"], ["trade_basis", "거래 기준"], ["sources", "출처"],
+      ["far", "용적률(%)"], ["bcr", "건폐율(%)"], ["trade_basis", "거래 기준"],
+      ["trade_count_all", "매매 이력(2006년~, 건)"], ["jeonse_ratio", "전세가율(%)"], ["sources", "출처"],
     ])}
-    ${tradeTable(p)}
+    ${tradeSection(p)}
     <p class="aliases">다른 이름: ${esc((p.aliases || []).slice(0, 20).join(" · ") || p.name_variants || "")}</p>`);
 }
 

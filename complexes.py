@@ -243,18 +243,20 @@ def complex_names(reb_names: list[str], hist_names: list[str], kapt_name: str | 
     return display, list(aliases.items())
 
 
-def build(today: str, projects: list[dict], lots: dict[str, dict]) -> list[dict]:
+def build(today: str, projects: list[dict], lots: dict[str, dict], book=None) -> list[dict]:
     """노후 단지 목록. 단지 1개 = 부동산원 단지(아파트). 부동산원에 없는 지번은 지번 단위 항목으로 남긴다.
-    projects: 내보내는 사업장 레코드, lots: 사업장 대표 지번(enrich.project_lots)."""
+    projects: 내보내는 사업장 레코드, lots: 사업장 대표 지번(enrich.project_lots), book: 거래 장부(tradebook.Book)."""
+    import tradebook
     cutoff = en.old_cutoff(today)
     idx = Index()
+    book = book or tradebook.Book(today, lots, {}, {p["project_id"]: p for p in projects})
     reg = {r["key"]: r for r in en._read_jsonl(REGISTRY_FILE)}
     kapt_by_lot: dict[str, list[dict]] = {}
     for k in en._read_jsonl(KAPT_FILE):
         if k.get("key"):
             kapt_by_lot.setdefault(k["key"], []).append(k)
     trades_cx: dict[str, list[dict]] = {}
-    trades_lot: dict[str, list[dict]] = {}   # 단지를 못 정한 거래(지번 공통)
+    trades_lot: dict[str, list[dict]] = {}   # 단지를 못 정한 거래(지번 공통) — 사업장·준공연도 판단용(최근 12개월)
     for t in en._read_jsonl(en.TRADES_FILE):
         lot = jibun_key(t["sgg"], t["dong"], t["jibun"])
         if not lot:
@@ -342,21 +344,22 @@ def build(today: str, projects: list[dict], lots: dict[str, dict]) -> list[dict]
                                                  ("건축물대장", bool(regrow)), ("실거래", bool(ts))] if ok),
             "shared_trades": len(shared) if r is not None and siblings and len(siblings) > 1 else 0,
         }
-        if ts:
-            row.update(en.trade_summary(ts), trade_basis="단지" if r is not None else "지번")
-        elif shared and r is not None:
-            row.update(en.trade_summary(shared), trade_basis="지번 공통(동 미상)")
+        # 거래: 12개월 매매 요약 + 2006년~ 이력 건수 + 전월세(전세가율). 건별 목록은 단지별 파일(tradebook.write_files)
+        row.update(book.complex_fields(cid, lot, r is not None))
         out.append(row)
     return out
 
 
+SITE_SKIP = ("trades_by_area_text", "trades_by_area", "rents_by_area")  # 면적대별 표는 단지별 파일에만
+
+
 def write(rows: list[dict], today: str) -> None:
     import pandas as pd
-    keys = [k for k in rows[0] if k not in ("trades_by_area", "aliases")] if rows else []
+    keys = [k for k in rows[0] if k not in ("trades_by_area", "rents_by_area", "aliases", "trades")] if rows else []
     pd.DataFrame(rows).reindex(columns=keys).to_csv(CSV_FILE, index=False, encoding="utf-8-sig", lineterminator="\n")
     site = []
     for r in rows:
-        x = {k: cr.jsonable(v) for k, v in r.items() if k != "trades_by_area_text"}
+        x = {k: cr.jsonable(v) for k, v in r.items() if k not in SITE_SKIP}
         x["search_keys"] = " ".join(dict.fromkeys(k for k in (cr.search_key(n) for n in [r["name"], *r["aliases"]]) if k))
         site.append({k: v for k, v in x.items() if v not in (None, "", [], 0) or k in ("siblings", "shared_trades")})
     data = {"generated_at": today, "count": len(site), "old_before": en.old_cutoff(today), "apartments": site}
