@@ -15,6 +15,7 @@ from __future__ import annotations
 import json
 import re
 import threading
+import time
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache
@@ -32,7 +33,11 @@ MIN_HOUSEHOLDS = 20   # 이보다 작은 공동주택(소규모 다세대 등)�
 DONG_BUDGET = 100     # 하루에 새로 받는 법정동 수 (≈2,900곳 → 약 한 달에 한 바퀴, 분기마다 반복)
 YEAR_BUDGET = 150     # 하루에 사용승인일을 채우는 단지 수
 MIN_YEAR = 1960      # 이보다 이른 준공연도는 오기로 본다
-KAPT_BUDGET = 3000   # 하루에 K-apt 기본정보를 새로 받는 단지 수(서비스별 일 한도 5,000건, 초당 5건 → 약 10분)
+KAPT_BUDGET = 3000   # 하루에 K-apt 기본정보를 새로 받는 단지 수 상한(서비스별 일 한도 5,000건)
+KAPT_RPS = 1         # 기본정보는 한 줄로 초당 1건까지만: 공동주택관리정보시스템 쪽이 묶음 요청을 받으면 '04 HTTP_ERROR'로 한동안 막는다
+KAPT_TIME_CAP = 15 * 60   # 하루 실행에서 기본정보 수집에 쓰는 최대 시간(초) — 워크플로 시간 안에 끝나게
+KAPT_ERROR_WAIT = 20      # 응답 오류가 나면 이만큼 쉬고 같은 단지를 한 번 더 시도
+KAPT_STOP_AFTER = 3       # 연달아 이만큼의 단지가 재시도 뒤에도 실패하면(= 막힌 것) 오늘은 그만둔다
 
 
 # ---------------------------------------------------------------- 법정동
@@ -594,25 +599,14 @@ def update_kapt_info(today: str, failed: list, budget: int | None = KAPT_BUDGET)
     """기본정보(사용승인일·세대수·동수·최고층·난방·시공사·주소)를 아직 없는 단지만, 하루 budget개까지 받는다.
     한도에 걸리면 받은 것까지 저장하고 멈춘다."""
     have = {r["kapt_code"]: r for r in en._read_jsonl(KAPT_FILE)}
-    todo = [r for r in en._read_jsonl(KAPT_LIST_FILE) if r["kapt_code"] not in have]
+    todo = _kapt_priority([r for r in en._read_jsonl(KAPT_LIST_FILE) if r["kapt_code"] not in have], today)
     todo = todo if budget is None else todo[:budget]
     if not todo:
         return False
     print(f"[K-apt] 기본정보 {len(todo)}곳 조회")
     errors: list[str] = []
-    stop = threading.Event()
 
-    def job(r):
-        if stop.is_set():
-            return None
-        try:
-            items, _ = _kapt("AptBasisInfoServiceV5/getAphusBassInfoV5", {"kaptCode": r["kapt_code"]})
-        except KaptQuotaExceeded:
-            stop.set()
-            return None
-        except en.ApiError as e:
-            errors.append(f"{r['kapt_code']}: {e}")
-            return None
+    def record(r, items):
         i = items[0] if items else {}
         day = str(i.get("kaptUsedate") or "").strip()
         bjd = str(i.get("bjdCode") or r.get("bjd") or "")
@@ -629,18 +623,68 @@ def update_kapt_info(today: str, failed: list, budget: int | None = KAPT_BUDGET)
                 "units_136": int(en._num(i.get("kaptMparea136"))) or None,
                 "key": _kapt_key(bjd, i.get("kaptAddr")), "fetched": today[:7]}
 
-    got = 0
-    with ThreadPoolExecutor(en.WORKERS) as ex:
-        for rec in ex.map(job, todo):
-            if rec:
-                have[rec["kapt_code"]] = rec
-                got += 1
+    # 한 줄로, 초당 KAPT_RPS건. 묶음(동시) 요청을 보내면 서비스 쪽이 '04 HTTP_ERROR'로 한동안 모든 요청을 막아
+    # 2026-10-20 실행에서 2,800곳이 "실패"로 남았다. 오류는 쉬었다 한 번 더 시도하고, 연달아 막히면 오늘은 멈춘다.
+    got, streak, stopped, start = 0, 0, None, time.monotonic()
+    for r in todo:
+        if time.monotonic() - start > KAPT_TIME_CAP:
+            stopped = f"시간 상한 {KAPT_TIME_CAP // 60}분"
+            break
+        rec, err = None, None
+        for attempt in range(2):
+            if attempt:
+                time.sleep(KAPT_ERROR_WAIT)
+            try:
+                items, _ = _kapt("AptBasisInfoServiceV5/getAphusBassInfoV5", {"kaptCode": r["kapt_code"]})
+                rec, err = record(r, items), None
+                break
+            except KaptQuotaExceeded:
+                stopped = "일일 한도 도달"
+                break
+            except en.ApiError as e:
+                err = f"{r['kapt_code']}: {e}"
+        if stopped:
+            break
+        if rec:
+            have[rec["kapt_code"]] = rec
+            got += 1
+            streak = 0
+        else:
+            errors.append(err)
+            streak += 1
+            if streak >= KAPT_STOP_AFTER:
+                stopped = f"응답 오류 계속({err.split(': ', 1)[-1]})"
+                break
+        time.sleep(1 / KAPT_RPS)
     en._write_jsonl(KAPT_FILE, (have[k] for k in sorted(have)))
-    if stop.is_set():
-        print(f"[K-apt] 기본정보: 일일 한도 도달 — {got}곳 저장, 내일 이어서")
-    if errors:
+    if stopped:
+        print(f"[K-apt] 기본정보: {stopped} — {got}곳 저장, 내일 이어서")
+        if stopped.startswith("응답 오류"):
+            failed.append(f"K-apt 기본정보 {stopped} — {got}곳 저장 뒤 중단, 내일 이어서")
+    else:
+        print(f"[K-apt] 기본정보 {got}곳 저장" + (f", {len(errors)}곳 실패" if errors else ""))
+    if errors and not (stopped or "").startswith("응답 오류"):
         failed.append(f"K-apt 기본정보 {len(errors)}곳 실패 (예: {errors[0]})")
     return got > 0
+
+
+def _kapt_priority(rows: list[dict], today: str) -> list[dict]:
+    """노후 단지 목록에 쓰일 단지부터 받는다: ① 같은 법정동의 노후(기준+1년 이전 준공) 부동산원 아파트와 이름이 비슷한 단지
+    ② 노후 아파트가 있는 법정동의 단지 ③ 나머지. 같은 묶음 안에서는 단지 코드 순."""
+    cutoff = en.old_cutoff(today) + 1
+    old: dict[str, set[str]] = {}
+    for r in en._read_jsonl(identity.REB_FILE):
+        if r.get("type") == "아파트" and r.get("use_apr") and int(r["use_apr"][:4]) <= cutoff:
+            old.setdefault(r["bjd"], set()).update(cr.zone_key(n) for n in r.get("names") or [] if n)
+
+    def rank(r):
+        keys = old.get(str(r.get("bjd") or ""))
+        if not keys:
+            return (2, 0, r["kapt_code"])
+        k = cr.zone_key(r.get("name") or "")
+        best = max((cr._score(k, o) for o in keys), default=0) if k else 0
+        return (0, -best, r["kapt_code"]) if best >= 0.4 else (1, 0, r["kapt_code"])  # 이름이 많이 비슷한 단지부터
+    return sorted(rows, key=rank)
 
 
 def update_kapt(today: str, failed: list, budget: int | None = KAPT_BUDGET) -> bool:
