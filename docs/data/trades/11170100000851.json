@@ -1,8 +1,13 @@
 {"id":"11170100000851",
 "name":"미주A아파트",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":210,"pyeong":63.5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":10000,"wolse_monthly_median":380}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2017-07-09",205.74,5,113000,null,null,1975],
+["2017-08-02",209.04,3,106000,null,null,1975],
+["2017-08-25",205.75,2,117000,null,null,1975],
+["2019-05-15",205.75,2,114000,null,null,1975],
+["2021-01-30",205.75,3,180000,null,null,1975]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-04-30",210.25,1,10000,380,"신규","26.05~28.04",null]

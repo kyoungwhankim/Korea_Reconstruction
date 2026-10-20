@@ -1,0 +1,14 @@
+{"id":"11650100003038",
+"name":"필그린빌라",
+"basis":"단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2017-06-22",233.55,2,164500,null,null,1994],
+["2017-09-19",233.55,3,160000,null,null,1994],
+["2018-04-05",231.13,3,167500,null,null,1994],
+["2018-10-13",231.13,2,165000,null,null,1994],
+["2019-02-08",230.72,4,180000,null,null,1994],
+["2020-08-19",233.55,3,230000,null,null,1994]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

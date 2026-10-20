@@ -1,0 +1,9 @@
+{"id":"서울-강동구-고덕주공4",
+"name":"고덕주공4단지아파트",
+"basis":"기존 단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2018-04-17",48.6,4,71000,null,null,1983]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

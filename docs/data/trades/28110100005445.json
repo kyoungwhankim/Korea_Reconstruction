@@ -3,6 +3,7 @@
 "basis":"단지",
 "by_area":[{"area":43,"pyeong":13.0,"n":1,"median":4800,"min":4800,"max":4800,"latest_price":4800,"latest_date":"2026-04-04","latest_floor":2}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2018-04-04",51.11,4,7400,null,null,1977],
 ["2021-12-30",42.91,3,6200,null,"중개거래",1977],
 ["2025-09-18",51.11,2,6050,null,"중개거래",1977],
 ["2026-04-04",42.91,2,4800,null,"중개거래",1977]

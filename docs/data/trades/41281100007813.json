@@ -1,7 +1,7 @@
 {"id":"41281100007813",
 "name":"별빛마을7단지",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":13,"median":70300,"min":68000,"max":74800,"latest_price":74750,"latest_date":"2026-09-01","latest_floor":16,"jeonse_n":41,"wolse_n":26,"jeonse_median":46000,"jeonse_min":37800,"jeonse_max":53000,"jeonse_latest":49000,"jeonse_latest_date":"2026-10-07","jeonse_ratio":65.4,"wolse_deposit_median":19000,"wolse_monthly_median":100}],
+"by_area":[{"area":85,"pyeong":25.7,"n":13,"median":70300,"min":68000,"max":74800,"latest_price":74750,"latest_date":"2026-09-01","latest_floor":16,"jeonse_n":42,"wolse_n":26,"jeonse_median":46000,"jeonse_min":37800,"jeonse_max":53000,"jeonse_latest":45000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":65.4,"wolse_deposit_median":19000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2023-01-09",84.95,15,65000,"713","중개거래",1995],
 ["2023-03-29",84.95,15,64000,"711","중개거래",1995],
@@ -138,5 +138,6 @@
 ["2026-09-08",85.0,1,48000,0,"신규","26.11~28.11",null],
 ["2026-10-07",85.0,10,10000,180,"신규","26.11~28.11",null],
 ["2026-10-07",85.0,10,49000,0,"갱신","26.10~28.10",null],
-["2026-10-08",85.0,13,20000,130,"신규","26.12~28.12",null]
+["2026-10-08",85.0,13,20000,130,"신규","26.12~28.12",null],
+["2026-10-17",85.0,10,45000,0,"갱신","26.10~28.10",true]
 ]}}

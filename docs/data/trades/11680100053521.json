@@ -1,8 +1,10 @@
 {"id":"11680100053521",
 "name":"현대65동(대림아크로빌아파트)",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":243,"pyeong":73.5,"jeonse_n":3,"wolse_n":0,"jeonse_median":331000,"jeonse_min":304500,"jeonse_max":350000,"jeonse_latest":331000,"jeonse_latest_date":"2026-06-23"},{"area":244,"pyeong":73.8,"jeonse_n":1,"wolse_n":0,"jeonse_median":258300,"jeonse_min":258300,"jeonse_max":258300,"jeonse_latest":258300,"jeonse_latest_date":"2026-01-16"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2017-08-18",243.96,13,361350,null,null,1979],
+["2019-06-17",243.23,12,489000,null,null,1979]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-01-16",243.96,3,258300,0,"갱신","26.01~28.01",true],

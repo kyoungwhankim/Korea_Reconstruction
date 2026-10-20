@@ -1,0 +1,10 @@
+{"id":"서울-서초구-반포현대",
+"name":"반포현대아파트",
+"basis":"기존 단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2017-05-19",84.69,10,93500,null,null,1987],
+["2017-06-09",84.69,10,96500,null,null,1987]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

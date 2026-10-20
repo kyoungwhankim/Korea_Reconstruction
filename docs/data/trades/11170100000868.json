@@ -1,8 +1,11 @@
 {"id":"11170100000868",
 "name":"코스모스아파트",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":242,"pyeong":73.2,"jeonse_n":1,"wolse_n":0,"jeonse_median":78750,"jeonse_min":78750,"jeonse_max":78750,"jeonse_latest":78750,"jeonse_latest_date":"2025-12-03"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2018-04-18",242.24,1,126000,null,null,1974],
+["2018-10-27",250.44,10,137500,null,null,1974],
+["2019-11-03",250.44,10,168000,null,null,1974]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-12-03",242.24,7,78750,0,"갱신","26.01~28.01",true]

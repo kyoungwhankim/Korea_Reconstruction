@@ -1,0 +1,13 @@
+{"id":"서울-서초구-신반포13",
+"name":"신반포13차",
+"basis":"기존 단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2017-07-27",106.72,11,150500,null,null,1981],
+["2018-03-19",106.72,3,173000,null,null,1981],
+["2018-08-17",143.03,1,210000,null,null,1981],
+["2019-08-23",108.05,1,197000,null,null,1981],
+["2019-08-26",141.53,5,250000,null,null,1981]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

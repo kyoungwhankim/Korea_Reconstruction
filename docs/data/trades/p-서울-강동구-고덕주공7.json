@@ -1,0 +1,9 @@
+{"id":"서울-강동구-고덕주공7",
+"name":"고덕주공7단지아파트",
+"basis":"기존 단지",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2017-05-01",65.16,5,70000,null,null,1983]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}
