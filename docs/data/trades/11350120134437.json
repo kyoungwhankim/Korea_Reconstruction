@@ -1,8 +1,9 @@
 {"id":"11350120134437",
 "name":"공릉1단지아파트",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":25,"pyeong":7.6,"jeonse_n":0,"wolse_n":13,"wolse_deposit_median":178,"wolse_monthly_median":4}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2016-12-31",29.64,9,17300,null,null,1994]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-05-14",24.79,13,178,4,"신규","26.06~28.05",null],

@@ -1,8 +1,9 @@
 {"id":"11110100000050",
 "name":"동일상가아파트",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":34,"pyeong":10.3,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":51,"pyeong":15.4,"jeonse_n":1,"wolse_n":0,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-04-02"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2016-07-21",28.05,5,7800,null,null,1971]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-04-02",51.06,4,10000,0,"신규","26.04~28.04",null],

@@ -1,0 +1,9 @@
+{"id":"경기-안산-군자주공4",
+"name":"군자주공4단지",
+"basis":"준공 후 신축",
+"by_area":[],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2013-06-25",43.8,5,12000,null,null,1982]
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+]}}

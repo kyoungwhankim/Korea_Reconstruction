@@ -3,6 +3,7 @@
 "basis":"단지",
 "by_area":[],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2015-07-15",38.71,4,13000,null,null,1980],
 ["2018-07-30",40.33,6,10000,null,null,1980],
 ["2021-05-13",62.81,2,20500,null,null,1980]
 ]},

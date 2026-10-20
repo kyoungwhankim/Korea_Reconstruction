@@ -1,3 +1,1092 @@
+{"apt": "홍문현대102,104,105동", "area": 59.72, "built": 1996, "date": "2013-02-04", "dong": "홍문동", "floor": 6, "jibun": "181", "price": 13000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-02-12", "dong": "현암동", "floor": 18, "jibun": "188-1", "price": 4440}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-02-14", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 4700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-02-20", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 4480}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-02-21", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 4450}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-02-25", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 4778}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-02-26", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 4750}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-02-27", "dong": "현암동", "floor": 18, "jibun": "188-1", "price": 4700}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2013-02-27", "dong": "홍문동", "floor": 5, "jibun": "181", "price": 13800}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2013-02-28", "dong": "홍문동", "floor": 8, "jibun": "181", "price": 13600}
+{"apt": "하나", "area": 59.91, "built": 1992, "date": "2013-03-04", "dong": "하동", "floor": 4, "jibun": "121-1", "price": 7200}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-03-06", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 9000}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2013-03-08", "dong": "하동", "floor": 9, "jibun": "121-1", "price": 7800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-03-09", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 8900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-03-11", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 4700}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2013-03-18", "dong": "하동", "floor": 6, "jibun": "123", "price": 13600}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2013-03-19", "dong": "홍문동", "floor": 19, "jibun": "181", "price": 14200}
+{"apt": "삼진", "area": 56.07, "built": 1990, "date": "2013-03-20", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 7000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-03-20", "dong": "현암동", "floor": 18, "jibun": "188-1", "price": 4750}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-03-26", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 9000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-03-27", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 4530}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2013-03-28", "dong": "홍문동", "floor": 2, "jibun": "181", "price": 15000}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2013-03-28", "dong": "홍문동", "floor": 16, "jibun": "377-1", "price": 9400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-03-29", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 4700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-03-31", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 8300}
+{"apt": "하나", "area": 59.91, "built": 1992, "date": "2013-04-01", "dong": "하동", "floor": 1, "jibun": "121-1", "price": 6000}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2013-04-01", "dong": "홍문동", "floor": 15, "jibun": "377-1", "price": 18600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-04-03", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 4700}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2013-04-04", "dong": "하동", "floor": 1, "jibun": "121-1", "price": 7200}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-04-05", "dong": "가남읍 신해리", "floor": 6, "jibun": "620-17", "price": 8300}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-04-05", "dong": "가남읍 신해리", "floor": 9, "jibun": "620-17", "price": 8300}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-04-05", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 8000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-04-05", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 8300}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2013-04-05", "dong": "홍문동", "floor": 7, "jibun": "377-1", "price": 14200}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2013-04-09", "dong": "현암동", "floor": 2, "jibun": "177-23", "price": 7900}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2013-04-11", "dong": "하동", "floor": 13, "jibun": "123", "price": 17500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-04-12", "dong": "현암동", "floor": 11, "jibun": "188-1", "price": 4750}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2013-04-13", "dong": "하동", "floor": 5, "jibun": "123", "price": 13000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-04-22", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 4800}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2013-04-22", "dong": "홍문동", "floor": 10, "jibun": "377-1", "price": 10300}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-04-23", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 9200}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2013-04-23", "dong": "하동", "floor": 14, "jibun": "121-1", "price": 7800}
+{"apt": "삼한강변", "area": 59.91, "built": 1993, "date": "2013-04-26", "dong": "하동", "floor": 2, "jibun": "122-7", "price": 9300}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2013-04-26", "dong": "하동", "floor": 11, "jibun": "123", "price": 13500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-04-26", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 4550}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2013-04-27", "dong": "홍문동", "floor": 9, "jibun": "181", "price": 13300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-04-29", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 4730}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2013-04-29", "dong": "홍문동", "floor": 9, "jibun": "181", "price": 13300}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2013-04-30", "dong": "하동", "floor": 8, "jibun": "121-1", "price": 8100}
+{"apt": "홍문현대102,104,105동", "area": 84.77, "built": 1996, "date": "2013-04-30", "dong": "홍문동", "floor": 9, "jibun": "181", "price": 19000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-05-02", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 9300}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2013-05-02", "dong": "홍문동", "floor": 18, "jibun": "181", "price": 13200}
+{"apt": "삼한강변", "area": 117.99, "built": 1993, "date": "2013-05-03", "dong": "하동", "floor": 1, "jibun": "122-7", "price": 14200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-05-03", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 4800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-05-05", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 9000}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2013-05-06", "dong": "점봉동", "floor": 5, "jibun": "114", "price": 10500}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2013-05-07", "dong": "현암동", "floor": 2, "jibun": "177-23", "price": 6900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-05-07", "dong": "현암동", "floor": 18, "jibun": "188-1", "price": 4750}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-05-08", "dong": "가남읍 신해리", "floor": 9, "jibun": "620-17", "price": 9100}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2013-05-09", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 7800}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2013-05-09", "dong": "홍문동", "floor": 9, "jibun": "181", "price": 18200}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2013-05-11", "dong": "홍문동", "floor": 2, "jibun": "181", "price": 16000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-05-13", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 9000}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2013-05-13", "dong": "하동", "floor": 11, "jibun": "123", "price": 13400}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2013-05-14", "dong": "하동", "floor": 10, "jibun": "123", "price": 13500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-05-15", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 8500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-05-15", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 4700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-05-15", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 4700}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2013-05-15", "dong": "홍문동", "floor": 5, "jibun": "377-1", "price": 13000}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2013-05-16", "dong": "홍문동", "floor": 3, "jibun": "181", "price": 13300}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-05-18", "dong": "가남읍 신해리", "floor": 7, "jibun": "620-17", "price": 7800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-05-20", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 8950}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2013-05-20", "dong": "홍문동", "floor": 7, "jibun": "181", "price": 13000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-05-22", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 4770}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2013-05-23", "dong": "홍문동", "floor": 1, "jibun": "181", "price": 11900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-05-24", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 4700}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2013-05-24", "dong": "홍문동", "floor": 2, "jibun": "377-6", "price": 7500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-05-27", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 4510}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-05-27", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 4530}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-05-28", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 8300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-05-28", "dong": "현암동", "floor": 11, "jibun": "188-1", "price": 4800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-05-30", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 5700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-06-01", "dong": "가남읍 신해리", "floor": 6, "jibun": "620-17", "price": 9200}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2013-06-03", "dong": "하동", "floor": 7, "jibun": "123", "price": 18250}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2013-06-11", "dong": "홍문동", "floor": 3, "jibun": "377-6", "price": 7200}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2013-06-12", "dong": "하동", "floor": 1, "jibun": "123", "price": 18500}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2013-06-13", "dong": "현암동", "floor": 1, "jibun": "177-23", "price": 7500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-06-15", "dong": "가남읍 신해리", "floor": 7, "jibun": "620-17", "price": 8900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-06-17", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 4700}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2013-06-17", "dong": "홍문동", "floor": 11, "jibun": "377-1", "price": 14000}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2013-06-18", "dong": "홍문동", "floor": 1, "jibun": "377-1", "price": 14000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-06-19", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 8960}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-06-19", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 4800}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2013-06-21", "dong": "하동", "floor": 8, "jibun": "121-1", "price": 9000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-06-21", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 4900}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-06-22", "dong": "가남읍 신해리", "floor": 3, "jibun": "620-17", "price": 8900}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-06-24", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 10000}
+{"apt": "대우", "area": 64.26, "built": 1991, "date": "2013-06-24", "dong": "홍문동", "floor": 3, "jibun": "286-11", "price": 7000}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2013-06-26", "dong": "하동", "floor": 2, "jibun": "123", "price": 13000}
+{"apt": "홍문현대102,104,105동", "area": 59.72, "built": 1996, "date": "2013-06-26", "dong": "홍문동", "floor": 1, "jibun": "181", "price": 12800}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2013-06-27", "dong": "하동", "floor": 9, "jibun": "123", "price": 13900}
+{"apt": "을성", "area": 60.69, "built": 1986, "date": "2013-06-28", "dong": "가남읍 태평리", "floor": 5, "jibun": "106-1", "price": 7000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-06-29", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 4550}
+{"apt": "홍문현대102,104,105동", "area": 110.94, "built": 1996, "date": "2013-07-04", "dong": "홍문동", "floor": 5, "jibun": "181", "price": 24800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-07-09", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 9800}
+{"apt": "을성", "area": 60.69, "built": 1986, "date": "2013-07-10", "dong": "가남읍 태평리", "floor": 1, "jibun": "106-1", "price": 5000}
+{"apt": "홍문현대102,104,105동", "area": 59.72, "built": 1996, "date": "2013-07-11", "dong": "홍문동", "floor": 11, "jibun": "181", "price": 14000}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2013-07-12", "dong": "홍문동", "floor": 13, "jibun": "181", "price": 19250}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2013-07-15", "dong": "홍문동", "floor": 15, "jibun": "181", "price": 13750}
+{"apt": "반석", "area": 66.0, "built": 1989, "date": "2013-07-15", "dong": "홍문동", "floor": 3, "jibun": "303-8", "price": 10000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-07-17", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 4790}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2013-07-17", "dong": "홍문동", "floor": 1, "jibun": "산8-1", "price": 11000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-07-19", "dong": "가남읍 신해리", "floor": 9, "jibun": "620-17", "price": 9000}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2013-07-19", "dong": "하동", "floor": 10, "jibun": "121-1", "price": 8950}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2013-07-22", "dong": "점봉동", "floor": 3, "jibun": "114", "price": 9300}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2013-07-23", "dong": "홍문동", "floor": 2, "jibun": "산8-1", "price": 11600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-07-24", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 4750}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2013-07-28", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 7400}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-07-29", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 9000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-07-29", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 5150}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2013-08-01", "dong": "홍문동", "floor": 6, "jibun": "377-1", "price": 13800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-08-07", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 8500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-08-09", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 9400}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2013-08-09", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 7100}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-08-10", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 4780}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-08-12", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 8400}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2013-08-14", "dong": "하동", "floor": 14, "jibun": "123", "price": 13900}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2013-08-14", "dong": "홍문동", "floor": 2, "jibun": "377-1", "price": 19000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-08-18", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 8150}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-08-20", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 5500}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2013-08-23", "dong": "홍문동", "floor": 12, "jibun": "377-1", "price": 17500}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2013-08-26", "dong": "홍문동", "floor": 2, "jibun": "377-1", "price": 13200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-08-29", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 4510}
+{"apt": "홍문현대102,104,105동", "area": 59.72, "built": 1996, "date": "2013-08-29", "dong": "홍문동", "floor": 12, "jibun": "181", "price": 13600}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-08-30", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 8500}
+{"apt": "홍문현대102,104,105동", "area": 59.72, "built": 1996, "date": "2013-08-31", "dong": "홍문동", "floor": 8, "jibun": "181", "price": 13400}
+{"apt": "홍문현대103동,106동", "area": 84.77, "built": 1996, "date": "2013-08-31", "dong": "홍문동", "floor": 15, "jibun": "181", "price": 18500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-09-02", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 8100}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2013-09-05", "dong": "하동", "floor": 4, "jibun": "121-1", "price": 8470}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2013-09-05", "dong": "하동", "floor": 19, "jibun": "123", "price": 12800}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2013-09-05", "dong": "하동", "floor": 12, "jibun": "123", "price": 17700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-09-05", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 4750}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-09-07", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 5000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-09-07", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 4510}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-09-07", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 4760}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-09-07", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 4700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-09-09", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 9500}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2013-09-09", "dong": "홍문동", "floor": 6, "jibun": "181", "price": 13600}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2013-09-14", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 8000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-09-16", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 4470}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-09-21", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 8500}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2013-09-23", "dong": "현암동", "floor": 2, "jibun": "177-23", "price": 7000}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2013-09-27", "dong": "하동", "floor": 5, "jibun": "123", "price": 13800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-09-27", "dong": "현암동", "floor": 17, "jibun": "188-1", "price": 4750}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-09-28", "dong": "현암동", "floor": 14, "jibun": "188-1", "price": 4800}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2013-10-02", "dong": "하동", "floor": 15, "jibun": "123", "price": 13500}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2013-10-08", "dong": "하동", "floor": 10, "jibun": "123", "price": 13500}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2013-10-08", "dong": "홍문동", "floor": 4, "jibun": "산8-1", "price": 11500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-10-10", "dong": "가남읍 신해리", "floor": 9, "jibun": "620-17", "price": 9000}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2013-10-10", "dong": "홍문동", "floor": 2, "jibun": "산8-1", "price": 12800}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2013-10-11", "dong": "하동", "floor": 10, "jibun": "123", "price": 18350}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2013-10-11", "dong": "홍문동", "floor": 6, "jibun": "377-6", "price": 5000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-10-12", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 5700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-10-14", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 8800}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2013-10-14", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 8000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-10-15", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 4600}
+{"apt": "홍문현대103동,106동", "area": 84.77, "built": 1996, "date": "2013-10-16", "dong": "홍문동", "floor": 5, "jibun": "181", "price": 18750}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2013-10-19", "dong": "하동", "floor": 6, "jibun": "123", "price": 17850}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2013-10-21", "dong": "현암동", "floor": 4, "jibun": "177-23", "price": 7000}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2013-10-23", "dong": "홍문동", "floor": 2, "jibun": "377-6", "price": 7400}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2013-10-28", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 7500}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2013-10-28", "dong": "홍문동", "floor": 5, "jibun": "377-6", "price": 8500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-10-30", "dong": "현암동", "floor": 14, "jibun": "188-1", "price": 4800}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2013-10-30", "dong": "홍문동", "floor": 2, "jibun": "377-6", "price": 8000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-10-31", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 5700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-10-31", "dong": "현암동", "floor": 11, "jibun": "188-1", "price": 4600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-11-05", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 5200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-11-06", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5200}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-11-07", "dong": "가남읍 신해리", "floor": 6, "jibun": "620-17", "price": 9500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-11-11", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5300}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2013-11-14", "dong": "하동", "floor": 16, "jibun": "123", "price": 13070}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-11-14", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 4440}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-11-14", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 4450}
+{"apt": "홍문현대103동,106동", "area": 84.77, "built": 1996, "date": "2013-11-16", "dong": "홍문동", "floor": 5, "jibun": "181", "price": 20000}
+{"apt": "유원로얄", "area": 129.84, "built": 1991, "date": "2013-11-18", "dong": "상동", "floor": 6, "jibun": "374-2", "price": 17000}
+{"apt": "삼한강변", "area": 59.91, "built": 1993, "date": "2013-11-18", "dong": "하동", "floor": 12, "jibun": "122-7", "price": 9800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-11-19", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 5000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-11-25", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 4700}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2013-11-27", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 7100}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-11-29", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 4800}
+{"apt": "홍문현대102,104,105동", "area": 84.77, "built": 1996, "date": "2013-11-29", "dong": "홍문동", "floor": 8, "jibun": "181", "price": 10000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-12-02", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 8850}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-12-02", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 9000}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2013-12-06", "dong": "홍문동", "floor": 15, "jibun": "377-1", "price": 9000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-12-10", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 4700}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2013-12-12", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 7000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-12-13", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 4750}
+{"apt": "홍문현대102,104,105동", "area": 59.72, "built": 1996, "date": "2013-12-13", "dong": "홍문동", "floor": 6, "jibun": "181", "price": 13700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-12-17", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 4900}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2013-12-18", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 9000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-12-20", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 4460}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-12-21", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 4800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2013-12-21", "dong": "현암동", "floor": 17, "jibun": "188-1", "price": 4780}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2013-12-28", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 7300}
+{"apt": "홍문현대102,104,105동", "area": 59.72, "built": 1996, "date": "2013-12-30", "dong": "홍문동", "floor": 4, "jibun": "181", "price": 13450}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2013-12-31", "dong": "하동", "floor": 9, "jibun": "123", "price": 14000}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2014-01-04", "dong": "점봉동", "floor": 2, "jibun": "114", "price": 10000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-01-04", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 4780}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2014-01-06", "dong": "홍문동", "floor": 15, "jibun": "377-1", "price": 14500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-01-08", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 8800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-01-09", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 4480}
+{"apt": "대우", "area": 65.34, "built": 1991, "date": "2014-01-10", "dong": "홍문동", "floor": 5, "jibun": "286-11", "price": 9400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-01-11", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 4470}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-01-12", "dong": "현암동", "floor": 17, "jibun": "188-1", "price": 4780}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-01-13", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5000}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2014-01-13", "dong": "홍문동", "floor": 11, "jibun": "181", "price": 18850}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-01-17", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 5000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-01-21", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 4440}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-01-22", "dong": "가남읍 신해리", "floor": 9, "jibun": "620-17", "price": 8000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-01-24", "dong": "현암동", "floor": 18, "jibun": "188-1", "price": 4950}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2014-01-27", "dong": "홍문동", "floor": 4, "jibun": "산8-1", "price": 12500}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2014-01-28", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 8000}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2014-01-30", "dong": "홍문동", "floor": 12, "jibun": "377-1", "price": 10300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-02-03", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 4200}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2014-02-04", "dong": "홍문동", "floor": 11, "jibun": "377-1", "price": 18000}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2014-02-05", "dong": "현암동", "floor": 1, "jibun": "177-23", "price": 7000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-02-06", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 4870}
+{"apt": "을성", "area": 66.09, "built": 1986, "date": "2014-02-07", "dong": "가남읍 태평리", "floor": 5, "jibun": "106-1", "price": 7000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-02-12", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 5700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-02-17", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 8050}
+{"apt": "삼진", "area": 56.07, "built": 1990, "date": "2014-02-20", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 7100}
+{"apt": "을성", "area": 51.42, "built": 1986, "date": "2014-02-21", "dong": "가남읍 태평리", "floor": 1, "jibun": "106-1", "price": 6400}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2014-02-21", "dong": "하동", "floor": 14, "jibun": "121-1", "price": 8300}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2014-02-21", "dong": "홍문동", "floor": 14, "jibun": "377-1", "price": 17000}
+{"apt": "삼한강변", "area": 59.91, "built": 1993, "date": "2014-02-22", "dong": "하동", "floor": 7, "jibun": "122-7", "price": 10200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-02-22", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 5850}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-02-24", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 8600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-02-24", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 5750}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2014-02-25", "dong": "홍문동", "floor": 13, "jibun": "377-1", "price": 15500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-02-28", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 5100}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2014-02-28", "dong": "홍문동", "floor": 4, "jibun": "377-6", "price": 7150}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2014-03-06", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 8000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-03-07", "dong": "가남읍 신해리", "floor": 9, "jibun": "620-17", "price": 9600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-03-08", "dong": "현암동", "floor": 11, "jibun": "188-1", "price": 5900}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2014-03-10", "dong": "하동", "floor": 7, "jibun": "123", "price": 17700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-03-10", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 5800}
+{"apt": "삼한강변", "area": 52.38, "built": 1993, "date": "2014-03-14", "dong": "하동", "floor": 15, "jibun": "122-7", "price": 8300}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2014-03-15", "dong": "홍문동", "floor": 15, "jibun": "181", "price": 13700}
+{"apt": "홍문현대103동,106동", "area": 84.77, "built": 1996, "date": "2014-03-17", "dong": "홍문동", "floor": 1, "jibun": "181", "price": 18000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-03-18", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 5000}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2014-03-19", "dong": "하동", "floor": 18, "jibun": "123", "price": 12800}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2014-03-19", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 6500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-03-26", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 8600}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2014-03-26", "dong": "홍문동", "floor": 13, "jibun": "377-1", "price": 9800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-03-27", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 9500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-03-27", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 5600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-03-27", "dong": "현암동", "floor": 18, "jibun": "188-1", "price": 5700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-03-30", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 8800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-04-02", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 9400}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-04-05", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 9900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-04-05", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 5600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-04-07", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 5200}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-04-09", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 9350}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-04-09", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 8600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-04-10", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 6000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-04-10", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 6000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-04-12", "dong": "현암동", "floor": 11, "jibun": "188-1", "price": 6050}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-04-14", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 6000}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2014-04-15", "dong": "홍문동", "floor": 17, "jibun": "181", "price": 13500}
+{"apt": "을성", "area": 66.09, "built": 1986, "date": "2014-04-16", "dong": "가남읍 태평리", "floor": 2, "jibun": "106-1", "price": 8350}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-04-16", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 6100}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-04-22", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 5600}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2014-04-24", "dong": "하동", "floor": 14, "jibun": "123", "price": 14100}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-04-25", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 8200}
+{"apt": "하나", "area": 59.91, "built": 1992, "date": "2014-04-25", "dong": "하동", "floor": 2, "jibun": "121-1", "price": 7700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-04-25", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 5000}
+{"apt": "홍문현대102,104,105동", "area": 110.94, "built": 1996, "date": "2014-05-02", "dong": "홍문동", "floor": 4, "jibun": "181", "price": 21000}
+{"apt": "삼한강변", "area": 59.91, "built": 1993, "date": "2014-05-03", "dong": "하동", "floor": 14, "jibun": "122-7", "price": 9500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-05-07", "dong": "가남읍 신해리", "floor": 9, "jibun": "620-17", "price": 9000}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2014-05-09", "dong": "홍문동", "floor": 3, "jibun": "377-1", "price": 16500}
+{"apt": "삼진", "area": 56.07, "built": 1990, "date": "2014-05-10", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 6950}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-05-14", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 9000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-05-15", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 4800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-05-15", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 5000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-05-16", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 5570}
+{"apt": "홍문현대102,104,105동", "area": 59.72, "built": 1996, "date": "2014-05-16", "dong": "홍문동", "floor": 18, "jibun": "181", "price": 12300}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-05-20", "dong": "가남읍 신해리", "floor": 3, "jibun": "620-17", "price": 9600}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2014-05-20", "dong": "홍문동", "floor": 14, "jibun": "377-1", "price": 11000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-05-21", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 5650}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2014-05-21", "dong": "홍문동", "floor": 2, "jibun": "산8-1", "price": 10950}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-05-22", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 5300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-05-22", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 5430}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-05-23", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 8900}
+{"apt": "하나", "area": 59.91, "built": 1992, "date": "2014-05-23", "dong": "하동", "floor": 2, "jibun": "121-1", "price": 7550}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2014-05-26", "dong": "현암동", "floor": 6, "jibun": "177-23", "price": 6500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-05-27", "dong": "가남읍 신해리", "floor": 7, "jibun": "620-17", "price": 9200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-05-28", "dong": "현암동", "floor": 17, "jibun": "188-1", "price": 6000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-05-30", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-06-05", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 5550}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2014-06-10", "dong": "점봉동", "floor": 5, "jibun": "114", "price": 11250}
+{"apt": "하나", "area": 59.91, "built": 1992, "date": "2014-06-10", "dong": "하동", "floor": 3, "jibun": "121-1", "price": 7400}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2014-06-10", "dong": "하동", "floor": 10, "jibun": "123", "price": 13900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-06-10", "dong": "현암동", "floor": 11, "jibun": "188-1", "price": 5900}
+{"apt": "홍문현대102,104,105동", "area": 59.72, "built": 1996, "date": "2014-06-10", "dong": "홍문동", "floor": 18, "jibun": "181", "price": 13200}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2014-06-12", "dong": "현암동", "floor": 3, "jibun": "177-23", "price": 6700}
+{"apt": "상우2차", "area": 41.41, "built": 1994, "date": "2014-06-13", "dong": "홍문동", "floor": 1, "jibun": "377-6", "price": 6000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-06-17", "dong": "가남읍 신해리", "floor": 6, "jibun": "620-17", "price": 9600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-06-17", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 5550}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2014-06-17", "dong": "홍문동", "floor": 16, "jibun": "181", "price": 17600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-06-19", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 4800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-06-21", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 5600}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2014-06-25", "dong": "하동", "floor": 12, "jibun": "121-1", "price": 8400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-06-30", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 6100}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-07-02", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 5700}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2014-07-04", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 8000}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2014-07-05", "dong": "홍문동", "floor": 6, "jibun": "377-1", "price": 8500}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2014-07-05", "dong": "홍문동", "floor": 7, "jibun": "377-1", "price": 10600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-07-10", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 5470}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-07-14", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 5550}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2014-07-15", "dong": "현암동", "floor": 1, "jibun": "177-23", "price": 6500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-07-15", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 5700}
+{"apt": "하나", "area": 59.91, "built": 1992, "date": "2014-07-17", "dong": "하동", "floor": 2, "jibun": "121-1", "price": 7500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-07-17", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 5450}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2014-07-18", "dong": "하동", "floor": 1, "jibun": "121-1", "price": 8600}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2014-07-18", "dong": "홍문동", "floor": 7, "jibun": "377-1", "price": 10000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-07-20", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 5450}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2014-07-20", "dong": "홍문동", "floor": 3, "jibun": "181", "price": 13800}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2014-07-21", "dong": "하동", "floor": 1, "jibun": "123", "price": 17300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-07-21", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 6500}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2014-07-24", "dong": "하동", "floor": 3, "jibun": "123", "price": 12500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-07-28", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 9250}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-07-29", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 8300}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2014-08-01", "dong": "하동", "floor": 2, "jibun": "123", "price": 13000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-08-01", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 5900}
+{"apt": "홍문현대102,104,105동", "area": 59.72, "built": 1996, "date": "2014-08-01", "dong": "홍문동", "floor": 10, "jibun": "181", "price": 12900}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2014-08-02", "dong": "홍문동", "floor": 23, "jibun": "181", "price": 12900}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2014-08-05", "dong": "하동", "floor": 3, "jibun": "123", "price": 16800}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2014-08-07", "dong": "하동", "floor": 8, "jibun": "123", "price": 17500}
+{"apt": "홍문현대103동,106동", "area": 59.72, "built": 1996, "date": "2014-08-07", "dong": "홍문동", "floor": 2, "jibun": "181", "price": 13000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-08-08", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 5600}
+{"apt": "유원로얄", "area": 129.84, "built": 1991, "date": "2014-08-11", "dong": "상동", "floor": 7, "jibun": "374-2", "price": 11000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-08-12", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 5100}
+{"apt": "반석", "area": 80.4, "built": 1989, "date": "2014-08-14", "dong": "홍문동", "floor": 4, "jibun": "303-8", "price": 11500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-08-18", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 5650}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-08-18", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 5600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-08-18", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 5800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-08-19", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 5800}
+{"apt": "삼한", "area": 75.34, "built": 1991, "date": "2014-08-19", "dong": "홍문동", "floor": 2, "jibun": "산8-1", "price": 10300}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2014-08-21", "dong": "하동", "floor": 19, "jibun": "123", "price": 12200}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-08-22", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 9200}
+{"apt": "삼진", "area": 56.07, "built": 1990, "date": "2014-08-25", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 7500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-08-25", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 5700}
+{"apt": "영동", "area": 59.47, "built": 1997, "date": "2014-08-26", "dong": "현암동", "floor": 1, "jibun": "177-23", "price": 7200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-08-27", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 5600}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2014-09-01", "dong": "홍문동", "floor": 12, "jibun": "377-1", "price": 14600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-09-02", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 5700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-09-02", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 5800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-09-02", "dong": "현암동", "floor": 17, "jibun": "188-1", "price": 5700}
+{"apt": "홍문현대102,104,105동", "area": 59.72, "built": 1996, "date": "2014-09-02", "dong": "홍문동", "floor": 12, "jibun": "181", "price": 13500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-09-03", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 8700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-09-05", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 8600}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2014-09-12", "dong": "홍문동", "floor": 4, "jibun": "산8-1", "price": 12700}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2014-09-13", "dong": "하동", "floor": 3, "jibun": "121-1", "price": 7900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-09-13", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 5700}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2014-09-15", "dong": "하동", "floor": 15, "jibun": "123", "price": 13200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-09-15", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 5800}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2014-09-16", "dong": "현암동", "floor": 1, "jibun": "177-3", "price": 7000}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2014-09-16", "dong": "홍문동", "floor": 18, "jibun": "181", "price": 17300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-09-17", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 5700}
+{"apt": "을성", "area": 51.42, "built": 1986, "date": "2014-09-20", "dong": "가남읍 태평리", "floor": 5, "jibun": "106-1", "price": 5600}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-09-22", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 8950}
+{"apt": "홍문현대102,104,105동", "area": 110.94, "built": 1996, "date": "2014-09-23", "dong": "홍문동", "floor": 9, "jibun": "181", "price": 23100}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-09-24", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 5600}
+{"apt": "홍문현대102,104,105동", "area": 59.72, "built": 1996, "date": "2014-09-25", "dong": "홍문동", "floor": 2, "jibun": "181", "price": 13000}
+{"apt": "홍문현대102,104,105동", "area": 59.72, "built": 1996, "date": "2014-09-27", "dong": "홍문동", "floor": 7, "jibun": "181", "price": 13800}
+{"apt": "홍문현대102,104,105동", "area": 84.77, "built": 1996, "date": "2014-09-27", "dong": "홍문동", "floor": 3, "jibun": "181", "price": 18650}
+{"apt": "삼진", "area": 56.07, "built": 1990, "date": "2014-09-30", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 7300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-09-30", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 4500}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2014-10-01", "dong": "홍문동", "floor": 8, "jibun": "181", "price": 18800}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2014-10-02", "dong": "점봉동", "floor": 6, "jibun": "114", "price": 9350}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2014-10-02", "dong": "하동", "floor": 15, "jibun": "121-1", "price": 7500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-10-02", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-10-03", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 9300}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2014-10-06", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 7000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-10-07", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 5800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-10-08", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 5800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-10-08", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 5800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-10-13", "dong": "가남읍 신해리", "floor": 7, "jibun": "620-17", "price": 9800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-10-14", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 5800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-10-14", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 5700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-10-15", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 9000}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2014-10-17", "dong": "홍문동", "floor": 14, "jibun": "377-1", "price": 10900}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2014-10-18", "dong": "하동", "floor": 7, "jibun": "123", "price": 13000}
+{"apt": "홍문현대102,104,105동", "area": 59.72, "built": 1996, "date": "2014-10-18", "dong": "홍문동", "floor": 1, "jibun": "181", "price": 13200}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2014-10-20", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 8000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-10-20", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 5800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-10-22", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 9300}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2014-10-28", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 7550}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-10-29", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 5600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-10-30", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 5700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-10-31", "dong": "가남읍 신해리", "floor": 3, "jibun": "620-17", "price": 9100}
+{"apt": "삼진", "area": 56.07, "built": 1990, "date": "2014-11-03", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 7600}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2014-11-05", "dong": "점봉동", "floor": 8, "jibun": "114", "price": 10000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-11-05", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 4800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-11-05", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 5800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-11-06", "dong": "현암동", "floor": 14, "jibun": "188-1", "price": 6000}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2014-11-10", "dong": "홍문동", "floor": 8, "jibun": "377-1", "price": 9500}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2014-11-12", "dong": "홍문동", "floor": 3, "jibun": "377-6", "price": 7200}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2014-11-19", "dong": "하동", "floor": 3, "jibun": "123", "price": 12600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-11-19", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 5500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-11-20", "dong": "가남읍 신해리", "floor": 3, "jibun": "620-17", "price": 9500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-11-21", "dong": "현암동", "floor": 14, "jibun": "188-1", "price": 5700}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2014-11-22", "dong": "홍문동", "floor": 1, "jibun": "377-1", "price": 16000}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2014-11-23", "dong": "하동", "floor": 4, "jibun": "123", "price": 12500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-11-25", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 8700}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2014-11-27", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 8200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2014-12-02", "dong": "현암동", "floor": 17, "jibun": "188-1", "price": 4780}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2014-12-02", "dong": "홍문동", "floor": 3, "jibun": "377-1", "price": 16000}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2014-12-11", "dong": "홍문동", "floor": 13, "jibun": "377-1", "price": 17800}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2014-12-13", "dong": "홍문동", "floor": 2, "jibun": "181", "price": 13000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-12-15", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 8400}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2014-12-16", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 7000}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2014-12-17", "dong": "홍문동", "floor": 15, "jibun": "377-1", "price": 9400}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2014-12-18", "dong": "홍문동", "floor": 12, "jibun": "181", "price": 18500}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2014-12-20", "dong": "하동", "floor": 2, "jibun": "123", "price": 17500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-12-22", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 9500}
+{"apt": "영동", "area": 59.47, "built": 1997, "date": "2014-12-23", "dong": "현암동", "floor": 1, "jibun": "177-23", "price": 7200}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2014-12-25", "dong": "홍문동", "floor": 12, "jibun": "181", "price": 13000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2014-12-29", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 11000}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-01-04", "dong": "홍문동", "floor": 14, "jibun": "181", "price": 14200}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-01-05", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 8400}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2015-01-06", "dong": "홍문동", "floor": 13, "jibun": "377-1", "price": 10050}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2015-01-08", "dong": "홍문동", "floor": 2, "jibun": "산8-1", "price": 11000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-01-09", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 10000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-01-12", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 9300}
+{"apt": "삼진", "area": 80.64, "built": 1990, "date": "2015-01-13", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 11900}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-01-15", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 9500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-01-16", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-01-17", "dong": "현암동", "floor": 14, "jibun": "188-1", "price": 5800}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2015-01-18", "dong": "하동", "floor": 3, "jibun": "123", "price": 13000}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2015-01-20", "dong": "홍문동", "floor": 6, "jibun": "377-6", "price": 5950}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2015-01-20", "dong": "홍문동", "floor": 4, "jibun": "377-6", "price": 7500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-01-22", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 5800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-01-23", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 5700}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2015-01-23", "dong": "홍문동", "floor": 7, "jibun": "181", "price": 17500}
+{"apt": "영동", "area": 59.47, "built": 1997, "date": "2015-01-26", "dong": "현암동", "floor": 6, "jibun": "177-23", "price": 5800}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-01-27", "dong": "홍문동", "floor": 7, "jibun": "181", "price": 13950}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2015-01-28", "dong": "현암동", "floor": 4, "jibun": "177-23", "price": 5900}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2015-01-30", "dong": "현암동", "floor": 1, "jibun": "177-23", "price": 7500}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2015-01-30", "dong": "홍문동", "floor": 5, "jibun": "산8-1", "price": 8000}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-01-31", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 7150}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-01-31", "dong": "홍문동", "floor": 7, "jibun": "181", "price": 14100}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-02-02", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 8200}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-02-02", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 7000}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-02-03", "dong": "홍문동", "floor": 10, "jibun": "181", "price": 13700}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2015-02-03", "dong": "홍문동", "floor": 4, "jibun": "377-6", "price": 7700}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2015-02-04", "dong": "홍문동", "floor": 11, "jibun": "377-1", "price": 10800}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-02-04", "dong": "홍문동", "floor": 5, "jibun": "377-1", "price": 14550}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-02-05", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 5750}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2015-02-07", "dong": "하동", "floor": 15, "jibun": "123", "price": 13200}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2015-02-07", "dong": "홍문동", "floor": 6, "jibun": "377-1", "price": 9500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-02-09", "dong": "가남읍 신해리", "floor": 7, "jibun": "620-17", "price": 10000}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2015-02-09", "dong": "하동", "floor": 1, "jibun": "121-1", "price": 8550}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-02-10", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-02-10", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 5950}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-02-10", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 6080}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-02-11", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 5850}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-02-11", "dong": "현암동", "floor": 17, "jibun": "188-1", "price": 6400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-02-12", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 5820}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2015-02-13", "dong": "하동", "floor": 19, "jibun": "123", "price": 13000}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2015-02-13", "dong": "하동", "floor": 7, "jibun": "123", "price": 18400}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-02-13", "dong": "홍문동", "floor": 13, "jibun": "377-1", "price": 14900}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-02-14", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 9300}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-02-14", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 9800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-02-14", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 9500}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2015-02-14", "dong": "하동", "floor": 9, "jibun": "121-1", "price": 9200}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-02-14", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 7800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-02-14", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 6100}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-02-17", "dong": "현암동", "floor": 18, "jibun": "188-1", "price": 5870}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2015-02-23", "dong": "홍문동", "floor": 7, "jibun": "181", "price": 18000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-02-24", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 9500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-02-25", "dong": "현암동", "floor": 11, "jibun": "188-1", "price": 5550}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-02-25", "dong": "현암동", "floor": 17, "jibun": "188-1", "price": 5800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-02-26", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 5000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-02-27", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 9300}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-02-27", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 9750}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2015-02-27", "dong": "하동", "floor": 1, "jibun": "123", "price": 12500}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2015-02-27", "dong": "현암동", "floor": 4, "jibun": "177-23", "price": 5900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-02-28", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 5200}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-03-02", "dong": "가남읍 신해리", "floor": 7, "jibun": "620-17", "price": 10750}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2015-03-02", "dong": "하동", "floor": 12, "jibun": "121-1", "price": 8100}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-03-03", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 9100}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-03-03", "dong": "홍문동", "floor": 6, "jibun": "377-1", "price": 14500}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2015-03-04", "dong": "현암동", "floor": 2, "jibun": "177-23", "price": 7000}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-03-06", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 6500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-03-07", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 10500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-09", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 5800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-03-10", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 9750}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-03-10", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 7300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-11", "dong": "현암동", "floor": 14, "jibun": "188-1", "price": 6300}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-03-11", "dong": "홍문동", "floor": 14, "jibun": "181", "price": 13450}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-03-12", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 9500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-12", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5100}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-12", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 6000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-12", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 6000}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2015-03-13", "dong": "홍문동", "floor": 3, "jibun": "377-6", "price": 7700}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-03-14", "dong": "홍문동", "floor": 18, "jibun": "181", "price": 12800}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2015-03-15", "dong": "현암동", "floor": 3, "jibun": "177-23", "price": 7000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-15", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5600}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-03-15", "dong": "홍문동", "floor": 6, "jibun": "181", "price": 13550}
+{"apt": "삼진", "area": 82.08, "built": 1990, "date": "2015-03-16", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 10000}
+{"apt": "삼진", "area": 56.07, "built": 1990, "date": "2015-03-17", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 7500}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-03-17", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 6600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-17", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 5500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-17", "dong": "현암동", "floor": 18, "jibun": "188-1", "price": 5800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-03-18", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 9000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-03-18", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 9250}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-03-19", "dong": "홍문동", "floor": 7, "jibun": "181", "price": 13700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-03-21", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 9000}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2015-03-21", "dong": "현암동", "floor": 1, "jibun": "177-23", "price": 7100}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-03-21", "dong": "홍문동", "floor": 15, "jibun": "181", "price": 14100}
+{"apt": "삼진", "area": 82.08, "built": 1990, "date": "2015-03-23", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 7000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-23", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 5400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-24", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5370}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-24", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 4540}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-24", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 6000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-25", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 6300}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2015-03-25", "dong": "홍문동", "floor": 3, "jibun": "377-6", "price": 7600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-26", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-26", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 6400}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-03-28", "dong": "현암동", "floor": 1, "jibun": "177-3", "price": 6800}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-03-28", "dong": "홍문동", "floor": 1, "jibun": "377-1", "price": 13000}
+{"apt": "삼진", "area": 82.08, "built": 1990, "date": "2015-03-30", "dong": "현암동", "floor": 1, "jibun": "177-3", "price": 9700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-03-31", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 6100}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2015-04-01", "dong": "하동", "floor": 19, "jibun": "123", "price": 12900}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2015-04-01", "dong": "홍문동", "floor": 5, "jibun": "산8-1", "price": 11000}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2015-04-02", "dong": "점봉동", "floor": 8, "jibun": "114", "price": 9250}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-04-02", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 7500}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-04-03", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 7100}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-04-03", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 6000}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2015-04-04", "dong": "홍문동", "floor": 9, "jibun": "377-1", "price": 10600}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-04-05", "dong": "가남읍 신해리", "floor": 9, "jibun": "620-17", "price": 10000}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2015-04-06", "dong": "홍문동", "floor": 4, "jibun": "181", "price": 18300}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-04-06", "dong": "홍문동", "floor": 6, "jibun": "377-1", "price": 14800}
+{"apt": "삼한강변", "area": 122.59, "built": 1993, "date": "2015-04-07", "dong": "하동", "floor": 16, "jibun": "122-7", "price": 15000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-04-07", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 4500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-04-07", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 5950}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-04-08", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 6000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-04-08", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 6000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-04-08", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 6500}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2015-04-09", "dong": "홍문동", "floor": 9, "jibun": "377-1", "price": 10600}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2015-04-09", "dong": "홍문동", "floor": 3, "jibun": "산8-1", "price": 11700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-04-15", "dong": "가남읍 신해리", "floor": 7, "jibun": "620-17", "price": 10500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-04-16", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 9300}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2015-04-16", "dong": "홍문동", "floor": 4, "jibun": "377-1", "price": 18800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-04-17", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 5750}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-04-17", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 5800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-04-20", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5000}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2015-04-21", "dong": "현암동", "floor": 6, "jibun": "177-23", "price": 6200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-04-21", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 5800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-04-24", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 10300}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-04-25", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 10000}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-04-25", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 6800}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-04-25", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 7200}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-04-26", "dong": "홍문동", "floor": 15, "jibun": "181", "price": 14100}
+{"apt": "유원로얄", "area": 98.07, "built": 1991, "date": "2015-05-04", "dong": "상동", "floor": 9, "jibun": "374-2", "price": 14000}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2015-05-04", "dong": "하동", "floor": 10, "jibun": "123", "price": 14300}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2015-05-04", "dong": "현암동", "floor": 6, "jibun": "177-23", "price": 7500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-05-06", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 5600}
+{"apt": "반석", "area": 61.68, "built": 1989, "date": "2015-05-07", "dong": "홍문동", "floor": 5, "jibun": "303-8", "price": 7400}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-05-07", "dong": "홍문동", "floor": 15, "jibun": "377-1", "price": 13700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-05-13", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 8500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-05-13", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 5700}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-05-13", "dong": "홍문동", "floor": 4, "jibun": "181", "price": 13800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-05-15", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 5850}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2015-05-17", "dong": "홍문동", "floor": 8, "jibun": "181", "price": 20600}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-05-18", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 6700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-05-18", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 6100}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2015-05-22", "dong": "점봉동", "floor": 8, "jibun": "114", "price": 9700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-05-22", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 5650}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-05-22", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 5900}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-05-22", "dong": "홍문동", "floor": 5, "jibun": "181", "price": 14500}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2015-05-22", "dong": "홍문동", "floor": 13, "jibun": "377-1", "price": 10500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-05-23", "dong": "현암동", "floor": 11, "jibun": "188-1", "price": 5850}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2015-05-29", "dong": "점봉동", "floor": 2, "jibun": "114", "price": 9000}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2015-05-29", "dong": "점봉동", "floor": 2, "jibun": "114", "price": 10000}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2015-05-29", "dong": "홍문동", "floor": 2, "jibun": "산8-1", "price": 11000}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2015-05-30", "dong": "점봉동", "floor": 9, "jibun": "114", "price": 10400}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-05-30", "dong": "현암동", "floor": 1, "jibun": "177-3", "price": 7000}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2015-05-30", "dong": "홍문동", "floor": 5, "jibun": "377-1", "price": 10500}
+{"apt": "대우", "area": 65.34, "built": 1991, "date": "2015-06-02", "dong": "홍문동", "floor": 5, "jibun": "286-11", "price": 11800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-06-05", "dong": "가남읍 신해리", "floor": 7, "jibun": "620-17", "price": 10300}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-06-05", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 7250}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2015-06-07", "dong": "홍문동", "floor": 4, "jibun": "산8-1", "price": 11750}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2015-06-09", "dong": "홍문동", "floor": 5, "jibun": "산8-1", "price": 8000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-06-10", "dong": "현암동", "floor": 14, "jibun": "188-1", "price": 6100}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2015-06-11", "dong": "홍문동", "floor": 4, "jibun": "377-6", "price": 8800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-06-12", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5400}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2015-06-12", "dong": "홍문동", "floor": 6, "jibun": "377-1", "price": 18000}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2015-06-12", "dong": "홍문동", "floor": 3, "jibun": "산8-1", "price": 12000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-06-13", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 6050}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2015-06-14", "dong": "현암동", "floor": 2, "jibun": "177-23", "price": 7300}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-06-15", "dong": "홍문동", "floor": 1, "jibun": "377-1", "price": 13100}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-06-16", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 7500}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2015-06-16", "dong": "홍문동", "floor": 2, "jibun": "181", "price": 18000}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2015-06-17", "dong": "홍문동", "floor": 8, "jibun": "377-1", "price": 10800}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-06-19", "dong": "현암동", "floor": 1, "jibun": "177-3", "price": 7000}
+{"apt": "삼한", "area": 64.0, "built": 1991, "date": "2015-06-19", "dong": "홍문동", "floor": 2, "jibun": "산8-1", "price": 10300}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2015-06-20", "dong": "홍문동", "floor": 5, "jibun": "산8-1", "price": 8700}
+{"apt": "삼한", "area": 75.34, "built": 1991, "date": "2015-06-21", "dong": "홍문동", "floor": 4, "jibun": "산8-1", "price": 11000}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2015-06-21", "dong": "홍문동", "floor": 4, "jibun": "산8-1", "price": 11000}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2015-06-22", "dong": "하동", "floor": 8, "jibun": "121-1", "price": 10600}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2015-06-23", "dong": "홍문동", "floor": 1, "jibun": "377-1", "price": 16700}
+{"apt": "영동", "area": 59.47, "built": 1997, "date": "2015-06-24", "dong": "현암동", "floor": 5, "jibun": "177-23", "price": 7500}
+{"apt": "삼한강변", "area": 59.91, "built": 1993, "date": "2015-06-25", "dong": "하동", "floor": 13, "jibun": "122-7", "price": 10900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-06-26", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 5700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-06-27", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 6200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-06-27", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 6150}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-06-30", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 9500}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-07-01", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 7800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-07-01", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 6150}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-07-01", "dong": "홍문동", "floor": 18, "jibun": "181", "price": 10000}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2015-07-01", "dong": "홍문동", "floor": 2, "jibun": "181", "price": 18200}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-07-02", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 6600}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-07-02", "dong": "홍문동", "floor": 14, "jibun": "181", "price": 14700}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-07-02", "dong": "홍문동", "floor": 15, "jibun": "181", "price": 13700}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-07-03", "dong": "현암동", "floor": 1, "jibun": "177-3", "price": 6700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-07-04", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 6200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-07-04", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 6000}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-07-05", "dong": "홍문동", "floor": 10, "jibun": "181", "price": 15000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-07-06", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 9800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-07-06", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 10300}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-07-06", "dong": "홍문동", "floor": 3, "jibun": "377-1", "price": 13500}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2015-07-07", "dong": "하동", "floor": 10, "jibun": "123", "price": 13000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-07-08", "dong": "가남읍 신해리", "floor": 3, "jibun": "620-17", "price": 11500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-07-09", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 6300}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-07-11", "dong": "홍문동", "floor": 8, "jibun": "377-1", "price": 15500}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2015-07-13", "dong": "점봉동", "floor": 6, "jibun": "114", "price": 11000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-07-13", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 6750}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-07-13", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 6400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-07-14", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 6300}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-07-15", "dong": "홍문동", "floor": 7, "jibun": "377-1", "price": 15500}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-07-18", "dong": "홍문동", "floor": 10, "jibun": "181", "price": 14900}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-07-19", "dong": "홍문동", "floor": 12, "jibun": "377-1", "price": 14500}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2015-07-20", "dong": "하동", "floor": 8, "jibun": "123", "price": 18700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-07-20", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 6250}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-07-20", "dong": "홍문동", "floor": 5, "jibun": "377-1", "price": 14700}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2015-07-20", "dong": "홍문동", "floor": 4, "jibun": "377-6", "price": 9450}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2015-07-21", "dong": "점봉동", "floor": 10, "jibun": "114", "price": 10800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-07-21", "dong": "현암동", "floor": 14, "jibun": "188-1", "price": 6400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-07-23", "dong": "현암동", "floor": 17, "jibun": "188-1", "price": 6350}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2015-07-23", "dong": "홍문동", "floor": 5, "jibun": "산8-1", "price": 10500}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2015-07-24", "dong": "홍문동", "floor": 1, "jibun": "산8-1", "price": 11500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-07-25", "dong": "현암동", "floor": 17, "jibun": "188-1", "price": 6700}
+{"apt": "삼진", "area": 56.07, "built": 1990, "date": "2015-07-26", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 7500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-07-26", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 5500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-07-27", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-07-27", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5300}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-07-28", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 9600}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-07-29", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 9200}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2015-07-30", "dong": "하동", "floor": 4, "jibun": "123", "price": 13500}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-07-30", "dong": "홍문동", "floor": 5, "jibun": "377-1", "price": 15000}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2015-07-31", "dong": "하동", "floor": 13, "jibun": "123", "price": 18250}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2015-08-01", "dong": "점봉동", "floor": 9, "jibun": "114", "price": 10000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-08-02", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 6000}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2015-08-03", "dong": "하동", "floor": 9, "jibun": "121-1", "price": 9700}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2015-08-04", "dong": "하동", "floor": 1, "jibun": "123", "price": 12150}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-08-04", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5900}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2015-08-05", "dong": "하동", "floor": 8, "jibun": "123", "price": 17000}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-08-05", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 7000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-08-07", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 9900}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-08-08", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 10500}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-08-10", "dong": "홍문동", "floor": 15, "jibun": "377-1", "price": 15000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-08-11", "dong": "가남읍 신해리", "floor": 7, "jibun": "620-17", "price": 10750}
+{"apt": "을성", "area": 60.69, "built": 1986, "date": "2015-08-11", "dong": "가남읍 태평리", "floor": 1, "jibun": "106-1", "price": 8000}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2015-08-11", "dong": "홍문동", "floor": 2, "jibun": "377-6", "price": 10300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-08-14", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 6500}
+{"apt": "삼진", "area": 82.08, "built": 1990, "date": "2015-08-15", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 10000}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2015-08-15", "dong": "홍문동", "floor": 7, "jibun": "181", "price": 18000}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-08-17", "dong": "홍문동", "floor": 20, "jibun": "181", "price": 13700}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2015-08-17", "dong": "홍문동", "floor": 9, "jibun": "377-1", "price": 11300}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-08-18", "dong": "홍문동", "floor": 6, "jibun": "181", "price": 14900}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-08-19", "dong": "가남읍 신해리", "floor": 3, "jibun": "620-17", "price": 10300}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2015-08-19", "dong": "하동", "floor": 4, "jibun": "123", "price": 15500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-08-19", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 6450}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-08-19", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 6700}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2015-08-20", "dong": "하동", "floor": 12, "jibun": "121-1", "price": 9300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-08-20", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 6900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-08-23", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 6500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-08-23", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 6540}
+{"apt": "삼진", "area": 56.07, "built": 1990, "date": "2015-08-24", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 7300}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-08-24", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 7300}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-08-24", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 7500}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2015-08-25", "dong": "하동", "floor": 14, "jibun": "123", "price": 14950}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-08-27", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 6500}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2015-08-28", "dong": "홍문동", "floor": 14, "jibun": "377-1", "price": 11500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-08-29", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 6470}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-09-01", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 9700}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2015-09-05", "dong": "현암동", "floor": 3, "jibun": "177-23", "price": 7500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-09-07", "dong": "가남읍 신해리", "floor": 3, "jibun": "620-17", "price": 10100}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-09-10", "dong": "현암동", "floor": 18, "jibun": "188-1", "price": 6200}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-09-11", "dong": "홍문동", "floor": 10, "jibun": "377-1", "price": 15300}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-09-12", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 7600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-09-13", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 6500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-09-15", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 10500}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2015-09-15", "dong": "현암동", "floor": 4, "jibun": "177-23", "price": 7400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-09-15", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-09-15", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 6600}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2015-09-19", "dong": "홍문동", "floor": 3, "jibun": "377-1", "price": 11000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-09-21", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 6200}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-09-22", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 6400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-09-22", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 5500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-09-23", "dong": "가남읍 신해리", "floor": 6, "jibun": "620-17", "price": 10500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-09-23", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 6460}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-09-24", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 6500}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2015-09-25", "dong": "점봉동", "floor": 2, "jibun": "114", "price": 9800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-09-25", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 7300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-09-25", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 7000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-09-25", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 7500}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2015-09-25", "dong": "홍문동", "floor": 4, "jibun": "377-1", "price": 12250}
+{"apt": "삼한", "area": 54.04, "built": 1991, "date": "2015-09-30", "dong": "홍문동", "floor": 1, "jibun": "산8-1", "price": 7800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-10-01", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 6000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-10-01", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 5900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-10-01", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 6400}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2015-10-02", "dong": "점봉동", "floor": 12, "jibun": "114", "price": 10500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-10-02", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 8400}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-10-03", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 9800}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2015-10-03", "dong": "홍문동", "floor": 6, "jibun": "377-6", "price": 6250}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2015-10-05", "dong": "하동", "floor": 8, "jibun": "121-1", "price": 9800}
+{"apt": "삼한강변", "area": 84.65, "built": 1993, "date": "2015-10-05", "dong": "하동", "floor": 16, "jibun": "122-7", "price": 15500}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2015-10-05", "dong": "홍문동", "floor": 4, "jibun": "산8-1", "price": 12800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-10-08", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 7000}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-10-08", "dong": "홍문동", "floor": 1, "jibun": "377-1", "price": 14400}
+{"apt": "삼진", "area": 82.08, "built": 1990, "date": "2015-10-09", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 11900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-10-11", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 6850}
+{"apt": "을성", "area": 60.69, "built": 1986, "date": "2015-10-14", "dong": "가남읍 태평리", "floor": 5, "jibun": "106-1", "price": 7000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-10-16", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 10800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-10-19", "dong": "현암동", "floor": 11, "jibun": "188-1", "price": 6450}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-10-19", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 7000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-10-21", "dong": "가남읍 신해리", "floor": 7, "jibun": "620-17", "price": 10800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-10-21", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 6200}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-10-22", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 7550}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-10-24", "dong": "현암동", "floor": 11, "jibun": "188-1", "price": 7000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-10-26", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 6450}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-10-29", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 7250}
+{"apt": "을성", "area": 60.69, "built": 1986, "date": "2015-10-30", "dong": "가남읍 태평리", "floor": 1, "jibun": "106-1", "price": 6900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-10-30", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 7100}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2015-11-02", "dong": "홍문동", "floor": 1, "jibun": "181", "price": 18300}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2015-11-03", "dong": "홍문동", "floor": 10, "jibun": "181", "price": 19700}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2015-11-04", "dong": "하동", "floor": 6, "jibun": "123", "price": 14800}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2015-11-06", "dong": "홍문동", "floor": 3, "jibun": "181", "price": 18350}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2015-11-07", "dong": "홍문동", "floor": 5, "jibun": "377-6", "price": 9500}
+{"apt": "을성", "area": 51.42, "built": 1986, "date": "2015-11-09", "dong": "가남읍 태평리", "floor": 3, "jibun": "106-1", "price": 7100}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-11-09", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 6800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-11-09", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 6200}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2015-11-10", "dong": "홍문동", "floor": 13, "jibun": "181", "price": 22000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-11-12", "dong": "현암동", "floor": 11, "jibun": "188-1", "price": 7000}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2015-11-12", "dong": "홍문동", "floor": 3, "jibun": "산8-1", "price": 12000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-11-13", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 6300}
+{"apt": "상우2차", "area": 41.41, "built": 1994, "date": "2015-11-13", "dong": "홍문동", "floor": 6, "jibun": "377-6", "price": 5200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-11-17", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 7100}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-11-17", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 6800}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-11-17", "dong": "홍문동", "floor": 5, "jibun": "181", "price": 15000}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2015-11-20", "dong": "현암동", "floor": 1, "jibun": "177-23", "price": 7500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-11-20", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 7400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-11-21", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 7300}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2015-11-23", "dong": "점봉동", "floor": 6, "jibun": "114", "price": 11500}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2015-11-23", "dong": "홍문동", "floor": 8, "jibun": "377-1", "price": 10800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-11-24", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 11200}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2015-11-25", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 6900}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2015-11-25", "dong": "홍문동", "floor": 12, "jibun": "377-1", "price": 15500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-11-26", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 10050}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2015-11-27", "dong": "점봉동", "floor": 8, "jibun": "114", "price": 11500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-11-27", "dong": "현암동", "floor": 14, "jibun": "188-1", "price": 7500}
+{"apt": "홍문현대", "area": 110.94, "built": 1996, "date": "2015-11-30", "dong": "홍문동", "floor": 6, "jibun": "181", "price": 23700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-12-07", "dong": "가남읍 신해리", "floor": 6, "jibun": "620-17", "price": 10800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-12-07", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 7800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-12-07", "dong": "현암동", "floor": 14, "jibun": "188-1", "price": 7700}
+{"apt": "삼한", "area": 54.04, "built": 1991, "date": "2015-12-07", "dong": "홍문동", "floor": 2, "jibun": "산8-1", "price": 8000}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2015-12-08", "dong": "하동", "floor": 4, "jibun": "123", "price": 14600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-12-09", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 7150}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-12-10", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 7170}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-12-10", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 6500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-12-11", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 7400}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2015-12-14", "dong": "하동", "floor": 2, "jibun": "123", "price": 13500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-12-14", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 7450}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2015-12-16", "dong": "홍문동", "floor": 2, "jibun": "377-6", "price": 8000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-12-17", "dong": "가남읍 신해리", "floor": 2, "jibun": "620-17", "price": 10000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-12-17", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 10000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-12-18", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 10500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-12-21", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 6700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-12-21", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 6900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2015-12-22", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 6850}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2015-12-23", "dong": "하동", "floor": 3, "jibun": "123", "price": 18300}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2015-12-23", "dong": "홍문동", "floor": 2, "jibun": "377-6", "price": 8300}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-12-24", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 9500}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2015-12-25", "dong": "하동", "floor": 8, "jibun": "123", "price": 19900}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2015-12-29", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 11000}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2015-12-29", "dong": "홍문동", "floor": 1, "jibun": "181", "price": 14000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-01-04", "dong": "가남읍 신해리", "floor": 7, "jibun": "620-17", "price": 11000}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2016-01-05", "dong": "홍문동", "floor": 15, "jibun": "181", "price": 15350}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-01-07", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 10400}
+{"apt": "삼한강변", "area": 59.91, "built": 1993, "date": "2016-01-09", "dong": "하동", "floor": 6, "jibun": "122-7", "price": 11300}
+{"apt": "삼진", "area": 80.64, "built": 1990, "date": "2016-01-10", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 9000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-01-11", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 7000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-01-13", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 10800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-01-13", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 7000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-01-14", "dong": "가남읍 신해리", "floor": 7, "jibun": "620-17", "price": 10800}
+{"apt": "유원로얄", "area": 119.58, "built": 1991, "date": "2016-01-14", "dong": "상동", "floor": 9, "jibun": "374-2", "price": 10500}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2016-01-14", "dong": "점봉동", "floor": 3, "jibun": "114", "price": 10500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-01-14", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 7200}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2016-01-22", "dong": "점봉동", "floor": 6, "jibun": "114", "price": 10400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-01-23", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 7000}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2016-01-26", "dong": "점봉동", "floor": 12, "jibun": "114", "price": 9300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-01-26", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 7000}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2016-01-28", "dong": "현암동", "floor": 1, "jibun": "177-23", "price": 7500}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2016-01-30", "dong": "홍문동", "floor": 3, "jibun": "377-1", "price": 14700}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2016-02-03", "dong": "홍문동", "floor": 2, "jibun": "377-6", "price": 8500}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2016-02-03", "dong": "홍문동", "floor": 6, "jibun": "377-6", "price": 9100}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-02-04", "dong": "가남읍 신해리", "floor": 3, "jibun": "620-17", "price": 10700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-02-04", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 7400}
+{"apt": "유원로얄", "area": 129.84, "built": 1991, "date": "2016-02-05", "dong": "상동", "floor": 1, "jibun": "374-2", "price": 11000}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2016-02-08", "dong": "홍문동", "floor": 1, "jibun": "산8-1", "price": 12800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-02-11", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 7200}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2016-02-13", "dong": "홍문동", "floor": 11, "jibun": "181", "price": 20000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-02-16", "dong": "현암동", "floor": 14, "jibun": "188-1", "price": 7300}
+{"apt": "삼진", "area": 56.07, "built": 1990, "date": "2016-02-22", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 7200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-02-23", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 6800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-02-23", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 7100}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2016-02-23", "dong": "홍문동", "floor": 4, "jibun": "산8-1", "price": 13600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-02-24", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 7000}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2016-02-24", "dong": "홍문동", "floor": 1, "jibun": "377-6", "price": 8500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-02-25", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 7000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-02-26", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 6900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-02", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 6400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-02", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 7700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-04", "dong": "현암동", "floor": 18, "jibun": "188-1", "price": 6600}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2016-03-06", "dong": "홍문동", "floor": 5, "jibun": "377-1", "price": 12500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-07", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 7200}
+{"apt": "삼한", "area": 64.0, "built": 1991, "date": "2016-03-07", "dong": "홍문동", "floor": 1, "jibun": "산8-1", "price": 10300}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-03-09", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 7300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-10", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 7000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-10", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 7300}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-03-11", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 10800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-11", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 6700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-11", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 7250}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2016-03-13", "dong": "홍문동", "floor": 1, "jibun": "377-1", "price": 12000}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2016-03-14", "dong": "하동", "floor": 7, "jibun": "123", "price": 15500}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-03-14", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 6800}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2016-03-14", "dong": "홍문동", "floor": 12, "jibun": "181", "price": 22500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-03-15", "dong": "가남읍 신해리", "floor": 7, "jibun": "620-17", "price": 10800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-03-15", "dong": "가남읍 신해리", "floor": 9, "jibun": "620-17", "price": 10500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-15", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 7000}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-03-16", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 6800}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-03-17", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 8400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-17", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 7300}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2016-03-19", "dong": "홍문동", "floor": 8, "jibun": "181", "price": 16000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-22", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 6800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-23", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 6600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-23", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 7800}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2016-03-24", "dong": "점봉동", "floor": 12, "jibun": "114", "price": 10000}
+{"apt": "삼진", "area": 82.08, "built": 1990, "date": "2016-03-24", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 14000}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-03-25", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 8000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-03-28", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 10000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-28", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 7100}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-03-28", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 7500}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2016-03-28", "dong": "홍문동", "floor": 3, "jibun": "181", "price": 14500}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2016-03-30", "dong": "홍문동", "floor": 5, "jibun": "377-6", "price": 8800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-04-01", "dong": "가남읍 신해리", "floor": 9, "jibun": "620-17", "price": 11600}
+{"apt": "유원로얄", "area": 129.84, "built": 1991, "date": "2016-04-02", "dong": "상동", "floor": 6, "jibun": "374-2", "price": 13800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-04-02", "dong": "현암동", "floor": 18, "jibun": "188-1", "price": 6900}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2016-04-03", "dong": "홍문동", "floor": 1, "jibun": "377-6", "price": 8300}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-04-04", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 7950}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-04-04", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 7300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-04-04", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 7300}
+{"apt": "반석", "area": 66.0, "built": 1989, "date": "2016-04-06", "dong": "홍문동", "floor": 1, "jibun": "303-8", "price": 10500}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2016-04-06", "dong": "홍문동", "floor": 3, "jibun": "산8-1", "price": 13900}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-04-09", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 7800}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2016-04-10", "dong": "홍문동", "floor": 14, "jibun": "377-1", "price": 13750}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2016-04-13", "dong": "홍문동", "floor": 3, "jibun": "377-6", "price": 11000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-04-15", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 7450}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-04-16", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 10100}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-04-16", "dong": "현암동", "floor": 11, "jibun": "188-1", "price": 7500}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2016-04-16", "dong": "홍문동", "floor": 5, "jibun": "산8-1", "price": 11800}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2016-04-18", "dong": "홍문동", "floor": 1, "jibun": "377-1", "price": 21000}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2016-04-20", "dong": "홍문동", "floor": 18, "jibun": "181", "price": 15400}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-04-22", "dong": "가남읍 신해리", "floor": 9, "jibun": "620-17", "price": 11700}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2016-04-23", "dong": "하동", "floor": 15, "jibun": "123", "price": 14800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-04-29", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 7000}
+{"apt": "삼진", "area": 82.08, "built": 1990, "date": "2016-04-30", "dong": "현암동", "floor": 1, "jibun": "177-3", "price": 12500}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-05-02", "dong": "현암동", "floor": 1, "jibun": "177-3", "price": 7600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-05-02", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 7000}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2016-05-07", "dong": "홍문동", "floor": 6, "jibun": "377-1", "price": 17150}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2016-05-09", "dong": "홍문동", "floor": 13, "jibun": "181", "price": 15200}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2016-05-09", "dong": "홍문동", "floor": 11, "jibun": "181", "price": 22700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-05-11", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 7400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-05-11", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 7400}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2016-05-12", "dong": "하동", "floor": 1, "jibun": "123", "price": 17700}
+{"apt": "삼진", "area": 80.64, "built": 1990, "date": "2016-05-12", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 9000}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2016-05-14", "dong": "홍문동", "floor": 2, "jibun": "377-1", "price": 17000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-05-17", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 7600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-05-18", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 7500}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2016-05-18", "dong": "홍문동", "floor": 4, "jibun": "377-1", "price": 19200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-05-19", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 6900}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2016-05-19", "dong": "홍문동", "floor": 3, "jibun": "377-6", "price": 11500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-05-20", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 7450}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2016-05-21", "dong": "홍문동", "floor": 18, "jibun": "181", "price": 16000}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2016-05-23", "dong": "홍문동", "floor": 21, "jibun": "181", "price": 17000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-05-24", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 7500}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2016-05-24", "dong": "홍문동", "floor": 8, "jibun": "377-1", "price": 12450}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2016-05-27", "dong": "점봉동", "floor": 4, "jibun": "114", "price": 11500}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2016-05-27", "dong": "하동", "floor": 17, "jibun": "123", "price": 15500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-05-28", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 7550}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-05-30", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 7200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-05-31", "dong": "현암동", "floor": 11, "jibun": "188-1", "price": 7250}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2016-05-31", "dong": "홍문동", "floor": 2, "jibun": "377-6", "price": 8500}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-06-01", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 8200}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-06-05", "dong": "가남읍 신해리", "floor": 9, "jibun": "620-17", "price": 12000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-06-07", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 7500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-06-07", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 7400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-06-08", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 7800}
+{"apt": "홍문현대", "area": 110.94, "built": 1996, "date": "2016-06-08", "dong": "홍문동", "floor": 3, "jibun": "181", "price": 12000}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2016-06-08", "dong": "홍문동", "floor": 6, "jibun": "377-6", "price": 6900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-06-11", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 8000}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2016-06-11", "dong": "홍문동", "floor": 14, "jibun": "181", "price": 22900}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2016-06-13", "dong": "하동", "floor": 12, "jibun": "123", "price": 16000}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2016-06-13", "dong": "홍문동", "floor": 16, "jibun": "377-1", "price": 15700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-06-14", "dong": "현암동", "floor": 17, "jibun": "188-1", "price": 7400}
+{"apt": "삼진", "area": 56.07, "built": 1990, "date": "2016-06-15", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 8400}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2016-06-16", "dong": "점봉동", "floor": 4, "jibun": "114", "price": 9500}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-06-16", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 8250}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-06-16", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 8000}
+{"apt": "하나", "area": 59.91, "built": 1992, "date": "2016-06-17", "dong": "하동", "floor": 4, "jibun": "121-1", "price": 7400}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2016-06-18", "dong": "홍문동", "floor": 1, "jibun": "산8-1", "price": 13400}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2016-06-20", "dong": "홍문동", "floor": 4, "jibun": "산8-1", "price": 13800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-06-24", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 7000}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2016-06-26", "dong": "점봉동", "floor": 9, "jibun": "114", "price": 11400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-06-26", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 7550}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2016-06-27", "dong": "하동", "floor": 17, "jibun": "123", "price": 15500}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-06-27", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 7500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-06-27", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 7500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-06-28", "dong": "현암동", "floor": 17, "jibun": "188-1", "price": 7000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-06-30", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 7900}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-07-01", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 8000}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-07-01", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 8100}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-07-04", "dong": "가남읍 신해리", "floor": 9, "jibun": "620-17", "price": 11300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-07-04", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 7400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-07-05", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 7200}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2016-07-06", "dong": "홍문동", "floor": 12, "jibun": "181", "price": 16000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-07-08", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 4500}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2016-07-09", "dong": "하동", "floor": 12, "jibun": "123", "price": 21300}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2016-07-12", "dong": "홍문동", "floor": 4, "jibun": "181", "price": 16000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-07-14", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 11600}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2016-07-16", "dong": "홍문동", "floor": 10, "jibun": "377-1", "price": 13500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-07-19", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 7600}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-07-20", "dong": "현암동", "floor": 1, "jibun": "177-3", "price": 7400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-07-21", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 7600}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-07-21", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 7700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-07-22", "dong": "가남읍 신해리", "floor": 4, "jibun": "620-17", "price": 10000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-07-26", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 8000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-08-02", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 10550}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-08-02", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 8000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-08-03", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 10200}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2016-08-03", "dong": "현암동", "floor": 3, "jibun": "177-23", "price": 7800}
+{"apt": "삼한강변", "area": 59.91, "built": 1993, "date": "2016-08-04", "dong": "하동", "floor": 6, "jibun": "122-7", "price": 11200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-08-04", "dong": "현암동", "floor": 11, "jibun": "188-1", "price": 5200}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2016-08-04", "dong": "홍문동", "floor": 1, "jibun": "산8-1", "price": 14600}
+{"apt": "하나", "area": 59.91, "built": 1992, "date": "2016-08-05", "dong": "하동", "floor": 2, "jibun": "121-1", "price": 7500}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-08-06", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 8000}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2016-08-08", "dong": "현암동", "floor": 1, "jibun": "177-23", "price": 7800}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2016-08-08", "dong": "홍문동", "floor": 5, "jibun": "산8-1", "price": 13700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-08-09", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 7400}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2016-08-11", "dong": "홍문동", "floor": 8, "jibun": "181", "price": 16500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-08-12", "dong": "가남읍 신해리", "floor": 5, "jibun": "620-17", "price": 10450}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-08-16", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 8000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-08-16", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 7500}
+{"apt": "상우1차", "area": 59.79, "built": 1993, "date": "2016-08-16", "dong": "홍문동", "floor": 11, "jibun": "377-1", "price": 13400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-08-18", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 7450}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2016-08-18", "dong": "홍문동", "floor": 6, "jibun": "377-1", "price": 20500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-08-22", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 10500}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2016-08-22", "dong": "현암동", "floor": 2, "jibun": "177-23", "price": 7000}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-08-25", "dong": "가남읍 신해리", "floor": 6, "jibun": "620-17", "price": 10850}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-08-30", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 9300}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2016-08-30", "dong": "현암동", "floor": 6, "jibun": "177-23", "price": 7000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-08-30", "dong": "현암동", "floor": 1, "jibun": "188-1", "price": 6500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-08-30", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 8400}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2016-08-30", "dong": "홍문동", "floor": 2, "jibun": "377-6", "price": 11500}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2016-09-02", "dong": "홍문동", "floor": 2, "jibun": "377-6", "price": 11500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-09-05", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 8200}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2016-09-07", "dong": "점봉동", "floor": 4, "jibun": "114", "price": 12300}
+{"apt": "홍문현대", "area": 110.94, "built": 1996, "date": "2016-09-08", "dong": "홍문동", "floor": 10, "jibun": "181", "price": 26700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-09-10", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 8300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-09-10", "dong": "현암동", "floor": 10, "jibun": "188-1", "price": 8100}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-09-12", "dong": "현암동", "floor": 4, "jibun": "188-1", "price": 8000}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2016-09-12", "dong": "홍문동", "floor": 5, "jibun": "181", "price": 16400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-09-21", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 8500}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2016-09-21", "dong": "홍문동", "floor": 12, "jibun": "181", "price": 23100}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2016-09-21", "dong": "홍문동", "floor": 15, "jibun": "181", "price": 21700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-09-27", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 7500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-09-27", "dong": "현암동", "floor": 9, "jibun": "188-1", "price": 8900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-09-28", "dong": "현암동", "floor": 5, "jibun": "188-1", "price": 8000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-09-28", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 8200}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2016-09-30", "dong": "홍문동", "floor": 7, "jibun": "181", "price": 14300}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-10-05", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 7600}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2016-10-06", "dong": "홍문동", "floor": 4, "jibun": "181", "price": 21800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-10-11", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 8400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-10-11", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 8500}
+{"apt": "홍문현대", "area": 59.72, "built": 1996, "date": "2016-10-13", "dong": "홍문동", "floor": 19, "jibun": "181", "price": 17000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-10-15", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 8250}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-10-18", "dong": "현암동", "floor": 3, "jibun": "188-1", "price": 7500}
+{"apt": "홍문현대", "area": 84.77, "built": 1996, "date": "2016-10-19", "dong": "홍문동", "floor": 8, "jibun": "181", "price": 21000}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2016-10-19", "dong": "홍문동", "floor": 7, "jibun": "377-1", "price": 17000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-10-20", "dong": "현암동", "floor": 18, "jibun": "188-1", "price": 7900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-10-24", "dong": "현암동", "floor": 14, "jibun": "188-1", "price": 8000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-10-25", "dong": "현암동", "floor": 14, "jibun": "188-1", "price": 8300}
+{"apt": "삼한강변", "area": 117.99, "built": 1993, "date": "2016-10-26", "dong": "하동", "floor": 2, "jibun": "122-7", "price": 16000}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-10-26", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 9200}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-10-29", "dong": "가남읍 신해리", "floor": 3, "jibun": "620-17", "price": 10800}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-10-31", "dong": "현암동", "floor": 16, "jibun": "188-1", "price": 8050}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2016-10-31", "dong": "홍문동", "floor": 4, "jibun": "377-6", "price": 10700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-11-01", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 7450}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-11-02", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 9400}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-11-02", "dong": "현암동", "floor": 7, "jibun": "188-1", "price": 8700}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-11-02", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 8000}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2016-11-03", "dong": "하동", "floor": 5, "jibun": "123", "price": 15900}
+{"apt": "상우2차", "area": 59.55, "built": 1994, "date": "2016-11-05", "dong": "홍문동", "floor": 6, "jibun": "377-6", "price": 9500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-11-07", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 10450}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-11-08", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 7900}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-11-08", "dong": "현암동", "floor": 14, "jibun": "188-1", "price": 8450}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2016-11-10", "dong": "하동", "floor": 19, "jibun": "123", "price": 15800}
+{"apt": "삼한강변", "area": 84.65, "built": 1993, "date": "2016-11-14", "dong": "하동", "floor": 18, "jibun": "122-7", "price": 15250}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2016-11-15", "dong": "하동", "floor": 11, "jibun": "121-1", "price": 11000}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2016-11-17", "dong": "홍문동", "floor": 12, "jibun": "377-1", "price": 19000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-11-18", "dong": "현암동", "floor": 17, "jibun": "188-1", "price": 7500}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2016-11-18", "dong": "홍문동", "floor": 10, "jibun": "377-1", "price": 17400}
+{"apt": "삼진", "area": 56.07, "built": 1990, "date": "2016-11-22", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 8100}
+{"apt": "삼진", "area": 80.64, "built": 1990, "date": "2016-11-25", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 14200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-11-28", "dong": "현암동", "floor": 13, "jibun": "188-1", "price": 8100}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-12-01", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 10800}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-12-04", "dong": "현암동", "floor": 1, "jibun": "177-3", "price": 8000}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2016-12-05", "dong": "하동", "floor": 13, "jibun": "123", "price": 16200}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-12-06", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 8500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-12-06", "dong": "현암동", "floor": 8, "jibun": "188-1", "price": 8800}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2016-12-07", "dong": "하동", "floor": 9, "jibun": "123", "price": 21000}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2016-12-13", "dong": "홍문동", "floor": 7, "jibun": "377-1", "price": 12800}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2016-12-15", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 7700}
+{"apt": "대우", "area": 64.26, "built": 1991, "date": "2016-12-16", "dong": "홍문동", "floor": 4, "jibun": "286-11", "price": 10000}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2016-12-19", "dong": "하동", "floor": 19, "jibun": "123", "price": 15250}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2016-12-19", "dong": "홍문동", "floor": 1, "jibun": "산8-1", "price": 14500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2016-12-24", "dong": "가남읍 신해리", "floor": 8, "jibun": "620-17", "price": 11000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-12-26", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 8200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2016-12-27", "dong": "현암동", "floor": 6, "jibun": "188-1", "price": 7600}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2016-12-28", "dong": "하동", "floor": 11, "jibun": "121-1", "price": 11200}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2017-01-02", "dong": "홍문동", "floor": 9, "jibun": "377-1", "price": 19800}
+{"apt": "상우1차", "area": 84.42, "built": 1993, "date": "2017-01-04", "dong": "홍문동", "floor": 7, "jibun": "377-1", "price": 13500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2017-01-07", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 8500}
+{"apt": "현대", "area": 84.96, "built": 1995, "date": "2017-01-09", "dong": "하동", "floor": 13, "jibun": "123", "price": 19500}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2017-01-12", "dong": "가남읍 신해리", "floor": 1, "jibun": "620-17", "price": 9000}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2017-01-13", "dong": "현암동", "floor": 5, "jibun": "177-3", "price": 8000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2017-01-16", "dong": "현암동", "floor": 2, "jibun": "188-1", "price": 7400}
+{"apt": "하나", "area": 59.61, "built": 1992, "date": "2017-01-19", "dong": "하동", "floor": 1, "jibun": "121-1", "price": 10000}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2017-01-20", "dong": "하동", "floor": 13, "jibun": "123", "price": 15800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2017-01-23", "dong": "가남읍 신해리", "floor": 6, "jibun": "620-17", "price": 10500}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2017-01-23", "dong": "현암동", "floor": 15, "jibun": "188-1", "price": 7900}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2017-01-25", "dong": "현암동", "floor": 3, "jibun": "177-3", "price": 8400}
+{"apt": "상우1차", "area": 124.65, "built": 1993, "date": "2017-02-02", "dong": "홍문동", "floor": 8, "jibun": "377-1", "price": 19000}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2017-02-06", "dong": "현암동", "floor": 3, "jibun": "177-23", "price": 8200}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2017-02-07", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 8100}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2017-02-11", "dong": "홍문동", "floor": 2, "jibun": "377-1", "price": 12000}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2017-02-11", "dong": "홍문동", "floor": 15, "jibun": "377-1", "price": 12000}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2017-02-17", "dong": "현암동", "floor": 2, "jibun": "177-23", "price": 7700}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2017-02-20", "dong": "가남읍 신해리", "floor": 10, "jibun": "620-17", "price": 10400}
+{"apt": "삼한강변", "area": 59.91, "built": 1993, "date": "2017-02-21", "dong": "하동", "floor": 1, "jibun": "122-7", "price": 10000}
+{"apt": "벽산", "area": 37.52, "built": 1997, "date": "2017-02-23", "dong": "현암동", "floor": 17, "jibun": "188-1", "price": 7900}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2017-02-24", "dong": "하동", "floor": 6, "jibun": "123", "price": 16400}
+{"apt": "상우2차", "area": 48.21, "built": 1994, "date": "2017-02-25", "dong": "홍문동", "floor": 6, "jibun": "377-6", "price": 5150}
+{"apt": "삼진", "area": 56.07, "built": 1990, "date": "2017-02-27", "dong": "현암동", "floor": 2, "jibun": "177-3", "price": 8600}
+{"apt": "삼진", "area": 57.15, "built": 1990, "date": "2017-02-28", "dong": "현암동", "floor": 4, "jibun": "177-3", "price": 8000}
+{"apt": "상우1차", "area": 59.53, "built": 1993, "date": "2017-02-28", "dong": "홍문동", "floor": 15, "jibun": "377-1", "price": 12000}
+{"apt": "삼한", "area": 75.34, "built": 1991, "date": "2017-02-28", "dong": "홍문동", "floor": 3, "jibun": "산8-1", "price": 11800}
+{"apt": "인창", "area": 84.24, "built": 1991, "date": "2017-03-10", "dong": "점봉동", "floor": 1, "jibun": "114", "price": 11000}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2017-03-15", "dong": "현암동", "floor": 4, "jibun": "177-23", "price": 8000}
+{"apt": "현대", "area": 59.98, "built": 1995, "date": "2017-03-16", "dong": "하동", "floor": 19, "jibun": "123", "price": 15500}
+{"apt": "영동", "area": 49.63, "built": 1997, "date": "2017-03-21", "dong": "현암동", "floor": 4, "jibun": "177-23", "price": 7500}
+{"apt": "삼한강변", "area": 117.99, "built": 1993, "date": "2017-03-23", "dong": "하동", "floor": 4, "jibun": "122-7", "price": 13500}
+{"apt": "삼한", "area": 79.3, "built": 1991, "date": "2017-03-23", "dong": "홍문동", "floor": 3, "jibun": "산8-1", "price": 13800}
+{"apt": "동남", "area": 59.77, "built": 1997, "date": "2017-03-25", "dong": "가남읍 신해리", "floor": 7, "jibun": "620-17", "price": 10700}
+{"apt": "을성", "area": 51.42, "built": 1986, "date": "2017-03-29", "dong": "가남읍 태평리", "floor": 5, "jibun": "106-1", "price": 5500}
+{"apt": "영동", "area": 54.85, "built": 1997, "date": "2017-03-30", "dong": "현암동", "floor": 6, "jibun": "177-23", "price": 8000}
 {"apt": "하나", "area": 59.61, "built": 1992, "date": "2017-04-01", "dong": "하동", "floor": 1, "jibun": "121-1", "price": 11000}
 {"apt": "현대", "area": 59.98, "built": 1995, "date": "2017-04-01", "dong": "하동", "floor": 11, "jibun": "123", "price": 16000}
 {"apt": "벽산", "area": 37.52, "built": 1997, "date": "2017-04-01", "dong": "현암동", "floor": 12, "jibun": "188-1", "price": 8000}
