@@ -1,3 +1,619 @@
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2009-05-01", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 17500}
+{"apt": "삼익", "area": 98.68, "built": 1983, "date": "2009-05-04", "dong": "안암동3가", "floor": 5, "jibun": "135", "price": 37000}
+{"apt": "삼익", "area": 98.68, "built": 1983, "date": "2009-05-04", "dong": "안암동3가", "floor": 10, "jibun": "135", "price": 33200}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2009-05-05", "dong": "정릉동", "floor": 10, "jibun": "780", "price": 16970}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2009-05-09", "dong": "정릉동", "floor": 6, "jibun": "1020", "price": 17900}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2009-05-11", "dong": "종암동", "floor": 12, "jibun": "34-3", "price": 30100}
+{"apt": "구현대", "area": 51.47, "built": 1981, "date": "2009-05-12", "dong": "돈암동", "floor": 1, "jibun": "624", "price": 16300}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2009-05-13", "dong": "정릉동", "floor": 6, "jibun": "1020", "price": 18900}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2009-05-13", "dong": "정릉동", "floor": 4, "jibun": "1020", "price": 31000}
+{"apt": "고려", "area": 66.49, "built": 1983, "date": "2009-05-15", "dong": "종암동", "floor": 2, "jibun": "125-1", "price": 18000}
+{"apt": "고려", "area": 76.48, "built": 1983, "date": "2009-05-15", "dong": "종암동", "floor": 5, "jibun": "125-1", "price": 18000}
+{"apt": "고려", "area": 87.75, "built": 1983, "date": "2009-05-16", "dong": "종암동", "floor": 3, "jibun": "125-1", "price": 19600}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2009-05-19", "dong": "돈암동", "floor": 11, "jibun": "1", "price": 27900}
+{"apt": "고명", "area": 42.81, "built": 1972, "date": "2009-05-19", "dong": "돈암동", "floor": 6, "jibun": "42-32", "price": 12800}
+{"apt": "삼성", "area": 84.72, "built": 1997, "date": "2009-05-20", "dong": "석관동", "floor": 11, "jibun": "404", "price": 24000}
+{"apt": "아남", "area": 59.97, "built": 1996, "date": "2009-05-26", "dong": "하월곡동", "floor": 2, "jibun": "218", "price": 22000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2009-05-28", "dong": "정릉동", "floor": 2, "jibun": "1020", "price": 30900}
+{"apt": "성북", "area": 37.36, "built": 1971, "date": "2009-05-29", "dong": "성북동", "floor": 2, "jibun": "348-3", "price": 11000}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2009-05-29", "dong": "종암동", "floor": 17, "jibun": "34-3", "price": 31500}
+{"apt": "아남", "area": 78.57, "built": 1994, "date": "2009-05-31", "dong": "보문동6가", "floor": 7, "jibun": "36-2", "price": 30500}
+{"apt": "고려", "area": 66.49, "built": 1983, "date": "2009-06-01", "dong": "종암동", "floor": 3, "jibun": "125-1", "price": 17000}
+{"apt": "돈암현대아파트", "area": 55.89, "built": 1991, "date": "2009-06-02", "dong": "돈암동", "floor": 8, "jibun": "1", "price": 22700}
+{"apt": "돈암현대아파트", "area": 84.39, "built": 1991, "date": "2009-06-02", "dong": "돈암동", "floor": 6, "jibun": "1", "price": 33000}
+{"apt": "대광", "area": 42.61, "built": 1971, "date": "2009-06-05", "dong": "안암동3가", "floor": 3, "jibun": "136-1", "price": 14400}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2009-06-06", "dong": "돈암동", "floor": 8, "jibun": "1", "price": 27500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2009-06-08", "dong": "정릉동", "floor": 1, "jibun": "1020", "price": 30000}
+{"apt": "정릉우성아파트 101~105동", "area": 114.97, "built": 2000, "date": "2009-06-09", "dong": "정릉동", "floor": 15, "jibun": "1020", "price": 41500}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2009-06-13", "dong": "정릉동", "floor": 13, "jibun": "1020", "price": 18000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2009-06-15", "dong": "돈암동", "floor": 13, "jibun": "1", "price": 17900}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2009-06-15", "dong": "돈암동", "floor": 14, "jibun": "1", "price": 26500}
+{"apt": "구현대", "area": 51.47, "built": 1981, "date": "2009-06-16", "dong": "돈암동", "floor": 3, "jibun": "624", "price": 15875}
+{"apt": "성북", "area": 37.36, "built": 1971, "date": "2009-06-16", "dong": "성북동", "floor": 6, "jibun": "348-3", "price": 9000}
+{"apt": "구현대", "area": 51.47, "built": 1981, "date": "2009-06-18", "dong": "돈암동", "floor": 2, "jibun": "624", "price": 17000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2009-06-18", "dong": "정릉동", "floor": 7, "jibun": "1020", "price": 18500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2009-06-18", "dong": "정릉동", "floor": 17, "jibun": "1020", "price": 32000}
+{"apt": "구현대", "area": 51.47, "built": 1981, "date": "2009-06-23", "dong": "돈암동", "floor": 3, "jibun": "624", "price": 16500}
+{"apt": "우남푸르미아", "area": 84.51, "built": 1994, "date": "2009-06-25", "dong": "상월곡동", "floor": 14, "jibun": "55-56", "price": 31500}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2009-06-26", "dong": "돈암동", "floor": 3, "jibun": "1", "price": 27700}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2009-06-27", "dong": "보문동6가", "floor": 3, "jibun": "36-2", "price": 30000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2009-07-03", "dong": "정릉동", "floor": 14, "jibun": "1020", "price": 18000}
+{"apt": "구현대", "area": 79.9, "built": 1981, "date": "2009-07-04", "dong": "돈암동", "floor": 3, "jibun": "624", "price": 27500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2009-07-04", "dong": "정릉동", "floor": 9, "jibun": "1020", "price": 30200}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2009-07-06", "dong": "돈암동", "floor": 9, "jibun": "1", "price": 17500}
+{"apt": "동신주택", "area": 72.43, "built": 1985, "date": "2009-07-06", "dong": "하월곡동", "floor": 3, "jibun": "70-4", "price": 23900}
+{"apt": "대광", "area": 52.0, "built": 1971, "date": "2009-07-09", "dong": "안암동3가", "floor": 3, "jibun": "136-1", "price": 16000}
+{"apt": "대광", "area": 58.45, "built": 1971, "date": "2009-07-09", "dong": "안암동3가", "floor": 1, "jibun": "136-1", "price": 16000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2009-07-09", "dong": "정릉동", "floor": 9, "jibun": "1020", "price": 32500}
+{"apt": "정릉우성아파트 101~105동", "area": 59.97, "built": 2000, "date": "2009-07-11", "dong": "정릉동", "floor": 14, "jibun": "1020", "price": 24000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2009-07-11", "dong": "정릉동", "floor": 5, "jibun": "1020", "price": 32000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2009-07-14", "dong": "정릉동", "floor": 15, "jibun": "1020", "price": 33000}
+{"apt": "대광", "area": 51.57, "built": 1971, "date": "2009-07-16", "dong": "안암동3가", "floor": 5, "jibun": "136-1", "price": 15000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2009-07-16", "dong": "정릉동", "floor": 10, "jibun": "1020", "price": 17000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2009-07-17", "dong": "정릉동", "floor": 8, "jibun": "1020", "price": 19100}
+{"apt": "구현대", "area": 91.14, "built": 1981, "date": "2009-07-18", "dong": "돈암동", "floor": 1, "jibun": "624", "price": 35000}
+{"apt": "고명", "area": 52.43, "built": 1972, "date": "2009-07-20", "dong": "돈암동", "floor": 5, "jibun": "42-32", "price": 14000}
+{"apt": "구현대", "area": 58.41, "built": 1981, "date": "2009-07-20", "dong": "돈암동", "floor": 3, "jibun": "624", "price": 19500}
+{"apt": "정릉우성아파트 101~105동", "area": 59.97, "built": 2000, "date": "2009-07-20", "dong": "정릉동", "floor": 1, "jibun": "1020", "price": 20700}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2009-07-20", "dong": "정릉동", "floor": 2, "jibun": "1020", "price": 29000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2009-07-21", "dong": "정릉동", "floor": 17, "jibun": "1020", "price": 33500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2009-07-24", "dong": "정릉동", "floor": 19, "jibun": "1020", "price": 32000}
+{"apt": "돈암현대아파트", "area": 56.7, "built": 1991, "date": "2009-07-25", "dong": "돈암동", "floor": 9, "jibun": "1", "price": 25000}
+{"apt": "구현대", "area": 66.02, "built": 1981, "date": "2009-07-26", "dong": "돈암동", "floor": 3, "jibun": "624", "price": 23700}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2009-07-26", "dong": "정릉동", "floor": 14, "jibun": "1020", "price": 30000}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2009-07-28", "dong": "돈암동", "floor": 8, "jibun": "1", "price": 28000}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2009-07-30", "dong": "정릉동", "floor": 8, "jibun": "780", "price": 16800}
+{"apt": "종암선경", "area": 59.4, "built": 1996, "date": "2009-08-01", "dong": "종암동", "floor": 7, "jibun": "34-3", "price": 24500}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2009-08-10", "dong": "석관동", "floor": 11, "jibun": "110-2", "price": 22000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2009-08-10", "dong": "정릉동", "floor": 5, "jibun": "1020", "price": 31800}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2009-08-13", "dong": "길음동", "floor": 8, "jibun": "635-168", "price": 27950}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2009-08-13", "dong": "돈암동", "floor": 3, "jibun": "1", "price": 17700}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2009-08-13", "dong": "정릉동", "floor": 19, "jibun": "1020", "price": 30000}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2009-08-14", "dong": "보문동6가", "floor": 1, "jibun": "36-2", "price": 28500}
+{"apt": "고려", "area": 63.56, "built": 1983, "date": "2009-08-15", "dong": "종암동", "floor": 5, "jibun": "125-1", "price": 14500}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2009-08-19", "dong": "정릉동", "floor": 2, "jibun": "780", "price": 16500}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2009-08-20", "dong": "정릉동", "floor": 17, "jibun": "1020", "price": 19000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2009-08-21", "dong": "정릉동", "floor": 17, "jibun": "1020", "price": 20000}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2009-08-22", "dong": "석관동", "floor": 11, "jibun": "110-2", "price": 24950}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2009-08-24", "dong": "정릉동", "floor": 9, "jibun": "1020", "price": 19000}
+{"apt": "대광", "area": 51.57, "built": 1971, "date": "2009-08-25", "dong": "안암동3가", "floor": 2, "jibun": "136-1", "price": 13000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2009-08-25", "dong": "정릉동", "floor": 18, "jibun": "1020", "price": 20000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2009-08-25", "dong": "정릉동", "floor": 5, "jibun": "1020", "price": 31900}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2009-08-26", "dong": "종암동", "floor": 9, "jibun": "34-3", "price": 30000}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2009-08-28", "dong": "정릉동", "floor": 8, "jibun": "780", "price": 17100}
+{"apt": "대광", "area": 44.36, "built": 1971, "date": "2009-08-29", "dong": "안암동3가", "floor": 6, "jibun": "136-1", "price": 12500}
+{"apt": "구현대", "area": 74.95, "built": 1981, "date": "2009-08-30", "dong": "돈암동", "floor": 2, "jibun": "624", "price": 28000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2009-08-30", "dong": "정릉동", "floor": 9, "jibun": "1020", "price": 35000}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2009-09-04", "dong": "석관동", "floor": 10, "jibun": "110-2", "price": 26150}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2009-09-04", "dong": "정릉동", "floor": 14, "jibun": "1020", "price": 34500}
+{"apt": "돈암현대아파트", "area": 84.39, "built": 1991, "date": "2009-09-07", "dong": "돈암동", "floor": 6, "jibun": "1", "price": 35200}
+{"apt": "중앙하이츠", "area": 84.85, "built": 1994, "date": "2009-09-07", "dong": "석관동", "floor": 5, "jibun": "110-2", "price": 34500}
+{"apt": "돈암현대아파트", "area": 56.7, "built": 1991, "date": "2009-09-09", "dong": "돈암동", "floor": 10, "jibun": "1", "price": 25000}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2009-09-10", "dong": "석관동", "floor": 13, "jibun": "110-2", "price": 24600}
+{"apt": "고려", "area": 66.49, "built": 1983, "date": "2009-09-10", "dong": "종암동", "floor": 1, "jibun": "125-1", "price": 18000}
+{"apt": "돈암현대아파트", "area": 84.8, "built": 1991, "date": "2009-09-11", "dong": "돈암동", "floor": 8, "jibun": "1", "price": 33500}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2009-09-11", "dong": "석관동", "floor": 15, "jibun": "110-2", "price": 25000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2009-09-12", "dong": "정릉동", "floor": 6, "jibun": "1020", "price": 33500}
+{"apt": "대광", "area": 45.92, "built": 1971, "date": "2009-09-15", "dong": "안암동3가", "floor": 6, "jibun": "136-1", "price": 12500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2009-09-16", "dong": "돈암동", "floor": 2, "jibun": "1", "price": 16950}
+{"apt": "아남", "area": 59.97, "built": 1996, "date": "2009-09-18", "dong": "하월곡동", "floor": 6, "jibun": "218", "price": 24300}
+{"apt": "돈암현대아파트", "area": 56.7, "built": 1991, "date": "2009-09-19", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 24000}
+{"apt": "구현대", "area": 91.14, "built": 1981, "date": "2009-09-19", "dong": "돈암동", "floor": 1, "jibun": "624", "price": 33600}
+{"apt": "삼성", "area": 59.82, "built": 1997, "date": "2009-09-21", "dong": "석관동", "floor": 8, "jibun": "404", "price": 23100}
+{"apt": "삼성", "area": 59.82, "built": 1997, "date": "2009-09-22", "dong": "석관동", "floor": 9, "jibun": "404", "price": 23400}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2009-09-23", "dong": "돈암동", "floor": 9, "jibun": "1", "price": 17000}
+{"apt": "돈암현대아파트", "area": 56.7, "built": 1991, "date": "2009-09-23", "dong": "돈암동", "floor": 2, "jibun": "1", "price": 23200}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2009-09-23", "dong": "정릉동", "floor": 2, "jibun": "780", "price": 17000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2009-09-26", "dong": "돈암동", "floor": 3, "jibun": "1", "price": 18500}
+{"apt": "고려", "area": 63.56, "built": 1983, "date": "2009-09-26", "dong": "종암동", "floor": 4, "jibun": "125-1", "price": 15000}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2009-09-28", "dong": "정릉동", "floor": 1, "jibun": "780", "price": 17200}
+{"apt": "고려", "area": 65.46, "built": 1983, "date": "2009-10-01", "dong": "종암동", "floor": 2, "jibun": "125-1", "price": 18500}
+{"apt": "고려", "area": 66.44, "built": 1983, "date": "2009-10-01", "dong": "종암동", "floor": 1, "jibun": "125-1", "price": 18900}
+{"apt": "대광", "area": 47.27, "built": 1971, "date": "2009-10-09", "dong": "안암동3가", "floor": 1, "jibun": "136-1", "price": 14300}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2009-10-12", "dong": "정릉동", "floor": 9, "jibun": "780", "price": 17000}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2009-10-13", "dong": "보문동6가", "floor": 6, "jibun": "36-2", "price": 31500}
+{"apt": "산장아파트가동,나동", "area": 71.5, "built": 1977, "date": "2009-10-15", "dong": "정릉동", "floor": 9, "jibun": "780", "price": 25000}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2009-10-17", "dong": "돈암동", "floor": 11, "jibun": "1", "price": 28350}
+{"apt": "성북", "area": 37.36, "built": 1971, "date": "2009-10-17", "dong": "성북동", "floor": 2, "jibun": "348-3", "price": 10700}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2009-10-20", "dong": "돈암동", "floor": 4, "jibun": "1", "price": 18400}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2009-10-20", "dong": "정릉동", "floor": 2, "jibun": "780", "price": 17500}
+{"apt": "고려", "area": 66.44, "built": 1983, "date": "2009-10-21", "dong": "종암동", "floor": 3, "jibun": "125-1", "price": 18500}
+{"apt": "고려", "area": 53.57, "built": 1983, "date": "2009-10-27", "dong": "종암동", "floor": 5, "jibun": "125-1", "price": 15000}
+{"apt": "대광", "area": 59.83, "built": 1971, "date": "2009-10-28", "dong": "안암동3가", "floor": 2, "jibun": "136-1", "price": 15500}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2009-10-28", "dong": "정릉동", "floor": 6, "jibun": "780", "price": 17000}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2009-10-28", "dong": "정릉동", "floor": 9, "jibun": "780", "price": 16900}
+{"apt": "고려", "area": 53.57, "built": 1983, "date": "2009-10-30", "dong": "종암동", "floor": 4, "jibun": "125-1", "price": 17500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2009-10-31", "dong": "돈암동", "floor": 12, "jibun": "1", "price": 18000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2009-11-02", "dong": "정릉동", "floor": 2, "jibun": "1020", "price": 15000}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2009-11-02", "dong": "정릉동", "floor": 5, "jibun": "780", "price": 17500}
+{"apt": "대광", "area": 47.87, "built": 1971, "date": "2009-11-03", "dong": "안암동3가", "floor": 4, "jibun": "136-1", "price": 13000}
+{"apt": "성북", "area": 37.36, "built": 1971, "date": "2009-11-09", "dong": "성북동", "floor": 5, "jibun": "348-3", "price": 12450}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2009-11-09", "dong": "정릉동", "floor": 17, "jibun": "1020", "price": 33300}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2009-11-11", "dong": "종암동", "floor": 16, "jibun": "34-3", "price": 32000}
+{"apt": "돈암현대아파트", "area": 56.7, "built": 1991, "date": "2009-11-13", "dong": "돈암동", "floor": 8, "jibun": "1", "price": 24400}
+{"apt": "종암선경", "area": 59.4, "built": 1996, "date": "2009-11-14", "dong": "종암동", "floor": 7, "jibun": "34-3", "price": 24900}
+{"apt": "대광", "area": 52.0, "built": 1971, "date": "2009-11-16", "dong": "안암동3가", "floor": 4, "jibun": "136-1", "price": 14000}
+{"apt": "아남", "area": 84.69, "built": 1994, "date": "2009-11-24", "dong": "보문동6가", "floor": 3, "jibun": "36-2", "price": 29500}
+{"apt": "구현대", "area": 51.47, "built": 1981, "date": "2009-11-25", "dong": "돈암동", "floor": 2, "jibun": "624", "price": 21800}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2009-11-25", "dong": "정릉동", "floor": 7, "jibun": "1020", "price": 31000}
+{"apt": "우남푸르미아", "area": 59.64, "built": 1994, "date": "2009-11-26", "dong": "상월곡동", "floor": 17, "jibun": "55-56", "price": 25000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2009-11-28", "dong": "정릉동", "floor": 9, "jibun": "1020", "price": 33900}
+{"apt": "구현대", "area": 66.02, "built": 1981, "date": "2009-12-01", "dong": "돈암동", "floor": 3, "jibun": "624", "price": 26500}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2009-12-03", "dong": "정릉동", "floor": 2, "jibun": "1020", "price": 18850}
+{"apt": "대광", "area": 54.31, "built": 1971, "date": "2009-12-10", "dong": "안암동3가", "floor": 5, "jibun": "136-1", "price": 15000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2009-12-17", "dong": "돈암동", "floor": 3, "jibun": "1", "price": 16500}
+{"apt": "종암선경", "area": 59.4, "built": 1996, "date": "2009-12-17", "dong": "종암동", "floor": 7, "jibun": "34-3", "price": 24300}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2009-12-21", "dong": "돈암동", "floor": 6, "jibun": "1", "price": 17000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2009-12-23", "dong": "돈암동", "floor": 8, "jibun": "1", "price": 16900}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2009-12-29", "dong": "종암동", "floor": 11, "jibun": "34-3", "price": 31200}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2010-01-07", "dong": "정릉동", "floor": 6, "jibun": "780", "price": 17000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2010-01-11", "dong": "정릉동", "floor": 3, "jibun": "1020", "price": 29000}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2010-01-11", "dong": "종암동", "floor": 11, "jibun": "34-3", "price": 31200}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2010-01-12", "dong": "길음동", "floor": 12, "jibun": "635-168", "price": 19000}
+{"apt": "삼성", "area": 59.82, "built": 1997, "date": "2010-01-13", "dong": "석관동", "floor": 5, "jibun": "404", "price": 20000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-01-15", "dong": "돈암동", "floor": 2, "jibun": "1", "price": 17250}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2010-01-17", "dong": "종암동", "floor": 8, "jibun": "34-3", "price": 30000}
+{"apt": "돈암현대아파트", "area": 55.89, "built": 1991, "date": "2010-01-18", "dong": "돈암동", "floor": 7, "jibun": "1", "price": 22800}
+{"apt": "대광", "area": 52.0, "built": 1971, "date": "2010-01-21", "dong": "안암동3가", "floor": 2, "jibun": "136-1", "price": 14500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-01-23", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 17300}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2010-01-25", "dong": "정릉동", "floor": 14, "jibun": "1020", "price": 33500}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2010-01-26", "dong": "석관동", "floor": 15, "jibun": "110-2", "price": 22800}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2010-01-29", "dong": "정릉동", "floor": 6, "jibun": "1020", "price": 31500}
+{"apt": "우남푸르미아", "area": 59.64, "built": 1994, "date": "2010-01-30", "dong": "상월곡동", "floor": 1, "jibun": "55-56", "price": 24200}
+{"apt": "구현대", "area": 51.47, "built": 1981, "date": "2010-02-01", "dong": "돈암동", "floor": 3, "jibun": "624", "price": 20000}
+{"apt": "삼익", "area": 98.04, "built": 1983, "date": "2010-02-02", "dong": "안암동3가", "floor": 8, "jibun": "135", "price": 38500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2010-02-04", "dong": "정릉동", "floor": 8, "jibun": "1020", "price": 33500}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2010-02-06", "dong": "종암동", "floor": 12, "jibun": "34-3", "price": 32000}
+{"apt": "아남", "area": 84.69, "built": 1996, "date": "2010-02-07", "dong": "하월곡동", "floor": 2, "jibun": "218", "price": 31000}
+{"apt": "돈암현대아파트", "area": 55.89, "built": 1991, "date": "2010-02-10", "dong": "돈암동", "floor": 7, "jibun": "1", "price": 22200}
+{"apt": "주암", "area": 48.73, "built": 1972, "date": "2010-02-11", "dong": "성북동", "floor": 4, "jibun": "286", "price": 16000}
+{"apt": "동신주택", "area": 72.43, "built": 1985, "date": "2010-02-11", "dong": "하월곡동", "floor": 4, "jibun": "70-4", "price": 25000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2010-02-12", "dong": "정릉동", "floor": 9, "jibun": "1020", "price": 30400}
+{"apt": "동소문현대", "area": 84.72, "built": 1994, "date": "2010-02-16", "dong": "돈암동", "floor": 11, "jibun": "630", "price": 34000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2010-02-17", "dong": "정릉동", "floor": 18, "jibun": "1020", "price": 32000}
+{"apt": "삼성", "area": 59.82, "built": 1997, "date": "2010-02-18", "dong": "석관동", "floor": 1, "jibun": "404", "price": 21000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2010-02-18", "dong": "정릉동", "floor": 8, "jibun": "1020", "price": 33600}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-02-23", "dong": "돈암동", "floor": 8, "jibun": "1", "price": 17300}
+{"apt": "돈암현대아파트", "area": 56.7, "built": 1991, "date": "2010-02-23", "dong": "돈암동", "floor": 8, "jibun": "1", "price": 25500}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2010-02-23", "dong": "종암동", "floor": 19, "jibun": "34-3", "price": 32500}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2010-02-24", "dong": "종암동", "floor": 18, "jibun": "34-3", "price": 33500}
+{"apt": "구현대", "area": 51.47, "built": 1981, "date": "2010-02-25", "dong": "돈암동", "floor": 3, "jibun": "624", "price": 22300}
+{"apt": "종암선경", "area": 59.4, "built": 1996, "date": "2010-02-25", "dong": "종암동", "floor": 6, "jibun": "34-3", "price": 24500}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2010-02-25", "dong": "종암동", "floor": 7, "jibun": "34-3", "price": 30000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2010-02-26", "dong": "정릉동", "floor": 12, "jibun": "1020", "price": 32400}
+{"apt": "구현대", "area": 58.41, "built": 1981, "date": "2010-03-02", "dong": "돈암동", "floor": 2, "jibun": "624", "price": 19700}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2010-03-03", "dong": "정릉동", "floor": 12, "jibun": "1020", "price": 19500}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2010-03-04", "dong": "보문동6가", "floor": 14, "jibun": "36-2", "price": 33000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2010-03-06", "dong": "정릉동", "floor": 8, "jibun": "1020", "price": 20000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-03-10", "dong": "돈암동", "floor": 3, "jibun": "1", "price": 16500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2010-03-13", "dong": "정릉동", "floor": 7, "jibun": "1020", "price": 33400}
+{"apt": "종암선경", "area": 59.4, "built": 1996, "date": "2010-03-13", "dong": "종암동", "floor": 4, "jibun": "34-3", "price": 24000}
+{"apt": "길음뉴타운신안파크아파트", "area": 68.14, "built": 1988, "date": "2010-03-15", "dong": "길음동", "floor": 9, "jibun": "635-168", "price": 17000}
+{"apt": "안암", "area": 61.02, "built": 1969, "date": "2010-03-15", "dong": "안암동4가", "floor": 1, "jibun": "23-3", "price": 17000}
+{"apt": "돈암현대아파트", "area": 55.89, "built": 1991, "date": "2010-03-16", "dong": "돈암동", "floor": 10, "jibun": "1", "price": 22900}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2010-03-20", "dong": "정릉동", "floor": 8, "jibun": "1020", "price": 19800}
+{"apt": "동소문현대", "area": 84.72, "built": 1994, "date": "2010-03-23", "dong": "돈암동", "floor": 11, "jibun": "630", "price": 32000}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2010-03-25", "dong": "돈암동", "floor": 10, "jibun": "1", "price": 27500}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2010-03-28", "dong": "정릉동", "floor": 1, "jibun": "780", "price": 15500}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2010-04-07", "dong": "석관동", "floor": 4, "jibun": "110-2", "price": 23800}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-04-08", "dong": "돈암동", "floor": 11, "jibun": "1", "price": 17800}
+{"apt": "고려", "area": 53.57, "built": 1983, "date": "2010-04-10", "dong": "종암동", "floor": 2, "jibun": "125-1", "price": 12000}
+{"apt": "구현대", "area": 51.47, "built": 1981, "date": "2010-04-11", "dong": "돈암동", "floor": 2, "jibun": "624", "price": 21600}
+{"apt": "대광", "area": 51.93, "built": 1971, "date": "2010-04-12", "dong": "안암동3가", "floor": 1, "jibun": "136-1", "price": 15700}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2010-04-13", "dong": "보문동6가", "floor": 11, "jibun": "36-2", "price": 31900}
+{"apt": "삼익", "area": 98.92, "built": 1983, "date": "2010-04-14", "dong": "안암동3가", "floor": 4, "jibun": "135", "price": 40000}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2010-04-20", "dong": "정릉동", "floor": 7, "jibun": "780", "price": 16800}
+{"apt": "대광", "area": 56.96, "built": 1971, "date": "2010-04-21", "dong": "안암동3가", "floor": 3, "jibun": "136-1", "price": 17200}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2010-04-22", "dong": "정릉동", "floor": 3, "jibun": "780", "price": 16800}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2010-04-24", "dong": "보문동6가", "floor": 5, "jibun": "36-2", "price": 29500}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2010-04-27", "dong": "석관동", "floor": 14, "jibun": "110-2", "price": 23850}
+{"apt": "성북", "area": 44.79, "built": 1971, "date": "2010-05-08", "dong": "성북동", "floor": 6, "jibun": "348-3", "price": 10000}
+{"apt": "종암선경", "area": 59.4, "built": 1996, "date": "2010-05-17", "dong": "종암동", "floor": 4, "jibun": "34-3", "price": 24900}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2010-05-20", "dong": "정릉동", "floor": 13, "jibun": "1020", "price": 30800}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2010-05-26", "dong": "종암동", "floor": 18, "jibun": "34-3", "price": 32500}
+{"apt": "구현대", "area": 66.02, "built": 1981, "date": "2010-06-01", "dong": "돈암동", "floor": 2, "jibun": "624", "price": 22500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-06-16", "dong": "돈암동", "floor": 11, "jibun": "1", "price": 17400}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2010-06-21", "dong": "정릉동", "floor": 6, "jibun": "780", "price": 17000}
+{"apt": "돈암현대아파트", "area": 84.39, "built": 1991, "date": "2010-06-24", "dong": "돈암동", "floor": 2, "jibun": "1", "price": 31000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2010-06-28", "dong": "정릉동", "floor": 16, "jibun": "1020", "price": 29500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-07-07", "dong": "돈암동", "floor": 12, "jibun": "1", "price": 17000}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2010-07-10", "dong": "종암동", "floor": 3, "jibun": "34-3", "price": 28500}
+{"apt": "고려", "area": 66.44, "built": 1983, "date": "2010-07-20", "dong": "종암동", "floor": 3, "jibun": "125-1", "price": 19200}
+{"apt": "아남", "area": 84.69, "built": 1996, "date": "2010-07-22", "dong": "하월곡동", "floor": 18, "jibun": "218", "price": 32000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-07-24", "dong": "돈암동", "floor": 7, "jibun": "1", "price": 17750}
+{"apt": "삼익", "area": 98.92, "built": 1983, "date": "2010-07-27", "dong": "안암동3가", "floor": 7, "jibun": "135", "price": 38000}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2010-08-10", "dong": "석관동", "floor": 8, "jibun": "110-2", "price": 23000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2010-08-11", "dong": "정릉동", "floor": 16, "jibun": "1020", "price": 18500}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2010-08-12", "dong": "석관동", "floor": 9, "jibun": "110-2", "price": 23200}
+{"apt": "종암선경", "area": 59.4, "built": 1996, "date": "2010-08-16", "dong": "종암동", "floor": 7, "jibun": "34-3", "price": 24800}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-08-19", "dong": "돈암동", "floor": 13, "jibun": "1", "price": 17000}
+{"apt": "고명", "area": 54.78, "built": 1972, "date": "2010-08-21", "dong": "돈암동", "floor": 6, "jibun": "42-32", "price": 10000}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2010-09-06", "dong": "정릉동", "floor": 8, "jibun": "780", "price": 15300}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-09-07", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 17300}
+{"apt": "동소문현대", "area": 84.72, "built": 1994, "date": "2010-09-08", "dong": "돈암동", "floor": 3, "jibun": "630", "price": 31000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2010-09-09", "dong": "정릉동", "floor": 19, "jibun": "1020", "price": 18800}
+{"apt": "삼익", "area": 177.57, "built": 1983, "date": "2010-09-15", "dong": "안암동3가", "floor": 5, "jibun": "135", "price": 58000}
+{"apt": "산장아파트가동,나동", "area": 71.5, "built": 1977, "date": "2010-09-15", "dong": "정릉동", "floor": 3, "jibun": "780", "price": 19500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2010-09-16", "dong": "정릉동", "floor": 19, "jibun": "1020", "price": 27300}
+{"apt": "아남", "area": 59.97, "built": 1996, "date": "2010-09-18", "dong": "하월곡동", "floor": 8, "jibun": "218", "price": 24000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2010-09-28", "dong": "정릉동", "floor": 17, "jibun": "1020", "price": 31700}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-09-30", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 16800}
+{"apt": "구현대", "area": 51.47, "built": 1981, "date": "2010-10-01", "dong": "돈암동", "floor": 3, "jibun": "624", "price": 19500}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2010-10-08", "dong": "길음동", "floor": 8, "jibun": "635-168", "price": 22500}
+{"apt": "동신주택", "area": 70.04, "built": 1985, "date": "2010-10-13", "dong": "하월곡동", "floor": 1, "jibun": "70-4", "price": 20000}
+{"apt": "아남", "area": 84.56, "built": 1996, "date": "2010-10-15", "dong": "하월곡동", "floor": 16, "jibun": "218", "price": 28000}
+{"apt": "아남", "area": 84.69, "built": 1996, "date": "2010-10-16", "dong": "하월곡동", "floor": 20, "jibun": "218", "price": 27800}
+{"apt": "돈암현대아파트", "area": 56.7, "built": 1991, "date": "2010-10-20", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 26000}
+{"apt": "대광", "area": 54.31, "built": 1971, "date": "2010-10-21", "dong": "안암동3가", "floor": 1, "jibun": "136-1", "price": 13470}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2010-10-25", "dong": "정릉동", "floor": 12, "jibun": "1020", "price": 29900}
+{"apt": "고려", "area": 53.57, "built": 1983, "date": "2010-10-25", "dong": "종암동", "floor": 5, "jibun": "125-1", "price": 15000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-10-27", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 18000}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2010-10-27", "dong": "석관동", "floor": 3, "jibun": "110-2", "price": 24000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2010-10-28", "dong": "정릉동", "floor": 3, "jibun": "1020", "price": 18000}
+{"apt": "아남", "area": 84.69, "built": 1996, "date": "2010-11-02", "dong": "하월곡동", "floor": 6, "jibun": "218", "price": 29500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-11-05", "dong": "돈암동", "floor": 11, "jibun": "1", "price": 18000}
+{"apt": "돈암현대아파트", "area": 84.8, "built": 1991, "date": "2010-11-10", "dong": "돈암동", "floor": 6, "jibun": "1", "price": 29500}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2010-11-10", "dong": "정릉동", "floor": 14, "jibun": "1020", "price": 17900}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2010-11-15", "dong": "정릉동", "floor": 2, "jibun": "1020", "price": 28800}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2010-11-17", "dong": "정릉동", "floor": 11, "jibun": "1020", "price": 31500}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2010-11-18", "dong": "석관동", "floor": 10, "jibun": "110-2", "price": 22000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2010-11-18", "dong": "정릉동", "floor": 8, "jibun": "1020", "price": 31000}
+{"apt": "중앙하이츠", "area": 84.85, "built": 1994, "date": "2010-11-19", "dong": "석관동", "floor": 8, "jibun": "110-2", "price": 32000}
+{"apt": "대광", "area": 60.93, "built": 1971, "date": "2010-11-24", "dong": "안암동3가", "floor": 7, "jibun": "136-1", "price": 14500}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2010-11-26", "dong": "정릉동", "floor": 10, "jibun": "780", "price": 17000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-11-30", "dong": "돈암동", "floor": 10, "jibun": "1", "price": 17500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-12-01", "dong": "돈암동", "floor": 4, "jibun": "1", "price": 17500}
+{"apt": "삼성", "area": 59.82, "built": 1997, "date": "2010-12-04", "dong": "석관동", "floor": 6, "jibun": "404", "price": 22500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2010-12-05", "dong": "정릉동", "floor": 11, "jibun": "1020", "price": 31100}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2010-12-06", "dong": "돈암동", "floor": 7, "jibun": "1", "price": 17400}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2010-12-06", "dong": "정릉동", "floor": 8, "jibun": "1020", "price": 31000}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2010-12-10", "dong": "석관동", "floor": 2, "jibun": "110-2", "price": 20000}
+{"apt": "고려", "area": 53.57, "built": 1983, "date": "2010-12-10", "dong": "종암동", "floor": 5, "jibun": "125-1", "price": 17000}
+{"apt": "구현대", "area": 79.9, "built": 1981, "date": "2010-12-14", "dong": "돈암동", "floor": 2, "jibun": "624", "price": 32000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2010-12-14", "dong": "정릉동", "floor": 6, "jibun": "1020", "price": 29900}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2010-12-20", "dong": "돈암동", "floor": 4, "jibun": "1", "price": 27500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2010-12-20", "dong": "정릉동", "floor": 11, "jibun": "1020", "price": 30750}
+{"apt": "대광", "area": 41.65, "built": 1971, "date": "2010-12-21", "dong": "안암동3가", "floor": 1, "jibun": "136-1", "price": 11500}
+{"apt": "신아", "area": 81.22, "built": 1975, "date": "2010-12-29", "dong": "길음동", "floor": 3, "jibun": "1076", "price": 32000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2010-12-29", "dong": "정릉동", "floor": 16, "jibun": "1020", "price": 32800}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2010-12-29", "dong": "종암동", "floor": 11, "jibun": "34-3", "price": 30500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-01-01", "dong": "정릉동", "floor": 14, "jibun": "1020", "price": 31000}
+{"apt": "구현대", "area": 66.02, "built": 1981, "date": "2011-01-10", "dong": "돈암동", "floor": 3, "jibun": "624", "price": 23400}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-01-10", "dong": "정릉동", "floor": 11, "jibun": "1020", "price": 33000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-01-11", "dong": "정릉동", "floor": 16, "jibun": "1020", "price": 31000}
+{"apt": "돈암현대아파트", "area": 84.8, "built": 1991, "date": "2011-01-13", "dong": "돈암동", "floor": 4, "jibun": "1", "price": 29500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-01-14", "dong": "정릉동", "floor": 5, "jibun": "1020", "price": 31500}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2011-01-15", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 29700}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-01-18", "dong": "정릉동", "floor": 13, "jibun": "1020", "price": 32500}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2011-01-24", "dong": "보문동6가", "floor": 3, "jibun": "36-2", "price": 30950}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-01-25", "dong": "정릉동", "floor": 14, "jibun": "1020", "price": 33450}
+{"apt": "아남", "area": 78.57, "built": 1994, "date": "2011-01-26", "dong": "보문동6가", "floor": 8, "jibun": "36-2", "price": 30200}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-01-26", "dong": "정릉동", "floor": 14, "jibun": "1020", "price": 30000}
+{"apt": "돈암현대아파트", "area": 84.39, "built": 1991, "date": "2011-01-28", "dong": "돈암동", "floor": 10, "jibun": "1", "price": 33000}
+{"apt": "정릉우성아파트 101~105동", "area": 59.97, "built": 2000, "date": "2011-01-29", "dong": "정릉동", "floor": 3, "jibun": "1020", "price": 25500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-01-29", "dong": "정릉동", "floor": 19, "jibun": "1020", "price": 32300}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-01-30", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 17300}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-01-31", "dong": "정릉동", "floor": 14, "jibun": "1020", "price": 29900}
+{"apt": "돈암현대아파트", "area": 55.89, "built": 1991, "date": "2011-02-07", "dong": "돈암동", "floor": 8, "jibun": "1", "price": 22200}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-02-10", "dong": "돈암동", "floor": 10, "jibun": "1", "price": 18000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-02-11", "dong": "돈암동", "floor": 3, "jibun": "1", "price": 17750}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-02-11", "dong": "돈암동", "floor": 7, "jibun": "1", "price": 17000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-02-12", "dong": "돈암동", "floor": 3, "jibun": "1", "price": 17300}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-02-12", "dong": "돈암동", "floor": 10, "jibun": "1", "price": 18500}
+{"apt": "아남", "area": 84.41, "built": 1994, "date": "2011-02-12", "dong": "보문동6가", "floor": 14, "jibun": "36-2", "price": 31000}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2011-02-13", "dong": "종암동", "floor": 3, "jibun": "34-3", "price": 29000}
+{"apt": "돈암현대아파트", "area": 84.8, "built": 1991, "date": "2011-02-15", "dong": "돈암동", "floor": 2, "jibun": "1", "price": 26500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-02-15", "dong": "정릉동", "floor": 2, "jibun": "1020", "price": 30000}
+{"apt": "고려", "area": 66.44, "built": 1983, "date": "2011-02-19", "dong": "종암동", "floor": 3, "jibun": "125-1", "price": 17000}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2011-02-20", "dong": "정릉동", "floor": 5, "jibun": "780", "price": 18000}
+{"apt": "정릉우성아파트 101~105동", "area": 59.97, "built": 2000, "date": "2011-02-21", "dong": "정릉동", "floor": 6, "jibun": "1020", "price": 24100}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2011-02-22", "dong": "길음동", "floor": 11, "jibun": "635-168", "price": 24900}
+{"apt": "동소문현대", "area": 84.72, "built": 1994, "date": "2011-02-22", "dong": "돈암동", "floor": 11, "jibun": "630", "price": 30900}
+{"apt": "아남", "area": 78.57, "built": 1994, "date": "2011-02-23", "dong": "보문동6가", "floor": 6, "jibun": "36-2", "price": 30000}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2011-02-23", "dong": "보문동6가", "floor": 10, "jibun": "36-2", "price": 34000}
+{"apt": "삼성", "area": 84.72, "built": 1997, "date": "2011-02-23", "dong": "석관동", "floor": 7, "jibun": "404", "price": 28000}
+{"apt": "삼익", "area": 98.04, "built": 1983, "date": "2011-02-23", "dong": "안암동3가", "floor": 6, "jibun": "135", "price": 38000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-02-23", "dong": "정릉동", "floor": 1, "jibun": "1020", "price": 27500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-02-24", "dong": "정릉동", "floor": 14, "jibun": "1020", "price": 32500}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2011-02-26", "dong": "길음동", "floor": 1, "jibun": "635-168", "price": 26000}
+{"apt": "우남푸르미아", "area": 59.64, "built": 1994, "date": "2011-02-26", "dong": "상월곡동", "floor": 8, "jibun": "55-56", "price": 22300}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2011-02-28", "dong": "종암동", "floor": 15, "jibun": "34-3", "price": 32400}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-03-05", "dong": "돈암동", "floor": 3, "jibun": "1", "price": 17150}
+{"apt": "정릉우성아파트 101~105동", "area": 114.97, "built": 2000, "date": "2011-03-05", "dong": "정릉동", "floor": 10, "jibun": "1020", "price": 40000}
+{"apt": "산장아파트가동,나동", "area": 71.5, "built": 1977, "date": "2011-03-05", "dong": "정릉동", "floor": 3, "jibun": "780", "price": 23400}
+{"apt": "동소문현대", "area": 84.72, "built": 1994, "date": "2011-03-07", "dong": "돈암동", "floor": 4, "jibun": "630", "price": 23100}
+{"apt": "종암선경", "area": 59.4, "built": 1996, "date": "2011-03-08", "dong": "종암동", "floor": 3, "jibun": "34-3", "price": 23850}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-03-10", "dong": "정릉동", "floor": 6, "jibun": "1020", "price": 30900}
+{"apt": "아남", "area": 84.69, "built": 1994, "date": "2011-03-12", "dong": "보문동6가", "floor": 7, "jibun": "36-2", "price": 33000}
+{"apt": "동소문현대", "area": 84.72, "built": 1994, "date": "2011-03-14", "dong": "돈암동", "floor": 4, "jibun": "630", "price": 30500}
+{"apt": "돈암현대아파트", "area": 56.7, "built": 1991, "date": "2011-03-15", "dong": "돈암동", "floor": 1, "jibun": "1", "price": 23000}
+{"apt": "아남", "area": 78.57, "built": 1994, "date": "2011-03-15", "dong": "보문동6가", "floor": 2, "jibun": "36-2", "price": 29200}
+{"apt": "대광", "area": 42.61, "built": 1971, "date": "2011-03-16", "dong": "안암동3가", "floor": 2, "jibun": "136-1", "price": 12000}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2011-03-17", "dong": "종암동", "floor": 1, "jibun": "34-3", "price": 29000}
+{"apt": "정릉우성아파트 101~105동", "area": 59.67, "built": 2000, "date": "2011-03-18", "dong": "정릉동", "floor": 10, "jibun": "1020", "price": 25300}
+{"apt": "동소문현대", "area": 75.89, "built": 1994, "date": "2011-03-19", "dong": "돈암동", "floor": 4, "jibun": "630", "price": 26500}
+{"apt": "우남푸르미아", "area": 84.51, "built": 1994, "date": "2011-03-22", "dong": "상월곡동", "floor": 1, "jibun": "55-56", "price": 27000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-03-23", "dong": "정릉동", "floor": 8, "jibun": "1020", "price": 31800}
+{"apt": "대광", "area": 44.4, "built": 1971, "date": "2011-03-28", "dong": "안암동3가", "floor": 2, "jibun": "136-1", "price": 14000}
+{"apt": "아남", "area": 84.41, "built": 1994, "date": "2011-03-29", "dong": "보문동6가", "floor": 13, "jibun": "36-2", "price": 34200}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2011-03-29", "dong": "종암동", "floor": 4, "jibun": "34-3", "price": 30200}
+{"apt": "대광", "area": 60.89, "built": 1971, "date": "2011-03-30", "dong": "안암동3가", "floor": 6, "jibun": "136-1", "price": 14700}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2011-04-01", "dong": "길음동", "floor": 7, "jibun": "635-168", "price": 25000}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2011-04-02", "dong": "보문동6가", "floor": 3, "jibun": "36-2", "price": 30000}
+{"apt": "삼성", "area": 59.82, "built": 1997, "date": "2011-04-03", "dong": "석관동", "floor": 13, "jibun": "404", "price": 20700}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-04-03", "dong": "정릉동", "floor": 18, "jibun": "1020", "price": 32130}
+{"apt": "우남푸르미아", "area": 59.64, "built": 1994, "date": "2011-04-05", "dong": "상월곡동", "floor": 3, "jibun": "55-56", "price": 22500}
+{"apt": "주암", "area": 48.73, "built": 1972, "date": "2011-04-08", "dong": "성북동", "floor": 4, "jibun": "286", "price": 17300}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-04-13", "dong": "정릉동", "floor": 8, "jibun": "1020", "price": 33500}
+{"apt": "중앙하이츠", "area": 84.85, "built": 1994, "date": "2011-04-14", "dong": "석관동", "floor": 2, "jibun": "110-2", "price": 29500}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2011-04-15", "dong": "정릉동", "floor": 5, "jibun": "780", "price": 17900}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-04-18", "dong": "돈암동", "floor": 4, "jibun": "1", "price": 18300}
+{"apt": "아남", "area": 78.57, "built": 1994, "date": "2011-04-19", "dong": "보문동6가", "floor": 4, "jibun": "36-2", "price": 29700}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-04-20", "dong": "돈암동", "floor": 13, "jibun": "1", "price": 17250}
+{"apt": "안암", "area": 64.63, "built": 1969, "date": "2011-04-20", "dong": "안암동4가", "floor": 4, "jibun": "23-3", "price": 18600}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-04-20", "dong": "정릉동", "floor": 19, "jibun": "1020", "price": 31000}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2011-04-22", "dong": "정릉동", "floor": 10, "jibun": "780", "price": 17800}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-04-27", "dong": "정릉동", "floor": 17, "jibun": "1020", "price": 32900}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2011-04-28", "dong": "돈암동", "floor": 4, "jibun": "1", "price": 27200}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2011-04-29", "dong": "정릉동", "floor": 11, "jibun": "780", "price": 17000}
+{"apt": "돈암현대아파트", "area": 55.89, "built": 1991, "date": "2011-05-02", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 21300}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2011-05-02", "dong": "보문동6가", "floor": 1, "jibun": "36-2", "price": 29800}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-05-02", "dong": "정릉동", "floor": 17, "jibun": "1020", "price": 31500}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2011-05-04", "dong": "돈암동", "floor": 9, "jibun": "1", "price": 28300}
+{"apt": "돈암현대아파트", "area": 84.8, "built": 1991, "date": "2011-05-07", "dong": "돈암동", "floor": 9, "jibun": "1", "price": 31300}
+{"apt": "대광", "area": 54.45, "built": 1971, "date": "2011-05-07", "dong": "안암동3가", "floor": 1, "jibun": "136-1", "price": 15000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-05-09", "dong": "정릉동", "floor": 1, "jibun": "1020", "price": 26400}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2011-05-12", "dong": "석관동", "floor": 8, "jibun": "110-2", "price": 23500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-05-16", "dong": "돈암동", "floor": 2, "jibun": "1", "price": 17200}
+{"apt": "돈암현대아파트", "area": 55.89, "built": 1991, "date": "2011-05-18", "dong": "돈암동", "floor": 2, "jibun": "1", "price": 21300}
+{"apt": "동소문현대", "area": 75.89, "built": 1994, "date": "2011-05-23", "dong": "돈암동", "floor": 1, "jibun": "630", "price": 26000}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2011-05-25", "dong": "정릉동", "floor": 7, "jibun": "780", "price": 17700}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-05-26", "dong": "정릉동", "floor": 9, "jibun": "1020", "price": 30500}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2011-05-27", "dong": "정릉동", "floor": 7, "jibun": "780", "price": 17250}
+{"apt": "대광", "area": 60.89, "built": 1971, "date": "2011-05-28", "dong": "안암동3가", "floor": 2, "jibun": "136-1", "price": 16000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2011-05-30", "dong": "정릉동", "floor": 12, "jibun": "1020", "price": 19600}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-06-01", "dong": "돈암동", "floor": 3, "jibun": "1", "price": 18500}
+{"apt": "고려", "area": 53.57, "built": 1983, "date": "2011-06-01", "dong": "종암동", "floor": 3, "jibun": "125-1", "price": 15800}
+{"apt": "동신주택", "area": 78.11, "built": 1985, "date": "2011-06-01", "dong": "하월곡동", "floor": 1, "jibun": "70-4", "price": 24500}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2011-06-04", "dong": "정릉동", "floor": 3, "jibun": "780", "price": 17100}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2011-06-07", "dong": "길음동", "floor": 11, "jibun": "635-168", "price": 23000}
+{"apt": "돈암현대아파트", "area": 84.39, "built": 1991, "date": "2011-06-07", "dong": "돈암동", "floor": 15, "jibun": "1", "price": 35000}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2011-06-13", "dong": "길음동", "floor": 1, "jibun": "635-168", "price": 26000}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2011-06-13", "dong": "보문동6가", "floor": 2, "jibun": "36-2", "price": 30000}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2011-06-15", "dong": "길음동", "floor": 10, "jibun": "635-168", "price": 23900}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-06-18", "dong": "돈암동", "floor": 6, "jibun": "1", "price": 17000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-06-20", "dong": "돈암동", "floor": 3, "jibun": "1", "price": 18000}
+{"apt": "대광", "area": 54.88, "built": 1971, "date": "2011-06-20", "dong": "안암동3가", "floor": 4, "jibun": "136-1", "price": 15400}
+{"apt": "삼익", "area": 98.04, "built": 1983, "date": "2011-06-27", "dong": "안암동3가", "floor": 12, "jibun": "135", "price": 35700}
+{"apt": "동신주택", "area": 78.11, "built": 1985, "date": "2011-06-27", "dong": "하월곡동", "floor": 5, "jibun": "70-4", "price": 23100}
+{"apt": "길음뉴타운신안파크아파트", "area": 68.14, "built": 1988, "date": "2011-06-28", "dong": "길음동", "floor": 4, "jibun": "635-168", "price": 22300}
+{"apt": "아남", "area": 84.41, "built": 1994, "date": "2011-07-01", "dong": "보문동6가", "floor": 12, "jibun": "36-2", "price": 34000}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2011-07-01", "dong": "정릉동", "floor": 10, "jibun": "780", "price": 19000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-07-02", "dong": "정릉동", "floor": 16, "jibun": "1020", "price": 31500}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2011-07-04", "dong": "정릉동", "floor": 13, "jibun": "1020", "price": 19470}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-07-06", "dong": "정릉동", "floor": 4, "jibun": "1020", "price": 31900}
+{"apt": "성북", "area": 37.36, "built": 1971, "date": "2011-07-07", "dong": "성북동", "floor": 1, "jibun": "348-3", "price": 12500}
+{"apt": "대광", "area": 56.96, "built": 1971, "date": "2011-07-09", "dong": "안암동3가", "floor": 3, "jibun": "136-1", "price": 15800}
+{"apt": "돈암현대아파트", "area": 84.8, "built": 1991, "date": "2011-07-11", "dong": "돈암동", "floor": 10, "jibun": "1", "price": 33000}
+{"apt": "종암선경", "area": 59.4, "built": 1996, "date": "2011-07-12", "dong": "종암동", "floor": 1, "jibun": "34-3", "price": 22900}
+{"apt": "대광", "area": 51.97, "built": 1971, "date": "2011-07-13", "dong": "안암동3가", "floor": 6, "jibun": "136-1", "price": 14000}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2011-07-15", "dong": "종암동", "floor": 10, "jibun": "34-3", "price": 31850}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2011-07-16", "dong": "정릉동", "floor": 17, "jibun": "1020", "price": 20300}
+{"apt": "아남", "area": 78.57, "built": 1994, "date": "2011-07-19", "dong": "보문동6가", "floor": 9, "jibun": "36-2", "price": 31200}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-07-26", "dong": "정릉동", "floor": 5, "jibun": "1020", "price": 30700}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-07-27", "dong": "정릉동", "floor": 18, "jibun": "1020", "price": 33000}
+{"apt": "동소문현대", "area": 84.72, "built": 1994, "date": "2011-07-28", "dong": "돈암동", "floor": 14, "jibun": "630", "price": 31000}
+{"apt": "동신주택", "area": 70.04, "built": 1985, "date": "2011-07-30", "dong": "하월곡동", "floor": 5, "jibun": "70-4", "price": 23000}
+{"apt": "돈암현대아파트", "area": 84.39, "built": 1991, "date": "2011-08-01", "dong": "돈암동", "floor": 3, "jibun": "1", "price": 31200}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2011-08-02", "dong": "길음동", "floor": 7, "jibun": "635-168", "price": 25000}
+{"apt": "종암선경", "area": 59.4, "built": 1996, "date": "2011-08-04", "dong": "종암동", "floor": 2, "jibun": "34-3", "price": 23550}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-08-09", "dong": "정릉동", "floor": 9, "jibun": "1020", "price": 31200}
+{"apt": "우남푸르미아", "area": 59.44, "built": 1994, "date": "2011-08-10", "dong": "상월곡동", "floor": 18, "jibun": "55-56", "price": 24500}
+{"apt": "우남푸르미아", "area": 111.4, "built": 1994, "date": "2011-08-10", "dong": "상월곡동", "floor": 7, "jibun": "55-56", "price": 37000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2011-08-10", "dong": "정릉동", "floor": 19, "jibun": "1020", "price": 19100}
+{"apt": "중앙하이츠", "area": 84.85, "built": 1994, "date": "2011-08-12", "dong": "석관동", "floor": 3, "jibun": "110-2", "price": 29800}
+{"apt": "대광", "area": 42.61, "built": 1971, "date": "2011-08-12", "dong": "안암동3가", "floor": 6, "jibun": "136-1", "price": 12500}
+{"apt": "아남", "area": 84.69, "built": 1996, "date": "2011-08-12", "dong": "하월곡동", "floor": 17, "jibun": "218", "price": 30900}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2011-08-13", "dong": "길음동", "floor": 10, "jibun": "635-168", "price": 24400}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2011-08-16", "dong": "정릉동", "floor": 5, "jibun": "1020", "price": 20500}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2011-08-19", "dong": "돈암동", "floor": 9, "jibun": "1", "price": 28500}
+{"apt": "대광", "area": 56.96, "built": 1971, "date": "2011-08-22", "dong": "안암동3가", "floor": 5, "jibun": "136-1", "price": 15500}
+{"apt": "고려", "area": 53.57, "built": 1983, "date": "2011-08-24", "dong": "종암동", "floor": 1, "jibun": "125-1", "price": 14000}
+{"apt": "동소문현대", "area": 84.72, "built": 1994, "date": "2011-08-29", "dong": "돈암동", "floor": 7, "jibun": "630", "price": 30400}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2011-08-30", "dong": "길음동", "floor": 9, "jibun": "635-168", "price": 25000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-08-31", "dong": "정릉동", "floor": 2, "jibun": "1020", "price": 30350}
+{"apt": "삼성", "area": 84.72, "built": 1997, "date": "2011-09-04", "dong": "석관동", "floor": 4, "jibun": "404", "price": 29000}
+{"apt": "삼성", "area": 84.72, "built": 1997, "date": "2011-09-05", "dong": "석관동", "floor": 1, "jibun": "404", "price": 27980}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-09-05", "dong": "정릉동", "floor": 9, "jibun": "1020", "price": 33650}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2011-09-07", "dong": "정릉동", "floor": 9, "jibun": "1020", "price": 20700}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-09-07", "dong": "정릉동", "floor": 10, "jibun": "1020", "price": 31500}
+{"apt": "아남", "area": 84.69, "built": 1996, "date": "2011-09-14", "dong": "하월곡동", "floor": 12, "jibun": "218", "price": 28000}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2011-09-15", "dong": "종암동", "floor": 1, "jibun": "34-3", "price": 26500}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2011-09-16", "dong": "정릉동", "floor": 8, "jibun": "1020", "price": 20300}
+{"apt": "우남푸르미아", "area": 59.64, "built": 1994, "date": "2011-09-17", "dong": "상월곡동", "floor": 12, "jibun": "55-56", "price": 24250}
+{"apt": "길음뉴타운신안파크아파트", "area": 68.14, "built": 1988, "date": "2011-09-20", "dong": "길음동", "floor": 12, "jibun": "635-168", "price": 18800}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-09-22", "dong": "돈암동", "floor": 13, "jibun": "1", "price": 18100}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2011-09-22", "dong": "정릉동", "floor": 9, "jibun": "780", "price": 16700}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-09-24", "dong": "정릉동", "floor": 1, "jibun": "1020", "price": 29500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-09-27", "dong": "돈암동", "floor": 1, "jibun": "1", "price": 17500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-09-28", "dong": "정릉동", "floor": 15, "jibun": "1020", "price": 31800}
+{"apt": "대광", "area": 54.88, "built": 1971, "date": "2011-09-30", "dong": "안암동3가", "floor": 5, "jibun": "136-1", "price": 14000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-10-01", "dong": "정릉동", "floor": 15, "jibun": "1020", "price": 31300}
+{"apt": "종암선경", "area": 59.4, "built": 1996, "date": "2011-10-01", "dong": "종암동", "floor": 1, "jibun": "34-3", "price": 22700}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2011-10-03", "dong": "정릉동", "floor": 19, "jibun": "1020", "price": 32000}
+{"apt": "고려", "area": 63.56, "built": 1983, "date": "2011-10-08", "dong": "종암동", "floor": 3, "jibun": "125-1", "price": 14000}
+{"apt": "종암선경", "area": 59.4, "built": 1996, "date": "2011-10-08", "dong": "종암동", "floor": 2, "jibun": "34-3", "price": 23500}
+{"apt": "고려", "area": 66.44, "built": 1983, "date": "2011-10-10", "dong": "종암동", "floor": 3, "jibun": "125-1", "price": 17000}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2011-10-11", "dong": "석관동", "floor": 12, "jibun": "110-2", "price": 25000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-10-20", "dong": "돈암동", "floor": 8, "jibun": "1", "price": 18200}
+{"apt": "아남", "area": 84.69, "built": 1996, "date": "2011-10-20", "dong": "하월곡동", "floor": 15, "jibun": "218", "price": 31300}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-10-22", "dong": "정릉동", "floor": 9, "jibun": "1020", "price": 33900}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2011-10-24", "dong": "돈암동", "floor": 9, "jibun": "1", "price": 17800}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2011-10-26", "dong": "돈암동", "floor": 7, "jibun": "1", "price": 29000}
+{"apt": "대광", "area": 54.31, "built": 1971, "date": "2011-10-31", "dong": "안암동3가", "floor": 3, "jibun": "136-1", "price": 14000}
+{"apt": "돈암현대아파트", "area": 55.89, "built": 1991, "date": "2011-11-02", "dong": "돈암동", "floor": 8, "jibun": "1", "price": 23000}
+{"apt": "삼성", "area": 59.82, "built": 1997, "date": "2011-11-03", "dong": "석관동", "floor": 7, "jibun": "404", "price": 21800}
+{"apt": "동소문현대", "area": 84.72, "built": 1994, "date": "2011-11-10", "dong": "돈암동", "floor": 10, "jibun": "630", "price": 30300}
+{"apt": "중앙하이츠", "area": 84.85, "built": 1994, "date": "2011-11-11", "dong": "석관동", "floor": 6, "jibun": "110-2", "price": 38000}
+{"apt": "삼익", "area": 98.68, "built": 1983, "date": "2011-11-12", "dong": "안암동3가", "floor": 9, "jibun": "135", "price": 35000}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2011-11-15", "dong": "보문동6가", "floor": 12, "jibun": "36-2", "price": 30000}
+{"apt": "아남", "area": 59.97, "built": 1996, "date": "2011-11-17", "dong": "하월곡동", "floor": 8, "jibun": "218", "price": 23300}
+{"apt": "돈암현대아파트", "area": 55.89, "built": 1991, "date": "2011-11-18", "dong": "돈암동", "floor": 3, "jibun": "1", "price": 20000}
+{"apt": "돈암현대아파트", "area": 84.8, "built": 1991, "date": "2011-11-23", "dong": "돈암동", "floor": 8, "jibun": "1", "price": 31000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2011-11-25", "dong": "정릉동", "floor": 10, "jibun": "1020", "price": 20000}
+{"apt": "종암선경", "area": 59.4, "built": 1996, "date": "2011-11-26", "dong": "종암동", "floor": 7, "jibun": "34-3", "price": 25950}
+{"apt": "대광", "area": 42.61, "built": 1971, "date": "2011-11-28", "dong": "안암동3가", "floor": 3, "jibun": "136-1", "price": 12000}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2011-12-01", "dong": "종암동", "floor": 5, "jibun": "34-3", "price": 30000}
+{"apt": "삼익", "area": 98.68, "built": 1983, "date": "2011-12-14", "dong": "안암동3가", "floor": 5, "jibun": "135", "price": 35000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2011-12-22", "dong": "정릉동", "floor": 19, "jibun": "1020", "price": 19200}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2011-12-23", "dong": "정릉동", "floor": 6, "jibun": "1020", "price": 33500}
+{"apt": "아남", "area": 59.97, "built": 1996, "date": "2011-12-27", "dong": "하월곡동", "floor": 2, "jibun": "218", "price": 24000}
+{"apt": "아남", "area": 84.69, "built": 1996, "date": "2011-12-31", "dong": "하월곡동", "floor": 8, "jibun": "218", "price": 30500}
+{"apt": "돈암현대아파트", "area": 84.39, "built": 1991, "date": "2012-01-16", "dong": "돈암동", "floor": 11, "jibun": "1", "price": 30400}
+{"apt": "구현대", "area": 51.47, "built": 1981, "date": "2012-01-17", "dong": "돈암동", "floor": 3, "jibun": "624", "price": 18500}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2012-01-17", "dong": "석관동", "floor": 15, "jibun": "110-2", "price": 22000}
+{"apt": "우남푸르미아", "area": 111.4, "built": 1994, "date": "2012-01-19", "dong": "상월곡동", "floor": 11, "jibun": "55-56", "price": 41000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2012-01-27", "dong": "돈암동", "floor": 6, "jibun": "1", "price": 17650}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2012-01-30", "dong": "돈암동", "floor": 6, "jibun": "1", "price": 28350}
+{"apt": "정릉우성아파트 101~105동", "area": 59.97, "built": 2000, "date": "2012-02-02", "dong": "정릉동", "floor": 18, "jibun": "1020", "price": 24700}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2012-02-16", "dong": "돈암동", "floor": 7, "jibun": "1", "price": 17800}
+{"apt": "고려", "area": 87.75, "built": 1983, "date": "2012-02-22", "dong": "종암동", "floor": 4, "jibun": "125-1", "price": 20200}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2012-02-23", "dong": "정릉동", "floor": 4, "jibun": "1020", "price": 30000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2012-02-23", "dong": "정릉동", "floor": 17, "jibun": "1020", "price": 31000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2012-02-24", "dong": "정릉동", "floor": 4, "jibun": "1020", "price": 20500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2012-02-25", "dong": "돈암동", "floor": 12, "jibun": "1", "price": 17300}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2012-02-25", "dong": "정릉동", "floor": 10, "jibun": "1020", "price": 21000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2012-02-25", "dong": "정릉동", "floor": 5, "jibun": "1020", "price": 31000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2012-02-26", "dong": "정릉동", "floor": 7, "jibun": "1020", "price": 32500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2012-02-28", "dong": "정릉동", "floor": 1, "jibun": "1020", "price": 28300}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2012-03-03", "dong": "길음동", "floor": 6, "jibun": "635-168", "price": 25000}
+{"apt": "대광", "area": 60.89, "built": 1971, "date": "2012-03-05", "dong": "안암동3가", "floor": 2, "jibun": "136-1", "price": 16000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2012-03-08", "dong": "돈암동", "floor": 6, "jibun": "1", "price": 18200}
+{"apt": "삼성", "area": 84.72, "built": 1997, "date": "2012-03-17", "dong": "석관동", "floor": 13, "jibun": "404", "price": 27900}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2012-03-19", "dong": "돈암동", "floor": 1, "jibun": "1", "price": 17500}
+{"apt": "대광", "area": 60.89, "built": 1971, "date": "2012-03-26", "dong": "안암동3가", "floor": 4, "jibun": "136-1", "price": 14000}
+{"apt": "대광", "area": 56.96, "built": 1971, "date": "2012-03-31", "dong": "안암동3가", "floor": 2, "jibun": "136-1", "price": 16200}
+{"apt": "정릉우성아파트 101~105동", "area": 59.97, "built": 2000, "date": "2012-03-31", "dong": "정릉동", "floor": 4, "jibun": "1020", "price": 23000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2012-04-05", "dong": "정릉동", "floor": 1, "jibun": "1020", "price": 28000}
+{"apt": "중앙하이츠", "area": 84.85, "built": 1994, "date": "2012-04-07", "dong": "석관동", "floor": 10, "jibun": "110-2", "price": 31000}
+{"apt": "대광", "area": 58.45, "built": 1971, "date": "2012-04-08", "dong": "안암동3가", "floor": 1, "jibun": "136-1", "price": 16500}
+{"apt": "고려", "area": 53.57, "built": 1983, "date": "2012-04-08", "dong": "종암동", "floor": 4, "jibun": "125-1", "price": 14200}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2012-04-09", "dong": "석관동", "floor": 8, "jibun": "110-2", "price": 24000}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2012-04-09", "dong": "정릉동", "floor": 5, "jibun": "780", "price": 14500}
+{"apt": "대광", "area": 47.27, "built": 1971, "date": "2012-04-12", "dong": "안암동3가", "floor": 3, "jibun": "136-1", "price": 12000}
+{"apt": "대광", "area": 44.36, "built": 1971, "date": "2012-04-13", "dong": "안암동3가", "floor": 4, "jibun": "136-1", "price": 12200}
+{"apt": "대광", "area": 44.4, "built": 1971, "date": "2012-04-13", "dong": "안암동3가", "floor": 4, "jibun": "136-1", "price": 11000}
+{"apt": "길음뉴타운신안파크아파트", "area": 68.14, "built": 1988, "date": "2012-04-20", "dong": "길음동", "floor": 5, "jibun": "635-168", "price": 20500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2012-04-21", "dong": "정릉동", "floor": 15, "jibun": "1020", "price": 32000}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2012-04-22", "dong": "종암동", "floor": 7, "jibun": "34-3", "price": 30500}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2012-04-24", "dong": "길음동", "floor": 6, "jibun": "635-168", "price": 25000}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2012-04-26", "dong": "돈암동", "floor": 2, "jibun": "1", "price": 25000}
+{"apt": "아남", "area": 59.97, "built": 1996, "date": "2012-05-02", "dong": "하월곡동", "floor": 16, "jibun": "218", "price": 24000}
+{"apt": "돈암현대아파트", "area": 55.89, "built": 1991, "date": "2012-05-04", "dong": "돈암동", "floor": 12, "jibun": "1", "price": 21000}
+{"apt": "대광", "area": 54.88, "built": 1971, "date": "2012-05-07", "dong": "안암동3가", "floor": 7, "jibun": "136-1", "price": 11000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2012-05-08", "dong": "정릉동", "floor": 11, "jibun": "1020", "price": 31500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2012-05-15", "dong": "돈암동", "floor": 11, "jibun": "1", "price": 16550}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2012-05-15", "dong": "정릉동", "floor": 8, "jibun": "780", "price": 17000}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2012-05-21", "dong": "돈암동", "floor": 11, "jibun": "1", "price": 18000}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2012-05-23", "dong": "보문동6가", "floor": 6, "jibun": "36-2", "price": 31000}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2012-05-24", "dong": "보문동6가", "floor": 1, "jibun": "36-2", "price": 30000}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2012-06-03", "dong": "돈암동", "floor": 3, "jibun": "1", "price": 27700}
+{"apt": "중앙하이츠", "area": 84.85, "built": 1994, "date": "2012-06-03", "dong": "석관동", "floor": 13, "jibun": "110-2", "price": 28500}
+{"apt": "산장아파트가동,나동", "area": 71.5, "built": 1977, "date": "2012-06-04", "dong": "정릉동", "floor": 9, "jibun": "780", "price": 23000}
+{"apt": "우남푸르미아", "area": 59.64, "built": 1994, "date": "2012-06-06", "dong": "상월곡동", "floor": 8, "jibun": "55-56", "price": 22200}
+{"apt": "동소문현대", "area": 84.72, "built": 1994, "date": "2012-06-09", "dong": "돈암동", "floor": 8, "jibun": "630", "price": 30000}
+{"apt": "아남", "area": 59.97, "built": 1996, "date": "2012-06-10", "dong": "하월곡동", "floor": 20, "jibun": "218", "price": 22500}
+{"apt": "산장아파트가동,나동", "area": 71.5, "built": 1977, "date": "2012-06-11", "dong": "정릉동", "floor": 5, "jibun": "780", "price": 20000}
+{"apt": "중앙하이츠", "area": 84.85, "built": 1994, "date": "2012-06-13", "dong": "석관동", "floor": 10, "jibun": "110-2", "price": 28800}
+{"apt": "아남", "area": 59.97, "built": 1996, "date": "2012-06-14", "dong": "하월곡동", "floor": 4, "jibun": "218", "price": 23500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2012-06-15", "dong": "정릉동", "floor": 19, "jibun": "1020", "price": 31000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2012-06-22", "dong": "정릉동", "floor": 4, "jibun": "1020", "price": 19400}
+{"apt": "대광", "area": 59.83, "built": 1971, "date": "2012-06-23", "dong": "안암동3가", "floor": 4, "jibun": "136-1", "price": 14500}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2012-06-24", "dong": "정릉동", "floor": 3, "jibun": "1020", "price": 27500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2012-07-04", "dong": "돈암동", "floor": 2, "jibun": "1", "price": 17550}
+{"apt": "아남", "area": 84.69, "built": 1996, "date": "2012-07-05", "dong": "하월곡동", "floor": 3, "jibun": "218", "price": 28000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2012-07-09", "dong": "정릉동", "floor": 13, "jibun": "1020", "price": 30000}
+{"apt": "돈암현대아파트", "area": 55.89, "built": 1991, "date": "2012-07-10", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 20000}
+{"apt": "아남", "area": 84.9, "built": 1994, "date": "2012-07-10", "dong": "보문동6가", "floor": 8, "jibun": "36-2", "price": 30000}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2012-07-10", "dong": "종암동", "floor": 13, "jibun": "34-3", "price": 31500}
+{"apt": "삼성", "area": 84.72, "built": 1997, "date": "2012-07-12", "dong": "석관동", "floor": 8, "jibun": "404", "price": 28000}
+{"apt": "돈암현대아파트", "area": 55.89, "built": 1991, "date": "2012-07-15", "dong": "돈암동", "floor": 8, "jibun": "1", "price": 21200}
+{"apt": "돈암현대아파트", "area": 55.89, "built": 1991, "date": "2012-07-17", "dong": "돈암동", "floor": 4, "jibun": "1", "price": 19700}
+{"apt": "삼익", "area": 174.68, "built": 1983, "date": "2012-07-20", "dong": "안암동3가", "floor": 12, "jibun": "135", "price": 60000}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2012-07-23", "dong": "석관동", "floor": 2, "jibun": "110-2", "price": 23600}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2012-07-24", "dong": "정릉동", "floor": 9, "jibun": "1020", "price": 27000}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2012-07-27", "dong": "돈암동", "floor": 4, "jibun": "1", "price": 27000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2012-07-30", "dong": "정릉동", "floor": 13, "jibun": "1020", "price": 28000}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2012-08-01", "dong": "돈암동", "floor": 7, "jibun": "1", "price": 27600}
+{"apt": "대광", "area": 60.89, "built": 1971, "date": "2012-08-02", "dong": "안암동3가", "floor": 7, "jibun": "136-1", "price": 13800}
+{"apt": "길음뉴타운신안파크아파트", "area": 68.14, "built": 1988, "date": "2012-08-14", "dong": "길음동", "floor": 2, "jibun": "635-168", "price": 19800}
+{"apt": "정릉우성아파트 101~105동", "area": 59.97, "built": 2000, "date": "2012-08-20", "dong": "정릉동", "floor": 11, "jibun": "1020", "price": 22900}
+{"apt": "우남푸르미아", "area": 59.64, "built": 1994, "date": "2012-08-24", "dong": "상월곡동", "floor": 13, "jibun": "55-56", "price": 23500}
+{"apt": "돈암현대아파트", "area": 56.7, "built": 1991, "date": "2012-08-27", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 22000}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2012-08-31", "dong": "정릉동", "floor": 4, "jibun": "780", "price": 16500}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2012-09-07", "dong": "정릉동", "floor": 15, "jibun": "1020", "price": 19900}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2012-09-07", "dong": "정릉동", "floor": 14, "jibun": "1020", "price": 31000}
+{"apt": "삼익", "area": 98.04, "built": 1983, "date": "2012-09-10", "dong": "안암동3가", "floor": 7, "jibun": "135", "price": 37000}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2012-09-12", "dong": "종암동", "floor": 7, "jibun": "34-3", "price": 30400}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2012-09-13", "dong": "정릉동", "floor": 12, "jibun": "1020", "price": 29700}
+{"apt": "성북", "area": 37.36, "built": 1971, "date": "2012-09-15", "dong": "성북동", "floor": 1, "jibun": "348-3", "price": 13000}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2012-09-17", "dong": "종암동", "floor": 2, "jibun": "34-3", "price": 27900}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2012-09-18", "dong": "돈암동", "floor": 7, "jibun": "1", "price": 17500}
+{"apt": "돈암현대아파트", "area": 84.39, "built": 1991, "date": "2012-09-19", "dong": "돈암동", "floor": 3, "jibun": "1", "price": 29000}
+{"apt": "우남푸르미아", "area": 162.3, "built": 1994, "date": "2012-09-19", "dong": "상월곡동", "floor": 2, "jibun": "55-56", "price": 48000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2012-09-19", "dong": "정릉동", "floor": 15, "jibun": "1020", "price": 18300}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2012-09-19", "dong": "정릉동", "floor": 12, "jibun": "1020", "price": 28500}
+{"apt": "구현대", "area": 51.47, "built": 1981, "date": "2012-09-21", "dong": "돈암동", "floor": 2, "jibun": "624", "price": 14500}
+{"apt": "고려", "area": 53.57, "built": 1983, "date": "2012-09-21", "dong": "종암동", "floor": 4, "jibun": "125-1", "price": 6500}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2012-09-22", "dong": "정릉동", "floor": 13, "jibun": "1020", "price": 19700}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2012-09-25", "dong": "정릉동", "floor": 6, "jibun": "780", "price": 16000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2012-09-27", "dong": "정릉동", "floor": 14, "jibun": "1020", "price": 28500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2012-10-10", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 17100}
+{"apt": "길음뉴타운신안파크아파트", "area": 68.14, "built": 1988, "date": "2012-10-11", "dong": "길음동", "floor": 3, "jibun": "635-168", "price": 22000}
+{"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2012-10-11", "dong": "정릉동", "floor": 9, "jibun": "1020", "price": 20500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2012-10-15", "dong": "돈암동", "floor": 11, "jibun": "1", "price": 17700}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2012-10-16", "dong": "정릉동", "floor": 13, "jibun": "1020", "price": 28500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2012-10-17", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 16900}
+{"apt": "돈암현대아파트", "area": 84.39, "built": 1991, "date": "2012-10-20", "dong": "돈암동", "floor": 12, "jibun": "1", "price": 29000}
+{"apt": "안암", "area": 50.68, "built": 1969, "date": "2012-10-20", "dong": "안암동4가", "floor": 2, "jibun": "23-3", "price": 13900}
+{"apt": "종암선경", "area": 59.4, "built": 1996, "date": "2012-10-22", "dong": "종암동", "floor": 3, "jibun": "34-3", "price": 23500}
+{"apt": "동신주택", "area": 78.11, "built": 1985, "date": "2012-10-22", "dong": "하월곡동", "floor": 4, "jibun": "70-4", "price": 22200}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2012-10-25", "dong": "정릉동", "floor": 10, "jibun": "780", "price": 16000}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2012-10-29", "dong": "종암동", "floor": 15, "jibun": "34-3", "price": 31500}
+{"apt": "중앙하이츠", "area": 84.85, "built": 1994, "date": "2012-10-30", "dong": "석관동", "floor": 1, "jibun": "110-2", "price": 27000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2012-10-30", "dong": "정릉동", "floor": 5, "jibun": "1020", "price": 30000}
+{"apt": "구현대", "area": 108.32, "built": 1981, "date": "2012-11-01", "dong": "돈암동", "floor": 1, "jibun": "624", "price": 31000}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2012-11-06", "dong": "정릉동", "floor": 3, "jibun": "780", "price": 16500}
+{"apt": "산장아파트가동,나동", "area": 71.5, "built": 1977, "date": "2012-11-06", "dong": "정릉동", "floor": 4, "jibun": "780", "price": 19500}
+{"apt": "돈암현대아파트", "area": 41.58, "built": 1991, "date": "2012-11-07", "dong": "돈암동", "floor": 2, "jibun": "1", "price": 17800}
+{"apt": "대광", "area": 60.89, "built": 1971, "date": "2012-11-08", "dong": "안암동3가", "floor": 2, "jibun": "136-1", "price": 14500}
+{"apt": "돈암현대아파트", "area": 56.7, "built": 1991, "date": "2012-11-09", "dong": "돈암동", "floor": 10, "jibun": "1", "price": 23000}
+{"apt": "우남푸르미아", "area": 59.64, "built": 1994, "date": "2012-11-10", "dong": "상월곡동", "floor": 14, "jibun": "55-56", "price": 24500}
+{"apt": "돈암현대아파트", "area": 68.76, "built": 1991, "date": "2012-11-13", "dong": "돈암동", "floor": 12, "jibun": "1", "price": 28825}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2012-11-16", "dong": "정릉동", "floor": 5, "jibun": "1020", "price": 30700}
+{"apt": "돈암현대아파트", "area": 56.7, "built": 1991, "date": "2012-11-17", "dong": "돈암동", "floor": 5, "jibun": "1", "price": 23000}
+{"apt": "동우", "area": 65.32, "built": 1975, "date": "2012-11-17", "dong": "정릉동", "floor": 2, "jibun": "727-7", "price": 16200}
+{"apt": "고려", "area": 63.56, "built": 1983, "date": "2012-11-17", "dong": "종암동", "floor": 4, "jibun": "125-1", "price": 14000}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2012-11-21", "dong": "석관동", "floor": 9, "jibun": "110-2", "price": 21750}
+{"apt": "동소문현대", "area": 84.72, "built": 1994, "date": "2012-11-26", "dong": "돈암동", "floor": 4, "jibun": "630", "price": 29300}
+{"apt": "정릉우성아파트 101~105동", "area": 84.99, "built": 2000, "date": "2012-12-01", "dong": "정릉동", "floor": 7, "jibun": "1020", "price": 29500}
+{"apt": "대광", "area": 54.88, "built": 1971, "date": "2012-12-04", "dong": "안암동3가", "floor": 2, "jibun": "136-1", "price": 12000}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2012-12-07", "dong": "정릉동", "floor": 5, "jibun": "1020", "price": 28000}
+{"apt": "아남", "area": 84.69, "built": 1996, "date": "2012-12-17", "dong": "하월곡동", "floor": 10, "jibun": "218", "price": 27000}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2012-12-28", "dong": "길음동", "floor": 12, "jibun": "635-168", "price": 22000}
+{"apt": "중앙하이츠", "area": 84.85, "built": 1994, "date": "2012-12-28", "dong": "석관동", "floor": 1, "jibun": "110-2", "price": 26000}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2013-01-02", "dong": "석관동", "floor": 9, "jibun": "110-2", "price": 19750}
+{"apt": "길음뉴타운신안파크아파트", "area": 79.87, "built": 1988, "date": "2013-01-03", "dong": "길음동", "floor": 3, "jibun": "635-168", "price": 21700}
+{"apt": "대광", "area": 60.93, "built": 1971, "date": "2013-01-06", "dong": "안암동3가", "floor": 3, "jibun": "136-1", "price": 13700}
+{"apt": "정릉우성아파트 101~105동", "area": 84.96, "built": 2000, "date": "2013-01-08", "dong": "정릉동", "floor": 1, "jibun": "1020", "price": 27700}
+{"apt": "산장아파트가동,나동", "area": 52.89, "built": 1977, "date": "2013-01-10", "dong": "정릉동", "floor": 2, "jibun": "780", "price": 16000}
+{"apt": "대광", "area": 54.31, "built": 1971, "date": "2013-01-15", "dong": "안암동3가", "floor": 3, "jibun": "136-1", "price": 13000}
+{"apt": "종암선경", "area": 75.5, "built": 1996, "date": "2013-01-16", "dong": "종암동", "floor": 1, "jibun": "34-3", "price": 26400}
+{"apt": "중앙하이츠", "area": 84.85, "built": 1994, "date": "2013-01-25", "dong": "석관동", "floor": 4, "jibun": "110-2", "price": 26500}
+{"apt": "돈암현대아파트", "area": 56.7, "built": 1991, "date": "2013-01-26", "dong": "돈암동", "floor": 1, "jibun": "1", "price": 21500}
+{"apt": "삼성", "area": 84.72, "built": 1997, "date": "2013-01-29", "dong": "석관동", "floor": 10, "jibun": "404", "price": 27300}
+{"apt": "중앙하이츠", "area": 59.79, "built": 1994, "date": "2013-01-30", "dong": "석관동", "floor": 2, "jibun": "110-2", "price": 19500}
+{"apt": "고려", "area": 66.49, "built": 1983, "date": "2013-01-30", "dong": "종암동", "floor": 5, "jibun": "125-1", "price": 15000}
 {"apt": "고려", "area": 66.49, "built": 1983, "date": "2013-02-01", "dong": "종암동", "floor": 1, "jibun": "125-1", "price": 15300}
 {"apt": "정릉우성아파트 101~105동", "area": 46.65, "built": 2000, "date": "2013-02-03", "dong": "정릉동", "floor": 6, "jibun": "1020", "price": 19300}
 {"apt": "우남푸르미아", "area": 51.5, "built": 1994, "date": "2013-02-16", "dong": "상월곡동", "floor": 18, "jibun": "55-56", "price": 19800}

@@ -1,5 +1,5 @@
 {"id":"11260120033301",
-"name":"신내아파트(12단지)",
+"name":"신내12단지",
 "basis":null,
 "by_area":[{"area":27,"pyeong":8.2,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":2808,"wolse_monthly_median":6}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

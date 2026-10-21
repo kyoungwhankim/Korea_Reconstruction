@@ -1,8 +1,14 @@
 {"id":"41800100449348",
 "name":"영풍아파트",
 "basis":"단지",
-"by_area":[{"area":53,"pyeong":16.0,"n":4,"median":4400,"min":3900,"max":5000,"latest_price":4300,"latest_date":"2026-09-30","latest_floor":3,"jeonse_n":1,"wolse_n":2,"jeonse_median":4000,"jeonse_min":4000,"jeonse_max":4000,"jeonse_latest":4000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":90.9,"wolse_deposit_median":500,"wolse_monthly_median":40}],
+"by_area":[{"area":53,"pyeong":16.0,"n":5,"median":4500,"min":3900,"max":5000,"latest_price":5000,"latest_date":"2026-10-20","latest_floor":5,"jeonse_n":1,"wolse_n":2,"jeonse_median":4000,"jeonse_min":4000,"jeonse_max":4000,"jeonse_latest":4000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":88.9,"wolse_deposit_median":500,"wolse_monthly_median":40}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2009-09-14",53.14,4,5300,null,null,1991],
+["2011-04-05",53.14,5,5150,null,null,1991],
+["2011-05-10",53.14,2,5250,null,null,1991],
+["2012-06-22",53.14,6,4200,null,null,1991],
+["2012-06-28",64.93,2,7000,null,null,1991],
+["2012-08-15",74.55,3,7700,null,null,1991],
 ["2013-04-09",53.14,3,5500,null,null,1991],
 ["2013-06-26",74.55,5,7000,null,null,1991],
 ["2013-12-16",74.55,4,7500,null,null,1991],
@@ -55,7 +61,8 @@
 ["2026-01-05",53.14,4,5000,null,"중개거래",1991],
 ["2026-02-02",53.14,4,4500,null,"중개거래",1991],
 ["2026-09-01",53.14,6,3900,null,"중개거래",1991],
-["2026-09-30",53.14,3,4300,null,"중개거래",1991]
+["2026-09-30",53.14,3,4300,null,"중개거래",1991],
+["2026-10-20",53.14,5,5000,null,"직거래",1991]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-02-24",53.14,4,500,40,"신규","26.03~28.03",null],

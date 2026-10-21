@@ -1,7 +1,7 @@
 {"id":"41135120417100",
 "name":"양지마을(6단지)(한양603동)",
 "basis":"단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":4,"median":137250,"min":86000,"max":146000,"latest_price":146000,"latest_date":"2026-07-16","latest_floor":17,"jeonse_n":11,"wolse_n":8,"jeonse_median":48000,"jeonse_min":40500,"jeonse_max":55000,"jeonse_latest":50000,"jeonse_latest_date":"2026-08-12","jeonse_ratio":35.0,"wolse_deposit_median":25000,"wolse_monthly_median":120},{"area":60,"pyeong":18.1,"n":12,"median":143350,"min":76000,"max":151500,"latest_price":147500,"latest_date":"2026-07-18","latest_floor":17,"jeonse_n":11,"wolse_n":6,"jeonse_median":48000,"jeonse_min":39900,"jeonse_max":55000,"jeonse_latest":44974,"jeonse_latest_date":"2026-09-12","jeonse_ratio":33.5,"wolse_deposit_median":27500,"wolse_monthly_median":97}],
+"by_area":[{"area":59,"pyeong":17.8,"n":4,"median":137250,"min":86000,"max":146000,"latest_price":146000,"latest_date":"2026-07-16","latest_floor":17,"jeonse_n":11,"wolse_n":9,"jeonse_median":48000,"jeonse_min":40500,"jeonse_max":55000,"jeonse_latest":50000,"jeonse_latest_date":"2026-08-12","jeonse_ratio":35.0,"wolse_deposit_median":30000,"wolse_monthly_median":120},{"area":60,"pyeong":18.1,"n":12,"median":143350,"min":76000,"max":151500,"latest_price":147500,"latest_date":"2026-07-18","latest_floor":17,"jeonse_n":11,"wolse_n":6,"jeonse_median":48000,"jeonse_min":39900,"jeonse_max":55000,"jeonse_latest":44974,"jeonse_latest_date":"2026-09-12","jeonse_ratio":33.5,"wolse_deposit_median":27500,"wolse_monthly_median":97}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2014-12-29",59.76,14,35800,null,null,1993],
 ["2015-01-02",59.4,17,32500,null,null,1993],
@@ -125,5 +125,6 @@
 ["2026-09-12",59.76,23,44974,0,"갱신","26.10~28.10",true],
 ["2026-09-19",59.4,11,40000,100,"신규","26.12~28.12",null],
 ["2026-10-07",59.4,3,30000,120,"신규","26.12~28.12",null],
-["2026-10-07",59.4,3,30000,120,"신규","26.12~28.12",null]
+["2026-10-07",59.4,3,30000,120,"신규","26.12~28.12",null],
+["2026-10-19",59.4,3,30000,120,"신규","26.12~28.12",null]
 ]}}

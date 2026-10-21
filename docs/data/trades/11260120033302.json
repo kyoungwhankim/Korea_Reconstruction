@@ -1,5 +1,5 @@
 {"id":"11260120033302",
-"name":"신내(10단지)",
+"name":"신내10단지",
 "basis":null,
 "by_area":[{"area":24,"pyeong":7.3,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":184,"wolse_monthly_median":4},{"area":30,"pyeong":9.1,"jeonse_n":0,"wolse_n":4,"wolse_deposit_median":846,"wolse_monthly_median":9},{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":16,"wolse_deposit_median":1103,"wolse_monthly_median":12}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

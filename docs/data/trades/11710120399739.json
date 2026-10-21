@@ -3,6 +3,9 @@
 "basis":"단지",
 "by_area":[{"area":61,"pyeong":18.5,"n":1,"median":170000,"min":170000,"max":170000,"latest_price":170000,"latest_date":"2026-08-31","latest_floor":7}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2009-06-25",60.7,3,47500,null,null,1984],
+["2009-08-29",60.7,4,48500,null,null,1984],
+["2009-12-14",60.7,4,47500,null,null,1984],
 ["2014-11-14",60.7,12,41600,null,null,1984],
 ["2015-01-10",106.61,6,63600,null,null,1984],
 ["2015-01-14",60.7,5,43000,null,null,1984],

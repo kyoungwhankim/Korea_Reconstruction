@@ -1,7 +1,7 @@
 {"id":"서울-동작구-동작1",
 "name":"동작1 주택재건축 조합",
 "basis":"기존 단지",
-"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":7,"wolse_n":10,"jeonse_median":79000,"jeonse_min":73000,"jeonse_max":85000,"jeonse_latest":75000,"jeonse_latest_date":"2026-07-04","wolse_deposit_median":30300,"wolse_monthly_median":182},{"area":75,"pyeong":22.7,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":45000,"wolse_monthly_median":150},{"area":76,"pyeong":23.0,"jeonse_n":3,"wolse_n":2,"jeonse_median":85000,"jeonse_min":80000,"jeonse_max":86000,"jeonse_latest":80000,"jeonse_latest_date":"2026-09-18","wolse_deposit_median":32500,"wolse_monthly_median":230},{"area":85,"pyeong":25.7,"jeonse_n":12,"wolse_n":24,"jeonse_median":92000,"jeonse_min":89250,"jeonse_max":100000,"jeonse_latest":89250,"jeonse_latest_date":"2026-09-19","wolse_deposit_median":50000,"wolse_monthly_median":167}],
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":7,"wolse_n":10,"jeonse_median":79000,"jeonse_min":73000,"jeonse_max":85000,"jeonse_latest":75000,"jeonse_latest_date":"2026-07-04","wolse_deposit_median":30300,"wolse_monthly_median":182},{"area":75,"pyeong":22.7,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":45000,"wolse_monthly_median":150},{"area":76,"pyeong":23.0,"jeonse_n":3,"wolse_n":2,"jeonse_median":85000,"jeonse_min":80000,"jeonse_max":86000,"jeonse_latest":80000,"jeonse_latest_date":"2026-09-18","wolse_deposit_median":32500,"wolse_monthly_median":230},{"area":85,"pyeong":25.7,"jeonse_n":13,"wolse_n":24,"jeonse_median":92000,"jeonse_min":89250,"jeonse_max":100000,"jeonse_latest":100000,"jeonse_latest_date":"2026-10-20","wolse_deposit_median":50000,"wolse_monthly_median":167}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2025-09-20",84.97,1,170000,null,"중개거래",2022]
 ]},
@@ -66,7 +66,8 @@
 ["2026-09-18",75.95,1,80000,0,"신규","26.12~28.12",null],
 ["2026-09-19",84.97,9,20000,320,"신규","26.12~28.12",null],
 ["2026-09-19",84.97,10,89250,0,"갱신","26.10~28.10",true],
-["2026-10-01",74.95,6,45100,150,"갱신","26.10~28.10",true]
+["2026-10-01",74.95,6,45100,150,"갱신","26.10~28.10",true],
+["2026-10-20",84.98,4,100000,0,"신규","27.01~29.01",null]
 ]},
 "silv":{"cols":["date","area","floor","price","kind","type"],"rows":[
 ["2024-08-24",59.91,1,118500,"분양권","중개거래"],

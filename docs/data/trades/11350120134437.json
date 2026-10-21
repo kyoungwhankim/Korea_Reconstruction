@@ -1,5 +1,5 @@
 {"id":"11350120134437",
-"name":"공릉1단지아파트",
+"name":"공릉1단지",
 "basis":"단지",
 "by_area":[{"area":25,"pyeong":7.6,"jeonse_n":0,"wolse_n":13,"wolse_deposit_median":178,"wolse_monthly_median":4}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -3,6 +3,8 @@
 "basis":"준공 후 신축",
 "by_area":[],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2010-12-25",37.59,1,10300,null,null,1982],
+["2011-04-16",35.63,3,12700,null,null,1982],
 ["2013-06-25",43.8,5,12000,null,null,1982]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

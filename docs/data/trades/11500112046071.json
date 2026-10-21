@@ -1,7 +1,7 @@
 {"id":"11500112046071",
 "name":"가양8단지",
 "basis":null,
-"by_area":[{"area":34,"pyeong":10.3,"jeonse_n":0,"wolse_n":17,"wolse_deposit_median":743,"wolse_monthly_median":12},{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":27,"wolse_deposit_median":840,"wolse_monthly_median":12},{"area":50,"pyeong":15.1,"jeonse_n":1,"wolse_n":9,"jeonse_median":4613,"jeonse_min":4613,"jeonse_max":4613,"jeonse_latest":4613,"jeonse_latest_date":"2025-11-11","wolse_deposit_median":1058,"wolse_monthly_median":15}],
+"by_area":[{"area":34,"pyeong":10.3,"jeonse_n":0,"wolse_n":17,"wolse_deposit_median":743,"wolse_monthly_median":12},{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":28,"wolse_deposit_median":1420,"wolse_monthly_median":9},{"area":50,"pyeong":15.1,"jeonse_n":1,"wolse_n":9,"jeonse_median":4613,"jeonse_min":4613,"jeonse_max":4613,"jeonse_latest":4613,"jeonse_latest_date":"2025-11-11","wolse_deposit_median":1058,"wolse_monthly_median":15}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
@@ -58,5 +58,6 @@
 ["2026-10-12",39.6,4,2148,5,"갱신","26.11~28.10",null],
 ["2026-10-13",34.44,12,2006,6,"갱신","26.11~28.10",null],
 ["2026-10-13",39.6,6,2269,6,"갱신","26.11~28.10",null],
-["2026-10-14",39.6,1,2000,4,"갱신","26.11~28.10",null]
+["2026-10-14",39.6,1,2000,4,"갱신","26.11~28.10",null],
+["2026-10-20",39.6,3,2148,5,"갱신","26.11~28.10",null]
 ]}}

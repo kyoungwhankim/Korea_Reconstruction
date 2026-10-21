@@ -1,7 +1,7 @@
 {"id":"경기-의왕-의왕내손",
 "name":"의왕내손주택",
 "basis":"기존 단지",
-"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":19,"wolse_n":5,"jeonse_median":49000,"jeonse_min":44000,"jeonse_max":53000,"jeonse_latest":50000,"jeonse_latest_date":"2026-09-21","wolse_deposit_median":10000,"wolse_monthly_median":155},{"area":85,"pyeong":25.7,"jeonse_n":8,"wolse_n":3,"jeonse_median":55500,"jeonse_min":54600,"jeonse_max":58000,"jeonse_latest":56000,"jeonse_latest_date":"2026-06-15","wolse_deposit_median":30000,"wolse_monthly_median":120},{"area":116,"pyeong":35.1,"jeonse_n":12,"wolse_n":2,"jeonse_median":66312,"jeonse_min":62000,"jeonse_max":73000,"jeonse_latest":73000,"jeonse_latest_date":"2026-07-18","wolse_deposit_median":15500,"wolse_monthly_median":155},{"area":120,"pyeong":36.3,"jeonse_n":4,"wolse_n":4,"jeonse_median":61000,"jeonse_min":58800,"jeonse_max":69000,"jeonse_latest":69000,"jeonse_latest_date":"2026-09-12","wolse_deposit_median":40000,"wolse_monthly_median":90}],
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":19,"wolse_n":5,"jeonse_median":49000,"jeonse_min":44000,"jeonse_max":53000,"jeonse_latest":50000,"jeonse_latest_date":"2026-09-21","wolse_deposit_median":10000,"wolse_monthly_median":155},{"area":85,"pyeong":25.7,"jeonse_n":9,"wolse_n":3,"jeonse_median":56000,"jeonse_min":54600,"jeonse_max":58000,"jeonse_latest":57000,"jeonse_latest_date":"2026-10-05","wolse_deposit_median":30000,"wolse_monthly_median":120},{"area":116,"pyeong":35.1,"jeonse_n":12,"wolse_n":2,"jeonse_median":66312,"jeonse_min":62000,"jeonse_max":73000,"jeonse_latest":73000,"jeonse_latest_date":"2026-07-18","wolse_deposit_median":15500,"wolse_monthly_median":155},{"area":120,"pyeong":36.3,"jeonse_n":4,"wolse_n":4,"jeonse_median":61000,"jeonse_min":58800,"jeonse_max":69000,"jeonse_latest":69000,"jeonse_latest_date":"2026-09-12","wolse_deposit_median":40000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
@@ -61,5 +61,6 @@
 ["2026-09-12",59.75,15,50000,0,"신규","26.11~28.11",null],
 ["2026-09-12",120.26,14,69000,0,"갱신","26.11~28.11",true],
 ["2026-09-18",59.73,7,53000,0,"신규","26.11~28.11",null],
-["2026-09-21",59.73,10,50000,0,"신규","26.12~28.12",null]
+["2026-09-21",59.73,10,50000,0,"신규","26.12~28.12",null],
+["2026-10-05",84.68,13,57000,0,"신규","26.11~28.11",null]
 ]}}

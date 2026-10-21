@@ -1,8 +1,12 @@
 {"id":"41410100007585",
 "name":"신안A동아파트",
 "basis":"단지",
-"by_area":[{"area":39,"pyeong":11.8,"n":4,"median":21067,"min":14000,"max":21360,"latest_price":21205,"latest_date":"2026-09-30","latest_floor":2},{"area":40,"pyeong":12.1,"n":3,"median":20570,"min":20305,"max":20570,"latest_price":20305,"latest_date":"2026-09-30","latest_floor":5},{"area":48,"pyeong":14.5,"n":1,"median":23895,"min":23895,"max":23895,"latest_price":23895,"latest_date":"2026-09-29","latest_floor":4},{"area":50,"pyeong":15.1,"n":2,"median":23800,"min":23560,"max":24040,"latest_price":24040,"latest_date":"2026-09-29","latest_floor":3},{"area":52,"pyeong":15.7,"n":1,"median":25315,"min":25315,"max":25315,"latest_price":25315,"latest_date":"2026-09-30","latest_floor":1},{"area":59,"pyeong":17.8,"n":2,"median":27445,"min":27175,"max":27715,"latest_price":27715,"latest_date":"2026-09-29","latest_floor":3}],
+"by_area":[{"area":39,"pyeong":11.8,"n":5,"median":21205,"min":14000,"max":21360,"latest_price":21205,"latest_date":"2026-10-19","latest_floor":4},{"area":40,"pyeong":12.1,"n":3,"median":20570,"min":20305,"max":20570,"latest_price":20305,"latest_date":"2026-09-30","latest_floor":5},{"area":48,"pyeong":14.5,"n":1,"median":23895,"min":23895,"max":23895,"latest_price":23895,"latest_date":"2026-09-29","latest_floor":4},{"area":50,"pyeong":15.1,"n":2,"median":23800,"min":23560,"max":24040,"latest_price":24040,"latest_date":"2026-09-29","latest_floor":3},{"area":52,"pyeong":15.7,"n":1,"median":25315,"min":25315,"max":25315,"latest_price":25315,"latest_date":"2026-09-30","latest_floor":1},{"area":59,"pyeong":17.8,"n":2,"median":27445,"min":27175,"max":27715,"latest_price":27715,"latest_date":"2026-09-29","latest_floor":3}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2010-04-19",59.22,4,17000,null,null,1988],
+["2011-08-20",59.22,3,14400,null,null,1988],
+["2011-08-26",48.42,3,12500,null,null,1988],
+["2012-03-06",39.28,4,10000,null,null,1988],
 ["2013-07-10",49.5,4,8500,null,null,1988],
 ["2013-07-13",51.93,5,10000,null,null,1988],
 ["2013-07-27",40.05,5,8250,null,null,1988],
@@ -49,7 +53,8 @@
 ["2026-09-29",59.22,3,27715,null,"직거래",1988],
 ["2026-09-30",39.28,2,21205,null,"직거래",1988],
 ["2026-09-30",40.05,5,20305,null,"직거래",1988],
-["2026-09-30",51.93,1,25315,null,"직거래",1988]
+["2026-09-30",51.93,1,25315,null,"직거래",1988],
+["2026-10-19",39.28,4,21205,null,"직거래",1988]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ]}}
