@@ -265,6 +265,25 @@ def complex_names(reb_names: list[str], hist_names: list[str], kapt_name: str | 
     return display, list(aliases.items())
 
 
+def dong_aliases(name: str, aliases: list[tuple[str, str]], dong: str | None) -> list[tuple[str, str]]:
+    """법정동 이름을 앞에 붙인 별칭: 철산동 '주공12아파트' → '철산주공12', '철산주공12단지'. 기사·공공 자료는 단지를 흔히 동 이름과
+    함께 부르므로, 뉴스 대조와 사업장 연결('철산주공12단지' 사업장)에 쓴다. 동 줄기가 두 글자 이상이고 이름이 그 줄기로
+    시작하지 않을 때만, 표기 변형이 아닌 이름에 붙인다."""
+    stem = re.sub(r"\d*(동|가)$", "", dong or "")
+    if len(stem) < 2:
+        return []
+    have = {a for a, _ in aliases} | {name}
+    out: list[tuple[str, str]] = []
+    for n in [name, *(a for a, k in aliases if k != "표기 변형")]:
+        if n.startswith(stem) or re.search(r"\(.*\)$", n):
+            continue
+        v = f"{stem}{n}"
+        if v not in have:
+            have.add(v)
+            out.append((v, "동 이름 결합"))
+    return out
+
+
 def _kapt_by_lot() -> dict[str, list[dict]]:
     out: dict[str, list[dict]] = {}
     for k in en._read_jsonl(KAPT_FILE):
@@ -320,6 +339,7 @@ def lookup(complex_ids) -> dict[str, dict]:
         hist = [h.get(k) for h in idx.extra.get(cid, {}).get("hist", []) for k in ("old", "new")]
         name, aliases = complex_names((r or {}).get("names", []), [h for h in hist if h], (kapt or {}).get("name"),
                                       [], regrow.get("name"), idx.dong_numbers(cid))
+        aliases += dong_aliases(name, aliases, parts[-1])
         out[cid] = {
             "complex_id": cid, "name": name, "aliases": [a for a, _ in aliases],
             "region_sido": parts[0], "region_sigungu": " ".join(parts[1:-1]) if len(parts) > 2 else None,
@@ -392,6 +412,7 @@ def build(today: str, projects: list[dict], lots: dict[str, dict], book=None,
         hist = [h.get(k) for h in idx.extra.get(cid, {}).get("hist", []) for k in ("old", "new")]
         name, aliases = complex_names((r or {}).get("names", []), [h for h in hist if h], (kapt or {}).get("name"),
                                       trade_names, regrow.get("name"), idx.dong_numbers(cid))
+        aliases += dong_aliases(name, aliases, parts[-1])   # '철산주공12' — 기사·사업장 이름은 흔히 동 이름을 앞에 붙인다
         sib_units = [s.get("units") for s in siblings]
         land = regrow.get("land_area_m2")
         land_share = round(land / sum(sib_units), 1) if land and siblings and all(sib_units) else \

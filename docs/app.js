@@ -684,8 +684,9 @@ function csvField(v) {
 function copyButtons(it) {
   const btn = (label, row, title) => `<button type="button" class="copy" data-text="${esc(row)}" title="${esc(title)}">${label}</button>`;
   if (it.kind === NEW_KIND) {
-    return btn("등록 행", [it.complex_id, it.zone_name, it.article_stage, it.published, it.link, ""].map(csvField).join(","),
-      "manual_projects.csv에 붙여 넣을 행 복사 — 다음 갱신 때 이 단지가 사업장으로 올라옵니다(단계·날짜·이름은 기사에 맞게 고쳐도 됨)")
+    return btn("등록 행", [it.complex_id, it.zone_name, it.article_stage, it.published, it.link, "", it.owner || ""].map(csvField).join(","),
+      it.owner ? `manual_projects.csv에 붙여 넣을 행 복사 — 이 단지를 기존 사업장 ${it.owner}에 붙입니다(마지막 칸이 project_id)`
+        : "manual_projects.csv에 붙여 넣을 행 복사 — 다음 갱신 때 이 단지가 사업장으로 올라옵니다(단계·날짜·이름은 기사에 맞게 고쳐도 됨)")
       + " " + btn("기각 행", [it.id, `cx:${it.complex_id}`, ""].map(csvField).join(","), "review_dismissed.csv에 붙여 넣을 행 복사");
   }
   return btn("반영 행", [it.project_id, it.article_stage, it.published, it.link, ""].map(csvField).join(","), "manual_stage.csv에 붙여 넣을 행 복사")
@@ -716,8 +717,10 @@ function renderReview() {
 function reviewRow(it) {
   const isNew = it.kind === NEW_KIND;
   const link = isNew ? `?view=apartments&q=${encodeURIComponent(it.zone_name)}` : `?q=${encodeURIComponent(it.zone_name)}`;
-  const tag = isNew ? ` <span class="kind-new" title="사업장이 없는 노후 단지 — 맞으면 '등록 행'으로 manual_projects.csv에 등록">신규 사업장 후보</span>` : "";
-  const where = [place(it), it.dong].filter(Boolean).join(" ");
+  const tag = !isNew ? "" : it.owner
+    ? ` <span class="kind-new" title="기사가 기존 사업장 ${esc(it.owner)}에도 맞음 — 새 사업장 대신 그 사업장에 단지를 붙입니다">기존 사업장 연결 후보</span>`
+    : ` <span class="kind-new" title="사업장이 없는 노후 단지 — 맞으면 '등록 행'으로 manual_projects.csv에 등록">신규 사업장 후보</span>`;
+  const where = [place(it), it.dong, it.owner ? `→ ${it.owner}` : ""].filter(Boolean).join(" ");
   const cur = isNew ? NO_PROJECT : (it.stage || "–");
   return `<td class="name"><a href="${link}">${esc(it.zone_name)}</a>${tag}<small>${esc(where)}</small></td>
     <td><span class="stage ${STAGE_CLASS[cur] || ""}">${esc(cur)}</span> → <span class="stage ${STAGE_CLASS[it.article_stage] || ""}">${esc(it.article_stage)}</span></td>

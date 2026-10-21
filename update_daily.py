@@ -243,6 +243,9 @@ def link_row(con, source: str, payload: dict, manual: pd.DataFrame, today: str) 
     기존 사업장이 하나뿐이고 이름이 LOT_LINK_THRESHOLD 이상 닮았으면 그 사업장으로 — 수동 등록한 '가야주공5단지1차'가
     나중에 공공 출처에 '가야5단지1차'처럼 실려도 새 사업장을 만들지 않는다.
     """
+    target = _link_target(con, source, payload)
+    if target:
+        return target, "등록 파일이 지정한 사업장에 연결"
     area = f"{payload['region_sido']}|{cr.sgg_key(payload['region_sigungu'], payload['region_sido'])}"
     tag = f"{source}/{payload.get('project_type') or ''}"
     mine = cr.name_keys([payload["zone_name"]]) | _complex_keys(payload)
@@ -283,6 +286,18 @@ def link_row(con, source: str, payload: dict, manual: pd.DataFrame, today: str) 
     return pid, note
 
 
+def _link_target(con, source: str, payload: dict) -> str | None:
+    """등록 행(manual_projects.csv·auto_projects.csv)의 project_id 열: 적혀 있고 그 사업장이 있으면 거기에 붙인다.
+    공공 출처 사업장에 주소가 없어 지번으로 못 붙거나 이름이 달라 새 사업장이 생기는 것을 막는다."""
+    target = payload.get("link_to")
+    if not target:
+        return None
+    if con.execute("SELECT 1 FROM projects WHERE project_id=?", (target,)).fetchone():
+        return target
+    print(f"   ! {source}: 지정한 사업장 {target}이 없음 — {payload.get('zone_name')}은 이름·지번으로 연결", file=sys.stderr)
+    return None
+
+
 _LOT_CACHE: dict[tuple, tuple | None] = {}
 
 
@@ -303,7 +318,14 @@ def recompute(con, pid: str, manual: pd.DataFrame, today: str, log: list, manual
     old_json = con.execute("SELECT record FROM projects WHERE project_id=?", (pid,)).fetchone()[0]
     old = json.loads(old_json)
     rows = active_rows(con, pid)
-    if not rows:  # 모든 출처에서 사라짐 — 지우지 않고 표시만
+    if not rows:
+        ever = {s for (s,) in con.execute("SELECT DISTINCT source FROM source_rows WHERE project_id=?", (pid,))}
+        if ever <= set(cr.PROJECT_FILE_SOURCES):   # 등록 파일로만 있던 사업장(또는 행이 모두 다른 사업장으로 옮겨진 사업장): 뺀다(ID는 남겨 재사용 안 함)
+            if old:
+                log.append((today, pid, "등록 사업장 제거", "status", old.get("status"), None, "; ".join(sorted(ever)) or "행 이동"))
+                con.execute("UPDATE projects SET record='{}', updated_at=? WHERE project_id=?", (today, pid))
+            return
+        # 모든 공공 출처에서 사라짐 — 지우지 않고 표시만
         if old and old.get("status") != "출처에서 사라짐":
             new = {**old, "status": "출처에서 사라짐"}
             log.append((today, pid, "모든 출처에서 사라짐", "status", old.get("status"), new["status"], ""))
@@ -402,6 +424,8 @@ def update(con: sqlite3.Connection, today: str, force: bool = False,
         dirty |= {pid for (pid,) in con.execute("SELECT project_id FROM projects")}
         con.execute("INSERT OR REPLACE INTO meta VALUES ('manual_stage_hash', ?)", (msh,))
 
+    # 출처에서 사라졌다고 표시된 사업장은 매번 다시 본다 — 행이 모두 다른 사업장으로 옮겨졌거나 등록 파일로만 있던 것이면 뺀다
+    dirty |= {pid for (pid,) in con.execute("SELECT project_id FROM projects WHERE record LIKE '%\"status\": \"출처에서 사라짐\"%'")}
     for pid in sorted(dirty):
         recompute(con, pid, manual, today, log, manual_stage)
     con.executemany("INSERT INTO changes VALUES (?,?,?,?,?,?,?)", log)
@@ -447,12 +471,19 @@ def sync_source(con, src: cr.Source, today: str, force: bool, manual: pd.DataFra
         con.execute("UPDATE source_rows SET row_hash=?, payload=?, last_changed=? WHERE source=? AND row_key=?",
                     (cr.row_hash(p), dumps(p), today, src.name, k))
         dirty.add(old[k][1])
+        target = _link_target(con, src.name, p)
+        if target and target != old[k][1]:   # 등록 행의 project_id가 바뀌었다 → 그 사업장으로 옮긴다(중복 사업장 정리)
+            con.execute("UPDATE source_rows SET project_id=? WHERE source=? AND row_key=?", (target, src.name, k))
+            dirty.add(target)
+            log.append((today, target, "연결 변경", "row", old[k][1], f"{k} (등록 파일 지정)", src.name))
     for k in added:
         p = payloads[k]
-        if k in old:  # 예전에 사라졌다가 다시 나타난 행 → 원래 사업장으로
-            pid, note = old[k][1], "다시 나타남"
-            con.execute("UPDATE source_rows SET row_hash=?, payload=?, last_changed=?, removed_at=NULL "
-                        "WHERE source=? AND row_key=?", (cr.row_hash(p), dumps(p), today, src.name, k))
+        if k in old:  # 예전에 사라졌다가 다시 나타난 행 → 원래 사업장으로(등록 행이 사업장을 지정했으면 그곳으로)
+            pid, note = _link_target(con, src.name, p) or old[k][1], "다시 나타남"
+            con.execute("UPDATE source_rows SET row_hash=?, payload=?, last_changed=?, removed_at=NULL, project_id=? "
+                        "WHERE source=? AND row_key=?", (cr.row_hash(p), dumps(p), today, pid, src.name, k))
+            if pid != old[k][1]:
+                dirty.add(old[k][1])
         else:
             pid, note = link_row(con, src.name, p, manual, today)
             con.execute("INSERT INTO source_rows VALUES (?,?,?,?,?,?,?,NULL)",
@@ -612,7 +643,7 @@ def with_enrichment(recs: list[dict], book=None) -> list[dict]:
 def migration_log(log: list[tuple], today: str) -> list[tuple]:
     """스키마 확장 실행의 이력: 행 추가·삭제와 단계·일자 변경만 남기고, 새 열이 채워지며 생긴 변경은 한 줄로 요약."""
     row_kinds = {"출처 행 추가", "출처에서 삭제", "신규 사업장", "신규 사업장(수동 등록)", "신규 사업장(자동 등록)", "모든 출처에서 사라짐",
-                 "수동 병합"}
+                 "수동 병합", "연결 변경", "등록 사업장 제거"}
     keep_fields = {"stage", "status", *cr.DATE_COLS}
     kept = [r for r in log if (r[2] in row_kinds or r[3] in keep_fields)
             and not (r[3] == "stage" and (r[4], r[5]) in cr.RENAMED_STAGES)]  # 단계 이름만 바뀐 것은 변경이 아니다

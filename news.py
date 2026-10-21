@@ -585,6 +585,7 @@ def prune(state: dict[str, dict], profiles: dict[str, dict], dismissed: set[str]
                 if not alias:
                     continue
                 c["matched"] = alias
+                c["owner"] = owner_project(c["title"], prof, profiles)   # 같은 제목이 기존 사업장에도 맞으면 새 사업장 대신 그곳에 붙인다
             elif cr.zone_key(c.get("matched") or "") not in keys:   # 더는 별칭으로 안 쓰는 이름으로 맞은 후보는 뺀다
                 continue
             # 판정 규칙이 나아지면 저장된 후보도 같은 규칙으로 다시 매긴다(제목 기준이라 결정적)
@@ -598,6 +599,15 @@ def prune(state: dict[str, dict], profiles: dict[str, dict], dismissed: set[str]
         st["candidates"] = list(kept.values())
         if not st["candidates"] and not st["seen"] and not st.get("checked_at"):
             del state[pid]
+
+
+def owner_project(title: str, prof: dict, profiles: dict[str, dict]) -> str | None:
+    """단지 후보의 기사 제목이 같은 시군구의 기존 사업장 이름에도 맞으면 그 project_id(하나일 때만).
+    '철산주공12단지, 조합설립인가' 기사가 부동산원 단지 '주공12아파트'(철산동)와 사업장 '철산주공12단지'에 모두 맞는 경우 —
+    새 사업장을 만들지 않고 단지를 그 사업장에 붙인다(auto_projects.csv의 project_id 열)."""
+    hits = {key for key, p in profiles.items()
+            if p["kind"] == STAGE_KIND and p["sgg"] == prof["sgg"] and p["sido"] == prof["sido"] and match_name(p, title)}
+    return next(iter(hits)) if len(hits) == 1 else None
 
 
 def title_key(title: str) -> str:
@@ -751,7 +761,7 @@ AUTO_MIN_ARTICLES = 2
 AUTO_MAX_JUMP = 4
 AUTO_NEW_MAX_STAGE = "조합설립인가"
 AUTO_STAGE_COLS = ["project_id", "stage", "date", "evidence_url", "note"]
-AUTO_PROJECT_COLS = ["complex_id", "name", "stage", "date", "evidence_url", "note"]
+AUTO_PROJECT_COLS = ["complex_id", "name", "stage", "date", "evidence_url", "note", "project_id"]   # project_id: 기존 사업장에 붙일 때
 
 
 def read_auto(path, cols: list[str]) -> dict[str, dict]:
@@ -797,6 +807,7 @@ def auto_apply(rows: list[dict], profiles: dict[str, dict], today: date, write: 
     stages = read_auto(cr.AUTO_STAGE_FILE, AUTO_STAGE_COLS)
     projects = read_auto(cr.AUTO_PROJECTS_FILE, AUTO_PROJECT_COLS)
     manual_stage = {k: v for k, v in cr.load_manual_stage().items() if v.get("source") == cr.MANUAL_STAGE_SOURCE}
+    title_owner = {title_key(r["title"]): r["project_id"] for r in rows if r["kind"] == STAGE_KIND}   # 같은 제목이 사업장 후보로도 잡힘
     applied: list[dict] = []
     for (key, stage), rs in groups.items():
         prof = profiles.get(key)
@@ -812,7 +823,7 @@ def auto_apply(rows: list[dict], profiles: dict[str, dict], today: date, write: 
         first = sorted(titles.values(), key=lambda r: (r["source"] != SEOUL_SOURCE, r["published"]))[0]
         note = f"자동 반영 {today.isoformat()}: 확정 기사 {len(titles)}건 — " + " | ".join(r["title"][:60] for r in list(titles.values())[:3])
         item = {"key": key, "name": prof["name"], "kind": prof["kind"], "stage": stage, "n": len(titles), "new": False,
-                "article_ids": [r["article_id"] for r in rs], "link": first["link"]}
+                "article_ids": [r["article_id"] for r in rs], "link": first["link"], "owner": None}
         if prof["kind"] == STAGE_KIND:
             if order - prof["order"] > AUTO_MAX_JUMP:
                 continue
@@ -824,15 +835,27 @@ def auto_apply(rows: list[dict], profiles: dict[str, dict], today: date, write: 
                 continue
             stages[key] = {"project_id": key, "stage": stage, "date": first["published"], "evidence_url": first["link"], "note": note}
         else:
-            if order > cr.STAGE_ORDER[AUTO_NEW_MAX_STAGE]:
+            # 같은 기사가 기존 사업장(같은 시군구)에도 맞으면 새 사업장을 만들지 않고 그 사업장에 단지를 붙인다
+            votes: dict[str, int] = {}
+            for r in rs:
+                o = r.get("owner_project_id") or title_owner.get(title_key(r["title"]))
+                if o and profiles.get(o, {}).get("kind") == STAGE_KIND:
+                    votes[o] = votes.get(o, 0) + 1
+            owner = max(votes, key=votes.get) if votes else None
+            if owner:
+                if order - profiles[owner]["order"] > AUTO_MAX_JUMP:
+                    continue
+                item["owner"] = owner
+                note += f" — 기존 사업장 {owner}에 연결"
+            elif order > cr.STAGE_ORDER[AUTO_NEW_MAX_STAGE]:
                 continue
             cid = prof.get("complex_id") or ""
             have = projects.get(cid)
-            if have and cr.STAGE_ORDER.get(cr.norm_stage(have["stage"]), -1) >= order:
+            if have and cr.STAGE_ORDER.get(cr.norm_stage(have["stage"]), -1) >= order and (have.get("project_id") or "") == (owner or ""):
                 applied.append(item)
                 continue
             projects[cid] = {"complex_id": cid, "name": (have or {}).get("name") or prof["name"], "stage": stage,
-                             "date": first["published"], "evidence_url": first["link"], "note": note}
+                             "date": first["published"], "evidence_url": first["link"], "note": note, "project_id": owner or ""}
         item["new"] = True
         applied.append(item)
     if write:
@@ -844,8 +867,9 @@ def auto_apply(rows: list[dict], profiles: dict[str, dict], today: date, write: 
 
 
 # ---------------------------------------------------------------- 출력
-QUEUE_COLS = ["kind", "project_id", "complex_id", "region_sido", "region_sigungu", "dong", "zone_name", "current_stage",
-              "article_stage", "confidence", "published", "title", "link", "source", "matched_alias", "first_seen", "article_id"]
+QUEUE_COLS = ["kind", "project_id", "complex_id", "owner_project_id", "region_sido", "region_sigungu", "dong", "zone_name",
+              "current_stage", "article_stage", "confidence", "published", "title", "link", "source", "matched_alias", "first_seen",
+              "article_id"]   # owner_project_id: 단지 후보의 기사가 기존 사업장에도 맞을 때 그 사업장(새 사업장 대신 거기에 붙인다)
 
 
 def queue_rows(state: dict[str, dict], profiles: dict[str, dict]) -> list[dict]:
@@ -858,6 +882,7 @@ def queue_rows(state: dict[str, dict], profiles: dict[str, dict]) -> list[dict]:
         new = p["kind"] == NEW_KIND
         for c in st.get("candidates") or []:
             rows.append({"kind": p["kind"], "project_id": None if new else key, "complex_id": p.get("complex_id") if new else None,
+                         "owner_project_id": c.get("owner") if new else None,
                          "region_sido": p["sido"], "region_sigungu": p["sgg"], "zone_name": p["name"], "dong": p.get("dong"),
                          "current_stage": p["stage"], "article_stage": c["stage"], "confidence": c["confidence"],
                          "published": c["published"], "title": c["title"], "link": c["link"], "source": c["source"],
@@ -873,7 +898,7 @@ def write_outputs(rows: list[dict], today: date) -> None:
         w.writeheader()
         w.writerows(rows)
     items = [{"id": r["article_id"], "kind": r["kind"], "project_id": r["project_id"], "complex_id": r["complex_id"],
-              "zone_name": r["zone_name"], "region_sido": r["region_sido"], "dong": r.get("dong"),
+              "owner": r.get("owner_project_id"), "zone_name": r["zone_name"], "region_sido": r["region_sido"], "dong": r.get("dong"),
               "region_sigungu": r["region_sigungu"], "stage": r["current_stage"], "article_stage": r["article_stage"],
               "confidence": r["confidence"], "published": r["published"], "title": r["title"], "link": r["link"],
               "source": r["source"], "matched": r["matched_alias"], "first_seen": r["first_seen"]} for r in rows]
@@ -897,7 +922,9 @@ def write_summary(today: date, stats: dict, new: list[dict], rows: list[dict], s
              f"- 자동 반영 {sum(a['new'] for a in applied)}건 새로 적음 (auto_stage.csv·auto_projects.csv, 적힌 채 대기 {sum(not a['new'] for a in applied)}건)"]
     for a in applied:
         if a["new"]:
-            lines.append(f"  - {'신규 사업장 ' if a['kind'] == NEW_KIND else ''}{a['name']} → {a['stage']} (확정 기사 {a['n']}건, [근거]({a['link']}))")
+            what = f"단지 {a['name']} → 기존 사업장 {a['owner']}에 연결" if a.get("owner") else \
+                f"{'신규 사업장 ' if a['kind'] == NEW_KIND else ''}{a['name']} → {a['stage']}"
+            lines.append(f"  - {what} (확정 기사 {a['n']}건, [근거]({a['link']}))")
     for n in (srcs.notes if srcs else []):
         lines.append(f"- ⚠️ {n}")
     if new:
@@ -1002,7 +1029,8 @@ def main() -> None:
     rows = [r for r in rows if r["article_id"] not in done]   # 자동 반영된(또는 반영 대기 중인) 후보는 대기열에서 뺀다
     for a in applied:
         if a["new"]:
-            print(f"   = 자동 반영: {a['name']}{' [신규 사업장]' if a['kind'] == NEW_KIND else ''} → {a['stage']} (확정 기사 {a['n']}건)")
+            tag = f" [기존 사업장 {a['owner']}에 연결]" if a.get("owner") else (" [신규 사업장]" if a["kind"] == NEW_KIND else "")
+            print(f"   = 자동 반영: {a['name']}{tag} → {a['stage']} (확정 기사 {a['n']}건)")
     changed = serialize(state) != before
     if args.dry_run:
         print(f"[dry-run] 새 후보 {len(new)}건 · 대기열 {len(rows)}건 · 자동 반영 {sum(a['new'] for a in applied)}건 (저장 안 함)")

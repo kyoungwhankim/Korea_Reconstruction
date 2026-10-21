@@ -536,7 +536,7 @@ def load_gyeonggi() -> pd.DataFrame:
         "type_basis": "경기도 자료는 공동/단독 구분 없음",
         "operator_type": g["사업시행자"],
         "stage_raw": g["사업단계"],
-        "address": g["위치"],
+        "address": g["위치"].str.replace(r"\s*nan\s*$", "", regex=True).str.strip(),   # 원본에 '경기도 광명시 nan'처럼 빈 상세주소가 'nan'으로 든 행이 있다
         "existing_units": pd.to_numeric(g["(기존주택)세대수"], errors="coerce"),
         "existing_built_year": num(g["(기존주택)준공년도"]),
         "existing_buildings": num(g["(기존주택)동수"]),
@@ -721,14 +721,15 @@ def load_projects_file(path: Path, source: str) -> pd.DataFrame:
     """manual_projects.csv(사람이 등록) / auto_projects.csv(news.py가 자동 등록): 공공 출처에 아직 없는 초기 단계 단지를
     근거와 함께 사업장으로 올린다.
 
-    열: complex_id(부동산원 COMPLEX_PK 또는 노후 단지 목록의 complex_id), name, stage, date, evidence_url, note.
+    열: complex_id(부동산원 COMPLEX_PK 또는 노후 단지 목록의 complex_id), name, stage, date, evidence_url, note,
+        project_id(선택: 적으면 이름·지번 대조 없이 그 기존 사업장에 단지를 붙인다 — 공공 출처 사업장에 주소가 없어 지번으로 못 붙을 때).
     단지 정보(이름·별칭·주소·지번·세대수·동수·준공연도)는 노후 단지 자료(complexes.lookup)에서 가져와
     다른 출처와 같은 모양의 출처 행 하나로 만든다 → update_daily가 보통 출처처럼 연결·재계산한다.
     잘못된 행(모르는 단지·단계, 근거 링크 없음)은 경고만 내고 건너뛴다 — 파일 한 줄 때문에 갱신이 멈추지 않게.
     """
     cols = ["source", "source_pk", "region_sido", "region_sigungu", "zone_name", "project_type", "address",
             "stage_raw", "stage_date", "evidence_url", "note", "existing_units", "existing_buildings",
-            "existing_built_year", "complex_id", "complex_aliases", "source_updated_at"]
+            "existing_built_year", "complex_id", "complex_aliases", "link_to", "source_updated_at"]
     if not path.exists():
         return pd.DataFrame(columns=cols)
     m = pd.read_csv(path, dtype=str, encoding="utf-8-sig").fillna("")
@@ -760,6 +761,7 @@ def load_projects_file(path: Path, source: str) -> pd.DataFrame:
             "existing_units": cx.get("units"), "existing_buildings": cx.get("buildings"),
             "existing_built_year": cx.get("built_year"), "complex_id": cid,
             "complex_aliases": [a for a in dict.fromkeys([cx["name"], *cx.get("aliases", [])]) if a != name],
+            "link_to": str(r.get("project_id", "")).strip() or None,
             "source_updated_at": None,
         })
     return pd.DataFrame(rows, columns=cols)
