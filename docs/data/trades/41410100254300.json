@@ -1,8 +1,9 @@
 {"id":"41410100254300",
 "name":"주몽(임대)",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":275,"wolse_monthly_median":6},{"area":31,"pyeong":9.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1977,"wolse_monthly_median":17}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2008-11-03",26.37,6,18950,null,null,1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-02-03",26.37,11,275,6,"신규","26.03~28.02",null],

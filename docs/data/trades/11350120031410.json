@@ -1,8 +1,9 @@
 {"id":"11350120031410",
 "name":"시영4단지목화아파트",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":33,"pyeong":10.0,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":693,"wolse_monthly_median":9},{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":10,"wolse_deposit_median":1117,"wolse_monthly_median":12},{"area":50,"pyeong":15.1,"jeonse_n":0,"wolse_n":10,"wolse_deposit_median":3067,"wolse_monthly_median":10}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2009-02-19",32.76,2,8000,null,null,1991]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-17",39.96,5,1239,18,null,"25.12~27.11",null],

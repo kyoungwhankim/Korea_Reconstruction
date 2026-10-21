@@ -1,8 +1,9 @@
 {"id":"41410100254296",
 "name":"주공매화14(임대)",
-"basis":null,
+"basis":"단지",
 "by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":280,"wolse_monthly_median":6},{"area":31,"pyeong":9.4,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":326,"wolse_monthly_median":6}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2006-01-14",31.32,5,9900,null,null,1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-12-01",31.32,5,326,7,"갱신","26.01~27.12",null],

@@ -1,8 +1,12 @@
 {"id":"11650100002865",
-"name":"삼호가든맨션(5차)",
+"name":"반포삼호가든맨션5차",
 "basis":"단지",
 "by_area":[{"area":99,"pyeong":29.9,"jeonse_n":3,"wolse_n":0,"jeonse_median":75000,"jeonse_min":75000,"jeonse_max":78750,"jeonse_latest":78750,"jeonse_latest_date":"2026-01-10"},{"area":142,"pyeong":43.0,"n":2,"median":412500,"min":390000,"max":435000,"latest_price":390000,"latest_date":"2026-05-07","latest_floor":4},{"area":154,"pyeong":46.6,"n":1,"median":474000,"min":474000,"max":474000,"latest_price":474000,"latest_date":"2026-05-01","latest_floor":11,"jeonse_n":4,"wolse_n":3,"jeonse_median":90000,"jeonse_min":75000,"jeonse_max":110000,"jeonse_latest":75000,"jeonse_latest_date":"2026-10-05","jeonse_ratio":19.0,"wolse_deposit_median":40000,"wolse_monthly_median":207}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2006-10-23",98.64,10,90000,null,null,1986],
+["2006-10-28",98.64,2,91000,null,null,1986],
+["2008-12-17",142.11,1,77000,null,null,1986],
+["2009-02-11",98.64,13,78000,null,null,1986],
 ["2009-06-16",98.64,9,82000,null,null,1986],
 ["2009-06-17",98.64,4,78500,null,null,1986],
 ["2009-06-27",98.64,12,84000,null,null,1986],

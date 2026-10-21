@@ -3,6 +3,9 @@
 "basis":"단지",
 "by_area":[{"area":56,"pyeong":16.9,"n":1,"median":16000,"min":16000,"max":16000,"latest_price":16000,"latest_date":"2026-03-25","latest_floor":3,"jeonse_n":2,"wolse_n":1,"jeonse_median":12000,"jeonse_min":11300,"jeonse_max":12700,"jeonse_latest":12700,"jeonse_latest_date":"2026-10-05","jeonse_ratio":75.0,"wolse_deposit_median":1000,"wolse_monthly_median":60},{"area":63,"pyeong":19.1,"jeonse_n":2,"wolse_n":0,"jeonse_median":11000,"jeonse_min":10000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-09-12"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2006-12-20",63.36,1,7000,null,null,1985],
+["2007-04-15",63.36,1,9000,null,null,1985],
+["2007-09-22",63.36,4,8600,null,null,1985],
 ["2011-02-11",63.36,4,11500,null,null,1985],
 ["2014-11-15",63.36,5,10000,null,null,1985],
 ["2015-03-03",55.98,1,6866,null,null,1985],

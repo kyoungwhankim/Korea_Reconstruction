@@ -3,6 +3,10 @@
 "basis":"단지",
 "by_area":[{"area":44,"pyeong":13.3,"n":4,"median":18850,"min":18500,"max":19000,"latest_price":19000,"latest_date":"2026-04-11","latest_floor":3,"jeonse_n":4,"wolse_n":1,"jeonse_median":13000,"jeonse_min":13000,"jeonse_max":14500,"jeonse_latest":13000,"jeonse_latest_date":"2026-10-01","jeonse_ratio":69.0,"wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":52,"pyeong":15.7,"n":5,"median":22500,"min":19900,"max":24500,"latest_price":24500,"latest_date":"2026-09-16","latest_floor":6,"jeonse_n":0,"wolse_n":5,"wolse_deposit_median":3000,"wolse_monthly_median":40},{"area":64,"pyeong":19.4,"n":4,"median":26400,"min":25500,"max":27000,"latest_price":26300,"latest_date":"2026-08-11","latest_floor":6,"jeonse_n":1,"wolse_n":1,"jeonse_median":17000,"jeonse_min":17000,"jeonse_max":17000,"jeonse_latest":17000,"jeonse_latest_date":"2026-09-19","jeonse_ratio":64.4,"wolse_deposit_median":3000,"wolse_monthly_median":70},{"area":70,"pyeong":21.2,"n":2,"median":27500,"min":27000,"max":28000,"latest_price":28000,"latest_date":"2026-05-06","latest_floor":11,"jeonse_n":1,"wolse_n":1,"jeonse_median":24000,"jeonse_min":24000,"jeonse_max":24000,"jeonse_latest":24000,"jeonse_latest_date":"2026-04-24","jeonse_ratio":87.3,"wolse_deposit_median":1000,"wolse_monthly_median":83},{"area":72,"pyeong":21.8,"n":1,"median":29000,"min":29000,"max":29000,"latest_price":29000,"latest_date":"2025-11-06","latest_floor":8,"jeonse_n":4,"wolse_n":1,"jeonse_median":24500,"jeonse_min":24000,"jeonse_max":29000,"jeonse_latest":25000,"jeonse_latest_date":"2026-06-26","jeonse_ratio":84.5,"wolse_deposit_median":2000,"wolse_monthly_median":77}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2006-08-08",69.52,12,12100,null,null,1989],
+["2006-09-21",43.69,10,7000,null,null,1989],
+["2006-11-17",43.69,5,10200,null,null,1989],
+["2006-11-17",43.69,6,12000,null,null,1989],
 ["2011-07-15",43.69,5,6300,null,null,1989],
 ["2011-07-27",63.76,5,16000,null,null,1989],
 ["2011-09-17",43.69,3,9300,null,null,1989],

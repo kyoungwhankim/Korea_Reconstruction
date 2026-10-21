@@ -3,6 +3,10 @@
 "basis":"준공 후 신축",
 "by_area":[{"area":60,"pyeong":18.1,"n":7,"median":43800,"min":42500,"max":46000,"latest_price":42500,"latest_date":"2026-10-08","latest_floor":5,"jeonse_n":5,"wolse_n":10,"jeonse_median":29000,"jeonse_min":28000,"jeonse_max":30000,"jeonse_latest":29000,"jeonse_latest_date":"2026-07-21","jeonse_ratio":66.2,"wolse_deposit_median":3000,"wolse_monthly_median":100},{"area":74,"pyeong":22.4,"n":4,"median":49700,"min":49000,"max":51500,"latest_price":51500,"latest_date":"2026-09-30","latest_floor":7,"jeonse_n":1,"wolse_n":3,"jeonse_median":35000,"jeonse_min":35000,"jeonse_max":35000,"jeonse_latest":35000,"jeonse_latest_date":"2026-01-30","jeonse_ratio":70.4,"wolse_deposit_median":10000,"wolse_monthly_median":100},{"area":85,"pyeong":25.7,"n":7,"median":54000,"min":52500,"max":55000,"latest_price":55000,"latest_date":"2026-08-05","latest_floor":13,"jeonse_n":4,"wolse_n":4,"jeonse_median":31500,"jeonse_min":27500,"jeonse_max":35000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":58.3,"wolse_deposit_median":4000,"wolse_monthly_median":125}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+["2006-04-01",41.34,3,7000,null,null,1989],
+["2007-03-05",41.34,3,9300,null,null,1989],
+["2007-03-14",41.34,3,9000,null,null,1989],
+["2007-03-28",41.34,4,10500,null,null,1989],
 ["2010-12-29",59.98,21,23800,null,null,2010],
 ["2010-12-31",84.94,4,29700,null,null,2010],
 ["2011-01-03",59.98,18,25300,null,null,2010],
