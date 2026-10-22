@@ -351,7 +351,8 @@ def recompute(con, pid: str, manual: pd.DataFrame, today: str, log: list, manual
     if not old:
         srcs = {s for s, _, _ in rows}
         kind = "신규 사업장" if srcs - set(cr.PROJECT_FILE_SOURCES) else \
-            "신규 사업장(수동 등록)" if cr.MANUAL_PROJECTS_SOURCE in srcs else "신규 사업장(자동 등록)"
+            "신규 사업장(수동 등록)" if cr.MANUAL_PROJECTS_SOURCE in srcs else \
+            "신규 사업장(고시 등록)" if cr.NOTICE_PROJECTS_SOURCE in srcs else "신규 사업장(자동 등록)"
         log.append((today, pid, kind, "stage", None, new.get("stage"), new.get("sources")))
     else:
         for f in sorted(set(old) | set(new)):
@@ -363,7 +364,7 @@ def recompute(con, pid: str, manual: pd.DataFrame, today: str, log: list, manual
                 kind = "단계 진전" if n > o else "단계 후퇴(확인 필요)"
             # 수동·자동 단계(manual_stage.csv·auto_stage.csv) 또는 수동·자동 등록(manual_projects.csv·auto_projects.csv)이 만든 변경은
             # 출처 칸에 파일 이름을 남긴다
-            by_manual = f in MANUAL_STAGE_FIELDS and new.get("stage_source") in (cr.MANUAL_STAGE_SOURCE, cr.AUTO_STAGE_SOURCE)
+            by_manual = f in MANUAL_STAGE_FIELDS and new.get("stage_source") in cr.STAGE_SOURCE_LABEL
             log.append((today, pid, kind, f, _s(old.get(f)), _s(new.get(f)), _manual_file(new, rows) if by_manual else ""))
     con.execute("UPDATE projects SET record=?, updated_at=? WHERE project_id=?", (dumps(new), today, pid))
 
@@ -374,7 +375,7 @@ def _manual_file(rec: dict, rows: list[tuple[str, str, dict]]) -> str:
         if s in cr.PROJECT_FILE_SOURCES and cr.norm_stage(p.get("stage_raw")) == rec.get("stage") \
                 and p.get("evidence_url") == rec.get("stage_evidence"):
             return s
-    return "auto_stage.csv" if rec.get("stage_source") == cr.AUTO_STAGE_SOURCE else "manual_stage.csv"
+    return {cr.AUTO_STAGE_SOURCE: "auto_stage.csv", cr.NOTICE_STAGE_SOURCE: "notice_stage.csv"}.get(rec.get("stage_source"), "manual_stage.csv")
 
 
 def _s(v):
@@ -432,8 +433,8 @@ def update(con: sqlite3.Connection, today: str, force: bool = False,
     manual_stage = cr.load_manual_stage()
     msh = stage_files_hash()
     if msh != (con.execute("SELECT value FROM meta WHERE key='manual_stage_hash'").fetchone() or [""])[0]:
-        n_auto = sum(v.get("source") == cr.AUTO_STAGE_SOURCE for v in manual_stage.values())
-        print(f"[변경] manual_stage.csv·auto_stage.csv (수동 {len(manual_stage) - n_auto}곳 · 자동 {n_auto}곳) — 모든 사업장 다시 계산")
+        counts = {label: sum(v.get("source") == src for v in manual_stage.values()) for src, label in cr.STAGE_SOURCE_LABEL.items()}
+        print(f"[변경] 단계 파일(manual·notice·auto_stage.csv): " + " · ".join(f"{k} {v}곳" for k, v in counts.items()) + " — 모든 사업장 다시 계산")
         dirty |= {pid for (pid,) in con.execute("SELECT project_id FROM projects")}
         con.execute("INSERT OR REPLACE INTO meta VALUES ('manual_stage_hash', ?)", (msh,))
 

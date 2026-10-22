@@ -1,6 +1,6 @@
 {"id":"경기-시흥-대야3",
 "name":"대야3",
-"basis":"기존 단지",
+"basis":"준공 후 신축",
 "by_area":[],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-25",37.47,2,7050,null,null,1987],

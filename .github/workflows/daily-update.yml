@@ -35,7 +35,13 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      # 뉴스·고시 감시를 먼저: 확신할 수 있는 후보를 auto_stage.csv·auto_projects.csv에 적어 두면 바로 뒤의 갱신이 같은 날 반영한다
+      # 고시 감시를 먼저: 국토이음 고시(정비구역 지정·사업시행인가·관리처분인가…)를 notice_stage.csv·notice_projects.csv에 적어 두면
+      # 바로 뒤의 갱신이 '고시' 출처로 반영한다(키 없음, 1분 안팎)
+      - name: Notice watch (국토이음 고시)
+        continue-on-error: true
+        run: python gosi.py
+
+      # 뉴스 감시: 확신할 수 있는 후보를 auto_stage.csv·auto_projects.csv에 적어 두면 바로 뒤의 갱신이 같은 날 반영한다
       - name: News watch (review queue, auto apply)
         continue-on-error: true   # 뉴스·고시 감시가 실패해도 데이터 갱신 커밋은 그대로 간다
         env:
@@ -52,7 +58,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git add state output docs/data auto_stage.csv auto_projects.csv
+          git add state output docs/data auto_stage.csv auto_projects.csv notice_stage.csv notice_projects.csv
           if git diff --cached --quiet; then
             echo "변경 없음 — 커밋하지 않음"
             exit 0

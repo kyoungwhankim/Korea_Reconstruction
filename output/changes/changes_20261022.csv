@@ -30,3 +30,107 @@
 2026-10-22,서울-서초구-방배15,방배15구역,변경,members_count,1021,1022,
 2026-10-22,서울-영등포구-여의도삼부,여의도삼부아파트,변경,members_count,784,786,
 2026-10-22,서울-용산구-남산대림,남산대림아파트,신규 사업장(자동 등록),stage,,정비계획수립,auto_projects.csv
+2026-10-22,경기-광명-하안주공10_11,하안주공10·11단지,단계 진전,stage,정비구역지정,조합설립인가,notice_stage.csv
+2026-10-22,경기-광명-하안주공10_11,하안주공10·11단지,변경,stage_by_source,국토부=2)정비구역지정,국토부=2)정비구역지정; 고시=조합설립인가(2025-12-10),notice_stage.csv
+2026-10-22,경기-광명-하안주공10_11,하안주공10·11단지,변경,stage_date,,2025-12-10,notice_stage.csv
+2026-10-22,경기-광명-하안주공10_11,하안주공10·11단지,변경,stage_evidence,,https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=628074,notice_stage.csv
+2026-10-22,경기-광명-하안주공10_11,하안주공10·11단지,변경,stage_order,3,5,notice_stage.csv
+2026-10-22,경기-광명-하안주공10_11,하안주공10·11단지,변경,stage_source,국토부_전국도시정비사업통합데이터,고시,notice_stage.csv
+2026-10-22,경기-광명-하안주공10_11,하안주공10·11단지,변경,union_approved_at,,2025-12-10,
+2026-10-22,경기-광명-하안주공12,하안주공12단지,단계 진전,stage,정비구역지정,조합설립인가,notice_stage.csv
+2026-10-22,경기-광명-하안주공12,하안주공12단지,변경,stage_by_source,국토부=2)정비구역지정,국토부=2)정비구역지정; 고시=조합설립인가(2025-12-10),notice_stage.csv
+2026-10-22,경기-광명-하안주공12,하안주공12단지,변경,stage_date,,2025-12-10,notice_stage.csv
+2026-10-22,경기-광명-하안주공12,하안주공12단지,변경,stage_evidence,,https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=628081,notice_stage.csv
+2026-10-22,경기-광명-하안주공12,하안주공12단지,변경,stage_order,3,5,notice_stage.csv
+2026-10-22,경기-광명-하안주공12,하안주공12단지,변경,stage_source,국토부_전국도시정비사업통합데이터,고시,notice_stage.csv
+2026-10-22,경기-광명-하안주공12,하안주공12단지,변경,union_approved_at,,2025-12-10,
+2026-10-22,경기-광명-하안주공6_7,"하안주공6,7단지",단계 진전,stage,정비구역지정,조합설립인가,notice_stage.csv
+2026-10-22,경기-광명-하안주공6_7,"하안주공6,7단지",변경,stage_by_source,국토부=2)정비구역지정,국토부=2)정비구역지정; 고시=조합설립인가(2025-12-10),notice_stage.csv
+2026-10-22,경기-광명-하안주공6_7,"하안주공6,7단지",변경,stage_date,,2025-12-10,notice_stage.csv
+2026-10-22,경기-광명-하안주공6_7,"하안주공6,7단지",변경,stage_evidence,,https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=628068,notice_stage.csv
+2026-10-22,경기-광명-하안주공6_7,"하안주공6,7단지",변경,stage_order,3,5,notice_stage.csv
+2026-10-22,경기-광명-하안주공6_7,"하안주공6,7단지",변경,stage_source,국토부_전국도시정비사업통합데이터,고시,notice_stage.csv
+2026-10-22,경기-광명-하안주공6_7,"하안주공6,7단지",변경,union_approved_at,,2025-12-10,
+2026-10-22,경기-광명-하안주공9,하안주공9단지,단계 진전,stage,정비구역지정,조합설립인가,notice_stage.csv
+2026-10-22,경기-광명-하안주공9,하안주공9단지,변경,stage_by_source,국토부=2)정비구역지정,국토부=2)정비구역지정; 고시=조합설립인가(2025-12-10),notice_stage.csv
+2026-10-22,경기-광명-하안주공9,하안주공9단지,변경,stage_date,,2025-12-10,notice_stage.csv
+2026-10-22,경기-광명-하안주공9,하안주공9단지,변경,stage_evidence,,https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=628067,notice_stage.csv
+2026-10-22,경기-광명-하안주공9,하안주공9단지,변경,stage_order,3,5,notice_stage.csv
+2026-10-22,경기-광명-하안주공9,하안주공9단지,변경,stage_source,국토부_전국도시정비사업통합데이터,고시,notice_stage.csv
+2026-10-22,경기-광명-하안주공9,하안주공9단지,변경,union_approved_at,,2025-12-10,
+2026-10-22,경기-부천-송내1-1,송내1-1구역,변경,completed_at,,2026-09-07,
+2026-10-22,경기-부천-송내1-1,송내1-1구역,단계 진전,stage,착공,준공,notice_stage.csv
+2026-10-22,경기-부천-송내1-1,송내1-1구역,변경,stage_by_source,부천시=착공; 경기도=착공; 국토부=7)착공,부천시=착공; 경기도=착공; 국토부=7)착공; 고시=준공(2026-09-07),notice_stage.csv
+2026-10-22,경기-부천-송내1-1,송내1-1구역,변경,stage_date,,2026-09-07,notice_stage.csv
+2026-10-22,경기-부천-송내1-1,송내1-1구역,변경,stage_evidence,,https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=643268,notice_stage.csv
+2026-10-22,경기-부천-송내1-1,송내1-1구역,변경,stage_order,10,12,notice_stage.csv
+2026-10-22,경기-부천-송내1-1,송내1-1구역,변경,stage_source,부천시_정비사업추진현황,고시,notice_stage.csv
+2026-10-22,경기-부천-원종3-2구역동문1,원종3-2구역 (동문1차아파트),변경,designated_at,,2026-08-18,
+2026-10-22,경기-부천-원종3-2구역동문1,원종3-2구역 (동문1차아파트),단계 진전,stage,정비계획수립,정비구역지정,notice_stage.csv
+2026-10-22,경기-부천-원종3-2구역동문1,원종3-2구역 (동문1차아파트),변경,stage_by_source,부천시=정비계획 수립 및 정비구역 지정 용역 진행중; 경기도=예정구역,부천시=정비계획 수립 및 정비구역 지정 용역 진행중; 경기도=예정구역; 고시=정비구역지정(2026-08-18),notice_stage.csv
+2026-10-22,경기-부천-원종3-2구역동문1,원종3-2구역 (동문1차아파트),변경,stage_date,,2026-08-18,notice_stage.csv
+2026-10-22,경기-부천-원종3-2구역동문1,원종3-2구역 (동문1차아파트),변경,stage_evidence,,https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=639590,notice_stage.csv
+2026-10-22,경기-부천-원종3-2구역동문1,원종3-2구역 (동문1차아파트),변경,stage_order,2,3,notice_stage.csv
+2026-10-22,경기-부천-원종3-2구역동문1,원종3-2구역 (동문1차아파트),변경,stage_source,부천시_정비사업추진현황,고시,notice_stage.csv
+2026-10-22,경기-시흥-대야3,대야3,변경,completed_at,,2026-06-18,
+2026-10-22,경기-시흥-대야3,대야3,단계 진전,stage,착공,준공,notice_stage.csv
+2026-10-22,경기-시흥-대야3,대야3,변경,stage_by_source,경기도=착공; 국토부=7)착공,경기도=착공; 국토부=7)착공; 고시=준공(2026-06-18),notice_stage.csv
+2026-10-22,경기-시흥-대야3,대야3,변경,stage_date,,2026-06-18,notice_stage.csv
+2026-10-22,경기-시흥-대야3,대야3,변경,stage_evidence,,https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=636108,notice_stage.csv
+2026-10-22,경기-시흥-대야3,대야3,변경,stage_order,10,12,notice_stage.csv
+2026-10-22,경기-시흥-대야3,대야3,변경,stage_source,경기도_일반정비사업추진현황,고시,notice_stage.csv
+2026-10-22,경기-시흥-대야동삼보,대야동 삼보,변경,designated_at,,2026-03-12,
+2026-10-22,경기-시흥-대야동삼보,대야동 삼보,단계 진전,stage,예정구역·후보지,정비구역지정,notice_stage.csv
+2026-10-22,경기-시흥-대야동삼보,대야동 삼보,변경,stage_by_source,경기도=예정구역,경기도=예정구역; 고시=정비구역지정(2026-03-12),notice_stage.csv
+2026-10-22,경기-시흥-대야동삼보,대야동 삼보,변경,stage_date,,2026-03-12,notice_stage.csv
+2026-10-22,경기-시흥-대야동삼보,대야동 삼보,변경,stage_evidence,,https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=631281,notice_stage.csv
+2026-10-22,경기-시흥-대야동삼보,대야동 삼보,변경,stage_order,0,3,notice_stage.csv
+2026-10-22,경기-시흥-대야동삼보,대야동 삼보,변경,stage_source,경기도_일반정비사업추진현황,고시,notice_stage.csv
+2026-10-22,경기-안산-고잔연립7,고잔연립7,변경,plan_approved_at,,2026-07-08,
+2026-10-22,경기-안산-고잔연립7,고잔연립7,단계 진전,stage,조합설립인가,사업시행인가,notice_stage.csv
+2026-10-22,경기-안산-고잔연립7,고잔연립7,변경,stage_by_source,경기도=조합설립; 국토부=4)조합설립인가,경기도=조합설립; 국토부=4)조합설립인가; 고시=사업시행인가(2026-07-08),notice_stage.csv
+2026-10-22,경기-안산-고잔연립7,고잔연립7,변경,stage_date,,2026-07-08,notice_stage.csv
+2026-10-22,경기-안산-고잔연립7,고잔연립7,변경,stage_evidence,,https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=639008,notice_stage.csv
+2026-10-22,경기-안산-고잔연립7,고잔연립7,변경,stage_order,5,7,notice_stage.csv
+2026-10-22,경기-안산-고잔연립7,고잔연립7,변경,stage_source,경기도_일반정비사업추진현황,고시,notice_stage.csv
+2026-10-22,경기-안산-고잔연립9,고잔연립9,변경,completed_at,,2026-08-07,
+2026-10-22,경기-안산-고잔연립9,고잔연립9,단계 진전,stage,착공,준공,notice_stage.csv
+2026-10-22,경기-안산-고잔연립9,고잔연립9,변경,stage_by_source,경기도=착공; 국토부=7)착공,경기도=착공; 국토부=7)착공; 고시=준공(2026-08-07),notice_stage.csv
+2026-10-22,경기-안산-고잔연립9,고잔연립9,변경,stage_date,,2026-08-07,notice_stage.csv
+2026-10-22,경기-안산-고잔연립9,고잔연립9,변경,stage_evidence,,https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=640486,notice_stage.csv
+2026-10-22,경기-안산-고잔연립9,고잔연립9,변경,stage_order,10,12,notice_stage.csv
+2026-10-22,경기-안산-고잔연립9,고잔연립9,변경,stage_source,경기도_일반정비사업추진현황,고시,notice_stage.csv
+2026-10-22,경기-안산-군자주공9,군자주공9,변경,plan_approved_at,,2026-09-30,
+2026-10-22,경기-안산-군자주공9,군자주공9,단계 진전,stage,조합설립인가,사업시행인가,notice_stage.csv
+2026-10-22,경기-안산-군자주공9,군자주공9,변경,stage_by_source,경기도=조합설립; 국토부=4)조합설립인가,경기도=조합설립; 국토부=4)조합설립인가; 고시=사업시행인가(2026-09-30),notice_stage.csv
+2026-10-22,경기-안산-군자주공9,군자주공9,변경,stage_date,,2026-09-30,notice_stage.csv
+2026-10-22,경기-안산-군자주공9,군자주공9,변경,stage_evidence,,https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=642134,notice_stage.csv
+2026-10-22,경기-안산-군자주공9,군자주공9,변경,stage_order,5,7,notice_stage.csv
+2026-10-22,경기-안산-군자주공9,군자주공9,변경,stage_source,경기도_일반정비사업추진현황,고시,notice_stage.csv
+2026-10-22,경기-안산-와동연립3,와동연립3,변경,designated_at,,2026-07-29,
+2026-10-22,경기-안산-와동연립3,와동연립3,단계 진전,stage,예정구역·후보지,정비구역지정,notice_stage.csv
+2026-10-22,경기-안산-와동연립3,와동연립3,변경,stage_by_source,경기도=예정구역,경기도=예정구역; 고시=정비구역지정(2026-07-29),notice_stage.csv
+2026-10-22,경기-안산-와동연립3,와동연립3,변경,stage_date,,2026-07-29,notice_stage.csv
+2026-10-22,경기-안산-와동연립3,와동연립3,변경,stage_evidence,,https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=639045,notice_stage.csv
+2026-10-22,경기-안산-와동연립3,와동연립3,변경,stage_order,0,3,notice_stage.csv
+2026-10-22,경기-안산-와동연립3,와동연립3,변경,stage_source,경기도_일반정비사업추진현황,고시,notice_stage.csv
+2026-10-22,경기-안성-금산주공,금산주공 아파트,변경,designated_at,,2026-07-24,
+2026-10-22,경기-안성-금산주공,금산주공 아파트,단계 진전,stage,예정구역·후보지,정비구역지정,notice_stage.csv
+2026-10-22,경기-안성-금산주공,금산주공 아파트,변경,stage_by_source,경기도=예정구역,경기도=예정구역; 고시=정비구역지정(2026-07-24),notice_stage.csv
+2026-10-22,경기-안성-금산주공,금산주공 아파트,변경,stage_date,,2026-07-24,notice_stage.csv
+2026-10-22,경기-안성-금산주공,금산주공 아파트,변경,stage_evidence,,https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=640785,notice_stage.csv
+2026-10-22,경기-안성-금산주공,금산주공 아파트,변경,stage_order,0,3,notice_stage.csv
+2026-10-22,경기-안성-금산주공,금산주공 아파트,변경,stage_source,경기도_일반정비사업추진현황,고시,notice_stage.csv
+2026-10-22,경기-안성-옥산주공,옥산주공 아파트,변경,designated_at,,2026-10-16,
+2026-10-22,경기-안성-옥산주공,옥산주공 아파트,단계 진전,stage,예정구역·후보지,정비구역지정,notice_stage.csv
+2026-10-22,경기-안성-옥산주공,옥산주공 아파트,변경,stage_by_source,경기도=예정구역,경기도=예정구역; 고시=정비구역지정(2026-10-16),notice_stage.csv
+2026-10-22,경기-안성-옥산주공,옥산주공 아파트,변경,stage_date,,2026-10-16,notice_stage.csv
+2026-10-22,경기-안성-옥산주공,옥산주공 아파트,변경,stage_evidence,,https://www.eum.go.kr/web/gs/gv/gvGosiDet.jsp?seq=643082,notice_stage.csv
+2026-10-22,경기-안성-옥산주공,옥산주공 아파트,변경,stage_order,0,3,notice_stage.csv
+2026-10-22,경기-안성-옥산주공,옥산주공 아파트,변경,stage_source,경기도_일반정비사업추진현황,고시,notice_stage.csv
+2026-10-22,서울-강남구-개포주공5,개포주공5단지,변경,members_count,1895,1896,
+2026-10-22,서울-강남구-홍실,홍실아파트,변경,members_count,2536,2537,
+2026-10-22,서울-서초구-방배7,방배7,변경,members_count,837,838,
+2026-10-22,서울-송파구-송파미성,송파미성,변경,members_count,1023,1024,
+2026-10-22,서울-송파구-풍납극동,풍납극동,변경,members_count,72,73,
+2026-10-22,서울-영등포구-문래동진주,문래동진주아파트,변경,members_count,1646,1647,

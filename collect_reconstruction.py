@@ -708,7 +708,10 @@ MANUAL_PROJECTS_FILE = BASE / "manual_projects.csv"
 MANUAL_PROJECTS_SOURCE = "manual_projects.csv"   # 출처 행의 source 열 값 = 파일 이름(이력의 출처 칸에도 그대로 보인다)
 AUTO_PROJECTS_FILE = BASE / "auto_projects.csv"  # news.py가 쓴다: 사업장 없는 노후 단지에 같은 단계를 '확정'으로 전한 기사가 2건 이상일 때
 AUTO_PROJECTS_SOURCE = "auto_projects.csv"
-PROJECT_FILE_SOURCES = {MANUAL_PROJECTS_SOURCE: "수동(근거)", AUTO_PROJECTS_SOURCE: "자동(뉴스)"}   # 출처 이름 → stage_source 표시
+NOTICE_PROJECTS_FILE = BASE / "notice_projects.csv"   # gosi.py가 쓴다: 국토이음 고시(정비구역 지정 등)가 가리키는 사업장 없는 노후 단지
+NOTICE_PROJECTS_SOURCE = "notice_projects.csv"
+PROJECT_FILE_SOURCES = {MANUAL_PROJECTS_SOURCE: "수동(근거)", AUTO_PROJECTS_SOURCE: "자동(뉴스)",
+                        NOTICE_PROJECTS_SOURCE: "고시"}   # 출처 이름 → stage_source 표시
 
 
 def file_hash(path: Path) -> str:
@@ -776,6 +779,10 @@ def load_auto_projects() -> pd.DataFrame:
     return load_projects_file(AUTO_PROJECTS_FILE, AUTO_PROJECTS_SOURCE)
 
 
+def load_notice_projects() -> pd.DataFrame:
+    return load_projects_file(NOTICE_PROJECTS_FILE, NOTICE_PROJECTS_SOURCE)
+
+
 # ---------------------------------------------------------------- 출처 목록(우선순위 순) + 변경 감지용 probe
 @dataclass
 class Source:
@@ -821,6 +828,7 @@ SOURCES = [
     # probe = 파일 해시 → 파일이 바뀐 날에만 다시 읽는다. 수동이 자동보다 앞선다.
     Source("manual_projects", MANUAL_PROJECTS_SOURCE, load_manual_projects, lambda: file_hash(MANUAL_PROJECTS_FILE), local=True),
     Source("auto_projects", AUTO_PROJECTS_SOURCE, load_auto_projects, lambda: file_hash(AUTO_PROJECTS_FILE), local=True),
+    Source("notice_projects", NOTICE_PROJECTS_SOURCE, load_notice_projects, lambda: file_hash(NOTICE_PROJECTS_FILE), local=True),
 ]
 PRIORITY = {s.name: i for i, s in enumerate(SOURCES)}  # 앞일수록 우선(일자·세대수 등은 앞 출처 값을 쓴다)
 
@@ -931,12 +939,16 @@ MANUAL_STAGE_FILE = BASE / "manual_stage.csv"
 MANUAL_STAGE_SOURCE = "수동(근거)"
 AUTO_STAGE_FILE = BASE / "auto_stage.csv"      # news.py가 쓴다: 서로 다른 기사 2건 이상(또는 고시)이 같은 단계를 '확정'으로 전한 사업장
 AUTO_STAGE_SOURCE = "자동(뉴스)"
-STAGE_FILES = ((MANUAL_STAGE_FILE, MANUAL_STAGE_SOURCE), (AUTO_STAGE_FILE, AUTO_STAGE_SOURCE))
+NOTICE_STAGE_FILE = BASE / "notice_stage.csv"  # gosi.py가 쓴다: 국토이음 고시(정비구역 지정·사업시행인가·관리처분인가 …)의 단계
+NOTICE_STAGE_SOURCE = "고시"
+STAGE_FILES = ((MANUAL_STAGE_FILE, MANUAL_STAGE_SOURCE), (NOTICE_STAGE_FILE, NOTICE_STAGE_SOURCE),
+               (AUTO_STAGE_FILE, AUTO_STAGE_SOURCE))   # 같은 단계면 앞의 파일이 앞선다: 수동 > 고시 > 뉴스
+STAGE_SOURCE_LABEL = {MANUAL_STAGE_SOURCE: "수동", NOTICE_STAGE_SOURCE: "고시", AUTO_STAGE_SOURCE: "자동"}
 
 
 def load_manual_stage() -> dict[str, dict]:
-    """manual_stage.csv(사람이 확인) + auto_stage.csv(news.py가 자동 반영): project_id, stage, date, evidence_url, note.
-    사업장마다 가장 진전된 행 하나만 쓴다(같은 단계면 수동이 앞선다). 출처가 그 단계 이상에 이르면 자연히 무시된다(apply_manual_stage)."""
+    """manual_stage.csv(사람이 확인) + notice_stage.csv(gosi.py: 고시) + auto_stage.csv(news.py: 뉴스): project_id, stage, date, evidence_url, note.
+    사업장마다 가장 진전된 행 하나만 쓴다(같은 단계면 수동 > 고시 > 뉴스). 출처가 그 단계 이상에 이르면 자연히 무시된다(apply_manual_stage)."""
     out: dict[str, dict] = {}
     for path, source in STAGE_FILES:
         if not path.exists():
@@ -974,7 +986,7 @@ def apply_manual_stage(rec: dict, m: dict | None) -> dict:
     col = STAGE_DATE_COL.get(m["stage"])
     if col and not rec.get(col) and m.get("date"):
         rec[col] = m["date"]
-    tag = f"{'자동' if rec['stage_source'] == AUTO_STAGE_SOURCE else '수동'}={m['stage']}" + (f"({m['date']})" if m.get("date") else "")
+    tag = f"{STAGE_SOURCE_LABEL.get(rec['stage_source'], '수동')}={m['stage']}" + (f"({m['date']})" if m.get("date") else "")
     rec["stage_by_source"] = "; ".join(x for x in (rec.get("stage_by_source"), tag) if x)
     return rec
 

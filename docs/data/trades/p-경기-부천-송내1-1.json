@@ -1,6 +1,6 @@
 {"id":"경기-부천-송내1-1",
 "name":"송내1-1구역",
-"basis":"기존 단지",
+"basis":"준공 후 신축",
 "by_area":[],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-20",61.56,5,11800,null,null,1985],
