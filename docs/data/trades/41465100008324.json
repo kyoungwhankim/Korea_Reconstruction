@@ -1,5 +1,5 @@
 {"id":"41465100008324",
-"name":"동부아파트",
+"name":"동부1차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":93,"median":80000,"min":62500,"max":87000,"latest_price":84000,"latest_date":"2026-10-14","latest_floor":7,"jeonse_n":39,"wolse_n":30,"jeonse_median":33000,"jeonse_min":28000,"jeonse_max":40000,"jeonse_latest":30000,"jeonse_latest_date":"2026-09-15","jeonse_ratio":41.2,"wolse_deposit_median":10000,"wolse_monthly_median":115}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

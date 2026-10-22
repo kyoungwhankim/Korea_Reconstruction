@@ -1,5 +1,5 @@
 {"id":"11500112047049",
-"name":"도시개발공사아파트",
+"name":"방화11단지",
 "basis":null,
 "by_area":[{"area":24,"pyeong":7.3,"jeonse_n":0,"wolse_n":6,"wolse_deposit_median":169,"wolse_monthly_median":4},{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":4,"wolse_deposit_median":276,"wolse_monthly_median":7}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

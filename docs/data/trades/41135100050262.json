@@ -1,5 +1,5 @@
 {"id":"41135100050262",
-"name":"정든마을(1단지)(동아)",
+"name":"정자정든마을동아1차",
 "basis":"단지",
 "by_area":[{"area":102,"pyeong":30.9,"n":1,"median":178500,"min":178500,"max":178500,"latest_price":178500,"latest_date":"2026-07-01","latest_floor":10,"jeonse_n":10,"wolse_n":3,"jeonse_median":70500,"jeonse_min":63000,"jeonse_max":90000,"jeonse_latest":90000,"jeonse_latest_date":"2026-09-28","jeonse_ratio":39.5,"wolse_deposit_median":57000,"wolse_monthly_median":60},{"area":124,"pyeong":37.5,"n":3,"median":185000,"min":185000,"max":188000,"latest_price":185000,"latest_date":"2026-08-01","latest_floor":4,"jeonse_n":4,"wolse_n":2,"jeonse_median":78500,"jeonse_min":74000,"jeonse_max":80000,"jeonse_latest":80000,"jeonse_latest_date":"2026-05-02","jeonse_ratio":42.4,"wolse_deposit_median":40000,"wolse_monthly_median":151},{"area":155,"pyeong":46.9,"n":3,"median":193000,"min":184000,"max":195000,"latest_price":195000,"latest_date":"2026-09-23","latest_floor":23,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":78000,"wolse_monthly_median":10},{"area":165,"pyeong":49.9,"jeonse_n":5,"wolse_n":1,"jeonse_median":90000,"jeonse_min":80000,"jeonse_max":100000,"jeonse_latest":90000,"jeonse_latest_date":"2026-09-11","wolse_deposit_median":40000,"wolse_monthly_median":160}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

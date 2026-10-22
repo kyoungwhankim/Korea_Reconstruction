@@ -1,5 +1,5 @@
 {"id":"41281100253748",
-"name":"소만마을3단지(늘푸른아파트)",
+"name":"행신소만3단지늘푸른",
 "basis":"단지",
 "by_area":[{"area":40,"pyeong":12.1,"n":3,"median":24300,"min":24000,"max":24600,"latest_price":24300,"latest_date":"2026-02-28","latest_floor":10,"jeonse_n":7,"wolse_n":0,"jeonse_median":21000,"jeonse_min":20000,"jeonse_max":21500,"jeonse_latest":20000,"jeonse_latest_date":"2026-09-09","jeonse_ratio":86.4},{"area":51,"pyeong":15.4,"n":20,"median":31000,"min":28900,"max":35200,"latest_price":29800,"latest_date":"2026-09-14","latest_floor":14,"jeonse_n":25,"wolse_n":14,"jeonse_median":25000,"jeonse_min":21994,"jeonse_max":28000,"jeonse_latest":24000,"jeonse_latest_date":"2026-10-18","jeonse_ratio":80.6,"wolse_deposit_median":4000,"wolse_monthly_median":83}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

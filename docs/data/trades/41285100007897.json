@@ -1,5 +1,5 @@
 {"id":"41285100007897",
-"name":"중산마을3단지(일신)",
+"name":"중산3단지일신건영",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":17,"median":25000,"min":23000,"max":26300,"latest_price":25000,"latest_date":"2026-10-20","latest_floor":5,"jeonse_n":25,"wolse_n":24,"jeonse_median":19500,"jeonse_min":17500,"jeonse_max":21500,"jeonse_latest":21500,"jeonse_latest_date":"2026-10-21","jeonse_ratio":78.0,"wolse_deposit_median":2000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

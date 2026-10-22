@@ -1,5 +1,5 @@
 {"id":"11500112046070",
-"name":"가양도시개발공사5단지(임대)",
+"name":"가양5단지",
 "basis":null,
 "by_area":[{"area":25,"pyeong":7.6,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":492,"wolse_monthly_median":7},{"area":41,"pyeong":12.4,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":274,"wolse_monthly_median":7}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

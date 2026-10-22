@@ -1,5 +1,5 @@
 {"id":"41220100007335",
-"name":"서원양지마을아파트",
+"name":"서원2차아파트",
 "basis":"단지",
 "by_area":[{"area":47,"pyeong":14.2,"n":3,"median":6950,"min":5500,"max":7800,"latest_price":7800,"latest_date":"2026-09-07","latest_floor":4,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":500,"wolse_monthly_median":45},{"area":52,"pyeong":15.7,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":750,"wolse_monthly_median":42},{"area":57,"pyeong":17.2,"n":2,"median":8100,"min":7000,"max":9200,"latest_price":9200,"latest_date":"2026-08-15","latest_floor":3,"jeonse_n":4,"wolse_n":4,"jeonse_median":5750,"jeonse_min":4000,"jeonse_max":6500,"jeonse_latest":4000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":71.0,"wolse_deposit_median":400,"wolse_monthly_median":40}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,5 +1,5 @@
 {"id":"28237100005676",
-"name":"동원(82-36)",
+"name":"동원6차",
 "basis":"단지",
 "by_area":[{"area":47,"pyeong":14.2,"n":9,"median":12500,"min":8500,"max":15000,"latest_price":11200,"latest_date":"2026-10-15","latest_floor":2,"jeonse_n":15,"wolse_n":15,"jeonse_median":11900,"jeonse_min":9000,"jeonse_max":13000,"jeonse_latest":9000,"jeonse_latest_date":"2026-08-15","jeonse_ratio":95.2,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

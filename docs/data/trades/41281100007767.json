@@ -1,5 +1,5 @@
 {"id":"41281100007767",
-"name":"신원당(대명5)",
+"name":"성사신원당5단지대명",
 "basis":"단지",
 "by_area":[{"area":59,"pyeong":17.8,"n":27,"median":31500,"min":25000,"max":33500,"latest_price":32000,"latest_date":"2026-10-18","latest_floor":14,"jeonse_n":28,"wolse_n":11,"jeonse_median":24000,"jeonse_min":19950,"jeonse_max":28800,"jeonse_latest":27000,"jeonse_latest_date":"2026-10-13","jeonse_ratio":76.2,"wolse_deposit_median":2000,"wolse_monthly_median":84},{"area":83,"pyeong":25.1,"n":4,"median":42500,"min":42000,"max":45300,"latest_price":42000,"latest_date":"2026-10-20","latest_floor":16,"jeonse_n":2,"wolse_n":0,"jeonse_median":31500,"jeonse_min":31000,"jeonse_max":32000,"jeonse_latest":32000,"jeonse_latest_date":"2026-05-04","jeonse_ratio":74.1}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

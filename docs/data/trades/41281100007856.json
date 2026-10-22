@@ -1,5 +1,5 @@
 {"id":"41281100007856",
-"name":"소만마을(성원)6아파트",
+"name":"소만성원6단지아파트",
 "basis":"단지",
 "by_area":[{"area":50,"pyeong":15.1,"n":49,"median":30950,"min":26800,"max":35000,"latest_price":29500,"latest_date":"2026-10-08","latest_floor":4,"jeonse_n":94,"wolse_n":43,"jeonse_median":24800,"jeonse_min":18000,"jeonse_max":27500,"jeonse_latest":20000,"jeonse_latest_date":"2026-10-10","jeonse_ratio":80.1,"wolse_deposit_median":2000,"wolse_monthly_median":85},{"area":59,"pyeong":17.8,"n":29,"median":37300,"min":28000,"max":39000,"latest_price":38500,"latest_date":"2026-10-18","latest_floor":12,"jeonse_n":80,"wolse_n":24,"jeonse_median":29000,"jeonse_min":20000,"jeonse_max":31000,"jeonse_latest":31000,"jeonse_latest_date":"2026-10-18","jeonse_ratio":77.7,"wolse_deposit_median":3750,"wolse_monthly_median":95}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

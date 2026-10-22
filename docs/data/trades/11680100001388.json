@@ -1,5 +1,5 @@
 {"id":"11680100001388",
-"name":"현대1아파트",
+"name":"대치1차현대아파트",
 "basis":"단지",
 "by_area":[{"area":84,"pyeong":25.4,"n":5,"median":250000,"min":237500,"max":251000,"latest_price":251000,"latest_date":"2026-07-03","latest_floor":10,"jeonse_n":7,"wolse_n":6,"jeonse_median":64100,"jeonse_min":42000,"jeonse_max":80000,"jeonse_latest":71000,"jeonse_latest_date":"2026-08-01","jeonse_ratio":25.6,"wolse_deposit_median":16500,"wolse_monthly_median":160},{"area":85,"pyeong":25.7,"n":1,"median":249500,"min":249500,"max":249500,"latest_price":249500,"latest_date":"2026-04-30","latest_floor":8}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

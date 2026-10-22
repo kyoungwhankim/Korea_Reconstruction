@@ -1,5 +1,5 @@
 {"id":"41220100007317",
-"name":"미주(지산1091)",
+"name":"미주1차",
 "basis":"단지",
 "by_area":[{"area":85,"pyeong":25.7,"n":1,"median":18200,"min":18200,"max":18200,"latest_price":18200,"latest_date":"2026-07-24","latest_floor":2,"jeonse_n":3,"wolse_n":8,"jeonse_median":16000,"jeonse_min":9000,"jeonse_max":18000,"jeonse_latest":16000,"jeonse_latest_date":"2026-06-28","jeonse_ratio":87.9,"wolse_deposit_median":1000,"wolse_monthly_median":82}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

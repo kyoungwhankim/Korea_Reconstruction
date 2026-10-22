@@ -1,5 +1,5 @@
 {"id":"41287100008054",
-"name":"탄현마을(건영5)",
+"name":"탄현5단지건영",
 "basis":"단지",
 "by_area":[{"area":68,"pyeong":20.6,"n":12,"median":24900,"min":22400,"max":28000,"latest_price":24800,"latest_date":"2026-10-09","latest_floor":6,"jeonse_n":15,"wolse_n":8,"jeonse_median":22000,"jeonse_min":10000,"jeonse_max":23100,"jeonse_latest":22000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":88.4,"wolse_deposit_median":2000,"wolse_monthly_median":97},{"area":69,"pyeong":20.9,"n":4,"median":25400,"min":24000,"max":26800,"latest_price":26300,"latest_date":"2026-09-13","latest_floor":11,"jeonse_n":27,"wolse_n":4,"jeonse_median":22000,"jeonse_min":19000,"jeonse_max":23500,"jeonse_latest":23000,"jeonse_latest_date":"2026-10-06","jeonse_ratio":86.6,"wolse_deposit_median":3050,"wolse_monthly_median":87},{"area":84,"pyeong":25.4,"n":7,"median":32500,"min":31000,"max":34000,"latest_price":33500,"latest_date":"2026-09-08","latest_floor":14,"jeonse_n":18,"wolse_n":3,"jeonse_median":27500,"jeonse_min":23000,"jeonse_max":30000,"jeonse_latest":28800,"jeonse_latest_date":"2026-10-02","jeonse_ratio":84.6,"wolse_deposit_median":5000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

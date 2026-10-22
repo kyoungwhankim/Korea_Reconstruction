@@ -1,5 +1,5 @@
 {"id":"41135120383417",
-"name":"양지마을 금호 1단지 아파트",
+"name":"양지마을 금호 6단지 아파트",
 "basis":"단지",
 "by_area":[{"area":55,"pyeong":16.6,"n":8,"median":147250,"min":92000,"max":161000,"latest_price":161000,"latest_date":"2026-07-23","latest_floor":9,"jeonse_n":7,"wolse_n":8,"jeonse_median":50000,"jeonse_min":44100,"jeonse_max":55000,"jeonse_latest":55000,"jeonse_latest_date":"2026-08-15","jeonse_ratio":34.0,"wolse_deposit_median":35000,"wolse_monthly_median":57},{"area":60,"pyeong":18.1,"n":8,"median":150500,"min":111000,"max":155000,"latest_price":155000,"latest_date":"2026-08-14","latest_floor":12,"jeonse_n":10,"wolse_n":9,"jeonse_median":52250,"jeonse_min":44000,"jeonse_max":60000,"jeonse_latest":56000,"jeonse_latest_date":"2026-07-18","jeonse_ratio":34.7,"wolse_deposit_median":10000,"wolse_monthly_median":132},{"area":65,"pyeong":19.7,"n":2,"median":183750,"min":183500,"max":184000,"latest_price":184000,"latest_date":"2026-07-11","latest_floor":10,"jeonse_n":6,"wolse_n":3,"jeonse_median":63450,"jeonse_min":50000,"jeonse_max":68000,"jeonse_latest":50000,"jeonse_latest_date":"2026-06-20","jeonse_ratio":34.5,"wolse_deposit_median":10000,"wolse_monthly_median":170}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

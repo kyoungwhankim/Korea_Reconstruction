@@ -1,5 +1,5 @@
 {"id":"41173100006723",
-"name":"향촌마을현대5차아파트",
+"name":"향촌현대5차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":14,"median":110650,"min":89000,"max":115000,"latest_price":114400,"latest_date":"2026-09-28","latest_floor":5,"jeonse_n":30,"wolse_n":16,"jeonse_median":51225,"jeonse_min":40400,"jeonse_max":60000,"jeonse_latest":60000,"jeonse_latest_date":"2026-09-22","jeonse_ratio":46.3,"wolse_deposit_median":31000,"wolse_monthly_median":80},{"area":85,"pyeong":25.7,"n":15,"median":137500,"min":119000,"max":148500,"latest_price":148500,"latest_date":"2026-09-09","latest_floor":14,"jeonse_n":35,"wolse_n":20,"jeonse_median":72200,"jeonse_min":58000,"jeonse_max":85000,"jeonse_latest":73500,"jeonse_latest_date":"2026-10-16","jeonse_ratio":52.5,"wolse_deposit_median":32500,"wolse_monthly_median":125}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

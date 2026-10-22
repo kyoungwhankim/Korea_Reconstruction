@@ -1,5 +1,5 @@
 {"id":"41135100006258",
-"name":"정든마을(4단지)(우성)",
+"name":"정자정든마을우성4차",
 "basis":"단지",
 "by_area":[{"area":102,"pyeong":30.9,"n":1,"median":180000,"min":180000,"max":180000,"latest_price":180000,"latest_date":"2026-02-05","latest_floor":12,"jeonse_n":3,"wolse_n":0,"jeonse_median":74000,"jeonse_min":73500,"jeonse_max":74000,"jeonse_latest":74000,"jeonse_latest_date":"2026-05-02","jeonse_ratio":41.1},{"area":130,"pyeong":39.3,"n":4,"median":182000,"min":170000,"max":192500,"latest_price":189000,"latest_date":"2026-10-08","latest_floor":6,"jeonse_n":16,"wolse_n":9,"jeonse_median":84500,"jeonse_min":69500,"jeonse_max":100000,"jeonse_latest":95000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":46.4,"wolse_deposit_median":30000,"wolse_monthly_median":180},{"area":163,"pyeong":49.3,"jeonse_n":5,"wolse_n":1,"jeonse_median":88000,"jeonse_min":60000,"jeonse_max":95000,"jeonse_latest":95000,"jeonse_latest_date":"2026-06-06","wolse_deposit_median":75000,"wolse_monthly_median":12}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

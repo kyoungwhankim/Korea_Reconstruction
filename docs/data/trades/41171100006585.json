@@ -1,5 +1,5 @@
 {"id":"41171100006585",
-"name":"안양동2차성원아파트",
+"name":"안양성원2차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":3,"median":37200,"min":36800,"max":40000,"latest_price":40000,"latest_date":"2026-08-10","latest_floor":16,"jeonse_n":1,"wolse_n":1,"jeonse_median":23000,"jeonse_min":23000,"jeonse_max":23000,"jeonse_latest":23000,"jeonse_latest_date":"2025-12-05","jeonse_ratio":61.8,"wolse_deposit_median":4000,"wolse_monthly_median":90},{"area":85,"pyeong":25.7,"n":4,"median":48350,"min":46500,"max":54500,"latest_price":46500,"latest_date":"2026-09-15","latest_floor":1}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

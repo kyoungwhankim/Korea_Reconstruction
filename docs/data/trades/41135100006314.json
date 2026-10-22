@@ -1,5 +1,5 @@
 {"id":"41135100006314",
-"name":"매화마을공무원1아파트",
+"name":"야탑매화마을주공1단지",
 "basis":"단지",
 "by_area":[{"area":50,"pyeong":15.1,"n":5,"median":97000,"min":93000,"max":100000,"latest_price":99500,"latest_date":"2026-07-14","latest_floor":4,"jeonse_n":10,"wolse_n":4,"jeonse_median":32250,"jeonse_min":28000,"jeonse_max":36000,"jeonse_latest":32000,"jeonse_latest_date":"2026-07-04","jeonse_ratio":33.2,"wolse_deposit_median":11200,"wolse_monthly_median":77},{"area":59,"pyeong":17.8,"n":27,"median":104000,"min":60000,"max":113000,"latest_price":105900,"latest_date":"2026-09-28","latest_floor":5,"jeonse_n":28,"wolse_n":14,"jeonse_median":35585,"jeonse_min":30000,"jeonse_max":40000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":34.2,"wolse_deposit_median":11000,"wolse_monthly_median":85},{"area":60,"pyeong":18.1,"n":18,"median":104000,"min":65000,"max":115000,"latest_price":104000,"latest_date":"2026-10-17","latest_floor":1,"jeonse_n":14,"wolse_n":9,"jeonse_median":34300,"jeonse_min":30000,"jeonse_max":40000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":33.0,"wolse_deposit_median":10000,"wolse_monthly_median":95}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

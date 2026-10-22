@@ -1,5 +1,5 @@
 {"id":"28177100005514",
-"name":"삼환1(관교삼환나우빌)",
+"name":"관교삼환1단지",
 "basis":"단지",
 "by_area":[{"area":133,"pyeong":40.2,"n":2,"median":36500,"min":23000,"max":50000,"latest_price":23000,"latest_date":"2026-03-24","latest_floor":1,"jeonse_n":1,"wolse_n":1,"jeonse_median":30000,"jeonse_min":30000,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-01-05","jeonse_ratio":82.2,"wolse_deposit_median":20000,"wolse_monthly_median":35},{"area":156,"pyeong":47.2,"n":3,"median":49750,"min":43078,"max":52000,"latest_price":43078,"latest_date":"2026-05-15","latest_floor":14,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":11250,"wolse_monthly_median":45}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,5 +1,5 @@
 {"id":"41410100007534",
-"name":"가야3주공아파트",
+"name":"가야주공5단지3차",
 "basis":"단지",
 "by_area":[{"area":43,"pyeong":13.0,"n":45,"median":20800,"min":17000,"max":24700,"latest_price":24700,"latest_date":"2026-10-15","latest_floor":15,"jeonse_n":36,"wolse_n":16,"jeonse_median":16000,"jeonse_min":11000,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":76.9,"wolse_deposit_median":1000,"wolse_monthly_median":67}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

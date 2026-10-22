@@ -1,5 +1,5 @@
 {"id":"41287100050143",
-"name":"장성마을(대명4)",
+"name":"대화장성4단지대명2차",
 "basis":"단지",
 "by_area":[{"area":100,"pyeong":30.2,"n":4,"median":59500,"min":58500,"max":62700,"latest_price":60500,"latest_date":"2026-08-15","latest_floor":7,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":20000,"wolse_monthly_median":100},{"area":130,"pyeong":39.3,"n":2,"median":63250,"min":59500,"max":67000,"latest_price":67000,"latest_date":"2026-04-01","latest_floor":7,"jeonse_n":5,"wolse_n":1,"jeonse_median":45000,"jeonse_min":43000,"jeonse_max":45000,"jeonse_latest":43000,"jeonse_latest_date":"2026-09-01","jeonse_ratio":71.1,"wolse_deposit_median":26000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

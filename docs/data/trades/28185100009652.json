@@ -1,5 +1,5 @@
 {"id":"28185100009652",
-"name":"백산아파트",
+"name":"옥련백산1차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":8,"median":17750,"min":13000,"max":18400,"latest_price":17800,"latest_date":"2026-07-24","latest_floor":8,"jeonse_n":12,"wolse_n":17,"jeonse_median":16000,"jeonse_min":13000,"jeonse_max":16500,"jeonse_latest":14675,"jeonse_latest_date":"2026-09-29","jeonse_ratio":90.1,"wolse_deposit_median":1000,"wolse_monthly_median":80},{"area":85,"pyeong":25.7,"n":3,"median":21500,"min":20000,"max":24000,"latest_price":20000,"latest_date":"2026-04-10","latest_floor":16,"jeonse_n":1,"wolse_n":1,"jeonse_median":18000,"jeonse_min":18000,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-08-04","jeonse_ratio":83.7,"wolse_deposit_median":3000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,5 +1,5 @@
 {"id":"28200100009032",
-"name":"성신(5-373외)",
+"name":"성신아파트2차",
 "basis":"단지",
 "by_area":[{"area":49,"pyeong":14.8,"n":1,"median":9000,"min":9000,"max":9000,"latest_price":9000,"latest_date":"2026-08-14","latest_floor":1,"jeonse_n":1,"wolse_n":0,"jeonse_median":7300,"jeonse_min":7300,"jeonse_max":7300,"jeonse_latest":7300,"jeonse_latest_date":"2026-09-02","jeonse_ratio":81.1},{"area":51,"pyeong":15.4,"jeonse_n":2,"wolse_n":0,"jeonse_median":8250,"jeonse_min":7500,"jeonse_max":9000,"jeonse_latest":9000,"jeonse_latest_date":"2026-05-20"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,5 +1,5 @@
 {"id":"41281100050388",
-"name":"옥빛마을16단지(주공)",
+"name":"화정옥빛16단지주공",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":35,"median":34400,"min":31500,"max":40000,"latest_price":36900,"latest_date":"2026-09-23","latest_floor":18,"jeonse_n":59,"wolse_n":21,"jeonse_median":27000,"jeonse_min":18500,"jeonse_max":30000,"jeonse_latest":25000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":78.5,"wolse_deposit_median":5000,"wolse_monthly_median":76}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

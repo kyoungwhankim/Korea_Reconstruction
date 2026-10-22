@@ -1,5 +1,5 @@
 {"id":"28185100009613",
-"name":"하나타운2아파트",
+"name":"연수하나2차아파트",
 "basis":"단지",
 "by_area":[{"area":99,"pyeong":29.9,"n":5,"median":40000,"min":37500,"max":41500,"latest_price":40500,"latest_date":"2026-05-08","latest_floor":3,"jeonse_n":5,"wolse_n":1,"jeonse_median":29000,"jeonse_min":23100,"jeonse_max":36000,"jeonse_latest":29000,"jeonse_latest_date":"2026-07-22","jeonse_ratio":72.5,"wolse_deposit_median":2000,"wolse_monthly_median":130},{"area":131,"pyeong":39.6,"n":1,"median":48000,"min":48000,"max":48000,"latest_price":48000,"latest_date":"2025-12-18","latest_floor":4,"jeonse_n":1,"wolse_n":0,"jeonse_median":31000,"jeonse_min":31000,"jeonse_max":31000,"jeonse_latest":31000,"jeonse_latest_date":"2026-01-03","jeonse_ratio":64.6}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

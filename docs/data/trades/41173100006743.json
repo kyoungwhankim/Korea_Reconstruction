@@ -1,5 +1,5 @@
 {"id":"41173100006743",
-"name":"목련우성아파트",
+"name":"목련3단지우성아파트",
 "basis":"단지",
 "by_area":[{"area":42,"pyeong":12.7,"n":11,"median":59000,"min":53700,"max":69000,"latest_price":69000,"latest_date":"2026-09-21","latest_floor":9,"jeonse_n":17,"wolse_n":10,"jeonse_median":24000,"jeonse_min":18900,"jeonse_max":32000,"jeonse_latest":28000,"jeonse_latest_date":"2026-09-08","jeonse_ratio":40.7,"wolse_deposit_median":2000,"wolse_monthly_median":82},{"area":51,"pyeong":15.4,"n":19,"median":73500,"min":65000,"max":88500,"latest_price":88500,"latest_date":"2026-08-22","latest_floor":11,"jeonse_n":36,"wolse_n":21,"jeonse_median":28000,"jeonse_min":21000,"jeonse_max":37000,"jeonse_latest":35000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":38.1,"wolse_deposit_median":3000,"wolse_monthly_median":115},{"area":57,"pyeong":17.2,"n":29,"median":85000,"min":46000,"max":98000,"latest_price":98000,"latest_date":"2026-09-16","latest_floor":16,"jeonse_n":80,"wolse_n":31,"jeonse_median":31500,"jeonse_min":20000,"jeonse_max":48000,"jeonse_latest":45000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":37.1,"wolse_deposit_median":3500,"wolse_monthly_median":130}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

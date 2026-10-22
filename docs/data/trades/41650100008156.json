@@ -1,5 +1,5 @@
 {"id":"41650100008156",
-"name":"원일산호아파트",
+"name":"원일산호1차",
 "basis":"단지",
 "by_area":[{"area":59,"pyeong":17.8,"n":9,"median":12200,"min":11000,"max":14800,"latest_price":11900,"latest_date":"2026-09-08","latest_floor":2,"jeonse_n":6,"wolse_n":10,"jeonse_median":11500,"jeonse_min":11000,"jeonse_max":12000,"jeonse_latest":11000,"jeonse_latest_date":"2026-04-18","jeonse_ratio":94.3,"wolse_deposit_median":2000,"wolse_monthly_median":55},{"area":82,"pyeong":24.8,"n":4,"median":18250,"min":15300,"max":22000,"latest_price":22000,"latest_date":"2026-08-31","latest_floor":11,"jeonse_n":2,"wolse_n":2,"jeonse_median":13500,"jeonse_min":13000,"jeonse_max":14000,"jeonse_latest":13000,"jeonse_latest_date":"2026-09-13","jeonse_ratio":74.0,"wolse_deposit_median":6500,"wolse_monthly_median":45},{"area":130,"pyeong":39.3,"n":4,"median":25850,"min":20000,"max":28150,"latest_price":28150,"latest_date":"2026-06-26","latest_floor":7,"jeonse_n":2,"wolse_n":1,"jeonse_median":17750,"jeonse_min":15500,"jeonse_max":20000,"jeonse_latest":15500,"jeonse_latest_date":"2026-06-05","jeonse_ratio":68.7,"wolse_deposit_median":3000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

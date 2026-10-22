@@ -1,5 +1,5 @@
 {"id":"28185100009631",
-"name":"대림아파트",
+"name":"연수1차대림",
 "basis":"단지",
 "by_area":[{"area":62,"pyeong":18.8,"n":10,"median":34000,"min":24000,"max":35400,"latest_price":34900,"latest_date":"2026-10-06","latest_floor":13,"jeonse_n":8,"wolse_n":8,"jeonse_median":24075,"jeonse_min":22000,"jeonse_max":25000,"jeonse_latest":24000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":70.8,"wolse_deposit_median":4000,"wolse_monthly_median":85},{"area":85,"pyeong":25.7,"n":12,"median":41650,"min":26500,"max":45400,"latest_price":39500,"latest_date":"2026-10-06","latest_floor":14,"jeonse_n":12,"wolse_n":8,"jeonse_median":29000,"jeonse_min":25000,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-09-19","jeonse_ratio":69.6,"wolse_deposit_median":3000,"wolse_monthly_median":120}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

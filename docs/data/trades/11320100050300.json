@@ -1,5 +1,5 @@
 {"id":"11320100050300",
-"name":"주공17단지아파트",
+"name":"상계17단지",
 "basis":"단지",
 "by_area":[{"area":36,"pyeong":10.9,"n":111,"median":32000,"min":26500,"max":45000,"latest_price":42000,"latest_date":"2026-10-05","latest_floor":6,"jeonse_n":126,"wolse_n":171,"jeonse_median":17000,"jeonse_min":10500,"jeonse_max":20000,"jeonse_latest":20000,"jeonse_latest_date":"2026-10-14","jeonse_ratio":53.1,"wolse_deposit_median":2000,"wolse_monthly_median":63},{"area":41,"pyeong":12.4,"n":12,"median":35750,"min":24500,"max":47000,"latest_price":47000,"latest_date":"2026-07-30","latest_floor":10,"jeonse_n":11,"wolse_n":13,"jeonse_median":19950,"jeonse_min":15000,"jeonse_max":25000,"jeonse_latest":22000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":55.8,"wolse_deposit_median":2000,"wolse_monthly_median":70},{"area":50,"pyeong":15.1,"n":12,"median":49850,"min":47500,"max":57500,"latest_price":55000,"latest_date":"2026-06-17","latest_floor":1,"jeonse_n":11,"wolse_n":11,"jeonse_median":25000,"jeonse_min":19500,"jeonse_max":35000,"jeonse_latest":35000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":50.2,"wolse_deposit_median":3000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

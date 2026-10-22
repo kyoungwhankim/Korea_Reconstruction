@@ -1,5 +1,5 @@
 {"id":"41135100050369",
-"name":"정든마을(7단지)(한진)",
+"name":"정자정든마을한진7차",
 "basis":"단지",
 "by_area":[{"area":50,"pyeong":15.1,"n":4,"median":133500,"min":123000,"max":147000,"latest_price":147000,"latest_date":"2026-06-29","latest_floor":9,"jeonse_n":4,"wolse_n":8,"jeonse_median":42650,"jeonse_min":35600,"jeonse_max":55000,"jeonse_latest":55000,"jeonse_latest_date":"2026-06-23","jeonse_ratio":31.9,"wolse_deposit_median":30000,"wolse_monthly_median":80},{"area":68,"pyeong":20.6,"n":4,"median":147500,"min":133000,"max":174500,"latest_price":174500,"latest_date":"2026-07-10","latest_floor":14,"jeonse_n":17,"wolse_n":8,"jeonse_median":65000,"jeonse_min":51700,"jeonse_max":73000,"jeonse_latest":60000,"jeonse_latest_date":"2026-08-29","jeonse_ratio":44.1,"wolse_deposit_median":12500,"wolse_monthly_median":160},{"area":85,"pyeong":25.7,"n":1,"median":175000,"min":175000,"max":175000,"latest_price":175000,"latest_date":"2025-12-04","latest_floor":12,"jeonse_n":7,"wolse_n":5,"jeonse_median":72500,"jeonse_min":63000,"jeonse_max":90000,"jeonse_latest":70000,"jeonse_latest_date":"2026-08-22","jeonse_ratio":41.4,"wolse_deposit_median":20000,"wolse_monthly_median":154}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

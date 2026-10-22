@@ -1,5 +1,5 @@
 {"id":"41173100006741",
-"name":"목련선경아파트",
+"name":"목련1단지선경",
 "basis":"단지",
 "by_area":[{"area":99,"pyeong":29.9,"jeonse_n":3,"wolse_n":1,"jeonse_median":80000,"jeonse_min":67450,"jeonse_max":80000,"jeonse_latest":80000,"jeonse_latest_date":"2026-03-30","wolse_deposit_median":20000,"wolse_monthly_median":156},{"area":122,"pyeong":36.9,"n":4,"median":170000,"min":149000,"max":173000,"latest_price":170000,"latest_date":"2026-09-19","latest_floor":1,"jeonse_n":2,"wolse_n":2,"jeonse_median":85000,"jeonse_min":80000,"jeonse_max":90000,"jeonse_latest":90000,"jeonse_latest_date":"2026-07-11","jeonse_ratio":50.0,"wolse_deposit_median":57500,"wolse_monthly_median":59},{"area":135,"pyeong":40.8,"n":4,"median":171000,"min":160000,"max":180000,"latest_price":180000,"latest_date":"2026-06-27","latest_floor":17,"jeonse_n":6,"wolse_n":0,"jeonse_median":82425,"jeonse_min":78750,"jeonse_max":90000,"jeonse_latest":84000,"jeonse_latest_date":"2026-09-14","jeonse_ratio":48.2},{"area":153,"pyeong":46.3,"jeonse_n":1,"wolse_n":4,"jeonse_median":90000,"jeonse_min":90000,"jeonse_max":90000,"jeonse_latest":90000,"jeonse_latest_date":"2026-01-06","wolse_deposit_median":61000,"wolse_monthly_median":97}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,5 +1,5 @@
 {"id":"41173100006740",
-"name":"목련두산아파트",
+"name":"목련6단지두산",
 "basis":"단지",
 "by_area":[{"area":102,"pyeong":30.9,"n":5,"median":173000,"min":160000,"max":178500,"latest_price":178500,"latest_date":"2026-08-15","latest_floor":4,"jeonse_n":10,"wolse_n":4,"jeonse_median":78000,"jeonse_min":64000,"jeonse_max":89000,"jeonse_latest":78000,"jeonse_latest_date":"2026-09-15","jeonse_ratio":45.1,"wolse_deposit_median":46000,"wolse_monthly_median":153},{"area":132,"pyeong":39.9,"n":2,"median":195500,"min":191000,"max":200000,"latest_price":200000,"latest_date":"2026-08-06","latest_floor":15,"jeonse_n":4,"wolse_n":3,"jeonse_median":90000,"jeonse_min":89000,"jeonse_max":107000,"jeonse_latest":107000,"jeonse_latest_date":"2026-09-21","jeonse_ratio":46.0,"wolse_deposit_median":35000,"wolse_monthly_median":237},{"area":162,"pyeong":49.0,"n":2,"median":204250,"min":190000,"max":218500,"latest_price":218500,"latest_date":"2026-08-22","latest_floor":3,"jeonse_n":3,"wolse_n":1,"jeonse_median":110000,"jeonse_min":110000,"jeonse_max":113400,"jeonse_latest":113400,"jeonse_latest_date":"2026-07-25","jeonse_ratio":53.9,"wolse_deposit_median":80000,"wolse_monthly_median":120}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

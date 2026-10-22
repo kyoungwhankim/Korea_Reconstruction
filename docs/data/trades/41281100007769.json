@@ -1,5 +1,5 @@
 {"id":"41281100007769",
-"name":"신원당(동신7)",
+"name":"신원당동신1차",
 "basis":"단지",
 "by_area":[{"area":102,"pyeong":30.9,"n":4,"median":48500,"min":46000,"max":49500,"latest_price":49500,"latest_date":"2026-08-07","latest_floor":4,"jeonse_n":9,"wolse_n":2,"jeonse_median":35000,"jeonse_min":30000,"jeonse_max":40000,"jeonse_latest":34000,"jeonse_latest_date":"2026-08-26","jeonse_ratio":72.2,"wolse_deposit_median":17500,"wolse_monthly_median":65},{"area":135,"pyeong":40.8,"n":4,"median":52000,"min":45000,"max":60000,"latest_price":60000,"latest_date":"2026-06-26","latest_floor":9,"jeonse_n":3,"wolse_n":1,"jeonse_median":42000,"jeonse_min":40000,"jeonse_max":44500,"jeonse_latest":40000,"jeonse_latest_date":"2026-03-03","jeonse_ratio":80.8,"wolse_deposit_median":5000,"wolse_monthly_median":145},{"area":146,"pyeong":44.2,"n":3,"median":55000,"min":41000,"max":56500,"latest_price":56500,"latest_date":"2026-07-08","latest_floor":3,"jeonse_n":2,"wolse_n":0,"jeonse_median":42500,"jeonse_min":40000,"jeonse_max":45000,"jeonse_latest":45000,"jeonse_latest_date":"2026-07-16","jeonse_ratio":77.3}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,5 +1,5 @@
 {"id":"41281100007850",
-"name":"소만마을(대명)7아파트",
+"name":"행신소만7단지대명",
 "basis":"단지",
 "by_area":[{"area":59,"pyeong":17.8,"n":42,"median":36000,"min":25200,"max":39000,"latest_price":36750,"latest_date":"2026-10-20","latest_floor":14,"jeonse_n":40,"wolse_n":23,"jeonse_median":27300,"jeonse_min":17000,"jeonse_max":32000,"jeonse_latest":25900,"jeonse_latest_date":"2026-10-17","jeonse_ratio":75.8,"wolse_deposit_median":4000,"wolse_monthly_median":95}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

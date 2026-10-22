@@ -1,5 +1,5 @@
 {"id":"41390100009286",
-"name":"대우푸르지오1차아파트",
+"name":"은행푸르지오1차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":7,"median":32000,"min":29500,"max":34800,"latest_price":34800,"latest_date":"2026-05-18","latest_floor":7,"jeonse_n":10,"wolse_n":5,"jeonse_median":24000,"jeonse_min":14200,"jeonse_max":27500,"jeonse_latest":27500,"jeonse_latest_date":"2026-10-10","jeonse_ratio":75.0,"wolse_deposit_median":3000,"wolse_monthly_median":95},{"area":79,"pyeong":23.9,"n":3,"median":37800,"min":37000,"max":38600,"latest_price":38600,"latest_date":"2026-07-23","latest_floor":11,"jeonse_n":7,"wolse_n":1,"jeonse_median":30000,"jeonse_min":29000,"jeonse_max":32000,"jeonse_latest":29000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":79.4,"wolse_deposit_median":7000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

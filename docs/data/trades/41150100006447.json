@@ -1,5 +1,5 @@
 {"id":"41150100006447",
-"name":"호원우남2차",
+"name":"호원우남1차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":10,"median":28250,"min":25300,"max":30500,"latest_price":29000,"latest_date":"2026-10-02","latest_floor":8,"jeonse_n":9,"wolse_n":4,"jeonse_median":23500,"jeonse_min":19950,"jeonse_max":25000,"jeonse_latest":19950,"jeonse_latest_date":"2026-09-02","jeonse_ratio":83.2,"wolse_deposit_median":3500,"wolse_monthly_median":72},{"area":85,"pyeong":25.7,"n":3,"median":40000,"min":34250,"max":42600,"latest_price":42600,"latest_date":"2026-06-22","latest_floor":12,"jeonse_n":6,"wolse_n":3,"jeonse_median":31500,"jeonse_min":24000,"jeonse_max":39000,"jeonse_latest":31000,"jeonse_latest_date":"2026-09-21","jeonse_ratio":78.8,"wolse_deposit_median":5000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

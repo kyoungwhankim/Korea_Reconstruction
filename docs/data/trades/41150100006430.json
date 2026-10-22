@@ -1,5 +1,5 @@
 {"id":"41150100006430",
-"name":"신도2아파트",
+"name":"신도2차3차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":11,"median":24000,"min":15200,"max":26000,"latest_price":24500,"latest_date":"2026-10-06","latest_floor":16,"jeonse_n":11,"wolse_n":8,"jeonse_median":20000,"jeonse_min":16500,"jeonse_max":22000,"jeonse_latest":20000,"jeonse_latest_date":"2026-09-04","jeonse_ratio":83.3,"wolse_deposit_median":2750,"wolse_monthly_median":80},{"area":85,"pyeong":25.7,"n":1,"median":34800,"min":34800,"max":34800,"latest_price":34800,"latest_date":"2026-04-16","latest_floor":10,"jeonse_n":3,"wolse_n":1,"jeonse_median":28000,"jeonse_min":27000,"jeonse_max":30000,"jeonse_latest":28000,"jeonse_latest_date":"2026-06-27","jeonse_ratio":80.5,"wolse_deposit_median":3000,"wolse_monthly_median":120}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

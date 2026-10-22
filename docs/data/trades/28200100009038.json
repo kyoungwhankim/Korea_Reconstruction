@@ -1,5 +1,5 @@
 {"id":"28200100009038",
-"name":"아주(5-320)",
+"name":"아주1차아파트",
 "basis":"단지",
 "by_area":[{"area":39,"pyeong":11.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":40},{"area":42,"pyeong":12.7,"jeonse_n":1,"wolse_n":3,"jeonse_median":7200,"jeonse_min":7200,"jeonse_max":7200,"jeonse_latest":7200,"jeonse_latest_date":"2026-01-20","wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":43,"pyeong":13.0,"jeonse_n":2,"wolse_n":4,"jeonse_median":8000,"jeonse_min":8000,"jeonse_max":8000,"jeonse_latest":8000,"jeonse_latest_date":"2026-09-22","wolse_deposit_median":750,"wolse_monthly_median":40}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,5 +1,5 @@
 {"id":"28237100005698",
-"name":"한양8차아파트",
+"name":"산곡8차 한양 아파트",
 "basis":"단지",
 "by_area":[{"area":85,"pyeong":25.7,"n":9,"median":29000,"min":27000,"max":31000,"latest_price":29400,"latest_date":"2026-07-31","latest_floor":14,"jeonse_n":2,"wolse_n":1,"jeonse_median":26000,"jeonse_min":25000,"jeonse_max":27000,"jeonse_latest":25000,"jeonse_latest_date":"2026-08-11","jeonse_ratio":89.7,"wolse_deposit_median":3000,"wolse_monthly_median":100},{"area":131,"pyeong":39.6,"n":2,"median":33500,"min":32000,"max":35000,"latest_price":32000,"latest_date":"2026-01-24","latest_floor":11}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,5 +1,5 @@
 {"id":"41135100050168",
-"name":"무지개(6단지)(건영)",
+"name":"무지개마을건영6단지",
 "basis":"단지",
 "by_area":[{"area":102,"pyeong":30.9,"n":6,"median":142000,"min":136500,"max":145000,"latest_price":145000,"latest_date":"2026-06-23","latest_floor":7,"jeonse_n":7,"wolse_n":0,"jeonse_median":60000,"jeonse_min":50000,"jeonse_max":68200,"jeonse_latest":68200,"jeonse_latest_date":"2026-08-15","jeonse_ratio":42.3},{"area":135,"pyeong":40.8,"jeonse_n":4,"wolse_n":1,"jeonse_median":64000,"jeonse_min":61400,"jeonse_max":70000,"jeonse_latest":63000,"jeonse_latest_date":"2026-07-07","wolse_deposit_median":30000,"wolse_monthly_median":160},{"area":161,"pyeong":48.7,"jeonse_n":2,"wolse_n":0,"jeonse_median":69825,"jeonse_min":60900,"jeonse_max":78750,"jeonse_latest":78750,"jeonse_latest_date":"2025-12-05"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

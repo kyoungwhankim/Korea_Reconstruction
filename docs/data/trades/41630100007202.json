@@ -1,5 +1,5 @@
 {"id":"41630100007202",
-"name":"백석세아아파트",
+"name":"백석세아1차",
 "basis":"단지",
 "by_area":[{"area":59,"pyeong":17.8,"n":2,"median":7850,"min":6500,"max":9200,"latest_price":6500,"latest_date":"2026-09-22","latest_floor":2,"jeonse_n":2,"wolse_n":1,"jeonse_median":7500,"jeonse_min":7500,"jeonse_max":7500,"jeonse_latest":7500,"jeonse_latest_date":"2026-09-23","jeonse_ratio":95.5,"wolse_deposit_median":2000,"wolse_monthly_median":45}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

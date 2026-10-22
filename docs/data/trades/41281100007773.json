@@ -1,5 +1,5 @@
 {"id":"41281100007773",
-"name":"신원당(태영6)",
+"name":"성사신원당6단지태영",
 "basis":"단지",
 "by_area":[{"area":55,"pyeong":16.6,"n":18,"median":27500,"min":23500,"max":29400,"latest_price":27400,"latest_date":"2026-10-05","latest_floor":8,"jeonse_n":18,"wolse_n":18,"jeonse_median":20487,"jeonse_min":17000,"jeonse_max":26000,"jeonse_latest":19448,"jeonse_latest_date":"2026-10-20","jeonse_ratio":74.5,"wolse_deposit_median":2000,"wolse_monthly_median":80},{"area":85,"pyeong":25.7,"n":10,"median":44000,"min":41300,"max":47000,"latest_price":44500,"latest_date":"2026-04-28","latest_floor":12,"jeonse_n":6,"wolse_n":1,"jeonse_median":32050,"jeonse_min":10000,"jeonse_max":36000,"jeonse_latest":36000,"jeonse_latest_date":"2026-08-24","jeonse_ratio":72.8,"wolse_deposit_median":3000,"wolse_monthly_median":110}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

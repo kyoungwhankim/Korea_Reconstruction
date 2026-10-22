@@ -1,5 +1,5 @@
 {"id":"11260120088947",
-"name":"신내9진흥(임대)",
+"name":"신내9단지임대",
 "basis":null,
 "by_area":[{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":11,"wolse_deposit_median":2249,"wolse_monthly_median":5}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

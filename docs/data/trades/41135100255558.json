@@ -1,5 +1,5 @@
 {"id":"41135100255558",
-"name":"하얀마을(6단지)(공공임대)",
+"name":"분당하얀마을6단지",
 "basis":null,
 "by_area":[{"area":38,"pyeong":11.5,"jeonse_n":0,"wolse_n":11,"wolse_deposit_median":1575,"wolse_monthly_median":26},{"area":39,"pyeong":11.8,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":2899,"wolse_monthly_median":20},{"area":40,"pyeong":12.1,"jeonse_n":1,"wolse_n":3,"jeonse_median":1553,"jeonse_min":1553,"jeonse_max":1553,"jeonse_latest":1553,"jeonse_latest_date":"2026-05-18","wolse_deposit_median":4038,"wolse_monthly_median":15}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
