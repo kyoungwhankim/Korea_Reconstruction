@@ -1,5 +1,5 @@
 {"id":"41271100008854",
-"name":"주공2아파트",
+"name":"주공2단지",
 "basis":"단지",
 "by_area":[{"area":50,"pyeong":15.1,"n":35,"median":24000,"min":20000,"max":28000,"latest_price":24500,"latest_date":"2026-10-03","latest_floor":15,"jeonse_n":63,"wolse_n":28,"jeonse_median":15000,"jeonse_min":1800,"jeonse_max":18000,"jeonse_latest":17000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":62.5,"wolse_deposit_median":2000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

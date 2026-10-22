@@ -1,5 +1,5 @@
 {"id":"41192100007086",
-"name":"중흥마을(주공)",
+"name":"중흥마을6단지(주공)",
 "basis":"단지",
 "by_area":[{"area":38,"pyeong":11.5,"n":33,"median":29400,"min":25500,"max":38000,"latest_price":38000,"latest_date":"2026-10-15","latest_floor":8,"jeonse_n":43,"wolse_n":37,"jeonse_median":19000,"jeonse_min":17000,"jeonse_max":21000,"jeonse_latest":19500,"jeonse_latest_date":"2026-09-15","jeonse_ratio":64.6,"wolse_deposit_median":2000,"wolse_monthly_median":73},{"area":40,"pyeong":12.1,"n":14,"median":29225,"min":25000,"max":37000,"latest_price":37000,"latest_date":"2026-10-01","latest_floor":13,"jeonse_n":12,"wolse_n":9,"jeonse_median":18750,"jeonse_min":17000,"jeonse_max":21000,"jeonse_latest":20500,"jeonse_latest_date":"2026-08-28","jeonse_ratio":64.2,"wolse_deposit_median":2000,"wolse_monthly_median":75},{"area":59,"pyeong":17.8,"n":10,"median":58250,"min":52000,"max":65000,"latest_price":58000,"latest_date":"2026-07-17","latest_floor":15,"jeonse_n":15,"wolse_n":7,"jeonse_median":31500,"jeonse_min":20000,"jeonse_max":35700,"jeonse_latest":33000,"jeonse_latest_date":"2026-10-18","jeonse_ratio":54.1,"wolse_deposit_median":5000,"wolse_monthly_median":105}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

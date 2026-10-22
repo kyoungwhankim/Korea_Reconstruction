@@ -1,5 +1,5 @@
 {"id":"11620100002172",
-"name":"신림1단지주공아파트",
+"name":"주공1단지",
 "basis":"단지",
 "by_area":[{"area":38,"pyeong":11.5,"jeonse_n":0,"wolse_n":5,"wolse_deposit_median":1799,"wolse_monthly_median":22},{"area":39,"pyeong":11.8,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1845,"wolse_monthly_median":23},{"area":60,"pyeong":18.1,"n":8,"median":44250,"min":39000,"max":47300,"latest_price":47200,"latest_date":"2026-08-27","latest_floor":16,"jeonse_n":4,"wolse_n":2,"jeonse_median":27150,"jeonse_min":25615,"jeonse_max":29400,"jeonse_latest":25615,"jeonse_latest_date":"2026-08-10","jeonse_ratio":61.4,"wolse_deposit_median":12500,"wolse_monthly_median":75}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

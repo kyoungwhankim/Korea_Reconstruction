@@ -266,6 +266,13 @@ def link_row(con, source: str, payload: dict, manual: pd.DataFrame, today: str) 
         for _, _, p in rows:
             keys |= _complex_keys(p)
         same_lot = bool(my_lot) and any(_lot_of(p) == my_lot for _, _, p in rows)
+        if registered:
+            # 등록 행은 번호까지 같은 이름끼리만 비교하고('산본주공4단지' ≠ '산본주공'), 준공·청산된 사업장에는 붙이지 않는다
+            if _stage_order(con, pid) >= cr.STAGE_ORDER["준공"]:
+                continue
+            pairs = [(a, b) for a in mine for b in keys if re.findall(r"\d+", a) == re.findall(r"\d+", b)]
+            scored.append((max((cr._score(a, b) for a, b in pairs), default=0.0), same_lot, pid))
+            continue
         scored.append((max(cr._score(a, b) for a in mine for b in keys), same_lot, pid))
     scored.sort(reverse=True)
     if scored and scored[0][0] >= LINK_THRESHOLD:
@@ -284,6 +291,12 @@ def link_row(con, source: str, payload: dict, manual: pd.DataFrame, today: str) 
     note = "새 사업장" if not scored or scored[0][0] < LINK_THRESHOLD else \
         f"새 사업장(후보 {scored[0][2]}·{scored[1][2]} 모호 — 확인 필요)"
     return pid, note
+
+
+def _stage_order(con, pid: str) -> int:
+    rec = con.execute("SELECT record FROM projects WHERE project_id=?", (pid,)).fetchone()
+    stage = (json.loads(rec[0]) if rec and rec[0] else {}).get("stage")
+    return cr.STAGE_ORDER.get(stage or "", -1)
 
 
 def _link_target(con, source: str, payload: dict) -> str | None:

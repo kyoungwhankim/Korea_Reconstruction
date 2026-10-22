@@ -1,5 +1,5 @@
 {"id":"41192100050424",
-"name":"은하마을(주공2)",
+"name":"은하마을5단지(주공2)",
 "basis":"단지",
 "by_area":[{"area":39,"pyeong":11.8,"n":4,"median":40500,"min":37000,"max":47800,"latest_price":47800,"latest_date":"2026-10-01","latest_floor":2,"jeonse_n":9,"wolse_n":6,"jeonse_median":21000,"jeonse_min":18000,"jeonse_max":22900,"jeonse_latest":21000,"jeonse_latest_date":"2026-09-04","jeonse_ratio":51.9,"wolse_deposit_median":2000,"wolse_monthly_median":80},{"area":47,"pyeong":14.2,"n":34,"median":50900,"min":44500,"max":65000,"latest_price":60000,"latest_date":"2026-10-07","latest_floor":11,"jeonse_n":26,"wolse_n":10,"jeonse_median":27650,"jeonse_min":24000,"jeonse_max":31000,"jeonse_latest":25000,"jeonse_latest_date":"2026-10-03","jeonse_ratio":54.3,"wolse_deposit_median":3000,"wolse_monthly_median":85},{"area":59,"pyeong":17.8,"n":13,"median":61000,"min":45000,"max":73000,"latest_price":73000,"latest_date":"2026-09-22","latest_floor":1,"jeonse_n":13,"wolse_n":7,"jeonse_median":35000,"jeonse_min":28900,"jeonse_max":38000,"jeonse_latest":34500,"jeonse_latest_date":"2026-09-09","jeonse_ratio":57.4,"wolse_deposit_median":4000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

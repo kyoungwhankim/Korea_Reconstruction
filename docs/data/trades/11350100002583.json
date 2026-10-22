@@ -1,5 +1,5 @@
 {"id":"11350100002583",
-"name":"중계10단지주공아파트",
+"name":"주공10단지",
 "basis":"단지",
 "by_area":[{"area":58,"pyeong":17.5,"n":18,"median":71650,"min":65000,"max":85000,"latest_price":79000,"latest_date":"2026-10-09","latest_floor":11,"jeonse_n":27,"wolse_n":22,"jeonse_median":42000,"jeonse_min":34000,"jeonse_max":65000,"jeonse_latest":42000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":58.6,"wolse_deposit_median":11000,"wolse_monthly_median":118}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

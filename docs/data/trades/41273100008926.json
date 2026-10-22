@@ -1,5 +1,5 @@
 {"id":"41273100008926",
-"name":"주공13,14단지아파트",
+"name":"군자주공14단지",
 "basis":"단지",
 "by_area":[{"area":40,"pyeong":12.1,"n":23,"median":17500,"min":15000,"max":21000,"latest_price":19000,"latest_date":"2026-10-08","latest_floor":2,"jeonse_n":19,"wolse_n":34,"jeonse_median":10000,"jeonse_min":8000,"jeonse_max":13000,"jeonse_latest":11000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":57.1,"wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":47,"pyeong":14.2,"n":4,"median":23150,"min":21800,"max":24800,"latest_price":24500,"latest_date":"2026-08-18","latest_floor":3,"jeonse_n":8,"wolse_n":11,"jeonse_median":15000,"jeonse_min":13000,"jeonse_max":17000,"jeonse_latest":17000,"jeonse_latest_date":"2026-09-15","jeonse_ratio":64.8,"wolse_deposit_median":1000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

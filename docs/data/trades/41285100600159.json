@@ -1,5 +1,5 @@
 {"id":"41285100600159",
-"name":"흰돌마을(주공)",
+"name":"흰돌마을4단지(주공)",
 "basis":null,
 "by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1063,"wolse_monthly_median":15}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,5 +1,5 @@
 {"id":"11350100002589",
-"name":"중계8단지주공아파트",
+"name":"주공8단지",
 "basis":"단지",
 "by_area":[{"area":50,"pyeong":15.1,"n":40,"median":57000,"min":44000,"max":69000,"latest_price":65000,"latest_date":"2026-09-19","latest_floor":2,"jeonse_n":60,"wolse_n":32,"jeonse_median":28350,"jeonse_min":20000,"jeonse_max":40000,"jeonse_latest":29400,"jeonse_latest_date":"2026-10-17","jeonse_ratio":49.7,"wolse_deposit_median":5000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

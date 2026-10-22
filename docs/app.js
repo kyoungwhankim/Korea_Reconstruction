@@ -91,7 +91,8 @@ function normalize(s) {
   s = s.replace(/(?<=[가-힣])A(?=$|\d|[(,·])/g, "");
   s = s.replace(/아파트지구특별계획구역|특별계획구역|재정비촉진|촉진/g, "");
   s = s.replace(/(주택)?재건축(정비)?(사업)?(조합)?|정비사업|정비구역|아파트|APT|주택|일대|번지/gi, "");
-  s = s.replace(/제(?=\d)/g, "").replace(/(?<=\d)차/g, "").replace(/(?<=\d)단지/g, "").replace(/구역$/, "");
+  s = s.replace(/제(?=\d)/g, "").replace(/(?<=\d)(단지|차)(?=\d)/g, "_");  // '4단지1차' → '4_1' (collect_reconstruction.zone_key와 같은 규칙)
+  s = s.replace(/(?<=\d)차/g, "").replace(/(?<=\d)단지/g, "").replace(/구역$/, "");
   s = s.replace(/(?<=\d)[·,.∙](?=\d)/g, "_").replace(/[·,.~()[\]&?]/g, "");
   return s;
 }

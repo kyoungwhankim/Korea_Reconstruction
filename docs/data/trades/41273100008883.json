@@ -1,5 +1,5 @@
 {"id":"41273100008883",
-"name":"중앙주공6아파트",
+"name":"중앙주공6단지",
 "basis":"단지",
 "by_area":[{"area":40,"pyeong":12.1,"n":18,"median":36150,"min":35000,"max":38000,"latest_price":35500,"latest_date":"2026-09-15","latest_floor":5,"jeonse_n":16,"wolse_n":26,"jeonse_median":8750,"jeonse_min":5000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":24.2,"wolse_deposit_median":1000,"wolse_monthly_median":40},{"area":47,"pyeong":14.2,"n":10,"median":45000,"min":43700,"max":46000,"latest_price":45000,"latest_date":"2026-10-17","latest_floor":4,"jeonse_n":26,"wolse_n":10,"jeonse_median":10000,"jeonse_min":9000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-09-30","jeonse_ratio":22.2,"wolse_deposit_median":1000,"wolse_monthly_median":49}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

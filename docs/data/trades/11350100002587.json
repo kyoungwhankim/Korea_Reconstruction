@@ -1,5 +1,5 @@
 {"id":"11350100002587",
-"name":"중계6단지주공아파트",
+"name":"주공6단지",
 "basis":"단지",
 "by_area":[{"area":44,"pyeong":13.3,"n":34,"median":46000,"min":42500,"max":52000,"latest_price":51000,"latest_date":"2026-09-23","latest_floor":6,"jeonse_n":49,"wolse_n":69,"jeonse_median":22000,"jeonse_min":16270,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":47.8,"wolse_deposit_median":1000,"wolse_monthly_median":84}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

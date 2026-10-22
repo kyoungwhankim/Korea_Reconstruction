@@ -1,5 +1,5 @@
 {"id":"11350100002511",
-"name":"상계주공5단지아파트",
+"name":"상계주공5단지(저층)",
 "basis":"단지",
 "by_area":[{"area":32,"pyeong":9.7,"n":3,"median":68000,"min":65000,"max":69000,"latest_price":65000,"latest_date":"2026-08-17","latest_floor":5,"jeonse_n":24,"wolse_n":89,"jeonse_median":10000,"jeonse_min":8000,"jeonse_max":12000,"jeonse_latest":10500,"jeonse_latest_date":"2026-10-06","jeonse_ratio":14.7,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

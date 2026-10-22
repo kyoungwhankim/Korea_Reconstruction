@@ -1,5 +1,5 @@
 {"id":"11350100050290",
-"name":"상계주공10단지아파트",
+"name":"상계주공10단지(저층)",
 "basis":"단지",
 "by_area":[{"area":47,"pyeong":14.2,"n":13,"median":47000,"min":42700,"max":57000,"latest_price":57000,"latest_date":"2026-09-12","latest_floor":4,"jeonse_n":16,"wolse_n":4,"jeonse_median":20125,"jeonse_min":15000,"jeonse_max":27000,"jeonse_latest":20000,"jeonse_latest_date":"2026-09-04","jeonse_ratio":42.8,"wolse_deposit_median":2000,"wolse_monthly_median":62},{"area":55,"pyeong":16.6,"n":3,"median":58000,"min":55000,"max":62000,"latest_price":62000,"latest_date":"2026-06-04","latest_floor":2,"jeonse_n":15,"wolse_n":5,"jeonse_median":27000,"jeonse_min":21000,"jeonse_max":33000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":46.6,"wolse_deposit_median":3000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

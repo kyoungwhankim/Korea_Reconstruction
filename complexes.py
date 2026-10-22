@@ -230,9 +230,9 @@ def complex_names(reb_names: list[str], hist_names: list[str], kapt_name: str | 
     """(보여줄 이름, [(별칭, 종류)]) — 'N단지'·'N차'가 들어간 이름을 우선 보여준다."""
     nm1 = _clean(reb_names[0]) if reb_names else None
     guess = unit_alias(nm1, dong_numbers, kapt_name) if nm1 else None   # '가야주공5단지1차'·'상계주공10단지(고층)'(이름의 번호·동 번호로 추정)
-    # 보여줄 이름: ① 추정한 'N단지N차'(차수까지 있을 때) ② 'N단지'·'N차'가 든 이름('연수주공2차아파트 201동'처럼 동 번호로 끝나는 것은 제외)
-    #            ③ 부동산원 1순위 이름
-    ordered = ([guess] if guess and re.search(r"\d+\s*차", guess) else []) + [_clean(n) for n in reb_names[1:]] + [kapt_name]
+    # 보여줄 이름: ① 추정한 'N단지(N차)' — 1순위 이름의 브랜드가 든다('한라주공4단지' > 부동산원 2순위 '주공4단지')
+    #            ② 'N단지'·'N차'가 든 이름('연수주공2차아파트 201동'처럼 동 번호로 끝나는 것은 제외) ③ 부동산원 1순위 이름
+    ordered = ([guess] if guess else []) + [_clean(n) for n in reb_names[1:]] + [kapt_name]
     unitish = [n for n in ordered if n and re.search(r"\d+\s*(단지|차)", n) and not re.search(r"\d+\s*동$", n)]
     display = unitish[0] if unitish else (nm1 or kapt_name or (trade_names or [reg_name or "?"])[0])
     if display == nm1 and nm1 and not _SUFFIXED.search(nm1) and not re.search(r"\(.*\)$", nm1):
@@ -257,6 +257,10 @@ def complex_names(reb_names: list[str], hist_names: list[str], kapt_name: str | 
         add(guess, "동번호 추정")
         if kapt_name and re.search(r"\d+\s*차", kapt_name):
             add(re.sub(_UNIT_NO + r"\s*단지", "", guess), "동번호 추정")  # '가야주공1차'
+    for n in list(aliases):  # 1기 신도시식 통칭: '한라주공4단지' → '한라4단지', '가야주공5단지1차' → '가야5단지1차'(기사·검색에서 흔한 꼴)
+        m = re.fullmatch(r"([가-힣A-Za-z]{2,}?)주공(\d.*)", n.replace(" ", ""))
+        if m:
+            add(m.group(1) + m.group(2), "표기 변형")
     base_names = list(aliases)
     for n in base_names:  # 표기 변형: 띄어쓰기, '아파트' 붙이기/떼기
         add(n.replace(" ", ""), "표기 변형")

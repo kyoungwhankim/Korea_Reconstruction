@@ -1,5 +1,5 @@
 {"id":"41271100008849",
-"name":"주공4아파트",
+"name":"주공4단지",
 "basis":"단지",
 "by_area":[{"area":75,"pyeong":22.7,"n":18,"median":47350,"min":43500,"max":52000,"latest_price":49700,"latest_date":"2026-10-07","latest_floor":6,"jeonse_n":27,"wolse_n":7,"jeonse_median":23000,"jeonse_min":18900,"jeonse_max":27000,"jeonse_latest":24000,"jeonse_latest_date":"2026-10-04","jeonse_ratio":48.6,"wolse_deposit_median":3000,"wolse_monthly_median":80},{"area":83,"pyeong":25.1,"n":3,"median":50000,"min":48000,"max":50000,"latest_price":50000,"latest_date":"2026-07-18","latest_floor":12,"jeonse_n":4,"wolse_n":6,"jeonse_median":21000,"jeonse_min":16500,"jeonse_max":23000,"jeonse_latest":22000,"jeonse_latest_date":"2026-09-19","jeonse_ratio":42.0,"wolse_deposit_median":2000,"wolse_monthly_median":90},{"area":84,"pyeong":25.4,"n":10,"median":51000,"min":47000,"max":53500,"latest_price":52500,"latest_date":"2026-07-27","latest_floor":11,"jeonse_n":10,"wolse_n":1,"jeonse_median":25000,"jeonse_min":23000,"jeonse_max":27000,"jeonse_latest":26000,"jeonse_latest_date":"2026-10-03","jeonse_ratio":49.0,"wolse_deposit_median":4000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

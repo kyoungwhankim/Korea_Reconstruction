@@ -1,5 +1,5 @@
 {"id":"41273100053700",
-"name":"군자주공15(고층)",
+"name":"군자주공15단지(고층)",
 "basis":"단지",
 "by_area":[{"area":41,"pyeong":12.4,"n":15,"median":21000,"min":19700,"max":23000,"latest_price":20000,"latest_date":"2026-10-07","latest_floor":11,"jeonse_n":21,"wolse_n":14,"jeonse_median":13650,"jeonse_min":10500,"jeonse_max":16000,"jeonse_latest":15750,"jeonse_latest_date":"2026-08-19","jeonse_ratio":65.0,"wolse_deposit_median":1000,"wolse_monthly_median":57},{"area":50,"pyeong":15.1,"n":12,"median":27950,"min":25900,"max":30800,"latest_price":28000,"latest_date":"2026-09-08","latest_floor":14,"jeonse_n":18,"wolse_n":13,"jeonse_median":17000,"jeonse_min":13000,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-09-02","jeonse_ratio":60.8,"wolse_deposit_median":1000,"wolse_monthly_median":75}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

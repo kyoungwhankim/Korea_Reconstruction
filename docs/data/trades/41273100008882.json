@@ -1,5 +1,5 @@
 {"id":"41273100008882",
-"name":"중앙주공5아파트",
+"name":"중앙주공5단지",
 "basis":"단지",
 "by_area":[{"area":40,"pyeong":12.1,"n":10,"median":46500,"min":40000,"max":49186,"latest_price":47300,"latest_date":"2026-05-01","latest_floor":3},{"area":47,"pyeong":14.2,"n":20,"median":52700,"min":43000,"max":58000,"latest_price":54500,"latest_date":"2026-08-04","latest_floor":1}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

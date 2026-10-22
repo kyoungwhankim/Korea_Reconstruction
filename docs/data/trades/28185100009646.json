@@ -1,5 +1,5 @@
 {"id":"28185100009646",
-"name":"연수주공3차아파트",
+"name":"주공3단지",
 "basis":"단지",
 "by_area":[{"area":45,"pyeong":13.6,"n":69,"median":17400,"min":15800,"max":20000,"latest_price":20000,"latest_date":"2026-10-12","latest_floor":11,"jeonse_n":105,"wolse_n":98,"jeonse_median":14000,"jeonse_min":9000,"jeonse_max":16500,"jeonse_latest":15000,"jeonse_latest_date":"2026-10-07","jeonse_ratio":80.5,"wolse_deposit_median":1000,"wolse_monthly_median":65}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

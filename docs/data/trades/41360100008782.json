@@ -1,5 +1,5 @@
 {"id":"41360100008782",
-"name":"덕소주공1단지",
+"name":"주공1단지",
 "basis":"단지",
 "by_area":[{"area":38,"pyeong":11.5,"n":7,"median":25000,"min":23900,"max":29800,"latest_price":29800,"latest_date":"2026-10-02","latest_floor":15,"jeonse_n":9,"wolse_n":5,"jeonse_median":18900,"jeonse_min":11000,"jeonse_max":22000,"jeonse_latest":18900,"jeonse_latest_date":"2026-10-07","jeonse_ratio":75.6,"wolse_deposit_median":2000,"wolse_monthly_median":70},{"area":58,"pyeong":17.5,"n":56,"median":32000,"min":25000,"max":40000,"latest_price":32000,"latest_date":"2026-10-13","latest_floor":6,"jeonse_n":61,"wolse_n":46,"jeonse_median":23100,"jeonse_min":11000,"jeonse_max":30000,"jeonse_latest":21000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":72.2,"wolse_deposit_median":4500,"wolse_monthly_median":75}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

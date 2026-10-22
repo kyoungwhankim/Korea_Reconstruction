@@ -1,5 +1,5 @@
 {"id":"11350100002584",
-"name":"중계주공2단지아파트",
+"name":"주공2단지",
 "basis":"단지",
 "by_area":[{"area":45,"pyeong":13.6,"n":84,"median":36500,"min":32700,"max":42700,"latest_price":42700,"latest_date":"2026-10-07","latest_floor":15,"jeonse_n":103,"wolse_n":154,"jeonse_median":19950,"jeonse_min":10000,"jeonse_max":26000,"jeonse_latest":22000,"jeonse_latest_date":"2026-10-10","jeonse_ratio":54.7,"wolse_deposit_median":2000,"wolse_monthly_median":75}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

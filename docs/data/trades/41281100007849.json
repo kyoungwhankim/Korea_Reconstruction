@@ -1,5 +1,5 @@
 {"id":"41281100007849",
-"name":"샘터주공2아파트",
+"name":"샘터주공2단지",
 "basis":"단지",
 "by_area":[{"area":40,"pyeong":12.1,"n":3,"median":22500,"min":21900,"max":23000,"latest_price":22500,"latest_date":"2026-06-01","latest_floor":10,"jeonse_n":21,"wolse_n":12,"jeonse_median":18900,"jeonse_min":17000,"jeonse_max":20000,"jeonse_latest":18900,"jeonse_latest_date":"2026-10-15","jeonse_ratio":84.0,"wolse_deposit_median":2000,"wolse_monthly_median":66},{"area":50,"pyeong":15.1,"n":18,"median":29000,"min":27000,"max":32700,"latest_price":27800,"latest_date":"2026-09-28","latest_floor":14,"jeonse_n":27,"wolse_n":16,"jeonse_median":23000,"jeonse_min":19845,"jeonse_max":25000,"jeonse_latest":23100,"jeonse_latest_date":"2026-10-15","jeonse_ratio":79.3,"wolse_deposit_median":2000,"wolse_monthly_median":87},{"area":60,"pyeong":18.1,"n":45,"median":34000,"min":29500,"max":39000,"latest_price":32000,"latest_date":"2026-09-05","latest_floor":9,"jeonse_n":170,"wolse_n":71,"jeonse_median":26000,"jeonse_min":16800,"jeonse_max":31500,"jeonse_latest":29400,"jeonse_latest_date":"2026-10-18","jeonse_ratio":76.5,"wolse_deposit_median":5000,"wolse_monthly_median":94}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

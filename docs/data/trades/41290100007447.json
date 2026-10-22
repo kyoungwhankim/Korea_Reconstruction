@@ -1,5 +1,5 @@
 {"id":"41290100007447",
-"name":"주공8아파트",
+"name":"주공8단지",
 "basis":"단지",
 "by_area":[{"area":73,"pyeong":22.1,"n":2,"median":220500,"min":191000,"max":250000,"latest_price":191000,"latest_date":"2026-08-22","latest_floor":1},{"area":83,"pyeong":25.1,"n":1,"median":284000,"min":284000,"max":284000,"latest_price":284000,"latest_date":"2026-01-30","latest_floor":2}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

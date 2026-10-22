@@ -1,5 +1,5 @@
 {"id":"41310100053632",
-"name":"인창4단지주공아파트",
+"name":"주공4-2단지",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":70,"median":59600,"min":47900,"max":74500,"latest_price":74000,"latest_date":"2026-09-12","latest_floor":19,"jeonse_n":69,"wolse_n":40,"jeonse_median":34000,"jeonse_min":24255,"jeonse_max":45000,"jeonse_latest":31500,"jeonse_latest_date":"2026-10-16","jeonse_ratio":57.0,"wolse_deposit_median":5000,"wolse_monthly_median":102}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

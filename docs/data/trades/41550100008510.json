@@ -1,5 +1,5 @@
 {"id":"41550100008510",
-"name":"옥산주공아파트",
+"name":"옥산주공2단지",
 "basis":"단지",
 "by_area":[{"area":39,"pyeong":11.8,"n":8,"median":9200,"min":8500,"max":10000,"latest_price":9300,"latest_date":"2026-09-22","latest_floor":4,"jeonse_n":19,"wolse_n":40,"jeonse_median":7000,"jeonse_min":4000,"jeonse_max":8000,"jeonse_latest":8000,"jeonse_latest_date":"2026-09-22","jeonse_ratio":76.1,"wolse_deposit_median":500,"wolse_monthly_median":40},{"area":47,"pyeong":14.2,"jeonse_n":9,"wolse_n":6,"jeonse_median":8000,"jeonse_min":6000,"jeonse_max":8950,"jeonse_latest":8000,"jeonse_latest_date":"2026-09-18","wolse_deposit_median":500,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

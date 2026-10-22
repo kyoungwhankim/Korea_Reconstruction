@@ -1,5 +1,5 @@
 {"id":"41290100007448",
-"name":"주공9아파트",
+"name":"주공9단지",
 "basis":"단지",
 "by_area":[{"area":54,"pyeong":16.3,"n":1,"median":235000,"min":235000,"max":235000,"latest_price":235000,"latest_date":"2026-02-12","latest_floor":3}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

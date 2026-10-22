@@ -1,5 +1,5 @@
 {"id":"41192100007055",
-"name":"덕유마을(주공3)",
+"name":"덕유마을2단지(주공3)",
 "basis":"단지",
 "by_area":[{"area":39,"pyeong":11.8,"n":6,"median":26700,"min":25000,"max":30500,"latest_price":30500,"latest_date":"2026-10-14","latest_floor":11,"jeonse_n":14,"wolse_n":10,"jeonse_median":18950,"jeonse_min":15500,"jeonse_max":21500,"jeonse_latest":18900,"jeonse_latest_date":"2026-10-15","jeonse_ratio":71.0,"wolse_deposit_median":2000,"wolse_monthly_median":65},{"area":47,"pyeong":14.2,"n":10,"median":37500,"min":34400,"max":47300,"latest_price":47300,"latest_date":"2026-09-19","latest_floor":11,"jeonse_n":3,"wolse_n":2,"jeonse_median":25000,"jeonse_min":23000,"jeonse_max":28000,"jeonse_latest":28000,"jeonse_latest_date":"2026-02-03","jeonse_ratio":66.7,"wolse_deposit_median":3000,"wolse_monthly_median":80},{"area":59,"pyeong":17.8,"n":40,"median":42950,"min":37000,"max":53200,"latest_price":53200,"latest_date":"2026-10-02","latest_floor":14,"jeonse_n":30,"wolse_n":13,"jeonse_median":30000,"jeonse_min":22000,"jeonse_max":34500,"jeonse_latest":27000,"jeonse_latest_date":"2026-10-10","jeonse_ratio":69.8,"wolse_deposit_median":5000,"wolse_monthly_median":95}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,5 +1,5 @@
 {"id":"41281100007869",
-"name":"햇빛주공23아파트",
+"name":"햇빛주공23단지",
 "basis":"단지",
 "by_area":[{"area":40,"pyeong":12.1,"n":10,"median":22500,"min":21000,"max":24500,"latest_price":22000,"latest_date":"2026-10-13","latest_floor":7,"jeonse_n":12,"wolse_n":9,"jeonse_median":18450,"jeonse_min":16000,"jeonse_max":20000,"jeonse_latest":17600,"jeonse_latest_date":"2026-10-09","jeonse_ratio":82.0,"wolse_deposit_median":2000,"wolse_monthly_median":56},{"area":50,"pyeong":15.1,"n":17,"median":30000,"min":29000,"max":33700,"latest_price":29800,"latest_date":"2026-09-30","latest_floor":13,"jeonse_n":32,"wolse_n":25,"jeonse_median":23000,"jeonse_min":18000,"jeonse_max":26000,"jeonse_latest":24150,"jeonse_latest_date":"2026-10-18","jeonse_ratio":76.7,"wolse_deposit_median":3000,"wolse_monthly_median":85},{"area":60,"pyeong":18.1,"n":52,"median":34850,"min":29000,"max":40750,"latest_price":39600,"latest_date":"2026-09-18","latest_floor":11,"jeonse_n":106,"wolse_n":35,"jeonse_median":26375,"jeonse_min":17200,"jeonse_max":30000,"jeonse_latest":27300,"jeonse_latest_date":"2026-10-19","jeonse_ratio":75.7,"wolse_deposit_median":5000,"wolse_monthly_median":85}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

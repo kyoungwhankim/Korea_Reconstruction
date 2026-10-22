@@ -1,5 +1,5 @@
 {"id":"11500100001795",
-"name":"등촌10단지주공아파트",
+"name":"주공10단지",
 "basis":"단지",
 "by_area":[{"area":38,"pyeong":11.5,"n":11,"median":69000,"min":60000,"max":82500,"latest_price":78500,"latest_date":"2026-08-31","latest_floor":13,"jeonse_n":16,"wolse_n":12,"jeonse_median":30000,"jeonse_min":22000,"jeonse_max":34000,"jeonse_latest":29400,"jeonse_latest_date":"2026-10-19","jeonse_ratio":43.5,"wolse_deposit_median":3000,"wolse_monthly_median":102},{"area":58,"pyeong":17.5,"n":25,"median":102000,"min":60000,"max":115700,"latest_price":105500,"latest_date":"2026-10-16","latest_floor":1,"jeonse_n":48,"wolse_n":22,"jeonse_median":42000,"jeonse_min":32300,"jeonse_max":50000,"jeonse_latest":37400,"jeonse_latest_date":"2026-10-12","jeonse_ratio":41.2,"wolse_deposit_median":11000,"wolse_monthly_median":105}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -76,6 +76,7 @@ COMPLEX_DAILY = 200          # 하루에 조회하는 사업장 없는 노후 �
 COMPLEX_PREFIX = "cx:"       # 상태·대기열에서 단지 후보의 키: 'cx:<complex_id>'
 STAGE_KIND, NEW_KIND = "단계 변경", "신규 사업장 후보"
 WINDOW_DAYS = 60             # 이보다 오래된 기사는 보지 않는다
+NEW_WINDOW_DAYS = 730        # 사업장 없는 노후 단지는 2년 전 기사까지 본다 — '조건부 재건축 판정'(2024-01)처럼 오래된 사건이 그 단지의 유일한 기록일 수 있다
 GOOGLE_FIRST_DAYS, GOOGLE_NEXT_DAYS = 60, 14   # 구글 검색 기간(when:Nd): 처음 / 그 뒤
 EXPIRE_DAYS = 90             # 후보는 기사 날짜 기준 90일이 지나면 대기열에서 뺀다
 SEEN_KEEP_DAYS = 120         # 본 기사 해시 보관 기간(기사 창보다 길게)
@@ -93,7 +94,7 @@ STAGE_PATTERNS = [
     ("안전진단", r"안전진단.{0,8}(통과|확정|판정|면제|완료|합격|조건부|D등급|E등급|최종)|재건축(확정|판정)|조건부재건축|"
                r"재건축진단.{0,6}(통과|면제|완료)", False),
     ("안전진단", r"안전진단|재건축진단", True),
-    ("정비계획수립", r"정비계획(안)?(수립|입안|열람|공람|공고)|신속통합기획(안)?.{0,4}(확정|완료|수립)|신통기획.{0,6}(확정|완료)", False),
+    ("정비계획수립", r"정비계획(안)?(주민)?(수립|입안|열람|공람|공고|의견수렴|설명회)|신속통합기획(안)?.{0,4}(확정|완료|수립)|신통기획.{0,6}(확정|완료)", False),
     ("정비계획수립", r"신속통합기획|신통기획|정비계획", True),
     ("정비구역지정", r"정비구역(으로)?(지정|결정)|구역지정|정비구역.{0,3}고시|정비계획.{0,8}(통과|가결|결정)|"
                  r"도시계획위원회.{0,10}(통과|가결)|도계위.{0,10}(통과|가결)", False),
@@ -123,12 +124,13 @@ STAGE_PATTERNS = [(s, re.compile(rx), hedged) for s, rx, hedged in STAGE_PATTERN
 NEGATIVE = re.compile(r"무산|반려|부결|보류|취소|제동|철회|불허|무효|백지화|좌초|불발|기각|중단|제외|탈락")
 SKIP_TITLE = re.compile(r"리모델링|가로주택|소규모재건축|모아타운|재개발구역")       # 다른 사업 유형
 MARKET = re.compile(r"분양권|입주권|경매|공매|낙찰|신고가|호가|시세|집값|매매가|전셋값|전세가|월세|임대료|갭투자|대출|청약통장")
-HEDGE = re.compile(r"앞두|앞둔|예정|목표|추진|신청|준비|임박|가시화|눈앞|채비|시동|박차|나선|나섰|동의서|동의율|설명회|공청회|"
+HEDGE = re.compile(r"앞두|앞둔|예정|목표|추진|신청|준비|임박|가시화|눈앞|채비|시동|박차|나선|나섰|동의서|동의율|설명회|공청회|본격|"
                    r"입찰|시공사|시공권|수주|총회|촉구|요구|요청|기대|전망|가능성|검토|논의|협의|갈등|반발|소송|난항|지연|연기|"
                    r"초읽기|코앞|청신호|가속|탄력|순항|급물살|물꼬|첫발|첫걸음|방침|용역|공모|도전|노린|노려|겨냥|위해|위한|"
                    r"관건|변수|기로|촉각|주목|예고|시기|언제|가능할까|되나|될까|향해|향한|남았|남은|예상|앞으로|수순|순서|절차|공람|열람")
 DRAFT = re.compile(r"\(안\)|안\)|공람|열람|고시안")       # 계획안·공람 단계: 지정·인가 자체가 아직 아니다('정비구역 지정(안) 재공람공고')
 DRAFT_STAGES = {"정비구역지정", "건축심의", "사업시행인가", "관리처분인가"}   # 정비계획수립은 열람공고 자체가 그 단계라 제외
+PLAN_EVENT = re.compile(r"주민공람|공람|열람|설명회|공청회")                 # 정비계획수립 단계에서는 머뭇거림이 아니라 그 단계의 사건
 POSITIVE = re.compile(r"^.{0,2}(받|통과|획득|취득|따냈|따내|확정|고시|승인|완료|마쳤|마무리|됐|돼|했다|결정|인가|나왔|떨어졌|났다|확보)")
 BREAK = re.compile(r"…|\.{2,}|·+|,|—|–|~|\||/|\]|\)")                 # 절이 바뀌는 자리: 그 뒤의 말은 앞 사건을 꾸미지 않는다
 BREAK_BEFORE = re.compile(r"…|\.{2,}|—|–|~|\||/|\]|\)")                # 사건 앞쪽 절의 시작(쉼표·따옴표는 끊지 않는다: '11월, 1800가구 일반분양')
@@ -168,7 +170,8 @@ def detect_stage(title: str, allow_hedged: bool = True) -> tuple[str, str] | Non
             # 바로 뒤가 '…'·','·'·'이면 다른 절(다음 계획)이라 보지 않는다; 따옴표는 벗기고 같은 절만 본다
             clause = "" if BREAK.match(raw) else BREAK.split(raw.lstrip("‘’'\"“”[(「『"), 1)[0]
             before = BREAK_BEFORE.split(QUOTES.sub("", masked[:s]))[-1][-20:]   # 같은 절의 앞말: '내년 ○○ 첫삽', '12월 이주 시작'
-            hedged = bool(HEDGE.search(clause) or BEFORE_HEDGE.search(before) or (draft and stage in DRAFT_STAGES))
+            clause_h = PLAN_EVENT.sub("", clause) if stage == "정비계획수립" else clause   # '정비계획(안) 주민공람·설명회' = 수립 단계 그 자체
+            hedged = bool(HEDGE.search(clause_h) or BEFORE_HEDGE.search(before) or (draft and stage in DRAFT_STAGES))
             judged.append((stage, "예정" if hedged else "확정", s))
         stage, conf, start = judged[0] if judged[0][1] == "확정" or len(judged) == 1 else \
             next((j for j in judged if j[1] == "확정"), judged[0])
@@ -321,8 +324,13 @@ def complex_profile(key: str, apt: dict, shared: set[str]) -> dict:
     sgg_short = re.sub(r"(특별시|광역시|시|군|구)$", "", apt.get("region_sigungu") or "")
     core = cr._core(re.sub(r"\(.*?\)", "", rec["zone_name"]))
     q = f"{sgg_short} {core} 재건축" if sgg_short and not core.startswith(sgg_short) else f"{core} 재건축"
+    queries = [q]
+    short = next((n for n in names if re.fullmatch(r"[가-힣A-Za-z]{2,}\d+단지", n.replace(" ", "")) and "주공" not in n
+                  and cr._core(n) != core), None)   # '한라4단지' 같은 통칭으로 한 번 더 — 옛 기사는 이 꼴로 부르는 일이 많다
+    if short:
+        queries.append(f"{sgg_short} {short} 재건축" if sgg_short else f"{short} 재건축")
     p.update({"kind": NEW_KIND, "complex_id": apt.get("complex_id"), "units": apt.get("households"),
-              "dong": apt.get("dong"), "queries": [q], "google_query": q})
+              "dong": apt.get("dong"), "queries": queries, "google_query": q})
     return p
 
 
@@ -472,7 +480,8 @@ def naver_search(q: str, auth: tuple[str, str]) -> list[dict]:
 
 
 def google_search(q: str, days: int) -> list[dict]:
-    r = SESSION.get(GOOGLE_URL, params={"q": f"{q} when:{days}d", "hl": "ko", "gl": "KR", "ceid": "KR:ko"}, timeout=TIMEOUT)
+    when = f"when:{days // 365}y" if days >= 365 and days % 365 == 0 else f"when:{days}d"   # 구글은 'when:2y'도 받는다
+    r = SESSION.get(GOOGLE_URL, params={"q": f"{q} {when}", "hl": "ko", "gl": "KR", "ceid": "KR:ko"}, timeout=TIMEOUT)
     if r.status_code in (429, 503):
         raise SourceDown(f"구글 HTTP {r.status_code} (요청 제한)")
     r.raise_for_status()
@@ -566,6 +575,7 @@ def article_id(pid: str, title: str) -> str:
 def prune(state: dict[str, dict], profiles: dict[str, dict], dismissed: set[str], today: date) -> None:
     """해결된(현재 단계가 따라온)·기각된·오래된 후보와 오래된 기사 해시를 지운다."""
     expire, keep_seen = (today - timedelta(days=EXPIRE_DAYS)).isoformat(), (today - timedelta(days=SEEN_KEEP_DAYS)).isoformat()
+    expire_new = (today - timedelta(days=NEW_WINDOW_DAYS)).isoformat()   # 단지의 확정 후보는 기사 창만큼 오래 둔다(등록 근거가 되므로)
     for pid in list(state):
         st = state[pid]
         st["seen"] = {k: d for k, d in (st.get("seen") or {}).items() if d >= keep_seen}
@@ -585,7 +595,6 @@ def prune(state: dict[str, dict], profiles: dict[str, dict], dismissed: set[str]
                 if not alias:
                     continue
                 c["matched"] = alias
-                c["owner"] = owner_project(c["title"], prof, profiles)   # 같은 제목이 기존 사업장에도 맞으면 새 사업장 대신 그곳에 붙인다
             elif cr.zone_key(c.get("matched") or "") not in keys:   # 더는 별칭으로 안 쓰는 이름으로 맞은 후보는 뺀다
                 continue
             # 판정 규칙이 나아지면 저장된 후보도 같은 규칙으로 다시 매긴다(제목 기준이라 결정적)
@@ -593,20 +602,32 @@ def prune(state: dict[str, dict], profiles: dict[str, dict], dismissed: set[str]
             if not det:
                 continue
             c["stage"], c["confidence"] = det
+            if prof["kind"] == NEW_KIND:   # 같은 제목이 (그 단계에 아직 못 미친) 기존 사업장에도 맞으면 새 사업장 대신 그곳에 붙인다
+                c["owner"] = owner_project(c["title"], prof, profiles, c["stage"])
             key = title_key(c["title"])
-            if c["id"] not in dismissed and cr.STAGE_ORDER[c["stage"]] > order and c["published"] >= expire and key not in kept:
+            limit = expire_new if prof["kind"] == NEW_KIND and c["confidence"] == "확정" else expire
+            if c["id"] not in dismissed and cr.STAGE_ORDER[c["stage"]] > order and c["published"] >= limit and key not in kept:
                 kept[key] = c
         st["candidates"] = list(kept.values())
         if not st["candidates"] and not st["seen"] and not st.get("checked_at"):
             del state[pid]
 
 
-def owner_project(title: str, prof: dict, profiles: dict[str, dict]) -> str | None:
+def owner_project(title: str, prof: dict, profiles: dict[str, dict], stage: str | None = None) -> str | None:
     """단지 후보의 기사 제목이 같은 시군구의 기존 사업장 이름에도 맞으면 그 project_id(하나일 때만).
     '철산주공12단지, 조합설립인가' 기사가 부동산원 단지 '주공12아파트'(철산동)와 사업장 '철산주공12단지'에 모두 맞는 경우 —
-    새 사업장을 만들지 않고 단지를 그 사업장에 붙인다(auto_projects.csv의 project_id 열)."""
-    hits = {key for key, p in profiles.items()
-            if p["kind"] == STAGE_KIND and p["sgg"] == prof["sgg"] and p["sido"] == prof["sido"] and match_name(p, title)}
+    새 사업장을 만들지 않고 단지를 그 사업장에 붙인다(auto_projects.csv의 project_id 열).
+    준공·청산된 사업장이나 기사 단계에 이미 이른 사업장은 주인이 될 수 없고('산본주공'(준공) ≠ 한라주공4단지 정비계획),
+    '주공'·'산본'처럼 흔한 별칭만으로 맞은 것도 세지 않는다."""
+    hits = set()
+    for key, p in profiles.items():
+        if p["kind"] != STAGE_KIND or p["sgg"] != prof["sgg"] or p["sido"] != prof["sido"]:
+            continue
+        if p["order"] >= cr.STAGE_ORDER["준공"] or (stage and p["order"] >= cr.STAGE_ORDER[stage]):
+            continue
+        alias = match_name(p, title)
+        if alias and not generic_key(cr.zone_key(alias)):
+            hits.add(key)
     return next(iter(hits)) if len(hits) == 1 else None
 
 
@@ -635,7 +656,8 @@ class Sources:
 
 def classify(pid: str, prof: dict, items: list[dict], st: dict, today: date, stats: dict) -> list[dict]:
     """가져온 기사들 중 새 기사만 판정해 후보를 추가한다."""
-    cutoff, today_s = (today - timedelta(days=WINDOW_DAYS)).isoformat(), today.isoformat()
+    window = NEW_WINDOW_DAYS if pid.startswith(COMPLEX_PREFIX) else WINDOW_DAYS
+    cutoff, today_s = (today - timedelta(days=window)).isoformat(), today.isoformat()
     have = {c["id"] for c in st["candidates"]}
     new = []
     for it in items:
@@ -662,7 +684,7 @@ def classify(pid: str, prof: dict, items: list[dict], st: dict, today: date, sta
 
 def fetch_google(prof: dict, st: dict, srcs: Sources, stats: dict) -> tuple[list[dict], bool]:
     """구글 RSS 1건 — 네이버 조회와 겹쳐 돌릴 수 있게 따로 뗀다(요청 간격은 이 안에서 지킨다)."""
-    days = GOOGLE_NEXT_DAYS if st.get("checked_at") else GOOGLE_FIRST_DAYS
+    days = GOOGLE_NEXT_DAYS if st.get("checked_at") else (NEW_WINDOW_DAYS if prof.get("kind") == NEW_KIND else GOOGLE_FIRST_DAYS)
     if not srcs.google:                 # 미리 걸어 둔 조회라도 그 사이 차단됐으면 보내지 않는다
         return [], False
     try:
