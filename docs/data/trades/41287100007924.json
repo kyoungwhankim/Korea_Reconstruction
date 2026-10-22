@@ -1,7 +1,7 @@
 {"id":"41287100007924",
 "name":"후곡마을(한진)",
 "basis":"단지",
-"by_area":[{"area":102,"pyeong":30.9,"jeonse_n":3,"wolse_n":0,"jeonse_median":45000,"jeonse_min":45000,"jeonse_max":49000,"jeonse_latest":45000,"jeonse_latest_date":"2026-08-10"},{"area":129,"pyeong":39.0,"n":1,"median":60000,"min":60000,"max":60000,"latest_price":60000,"latest_date":"2026-03-07","latest_floor":4,"jeonse_n":4,"wolse_n":2,"jeonse_median":52250,"jeonse_min":50000,"jeonse_max":53000,"jeonse_latest":50000,"jeonse_latest_date":"2026-04-02","jeonse_ratio":87.1,"wolse_deposit_median":16000,"wolse_monthly_median":145},{"area":158,"pyeong":47.8,"jeonse_n":1,"wolse_n":0,"jeonse_median":40000,"jeonse_min":40000,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-02-02"}],
+"by_area":[{"area":102,"pyeong":30.9,"jeonse_n":4,"wolse_n":0,"jeonse_median":45000,"jeonse_min":45000,"jeonse_max":49000,"jeonse_latest":45000,"jeonse_latest_date":"2026-10-20"},{"area":129,"pyeong":39.0,"n":1,"median":60000,"min":60000,"max":60000,"latest_price":60000,"latest_date":"2026-03-07","latest_floor":4,"jeonse_n":4,"wolse_n":2,"jeonse_median":52250,"jeonse_min":50000,"jeonse_max":53000,"jeonse_latest":50000,"jeonse_latest_date":"2026-04-02","jeonse_ratio":87.1,"wolse_deposit_median":16000,"wolse_monthly_median":145},{"area":158,"pyeong":47.8,"jeonse_n":1,"wolse_n":0,"jeonse_median":40000,"jeonse_min":40000,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-02-02"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-06",128.82,11,58500,null,null,1995],
 ["2006-02-03",128.82,5,58000,null,null,1995],
@@ -149,5 +149,6 @@
 ["2026-04-02",128.82,1,50000,0,"갱신","26.05~28.05",null],
 ["2026-04-22",101.64,14,45000,0,"갱신","26.04~28.04",null],
 ["2026-07-19",128.82,1,20000,150,"신규","26.09~28.09",null],
-["2026-08-10",101.64,18,45000,0,"갱신","26.10~27.02",true]
+["2026-08-10",101.64,18,45000,0,"갱신","26.10~27.02",true],
+["2026-10-20",101.64,18,45000,0,"신규","27.02~29.02",null]
 ]}}

@@ -1,5 +1,5 @@
 {"id":"41463100008309",
-"name":"인정프린스아파트",
+"name":"인정프린스4차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":19,"median":21700,"min":18700,"max":26700,"latest_price":26700,"latest_date":"2026-09-21","latest_floor":10,"jeonse_n":11,"wolse_n":0,"jeonse_median":18900,"jeonse_min":18000,"jeonse_max":20000,"jeonse_latest":20000,"jeonse_latest_date":"2026-10-11","jeonse_ratio":87.1},{"area":85,"pyeong":25.7,"n":11,"median":26500,"min":25000,"max":32700,"latest_price":32700,"latest_date":"2026-09-22","latest_floor":3,"jeonse_n":2,"wolse_n":2,"jeonse_median":23000,"jeonse_min":23000,"jeonse_max":23000,"jeonse_latest":23000,"jeonse_latest_date":"2025-12-15","jeonse_ratio":86.8,"wolse_deposit_median":14600,"wolse_monthly_median":24}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

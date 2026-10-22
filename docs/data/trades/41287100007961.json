@@ -1,7 +1,7 @@
 {"id":"41287100007961",
 "name":"문촌마을2단지라이프아파트",
 "basis":"단지",
-"by_area":[{"area":100,"pyeong":30.2,"jeonse_n":5,"wolse_n":0,"jeonse_median":47000,"jeonse_min":45000,"jeonse_max":48000,"jeonse_latest":48000,"jeonse_latest_date":"2026-04-30"},{"area":127,"pyeong":38.4,"n":7,"median":63500,"min":60000,"max":74500,"latest_price":74500,"latest_date":"2026-10-14","latest_floor":7,"jeonse_n":9,"wolse_n":1,"jeonse_median":50000,"jeonse_min":40000,"jeonse_max":57000,"jeonse_latest":47500,"jeonse_latest_date":"2026-09-11","jeonse_ratio":78.7,"wolse_deposit_median":20000,"wolse_monthly_median":140},{"area":172,"pyeong":52.0,"n":2,"median":73150,"min":70000,"max":76300,"latest_price":76300,"latest_date":"2026-09-06","latest_floor":8}],
+"by_area":[{"area":100,"pyeong":30.2,"jeonse_n":6,"wolse_n":0,"jeonse_median":46000,"jeonse_min":45000,"jeonse_max":48000,"jeonse_latest":45000,"jeonse_latest_date":"2026-10-07"},{"area":127,"pyeong":38.4,"n":7,"median":63500,"min":60000,"max":74500,"latest_price":74500,"latest_date":"2026-10-14","latest_floor":7,"jeonse_n":9,"wolse_n":1,"jeonse_median":50000,"jeonse_min":40000,"jeonse_max":57000,"jeonse_latest":47500,"jeonse_latest_date":"2026-09-11","jeonse_ratio":78.7,"wolse_deposit_median":20000,"wolse_monthly_median":140},{"area":172,"pyeong":52.0,"n":2,"median":73150,"min":70000,"max":76300,"latest_price":76300,"latest_date":"2026-09-06","latest_floor":8}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-11",127.14,7,55000,null,null,1994],
 ["2006-06-06",127.14,4,73500,null,null,1994],
@@ -306,5 +306,6 @@
 ["2026-07-16",127.14,4,40000,0,"신규","26.08~28.08",null],
 ["2026-07-16",127.14,4,40000,0,"신규","26.08~28.08",null],
 ["2026-08-07",127.14,5,55000,0,"신규","26.10~28.10",null],
-["2026-09-11",127.14,13,47500,0,"갱신","26.10~28.10",true]
+["2026-09-11",127.14,13,47500,0,"갱신","26.10~28.10",true],
+["2026-10-07",99.52,11,45000,0,"신규","27.01~29.01",null]
 ]}}

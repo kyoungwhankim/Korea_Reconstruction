@@ -1,5 +1,5 @@
 {"id":"41287100050181",
-"name":"후곡마을(태영13)",
+"name":"일산후곡마을13단지태영",
 "basis":"단지",
 "by_area":[{"area":58,"pyeong":17.5,"n":12,"median":27850,"min":25200,"max":31000,"latest_price":27000,"latest_date":"2026-08-27","latest_floor":8,"jeonse_n":19,"wolse_n":12,"jeonse_median":22000,"jeonse_min":18900,"jeonse_max":26000,"jeonse_latest":23625,"jeonse_latest_date":"2026-09-20","jeonse_ratio":79.0,"wolse_deposit_median":4000,"wolse_monthly_median":95},{"area":72,"pyeong":21.8,"n":3,"median":36500,"min":35000,"max":38000,"latest_price":36500,"latest_date":"2026-05-30","latest_floor":3,"jeonse_n":5,"wolse_n":6,"jeonse_median":32000,"jeonse_min":29000,"jeonse_max":33600,"jeonse_latest":29000,"jeonse_latest_date":"2026-06-02","jeonse_ratio":87.7,"wolse_deposit_median":1500,"wolse_monthly_median":112},{"area":84,"pyeong":25.4,"n":4,"median":47600,"min":46000,"max":53000,"latest_price":46000,"latest_date":"2026-07-08","latest_floor":4,"jeonse_n":16,"wolse_n":5,"jeonse_median":36000,"jeonse_min":10000,"jeonse_max":42000,"jeonse_latest":37000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":75.6,"wolse_deposit_median":10000,"wolse_monthly_median":120}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,7 +1,7 @@
 {"id":"11170100000870",
 "name":"타워맨션",
 "basis":"단지",
-"by_area":[{"area":140,"pyeong":42.3,"jeonse_n":1,"wolse_n":0,"jeonse_median":108000,"jeonse_min":108000,"jeonse_max":108000,"jeonse_latest":108000,"jeonse_latest_date":"2026-01-28"},{"area":153,"pyeong":46.3,"jeonse_n":1,"wolse_n":0,"jeonse_median":100000,"jeonse_min":100000,"jeonse_max":100000,"jeonse_latest":100000,"jeonse_latest_date":"2026-05-23"},{"area":202,"pyeong":61.1,"jeonse_n":1,"wolse_n":0,"jeonse_median":170000,"jeonse_min":170000,"jeonse_max":170000,"jeonse_latest":170000,"jeonse_latest_date":"2026-05-13"}],
+"by_area":[{"area":140,"pyeong":42.3,"jeonse_n":1,"wolse_n":0,"jeonse_median":108000,"jeonse_min":108000,"jeonse_max":108000,"jeonse_latest":108000,"jeonse_latest_date":"2026-01-28"},{"area":153,"pyeong":46.3,"jeonse_n":1,"wolse_n":0,"jeonse_median":100000,"jeonse_min":100000,"jeonse_max":100000,"jeonse_latest":100000,"jeonse_latest_date":"2026-05-23"},{"area":202,"pyeong":61.1,"jeonse_n":2,"wolse_n":0,"jeonse_median":165000,"jeonse_min":160000,"jeonse_max":170000,"jeonse_latest":160000,"jeonse_latest_date":"2026-10-21"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-24",200.1,2,150000,null,null,1973],
 ["2006-05-26",154.55,11,135000,null,null,1973],
@@ -37,5 +37,6 @@
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-01-28",139.67,14,108000,0,"갱신","26.02~28.02",null],
 ["2026-05-13",202.45,8,170000,0,"신규","26.07~28.07",null],
-["2026-05-23",152.73,1,100000,0,"갱신","26.07~28.07",null]
+["2026-05-23",152.73,1,100000,0,"갱신","26.07~28.07",null],
+["2026-10-21",202.45,10,160000,0,"갱신","26.10~28.10",null]
 ]}}

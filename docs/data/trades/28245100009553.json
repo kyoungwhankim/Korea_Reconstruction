@@ -1,7 +1,7 @@
 {"id":"28245100009553",
 "name":"작전 현대1차 아파트",
 "basis":"단지",
-"by_area":[{"area":71,"pyeong":21.5,"n":7,"median":28000,"min":26000,"max":29000,"latest_price":28600,"latest_date":"2026-10-10","latest_floor":4,"jeonse_n":5,"wolse_n":0,"jeonse_median":23000,"jeonse_min":22000,"jeonse_max":23500,"jeonse_latest":23500,"jeonse_latest_date":"2026-05-19","jeonse_ratio":82.1},{"area":85,"pyeong":25.7,"n":13,"median":32400,"min":29800,"max":34300,"latest_price":33700,"latest_date":"2026-10-02","latest_floor":13,"jeonse_n":12,"wolse_n":4,"jeonse_median":25000,"jeonse_min":20000,"jeonse_max":27000,"jeonse_latest":24500,"jeonse_latest_date":"2026-10-07","jeonse_ratio":77.2,"wolse_deposit_median":3000,"wolse_monthly_median":98}],
+"by_area":[{"area":71,"pyeong":21.5,"n":7,"median":28000,"min":26000,"max":29000,"latest_price":28600,"latest_date":"2026-10-10","latest_floor":4,"jeonse_n":5,"wolse_n":0,"jeonse_median":23000,"jeonse_min":22000,"jeonse_max":23500,"jeonse_latest":23500,"jeonse_latest_date":"2026-05-19","jeonse_ratio":82.1},{"area":85,"pyeong":25.7,"n":14,"median":32200,"min":29800,"max":34300,"latest_price":32000,"latest_date":"2026-10-06","latest_floor":9,"jeonse_n":12,"wolse_n":4,"jeonse_median":25000,"jeonse_min":20000,"jeonse_max":27000,"jeonse_latest":24500,"jeonse_latest_date":"2026-10-07","jeonse_ratio":77.6,"wolse_deposit_median":3000,"wolse_monthly_median":98}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",84.94,14,14500,null,null,1990],
 ["2006-01-09",84.94,2,13050,null,null,1990],
@@ -653,6 +653,7 @@
 ["2026-08-18",71.17,2,26000,null,"중개거래",1990],
 ["2026-10-01",71.17,7,28500,null,"중개거래",1990],
 ["2026-10-02",84.94,13,33700,null,"중개거래",1990],
+["2026-10-06",84.94,9,32000,null,"중개거래",1990],
 ["2026-10-10",71.17,4,28600,null,"중개거래",1990]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

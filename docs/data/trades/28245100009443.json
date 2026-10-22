@@ -1,5 +1,5 @@
 {"id":"28245100009443",
-"name":"서해3아파트",
+"name":"계산 서해그린3차 아파트",
 "basis":"단지",
 "by_area":[{"area":58,"pyeong":17.5,"n":3,"median":20600,"min":15300,"max":21000,"latest_price":15300,"latest_date":"2026-06-26","latest_floor":5,"jeonse_n":11,"wolse_n":14,"jeonse_median":12000,"jeonse_min":10000,"jeonse_max":15000,"jeonse_latest":12000,"jeonse_latest_date":"2026-08-21","jeonse_ratio":58.3,"wolse_deposit_median":1000,"wolse_monthly_median":57},{"area":60,"pyeong":18.1,"n":5,"median":18800,"min":14100,"max":21000,"latest_price":15500,"latest_date":"2026-10-02","latest_floor":1,"jeonse_n":14,"wolse_n":6,"jeonse_median":15000,"jeonse_min":13000,"jeonse_max":15000,"jeonse_latest":14000,"jeonse_latest_date":"2026-10-06","jeonse_ratio":79.8,"wolse_deposit_median":1000,"wolse_monthly_median":60},{"area":78,"pyeong":23.6,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1250,"wolse_monthly_median":70},{"area":82,"pyeong":24.8,"n":1,"median":27000,"min":27000,"max":27000,"latest_price":27000,"latest_date":"2026-04-13","latest_floor":1,"jeonse_n":1,"wolse_n":0,"jeonse_median":16000,"jeonse_min":16000,"jeonse_max":16000,"jeonse_latest":16000,"jeonse_latest_date":"2025-12-17","jeonse_ratio":59.3}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

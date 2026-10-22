@@ -1,7 +1,7 @@
 {"id":"서울-영등포구-문래공원한신",
 "name":"문래공원한신아파트",
 "basis":"기존 단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":16,"median":126500,"min":70000,"max":133500,"latest_price":133500,"latest_date":"2026-10-02","latest_floor":6,"jeonse_n":27,"wolse_n":18,"jeonse_median":49000,"jeonse_min":36700,"jeonse_max":55000,"jeonse_latest":50000,"jeonse_latest_date":"2026-10-12","jeonse_ratio":38.7,"wolse_deposit_median":27500,"wolse_monthly_median":83},{"area":79,"pyeong":23.9,"n":4,"median":148500,"min":123000,"max":159500,"latest_price":159500,"latest_date":"2026-09-08","latest_floor":11,"jeonse_n":8,"wolse_n":3,"jeonse_median":53000,"jeonse_min":48000,"jeonse_max":60000,"jeonse_latest":49000,"jeonse_latest_date":"2026-10-03","jeonse_ratio":35.7,"wolse_deposit_median":20000,"wolse_monthly_median":190},{"area":84,"pyeong":25.4,"jeonse_n":2,"wolse_n":0,"jeonse_median":62500,"jeonse_min":62000,"jeonse_max":63000,"jeonse_latest":62000,"jeonse_latest_date":"2026-04-11"}],
+"by_area":[{"area":59,"pyeong":17.8,"n":16,"median":126500,"min":70000,"max":133500,"latest_price":133500,"latest_date":"2026-10-02","latest_floor":6,"jeonse_n":27,"wolse_n":18,"jeonse_median":49000,"jeonse_min":36700,"jeonse_max":55000,"jeonse_latest":50000,"jeonse_latest_date":"2026-10-12","jeonse_ratio":38.7,"wolse_deposit_median":27500,"wolse_monthly_median":83},{"area":79,"pyeong":23.9,"n":4,"median":148500,"min":123000,"max":159500,"latest_price":159500,"latest_date":"2026-09-08","latest_floor":11,"jeonse_n":8,"wolse_n":4,"jeonse_median":53000,"jeonse_min":48000,"jeonse_max":60000,"jeonse_latest":49000,"jeonse_latest_date":"2026-10-03","jeonse_ratio":35.7,"wolse_deposit_median":20000,"wolse_monthly_median":145},{"area":84,"pyeong":25.4,"jeonse_n":2,"wolse_n":0,"jeonse_median":62500,"jeonse_min":62000,"jeonse_max":63000,"jeonse_latest":62000,"jeonse_latest_date":"2026-04-11"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-04",58.96,8,22700,null,null,1988],
 ["2006-02-28",58.96,7,24500,null,null,1988],
@@ -469,5 +469,6 @@
 ["2026-09-21",58.96,13,45000,50,"신규","26.12~28.12",null],
 ["2026-10-03",79.46,5,49000,0,"갱신","26.11~28.11",true],
 ["2026-10-06",58.96,15,46300,0,"갱신","26.11~28.11",true],
+["2026-10-07",79.46,2,35000,81,"갱신","26.11~28.11",true],
 ["2026-10-12",58.96,12,50000,0,"신규","27.01~29.01",null]
 ]}}

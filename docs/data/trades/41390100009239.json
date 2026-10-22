@@ -1,7 +1,7 @@
 {"id":"41390100009239",
-"name":"우성2아파트",
+"name":"대야우성2차아파트",
 "basis":"단지",
-"by_area":[{"area":42,"pyeong":12.7,"n":14,"median":17950,"min":16000,"max":19000,"latest_price":18800,"latest_date":"2026-10-08","latest_floor":6,"jeonse_n":14,"wolse_n":12,"jeonse_median":15250,"jeonse_min":6700,"jeonse_max":17000,"jeonse_latest":16500,"jeonse_latest_date":"2026-09-12","jeonse_ratio":85.0,"wolse_deposit_median":1750,"wolse_monthly_median":57},{"area":60,"pyeong":18.1,"n":17,"median":33500,"min":30700,"max":35800,"latest_price":35000,"latest_date":"2026-09-30","latest_floor":5,"jeonse_n":18,"wolse_n":9,"jeonse_median":24650,"jeonse_min":21000,"jeonse_max":28500,"jeonse_latest":24000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":73.6,"wolse_deposit_median":3000,"wolse_monthly_median":90}],
+"by_area":[{"area":42,"pyeong":12.7,"n":14,"median":17950,"min":16000,"max":19000,"latest_price":18800,"latest_date":"2026-10-08","latest_floor":6,"jeonse_n":14,"wolse_n":13,"jeonse_median":15250,"jeonse_min":6700,"jeonse_max":17000,"jeonse_latest":16500,"jeonse_latest_date":"2026-09-12","jeonse_ratio":85.0,"wolse_deposit_median":1500,"wolse_monthly_median":60},{"area":60,"pyeong":18.1,"n":17,"median":33500,"min":30700,"max":35800,"latest_price":35000,"latest_date":"2026-09-30","latest_floor":5,"jeonse_n":18,"wolse_n":9,"jeonse_median":24650,"jeonse_min":21000,"jeonse_max":28500,"jeonse_latest":24000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":73.6,"wolse_deposit_median":3000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-25",41.55,17,6700,null,null,1995],
 ["2006-02-03",59.96,7,11350,null,null,1995],
@@ -960,6 +960,7 @@
 ["2026-09-12",41.55,12,16500,0,"신규","26.11~28.11",null],
 ["2026-09-12",59.96,12,28500,0,"갱신","26.10~28.10",true],
 ["2026-09-18",59.96,5,24000,0,"신규","26.10~28.10",null],
+["2026-10-07",41.55,2,1000,63,"신규","26.10~28.10",null],
 ["2026-10-08",59.96,5,24000,0,"신규","26.10~28.10",null],
 ["2026-10-17",59.96,17,4000,100,"신규","26.12~28.12",null]
 ]}}

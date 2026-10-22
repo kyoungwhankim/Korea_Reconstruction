@@ -1,7 +1,7 @@
 {"id":"11320100000446",
 "name":"럭키아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":19,"median":56000,"min":50300,"max":63000,"latest_price":59000,"latest_date":"2026-09-18","latest_floor":9,"jeonse_n":19,"wolse_n":9,"jeonse_median":37000,"jeonse_min":24000,"jeonse_max":44000,"jeonse_latest":34000,"jeonse_latest_date":"2026-10-06","jeonse_ratio":66.1,"wolse_deposit_median":8000,"wolse_monthly_median":95}],
+"by_area":[{"area":85,"pyeong":25.7,"n":19,"median":56000,"min":50300,"max":63000,"latest_price":59000,"latest_date":"2026-09-18","latest_floor":9,"jeonse_n":20,"wolse_n":9,"jeonse_median":36500,"jeonse_min":24000,"jeonse_max":44000,"jeonse_latest":34000,"jeonse_latest_date":"2026-10-06","jeonse_ratio":65.2,"wolse_deposit_median":8000,"wolse_monthly_median":95}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-18",84.86,6,20500,null,null,1992],
 ["2006-02-03",84.86,8,21000,null,null,1992],
@@ -436,5 +436,6 @@
 ["2026-09-07",84.86,15,35700,0,"갱신","26.09~28.09",null],
 ["2026-09-08",84.86,5,5000,126,"갱신","26.10~28.10",true],
 ["2026-09-19",84.86,5,15000,55,"갱신","26.11~28.11",true],
+["2026-09-20",84.86,15,34650,0,"갱신","26.09~28.09",true],
 ["2026-10-06",84.86,7,34000,0,"갱신","26.10~28.10",null]
 ]}}

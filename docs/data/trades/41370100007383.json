@@ -1,7 +1,7 @@
 {"id":"41370100007383",
 "name":"태영아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":6,"median":16600,"min":15500,"max":18500,"latest_price":16000,"latest_date":"2026-08-01","latest_floor":2,"jeonse_n":4,"wolse_n":2,"jeonse_median":14000,"jeonse_min":13500,"jeonse_max":14000,"jeonse_latest":14000,"jeonse_latest_date":"2026-04-04","jeonse_ratio":84.3,"wolse_deposit_median":2500,"wolse_monthly_median":75},{"area":85,"pyeong":25.7,"n":5,"median":23500,"min":20000,"max":24500,"latest_price":20000,"latest_date":"2026-07-29","latest_floor":19,"jeonse_n":6,"wolse_n":0,"jeonse_median":18000,"jeonse_min":15750,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-05-15","jeonse_ratio":76.6}],
+"by_area":[{"area":60,"pyeong":18.1,"n":7,"median":16700,"min":15500,"max":19250,"latest_price":19250,"latest_date":"2026-10-03","latest_floor":12,"jeonse_n":4,"wolse_n":2,"jeonse_median":14000,"jeonse_min":13500,"jeonse_max":14000,"jeonse_latest":14000,"jeonse_latest_date":"2026-04-04","jeonse_ratio":83.8,"wolse_deposit_median":2500,"wolse_monthly_median":75},{"area":85,"pyeong":25.7,"n":5,"median":23500,"min":20000,"max":24500,"latest_price":20000,"latest_date":"2026-07-29","latest_floor":19,"jeonse_n":6,"wolse_n":0,"jeonse_median":18000,"jeonse_min":15750,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-05-15","jeonse_ratio":76.6}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-21",59.97,20,8700,null,null,1996],
 ["2006-04-09",59.97,2,8200,null,null,1996],
@@ -596,7 +596,8 @@
 ["2026-07-21",84.97,10,23500,null,"중개거래",1996],
 ["2026-07-22",59.97,12,18500,"제105","중개거래",1996],
 ["2026-07-29",84.97,19,20000,"제102","중개거래",1996],
-["2026-08-01",59.97,2,16000,"제105","중개거래",1996]
+["2026-08-01",59.97,2,16000,"제105","중개거래",1996],
+["2026-10-03",59.97,12,19250,null,"중개거래",1996]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-24",84.97,19,17850,0,"갱신","25.12~27.12",true],

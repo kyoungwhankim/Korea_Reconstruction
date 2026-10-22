@@ -1,5 +1,5 @@
 {"id":"41281100007836",
-"name":"무원마을(동신)",
+"name":"행신무원마을3단지동신아파트",
 "basis":"단지",
 "by_area":[{"area":102,"pyeong":30.9,"n":8,"median":59250,"min":56000,"max":62500,"latest_price":59900,"latest_date":"2026-10-16","latest_floor":9,"jeonse_n":12,"wolse_n":4,"jeonse_median":45500,"jeonse_min":35500,"jeonse_max":50000,"jeonse_latest":47000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":76.8,"wolse_deposit_median":8500,"wolse_monthly_median":160},{"area":135,"pyeong":40.8,"n":3,"median":58800,"min":58500,"max":64500,"latest_price":58500,"latest_date":"2026-08-31","latest_floor":15,"jeonse_n":1,"wolse_n":1,"jeonse_median":52000,"jeonse_min":52000,"jeonse_max":52000,"jeonse_latest":52000,"jeonse_latest_date":"2026-08-05","jeonse_ratio":88.4,"wolse_deposit_median":10000,"wolse_monthly_median":180}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

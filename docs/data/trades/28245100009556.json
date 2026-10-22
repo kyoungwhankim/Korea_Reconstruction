@@ -1,5 +1,5 @@
 {"id":"28245100009556",
-"name":"현대3아파트",
+"name":"작전 현대3차 아파트",
 "basis":"단지",
 "by_area":[{"area":59,"pyeong":17.8,"n":1,"median":22000,"min":22000,"max":22000,"latest_price":22000,"latest_date":"2026-04-19","latest_floor":9,"jeonse_n":1,"wolse_n":6,"jeonse_median":18000,"jeonse_min":18000,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-01-05","jeonse_ratio":81.8,"wolse_deposit_median":2250,"wolse_monthly_median":75},{"area":76,"pyeong":23.0,"n":2,"median":29150,"min":27000,"max":31300,"latest_price":27000,"latest_date":"2026-08-17","latest_floor":3,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3000,"wolse_monthly_median":100},{"area":77,"pyeong":23.3,"jeonse_n":1,"wolse_n":0,"jeonse_median":22000,"jeonse_min":22000,"jeonse_max":22000,"jeonse_latest":22000,"jeonse_latest_date":"2025-11-22"},{"area":85,"pyeong":25.7,"n":1,"median":33500,"min":33500,"max":33500,"latest_price":33500,"latest_date":"2026-07-12","latest_floor":5,"jeonse_n":4,"wolse_n":0,"jeonse_median":25500,"jeonse_min":23000,"jeonse_max":26000,"jeonse_latest":26000,"jeonse_latest_date":"2026-08-16","jeonse_ratio":76.1}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

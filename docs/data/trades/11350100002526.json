@@ -1,7 +1,7 @@
 {"id":"11350100002526",
 "name":"현대4차아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":3,"median":55000,"min":47500,"max":60000,"latest_price":55000,"latest_date":"2026-04-28","latest_floor":1,"jeonse_n":6,"wolse_n":2,"jeonse_median":19000,"jeonse_min":19000,"jeonse_max":42000,"jeonse_latest":19000,"jeonse_latest_date":"2026-06-25","jeonse_ratio":34.5,"wolse_deposit_median":21500,"wolse_monthly_median":85}],
+"by_area":[{"area":85,"pyeong":25.7,"n":4,"median":57500,"min":47500,"max":65000,"latest_price":65000,"latest_date":"2026-09-28","latest_floor":6,"jeonse_n":6,"wolse_n":2,"jeonse_median":19000,"jeonse_min":19000,"jeonse_max":42000,"jeonse_latest":19000,"jeonse_latest_date":"2026-06-25","jeonse_ratio":33.0,"wolse_deposit_median":21500,"wolse_monthly_median":85}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-18",84.99,8,18350,null,null,1995],
 ["2006-05-02",84.99,7,16500,null,null,1995],
@@ -96,7 +96,8 @@
 ["2025-08-21",84.99,8,50000,"401","중개거래",1995],
 ["2026-01-22",84.99,12,60000,"401","중개거래",1995],
 ["2026-04-14",84.99,13,47500,"401","중개거래",1995],
-["2026-04-28",84.99,1,55000,"401","중개거래",1995]
+["2026-04-28",84.99,1,55000,"401","중개거래",1995],
+["2026-09-28",84.99,6,65000,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-03-14",84.99,12,42000,0,"갱신","26.05~28.05",true],

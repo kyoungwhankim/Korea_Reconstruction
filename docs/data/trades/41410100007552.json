@@ -1,5 +1,5 @@
 {"id":"41410100007552",
-"name":"삼성미도아파트",
+"name":"산본삼성미도1차",
 "basis":"단지",
 "by_area":[{"area":59,"pyeong":17.8,"n":6,"median":32600,"min":31500,"max":33400,"latest_price":32400,"latest_date":"2026-07-06","latest_floor":4,"jeonse_n":2,"wolse_n":0,"jeonse_median":26000,"jeonse_min":24000,"jeonse_max":28000,"jeonse_latest":28000,"jeonse_latest_date":"2026-04-23","jeonse_ratio":79.8},{"area":84,"pyeong":25.4,"n":7,"median":44000,"min":32000,"max":45000,"latest_price":45000,"latest_date":"2026-09-20","latest_floor":14}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

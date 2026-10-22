@@ -1,7 +1,7 @@
 {"id":"41287100007905",
 "name":"후곡마을(금호)",
 "basis":"단지",
-"by_area":[{"area":42,"pyeong":12.7,"n":3,"median":25500,"min":25000,"max":27300,"latest_price":25000,"latest_date":"2026-06-22","latest_floor":8,"jeonse_n":16,"wolse_n":11,"jeonse_median":18000,"jeonse_min":15500,"jeonse_max":19000,"jeonse_latest":19000,"jeonse_latest_date":"2026-09-23","jeonse_ratio":70.6,"wolse_deposit_median":1000,"wolse_monthly_median":68},{"area":84,"pyeong":25.4,"n":14,"median":58800,"min":55500,"max":61200,"latest_price":60000,"latest_date":"2026-10-13","latest_floor":9,"jeonse_n":15,"wolse_n":4,"jeonse_median":42000,"jeonse_min":25800,"jeonse_max":46000,"jeonse_latest":44000,"jeonse_latest_date":"2026-10-05","jeonse_ratio":71.4,"wolse_deposit_median":33600,"wolse_monthly_median":32}],
+"by_area":[{"area":42,"pyeong":12.7,"n":3,"median":25500,"min":25000,"max":27300,"latest_price":25000,"latest_date":"2026-06-22","latest_floor":8,"jeonse_n":16,"wolse_n":11,"jeonse_median":18000,"jeonse_min":15500,"jeonse_max":19000,"jeonse_latest":19000,"jeonse_latest_date":"2026-09-23","jeonse_ratio":70.6,"wolse_deposit_median":1000,"wolse_monthly_median":68},{"area":84,"pyeong":25.4,"n":14,"median":58800,"min":55500,"max":61200,"latest_price":60000,"latest_date":"2026-10-13","latest_floor":9,"jeonse_n":15,"wolse_n":5,"jeonse_median":42000,"jeonse_min":25800,"jeonse_max":46000,"jeonse_latest":44000,"jeonse_latest_date":"2026-10-05","jeonse_ratio":71.4,"wolse_deposit_median":31000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-11",83.77,16,34250,null,null,1995],
 ["2006-03-16",83.77,1,29200,null,null,1995],
@@ -557,5 +557,6 @@
 ["2026-10-04",83.77,4,31000,50,"신규","26.11~28.11",null],
 ["2026-10-05",83.77,6,44000,0,"신규","26.12~28.12",null],
 ["2026-10-12",41.85,11,1500,75,"갱신","27.03~29.03",null],
-["2026-10-14",41.85,5,1000,70,"갱신","26.10~28.10",null]
+["2026-10-14",41.85,5,1000,70,"갱신","26.10~28.10",null],
+["2026-10-21",83.77,14,10000,137,"갱신","26.11~28.11",true]
 ]}}

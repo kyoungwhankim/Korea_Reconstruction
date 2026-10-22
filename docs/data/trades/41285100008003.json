@@ -1,7 +1,7 @@
 {"id":"41285100008003",
-"name":"흰돌마을(청구)",
+"name":"백석흰돌마을2단지청구",
 "basis":"단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":2,"median":34250,"min":33500,"max":35000,"latest_price":35000,"latest_date":"2026-08-29","latest_floor":12,"jeonse_n":3,"wolse_n":1,"jeonse_median":29800,"jeonse_min":26500,"jeonse_max":30000,"jeonse_latest":29800,"jeonse_latest_date":"2026-09-05","jeonse_ratio":87.0,"wolse_deposit_median":3000,"wolse_monthly_median":120},{"area":70,"pyeong":21.2,"n":11,"median":38000,"min":37500,"max":40800,"latest_price":40000,"latest_date":"2026-08-20","latest_floor":18,"jeonse_n":6,"wolse_n":4,"jeonse_median":31750,"jeonse_min":29500,"jeonse_max":34000,"jeonse_latest":34000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":83.6,"wolse_deposit_median":6500,"wolse_monthly_median":87}],
+"by_area":[{"area":59,"pyeong":17.8,"n":2,"median":34250,"min":33500,"max":35000,"latest_price":35000,"latest_date":"2026-08-29","latest_floor":12,"jeonse_n":3,"wolse_n":1,"jeonse_median":29800,"jeonse_min":26500,"jeonse_max":30000,"jeonse_latest":29800,"jeonse_latest_date":"2026-09-05","jeonse_ratio":87.0,"wolse_deposit_median":3000,"wolse_monthly_median":120},{"area":70,"pyeong":21.2,"n":11,"median":38000,"min":37500,"max":40800,"latest_price":40000,"latest_date":"2026-08-20","latest_floor":18,"jeonse_n":6,"wolse_n":5,"jeonse_median":31750,"jeonse_min":29500,"jeonse_max":34000,"jeonse_latest":34000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":83.6,"wolse_deposit_median":5000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-22",69.63,9,16000,null,null,1995],
 ["2006-03-20",69.63,25,19400,null,null,1995],
@@ -422,6 +422,7 @@
 ["2026-07-03",69.63,13,32000,0,"갱신","26.08~28.08",true],
 ["2026-09-01",69.63,21,8000,75,"갱신","26.09~28.09",true],
 ["2026-09-05",59.36,14,29800,0,"신규","26.11~28.11",null],
+["2026-10-06",69.63,7,3000,110,"신규","26.10~28.10",null],
 ["2026-10-07",69.63,15,31500,0,"신규","26.11~28.11",null],
 ["2026-10-20",69.63,15,34000,0,"신규","27.01~29.01",null]
 ]}}

@@ -1,5 +1,5 @@
 {"id":"41463100008465",
-"name":"한성1아파트",
+"name":"구갈한성1차",
 "basis":"단지",
 "by_area":[{"area":47,"pyeong":14.2,"n":41,"median":60000,"min":50500,"max":65800,"latest_price":65800,"latest_date":"2026-08-14","latest_floor":4,"jeonse_n":40,"wolse_n":55,"jeonse_median":20000,"jeonse_min":13650,"jeonse_max":24000,"jeonse_latest":23000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":33.3,"wolse_deposit_median":2000,"wolse_monthly_median":65}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

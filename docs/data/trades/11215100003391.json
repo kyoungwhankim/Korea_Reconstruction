@@ -1,5 +1,5 @@
 {"id":"11215100003391",
-"name":"현대8(801동,802동)",
+"name":"광장현대8단지",
 "basis":"단지",
 "by_area":[{"area":85,"pyeong":25.7,"n":4,"median":223000,"min":210000,"max":228000,"latest_price":228000,"latest_date":"2026-04-10","latest_floor":20,"jeonse_n":23,"wolse_n":5,"jeonse_median":80900,"jeonse_min":20000,"jeonse_max":105000,"jeonse_latest":92000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":36.3,"wolse_deposit_median":30000,"wolse_monthly_median":230}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

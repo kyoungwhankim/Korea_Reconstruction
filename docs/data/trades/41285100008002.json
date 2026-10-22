@@ -1,5 +1,5 @@
 {"id":"41285100008002",
-"name":"흰돌마을(서안)",
+"name":"흰돌마을5단지서안",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":8,"median":40000,"min":38500,"max":40900,"latest_price":39500,"latest_date":"2026-06-25","latest_floor":1,"jeonse_n":6,"wolse_n":5,"jeonse_median":29000,"jeonse_min":24000,"jeonse_max":31000,"jeonse_latest":30000,"jeonse_latest_date":"2026-07-16","jeonse_ratio":72.5,"wolse_deposit_median":5000,"wolse_monthly_median":90},{"area":73,"pyeong":22.1,"n":4,"median":47350,"min":43000,"max":49000,"latest_price":49000,"latest_date":"2026-09-01","latest_floor":12,"jeonse_n":17,"wolse_n":5,"jeonse_median":34000,"jeonse_min":27000,"jeonse_max":35000,"jeonse_latest":34000,"jeonse_latest_date":"2026-10-03","jeonse_ratio":71.8,"wolse_deposit_median":20000,"wolse_monthly_median":50},{"area":85,"pyeong":25.7,"n":2,"median":57500,"min":56000,"max":59000,"latest_price":56000,"latest_date":"2026-05-13","latest_floor":6,"jeonse_n":8,"wolse_n":2,"jeonse_median":37250,"jeonse_min":29000,"jeonse_max":42000,"jeonse_latest":38000,"jeonse_latest_date":"2026-10-01","jeonse_ratio":64.8,"wolse_deposit_median":18250,"wolse_monthly_median":57}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
@@ -693,7 +693,7 @@
 ["2026-05-13",84.9,6,56000,"507","중개거래",1994],
 ["2026-05-30",73.17,9,47700,"506","중개거래",1994],
 ["2026-06-25",59.91,1,39500,"501","중개거래",1994],
-["2026-09-01",73.17,12,49000,null,"중개거래",1994]
+["2026-09-01",73.17,12,49000,"506","중개거래",1994]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-01",73.17,12,34500,0,null,null,null],

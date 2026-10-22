@@ -1,5 +1,5 @@
 {"id":"41210100007459",
-"name":"현대1아파트",
+"name":"소하현대1차",
 "basis":"단지",
 "by_area":[{"area":84,"pyeong":25.4,"n":6,"median":43625,"min":39000,"max":48000,"latest_price":39000,"latest_date":"2026-09-09","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":4000,"wolse_monthly_median":120}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,7 +1,7 @@
 {"id":"11545100003491",
 "name":"진도1차아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":4,"median":42500,"min":38500,"max":44000,"latest_price":44000,"latest_date":"2026-05-15","latest_floor":6,"jeonse_n":4,"wolse_n":0,"jeonse_median":32500,"jeonse_min":30000,"jeonse_max":33000,"jeonse_latest":32000,"jeonse_latest_date":"2026-04-10","jeonse_ratio":76.5},{"area":85,"pyeong":25.7,"n":3,"median":54000,"min":51000,"max":54800,"latest_price":51000,"latest_date":"2026-04-15","latest_floor":3,"jeonse_n":3,"wolse_n":0,"jeonse_median":40000,"jeonse_min":31500,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-06-22","jeonse_ratio":74.1}],
+"by_area":[{"area":60,"pyeong":18.1,"n":4,"median":42500,"min":38500,"max":44000,"latest_price":44000,"latest_date":"2026-05-15","latest_floor":6,"jeonse_n":4,"wolse_n":0,"jeonse_median":32500,"jeonse_min":30000,"jeonse_max":33000,"jeonse_latest":32000,"jeonse_latest_date":"2026-04-10","jeonse_ratio":76.5},{"area":85,"pyeong":25.7,"n":4,"median":54400,"min":51000,"max":56000,"latest_price":56000,"latest_date":"2026-09-08","latest_floor":5,"jeonse_n":3,"wolse_n":0,"jeonse_median":40000,"jeonse_min":31500,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-06-22","jeonse_ratio":73.5}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-04",84.84,9,16900,null,null,1996],
 ["2006-02-08",84.84,3,17300,null,null,1996],
@@ -82,7 +82,8 @@
 ["2026-03-20",84.84,7,54000,"제101","중개거래",1996],
 ["2026-04-15",84.84,3,51000,"제101","중개거래",1996],
 ["2026-05-13",59.94,3,42000,"제101","중개거래",1996],
-["2026-05-15",59.94,6,44000,"제101","중개거래",1996]
+["2026-05-15",59.94,6,44000,"제101","중개거래",1996],
+["2026-09-08",84.84,5,56000,null,"중개거래",1996]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-15",84.84,9,31500,0,"갱신","26.01~28.01",true],

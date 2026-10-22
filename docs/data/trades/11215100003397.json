@@ -1,7 +1,7 @@
 {"id":"11215100003397",
 "name":"구의강변우성아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":3,"median":175000,"min":170000,"max":177000,"latest_price":170000,"latest_date":"2026-04-28","latest_floor":12,"jeonse_n":32,"wolse_n":18,"jeonse_median":67000,"jeonse_min":50400,"jeonse_max":80000,"jeonse_latest":66150,"jeonse_latest_date":"2026-09-21","jeonse_ratio":38.3,"wolse_deposit_median":25000,"wolse_monthly_median":157}],
+"by_area":[{"area":85,"pyeong":25.7,"n":3,"median":175000,"min":170000,"max":177000,"latest_price":170000,"latest_date":"2026-04-28","latest_floor":12,"jeonse_n":33,"wolse_n":18,"jeonse_median":67000,"jeonse_min":50400,"jeonse_max":80000,"jeonse_latest":70000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":38.3,"wolse_deposit_median":25000,"wolse_monthly_median":157}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-25",84.76,1,32500,null,null,1992],
 ["2006-01-26",84.76,5,34000,null,null,1992],
@@ -291,5 +291,6 @@
 ["2026-09-08",84.76,3,55000,80,"신규","26.11~28.11",null],
 ["2026-09-10",84.76,4,67200,0,"갱신","26.10~28.09",true],
 ["2026-09-21",84.76,4,66150,0,"갱신","26.09~27.12",true],
+["2026-10-02",84.76,21,70000,0,"신규","26.11~28.11",null],
 ["2026-10-16",84.76,10,70000,50,"신규","26.12~28.12",null]
 ]}}

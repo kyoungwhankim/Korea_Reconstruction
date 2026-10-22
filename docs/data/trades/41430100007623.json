@@ -1,7 +1,7 @@
 {"id":"41430100007623",
 "name":"개나리쌍용아파트",
 "basis":"단지",
-"by_area":[{"area":49,"pyeong":14.8,"n":3,"median":28000,"min":23500,"max":29700,"latest_price":29700,"latest_date":"2026-07-09","latest_floor":10,"jeonse_n":3,"wolse_n":0,"jeonse_median":23000,"jeonse_min":20000,"jeonse_max":24000,"jeonse_latest":23000,"jeonse_latest_date":"2026-04-10","jeonse_ratio":82.1},{"area":60,"pyeong":18.1,"n":5,"median":35000,"min":30000,"max":39290,"latest_price":35500,"latest_date":"2026-09-28","latest_floor":7,"jeonse_n":5,"wolse_n":2,"jeonse_median":23000,"jeonse_min":22000,"jeonse_max":25000,"jeonse_latest":23000,"jeonse_latest_date":"2026-05-20","jeonse_ratio":65.7,"wolse_deposit_median":12000,"wolse_monthly_median":45}],
+"by_area":[{"area":49,"pyeong":14.8,"n":4,"median":28250,"min":23500,"max":29700,"latest_price":28500,"latest_date":"2026-10-19","latest_floor":10,"jeonse_n":3,"wolse_n":0,"jeonse_median":23000,"jeonse_min":20000,"jeonse_max":24000,"jeonse_latest":23000,"jeonse_latest_date":"2026-04-10","jeonse_ratio":81.4},{"area":60,"pyeong":18.1,"n":5,"median":35000,"min":30000,"max":39290,"latest_price":35500,"latest_date":"2026-09-28","latest_floor":7,"jeonse_n":5,"wolse_n":2,"jeonse_median":23000,"jeonse_min":22000,"jeonse_max":25000,"jeonse_latest":23000,"jeonse_latest_date":"2026-05-20","jeonse_ratio":65.7,"wolse_deposit_median":12000,"wolse_monthly_median":45}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-15",48.63,10,9300,null,null,1994],
 ["2006-02-02",48.63,1,8600,null,null,1994],
@@ -240,7 +240,8 @@
 ["2026-07-09",48.63,10,29700,"102","중개거래",1994],
 ["2026-07-31",59.98,10,39290,"101","중개거래",1994],
 ["2026-08-26",59.98,3,30000,null,"중개거래",1994],
-["2026-09-28",59.98,7,35500,"101","중개거래",1994]
+["2026-09-28",59.98,7,35500,"101","중개거래",1994],
+["2026-10-19",48.63,10,28500,null,"중개거래",1994]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-13",59.98,1,13000,20,"신규","26.01~28.01",null],

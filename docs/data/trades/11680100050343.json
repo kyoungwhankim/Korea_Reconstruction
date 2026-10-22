@@ -1,5 +1,5 @@
 {"id":"11680100050343",
-"name":"쌍용대치아파트1동,2동,3동,5동,6동아파트",
+"name":"쌍용대치1차",
 "basis":"단지",
 "by_area":[{"area":84,"pyeong":25.4,"n":5,"median":360000,"min":230000,"max":373000,"latest_price":360000,"latest_date":"2026-09-05","latest_floor":15,"jeonse_n":21,"wolse_n":16,"jeonse_median":76000,"jeonse_min":65000,"jeonse_max":88000,"jeonse_latest":88000,"jeonse_latest_date":"2026-09-30","jeonse_ratio":21.1,"wolse_deposit_median":40000,"wolse_monthly_median":140},{"area":128,"pyeong":38.7,"n":1,"median":390000,"min":390000,"max":390000,"latest_price":390000,"latest_date":"2026-04-24","latest_floor":2,"jeonse_n":15,"wolse_n":7,"jeonse_median":100000,"jeonse_min":89000,"jeonse_max":126000,"jeonse_latest":126000,"jeonse_latest_date":"2026-08-14","jeonse_ratio":25.6,"wolse_deposit_median":60000,"wolse_monthly_median":160},{"area":149,"pyeong":45.1,"n":2,"median":459000,"min":448000,"max":470000,"latest_price":470000,"latest_date":"2026-06-25","latest_floor":14,"jeonse_n":3,"wolse_n":2,"jeonse_median":115000,"jeonse_min":110000,"jeonse_max":117000,"jeonse_latest":115000,"jeonse_latest_date":"2026-06-13","jeonse_ratio":25.1,"wolse_deposit_median":85000,"wolse_monthly_median":95}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

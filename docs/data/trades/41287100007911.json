@@ -1,7 +1,7 @@
 {"id":"41287100007911",
 "name":"후곡마을(동아10)",
 "basis":"단지",
-"by_area":[{"area":101,"pyeong":30.6,"n":2,"median":71500,"min":68000,"max":75000,"latest_price":68000,"latest_date":"2026-08-10","latest_floor":4},{"area":130,"pyeong":39.3,"n":8,"median":76500,"min":55500,"max":83000,"latest_price":77000,"latest_date":"2026-07-01","latest_floor":11,"jeonse_n":3,"wolse_n":0,"jeonse_median":60900,"jeonse_min":50000,"jeonse_max":66000,"jeonse_latest":60900,"jeonse_latest_date":"2026-04-06","jeonse_ratio":79.6},{"area":159,"pyeong":48.1,"jeonse_n":1,"wolse_n":0,"jeonse_median":57500,"jeonse_min":57500,"jeonse_max":57500,"jeonse_latest":57500,"jeonse_latest_date":"2026-04-26"}],
+"by_area":[{"area":101,"pyeong":30.6,"n":3,"median":68000,"min":62500,"max":75000,"latest_price":62500,"latest_date":"2026-10-17","latest_floor":1},{"area":130,"pyeong":39.3,"n":8,"median":76500,"min":55500,"max":83000,"latest_price":77000,"latest_date":"2026-07-01","latest_floor":11,"jeonse_n":3,"wolse_n":0,"jeonse_median":60900,"jeonse_min":50000,"jeonse_max":66000,"jeonse_latest":60900,"jeonse_latest_date":"2026-04-06","jeonse_ratio":79.6},{"area":159,"pyeong":48.1,"jeonse_n":1,"wolse_n":0,"jeonse_median":57500,"jeonse_min":57500,"jeonse_max":57500,"jeonse_latest":57500,"jeonse_latest_date":"2026-04-26"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-09",130.23,12,62700,null,null,1995],
 ["2006-03-25",130.23,8,70000,null,null,1995],
@@ -159,7 +159,8 @@
 ["2026-06-12",130.23,7,80500,"1006","중개거래",1995],
 ["2026-06-21",130.23,3,75000,null,"중개거래",1995],
 ["2026-07-01",130.23,11,77000,"1007","중개거래",1995],
-["2026-08-10",101.24,4,68000,"1005","중개거래",1995]
+["2026-08-10",101.24,4,68000,"1005","중개거래",1995],
+["2026-10-17",101.24,1,62500,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-22",130.23,7,66000,0,"신규","26.02~28.02",null],

@@ -1,7 +1,7 @@
 {"id":"경기-안양-극동",
 "name":"극동아파트",
 "basis":"기존 단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":7,"median":37500,"min":34800,"max":40000,"latest_price":37900,"latest_date":"2026-09-22","latest_floor":8,"jeonse_n":3,"wolse_n":0,"jeonse_median":27000,"jeonse_min":26250,"jeonse_max":30000,"jeonse_latest":27000,"jeonse_latest_date":"2026-08-11","jeonse_ratio":72.0},{"area":97,"pyeong":29.3,"n":1,"median":37000,"min":37000,"max":37000,"latest_price":37000,"latest_date":"2026-05-24","latest_floor":8,"jeonse_n":5,"wolse_n":2,"jeonse_median":28000,"jeonse_min":27000,"jeonse_max":30000,"jeonse_latest":27000,"jeonse_latest_date":"2026-07-06","jeonse_ratio":75.7,"wolse_deposit_median":3000,"wolse_monthly_median":130},{"area":112,"pyeong":33.9,"jeonse_n":1,"wolse_n":0,"jeonse_median":30000,"jeonse_min":30000,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-04-28"}],
+"by_area":[{"area":85,"pyeong":25.7,"n":8,"median":37250,"min":34800,"max":40000,"latest_price":36000,"latest_date":"2026-10-20","latest_floor":1,"jeonse_n":3,"wolse_n":0,"jeonse_median":27000,"jeonse_min":26250,"jeonse_max":30000,"jeonse_latest":27000,"jeonse_latest_date":"2026-08-11","jeonse_ratio":72.5},{"area":97,"pyeong":29.3,"n":1,"median":37000,"min":37000,"max":37000,"latest_price":37000,"latest_date":"2026-05-24","latest_floor":8,"jeonse_n":5,"wolse_n":2,"jeonse_median":28000,"jeonse_min":27000,"jeonse_max":30000,"jeonse_latest":27000,"jeonse_latest_date":"2026-07-06","jeonse_ratio":75.7,"wolse_deposit_median":3000,"wolse_monthly_median":130},{"area":112,"pyeong":33.9,"jeonse_n":1,"wolse_n":0,"jeonse_median":30000,"jeonse_min":30000,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-04-28"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-10",84.69,6,14000,null,null,1991],
 ["2006-01-11",84.69,2,12500,null,null,1991],
@@ -387,7 +387,8 @@
 ["2026-06-13",84.69,11,37000,"3","중개거래",1991],
 ["2026-06-20",84.69,2,37500,"3","중개거래",1991],
 ["2026-09-09",84.69,10,36200,null,"중개거래",1991],
-["2026-09-22",84.69,8,37900,null,"중개거래",1991]
+["2026-09-22",84.69,8,37900,null,"중개거래",1991],
+["2026-10-20",84.69,1,36000,null,"중개거래",1991]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-12-02",84.69,12,26250,0,"신규","26.01~28.05",null],

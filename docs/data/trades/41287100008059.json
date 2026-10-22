@@ -1,5 +1,5 @@
 {"id":"41287100008059",
-"name":"탄현마을(일신)",
+"name":"탄현마을9단지일신건영",
 "basis":"단지",
 "by_area":[{"area":53,"pyeong":16.0,"n":9,"median":20000,"min":15500,"max":20600,"latest_price":17300,"latest_date":"2026-09-22","latest_floor":3,"jeonse_n":5,"wolse_n":8,"jeonse_median":17000,"jeonse_min":15400,"jeonse_max":17500,"jeonse_latest":17500,"jeonse_latest_date":"2026-09-17","jeonse_ratio":85.0,"wolse_deposit_median":2000,"wolse_monthly_median":70},{"area":60,"pyeong":18.1,"n":12,"median":21800,"min":20500,"max":25000,"latest_price":21500,"latest_date":"2026-10-13","latest_floor":6,"jeonse_n":7,"wolse_n":5,"jeonse_median":19000,"jeonse_min":17700,"jeonse_max":20500,"jeonse_latest":20500,"jeonse_latest_date":"2026-09-16","jeonse_ratio":87.2,"wolse_deposit_median":7000,"wolse_monthly_median":85}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

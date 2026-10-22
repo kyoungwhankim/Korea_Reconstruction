@@ -1,7 +1,7 @@
 {"id":"41273100008925",
 "name":"군자주공12단지",
 "basis":"단지",
-"by_area":[{"area":39,"pyeong":11.8,"n":43,"median":21400,"min":19500,"max":25000,"latest_price":19500,"latest_date":"2026-10-11","latest_floor":1,"jeonse_n":79,"wolse_n":61,"jeonse_median":13000,"jeonse_min":8000,"jeonse_max":16000,"jeonse_latest":11000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":60.7,"wolse_deposit_median":1000,"wolse_monthly_median":55},{"area":45,"pyeong":13.6,"n":22,"median":26000,"min":16000,"max":29000,"latest_price":26500,"latest_date":"2026-10-01","latest_floor":8,"jeonse_n":39,"wolse_n":25,"jeonse_median":15000,"jeonse_min":10100,"jeonse_max":19000,"jeonse_latest":11600,"jeonse_latest_date":"2026-10-15","jeonse_ratio":57.7,"wolse_deposit_median":1000,"wolse_monthly_median":60}],
+"by_area":[{"area":39,"pyeong":11.8,"n":43,"median":21400,"min":19500,"max":25000,"latest_price":19500,"latest_date":"2026-10-11","latest_floor":1,"jeonse_n":79,"wolse_n":62,"jeonse_median":13000,"jeonse_min":8000,"jeonse_max":16000,"jeonse_latest":11000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":60.7,"wolse_deposit_median":1000,"wolse_monthly_median":55},{"area":45,"pyeong":13.6,"n":22,"median":26000,"min":16000,"max":29000,"latest_price":26500,"latest_date":"2026-10-01","latest_floor":8,"jeonse_n":39,"wolse_n":25,"jeonse_median":15000,"jeonse_min":10100,"jeonse_max":19000,"jeonse_latest":11600,"jeonse_latest_date":"2026-10-15","jeonse_ratio":57.7,"wolse_deposit_median":1000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-18",38.64,2,2500,null,null,1991],
 ["2006-01-23",38.64,2,5000,null,null,1991],
@@ -2712,7 +2712,7 @@
 ["2026-08-26",38.64,8,20750,null,"중개거래",1991],
 ["2026-09-11",44.94,8,27800,"1209","중개거래",1991],
 ["2026-09-16",38.64,6,20900,null,"중개거래",1991],
-["2026-09-27",38.64,10,20000,null,"중개거래",1991],
+["2026-09-27",38.64,10,20000,"1204","중개거래",1991],
 ["2026-09-27",38.64,13,21700,"1201","중개거래",1991],
 ["2026-10-01",44.94,8,26500,"1207","중개거래",1991],
 ["2026-10-08",38.64,14,19500,null,"중개거래",1991],
@@ -2923,5 +2923,6 @@
 ["2026-10-14",38.64,3,1000,60,"신규","26.12~28.12",null],
 ["2026-10-14",38.64,6,16000,0,"신규","26.11~28.11",null],
 ["2026-10-15",44.94,10,11600,0,"갱신","26.10~28.10",null],
+["2026-10-17",38.64,11,1000,60,"신규","26.11~28.11",null],
 ["2026-10-19",38.64,11,11000,0,"신규","26.11~28.11",null]
 ]}}

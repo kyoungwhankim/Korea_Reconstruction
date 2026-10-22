@@ -1,5 +1,5 @@
 {"id":"41192100007046",
-"name":"그린타운(우성2)",
+"name":"중동그린타운우성2차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":14,"median":48250,"min":45000,"max":57000,"latest_price":57000,"latest_date":"2026-09-29","latest_floor":3,"jeonse_n":7,"wolse_n":1,"jeonse_median":34100,"jeonse_min":32000,"jeonse_max":36500,"jeonse_latest":34100,"jeonse_latest_date":"2026-09-04","jeonse_ratio":70.7,"wolse_deposit_median":10000,"wolse_monthly_median":90},{"area":85,"pyeong":25.7,"n":18,"median":61100,"min":57600,"max":66000,"latest_price":60000,"latest_date":"2026-08-27","latest_floor":10,"jeonse_n":9,"wolse_n":5,"jeonse_median":45000,"jeonse_min":38500,"jeonse_max":49000,"jeonse_latest":45000,"jeonse_latest_date":"2026-09-13","jeonse_ratio":73.6,"wolse_deposit_median":10000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
@@ -461,7 +461,7 @@
 ["2026-07-07",59.95,13,56800,null,"중개거래",1994],
 ["2026-07-13",84.96,10,62000,null,"중개거래",1994],
 ["2026-07-14",84.96,5,62500,"1326","중개거래",1994],
-["2026-07-15",84.96,2,60500,null,"중개거래",1994],
+["2026-07-15",84.96,2,60500,"1325","중개거래",1994],
 ["2026-07-29",59.95,1,45000,null,"중개거래",1994],
 ["2026-07-31",84.96,9,66000,null,"중개거래",1994],
 ["2026-07-31",84.96,12,64200,null,"중개거래",1994],

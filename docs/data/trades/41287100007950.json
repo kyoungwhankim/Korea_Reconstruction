@@ -1,5 +1,5 @@
 {"id":"41287100007950",
-"name":"강선마을13단지뉴서울아파트",
+"name":"주엽강선마을13단지뉴서울",
 "basis":"단지",
 "by_area":[{"area":40,"pyeong":12.1,"n":8,"median":19400,"min":16000,"max":22000,"latest_price":19000,"latest_date":"2026-09-07","latest_floor":18,"jeonse_n":16,"wolse_n":25,"jeonse_median":16500,"jeonse_min":9000,"jeonse_max":17000,"jeonse_latest":16500,"jeonse_latest_date":"2026-10-10","jeonse_ratio":85.1,"wolse_deposit_median":1500,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,5 +1,5 @@
 {"id":"41285100008013",
-"name":"강촌마을2(한신)",
+"name":"마두강촌마을2단지한신",
 "basis":"단지",
 "by_area":[{"area":94,"pyeong":28.4,"n":6,"median":64000,"min":58000,"max":72500,"latest_price":58000,"latest_date":"2026-07-29","latest_floor":7,"jeonse_n":12,"wolse_n":6,"jeonse_median":44000,"jeonse_min":38000,"jeonse_max":50000,"jeonse_latest":39300,"jeonse_latest_date":"2026-10-14","jeonse_ratio":68.8,"wolse_deposit_median":10000,"wolse_monthly_median":140},{"area":135,"pyeong":40.8,"n":3,"median":71000,"min":70000,"max":74000,"latest_price":74000,"latest_date":"2026-09-01","latest_floor":14,"jeonse_n":7,"wolse_n":7,"jeonse_median":55000,"jeonse_min":45000,"jeonse_max":65000,"jeonse_latest":50000,"jeonse_latest_date":"2026-06-26","jeonse_ratio":77.5,"wolse_deposit_median":50000,"wolse_monthly_median":30},{"area":174,"pyeong":52.6,"n":7,"median":89000,"min":80000,"max":94000,"latest_price":80000,"latest_date":"2026-09-19","latest_floor":19,"jeonse_n":15,"wolse_n":1,"jeonse_median":60000,"jeonse_min":53000,"jeonse_max":68000,"jeonse_latest":55000,"jeonse_latest_date":"2026-10-13","jeonse_ratio":67.4,"wolse_deposit_median":8000,"wolse_monthly_median":220}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

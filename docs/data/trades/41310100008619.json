@@ -1,7 +1,7 @@
 {"id":"41310100008619",
 "name":"구리두산아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":30,"median":67950,"min":61500,"max":78000,"latest_price":78000,"latest_date":"2026-05-17","latest_floor":1,"jeonse_n":51,"wolse_n":27,"jeonse_median":30000,"jeonse_min":8000,"jeonse_max":39000,"jeonse_latest":39000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":44.2,"wolse_deposit_median":10000,"wolse_monthly_median":65}],
+"by_area":[{"area":60,"pyeong":18.1,"n":30,"median":67950,"min":61500,"max":78000,"latest_price":78000,"latest_date":"2026-05-17","latest_floor":1,"jeonse_n":52,"wolse_n":27,"jeonse_median":30000,"jeonse_min":8000,"jeonse_max":39000,"jeonse_latest":39000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":44.2,"wolse_deposit_median":10000,"wolse_monthly_median":65}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-21",59.99,4,18300,null,null,1991],
 ["2006-01-21",59.99,5,18300,null,null,1991],
@@ -467,5 +467,6 @@
 ["2026-09-22",59.99,3,35000,0,"신규","26.11~28.11",null],
 ["2026-10-07",59.99,1,18438,0,"갱신","26.12~28.12",true],
 ["2026-10-13",59.99,1,34000,0,"신규","27.01~29.01",null],
+["2026-10-19",59.99,3,39000,0,"신규","26.12~28.12",null],
 ["2026-10-19",59.99,3,39000,0,"신규","26.12~28.12",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"41281100007854",
 "name":"소만마을9단지아파트",
 "basis":"단지",
-"by_area":[{"area":44,"pyeong":13.3,"n":55,"median":25200,"min":19000,"max":28700,"latest_price":23000,"latest_date":"2026-10-17","latest_floor":2,"jeonse_n":59,"wolse_n":52,"jeonse_median":21000,"jeonse_min":13500,"jeonse_max":23600,"jeonse_latest":16400,"jeonse_latest_date":"2026-10-14","jeonse_ratio":83.3,"wolse_deposit_median":2000,"wolse_monthly_median":77}],
+"by_area":[{"area":44,"pyeong":13.3,"n":55,"median":25200,"min":19000,"max":28700,"latest_price":23000,"latest_date":"2026-10-17","latest_floor":2,"jeonse_n":59,"wolse_n":54,"jeonse_median":21000,"jeonse_min":13500,"jeonse_max":23600,"jeonse_latest":16400,"jeonse_latest_date":"2026-10-14","jeonse_ratio":83.3,"wolse_deposit_median":2000,"wolse_monthly_median":79}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-21",43.76,2,7500,null,null,1995],
 ["2006-01-24",43.76,9,7900,null,null,1995],
@@ -1886,7 +1886,9 @@
 ["2026-09-15",43.76,10,21000,0,"갱신","26.10~28.10",null],
 ["2026-09-16",43.76,13,23000,0,"갱신","26.11~28.11",true],
 ["2026-09-17",43.76,11,2000,79,"갱신","26.11~28.11",true],
+["2026-09-22",43.76,8,2000,85,"신규","26.10~28.10",null],
 ["2026-10-03",43.76,15,10000,50,"신규","26.12~28.12",null],
 ["2026-10-13",43.76,10,2000,95,"신규","26.10~28.10",null],
-["2026-10-14",43.76,3,16400,0,"갱신","26.11~28.11",null]
+["2026-10-14",43.76,3,16400,0,"갱신","26.11~28.11",null],
+["2026-10-18",43.76,8,2000,85,"신규","26.12~28.12",null]
 ]}}

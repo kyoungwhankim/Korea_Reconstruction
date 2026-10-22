@@ -1,7 +1,7 @@
 {"id":"28177100005489",
 "name":"새한(181-4)",
 "basis":"단지",
-"by_area":[{"area":55,"pyeong":16.6,"n":6,"median":10700,"min":9700,"max":13000,"latest_price":10500,"latest_date":"2026-08-20","latest_floor":5,"jeonse_n":2,"wolse_n":12,"jeonse_median":10350,"jeonse_min":9900,"jeonse_max":10800,"jeonse_latest":9900,"jeonse_latest_date":"2026-08-03","jeonse_ratio":96.7,"wolse_deposit_median":500,"wolse_monthly_median":65}],
+"by_area":[{"area":55,"pyeong":16.6,"n":7,"median":10500,"min":9700,"max":13000,"latest_price":10500,"latest_date":"2026-10-21","latest_floor":5,"jeonse_n":2,"wolse_n":12,"jeonse_median":10350,"jeonse_min":9900,"jeonse_max":10800,"jeonse_latest":9900,"jeonse_latest_date":"2026-08-03","jeonse_ratio":98.6,"wolse_deposit_median":500,"wolse_monthly_median":65}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-24",54.52,4,5800,null,null,1982],
 ["2006-05-25",54.52,2,6000,null,null,1982],
@@ -150,7 +150,8 @@
 ["2026-04-29",54.52,3,13000,"다","중개거래",1982],
 ["2026-05-11",55.45,1,11000,"가","중개거래",1982],
 ["2026-06-21",54.52,1,10900,"나","중개거래",1982],
-["2026-08-20",54.52,5,10500,"나","직거래",1982]
+["2026-08-20",54.52,5,10500,"나","직거래",1982],
+["2026-10-21",54.52,5,10500,null,"직거래",1982]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-01",54.52,4,500,50,"신규","25.12~26.11",null],

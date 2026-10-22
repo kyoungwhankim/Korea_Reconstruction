@@ -1,7 +1,7 @@
 {"id":"11350100002497",
 "name":"노원우성아파트",
 "basis":"단지",
-"by_area":[{"area":84,"pyeong":25.4,"jeonse_n":1,"wolse_n":0,"jeonse_median":50000,"jeonse_min":50000,"jeonse_max":50000,"jeonse_latest":50000,"jeonse_latest_date":"2026-09-21"},{"area":85,"pyeong":25.7,"n":3,"median":65000,"min":63000,"max":66700,"latest_price":63000,"latest_date":"2026-02-12","latest_floor":1,"jeonse_n":5,"wolse_n":3,"jeonse_median":40000,"jeonse_min":35000,"jeonse_max":45000,"jeonse_latest":40000,"jeonse_latest_date":"2026-07-16","jeonse_ratio":61.5,"wolse_deposit_median":15500,"wolse_monthly_median":90}],
+"by_area":[{"area":84,"pyeong":25.4,"jeonse_n":1,"wolse_n":0,"jeonse_median":50000,"jeonse_min":50000,"jeonse_max":50000,"jeonse_latest":50000,"jeonse_latest_date":"2026-09-21"},{"area":85,"pyeong":25.7,"n":3,"median":65000,"min":63000,"max":66700,"latest_price":63000,"latest_date":"2026-02-12","latest_floor":1,"jeonse_n":6,"wolse_n":3,"jeonse_median":40000,"jeonse_min":35000,"jeonse_max":45000,"jeonse_latest":44100,"jeonse_latest_date":"2026-10-17","jeonse_ratio":61.5,"wolse_deposit_median":15500,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",84.88,7,19200,null,null,1992],
 ["2006-04-10",84.88,6,21000,null,null,1992],
@@ -123,5 +123,6 @@
 ["2026-03-10",84.88,9,40000,0,"신규","26.04~28.04",null],
 ["2026-07-16",84.88,13,40000,0,"신규","26.12~28.12",null],
 ["2026-07-27",84.88,4,15500,135,"신규","26.12~28.12",null],
-["2026-09-21",83.9,7,50000,0,"신규","26.11~28.11",null]
+["2026-09-21",83.9,7,50000,0,"신규","26.11~28.11",null],
+["2026-10-17",84.88,11,44100,0,"갱신","26.10~28.10",true]
 ]}}

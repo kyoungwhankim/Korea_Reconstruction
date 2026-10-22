@@ -1,5 +1,5 @@
 {"id":"41390100009238",
-"name":"우성1아파트",
+"name":"대야우성1단지",
 "basis":"단지",
 "by_area":[{"area":102,"pyeong":30.9,"n":4,"median":40500,"min":39000,"max":46000,"latest_price":46000,"latest_date":"2026-09-11","latest_floor":12,"jeonse_n":3,"wolse_n":3,"jeonse_median":35000,"jeonse_min":30000,"jeonse_max":35000,"jeonse_latest":35000,"jeonse_latest_date":"2026-04-14","jeonse_ratio":86.4,"wolse_deposit_median":30500,"wolse_monthly_median":10},{"area":135,"pyeong":40.8,"n":3,"median":46500,"min":45800,"max":53800,"latest_price":45800,"latest_date":"2026-09-22","latest_floor":11}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

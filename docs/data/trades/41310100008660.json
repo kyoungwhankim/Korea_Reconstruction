@@ -1,5 +1,5 @@
 {"id":"41310100008660",
-"name":"한성3아파트",
+"name":"수택한성3차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":21,"median":79900,"min":63000,"max":89000,"latest_price":83500,"latest_date":"2026-06-30","latest_floor":4,"jeonse_n":18,"wolse_n":15,"jeonse_median":35050,"jeonse_min":26250,"jeonse_max":50000,"jeonse_latest":42000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":43.9,"wolse_deposit_median":30000,"wolse_monthly_median":55}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

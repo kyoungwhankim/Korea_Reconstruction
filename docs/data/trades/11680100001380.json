@@ -1,5 +1,5 @@
 {"id":"11680100001380",
-"name":"대치우성아파트1동,2동,3동,5동,6동,7동아파트",
+"name":"대치우성1차아파트",
 "basis":"단지",
 "by_area":[{"area":85,"pyeong":25.7,"n":4,"median":342500,"min":318000,"max":360000,"latest_price":330000,"latest_date":"2026-04-10","latest_floor":2,"jeonse_n":22,"wolse_n":12,"jeonse_median":77325,"jeonse_min":63000,"jeonse_max":85000,"jeonse_latest":85000,"jeonse_latest_date":"2026-09-29","jeonse_ratio":22.6,"wolse_deposit_median":50000,"wolse_monthly_median":144},{"area":116,"pyeong":35.1,"n":6,"median":407000,"min":398000,"max":429000,"latest_price":407000,"latest_date":"2026-04-25","latest_floor":10,"jeonse_n":17,"wolse_n":16,"jeonse_median":99750,"jeonse_min":50000,"jeonse_max":115000,"jeonse_latest":115000,"jeonse_latest_date":"2026-08-25","jeonse_ratio":24.5,"wolse_deposit_median":55000,"wolse_monthly_median":172}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

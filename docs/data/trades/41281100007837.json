@@ -1,5 +1,5 @@
 {"id":"41281100007837",
-"name":"무원마을(두산)",
+"name":"행신무원마을6단지두산",
 "basis":"단지",
 "by_area":[{"area":72,"pyeong":21.8,"n":15,"median":48300,"min":45500,"max":53000,"latest_price":52700,"latest_date":"2026-09-01","latest_floor":6,"jeonse_n":12,"wolse_n":2,"jeonse_median":35575,"jeonse_min":30000,"jeonse_max":40000,"jeonse_latest":33000,"jeonse_latest_date":"2026-08-30","jeonse_ratio":73.7,"wolse_deposit_median":23000,"wolse_monthly_median":67},{"area":85,"pyeong":25.7,"n":21,"median":55000,"min":50500,"max":60000,"latest_price":56000,"latest_date":"2026-10-05","latest_floor":7,"jeonse_n":24,"wolse_n":8,"jeonse_median":39250,"jeonse_min":25000,"jeonse_max":44000,"jeonse_latest":25000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":71.4,"wolse_deposit_median":11000,"wolse_monthly_median":94}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

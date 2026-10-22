@@ -1,5 +1,5 @@
 {"id":"41480100007684",
-"name":"대영장미1차아파트",
+"name":"금촌대영장미1차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"jeonse_n":3,"wolse_n":5,"jeonse_median":13000,"jeonse_min":12500,"jeonse_max":13860,"jeonse_latest":13000,"jeonse_latest_date":"2026-06-17","wolse_deposit_median":1000,"wolse_monthly_median":60},{"area":84,"pyeong":25.4,"n":5,"median":16500,"min":15900,"max":16800,"latest_price":16700,"latest_date":"2026-09-01","latest_floor":5,"jeonse_n":2,"wolse_n":2,"jeonse_median":15485,"jeonse_min":15000,"jeonse_max":15970,"jeonse_latest":15970,"jeonse_latest_date":"2026-07-16","jeonse_ratio":93.8,"wolse_deposit_median":2000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

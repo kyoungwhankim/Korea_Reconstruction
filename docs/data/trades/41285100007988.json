@@ -1,5 +1,5 @@
 {"id":"41285100007988",
-"name":"백송마을(두산)",
+"name":"백석백송마을9단지두산",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":5,"median":32000,"min":31000,"max":34000,"latest_price":34000,"latest_date":"2026-10-17","latest_floor":10,"jeonse_n":14,"wolse_n":3,"jeonse_median":25700,"jeonse_min":19800,"jeonse_max":28000,"jeonse_latest":25000,"jeonse_latest_date":"2026-08-21","jeonse_ratio":80.3,"wolse_deposit_median":5000,"wolse_monthly_median":90},{"area":71,"pyeong":21.5,"n":5,"median":39000,"min":34000,"max":41500,"latest_price":41500,"latest_date":"2026-10-09","latest_floor":11,"jeonse_n":12,"wolse_n":3,"jeonse_median":31000,"jeonse_min":29000,"jeonse_max":34000,"jeonse_latest":29900,"jeonse_latest_date":"2026-05-19","jeonse_ratio":79.5,"wolse_deposit_median":4000,"wolse_monthly_median":90},{"area":85,"pyeong":25.7,"n":5,"median":51000,"min":32000,"max":55000,"latest_price":51000,"latest_date":"2026-08-29","latest_floor":8,"jeonse_n":5,"wolse_n":1,"jeonse_median":36700,"jeonse_min":31500,"jeonse_max":40000,"jeonse_latest":36700,"jeonse_latest_date":"2026-07-11","jeonse_ratio":72.0,"wolse_deposit_median":4000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

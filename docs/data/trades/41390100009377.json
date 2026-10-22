@@ -1,5 +1,5 @@
 {"id":"41390100009377",
-"name":"세종1아파트",
+"name":"시화세종1차",
 "basis":"단지",
 "by_area":[{"area":75,"pyeong":22.7,"n":5,"median":30500,"min":26000,"max":32000,"latest_price":32000,"latest_date":"2026-09-30","latest_floor":1,"jeonse_n":6,"wolse_n":11,"jeonse_median":20000,"jeonse_min":18000,"jeonse_max":21000,"jeonse_latest":20000,"jeonse_latest_date":"2026-08-30","jeonse_ratio":65.6,"wolse_deposit_median":2000,"wolse_monthly_median":85},{"area":85,"pyeong":25.7,"n":7,"median":38500,"min":35000,"max":42000,"latest_price":42000,"latest_date":"2026-09-15","latest_floor":6,"jeonse_n":7,"wolse_n":0,"jeonse_median":23300,"jeonse_min":19500,"jeonse_max":26000,"jeonse_latest":23300,"jeonse_latest_date":"2026-06-12","jeonse_ratio":60.5},{"area":120,"pyeong":36.3,"n":3,"median":50500,"min":49000,"max":50500,"latest_price":50500,"latest_date":"2026-09-02","latest_floor":8,"jeonse_n":2,"wolse_n":2,"jeonse_median":35000,"jeonse_min":30000,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-10-06","jeonse_ratio":69.3,"wolse_deposit_median":5000,"wolse_monthly_median":122}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

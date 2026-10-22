@@ -1,7 +1,7 @@
 {"id":"28185100009604",
 "name":"무지개마을아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":37,"median":32500,"min":28300,"max":37000,"latest_price":35700,"latest_date":"2026-10-09","latest_floor":4,"jeonse_n":28,"wolse_n":16,"jeonse_median":22550,"jeonse_min":19000,"jeonse_max":26000,"jeonse_latest":19000,"jeonse_latest_date":"2026-10-05","jeonse_ratio":69.4,"wolse_deposit_median":2000,"wolse_monthly_median":100},{"area":85,"pyeong":25.7,"n":18,"median":41400,"min":33500,"max":44800,"latest_price":44000,"latest_date":"2026-10-17","latest_floor":10,"jeonse_n":12,"wolse_n":5,"jeonse_median":28500,"jeonse_min":25000,"jeonse_max":29000,"jeonse_latest":29000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":68.8,"wolse_deposit_median":2000,"wolse_monthly_median":120}],
+"by_area":[{"area":60,"pyeong":18.1,"n":37,"median":32500,"min":28300,"max":37000,"latest_price":35700,"latest_date":"2026-10-09","latest_floor":4,"jeonse_n":28,"wolse_n":16,"jeonse_median":22550,"jeonse_min":19000,"jeonse_max":26000,"jeonse_latest":19000,"jeonse_latest_date":"2026-10-05","jeonse_ratio":69.4,"wolse_deposit_median":2000,"wolse_monthly_median":100},{"area":85,"pyeong":25.7,"n":18,"median":41400,"min":33500,"max":44800,"latest_price":44000,"latest_date":"2026-10-17","latest_floor":10,"jeonse_n":13,"wolse_n":5,"jeonse_median":29000,"jeonse_min":25000,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":70.0,"wolse_deposit_median":2000,"wolse_monthly_median":120}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-12",59.76,5,14400,null,null,1995],
 ["2006-01-16",59.76,9,14700,null,null,1995],
@@ -1531,5 +1531,6 @@
 ["2026-10-05",84.97,4,2000,126,"갱신","26.10~28.10",true],
 ["2026-10-10",84.97,7,2000,130,"신규","26.12~28.12",null],
 ["2026-10-19",84.97,1,25000,0,"신규","26.12~28.12",null],
-["2026-10-20",84.97,8,29000,0,"신규","27.01~29.01",null]
+["2026-10-20",84.97,8,29000,0,"신규","27.01~29.01",null],
+["2026-10-20",84.97,8,30000,0,"신규","26.12~28.12",null]
 ]}}

@@ -1,5 +1,5 @@
 {"id":"41287100050177",
-"name":"후곡마을(현대18)",
+"name":"일산후곡마을18단지현대",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":3,"median":29500,"min":28000,"max":30000,"latest_price":28000,"latest_date":"2026-05-21","latest_floor":10,"jeonse_n":17,"wolse_n":5,"jeonse_median":23000,"jeonse_min":8400,"jeonse_max":25000,"jeonse_latest":24000,"jeonse_latest_date":"2026-10-13","jeonse_ratio":78.0,"wolse_deposit_median":3000,"wolse_monthly_median":105},{"area":72,"pyeong":21.8,"n":17,"median":37000,"min":35000,"max":41400,"latest_price":37500,"latest_date":"2026-10-10","latest_floor":6,"jeonse_n":16,"wolse_n":9,"jeonse_median":31000,"jeonse_min":26000,"jeonse_max":35000,"jeonse_latest":31000,"jeonse_latest_date":"2026-10-10","jeonse_ratio":83.8,"wolse_deposit_median":5000,"wolse_monthly_median":90},{"area":85,"pyeong":25.7,"n":4,"median":48400,"min":46000,"max":51500,"latest_price":48000,"latest_date":"2026-09-11","latest_floor":20,"jeonse_n":6,"wolse_n":3,"jeonse_median":38500,"jeonse_min":36000,"jeonse_max":43000,"jeonse_latest":43000,"jeonse_latest_date":"2026-10-06","jeonse_ratio":79.5,"wolse_deposit_median":28350,"wolse_monthly_median":28}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

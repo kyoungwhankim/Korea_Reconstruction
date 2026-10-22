@@ -1,5 +1,5 @@
 {"id":"41281100007783",
-"name":"능곡대림아파트",
+"name":"능곡대림1차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":8,"median":41250,"min":39100,"max":45000,"latest_price":39100,"latest_date":"2026-09-21","latest_floor":15,"jeonse_n":16,"wolse_n":3,"jeonse_median":27750,"jeonse_min":10000,"jeonse_max":30450,"jeonse_latest":28000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":67.3,"wolse_deposit_median":5000,"wolse_monthly_median":90},{"area":85,"pyeong":25.7,"n":4,"median":53000,"min":49500,"max":53500,"latest_price":53000,"latest_date":"2026-09-11","latest_floor":3,"jeonse_n":4,"wolse_n":6,"jeonse_median":31650,"jeonse_min":29100,"jeonse_max":37000,"jeonse_latest":33300,"jeonse_latest_date":"2026-09-07","jeonse_ratio":59.7,"wolse_deposit_median":7000,"wolse_monthly_median":110}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
@@ -203,7 +203,7 @@
 ["2026-08-29",84.69,13,53000,null,"중개거래",1996],
 ["2026-08-31",59.89,13,41500,"102","중개거래",1996],
 ["2026-09-01",84.69,11,53500,null,"중개거래",1996],
-["2026-09-02",59.89,2,43000,null,"중개거래",1996],
+["2026-09-02",59.89,2,43000,"102","중개거래",1996],
 ["2026-09-11",84.69,3,53000,null,"중개거래",1996],
 ["2026-09-18",59.89,10,45000,null,"중개거래",1996],
 ["2026-09-21",59.89,15,39100,null,"중개거래",1996]

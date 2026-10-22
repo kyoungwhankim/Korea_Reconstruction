@@ -1,7 +1,7 @@
 {"id":"41285100008009",
 "name":"강촌마을3(영남)",
 "basis":"단지",
-"by_area":[{"area":135,"pyeong":40.8,"n":1,"median":83000,"min":83000,"max":83000,"latest_price":83000,"latest_date":"2026-07-16","latest_floor":7,"jeonse_n":6,"wolse_n":4,"jeonse_median":56000,"jeonse_min":48000,"jeonse_max":65000,"jeonse_latest":65000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":67.5,"wolse_deposit_median":15000,"wolse_monthly_median":130},{"area":166,"pyeong":50.2,"n":1,"median":87000,"min":87000,"max":87000,"latest_price":87000,"latest_date":"2026-02-12","latest_floor":18,"jeonse_n":3,"wolse_n":1,"jeonse_median":60000,"jeonse_min":55000,"jeonse_max":60000,"jeonse_latest":55000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":69.0,"wolse_deposit_median":20000,"wolse_monthly_median":130}],
+"by_area":[{"area":135,"pyeong":40.8,"n":1,"median":83000,"min":83000,"max":83000,"latest_price":83000,"latest_date":"2026-07-16","latest_floor":7,"jeonse_n":6,"wolse_n":5,"jeonse_median":56000,"jeonse_min":48000,"jeonse_max":65000,"jeonse_latest":65000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":67.5,"wolse_deposit_median":10000,"wolse_monthly_median":139},{"area":166,"pyeong":50.2,"n":1,"median":87000,"min":87000,"max":87000,"latest_price":87000,"latest_date":"2026-02-12","latest_floor":18,"jeonse_n":3,"wolse_n":1,"jeonse_median":60000,"jeonse_min":55000,"jeonse_max":60000,"jeonse_latest":55000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":69.0,"wolse_deposit_median":20000,"wolse_monthly_median":130}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-04",165.99,18,78000,null,null,1992],
 ["2006-04-17",134.67,9,72000,null,null,1992],
@@ -165,5 +165,6 @@
 ["2026-05-27",165.99,21,60000,0,"신규","26.07~28.07",null],
 ["2026-07-31",134.67,13,20000,100,"신규","26.07~28.07",null],
 ["2026-10-17",134.67,8,65000,0,"갱신","27.01~29.01",null],
+["2026-10-20",134.67,1,10000,139,"갱신","27.01~29.01",true],
 ["2026-10-20",165.99,3,55000,0,"신규","26.12~28.12",null]
 ]}}

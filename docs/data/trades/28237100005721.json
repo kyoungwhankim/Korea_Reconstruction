@@ -1,7 +1,7 @@
 {"id":"28237100005721",
 "name":"영진아파트",
 "basis":"단지",
-"by_area":[{"area":52,"pyeong":15.7,"n":1,"median":15700,"min":15700,"max":15700,"latest_price":15700,"latest_date":"2026-06-11","latest_floor":13},{"area":60,"pyeong":18.1,"n":4,"median":16250,"min":15500,"max":17300,"latest_price":15700,"latest_date":"2026-09-02","latest_floor":2,"jeonse_n":2,"wolse_n":3,"jeonse_median":12750,"jeonse_min":12000,"jeonse_max":13500,"jeonse_latest":13500,"jeonse_latest_date":"2026-01-15","jeonse_ratio":78.5,"wolse_deposit_median":1500,"wolse_monthly_median":60}],
+"by_area":[{"area":52,"pyeong":15.7,"n":1,"median":15700,"min":15700,"max":15700,"latest_price":15700,"latest_date":"2026-06-11","latest_floor":13},{"area":60,"pyeong":18.1,"n":5,"median":16800,"min":15500,"max":17300,"latest_price":16900,"latest_date":"2026-10-21","latest_floor":10,"jeonse_n":2,"wolse_n":3,"jeonse_median":12750,"jeonse_min":12000,"jeonse_max":13500,"jeonse_latest":13500,"jeonse_latest_date":"2026-01-15","jeonse_ratio":75.9,"wolse_deposit_median":1500,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-16",59.77,15,7000,null,null,1995],
 ["2006-03-28",59.77,2,7650,null,null,1995],
@@ -275,7 +275,8 @@
 ["2026-01-16",59.77,8,17300,null,"중개거래",1995],
 ["2026-06-11",52.48,13,15700,null,"중개거래",1995],
 ["2026-07-23",59.77,9,15500,null,"중개거래",1995],
-["2026-09-02",59.77,2,15700,null,"중개거래",1995]
+["2026-09-02",59.77,2,15700,null,"중개거래",1995],
+["2026-10-21",59.77,10,16900,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-09",59.77,10,1000,60,"신규","25.12~27.12",null],

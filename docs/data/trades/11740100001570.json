@@ -1,5 +1,5 @@
 {"id":"11740100001570",
-"name":"길동우성아파트",
+"name":"길동우성2차",
 "basis":"단지",
 "by_area":[{"area":40,"pyeong":12.1,"n":8,"median":76750,"min":65000,"max":85000,"latest_price":85000,"latest_date":"2026-09-05","latest_floor":7,"jeonse_n":8,"wolse_n":6,"jeonse_median":30325,"jeonse_min":24150,"jeonse_max":39000,"jeonse_latest":29150,"jeonse_latest_date":"2026-05-08","jeonse_ratio":39.5,"wolse_deposit_median":8000,"wolse_monthly_median":78},{"area":57,"pyeong":17.2,"n":7,"median":111000,"min":88000,"max":114000,"latest_price":114000,"latest_date":"2026-06-29","latest_floor":5,"jeonse_n":13,"wolse_n":10,"jeonse_median":38850,"jeonse_min":30090,"jeonse_max":57000,"jeonse_latest":42000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":35.0,"wolse_deposit_median":6000,"wolse_monthly_median":130},{"area":85,"pyeong":25.7,"n":17,"median":128300,"min":102500,"max":138300,"latest_price":133000,"latest_date":"2026-09-30","latest_floor":10,"jeonse_n":22,"wolse_n":9,"jeonse_median":52500,"jeonse_min":20000,"jeonse_max":75000,"jeonse_latest":75000,"jeonse_latest_date":"2026-09-21","jeonse_ratio":40.9,"wolse_deposit_median":20000,"wolse_monthly_median":84}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

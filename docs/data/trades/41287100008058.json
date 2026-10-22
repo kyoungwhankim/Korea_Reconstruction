@@ -1,5 +1,5 @@
 {"id":"41287100008058",
-"name":"탄현마을(삼익)",
+"name":"탄현마을2단지삼익",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":12,"median":24225,"min":22900,"max":28000,"latest_price":24800,"latest_date":"2026-09-09","latest_floor":11,"jeonse_n":24,"wolse_n":23,"jeonse_median":21000,"jeonse_min":19400,"jeonse_max":24000,"jeonse_latest":22200,"jeonse_latest_date":"2026-10-03","jeonse_ratio":86.7,"wolse_deposit_median":2000,"wolse_monthly_median":85}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,5 +1,5 @@
 {"id":"41117100006021",
-"name":"금성5아파트",
+"name":"매탄금성5차",
 "basis":"단지",
 "by_area":[{"area":111,"pyeong":33.6,"n":7,"median":64000,"min":59000,"max":68000,"latest_price":68000,"latest_date":"2026-05-22","latest_floor":4,"jeonse_n":10,"wolse_n":5,"jeonse_median":35875,"jeonse_min":25000,"jeonse_max":44500,"jeonse_latest":38000,"jeonse_latest_date":"2026-09-21","jeonse_ratio":56.1,"wolse_deposit_median":4800,"wolse_monthly_median":140}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

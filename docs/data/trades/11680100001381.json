@@ -1,7 +1,7 @@
 {"id":"11680100001381",
 "name":"은마아파트",
 "basis":"단지",
-"by_area":[{"area":77,"pyeong":23.3,"n":29,"median":340000,"min":302000,"max":380000,"latest_price":315000,"latest_date":"2026-09-29","latest_floor":8,"jeonse_n":257,"wolse_n":218,"jeonse_median":68200,"jeonse_min":40000,"jeonse_max":89000,"jeonse_latest":60000,"jeonse_latest_date":"2026-10-03","jeonse_ratio":20.1,"wolse_deposit_median":30000,"wolse_monthly_median":160},{"area":84,"pyeong":25.4,"n":16,"median":384250,"min":340000,"max":420000,"latest_price":340000,"latest_date":"2026-10-03","latest_floor":3,"jeonse_n":189,"wolse_n":140,"jeonse_median":79800,"jeonse_min":40000,"jeonse_max":100000,"jeonse_latest":60000,"jeonse_latest_date":"2026-10-01","jeonse_ratio":20.8,"wolse_deposit_median":40000,"wolse_monthly_median":160}],
+"by_area":[{"area":77,"pyeong":23.3,"n":30,"median":339000,"min":302000,"max":380000,"latest_price":315500,"latest_date":"2026-10-01","latest_floor":10,"jeonse_n":257,"wolse_n":218,"jeonse_median":68200,"jeonse_min":40000,"jeonse_max":89000,"jeonse_latest":60000,"jeonse_latest_date":"2026-10-03","jeonse_ratio":20.1,"wolse_deposit_median":30000,"wolse_monthly_median":160},{"area":84,"pyeong":25.4,"n":16,"median":384250,"min":340000,"max":420000,"latest_price":340000,"latest_date":"2026-10-03","latest_floor":3,"jeonse_n":189,"wolse_n":140,"jeonse_median":79800,"jeonse_min":40000,"jeonse_max":100000,"jeonse_latest":60000,"jeonse_latest_date":"2026-10-01","jeonse_ratio":20.8,"wolse_deposit_median":40000,"wolse_monthly_median":160}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-04",76.79,3,78400,null,null,1979],
 ["2006-01-04",76.79,5,77000,null,null,1979],
@@ -2924,6 +2924,7 @@
 ["2026-09-28",76.79,1,305000,null,"중개거래",1979],
 ["2026-09-29",76.79,8,315000,null,"중개거래",1979],
 ["2026-09-29",76.79,14,313000,null,"중개거래",1979],
+["2026-10-01",76.79,10,315500,null,"중개거래",1979],
 ["2026-10-03",84.43,3,340000,null,"중개거래",1979]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

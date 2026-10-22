@@ -1,7 +1,7 @@
 {"id":"41117100006030",
 "name":"매탄3차삼성아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":10,"median":43600,"min":28500,"max":46800,"latest_price":46800,"latest_date":"2026-10-02","latest_floor":2,"jeonse_n":45,"wolse_n":42,"jeonse_median":18000,"jeonse_min":6000,"jeonse_max":25000,"jeonse_latest":23000,"jeonse_latest_date":"2026-10-07","jeonse_ratio":41.3,"wolse_deposit_median":2000,"wolse_monthly_median":77}],
+"by_area":[{"area":60,"pyeong":18.1,"n":10,"median":43600,"min":28500,"max":46800,"latest_price":46800,"latest_date":"2026-10-02","latest_floor":2,"jeonse_n":47,"wolse_n":42,"jeonse_median":18000,"jeonse_min":6000,"jeonse_max":25000,"jeonse_latest":22000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":41.3,"wolse_deposit_median":2000,"wolse_monthly_median":77}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-06",59.76,4,11500,null,null,1993],
 ["2006-01-11",59.76,1,10800,null,null,1993],
@@ -829,5 +829,7 @@
 ["2026-10-01",59.76,3,2000,90,"신규","26.11~28.11",null],
 ["2026-10-02",59.76,4,14000,0,"갱신","26.10~28.10",true],
 ["2026-10-06",59.76,1,22000,0,"갱신","26.11~28.10",true],
-["2026-10-07",59.76,4,23000,0,"신규","26.11~28.11",null]
+["2026-10-07",59.76,4,23000,0,"신규","26.11~28.11",null],
+["2026-10-08",59.76,1,17500,0,"갱신","26.12~28.12",true],
+["2026-10-21",59.76,3,22000,0,"갱신","26.12~28.12",null]
 ]}}

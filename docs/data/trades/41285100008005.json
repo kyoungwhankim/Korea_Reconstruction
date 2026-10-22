@@ -1,5 +1,5 @@
 {"id":"41285100008005",
-"name":"강촌마을1(동아)",
+"name":"마두강촌마을1단지동아",
 "basis":"단지",
 "by_area":[{"area":85,"pyeong":25.7,"n":26,"median":58850,"min":48000,"max":69000,"latest_price":67000,"latest_date":"2026-10-18","latest_floor":13,"jeonse_n":71,"wolse_n":5,"jeonse_median":43000,"jeonse_min":30000,"jeonse_max":50000,"jeonse_latest":50000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":73.1,"wolse_deposit_median":5000,"wolse_monthly_median":140},{"area":154,"pyeong":46.6,"n":1,"median":98000,"min":98000,"max":98000,"latest_price":98000,"latest_date":"2026-06-23","latest_floor":19,"jeonse_n":8,"wolse_n":8,"jeonse_median":61500,"jeonse_min":44100,"jeonse_max":78000,"jeonse_latest":78000,"jeonse_latest_date":"2026-10-13","jeonse_ratio":62.8,"wolse_deposit_median":35000,"wolse_monthly_median":92}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

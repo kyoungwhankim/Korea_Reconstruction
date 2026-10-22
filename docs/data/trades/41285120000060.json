@@ -1,7 +1,7 @@
 {"id":"41285120000060",
 "name":"백마마을(한양4)",
 "basis":"단지",
-"by_area":[{"area":102,"pyeong":30.9,"n":6,"median":60400,"min":56000,"max":65000,"latest_price":60000,"latest_date":"2026-06-11","latest_floor":13,"jeonse_n":23,"wolse_n":2,"jeonse_median":48000,"jeonse_min":41000,"jeonse_max":52000,"jeonse_latest":52000,"jeonse_latest_date":"2026-10-05","jeonse_ratio":79.5,"wolse_deposit_median":7500,"wolse_monthly_median":155},{"area":135,"pyeong":40.8,"n":1,"median":73700,"min":73700,"max":73700,"latest_price":73700,"latest_date":"2026-03-16","latest_floor":15,"jeonse_n":8,"wolse_n":5,"jeonse_median":51000,"jeonse_min":45000,"jeonse_max":58500,"jeonse_latest":58500,"jeonse_latest_date":"2026-07-11","jeonse_ratio":69.2,"wolse_deposit_median":5000,"wolse_monthly_median":175}],
+"by_area":[{"area":102,"pyeong":30.9,"n":6,"median":60400,"min":56000,"max":65000,"latest_price":60000,"latest_date":"2026-06-11","latest_floor":13,"jeonse_n":24,"wolse_n":2,"jeonse_median":47500,"jeonse_min":41000,"jeonse_max":52000,"jeonse_latest":47000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":78.6,"wolse_deposit_median":7500,"wolse_monthly_median":155},{"area":135,"pyeong":40.8,"n":1,"median":73700,"min":73700,"max":73700,"latest_price":73700,"latest_date":"2026-03-16","latest_floor":15,"jeonse_n":8,"wolse_n":5,"jeonse_median":51000,"jeonse_min":45000,"jeonse_max":58500,"jeonse_latest":58500,"jeonse_latest_date":"2026-07-11","jeonse_ratio":69.2,"wolse_deposit_median":5000,"wolse_monthly_median":175}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-13",101.82,6,41700,null,null,1994],
 ["2006-03-13",101.82,13,44000,null,null,1994],
@@ -326,5 +326,6 @@
 ["2026-09-03",101.82,2,5000,170,"신규","26.11~28.11",null],
 ["2026-09-12",101.82,11,50000,0,"신규","26.11~29.11",null],
 ["2026-09-15",101.82,5,46000,0,"신규","26.12~28.12",null],
-["2026-10-05",101.82,9,52000,0,"신규","27.01~29.01",null]
+["2026-10-05",101.82,9,52000,0,"신규","27.01~29.01",null],
+["2026-10-20",101.82,1,47000,0,"갱신","26.10~28.10",null]
 ]}}

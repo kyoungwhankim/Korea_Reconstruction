@@ -1,5 +1,5 @@
 {"id":"41285100008018",
-"name":"백마마을1(삼성)",
+"name":"마두백마마을1단지삼성",
 "basis":"단지",
 "by_area":[{"area":102,"pyeong":30.9,"n":10,"median":71250,"min":69000,"max":81500,"latest_price":81500,"latest_date":"2026-10-05","latest_floor":4,"jeonse_n":17,"wolse_n":6,"jeonse_median":53000,"jeonse_min":46000,"jeonse_max":57000,"jeonse_latest":46000,"jeonse_latest_date":"2026-10-09","jeonse_ratio":74.4,"wolse_deposit_median":10000,"wolse_monthly_median":172},{"area":133,"pyeong":40.2,"n":13,"median":82000,"min":67000,"max":88500,"latest_price":84000,"latest_date":"2026-10-10","latest_floor":14,"jeonse_n":20,"wolse_n":8,"jeonse_median":64000,"jeonse_min":51000,"jeonse_max":72000,"jeonse_latest":72000,"jeonse_latest_date":"2026-09-21","jeonse_ratio":78.0,"wolse_deposit_median":20000,"wolse_monthly_median":167}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

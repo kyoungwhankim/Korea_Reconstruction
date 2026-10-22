@@ -1,5 +1,5 @@
 {"id":"41410100007546",
-"name":"매화아파트",
+"name":"산본매화2단지",
 "basis":"단지",
 "by_area":[{"area":50,"pyeong":15.1,"n":55,"median":36000,"min":31800,"max":46400,"latest_price":46000,"latest_date":"2026-10-09","latest_floor":14,"jeonse_n":56,"wolse_n":20,"jeonse_median":21000,"jeonse_min":2900,"jeonse_max":29000,"jeonse_latest":19900,"jeonse_latest_date":"2026-10-15","jeonse_ratio":58.3,"wolse_deposit_median":3000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

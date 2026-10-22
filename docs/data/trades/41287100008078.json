@@ -1,5 +1,5 @@
 {"id":"41287100008078",
-"name":"장성마을(3)",
+"name":"장성마을3단지건영킨텍스아파트",
 "basis":"단지",
 "by_area":[{"area":102,"pyeong":30.9,"n":1,"median":68000,"min":68000,"max":68000,"latest_price":68000,"latest_date":"2026-04-16","latest_floor":5,"jeonse_n":2,"wolse_n":0,"jeonse_median":37000,"jeonse_min":37000,"jeonse_max":37000,"jeonse_latest":37000,"jeonse_latest_date":"2026-04-11","jeonse_ratio":54.4},{"area":134,"pyeong":40.5,"n":1,"median":62000,"min":62000,"max":62000,"latest_price":62000,"latest_date":"2026-03-17","latest_floor":1,"jeonse_n":5,"wolse_n":4,"jeonse_median":45000,"jeonse_min":37800,"jeonse_max":50000,"jeonse_latest":45000,"jeonse_latest_date":"2026-09-10","jeonse_ratio":72.6,"wolse_deposit_median":19500,"wolse_monthly_median":71},{"area":148,"pyeong":44.8,"n":3,"median":67500,"min":64000,"max":74000,"latest_price":64000,"latest_date":"2026-09-29","latest_floor":1,"jeonse_n":2,"wolse_n":1,"jeonse_median":42500,"jeonse_min":35000,"jeonse_max":50000,"jeonse_latest":35000,"jeonse_latest_date":"2026-07-21","jeonse_ratio":63.0,"wolse_deposit_median":5000,"wolse_monthly_median":200}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

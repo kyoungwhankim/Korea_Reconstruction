@@ -1,7 +1,7 @@
 {"id":"11260100002392",
 "name":"용마금호타운",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":24,"median":71250,"min":50000,"max":83500,"latest_price":69500,"latest_date":"2026-08-27","latest_floor":4,"jeonse_n":6,"wolse_n":11,"jeonse_median":47500,"jeonse_min":38000,"jeonse_max":55000,"jeonse_latest":55000,"jeonse_latest_date":"2026-06-05","jeonse_ratio":66.7,"wolse_deposit_median":25000,"wolse_monthly_median":80}],
+"by_area":[{"area":85,"pyeong":25.7,"n":24,"median":71250,"min":50000,"max":83500,"latest_price":69500,"latest_date":"2026-08-27","latest_floor":4,"jeonse_n":7,"wolse_n":11,"jeonse_median":50000,"jeonse_min":38000,"jeonse_max":55000,"jeonse_latest":53500,"jeonse_latest_date":"2026-10-20","jeonse_ratio":70.2,"wolse_deposit_median":25000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-08",84.9,11,21800,null,null,1992],
 ["2006-02-22",84.9,4,21800,null,null,1992],
@@ -381,5 +381,6 @@
 ["2026-07-22",84.9,8,42000,15,"갱신","26.08~28.08",true],
 ["2026-08-08",84.9,12,25000,83,"신규","26.08~28.08",null],
 ["2026-08-11",84.9,5,35000,75,"신규","26.10~28.10",null],
-["2026-08-28",84.9,7,45000,40,"신규","26.11~28.11",null]
+["2026-08-28",84.9,7,45000,40,"신규","26.11~28.11",null],
+["2026-10-20",84.9,10,53500,0,"신규","27.02~29.02",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"41281100007839",
-"name":"무원마을1단지아파트",
+"name":"행신무원마을1단지부영",
 "basis":"단지",
-"by_area":[{"area":69,"pyeong":20.9,"n":39,"median":40180,"min":36000,"max":46800,"latest_price":46800,"latest_date":"2026-10-11","latest_floor":6,"jeonse_n":47,"wolse_n":19,"jeonse_median":31500,"jeonse_min":12000,"jeonse_max":35000,"jeonse_latest":32550,"jeonse_latest_date":"2026-08-14","jeonse_ratio":78.4,"wolse_deposit_median":5000,"wolse_monthly_median":105}],
+"by_area":[{"area":69,"pyeong":20.9,"n":40,"median":40390,"min":36000,"max":46800,"latest_price":46500,"latest_date":"2026-10-16","latest_floor":7,"jeonse_n":47,"wolse_n":19,"jeonse_median":31500,"jeonse_min":12000,"jeonse_max":35000,"jeonse_latest":32550,"jeonse_latest_date":"2026-08-14","jeonse_ratio":78.0,"wolse_deposit_median":5000,"wolse_monthly_median":105}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",68.98,14,15800,null,null,1995],
 ["2006-01-09",68.98,7,15400,null,null,1995],
@@ -951,7 +951,8 @@
 ["2026-09-07",68.98,1,37000,null,"중개거래",1995],
 ["2026-09-12",68.98,9,46500,null,"중개거래",1995],
 ["2026-09-29",68.98,1,36500,null,"중개거래",1995],
-["2026-10-11",68.98,6,46800,null,"중개거래",1995]
+["2026-10-11",68.98,6,46800,null,"중개거래",1995],
+["2026-10-16",68.98,7,46500,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-13",68.98,1,30000,0,"신규","26.01~28.02",null],

@@ -1,7 +1,7 @@
 {"id":"28260100009119",
 "name":"동진아파트",
 "basis":"단지",
-"by_area":[{"area":51,"pyeong":15.4,"n":3,"median":10700,"min":9800,"max":16000,"latest_price":16000,"latest_date":"2026-08-18","latest_floor":3,"jeonse_n":1,"wolse_n":0,"jeonse_median":6000,"jeonse_min":6000,"jeonse_max":6000,"jeonse_latest":6000,"jeonse_latest_date":"2026-02-10","jeonse_ratio":56.1},{"area":54,"pyeong":16.3,"n":1,"median":11500,"min":11500,"max":11500,"latest_price":11500,"latest_date":"2026-08-31","latest_floor":5,"jeonse_n":1,"wolse_n":0,"jeonse_median":8000,"jeonse_min":8000,"jeonse_max":8000,"jeonse_latest":8000,"jeonse_latest_date":"2026-02-26","jeonse_ratio":69.6},{"area":58,"pyeong":17.5,"n":3,"median":13000,"min":12000,"max":13000,"latest_price":12000,"latest_date":"2026-07-03","latest_floor":6}],
+"by_area":[{"area":51,"pyeong":15.4,"n":3,"median":10700,"min":9800,"max":16000,"latest_price":16000,"latest_date":"2026-08-18","latest_floor":3,"jeonse_n":1,"wolse_n":0,"jeonse_median":6000,"jeonse_min":6000,"jeonse_max":6000,"jeonse_latest":6000,"jeonse_latest_date":"2026-02-10","jeonse_ratio":56.1},{"area":54,"pyeong":16.3,"n":1,"median":11500,"min":11500,"max":11500,"latest_price":11500,"latest_date":"2026-08-31","latest_floor":5,"jeonse_n":1,"wolse_n":0,"jeonse_median":8000,"jeonse_min":8000,"jeonse_max":8000,"jeonse_latest":8000,"jeonse_latest_date":"2026-02-26","jeonse_ratio":69.6},{"area":58,"pyeong":17.5,"n":4,"median":12500,"min":10000,"max":13000,"latest_price":10000,"latest_date":"2026-09-02","latest_floor":6}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-26",51.39,2,6450,null,null,1989],
 ["2006-02-20",53.91,3,6800,null,null,1989],
@@ -300,7 +300,8 @@
 ["2026-06-30",58.47,2,13000,"가","중개거래",1989],
 ["2026-07-03",58.47,6,12000,null,"중개거래",1989],
 ["2026-08-18",51.39,3,16000,"라","직거래",1989],
-["2026-08-31",53.91,5,11500,null,"중개거래",1989]
+["2026-08-31",53.91,5,11500,null,"중개거래",1989],
+["2026-09-02",58.47,6,10000,null,"직거래",1989]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-02-10",51.39,6,6000,0,null,null,null],

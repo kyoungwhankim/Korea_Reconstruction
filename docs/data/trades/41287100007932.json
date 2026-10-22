@@ -1,5 +1,5 @@
 {"id":"41287100007932",
-"name":"강선마을2단지경남아파트",
+"name":"주엽강선마을2단지경남",
 "basis":"단지",
 "by_area":[{"area":102,"pyeong":30.9,"n":5,"median":59500,"min":54000,"max":62500,"latest_price":54000,"latest_date":"2026-09-03","latest_floor":7,"jeonse_n":12,"wolse_n":1,"jeonse_median":45500,"jeonse_min":37044,"jeonse_max":50000,"jeonse_latest":50000,"jeonse_latest_date":"2026-09-30","jeonse_ratio":76.5,"wolse_deposit_median":5000,"wolse_monthly_median":160},{"area":129,"pyeong":39.0,"n":20,"median":60500,"min":56000,"max":67000,"latest_price":59500,"latest_date":"2026-10-01","latest_floor":20,"jeonse_n":14,"wolse_n":5,"jeonse_median":50500,"jeonse_min":39600,"jeonse_max":56000,"jeonse_latest":51000,"jeonse_latest_date":"2026-09-09","jeonse_ratio":83.5,"wolse_deposit_median":10000,"wolse_monthly_median":130},{"area":165,"pyeong":49.9,"n":3,"median":69700,"min":67000,"max":70000,"latest_price":70000,"latest_date":"2026-06-01","latest_floor":3,"jeonse_n":2,"wolse_n":0,"jeonse_median":60000,"jeonse_min":60000,"jeonse_max":60000,"jeonse_latest":60000,"jeonse_latest_date":"2026-06-10","jeonse_ratio":86.1}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

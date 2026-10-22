@@ -1,5 +1,5 @@
 {"id":"41281100007843",
-"name":"무원마을7단지아파트",
+"name":"행신무원마을7단지신우",
 "basis":"단지",
 "by_area":[{"area":73,"pyeong":22.1,"n":14,"median":43950,"min":38100,"max":48500,"latest_price":38100,"latest_date":"2026-10-07","latest_floor":1,"jeonse_n":10,"wolse_n":4,"jeonse_median":33075,"jeonse_min":30000,"jeonse_max":38000,"jeonse_latest":36100,"jeonse_latest_date":"2026-10-19","jeonse_ratio":75.3,"wolse_deposit_median":4000,"wolse_monthly_median":122},{"area":85,"pyeong":25.7,"n":2,"median":46600,"min":44200,"max":49000,"latest_price":44200,"latest_date":"2026-07-29","latest_floor":12,"jeonse_n":7,"wolse_n":2,"jeonse_median":39000,"jeonse_min":30870,"jeonse_max":41000,"jeonse_latest":41000,"jeonse_latest_date":"2026-10-05","jeonse_ratio":83.7,"wolse_deposit_median":35500,"wolse_monthly_median":18}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

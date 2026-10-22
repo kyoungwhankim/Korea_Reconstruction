@@ -1,5 +1,5 @@
 {"id":"41287100007949",
-"name":"강선마을9단지화성아파트",
+"name":"주엽강선마을9단지화성",
 "basis":"단지",
 "by_area":[{"area":57,"pyeong":17.2,"n":12,"median":29500,"min":26500,"max":32800,"latest_price":29500,"latest_date":"2026-09-23","latest_floor":3,"jeonse_n":25,"wolse_n":16,"jeonse_median":23700,"jeonse_min":18000,"jeonse_max":25200,"jeonse_latest":23000,"jeonse_latest_date":"2026-10-07","jeonse_ratio":80.3,"wolse_deposit_median":2000,"wolse_monthly_median":92},{"area":70,"pyeong":21.2,"n":21,"median":39500,"min":37500,"max":46500,"latest_price":44700,"latest_date":"2026-10-12","latest_floor":15,"jeonse_n":26,"wolse_n":8,"jeonse_median":28000,"jeonse_min":23000,"jeonse_max":34000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":70.9,"wolse_deposit_median":3000,"wolse_monthly_median":107},{"area":85,"pyeong":25.7,"n":2,"median":55625,"min":55250,"max":56000,"latest_price":56000,"latest_date":"2026-08-21","latest_floor":7,"jeonse_n":8,"wolse_n":4,"jeonse_median":35000,"jeonse_min":31000,"jeonse_max":43000,"jeonse_latest":35700,"jeonse_latest_date":"2026-10-05","jeonse_ratio":62.9,"wolse_deposit_median":10000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

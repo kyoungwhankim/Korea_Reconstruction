@@ -1,5 +1,5 @@
 {"id":"41287100007968",
-"name":"문촌마을12단지유승아파트",
+"name":"문촌마을12단지유승그린",
 "basis":"단지",
 "by_area":[{"area":58,"pyeong":17.5,"n":2,"median":31250,"min":29500,"max":33000,"latest_price":33000,"latest_date":"2026-09-08","latest_floor":24,"jeonse_n":6,"wolse_n":2,"jeonse_median":24250,"jeonse_min":21800,"jeonse_max":26000,"jeonse_latest":26000,"jeonse_latest_date":"2026-09-29","jeonse_ratio":77.6,"wolse_deposit_median":8500,"wolse_monthly_median":70},{"area":78,"pyeong":23.6,"n":14,"median":38000,"min":30000,"max":40700,"latest_price":37500,"latest_date":"2026-10-13","latest_floor":11,"jeonse_n":13,"wolse_n":4,"jeonse_median":30500,"jeonse_min":27000,"jeonse_max":37000,"jeonse_latest":30500,"jeonse_latest_date":"2026-08-22","jeonse_ratio":80.3,"wolse_deposit_median":9500,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

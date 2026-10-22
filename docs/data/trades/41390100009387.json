@@ -1,5 +1,5 @@
 {"id":"41390100009387",
-"name":"영남2아파트",
+"name":"시화영남2차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":18,"median":23750,"min":19000,"max":28300,"latest_price":19000,"latest_date":"2026-09-18","latest_floor":1,"jeonse_n":33,"wolse_n":29,"jeonse_median":18000,"jeonse_min":15000,"jeonse_max":21000,"jeonse_latest":16000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":75.8,"wolse_deposit_median":2000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

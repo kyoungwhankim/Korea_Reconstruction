@@ -1,5 +1,5 @@
 {"id":"11650100002793",
-"name":"신반포27아파트",
+"name":"신반포 한신 25,26,27차 아파트",
 "basis":"단지",
 "by_area":[{"area":53,"pyeong":16.0,"n":4,"median":274500,"min":268000,"max":320000,"latest_price":270000,"latest_date":"2026-04-21","latest_floor":9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

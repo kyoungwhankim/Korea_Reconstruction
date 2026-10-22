@@ -1,7 +1,7 @@
 {"id":"41173100006716",
 "name":"초원마을대림아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":24,"median":88750,"min":64500,"max":105000,"latest_price":105000,"latest_date":"2026-09-06","latest_floor":15,"jeonse_n":43,"wolse_n":15,"jeonse_median":40000,"jeonse_min":33000,"jeonse_max":50000,"jeonse_latest":36900,"jeonse_latest_date":"2026-10-17","jeonse_ratio":45.1,"wolse_deposit_median":25000,"wolse_monthly_median":70},{"area":85,"pyeong":25.7,"n":33,"median":122000,"min":110750,"max":140000,"latest_price":135000,"latest_date":"2026-10-08","latest_floor":13,"jeonse_n":37,"wolse_n":22,"jeonse_median":63000,"jeonse_min":49400,"jeonse_max":90000,"jeonse_latest":55650,"jeonse_latest_date":"2026-09-08","jeonse_ratio":51.6,"wolse_deposit_median":30000,"wolse_monthly_median":115}],
+"by_area":[{"area":60,"pyeong":18.1,"n":24,"median":88750,"min":64500,"max":105000,"latest_price":105000,"latest_date":"2026-09-06","latest_floor":15,"jeonse_n":44,"wolse_n":15,"jeonse_median":40000,"jeonse_min":33000,"jeonse_max":50000,"jeonse_latest":36900,"jeonse_latest_date":"2026-10-17","jeonse_ratio":45.1,"wolse_deposit_median":25000,"wolse_monthly_median":70},{"area":85,"pyeong":25.7,"n":33,"median":122000,"min":110750,"max":140000,"latest_price":135000,"latest_date":"2026-10-08","latest_floor":13,"jeonse_n":37,"wolse_n":22,"jeonse_median":63000,"jeonse_min":49400,"jeonse_max":90000,"jeonse_latest":55650,"jeonse_latest_date":"2026-09-08","jeonse_ratio":51.6,"wolse_deposit_median":30000,"wolse_monthly_median":115}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",59.74,9,21300,null,null,1993],
 ["2006-01-05",84.92,6,42300,null,null,1993],
@@ -1573,6 +1573,7 @@
 ["2026-10-03",59.74,3,40000,0,"신규","26.11~28.11",null],
 ["2026-10-03",84.92,9,20000,220,"신규","26.12~28.12",null],
 ["2026-10-03",84.92,9,20000,220,"신규","26.12~28.12",null],
+["2026-10-05",59.74,7,44000,0,"신규","26.12~28.12",null],
 ["2026-10-05",59.74,7,44000,0,"신규","26.12~28.12",null],
 ["2026-10-06",84.92,6,45000,130,"신규","26.12~28.12",null],
 ["2026-10-07",59.74,10,42000,0,"갱신","27.01~29.01",true],

@@ -1,7 +1,7 @@
 {"id":"41461100254724",
 "name":"조양아파트(6차)",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":3,"median":14800,"min":13000,"max":15500,"latest_price":15500,"latest_date":"2026-10-02","latest_floor":4,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":2000,"wolse_monthly_median":50},{"area":85,"pyeong":25.7,"n":1,"median":16000,"min":16000,"max":16000,"latest_price":16000,"latest_date":"2026-09-15","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":65}],
+"by_area":[{"area":60,"pyeong":18.1,"n":4,"median":15150,"min":13000,"max":16200,"latest_price":16200,"latest_date":"2026-10-03","latest_floor":7,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":2000,"wolse_monthly_median":50},{"area":85,"pyeong":25.7,"n":1,"median":16000,"min":16000,"max":16000,"latest_price":16000,"latest_date":"2026-09-15","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":65}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-05-18",59.79,8,6300,null,null,1995],
 ["2006-08-16",59.79,3,6500,null,null,1995],
@@ -107,7 +107,8 @@
 ["2025-11-08",59.79,4,14800,"1","중개거래",1995],
 ["2026-08-29",59.79,1,13000,"1","중개거래",1995],
 ["2026-09-15",84.62,1,16000,"1","직거래",1995],
-["2026-10-02",59.79,4,15500,null,"중개거래",1995]
+["2026-10-02",59.79,4,15500,null,"중개거래",1995],
+["2026-10-03",59.79,7,16200,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-12-05",84.62,8,2000,65,"신규","26.01~28.01",null],

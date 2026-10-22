@@ -1,5 +1,5 @@
 {"id":"41150100006458",
-"name":"한신1차아파트",
+"name":"호원한신1차",
 "basis":"단지",
 "by_area":[{"area":71,"pyeong":21.5,"n":3,"median":31000,"min":29200,"max":31500,"latest_price":31500,"latest_date":"2026-06-04","latest_floor":14,"jeonse_n":4,"wolse_n":4,"jeonse_median":25625,"jeonse_min":22050,"jeonse_max":27000,"jeonse_latest":22050,"jeonse_latest_date":"2026-07-23","jeonse_ratio":82.7,"wolse_deposit_median":7500,"wolse_monthly_median":65},{"area":85,"pyeong":25.7,"n":4,"median":38575,"min":32000,"max":39300,"latest_price":38350,"latest_date":"2026-09-02","latest_floor":14,"jeonse_n":5,"wolse_n":1,"jeonse_median":27000,"jeonse_min":23500,"jeonse_max":31000,"jeonse_latest":23500,"jeonse_latest_date":"2026-10-12","jeonse_ratio":70.0,"wolse_deposit_median":10000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

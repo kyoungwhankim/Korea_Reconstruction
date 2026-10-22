@@ -1,5 +1,5 @@
 {"id":"41111100005931",
-"name":"동신3단지아파트",
+"name":"정자동신3차",
 "basis":"단지",
 "by_area":[{"area":69,"pyeong":20.9,"n":6,"median":36600,"min":25000,"max":38650,"latest_price":25000,"latest_date":"2026-09-08","latest_floor":9,"jeonse_n":8,"wolse_n":0,"jeonse_median":19000,"jeonse_min":16000,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":51.9},{"area":85,"pyeong":25.7,"n":6,"median":44250,"min":40000,"max":49500,"latest_price":49500,"latest_date":"2026-09-11","latest_floor":11,"jeonse_n":6,"wolse_n":6,"jeonse_median":22500,"jeonse_min":20000,"jeonse_max":24000,"jeonse_latest":23000,"jeonse_latest_date":"2026-07-15","jeonse_ratio":50.8,"wolse_deposit_median":9000,"wolse_monthly_median":77}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,7 +1,7 @@
 {"id":"11215100003374",
 "name":"광나루현대아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":9,"median":174000,"min":160000,"max":185000,"latest_price":160000,"latest_date":"2026-09-14","latest_floor":3,"jeonse_n":23,"wolse_n":16,"jeonse_median":69300,"jeonse_min":30000,"jeonse_max":80000,"jeonse_latest":69300,"jeonse_latest_date":"2026-10-10","jeonse_ratio":39.8,"wolse_deposit_median":30000,"wolse_monthly_median":145}],
+"by_area":[{"area":85,"pyeong":25.7,"n":9,"median":174000,"min":160000,"max":185000,"latest_price":160000,"latest_date":"2026-09-14","latest_floor":3,"jeonse_n":24,"wolse_n":16,"jeonse_median":69150,"jeonse_min":30000,"jeonse_max":80000,"jeonse_latest":65000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":39.7,"wolse_deposit_median":30000,"wolse_monthly_median":145}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-09",84.92,13,42500,null,null,1996],
 ["2006-01-12",84.92,10,39000,null,null,1996],
@@ -418,5 +418,6 @@
 ["2026-09-04",84.92,12,79000,0,"신규","26.11~28.11",null],
 ["2026-09-28",84.92,9,30000,200,"신규","26.11~28.11",null],
 ["2026-10-10",84.92,10,69300,0,"갱신","26.10~29.01",true],
-["2026-10-14",84.92,19,40000,70,"갱신","26.10~28.10",null]
+["2026-10-14",84.92,19,40000,70,"갱신","26.10~28.10",null],
+["2026-10-19",84.92,20,65000,0,"갱신","26.11~28.11",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"서울-관악구-뉴서울개나리열망연립",
 "name":"뉴서울개나리열망연립",
 "basis":"기존 단지",
-"by_area":[{"area":51,"pyeong":15.4,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":66,"pyeong":20.0,"jeonse_n":1,"wolse_n":0,"jeonse_median":21000,"jeonse_min":21000,"jeonse_max":21000,"jeonse_latest":21000,"jeonse_latest_date":"2026-07-10"}],
+"by_area":[{"area":51,"pyeong":15.4,"jeonse_n":0,"wolse_n":4,"wolse_deposit_median":1000,"wolse_monthly_median":45},{"area":66,"pyeong":20.0,"jeonse_n":1,"wolse_n":0,"jeonse_median":21000,"jeonse_min":21000,"jeonse_max":21000,"jeonse_latest":21000,"jeonse_latest_date":"2026-07-10"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-04-10",51.27,4,16000,null,null,1984],
 ["2006-06-29",51.27,5,14000,null,null,1984],
@@ -81,5 +81,6 @@
 ["2026-03-12",51.27,1,1000,50,"신규","26.04~28.04",null],
 ["2026-05-26",51.27,2,1000,60,"신규","26.06~28.06",null],
 ["2026-06-22",51.27,4,500,40,"신규","26.06~28.06",null],
-["2026-07-10",66.21,2,21000,0,"신규","26.07~28.07",null]
+["2026-07-10",66.21,2,21000,0,"신규","26.07~28.07",null],
+["2026-09-09",51.27,2,2000,40,"신규","26.09~28.09",null]
 ]}}

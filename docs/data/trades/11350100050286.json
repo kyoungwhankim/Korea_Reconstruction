@@ -1,7 +1,7 @@
 {"id":"11350100050286",
 "name":"대림아파트",
 "basis":"단지",
-"by_area":[{"area":93,"pyeong":28.1,"n":4,"median":94500,"min":86000,"max":98400,"latest_price":97000,"latest_date":"2026-07-17","latest_floor":14,"jeonse_n":15,"wolse_n":7,"jeonse_median":46200,"jeonse_min":38000,"jeonse_max":55000,"jeonse_latest":55000,"jeonse_latest_date":"2026-07-14","jeonse_ratio":48.9,"wolse_deposit_median":20000,"wolse_monthly_median":120},{"area":94,"pyeong":28.4,"n":5,"median":82700,"min":62000,"max":99700,"latest_price":62000,"latest_date":"2026-06-17","latest_floor":14,"jeonse_n":13,"wolse_n":5,"jeonse_median":44100,"jeonse_min":34650,"jeonse_max":50000,"jeonse_latest":40000,"jeonse_latest_date":"2026-10-09","jeonse_ratio":53.3,"wolse_deposit_median":25000,"wolse_monthly_median":60}],
+"by_area":[{"area":93,"pyeong":28.1,"n":4,"median":94500,"min":86000,"max":98400,"latest_price":97000,"latest_date":"2026-07-17","latest_floor":14,"jeonse_n":15,"wolse_n":7,"jeonse_median":46200,"jeonse_min":38000,"jeonse_max":55000,"jeonse_latest":55000,"jeonse_latest_date":"2026-07-14","jeonse_ratio":48.9,"wolse_deposit_median":20000,"wolse_monthly_median":120},{"area":94,"pyeong":28.4,"n":5,"median":82700,"min":62000,"max":99700,"latest_price":62000,"latest_date":"2026-06-17","latest_floor":14,"jeonse_n":14,"wolse_n":5,"jeonse_median":43150,"jeonse_min":34650,"jeonse_max":50000,"jeonse_latest":40000,"jeonse_latest_date":"2026-10-09","jeonse_ratio":52.2,"wolse_deposit_median":25000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-18",93.13,4,33000,null,null,1988],
 ["2006-03-12",93.13,14,33800,null,null,1988],
@@ -311,5 +311,6 @@
 ["2026-08-22",93.75,13,6500,200,"신규","26.10~28.10",null],
 ["2026-08-23",93.75,15,42200,0,"갱신","26.08~28.08",null],
 ["2026-09-30",93.13,11,20000,150,"신규","26.11~28.11",null],
-["2026-10-09",93.75,1,40000,0,"갱신","26.10~28.10",null]
+["2026-10-09",93.75,1,40000,0,"갱신","26.10~28.10",null],
+["2026-10-09",93.75,9,38800,0,"갱신","26.12~28.12",true]
 ]}}

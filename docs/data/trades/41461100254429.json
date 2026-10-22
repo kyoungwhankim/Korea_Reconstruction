@@ -1,7 +1,7 @@
 {"id":"41461100254429",
 "name":"조양맨션",
 "basis":"단지",
-"by_area":[{"area":75,"pyeong":22.7,"n":1,"median":16600,"min":16600,"max":16600,"latest_price":16600,"latest_date":"2026-04-24","latest_floor":5,"jeonse_n":2,"wolse_n":0,"jeonse_median":11000,"jeonse_min":6500,"jeonse_max":15500,"jeonse_latest":15500,"jeonse_latest_date":"2026-03-03","jeonse_ratio":66.3}],
+"by_area":[{"area":75,"pyeong":22.7,"n":2,"median":16250,"min":15900,"max":16600,"latest_price":15900,"latest_date":"2026-10-20","latest_floor":2,"jeonse_n":2,"wolse_n":0,"jeonse_median":11000,"jeonse_min":6500,"jeonse_max":15500,"jeonse_latest":15500,"jeonse_latest_date":"2026-03-03","jeonse_ratio":67.7}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-09-06",74.93,2,8600,null,null,1988],
 ["2006-09-16",74.93,5,8500,null,null,1988],
@@ -23,7 +23,8 @@
 ["2024-05-30",74.93,1,22000,null,"직거래",1988],
 ["2024-08-27",74.93,4,19000,null,"직거래",1988],
 ["2024-10-31",74.93,1,19000,null,"중개거래",1988],
-["2026-04-24",74.93,5,16600,null,"중개거래",1988]
+["2026-04-24",74.93,5,16600,null,"중개거래",1988],
+["2026-10-20",74.93,2,15900,null,"중개거래",1988]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-12-30",74.93,5,6500,0,"갱신","25.12~27.12",null],

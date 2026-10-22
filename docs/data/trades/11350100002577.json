@@ -1,7 +1,7 @@
 {"id":"11350100002577",
 "name":"동진신안아파트",
 "basis":"단지",
-"by_area":[{"area":102,"pyeong":30.9,"n":1,"median":133000,"min":133000,"max":133000,"latest_price":133000,"latest_date":"2026-02-11","latest_floor":13,"jeonse_n":18,"wolse_n":13,"jeonse_median":85000,"jeonse_min":73500,"jeonse_max":90000,"jeonse_latest":85000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":63.9,"wolse_deposit_median":30000,"wolse_monthly_median":165},{"area":135,"pyeong":40.8,"n":7,"median":152000,"min":140000,"max":156000,"latest_price":155000,"latest_date":"2026-09-03","latest_floor":12,"jeonse_n":10,"wolse_n":8,"jeonse_median":91000,"jeonse_min":88000,"jeonse_max":110000,"jeonse_latest":110000,"jeonse_latest_date":"2026-09-12","jeonse_ratio":59.9,"wolse_deposit_median":45000,"wolse_monthly_median":100}],
+"by_area":[{"area":102,"pyeong":30.9,"n":1,"median":133000,"min":133000,"max":133000,"latest_price":133000,"latest_date":"2026-02-11","latest_floor":13,"jeonse_n":18,"wolse_n":13,"jeonse_median":85000,"jeonse_min":73500,"jeonse_max":90000,"jeonse_latest":85000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":63.9,"wolse_deposit_median":30000,"wolse_monthly_median":165},{"area":135,"pyeong":40.8,"n":7,"median":152000,"min":140000,"max":156000,"latest_price":155000,"latest_date":"2026-09-03","latest_floor":12,"jeonse_n":10,"wolse_n":9,"jeonse_median":91000,"jeonse_min":88000,"jeonse_max":110000,"jeonse_latest":110000,"jeonse_latest_date":"2026-09-12","jeonse_ratio":59.9,"wolse_deposit_median":50000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-15",101.99,13,50000,null,null,1993],
 ["2006-02-26",134.74,9,63000,null,null,1993],
@@ -536,6 +536,7 @@
 ["2026-06-13",134.74,13,101800,0,"갱신","26.08~28.08",true],
 ["2026-06-17",134.74,3,88000,0,"갱신","26.07~28.07",true],
 ["2026-06-20",101.99,5,60000,160,"신규","26.09~28.09",null],
+["2026-07-06",134.74,6,50000,180,"신규","26.10~28.10",null],
 ["2026-07-11",101.99,3,90000,0,"갱신","26.07~28.08",true],
 ["2026-08-28",101.99,14,90000,0,"갱신","27.02~29.02",null],
 ["2026-08-28",101.99,14,90000,0,"갱신","27.02~29.02",null],

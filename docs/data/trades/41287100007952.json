@@ -1,7 +1,7 @@
 {"id":"41287100007952",
-"name":"강선마을11단지태영아파트",
+"name":"주엽강선마을11단지태영",
 "basis":"단지",
-"by_area":[{"area":42,"pyeong":12.7,"n":27,"median":19000,"min":18400,"max":22500,"latest_price":19000,"latest_date":"2026-10-08","latest_floor":15,"jeonse_n":22,"wolse_n":32,"jeonse_median":17000,"jeonse_min":14500,"jeonse_max":19000,"jeonse_latest":17500,"jeonse_latest_date":"2026-10-12","jeonse_ratio":89.5,"wolse_deposit_median":1000,"wolse_monthly_median":70}],
+"by_area":[{"area":42,"pyeong":12.7,"n":28,"median":19125,"min":18400,"max":22500,"latest_price":22000,"latest_date":"2026-10-13","latest_floor":8,"jeonse_n":22,"wolse_n":32,"jeonse_median":17000,"jeonse_min":14500,"jeonse_max":19000,"jeonse_latest":17500,"jeonse_latest_date":"2026-10-12","jeonse_ratio":88.9,"wolse_deposit_median":1000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",41.85,16,7300,null,null,1994],
 ["2006-02-10",41.85,16,7500,null,null,1994],
@@ -636,7 +636,8 @@
 ["2026-06-15",41.85,14,19000,"1102","중개거래",1994],
 ["2026-07-27",41.85,4,18500,"1101","중개거래",1994],
 ["2026-09-12",41.85,19,19300,null,"중개거래",1994],
-["2026-10-08",41.85,15,19000,"1102","직거래",1994]
+["2026-10-08",41.85,15,19000,"1102","직거래",1994],
+["2026-10-13",41.85,8,22000,null,"중개거래",1994]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-14",41.85,9,1000,70,"신규","26.01~28.01",null],

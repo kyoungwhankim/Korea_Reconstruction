@@ -1,5 +1,5 @@
 {"id":"11650100003012",
-"name":"임광아파트",
+"name":"방배임광1,2차",
 "basis":"단지",
 "by_area":[{"area":85,"pyeong":25.7,"n":6,"median":241500,"min":233000,"max":250000,"latest_price":250000,"latest_date":"2026-08-10","latest_floor":5,"jeonse_n":6,"wolse_n":3,"jeonse_median":80000,"jeonse_min":80000,"jeonse_max":85000,"jeonse_latest":80000,"jeonse_latest_date":"2026-07-04","jeonse_ratio":33.1,"wolse_deposit_median":10000,"wolse_monthly_median":165},{"area":136,"pyeong":41.1,"n":8,"median":277500,"min":270000,"max":300000,"latest_price":280000,"latest_date":"2026-07-09","latest_floor":11,"jeonse_n":6,"wolse_n":3,"jeonse_median":93500,"jeonse_min":90000,"jeonse_max":110000,"jeonse_latest":110000,"jeonse_latest_date":"2026-07-17","jeonse_ratio":33.7,"wolse_deposit_median":73500,"wolse_monthly_median":110}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

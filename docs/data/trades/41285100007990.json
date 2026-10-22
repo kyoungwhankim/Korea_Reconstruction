@@ -1,5 +1,5 @@
 {"id":"41285100007990",
-"name":"백송마을1(삼부)",
+"name":"백석백송마을1단지삼부",
 "basis":"단지",
 "by_area":[{"area":85,"pyeong":25.7,"n":9,"median":46900,"min":42000,"max":50300,"latest_price":50300,"latest_date":"2026-08-07","latest_floor":8,"jeonse_n":14,"wolse_n":3,"jeonse_median":37500,"jeonse_min":29400,"jeonse_max":42000,"jeonse_latest":38000,"jeonse_latest_date":"2026-08-31","jeonse_ratio":80.0,"wolse_deposit_median":15000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
@@ -281,7 +281,7 @@
 ["2026-06-04",84.99,1,46900,"103","중개거래",1993],
 ["2026-06-30",84.99,9,49000,"101","중개거래",1993],
 ["2026-07-18",84.99,4,45500,"101","중개거래",1993],
-["2026-08-07",84.99,8,50300,null,"중개거래",1993]
+["2026-08-07",84.99,8,50300,"104","중개거래",1993]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-21",84.99,3,37000,0,"갱신","25.12~27.12",null],

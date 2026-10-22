@@ -458,6 +458,7 @@
 {"apt": "롯데캐슬 시그니처 중앙", "area": 59.98, "date": "2026-08-31", "deal_type": "중개거래", "dong": "고잔동", "floor": 32, "jibun": "674", "kind": "분양권", "match": "지번", "price": 66200, "project_id": "경기-안산-주공52", "sgg": "41273"}
 {"apt": "롯데캐슬 시그니처 중앙", "area": 59.98, "date": "2026-09-09", "deal_type": "중개거래", "dong": "고잔동", "floor": 38, "jibun": "674", "kind": "분양권", "match": "지번", "price": 71350, "project_id": "경기-안산-주공52", "sgg": "41273"}
 {"apt": "롯데캐슬 시그니처 중앙", "area": 59.99, "date": "2026-10-07", "deal_type": "중개거래", "dong": "고잔동", "floor": 31, "jibun": "674", "kind": "분양권", "match": "지번", "price": 68430, "project_id": "경기-안산-주공52", "sgg": "41273"}
+{"apt": "롯데캐슬 시그니처 중앙", "area": 60.0, "date": "2026-10-17", "deal_type": "중개거래", "dong": "고잔동", "floor": 14, "jibun": "674", "kind": "분양권", "match": "지번", "price": 66050, "project_id": "경기-안산-주공52", "sgg": "41273"}
 {"apt": "평촌자이 퍼스니티", "area": 77.92, "date": "2024-10-16", "deal_type": "중개거래", "dong": "비산동", "floor": 16, "jibun": "354-10", "kind": "입주권", "match": "지번", "price": 110144, "project_id": "경기-안양-뉴타운맨션삼호", "sgg": "41173"}
 {"apt": "평촌자이 퍼스니티", "area": 77.92, "date": "2024-11-30", "deal_type": "중개거래", "dong": "비산동", "floor": 28, "jibun": "354-10", "kind": "입주권", "match": "지번", "price": 110580, "project_id": "경기-안양-뉴타운맨션삼호", "sgg": "41173"}
 {"apt": "평촌자이 퍼스니티", "area": 84.84, "date": "2024-12-06", "deal_type": "중개거래", "dong": "비산동", "floor": 15, "jibun": "354-10", "kind": "입주권", "match": "지번", "price": 119320, "project_id": "경기-안양-뉴타운맨션삼호", "sgg": "41173"}

@@ -1,7 +1,7 @@
 {"id":"28245100009511",
 "name":"도두리마을동보아파트",
 "basis":"단지",
-"by_area":[{"area":24,"pyeong":7.3,"n":8,"median":9450,"min":9000,"max":10250,"latest_price":10250,"latest_date":"2026-06-24","latest_floor":4,"jeonse_n":15,"wolse_n":26,"jeonse_median":8000,"jeonse_min":7350,"jeonse_max":8500,"jeonse_latest":8040,"jeonse_latest_date":"2026-09-04","jeonse_ratio":84.7,"wolse_deposit_median":500,"wolse_monthly_median":40},{"area":60,"pyeong":18.1,"n":45,"median":29700,"min":22000,"max":33400,"latest_price":31700,"latest_date":"2026-10-17","latest_floor":13,"jeonse_n":33,"wolse_n":15,"jeonse_median":21000,"jeonse_min":16000,"jeonse_max":25000,"jeonse_latest":24500,"jeonse_latest_date":"2026-09-21","jeonse_ratio":70.7,"wolse_deposit_median":2000,"wolse_monthly_median":95}],
+"by_area":[{"area":24,"pyeong":7.3,"n":8,"median":9450,"min":9000,"max":10250,"latest_price":10250,"latest_date":"2026-06-24","latest_floor":4,"jeonse_n":15,"wolse_n":27,"jeonse_median":8000,"jeonse_min":7350,"jeonse_max":8500,"jeonse_latest":8040,"jeonse_latest_date":"2026-09-04","jeonse_ratio":84.7,"wolse_deposit_median":500,"wolse_monthly_median":40},{"area":60,"pyeong":18.1,"n":45,"median":29700,"min":22000,"max":33400,"latest_price":31700,"latest_date":"2026-10-17","latest_floor":13,"jeonse_n":33,"wolse_n":15,"jeonse_median":21000,"jeonse_min":16000,"jeonse_max":25000,"jeonse_latest":24500,"jeonse_latest_date":"2026-09-21","jeonse_ratio":70.7,"wolse_deposit_median":2000,"wolse_monthly_median":95}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",59.88,14,11100,null,null,1996],
 ["2006-01-18",59.88,16,12450,null,null,1996],
@@ -1905,5 +1905,6 @@
 ["2026-09-21",59.88,17,24500,0,"신규","26.11~28.11",null],
 ["2026-09-28",23.85,1,500,40,"신규","26.10~28.10",null],
 ["2026-09-28",23.85,15,1000,43,"신규","26.10~28.10",null],
+["2026-10-01",23.85,9,500,45,"신규","26.10~28.10",null],
 ["2026-10-20",23.85,8,1000,30,"신규","26.10~28.10",null]
 ]}}

@@ -1,5 +1,5 @@
 {"id":"41287100007922",
-"name":"후곡마을(태영17)",
+"name":"일산후곡마을17단지태영",
 "basis":"단지",
 "by_area":[{"area":102,"pyeong":30.9,"n":6,"median":58750,"min":57950,"max":61500,"latest_price":61500,"latest_date":"2026-08-15","latest_floor":5,"jeonse_n":16,"wolse_n":7,"jeonse_median":44750,"jeonse_min":34000,"jeonse_max":52000,"jeonse_latest":50000,"jeonse_latest_date":"2026-09-22","jeonse_ratio":76.2,"wolse_deposit_median":20000,"wolse_monthly_median":90},{"area":135,"pyeong":40.8,"n":2,"median":64000,"min":64000,"max":64000,"latest_price":64000,"latest_date":"2026-02-24","latest_floor":12,"jeonse_n":14,"wolse_n":5,"jeonse_median":53500,"jeonse_min":45150,"jeonse_max":59000,"jeonse_latest":45150,"jeonse_latest_date":"2026-10-20","jeonse_ratio":83.6,"wolse_deposit_median":20000,"wolse_monthly_median":140}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

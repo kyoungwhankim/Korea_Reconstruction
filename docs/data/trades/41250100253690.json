@@ -1,7 +1,7 @@
 {"id":"41250100253690",
 "name":"조흥아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"jeonse_n":0,"wolse_n":5,"wolse_deposit_median":500,"wolse_monthly_median":40}],
+"by_area":[{"area":85,"pyeong":25.7,"n":1,"median":7200,"min":7200,"max":7200,"latest_price":7200,"latest_date":"2026-09-24","latest_floor":1,"jeonse_n":0,"wolse_n":5,"wolse_deposit_median":500,"wolse_monthly_median":40}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-12-09",84.9,1,3600,null,null,1991],
 ["2006-12-09",84.9,2,4200,null,null,1991],
@@ -58,7 +58,8 @@
 ["2023-03-14",84.9,4,7000,"1","직거래",1991],
 ["2023-12-02",84.9,4,8000,"1","중개거래",1991],
 ["2025-01-15",84.9,3,7500,"1","직거래",1991],
-["2025-06-05",84.9,3,7400,"1","중개거래",1991]
+["2025-06-05",84.9,3,7400,"1","중개거래",1991],
+["2026-09-24",84.9,1,7200,null,"중개거래",1991]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-02-27",84.9,4,500,40,"신규","26.03~28.03",null],

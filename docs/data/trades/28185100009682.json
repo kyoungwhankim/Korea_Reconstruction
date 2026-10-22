@@ -1,7 +1,7 @@
 {"id":"28185100009682",
 "name":"용담마을아파트",
 "basis":"단지",
-"by_area":[{"area":49,"pyeong":14.8,"n":6,"median":25075,"min":23005,"max":27400,"latest_price":23005,"latest_date":"2026-05-15","latest_floor":2,"jeonse_n":11,"wolse_n":10,"jeonse_median":13500,"jeonse_min":8102,"jeonse_max":16000,"jeonse_latest":13500,"jeonse_latest_date":"2026-09-01","jeonse_ratio":53.8,"wolse_deposit_median":1000,"wolse_monthly_median":70},{"area":50,"pyeong":15.1,"n":15,"median":25000,"min":21900,"max":28000,"latest_price":26500,"latest_date":"2026-05-20","latest_floor":1,"jeonse_n":25,"wolse_n":24,"jeonse_median":15000,"jeonse_min":9000,"jeonse_max":19000,"jeonse_latest":16000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":60.0,"wolse_deposit_median":1000,"wolse_monthly_median":70}],
+"by_area":[{"area":49,"pyeong":14.8,"n":6,"median":25075,"min":23005,"max":27400,"latest_price":23005,"latest_date":"2026-05-15","latest_floor":2,"jeonse_n":11,"wolse_n":10,"jeonse_median":13500,"jeonse_min":8102,"jeonse_max":16000,"jeonse_latest":13500,"jeonse_latest_date":"2026-09-01","jeonse_ratio":53.8,"wolse_deposit_median":1000,"wolse_monthly_median":70},{"area":50,"pyeong":15.1,"n":15,"median":25000,"min":21900,"max":28000,"latest_price":26500,"latest_date":"2026-05-20","latest_floor":1,"jeonse_n":26,"wolse_n":24,"jeonse_median":15000,"jeonse_min":9000,"jeonse_max":19000,"jeonse_latest":16000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":60.0,"wolse_deposit_median":1000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-09",49.3,4,7500,null,null,1994],
 ["2006-01-10",49.3,2,8000,null,null,1994],
@@ -750,5 +750,6 @@
 ["2026-09-08",49.99,5,15000,0,"신규","26.10~28.10",null],
 ["2026-09-09",49.99,2,1000,75,"신규","26.10~28.10",null],
 ["2026-10-08",49.99,3,15000,0,"신규","26.11~28.11",null],
+["2026-10-15",49.99,4,16000,0,"신규","26.12~28.12",null],
 ["2026-10-15",49.99,4,16000,0,"신규","26.12~28.12",null]
 ]}}

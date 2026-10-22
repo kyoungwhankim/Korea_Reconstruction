@@ -1,5 +1,5 @@
 {"id":"41250100007168",
-"name":"에이스아파트(2차)",
+"name":"동두천에이스2차",
 "basis":"단지",
 "by_area":[{"area":59,"pyeong":17.8,"n":2,"median":10700,"min":10000,"max":11400,"latest_price":10000,"latest_date":"2026-04-04","latest_floor":2,"jeonse_n":0,"wolse_n":6,"wolse_deposit_median":1000,"wolse_monthly_median":45},{"area":85,"pyeong":25.7,"n":5,"median":12700,"min":11700,"max":15000,"latest_price":11700,"latest_date":"2026-08-02","latest_floor":2,"jeonse_n":3,"wolse_n":1,"jeonse_median":8000,"jeonse_min":8000,"jeonse_max":13000,"jeonse_latest":8000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":63.0,"wolse_deposit_median":7000,"wolse_monthly_median":10},{"area":104,"pyeong":31.5,"jeonse_n":1,"wolse_n":0,"jeonse_median":13900,"jeonse_min":13900,"jeonse_max":13900,"jeonse_latest":13900,"jeonse_latest_date":"2026-09-07"},{"area":120,"pyeong":36.3,"n":4,"median":15000,"min":14000,"max":16800,"latest_price":14000,"latest_date":"2026-08-29","latest_floor":7},{"area":123,"pyeong":37.2,"jeonse_n":1,"wolse_n":0,"jeonse_median":12000,"jeonse_min":12000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-05-05"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
@@ -366,7 +366,7 @@
 ["2026-04-04",59.4,2,10000,"203","중개거래",1993],
 ["2026-06-25",84.72,8,12500,"201","중개거래",1993],
 ["2026-07-20",84.72,4,12700,"201","중개거래",1993],
-["2026-08-02",84.72,2,11700,null,"중개거래",1993],
+["2026-08-02",84.72,2,11700,"201","중개거래",1993],
 ["2026-08-29",120.05,7,14000,"202","중개거래",1993]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

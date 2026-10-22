@@ -1,7 +1,7 @@
 {"id":"11350100050244",
 "name":"삼호3아파트",
 "basis":"단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":43,"median":105300,"min":87000,"max":120000,"latest_price":120000,"latest_date":"2026-08-24","latest_floor":6,"jeonse_n":131,"wolse_n":57,"jeonse_median":27000,"jeonse_min":16000,"jeonse_max":40000,"jeonse_latest":33000,"jeonse_latest_date":"2026-10-14","jeonse_ratio":25.6,"wolse_deposit_median":3000,"wolse_monthly_median":81}],
+"by_area":[{"area":59,"pyeong":17.8,"n":43,"median":105300,"min":87000,"max":120000,"latest_price":120000,"latest_date":"2026-08-24","latest_floor":6,"jeonse_n":132,"wolse_n":57,"jeonse_median":27000,"jeonse_min":16000,"jeonse_max":40000,"jeonse_latest":31000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":25.6,"wolse_deposit_median":3000,"wolse_monthly_median":81}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-04",59.22,14,15400,null,null,1986],
 ["2006-01-23",59.22,7,16500,null,null,1986],
@@ -1288,5 +1288,6 @@
 ["2026-10-06",59.22,2,20000,40,"갱신","26.12~27.12",null],
 ["2026-10-10",59.22,13,31500,0,"갱신","26.12~28.12",true],
 ["2026-10-12",59.22,4,35000,0,"신규","26.11~28.11",null],
-["2026-10-14",59.22,14,33000,0,"신규","26.12~28.12",null]
+["2026-10-14",59.22,14,33000,0,"신규","26.12~28.12",null],
+["2026-10-21",59.22,13,31000,0,"갱신","26.10~28.10",null]
 ]}}

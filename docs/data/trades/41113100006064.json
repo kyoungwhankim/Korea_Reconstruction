@@ -1,7 +1,7 @@
 {"id":"41113100006064",
 "name":"대원신동아아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":66,"median":32500,"min":27500,"max":40600,"latest_price":38000,"latest_date":"2026-10-16","latest_floor":2,"jeonse_n":73,"wolse_n":44,"jeonse_median":25000,"jeonse_min":18000,"jeonse_max":31000,"jeonse_latest":25000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":76.9,"wolse_deposit_median":2000,"wolse_monthly_median":90}],
+"by_area":[{"area":60,"pyeong":18.1,"n":68,"median":32500,"min":27500,"max":40600,"latest_price":38000,"latest_date":"2026-10-16","latest_floor":2,"jeonse_n":73,"wolse_n":44,"jeonse_median":25000,"jeonse_min":18000,"jeonse_max":31000,"jeonse_latest":25000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":76.9,"wolse_deposit_median":2000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-10",59.88,11,10700,null,null,1996],
 ["2006-01-11",59.88,5,10700,null,null,1996],
@@ -1910,10 +1910,12 @@
 ["2026-08-27",59.88,10,38000,"510","중개거래",1996],
 ["2026-09-05",59.79,3,33000,null,"중개거래",1996],
 ["2026-09-18",59.79,10,39420,null,"중개거래",1996],
+["2026-09-18",59.88,11,30000,null,"중개거래",1996],
 ["2026-09-30",59.88,7,38300,null,"중개거래",1996],
 ["2026-10-02",59.88,8,40600,null,"중개거래",1996],
 ["2026-10-07",59.88,6,39000,null,"중개거래",1996],
 ["2026-10-08",59.88,6,36300,null,"중개거래",1996],
+["2026-10-08",59.88,7,40500,null,"중개거래",1996],
 ["2026-10-16",59.79,2,38000,null,"중개거래",1996]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

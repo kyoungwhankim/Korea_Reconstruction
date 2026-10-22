@@ -1,5 +1,5 @@
 {"id":"41500100008205",
-"name":"현대2(201동,202동)",
+"name":"창전현대아파트(1차, 2차, 직장조합)",
 "basis":"단지",
 "by_area":[{"area":71,"pyeong":21.5,"n":5,"median":13900,"min":13500,"max":19300,"latest_price":13900,"latest_date":"2026-07-20","latest_floor":5,"jeonse_n":5,"wolse_n":1,"jeonse_median":13500,"jeonse_min":12500,"jeonse_max":18000,"jeonse_latest":14000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":97.1,"wolse_deposit_median":10000,"wolse_monthly_median":35},{"area":85,"pyeong":25.7,"n":6,"median":16500,"min":16000,"max":21000,"latest_price":16000,"latest_date":"2026-09-08","latest_floor":1,"jeonse_n":9,"wolse_n":2,"jeonse_median":19000,"jeonse_min":15000,"jeonse_max":20000,"jeonse_latest":15000,"jeonse_latest_date":"2026-09-06","jeonse_ratio":115.2,"wolse_deposit_median":9500,"wolse_monthly_median":42}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

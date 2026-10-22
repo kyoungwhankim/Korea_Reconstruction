@@ -1,5 +1,5 @@
 {"id":"41287100008075",
-"name":"성저마을(동익1단지)",
+"name":"대화성저마을1단지동익",
 "basis":"단지",
 "by_area":[{"area":59,"pyeong":17.8,"n":3,"median":36800,"min":33000,"max":40000,"latest_price":33000,"latest_date":"2026-10-08","latest_floor":6,"jeonse_n":14,"wolse_n":7,"jeonse_median":27500,"jeonse_min":20000,"jeonse_max":29000,"jeonse_latest":28350,"jeonse_latest_date":"2026-09-21","jeonse_ratio":74.7,"wolse_deposit_median":4800,"wolse_monthly_median":90},{"area":69,"pyeong":20.9,"n":10,"median":39050,"min":34200,"max":43000,"latest_price":43000,"latest_date":"2026-08-17","latest_floor":8,"jeonse_n":7,"wolse_n":3,"jeonse_median":30000,"jeonse_min":23000,"jeonse_max":32000,"jeonse_latest":26250,"jeonse_latest_date":"2026-10-13","jeonse_ratio":76.8,"wolse_deposit_median":8000,"wolse_monthly_median":110},{"area":85,"pyeong":25.7,"n":16,"median":45000,"min":40900,"max":49500,"latest_price":45000,"latest_date":"2026-10-17","latest_floor":4,"jeonse_n":16,"wolse_n":7,"jeonse_median":33000,"jeonse_min":28000,"jeonse_max":36000,"jeonse_latest":34650,"jeonse_latest_date":"2026-10-08","jeonse_ratio":73.3,"wolse_deposit_median":5000,"wolse_monthly_median":105}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

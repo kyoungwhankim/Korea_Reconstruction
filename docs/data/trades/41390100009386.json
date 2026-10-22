@@ -1,5 +1,5 @@
 {"id":"41390100009386",
-"name":"영남1아파트",
+"name":"시화영남1차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":12,"median":24200,"min":18500,"max":26200,"latest_price":23800,"latest_date":"2026-09-08","latest_floor":3,"jeonse_n":16,"wolse_n":13,"jeonse_median":19500,"jeonse_min":14500,"jeonse_max":22000,"jeonse_latest":20000,"jeonse_latest_date":"2026-09-14","jeonse_ratio":80.6,"wolse_deposit_median":2000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

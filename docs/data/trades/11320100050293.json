@@ -1,5 +1,5 @@
 {"id":"11320100050293",
-"name":"신동아아파트4아파트",
+"name":"방학4단지신동아",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":5,"median":37000,"min":34500,"max":38000,"latest_price":37000,"latest_date":"2026-10-01","latest_floor":6,"jeonse_n":6,"wolse_n":3,"jeonse_median":27000,"jeonse_min":20600,"jeonse_max":30000,"jeonse_latest":29000,"jeonse_latest_date":"2026-05-27","jeonse_ratio":73.0,"wolse_deposit_median":3000,"wolse_monthly_median":70},{"area":85,"pyeong":25.7,"n":5,"median":49000,"min":48800,"max":51500,"latest_price":51500,"latest_date":"2026-10-06","latest_floor":4,"jeonse_n":3,"wolse_n":2,"jeonse_median":35000,"jeonse_min":35000,"jeonse_max":36000,"jeonse_latest":35000,"jeonse_latest_date":"2026-10-07","jeonse_ratio":71.4,"wolse_deposit_median":26500,"wolse_monthly_median":28}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

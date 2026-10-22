@@ -1,7 +1,7 @@
 {"id":"41194100253449",
 "name":"현대허니문아파트",
 "basis":"단지",
-"by_area":[{"area":42,"pyeong":12.7,"n":1,"median":16500,"min":16500,"max":16500,"latest_price":16500,"latest_date":"2026-07-09","latest_floor":5,"jeonse_n":2,"wolse_n":2,"jeonse_median":12300,"jeonse_min":12000,"jeonse_max":12600,"jeonse_latest":12600,"jeonse_latest_date":"2026-01-17","jeonse_ratio":74.5,"wolse_deposit_median":1000,"wolse_monthly_median":49},{"area":44,"pyeong":13.3,"n":3,"median":14200,"min":13600,"max":14800,"latest_price":14800,"latest_date":"2026-07-14","latest_floor":2,"jeonse_n":8,"wolse_n":3,"jeonse_median":12500,"jeonse_min":11000,"jeonse_max":13000,"jeonse_latest":11000,"jeonse_latest_date":"2026-07-20","jeonse_ratio":88.0,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"by_area":[{"area":42,"pyeong":12.7,"n":1,"median":16500,"min":16500,"max":16500,"latest_price":16500,"latest_date":"2026-07-09","latest_floor":5,"jeonse_n":2,"wolse_n":2,"jeonse_median":12300,"jeonse_min":12000,"jeonse_max":12600,"jeonse_latest":12600,"jeonse_latest_date":"2026-01-17","jeonse_ratio":74.5,"wolse_deposit_median":1000,"wolse_monthly_median":49},{"area":44,"pyeong":13.3,"n":4,"median":14350,"min":13600,"max":14800,"latest_price":14500,"latest_date":"2026-10-20","latest_floor":1,"jeonse_n":8,"wolse_n":3,"jeonse_median":12500,"jeonse_min":11000,"jeonse_max":13000,"jeonse_latest":11000,"jeonse_latest_date":"2026-07-20","jeonse_ratio":87.1,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-11-02",43.74,1,7700,null,null,1988],
 ["2007-06-28",43.74,5,10000,null,null,1988],
@@ -134,7 +134,8 @@
 ["2026-03-07",43.74,3,13600,"102","중개거래",1988],
 ["2026-05-01",43.74,3,14200,"102","중개거래",1988],
 ["2026-07-09",41.52,5,16500,"103","중개거래",1988],
-["2026-07-14",43.74,2,14800,"102","중개거래",1988]
+["2026-07-14",43.74,2,14800,"102","중개거래",1988],
+["2026-10-20",43.74,1,14500,null,"중개거래",1988]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-05",41.52,5,12000,0,"갱신","25.12~27.12",true],

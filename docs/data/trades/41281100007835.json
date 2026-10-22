@@ -1,5 +1,5 @@
 {"id":"41281100007835",
-"name":"무원마을(기산)",
+"name":"행신무원마을9단지기산",
 "basis":"단지",
 "by_area":[{"area":102,"pyeong":30.9,"n":4,"median":53750,"min":52300,"max":54900,"latest_price":54900,"latest_date":"2026-09-18","latest_floor":14,"jeonse_n":12,"wolse_n":0,"jeonse_median":40000,"jeonse_min":36750,"jeonse_max":45000,"jeonse_latest":45000,"jeonse_latest_date":"2026-09-30","jeonse_ratio":74.4},{"area":135,"pyeong":40.8,"n":5,"median":56000,"min":54850,"max":60000,"latest_price":57000,"latest_date":"2026-09-09","latest_floor":10,"jeonse_n":5,"wolse_n":1,"jeonse_median":45000,"jeonse_min":40000,"jeonse_max":51000,"jeonse_latest":46800,"jeonse_latest_date":"2026-08-22","jeonse_ratio":80.4,"wolse_deposit_median":5000,"wolse_monthly_median":210}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

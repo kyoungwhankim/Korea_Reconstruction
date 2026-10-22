@@ -1,7 +1,7 @@
 {"id":"41550100008502",
 "name":"삼보아파트",
 "basis":"단지",
-"by_area":[{"area":84,"pyeong":25.4,"n":1,"median":10600,"min":10600,"max":10600,"latest_price":10600,"latest_date":"2025-12-14","latest_floor":1}],
+"by_area":[{"area":84,"pyeong":25.4,"n":1,"median":10600,"min":10600,"max":10600,"latest_price":10600,"latest_date":"2025-12-14","latest_floor":1},{"area":114,"pyeong":34.5,"n":1,"median":15500,"min":15500,"max":15500,"latest_price":15500,"latest_date":"2026-10-21","latest_floor":2}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-15",48.02,7,6100,null,null,1992],
 ["2006-05-10",48.02,9,6000,null,null,1992],
@@ -99,7 +99,8 @@
 ["2025-03-07",114.32,7,15000,null,"직거래",1992],
 ["2025-09-21",84.17,14,7000,null,"직거래",1992],
 ["2025-10-23",114.32,9,17200,null,"중개거래",1992],
-["2025-12-14",84.17,1,10600,null,"중개거래",1992]
+["2025-12-14",84.17,1,10600,null,"중개거래",1992],
+["2026-10-21",114.32,2,15500,null,"중개거래",1992]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ]}}

@@ -1,5 +1,5 @@
 {"id":"41281100007840",
-"name":"무원마을(삼보)",
+"name":"행신무원마을2단지삼보",
 "basis":"단지",
 "by_area":[{"area":85,"pyeong":25.7,"n":1,"median":49500,"min":49500,"max":49500,"latest_price":49500,"latest_date":"2026-04-23","latest_floor":3,"jeonse_n":3,"wolse_n":1,"jeonse_median":35000,"jeonse_min":31000,"jeonse_max":39900,"jeonse_latest":39900,"jeonse_latest_date":"2026-07-22","jeonse_ratio":70.7,"wolse_deposit_median":3000,"wolse_monthly_median":140},{"area":110,"pyeong":33.3,"n":9,"median":58000,"min":53000,"max":61000,"latest_price":56500,"latest_date":"2026-09-07","latest_floor":6,"jeonse_n":3,"wolse_n":4,"jeonse_median":45000,"jeonse_min":40000,"jeonse_max":45000,"jeonse_latest":45000,"jeonse_latest_date":"2025-12-13","jeonse_ratio":77.6,"wolse_deposit_median":5900,"wolse_monthly_median":155}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

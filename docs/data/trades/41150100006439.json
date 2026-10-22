@@ -1,5 +1,5 @@
 {"id":"41150100006439",
-"name":"신도4아파트",
+"name":"호원신도4차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":6,"median":26700,"min":25000,"max":27000,"latest_price":26900,"latest_date":"2026-10-09","latest_floor":5,"jeonse_n":6,"wolse_n":1,"jeonse_median":20500,"jeonse_min":18900,"jeonse_max":23000,"jeonse_latest":18900,"jeonse_latest_date":"2026-04-14","jeonse_ratio":76.8,"wolse_deposit_median":18000,"wolse_monthly_median":20},{"area":85,"pyeong":25.7,"n":4,"median":37750,"min":34500,"max":39500,"latest_price":37000,"latest_date":"2026-08-22","latest_floor":8,"jeonse_n":5,"wolse_n":1,"jeonse_median":28350,"jeonse_min":23600,"jeonse_max":32000,"jeonse_latest":31500,"jeonse_latest_date":"2026-07-18","jeonse_ratio":75.1,"wolse_deposit_median":10000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

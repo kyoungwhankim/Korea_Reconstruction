@@ -1,7 +1,7 @@
 {"id":"11680100053071",
 "name":"우성리빙텔아파트",
 "basis":"단지",
-"by_area":[{"area":119,"pyeong":36.0,"n":1,"median":190000,"min":190000,"max":190000,"latest_price":190000,"latest_date":"2026-01-02","latest_floor":9,"jeonse_n":1,"wolse_n":0,"jeonse_median":95000,"jeonse_min":95000,"jeonse_max":95000,"jeonse_latest":95000,"jeonse_latest_date":"2026-07-30","jeonse_ratio":50.0},{"area":120,"pyeong":36.3,"n":1,"median":200000,"min":200000,"max":200000,"latest_price":200000,"latest_date":"2025-11-10","latest_floor":11,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":16500,"wolse_monthly_median":495}],
+"by_area":[{"area":119,"pyeong":36.0,"n":1,"median":190000,"min":190000,"max":190000,"latest_price":190000,"latest_date":"2026-01-02","latest_floor":9,"jeonse_n":2,"wolse_n":0,"jeonse_median":102625,"jeonse_min":95000,"jeonse_max":110250,"jeonse_latest":110250,"jeonse_latest_date":"2026-10-15","jeonse_ratio":54.0},{"area":120,"pyeong":36.3,"n":1,"median":200000,"min":200000,"max":200000,"latest_price":200000,"latest_date":"2025-11-10","latest_floor":11,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":16500,"wolse_monthly_median":495}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-13",120.21,18,70000,null,null,1996],
 ["2006-04-05",106.98,21,66000,null,null,1996],
@@ -60,5 +60,6 @@
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-04-24",120.21,18,30000,400,"갱신","26.04~26.05",null],
 ["2026-07-30",119.25,12,95000,0,"신규","26.11~28.11",null],
-["2026-09-22",120.21,15,3000,590,"신규","26.10~27.10",null]
+["2026-09-22",120.21,15,3000,590,"신규","26.10~27.10",null],
+["2026-10-15",119.25,20,110250,0,"갱신","26.11~28.11",true]
 ]}}

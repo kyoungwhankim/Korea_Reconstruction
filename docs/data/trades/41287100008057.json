@@ -1,5 +1,5 @@
 {"id":"41287100008057",
-"name":"탄현마을(동성)",
+"name":"탄현마을8단지동성",
 "basis":"단지",
 "by_area":[{"area":102,"pyeong":30.9,"n":23,"median":31900,"min":27500,"max":36000,"latest_price":32000,"latest_date":"2026-09-20","latest_floor":13,"jeonse_n":21,"wolse_n":17,"jeonse_median":28000,"jeonse_min":25000,"jeonse_max":29000,"jeonse_latest":28800,"jeonse_latest_date":"2026-09-10","jeonse_ratio":87.8,"wolse_deposit_median":3000,"wolse_monthly_median":120},{"area":122,"pyeong":36.9,"jeonse_n":5,"wolse_n":2,"jeonse_median":35000,"jeonse_min":30000,"jeonse_max":36000,"jeonse_latest":35000,"jeonse_latest_date":"2026-07-27","wolse_deposit_median":3500,"wolse_monthly_median":140}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

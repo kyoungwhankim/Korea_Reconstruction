@@ -1,7 +1,7 @@
 {"id":"41287100007951",
 "name":"강선마을12단지두진아파트",
 "basis":"단지",
-"by_area":[{"area":44,"pyeong":13.3,"n":33,"median":19700,"min":17500,"max":22800,"latest_price":20000,"latest_date":"2026-09-19","latest_floor":14,"jeonse_n":31,"wolse_n":17,"jeonse_median":17000,"jeonse_min":14500,"jeonse_max":18400,"jeonse_latest":17300,"jeonse_latest_date":"2026-09-16","jeonse_ratio":86.3,"wolse_deposit_median":2000,"wolse_monthly_median":70}],
+"by_area":[{"area":44,"pyeong":13.3,"n":34,"median":19700,"min":17500,"max":22800,"latest_price":19400,"latest_date":"2026-10-19","latest_floor":12,"jeonse_n":31,"wolse_n":17,"jeonse_median":17000,"jeonse_min":14500,"jeonse_max":18400,"jeonse_latest":17300,"jeonse_latest_date":"2026-09-16","jeonse_ratio":86.3,"wolse_deposit_median":2000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",44.32,4,6800,null,null,1994],
 ["2006-01-19",44.32,9,7650,null,null,1994],
@@ -581,7 +581,8 @@
 ["2026-07-29",44.32,4,21500,"1201","직거래",1994],
 ["2026-07-30",44.32,21,20100,null,"중개거래",1994],
 ["2026-08-07",44.32,7,22500,"1201","중개거래",1994],
-["2026-09-19",44.32,14,20000,"1201","중개거래",1994]
+["2026-09-19",44.32,14,20000,"1201","중개거래",1994],
+["2026-10-19",44.32,12,19400,null,"중개거래",1994]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-04",44.32,21,1000,70,"신규","25.11~26.11",null],

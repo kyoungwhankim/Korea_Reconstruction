@@ -1,5 +1,5 @@
 {"id":"41287100008080",
-"name":"장성마을(동부)",
+"name":"대화장성마을1단지동부",
 "basis":"단지",
 "by_area":[{"area":52,"pyeong":15.7,"n":2,"median":34650,"min":32000,"max":37300,"latest_price":32000,"latest_date":"2026-06-05","latest_floor":9,"jeonse_n":15,"wolse_n":13,"jeonse_median":24000,"jeonse_min":15000,"jeonse_max":26000,"jeonse_latest":25000,"jeonse_latest_date":"2026-09-21","jeonse_ratio":69.3,"wolse_deposit_median":3000,"wolse_monthly_median":84},{"area":67,"pyeong":20.3,"n":1,"median":51000,"min":51000,"max":51000,"latest_price":51000,"latest_date":"2026-04-08","latest_floor":11,"jeonse_n":5,"wolse_n":2,"jeonse_median":32000,"jeonse_min":28000,"jeonse_max":35000,"jeonse_latest":35000,"jeonse_latest_date":"2026-09-01","jeonse_ratio":62.7,"wolse_deposit_median":18000,"wolse_monthly_median":65},{"area":85,"pyeong":25.7,"n":7,"median":59500,"min":52000,"max":61000,"latest_price":57500,"latest_date":"2026-08-15","latest_floor":4,"jeonse_n":11,"wolse_n":6,"jeonse_median":40000,"jeonse_min":32000,"jeonse_max":53000,"jeonse_latest":39000,"jeonse_latest_date":"2026-10-13","jeonse_ratio":67.2,"wolse_deposit_median":5125,"wolse_monthly_median":130}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

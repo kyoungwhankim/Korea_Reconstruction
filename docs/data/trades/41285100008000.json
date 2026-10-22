@@ -1,5 +1,5 @@
 {"id":"41285100008000",
-"name":"흰돌마을(금호)",
+"name":"백석흰돌마을1단지금호",
 "basis":"단지",
 "by_area":[{"area":52,"pyeong":15.7,"n":8,"median":29550,"min":21000,"max":32250,"latest_price":28500,"latest_date":"2026-10-03","latest_floor":7,"jeonse_n":11,"wolse_n":10,"jeonse_median":21000,"jeonse_min":18500,"jeonse_max":24000,"jeonse_latest":24000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":71.1,"wolse_deposit_median":3500,"wolse_monthly_median":70},{"area":60,"pyeong":18.1,"n":3,"median":32500,"min":31500,"max":35000,"latest_price":35000,"latest_date":"2026-08-12","latest_floor":20,"jeonse_n":8,"wolse_n":2,"jeonse_median":27000,"jeonse_min":23600,"jeonse_max":28000,"jeonse_latest":28000,"jeonse_latest_date":"2026-08-19","jeonse_ratio":83.1,"wolse_deposit_median":4000,"wolse_monthly_median":105}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
