@@ -66,6 +66,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "data: $(date +%F) 재건축 현황 갱신"
+          # 실행 중에 main이 바뀌었으면(코드 푸시) 그 위에 다시 얹어 올린다 — 2026-10-22 #18은 푸시가 거절돼 40분 작업이 버려졌다
+          git pull --rebase origin main || { echo "::error::main이 바뀌어 리베이스에 실패 — 이번 실행의 데이터 커밋을 올리지 못함"; exit 1; }
           git push
 
       - name: Fail if a source keeps failing
