@@ -96,7 +96,8 @@ STAGE_PATTERNS = [
     ("안전진단", r"안전진단|재건축진단", True),
     ("정비계획수립", r"정비계획(안)?(주민)?(수립|입안|열람|공람|공고|의견수렴|설명회)|신속통합기획(안)?.{0,4}(확정|완료|수립)|신통기획.{0,6}(확정|완료)", False),
     ("정비계획수립", r"신속통합기획|신통기획|정비계획", True),
-    ("정비구역지정", r"정비구역(으로)?(지정|결정)|구역지정|정비구역.{0,3}고시|정비계획.{0,8}(통과|가결|결정)|"
+    ("예정구역·후보지", r"정비예정구역(으로)?.{0,2}(지정|결정|고시)|후보지.{0,3}(선정|지정)", False),
+    ("정비구역지정", r"정비구역(으로)?(지정|결정)|(?<!예정)구역지정|정비구역.{0,3}고시|정비계획.{0,8}(통과|가결|결정)|"
                  r"도시계획위원회.{0,10}(통과|가결)|도계위.{0,10}(통과|가결)", False),
     ("정비구역지정", r"도시계획위원회|도계위|정비구역", True),
     ("추진위구성", r"추진위(원회)?(구성)?승인|추진위(원회)?(구성|설립|출범)", False),
@@ -124,7 +125,7 @@ STAGE_PATTERNS = [(s, re.compile(rx), hedged) for s, rx, hedged in STAGE_PATTERN
 NEGATIVE = re.compile(r"무산|반려|부결|보류|취소|제동|철회|불허|무효|백지화|좌초|불발|기각|중단|제외|탈락")
 SKIP_TITLE = re.compile(r"리모델링|가로주택|소규모재건축|모아타운|재개발구역")       # 다른 사업 유형
 MARKET = re.compile(r"분양권|입주권|경매|공매|낙찰|신고가|호가|시세|집값|매매가|전셋값|전세가|월세|임대료|갭투자|대출|청약통장")
-HEDGE = re.compile(r"앞두|앞둔|예정|목표|추진|신청|준비|임박|가시화|눈앞|채비|시동|박차|나선|나섰|동의서|동의율|설명회|공청회|본격|"
+HEDGE = re.compile(r"앞두|앞둔|예정|예비|목표|추진|신청|준비|임박|가시화|눈앞|채비|시동|박차|나선|나섰|동의서|동의율|설명회|공청회|본격|"
                    r"입찰|시공사|시공권|수주|총회|촉구|요구|요청|기대|전망|가능성|검토|논의|협의|갈등|반발|소송|난항|지연|연기|"
                    r"초읽기|코앞|청신호|가속|탄력|순항|급물살|물꼬|첫발|첫걸음|방침|용역|공모|도전|노린|노려|겨냥|위해|위한|"
                    r"관건|변수|기로|촉각|주목|예고|시기|언제|가능할까|되나|될까|향해|향한|남았|남은|예상|앞으로|수순|순서|절차|공람|열람")
@@ -411,7 +412,18 @@ def load_complexes() -> dict[str, dict]:
         return {}
     data = json.loads(path.read_text(encoding="utf-8"))
     return {COMPLEX_PREFIX + a["complex_id"]: a for a in data.get("apartments", [])
-            if not a.get("project_id") and (a.get("households") or 0) >= COMPLEX_MIN_UNITS and a.get("name")}
+            if not a.get("project_id") and (a.get("households") or 0) >= COMPLEX_MIN_UNITS and a.get("name")
+            and a.get("name") != "?" and not str(a["complex_id"]).startswith("lot:")}   # 정체 없는 지번 항목은 뺀다
+
+
+def projects_with_complex() -> set[str]:
+    """이미 단지가 붙어 있는 사업장(docs/data/apartments.json). 그런 사업장에는 기사가 맞아도 다른 단지를 더 붙이지 않는다
+    (가야주공5단지1차 사업장에 형제 단지 가야3주공·임대가 같은 별칭 '가야주공5단지'로 붙었던 사고)."""
+    path = cr.BASE / "docs" / "data" / "apartments.json"
+    if not path.exists():
+        return set()
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return {a["project_id"] for a in data.get("apartments", []) if a.get("project_id")}
 
 
 def build_profiles(projects: dict[str, dict], apartments: dict[str, dict] | None = None) -> dict[str, dict]:
@@ -602,8 +614,11 @@ def prune(state: dict[str, dict], profiles: dict[str, dict], dismissed: set[str]
             if not det:
                 continue
             c["stage"], c["confidence"] = det
-            if prof["kind"] == NEW_KIND:   # 같은 제목이 (그 단계에 아직 못 미친) 기존 사업장에도 맞으면 새 사업장 대신 그곳에 붙인다
-                c["owner"] = owner_project(c["title"], prof, profiles, c["stage"])
+            if prof["kind"] == NEW_KIND:   # 같은 제목이 기존 사업장에도 맞으면: 그 사업장이 아직 그 단계 전이면 거기에 붙이고, 아니면 후보가 아니다
+                pid, verdict = owner_project(c["title"], prof, profiles, c["stage"])
+                if verdict == "claimed":
+                    continue
+                c["owner"] = pid if verdict == "attach" else None
             key = title_key(c["title"])
             limit = expire_new if prof["kind"] == NEW_KIND and c["confidence"] == "확정" else expire
             if c["id"] not in dismissed and cr.STAGE_ORDER[c["stage"]] > order and c["published"] >= limit and key not in kept:
@@ -613,7 +628,7 @@ def prune(state: dict[str, dict], profiles: dict[str, dict], dismissed: set[str]
             del state[pid]
 
 
-def owner_project(title: str, prof: dict, profiles: dict[str, dict], stage: str | None = None) -> str | None:
+def owner_project(title: str, prof: dict, profiles: dict[str, dict], stage: str | None = None) -> tuple[str | None, str]:
     """단지 후보의 기사 제목이 같은 시군구의 기존 사업장 이름에도 맞으면 그 project_id(하나일 때만).
     '철산주공12단지, 조합설립인가' 기사가 부동산원 단지 '주공12아파트'(철산동)와 사업장 '철산주공12단지'에 모두 맞는 경우 —
     새 사업장을 만들지 않고 단지를 그 사업장에 붙인다(auto_projects.csv의 project_id 열).
@@ -623,12 +638,16 @@ def owner_project(title: str, prof: dict, profiles: dict[str, dict], stage: str 
     for key, p in profiles.items():
         if p["kind"] != STAGE_KIND or p["sgg"] != prof["sgg"] or p["sido"] != prof["sido"]:
             continue
-        if p["order"] >= cr.STAGE_ORDER["준공"] or (stage and p["order"] >= cr.STAGE_ORDER[stage]):
-            continue
         alias = match_name(p, title)
         if alias and not generic_key(cr.zone_key(alias)):
             hits.add(key)
-    return next(iter(hits)) if len(hits) == 1 else None
+    if len(hits) != 1:
+        return None, "none"
+    pid, p = next(iter(hits)), profiles[next(iter(hits))]
+    # 그 사업장이 이미 그 단계(이상)이거나 준공·청산됐거나 단지가 이미 붙어 있으면: 기사는 그 사업장 것 — 이 단지는 후보가 아니다
+    if p["order"] >= cr.STAGE_ORDER["준공"] or (stage and p["order"] >= cr.STAGE_ORDER[stage]) or pid in projects_with_complex():
+        return pid, "claimed"
+    return pid, "attach"
 
 
 def title_key(title: str) -> str:
@@ -865,8 +884,8 @@ def auto_apply(rows: list[dict], profiles: dict[str, dict], today: date, write: 
                     votes[o] = votes.get(o, 0) + 1
             owner = max(votes, key=votes.get) if votes else None
             if owner:
-                if order - profiles[owner]["order"] > AUTO_MAX_JUMP:
-                    continue
+                if order - profiles[owner]["order"] > AUTO_MAX_JUMP or owner in projects_with_complex():
+                    continue                               # 단지가 이미 붙은 사업장에는 다른 단지를 더 붙이지 않는다
                 item["owner"] = owner
                 note += f" — 기존 사업장 {owner}에 연결"
             elif order > cr.STAGE_ORDER[AUTO_NEW_MAX_STAGE]:
