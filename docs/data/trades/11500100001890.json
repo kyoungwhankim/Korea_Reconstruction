@@ -1,7 +1,7 @@
 {"id":"11500100001890",
 "name":"경동대림아파트",
 "basis":"단지",
-"by_area":[{"area":131,"pyeong":39.6,"n":20,"median":142000,"min":100000,"max":155000,"latest_price":149500,"latest_date":"2026-10-07","latest_floor":2,"jeonse_n":29,"wolse_n":15,"jeonse_median":68000,"jeonse_min":50000,"jeonse_max":80000,"jeonse_latest":68000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":47.9,"wolse_deposit_median":25000,"wolse_monthly_median":165}],
+"by_area":[{"area":131,"pyeong":39.6,"n":20,"median":142000,"min":100000,"max":155000,"latest_price":149500,"latest_date":"2026-10-07","latest_floor":2,"jeonse_n":30,"wolse_n":15,"jeonse_median":68000,"jeonse_min":50000,"jeonse_max":80000,"jeonse_latest":80000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":47.9,"wolse_deposit_median":25000,"wolse_monthly_median":165}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-24",131.4,7,53000,null,null,1993],
 ["2006-01-25",131.4,7,53000,null,null,1993],
@@ -414,5 +414,6 @@
 ["2026-09-04",131.4,6,68000,40,"갱신","26.09~28.09",null],
 ["2026-10-01",131.4,5,50000,100,"신규","26.12~28.12",null],
 ["2026-10-06",131.4,14,80000,0,"신규","27.02~29.02",null],
-["2026-10-15",131.4,8,68000,0,"갱신","27.01~29.01",true]
+["2026-10-15",131.4,8,68000,0,"갱신","27.01~29.01",true],
+["2026-10-19",131.4,9,80000,0,"신규","26.12~28.12",null]
 ]}}

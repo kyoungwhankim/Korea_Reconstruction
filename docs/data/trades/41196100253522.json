@@ -1,7 +1,7 @@
 {"id":"41196100253522",
 "name":"영안(273-1)",
 "basis":"단지",
-"by_area":[{"area":39,"pyeong":11.8,"n":3,"median":13700,"min":13300,"max":14800,"latest_price":13700,"latest_date":"2026-09-11","latest_floor":5,"jeonse_n":1,"wolse_n":2,"jeonse_median":12000,"jeonse_min":12000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-08-08","jeonse_ratio":87.6,"wolse_deposit_median":1000,"wolse_monthly_median":57},{"area":42,"pyeong":12.7,"jeonse_n":1,"wolse_n":1,"jeonse_median":13000,"jeonse_min":13000,"jeonse_max":13000,"jeonse_latest":13000,"jeonse_latest_date":"2026-01-06","wolse_deposit_median":2000,"wolse_monthly_median":45},{"area":48,"pyeong":14.5,"jeonse_n":1,"wolse_n":0,"jeonse_median":13000,"jeonse_min":13000,"jeonse_max":13000,"jeonse_latest":13000,"jeonse_latest_date":"2026-04-29"}],
+"by_area":[{"area":39,"pyeong":11.8,"n":3,"median":13700,"min":13300,"max":14800,"latest_price":13700,"latest_date":"2026-09-11","latest_floor":5,"jeonse_n":1,"wolse_n":3,"jeonse_median":12000,"jeonse_min":12000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-08-08","jeonse_ratio":87.6,"wolse_deposit_median":1000,"wolse_monthly_median":60},{"area":42,"pyeong":12.7,"jeonse_n":1,"wolse_n":1,"jeonse_median":13000,"jeonse_min":13000,"jeonse_max":13000,"jeonse_latest":13000,"jeonse_latest_date":"2026-01-06","wolse_deposit_median":2000,"wolse_monthly_median":45},{"area":48,"pyeong":14.5,"jeonse_n":1,"wolse_n":0,"jeonse_median":13000,"jeonse_min":13000,"jeonse_max":13000,"jeonse_latest":13000,"jeonse_latest_date":"2026-04-29"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-07-27",42.03,4,5500,null,null,1987],
 ["2006-07-29",39.24,5,5500,null,null,1987],
@@ -63,5 +63,6 @@
 ["2026-04-29",47.61,4,13000,0,"신규","26.05~28.05",null],
 ["2026-05-08",39.24,5,1000,60,"신규","26.05~28.05",null],
 ["2026-06-22",39.24,4,1000,55,"신규","26.09~28.09",null],
-["2026-08-08",39.24,2,12000,0,"신규","26.08~28.08",null]
+["2026-08-08",39.24,2,12000,0,"신규","26.08~28.08",null],
+["2026-10-21",39.24,4,1000,60,"신규","26.11~28.11",null]
 ]}}

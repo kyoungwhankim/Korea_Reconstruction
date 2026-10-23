@@ -1,7 +1,7 @@
 {"id":"28237100005685",
 "name":"산곡 우성5차 아파트",
 "basis":"단지",
-"by_area":[{"area":41,"pyeong":12.4,"n":4,"median":14500,"min":14000,"max":14700,"latest_price":14000,"latest_date":"2026-09-08","latest_floor":14,"jeonse_n":3,"wolse_n":4,"jeonse_median":11000,"jeonse_min":11000,"jeonse_max":13000,"jeonse_latest":11000,"jeonse_latest_date":"2026-06-03","jeonse_ratio":75.9,"wolse_deposit_median":1000,"wolse_monthly_median":60},{"area":60,"pyeong":18.1,"n":1,"median":22100,"min":22100,"max":22100,"latest_price":22100,"latest_date":"2026-06-21","latest_floor":17,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1500,"wolse_monthly_median":72},{"area":84,"pyeong":25.4,"n":5,"median":29000,"min":26500,"max":31500,"latest_price":29000,"latest_date":"2026-09-21","latest_floor":5,"jeonse_n":4,"wolse_n":1,"jeonse_median":22500,"jeonse_min":17850,"jeonse_max":23000,"jeonse_latest":22000,"jeonse_latest_date":"2026-07-06","jeonse_ratio":77.6,"wolse_deposit_median":3000,"wolse_monthly_median":100}],
+"by_area":[{"area":41,"pyeong":12.4,"n":4,"median":14500,"min":14000,"max":14700,"latest_price":14000,"latest_date":"2026-09-08","latest_floor":14,"jeonse_n":3,"wolse_n":4,"jeonse_median":11000,"jeonse_min":11000,"jeonse_max":13000,"jeonse_latest":11000,"jeonse_latest_date":"2026-06-03","jeonse_ratio":75.9,"wolse_deposit_median":1000,"wolse_monthly_median":60},{"area":60,"pyeong":18.1,"n":2,"median":22550,"min":22100,"max":23000,"latest_price":23000,"latest_date":"2026-10-19","latest_floor":13,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1500,"wolse_monthly_median":72},{"area":84,"pyeong":25.4,"n":5,"median":29000,"min":26500,"max":31500,"latest_price":29000,"latest_date":"2026-09-21","latest_floor":5,"jeonse_n":4,"wolse_n":1,"jeonse_median":22500,"jeonse_min":17850,"jeonse_max":23000,"jeonse_latest":22000,"jeonse_latest_date":"2026-07-06","jeonse_ratio":77.6,"wolse_deposit_median":3000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-10",41.13,2,5500,null,null,1996],
 ["2006-02-15",41.13,14,6200,null,null,1996],
@@ -412,7 +412,8 @@
 ["2026-06-21",59.94,17,22100,"제502동","중개거래",1996],
 ["2026-08-20",41.13,1,14700,"제501동","직거래",1996],
 ["2026-09-08",41.13,14,14000,null,"중개거래",1996],
-["2026-09-21",83.63,5,29000,null,"중개거래",1996]
+["2026-09-21",83.63,5,29000,null,"중개거래",1996],
+["2026-10-19",59.54,13,23000,null,"중개거래",1996]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-12-08",41.13,4,13000,0,"신규","26.01~28.01",null],

@@ -1,5 +1,5 @@
 {"id":"41390100009230",
-"name":"벽산아파트",
+"name":"대야벽산1차",
 "basis":"단지",
 "by_area":[{"area":77,"pyeong":23.3,"n":2,"median":34750,"min":34000,"max":35500,"latest_price":35500,"latest_date":"2025-11-26","latest_floor":2,"jeonse_n":5,"wolse_n":3,"jeonse_median":25000,"jeonse_min":20000,"jeonse_max":27000,"jeonse_latest":25000,"jeonse_latest_date":"2026-05-22","jeonse_ratio":71.9,"wolse_deposit_median":6000,"wolse_monthly_median":90},{"area":85,"pyeong":25.7,"n":2,"median":36000,"min":33000,"max":39000,"latest_price":33000,"latest_date":"2026-10-12","latest_floor":3,"jeonse_n":8,"wolse_n":2,"jeonse_median":28250,"jeonse_min":27000,"jeonse_max":30000,"jeonse_latest":28000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":78.5,"wolse_deposit_median":14000,"wolse_monthly_median":52}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

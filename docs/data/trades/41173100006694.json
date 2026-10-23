@@ -1,7 +1,7 @@
 {"id":"41173100006694",
 "name":"한가람(세경)",
 "basis":"단지",
-"by_area":[{"area":50,"pyeong":15.1,"n":79,"median":67800,"min":44000,"max":85000,"latest_price":85000,"latest_date":"2026-09-30","latest_floor":9,"jeonse_n":74,"wolse_n":20,"jeonse_median":29000,"jeonse_min":23100,"jeonse_max":40000,"jeonse_latest":28350,"jeonse_latest_date":"2026-10-09","jeonse_ratio":42.8,"wolse_deposit_median":3000,"wolse_monthly_median":98},{"area":52,"pyeong":15.7,"n":67,"median":68000,"min":38010,"max":89000,"latest_price":89000,"latest_date":"2026-10-09","latest_floor":16,"jeonse_n":72,"wolse_n":23,"jeonse_median":29800,"jeonse_min":22050,"jeonse_max":40000,"jeonse_latest":35000,"jeonse_latest_date":"2026-09-16","jeonse_ratio":43.8,"wolse_deposit_median":5000,"wolse_monthly_median":93}],
+"by_area":[{"area":50,"pyeong":15.1,"n":79,"median":67800,"min":44000,"max":85000,"latest_price":85000,"latest_date":"2026-09-30","latest_floor":9,"jeonse_n":74,"wolse_n":20,"jeonse_median":29000,"jeonse_min":23100,"jeonse_max":40000,"jeonse_latest":28350,"jeonse_latest_date":"2026-10-09","jeonse_ratio":42.8,"wolse_deposit_median":3000,"wolse_monthly_median":98},{"area":52,"pyeong":15.7,"n":67,"median":68000,"min":38010,"max":89000,"latest_price":89000,"latest_date":"2026-10-09","latest_floor":16,"jeonse_n":73,"wolse_n":23,"jeonse_median":29600,"jeonse_min":22050,"jeonse_max":40000,"jeonse_latest":28350,"jeonse_latest_date":"2026-10-22","jeonse_ratio":43.5,"wolse_deposit_median":5000,"wolse_monthly_median":93}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-04",49.68,8,13000,null,null,1996],
 ["2006-01-12",49.68,3,13000,null,null,1996],
@@ -2755,5 +2755,6 @@
 ["2026-10-08",51.75,2,10000,74,"신규","26.12~28.12",null],
 ["2026-10-09",49.68,6,28350,0,"갱신","26.11~28.11",true],
 ["2026-10-19",51.75,15,20000,80,"신규","26.11~28.11",null],
-["2026-10-20",49.68,1,2500,95,"갱신","27.01~29.01",true]
+["2026-10-20",49.68,1,2500,95,"갱신","27.01~29.01",true],
+["2026-10-22",51.75,17,28350,0,"갱신","26.10~28.10",true]
 ]}}

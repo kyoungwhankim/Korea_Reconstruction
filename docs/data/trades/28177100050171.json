@@ -1,5 +1,5 @@
 {"id":"28177100050171",
-"name":"삼환2(삼환관교2단지)",
+"name":"관교삼환2차",
 "basis":"단지",
 "by_area":[{"area":85,"pyeong":25.7,"n":16,"median":39000,"min":35000,"max":41500,"latest_price":40750,"latest_date":"2026-08-20","latest_floor":4,"jeonse_n":13,"wolse_n":7,"jeonse_median":25000,"jeonse_min":23500,"jeonse_max":28000,"jeonse_latest":26000,"jeonse_latest_date":"2026-10-04","jeonse_ratio":64.1,"wolse_deposit_median":3000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

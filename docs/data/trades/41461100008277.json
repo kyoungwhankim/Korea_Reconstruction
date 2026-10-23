@@ -1,7 +1,7 @@
 {"id":"41461100008277",
 "name":"용인인정프린스2차",
 "basis":"단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":8,"median":19400,"min":18000,"max":21300,"latest_price":18500,"latest_date":"2026-09-19","latest_floor":7,"jeonse_n":16,"wolse_n":3,"jeonse_median":15800,"jeonse_min":8000,"jeonse_max":18500,"jeonse_latest":15000,"jeonse_latest_date":"2026-10-01","jeonse_ratio":81.4,"wolse_deposit_median":1500,"wolse_monthly_median":70},{"area":85,"pyeong":25.7,"n":4,"median":25250,"min":23200,"max":28000,"latest_price":24500,"latest_date":"2026-10-19","latest_floor":9,"jeonse_n":10,"wolse_n":2,"jeonse_median":18650,"jeonse_min":15000,"jeonse_max":22000,"jeonse_latest":22000,"jeonse_latest_date":"2026-08-11","jeonse_ratio":73.9,"wolse_deposit_median":8000,"wolse_monthly_median":49}],
+"by_area":[{"area":59,"pyeong":17.8,"n":8,"median":19400,"min":18000,"max":21300,"latest_price":18500,"latest_date":"2026-09-19","latest_floor":7,"jeonse_n":16,"wolse_n":3,"jeonse_median":15800,"jeonse_min":8000,"jeonse_max":18500,"jeonse_latest":15000,"jeonse_latest_date":"2026-10-01","jeonse_ratio":81.4,"wolse_deposit_median":1500,"wolse_monthly_median":70},{"area":85,"pyeong":25.7,"n":5,"median":25000,"min":23200,"max":28000,"latest_price":24500,"latest_date":"2026-10-19","latest_floor":9,"jeonse_n":10,"wolse_n":2,"jeonse_median":18650,"jeonse_min":15000,"jeonse_max":22000,"jeonse_latest":22000,"jeonse_latest_date":"2026-08-11","jeonse_ratio":74.6,"wolse_deposit_median":8000,"wolse_monthly_median":49}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-18",59.4,5,8300,null,null,1995],
 ["2006-02-12",59.4,13,8400,null,null,1995],
@@ -389,6 +389,7 @@
 ["2026-07-04",59.4,9,21000,null,"중개거래",1995],
 ["2026-08-25",84.87,17,28000,"2003","중개거래",1995],
 ["2026-09-19",59.4,7,18500,null,"중개거래",1995],
+["2026-10-12",84.87,10,25000,null,"중개거래",1995],
 ["2026-10-19",84.87,9,24500,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

@@ -1,7 +1,7 @@
 {"id":"41285100007891",
 "name":"중산마을10(경남)",
 "basis":"단지",
-"by_area":[{"area":74,"pyeong":22.4,"n":4,"median":29000,"min":28000,"max":30700,"latest_price":28000,"latest_date":"2026-07-17","latest_floor":5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":20000,"wolse_monthly_median":20},{"area":85,"pyeong":25.7,"n":5,"median":32000,"min":25100,"max":34700,"latest_price":32000,"latest_date":"2026-07-17","latest_floor":5,"jeonse_n":11,"wolse_n":1,"jeonse_median":26000,"jeonse_min":25000,"jeonse_max":28200,"jeonse_latest":26000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":81.2,"wolse_deposit_median":3000,"wolse_monthly_median":110}],
+"by_area":[{"area":74,"pyeong":22.4,"n":4,"median":29000,"min":28000,"max":30700,"latest_price":28000,"latest_date":"2026-07-17","latest_floor":5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":20000,"wolse_monthly_median":20},{"area":85,"pyeong":25.7,"n":5,"median":32000,"min":25100,"max":34700,"latest_price":32000,"latest_date":"2026-07-17","latest_floor":5,"jeonse_n":12,"wolse_n":1,"jeonse_median":26000,"jeonse_min":25000,"jeonse_max":28200,"jeonse_latest":26000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":81.2,"wolse_deposit_median":3000,"wolse_monthly_median":110}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-18",84.9,10,17000,null,null,1995],
 ["2006-02-05",73.98,6,14100,null,null,1995],
@@ -341,5 +341,6 @@
 ["2026-06-24",84.9,3,26000,0,"신규","26.07~28.07",null],
 ["2026-06-24",84.9,3,26000,0,"신규","26.07~28.07",null],
 ["2026-10-02",84.9,12,28200,0,"갱신","26.10~28.10",null],
+["2026-10-08",84.9,1,26000,0,"신규","26.12~28.12",null],
 ["2026-10-08",84.9,1,26000,0,"신규","26.12~28.12",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"11215100003376",
 "name":"광장극동1차",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":3,"median":269000,"min":250000,"max":270000,"latest_price":270000,"latest_date":"2026-07-02","latest_floor":4,"jeonse_n":17,"wolse_n":8,"jeonse_median":65000,"jeonse_min":50000,"jeonse_max":80000,"jeonse_latest":60900,"jeonse_latest_date":"2026-06-06","jeonse_ratio":24.2,"wolse_deposit_median":60000,"wolse_monthly_median":65},{"area":127,"pyeong":38.4,"n":1,"median":260000,"min":260000,"max":260000,"latest_price":260000,"latest_date":"2026-04-23","latest_floor":5,"jeonse_n":13,"wolse_n":5,"jeonse_median":80000,"jeonse_min":67000,"jeonse_max":120000,"jeonse_latest":84000,"jeonse_latest_date":"2026-10-13","jeonse_ratio":30.8,"wolse_deposit_median":23000,"wolse_monthly_median":280},{"area":157,"pyeong":47.5,"jeonse_n":5,"wolse_n":1,"jeonse_median":98000,"jeonse_min":60900,"jeonse_max":123000,"jeonse_latest":123000,"jeonse_latest_date":"2026-05-23","wolse_deposit_median":50000,"wolse_monthly_median":230}],
+"by_area":[{"area":85,"pyeong":25.7,"n":3,"median":269000,"min":250000,"max":270000,"latest_price":270000,"latest_date":"2026-07-02","latest_floor":4,"jeonse_n":17,"wolse_n":8,"jeonse_median":65000,"jeonse_min":50000,"jeonse_max":80000,"jeonse_latest":60900,"jeonse_latest_date":"2026-06-06","jeonse_ratio":24.2,"wolse_deposit_median":60000,"wolse_monthly_median":65},{"area":127,"pyeong":38.4,"n":1,"median":260000,"min":260000,"max":260000,"latest_price":260000,"latest_date":"2026-04-23","latest_floor":5,"jeonse_n":14,"wolse_n":5,"jeonse_median":82000,"jeonse_min":67000,"jeonse_max":120000,"jeonse_latest":100000,"jeonse_latest_date":"2026-10-22","jeonse_ratio":31.5,"wolse_deposit_median":23000,"wolse_monthly_median":280},{"area":157,"pyeong":47.5,"jeonse_n":5,"wolse_n":1,"jeonse_median":98000,"jeonse_min":60900,"jeonse_max":123000,"jeonse_latest":123000,"jeonse_latest_date":"2026-05-23","wolse_deposit_median":50000,"wolse_monthly_median":230}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-06",156.92,1,94500,null,null,1985],
 ["2006-01-20",126.94,9,93000,null,null,1985],
@@ -288,5 +288,6 @@
 ["2026-09-30",126.94,4,65000,40,"갱신","26.11~28.11",null],
 ["2026-10-06",126.94,13,110000,0,"신규","26.12~28.12",null],
 ["2026-10-09",84.55,4,70000,40,"신규","27.01~29.01",null],
-["2026-10-13",126.94,14,84000,0,"갱신","26.11~29.01",true]
+["2026-10-13",126.94,14,84000,0,"갱신","26.11~29.01",true],
+["2026-10-22",126.94,8,100000,0,"신규","26.10~28.10",null]
 ]}}

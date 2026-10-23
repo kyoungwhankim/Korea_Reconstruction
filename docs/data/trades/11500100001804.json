@@ -1,5 +1,5 @@
 {"id":"11500100001804",
-"name":"현대아파트",
+"name":"등촌현대1차(한마음)",
 "basis":"단지",
 "by_area":[{"area":85,"pyeong":25.7,"n":4,"median":82400,"min":72500,"max":85000,"latest_price":85000,"latest_date":"2026-07-11","latest_floor":6,"jeonse_n":5,"wolse_n":1,"jeonse_median":50400,"jeonse_min":46000,"jeonse_max":55000,"jeonse_latest":52000,"jeonse_latest_date":"2026-07-04","jeonse_ratio":61.2,"wolse_deposit_median":52000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

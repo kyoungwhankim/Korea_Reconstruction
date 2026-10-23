@@ -1,7 +1,7 @@
 {"id":"41281100050388",
 "name":"화정옥빛16단지주공",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":35,"median":34400,"min":31500,"max":40000,"latest_price":36900,"latest_date":"2026-09-23","latest_floor":18,"jeonse_n":59,"wolse_n":21,"jeonse_median":27000,"jeonse_min":18500,"jeonse_max":30000,"jeonse_latest":25000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":78.5,"wolse_deposit_median":5000,"wolse_monthly_median":76}],
+"by_area":[{"area":60,"pyeong":18.1,"n":36,"median":34450,"min":31500,"max":40000,"latest_price":37000,"latest_date":"2026-10-21","latest_floor":7,"jeonse_n":59,"wolse_n":21,"jeonse_median":27000,"jeonse_min":18500,"jeonse_max":30000,"jeonse_latest":25000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":78.4,"wolse_deposit_median":5000,"wolse_monthly_median":76}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-14",59.97,3,12200,null,null,1996],
 ["2006-01-18",59.97,6,12100,null,null,1996],
@@ -886,7 +886,8 @@
 ["2026-08-28",59.97,4,34000,null,"중개거래",1996],
 ["2026-09-09",59.97,11,40000,null,"중개거래",1996],
 ["2026-09-15",59.97,14,37800,null,"중개거래",1996],
-["2026-09-23",59.97,18,36900,null,"중개거래",1996]
+["2026-09-23",59.97,18,36900,null,"중개거래",1996],
+["2026-10-21",59.97,7,37000,null,"중개거래",1996]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-03",59.97,16,8000,60,"신규","26.01~28.01",null],

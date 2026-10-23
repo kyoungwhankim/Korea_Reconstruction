@@ -1,7 +1,7 @@
 {"id":"41135100006351",
 "name":"청솔마을(계룡)",
 "basis":"단지",
-"by_area":[{"area":55,"pyeong":16.6,"n":22,"median":143750,"min":90000,"max":160000,"latest_price":160000,"latest_date":"2026-08-13","latest_floor":11,"jeonse_n":39,"wolse_n":16,"jeonse_median":49350,"jeonse_min":29300,"jeonse_max":60000,"jeonse_latest":47250,"jeonse_latest_date":"2026-09-17","jeonse_ratio":34.3,"wolse_deposit_median":10000,"wolse_monthly_median":155},{"area":85,"pyeong":25.7,"n":6,"median":179500,"min":169000,"max":195000,"latest_price":195000,"latest_date":"2026-04-08","latest_floor":20,"jeonse_n":19,"wolse_n":4,"jeonse_median":70000,"jeonse_min":53400,"jeonse_max":75000,"jeonse_latest":75000,"jeonse_latest_date":"2026-10-03","jeonse_ratio":39.0,"wolse_deposit_median":32500,"wolse_monthly_median":160}],
+"by_area":[{"area":55,"pyeong":16.6,"n":22,"median":143750,"min":90000,"max":160000,"latest_price":160000,"latest_date":"2026-08-13","latest_floor":11,"jeonse_n":39,"wolse_n":16,"jeonse_median":49350,"jeonse_min":29300,"jeonse_max":60000,"jeonse_latest":47250,"jeonse_latest_date":"2026-09-17","jeonse_ratio":34.3,"wolse_deposit_median":10000,"wolse_monthly_median":155},{"area":85,"pyeong":25.7,"n":6,"median":179500,"min":169000,"max":195000,"latest_price":195000,"latest_date":"2026-04-08","latest_floor":20,"jeonse_n":20,"wolse_n":4,"jeonse_median":70000,"jeonse_min":53400,"jeonse_max":75000,"jeonse_latest":68250,"jeonse_latest_date":"2026-10-22","jeonse_ratio":39.0,"wolse_deposit_median":32500,"wolse_monthly_median":160}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-09",55.44,1,17000,null,null,1996],
 ["2006-01-17",55.44,8,24000,null,null,1996],
@@ -716,5 +716,6 @@
 ["2026-10-03",84.97,23,75000,0,"신규","27.01~29.01",null],
 ["2026-10-09",55.44,14,5000,160,"신규","27.01~29.01",null],
 ["2026-10-10",55.44,8,47000,30,"갱신","26.10~28.10",null],
-["2026-10-16",55.44,9,3000,168,"갱신","27.01~29.01",true]
+["2026-10-16",55.44,9,3000,168,"갱신","27.01~29.01",true],
+["2026-10-22",84.97,13,68250,0,"갱신","27.01~29.01",true]
 ]}}

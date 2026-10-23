@@ -1,7 +1,7 @@
 {"id":"41550100008511",
 "name":"아양주공1단지1차",
 "basis":"단지",
-"by_area":[{"area":40,"pyeong":12.1,"n":31,"median":9400,"min":7000,"max":11500,"latest_price":11500,"latest_date":"2026-10-17","latest_floor":3,"jeonse_n":32,"wolse_n":84,"jeonse_median":8100,"jeonse_min":5000,"jeonse_max":10000,"jeonse_latest":9000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":86.2,"wolse_deposit_median":500,"wolse_monthly_median":50},{"area":47,"pyeong":14.2,"n":2,"median":11100,"min":9700,"max":12500,"latest_price":9700,"latest_date":"2026-09-14","latest_floor":6,"jeonse_n":11,"wolse_n":20,"jeonse_median":8000,"jeonse_min":4000,"jeonse_max":10000,"jeonse_latest":4000,"jeonse_latest_date":"2026-09-01","jeonse_ratio":72.1,"wolse_deposit_median":500,"wolse_monthly_median":52}],
+"by_area":[{"area":40,"pyeong":12.1,"n":31,"median":9400,"min":7000,"max":11500,"latest_price":11500,"latest_date":"2026-10-17","latest_floor":3,"jeonse_n":32,"wolse_n":85,"jeonse_median":8100,"jeonse_min":5000,"jeonse_max":10000,"jeonse_latest":9000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":86.2,"wolse_deposit_median":500,"wolse_monthly_median":50},{"area":47,"pyeong":14.2,"n":2,"median":11100,"min":9700,"max":12500,"latest_price":9700,"latest_date":"2026-09-14","latest_floor":6,"jeonse_n":11,"wolse_n":20,"jeonse_median":8000,"jeonse_min":4000,"jeonse_max":10000,"jeonse_latest":4000,"jeonse_latest_date":"2026-09-01","jeonse_ratio":72.1,"wolse_deposit_median":500,"wolse_monthly_median":52}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",39.61,2,5900,null,null,1991],
 ["2006-01-05",46.99,1,5800,null,null,1991],
@@ -1313,6 +1313,7 @@
 ["2026-09-30",40.0,5,600,50,"신규","26.10~28.10",null],
 ["2026-10-02",39.61,4,500,60,"신규","26.10~28.10",null],
 ["2026-10-03",39.61,1,500,60,"신규","26.10~28.10",null],
+["2026-10-03",39.61,2,500,50,"신규","26.10~28.10",null],
 ["2026-10-07",39.61,3,500,50,"신규","26.10~28.10",null],
 ["2026-10-09",39.61,3,500,50,"신규","26.11~28.11",null],
 ["2026-10-15",39.61,3,9000,0,"신규","26.11~28.11",null]

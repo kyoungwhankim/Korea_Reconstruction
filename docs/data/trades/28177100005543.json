@@ -1,5 +1,5 @@
 {"id":"28177100005543",
-"name":"대동1아파트",
+"name":"학익대동5차아파트",
 "basis":"단지",
 "by_area":[{"area":43,"pyeong":13.0,"n":4,"median":10200,"min":8900,"max":11000,"latest_price":10400,"latest_date":"2026-06-27","latest_floor":1,"jeonse_n":3,"wolse_n":5,"jeonse_median":8400,"jeonse_min":6000,"jeonse_max":8500,"jeonse_latest":8400,"jeonse_latest_date":"2026-04-09","jeonse_ratio":82.4,"wolse_deposit_median":1000,"wolse_monthly_median":45},{"area":50,"pyeong":15.1,"n":7,"median":9000,"min":7500,"max":10800,"latest_price":8000,"latest_date":"2026-10-16","latest_floor":5,"jeonse_n":4,"wolse_n":7,"jeonse_median":7650,"jeonse_min":7000,"jeonse_max":9900,"jeonse_latest":9900,"jeonse_latest_date":"2026-07-04","jeonse_ratio":85.0,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
@@ -449,7 +449,7 @@
 ["2026-06-01",42.72,4,11000,"1","중개거래",1988],
 ["2026-06-27",42.72,1,10400,null,"중개거래",1988],
 ["2026-08-19",49.96,5,7500,"3","직거래",1988],
-["2026-10-16",50.33,5,8000,null,"직거래",1988]
+["2026-10-16",50.33,5,8000,"1","직거래",1988]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-05",42.72,4,1000,50,"신규","25.11~26.11",null],

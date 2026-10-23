@@ -1,7 +1,7 @@
 {"id":"41480100007700",
 "name":"한진타운2차",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":2,"median":10750,"min":10000,"max":11500,"latest_price":11500,"latest_date":"2026-10-11","latest_floor":6,"jeonse_n":3,"wolse_n":2,"jeonse_median":10000,"jeonse_min":9500,"jeonse_max":12000,"jeonse_latest":10000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":93.0,"wolse_deposit_median":750,"wolse_monthly_median":50},{"area":77,"pyeong":23.3,"n":1,"median":15900,"min":15900,"max":15900,"latest_price":15900,"latest_date":"2026-01-28","latest_floor":7,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":60}],
+"by_area":[{"area":60,"pyeong":18.1,"n":2,"median":10750,"min":10000,"max":11500,"latest_price":11500,"latest_date":"2026-10-11","latest_floor":6,"jeonse_n":3,"wolse_n":2,"jeonse_median":10000,"jeonse_min":9500,"jeonse_max":12000,"jeonse_latest":10000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":93.0,"wolse_deposit_median":750,"wolse_monthly_median":50},{"area":77,"pyeong":23.3,"n":1,"median":15900,"min":15900,"max":15900,"latest_price":15900,"latest_date":"2026-01-28","latest_floor":7,"jeonse_n":1,"wolse_n":1,"jeonse_median":13000,"jeonse_min":13000,"jeonse_max":13000,"jeonse_latest":13000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":81.8,"wolse_deposit_median":1000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",76.68,9,11000,null,null,1993],
 ["2006-03-06",59.82,4,7000,null,null,1993],
@@ -158,5 +158,6 @@
 ["2026-03-21",59.82,3,1000,55,"신규","26.04~28.03",null],
 ["2026-06-04",59.82,10,12000,0,"갱신","26.06~28.06",true],
 ["2026-08-11",76.68,12,1000,60,"신규","26.09~28.09",null],
+["2026-10-19",76.68,9,13000,0,"신규","26.11~28.11",null],
 ["2026-10-20",59.82,7,10000,0,"신규","26.12~28.12",null]
 ]}}

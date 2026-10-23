@@ -1,7 +1,7 @@
 {"id":"11350100002524",
 "name":"현대2차아파트",
 "basis":"단지",
-"by_area":[{"area":69,"pyeong":20.9,"n":1,"median":53300,"min":53300,"max":53300,"latest_price":53300,"latest_date":"2026-04-03","latest_floor":9,"jeonse_n":2,"wolse_n":0,"jeonse_median":31500,"jeonse_min":31500,"jeonse_max":31500,"jeonse_latest":31500,"jeonse_latest_date":"2026-04-10","jeonse_ratio":59.1},{"area":83,"pyeong":25.1,"n":15,"median":57500,"min":40000,"max":65000,"latest_price":65000,"latest_date":"2026-09-27","latest_floor":10,"jeonse_n":15,"wolse_n":1,"jeonse_median":39000,"jeonse_min":31500,"jeonse_max":49700,"jeonse_latest":44000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":67.8,"wolse_deposit_median":3000,"wolse_monthly_median":87}],
+"by_area":[{"area":69,"pyeong":20.9,"n":1,"median":53300,"min":53300,"max":53300,"latest_price":53300,"latest_date":"2026-04-03","latest_floor":9,"jeonse_n":2,"wolse_n":0,"jeonse_median":31500,"jeonse_min":31500,"jeonse_max":31500,"jeonse_latest":31500,"jeonse_latest_date":"2026-04-10","jeonse_ratio":59.1},{"area":83,"pyeong":25.1,"n":16,"median":57750,"min":40000,"max":65000,"latest_price":65000,"latest_date":"2026-09-27","latest_floor":10,"jeonse_n":15,"wolse_n":1,"jeonse_median":39000,"jeonse_min":31500,"jeonse_max":49700,"jeonse_latest":44000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":67.5,"wolse_deposit_median":3000,"wolse_monthly_median":87}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",82.68,5,17500,null,null,1993],
 ["2006-01-07",82.68,9,17000,null,null,1993],
@@ -436,6 +436,7 @@
 ["2026-07-31",83.45,1,54500,"202","중개거래",1993],
 ["2026-08-29",82.68,2,60000,null,"중개거래",1993],
 ["2026-09-11",82.68,7,62000,null,"중개거래",1993],
+["2026-09-23",83.33,1,60000,null,"중개거래",1993],
 ["2026-09-27",82.68,10,65000,null,"중개거래",1993]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

@@ -1,7 +1,7 @@
 {"id":"경기-성남-삼남",
 "name":"삼남아파트",
 "basis":"기존 단지",
-"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":2,"wolse_n":3,"jeonse_median":49575,"jeonse_min":45150,"jeonse_max":54000,"jeonse_latest":45150,"jeonse_latest_date":"2026-09-12","wolse_deposit_median":10000,"wolse_monthly_median":140},{"area":85,"pyeong":25.7,"jeonse_n":10,"wolse_n":5,"jeonse_median":56050,"jeonse_min":48000,"jeonse_max":68000,"jeonse_latest":52500,"jeonse_latest_date":"2026-10-17","wolse_deposit_median":40000,"wolse_monthly_median":80},{"area":121,"pyeong":36.6,"jeonse_n":9,"wolse_n":3,"jeonse_median":70000,"jeonse_min":60800,"jeonse_max":75000,"jeonse_latest":70000,"jeonse_latest_date":"2026-09-16","wolse_deposit_median":10000,"wolse_monthly_median":135}],
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":2,"wolse_n":3,"jeonse_median":49575,"jeonse_min":45150,"jeonse_max":54000,"jeonse_latest":45150,"jeonse_latest_date":"2026-09-12","wolse_deposit_median":10000,"wolse_monthly_median":140},{"area":85,"pyeong":25.7,"jeonse_n":10,"wolse_n":5,"jeonse_median":56050,"jeonse_min":48000,"jeonse_max":68000,"jeonse_latest":52500,"jeonse_latest_date":"2026-10-17","wolse_deposit_median":40000,"wolse_monthly_median":80},{"area":121,"pyeong":36.6,"jeonse_n":9,"wolse_n":4,"jeonse_median":70000,"jeonse_min":60800,"jeonse_max":75000,"jeonse_latest":70000,"jeonse_latest_date":"2026-09-16","wolse_deposit_median":25000,"wolse_monthly_median":117}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
@@ -36,5 +36,6 @@
 ["2026-09-16",120.6,5,70000,0,"신규","26.12~28.12",null],
 ["2026-09-19",120.97,9,40000,100,"신규","26.12~28.12",null],
 ["2026-09-20",84.98,6,54600,0,"갱신","26.09~28.09",true],
-["2026-10-17",84.98,2,52500,0,"갱신","26.12~28.12",true]
+["2026-10-17",84.98,2,52500,0,"갱신","26.12~28.12",true],
+["2026-10-20",120.97,9,40000,100,"신규","26.12~28.12",null]
 ]}}

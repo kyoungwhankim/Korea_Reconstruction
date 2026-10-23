@@ -1,7 +1,7 @@
 {"id":"41360100008772",
 "name":"현대2아파트",
 "basis":"단지",
-"by_area":[{"area":84,"pyeong":25.4,"n":4,"median":19650,"min":19000,"max":21000,"latest_price":20000,"latest_date":"2026-06-06","latest_floor":7,"jeonse_n":6,"wolse_n":2,"jeonse_median":18000,"jeonse_min":16000,"jeonse_max":18900,"jeonse_latest":18000,"jeonse_latest_date":"2026-08-14","jeonse_ratio":91.6,"wolse_deposit_median":3500,"wolse_monthly_median":62}],
+"by_area":[{"area":84,"pyeong":25.4,"n":4,"median":19650,"min":19000,"max":21000,"latest_price":20000,"latest_date":"2026-06-06","latest_floor":7,"jeonse_n":7,"wolse_n":2,"jeonse_median":18000,"jeonse_min":16000,"jeonse_max":18900,"jeonse_latest":16800,"jeonse_latest_date":"2026-10-20","jeonse_ratio":91.6,"wolse_deposit_median":3500,"wolse_monthly_median":62}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-18",84.33,10,7400,null,null,1993],
 ["2006-03-11",84.33,13,6880,null,null,1993],
@@ -193,5 +193,6 @@
 ["2026-03-30",84.33,3,18000,0,"신규","26.05~28.05",null],
 ["2026-07-11",84.33,4,4000,55,"신규","26.08~28.08",null],
 ["2026-07-20",84.33,4,16000,0,"갱신","26.08~28.08",null],
-["2026-08-14",84.33,6,18000,0,"신규","26.09~28.09",null]
+["2026-08-14",84.33,6,18000,0,"신규","26.09~28.09",null],
+["2026-10-20",84.33,3,16800,0,"갱신","26.11~28.11",true]
 ]}}

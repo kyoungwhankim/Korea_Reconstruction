@@ -12,9 +12,9 @@
   "name": "manual_projects.csv"
  },
  {
-  "changed_at": "2026-10-22",
-  "content_hash": "534ef008688123d9806ebf71381f461be6daac3b",
-  "fingerprint": "526818c18059f4b63c900b5357b0439396a56c40",
+  "changed_at": "2026-10-23",
+  "content_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+  "fingerprint": "9e8f73ff5208232f135c3fa6b1245b0553db4e8b",
   "name": "notice_projects.csv"
  },
  {
@@ -48,8 +48,8 @@
   "name": "서울시_서울플랜+정비사업현황(OA-23112)"
  },
  {
-  "changed_at": "2026-10-22",
-  "content_hash": "bd0eda59d5d2631534b9ce0dd1cd09454b7de9ba",
+  "changed_at": "2026-10-23",
+  "content_hash": "766a3482871521b05f6903acc47ceba5450cd810",
   "fingerprint": null,
   "name": "서울시_정비사업정보몽땅_사업현황"
  },

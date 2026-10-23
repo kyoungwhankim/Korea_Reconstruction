@@ -1,7 +1,7 @@
 {"id":"서울-강남구-일원한솔",
 "name":"일원한솔",
 "basis":"기존 단지",
-"by_area":[{"area":64,"pyeong":19.4,"n":5,"median":260000,"min":206100,"max":269000,"latest_price":260000,"latest_date":"2026-07-06","latest_floor":2,"jeonse_n":11,"wolse_n":2,"jeonse_median":68000,"jeonse_min":55100,"jeonse_max":75000,"jeonse_latest":75000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":26.2,"wolse_deposit_median":37000,"wolse_monthly_median":99},{"area":85,"pyeong":25.7,"n":5,"median":281000,"min":266000,"max":320000,"latest_price":290000,"latest_date":"2026-05-27","latest_floor":5,"jeonse_n":20,"wolse_n":19,"jeonse_median":82000,"jeonse_min":70000,"jeonse_max":95000,"jeonse_latest":90000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":29.2,"wolse_deposit_median":45000,"wolse_monthly_median":150}],
+"by_area":[{"area":64,"pyeong":19.4,"n":5,"median":260000,"min":206100,"max":269000,"latest_price":260000,"latest_date":"2026-07-06","latest_floor":2,"jeonse_n":11,"wolse_n":2,"jeonse_median":68000,"jeonse_min":55100,"jeonse_max":75000,"jeonse_latest":75000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":26.2,"wolse_deposit_median":37000,"wolse_monthly_median":99},{"area":85,"pyeong":25.7,"n":5,"median":281000,"min":266000,"max":320000,"latest_price":290000,"latest_date":"2026-05-27","latest_floor":5,"jeonse_n":20,"wolse_n":20,"jeonse_median":82000,"jeonse_min":70000,"jeonse_max":95000,"jeonse_latest":90000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":29.2,"wolse_deposit_median":42500,"wolse_monthly_median":150}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",84.73,3,93000,null,null,1994],
 ["2006-02-20",63.76,3,56500,null,null,1994],
@@ -448,5 +448,6 @@
 ["2026-10-01",84.73,3,88000,0,"신규","27.01~29.01",null],
 ["2026-10-02",84.73,3,78000,24,"갱신","26.12~28.12",null],
 ["2026-10-04",84.73,4,90000,0,"신규","26.12~28.12",null],
-["2026-10-15",84.73,2,90000,0,"신규","27.02~29.02",null]
+["2026-10-15",84.73,2,90000,0,"신규","27.02~29.02",null],
+["2026-10-22",84.73,3,10000,285,"갱신","26.12~28.12",true]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"서울-서초구-반포미도1",
 "name":"반포미도1차",
 "basis":"기존 단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":5,"median":404000,"min":382000,"max":418000,"latest_price":382000,"latest_date":"2026-09-11","latest_floor":14,"jeonse_n":97,"wolse_n":67,"jeonse_median":80000,"jeonse_min":60000,"jeonse_max":100000,"jeonse_latest":96000,"jeonse_latest_date":"2026-10-09","jeonse_ratio":19.8,"wolse_deposit_median":50000,"wolse_monthly_median":140}],
+"by_area":[{"area":85,"pyeong":25.7,"n":5,"median":404000,"min":382000,"max":418000,"latest_price":382000,"latest_date":"2026-09-11","latest_floor":14,"jeonse_n":98,"wolse_n":67,"jeonse_median":80000,"jeonse_min":60000,"jeonse_max":100000,"jeonse_latest":96000,"jeonse_latest_date":"2026-10-09","jeonse_ratio":19.8,"wolse_deposit_median":50000,"wolse_monthly_median":140}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",84.96,14,70000,null,null,1987],
 ["2006-01-11",84.96,12,67000,null,null,1987],
@@ -949,6 +949,7 @@
 ["2026-09-22",84.96,11,57300,50,"갱신","26.12~28.12",null],
 ["2026-09-28",84.96,3,80000,0,"갱신","26.10~28.10",null],
 ["2026-09-29",84.96,5,65000,0,"갱신","26.10~28.10",null],
+["2026-10-01",84.96,13,80000,0,"신규","26.12~28.12",null],
 ["2026-10-02",84.96,4,62000,0,"신규","26.11~28.11",null],
 ["2026-10-02",84.96,8,75000,28,"갱신","27.01~29.01",true],
 ["2026-10-09",84.96,8,90000,0,"신규","26.11~28.11",null],

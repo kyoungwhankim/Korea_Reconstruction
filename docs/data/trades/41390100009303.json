@@ -1,5 +1,5 @@
 {"id":"41390100009303",
-"name":"금강1차102동아파트",
+"name":"시흥금강1차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":13000,"wolse_monthly_median":10},{"area":72,"pyeong":21.8,"jeonse_n":2,"wolse_n":0,"jeonse_median":14200,"jeonse_min":14200,"jeonse_max":14200,"jeonse_latest":14200,"jeonse_latest_date":"2026-08-06"},{"area":77,"pyeong":23.3,"jeonse_n":1,"wolse_n":0,"jeonse_median":12000,"jeonse_min":12000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2025-12-17"},{"area":99,"pyeong":29.9,"jeonse_n":3,"wolse_n":0,"jeonse_median":15000,"jeonse_min":15000,"jeonse_max":16000,"jeonse_latest":15000,"jeonse_latest_date":"2026-09-19"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

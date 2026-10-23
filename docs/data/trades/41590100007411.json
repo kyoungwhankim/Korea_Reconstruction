@@ -1,5 +1,5 @@
 {"id":"41590100007411",
-"name":"화남아파트",
+"name":"병점화남1단지",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":3,"median":20700,"min":20500,"max":23000,"latest_price":20700,"latest_date":"2026-07-15","latest_floor":2,"jeonse_n":3,"wolse_n":5,"jeonse_median":19100,"jeonse_min":16500,"jeonse_max":20000,"jeonse_latest":16500,"jeonse_latest_date":"2026-10-21","jeonse_ratio":92.3,"wolse_deposit_median":4000,"wolse_monthly_median":60},{"area":84,"pyeong":25.4,"jeonse_n":3,"wolse_n":0,"jeonse_median":20000,"jeonse_min":19000,"jeonse_max":26000,"jeonse_latest":20000,"jeonse_latest_date":"2026-08-29"},{"area":85,"pyeong":25.7,"jeonse_n":3,"wolse_n":3,"jeonse_median":26000,"jeonse_min":18600,"jeonse_max":26000,"jeonse_latest":26000,"jeonse_latest_date":"2026-09-28","wolse_deposit_median":6000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

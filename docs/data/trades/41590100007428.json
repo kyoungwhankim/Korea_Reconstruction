@@ -1,7 +1,7 @@
 {"id":"41590100007428",
 "name":"효일목화아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":4,"median":16100,"min":15000,"max":17000,"latest_price":16200,"latest_date":"2026-07-17","latest_floor":9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":70},{"area":69,"pyeong":20.9,"n":2,"median":18500,"min":16500,"max":20500,"latest_price":16500,"latest_date":"2026-06-12","latest_floor":5,"jeonse_n":1,"wolse_n":3,"jeonse_median":15000,"jeonse_min":15000,"jeonse_max":15000,"jeonse_latest":15000,"jeonse_latest_date":"2026-01-30","jeonse_ratio":81.1,"wolse_deposit_median":3000,"wolse_monthly_median":70}],
+"by_area":[{"area":60,"pyeong":18.1,"n":4,"median":16100,"min":15000,"max":17000,"latest_price":16200,"latest_date":"2026-07-17","latest_floor":9,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1000,"wolse_monthly_median":75},{"area":69,"pyeong":20.9,"n":2,"median":18500,"min":16500,"max":20500,"latest_price":16500,"latest_date":"2026-06-12","latest_floor":5,"jeonse_n":1,"wolse_n":3,"jeonse_median":15000,"jeonse_min":15000,"jeonse_max":15000,"jeonse_latest":15000,"jeonse_latest_date":"2026-01-30","jeonse_ratio":81.1,"wolse_deposit_median":3000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-08",68.7,3,7600,null,null,1994],
 ["2006-02-17",68.7,13,7800,null,null,1994],
@@ -119,5 +119,6 @@
 ["2026-01-30",68.7,6,15000,0,"신규","26.02~28.02",null],
 ["2026-02-26",59.94,13,1000,70,"신규","26.02~27.02",null],
 ["2026-08-12",68.7,8,3000,60,"신규","26.10~28.10",null],
-["2026-09-21",68.7,10,3000,70,"신규","26.10~28.10",null]
+["2026-09-21",68.7,10,3000,70,"신규","26.10~28.10",null],
+["2026-10-16",59.94,13,1000,80,"신규","26.11~28.11",null]
 ]}}

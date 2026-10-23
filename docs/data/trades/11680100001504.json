@@ -1,7 +1,7 @@
 {"id":"11680100001504",
 "name":"도곡우성아파트",
 "basis":"단지",
-"by_area":[{"area":76,"pyeong":23.0,"jeonse_n":10,"wolse_n":4,"jeonse_median":71000,"jeonse_min":60000,"jeonse_max":79000,"jeonse_latest":75000,"jeonse_latest_date":"2026-07-28","wolse_deposit_median":10000,"wolse_monthly_median":250},{"area":85,"pyeong":25.7,"n":3,"median":270000,"min":250000,"max":275000,"latest_price":250000,"latest_date":"2026-07-04","latest_floor":1,"jeonse_n":24,"wolse_n":18,"jeonse_median":73750,"jeonse_min":22000,"jeonse_max":88000,"jeonse_latest":88000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":27.3,"wolse_deposit_median":40000,"wolse_monthly_median":135}],
+"by_area":[{"area":76,"pyeong":23.0,"jeonse_n":10,"wolse_n":5,"jeonse_median":71000,"jeonse_min":60000,"jeonse_max":79000,"jeonse_latest":75000,"jeonse_latest_date":"2026-07-28","wolse_deposit_median":10000,"wolse_monthly_median":250},{"area":85,"pyeong":25.7,"n":3,"median":270000,"min":250000,"max":275000,"latest_price":250000,"latest_date":"2026-07-04","latest_floor":1,"jeonse_n":24,"wolse_n":18,"jeonse_median":73750,"jeonse_min":22000,"jeonse_max":88000,"jeonse_latest":88000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":27.3,"wolse_deposit_median":40000,"wolse_monthly_median":135}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-07",84.83,14,57000,null,null,1986],
 ["2006-03-27",84.83,10,58600,null,null,1986],
@@ -292,5 +292,6 @@
 ["2026-09-30",84.83,10,65000,50,"갱신","26.10~28.10",null],
 ["2026-09-30",84.83,10,73500,0,"갱신","26.10~28.10",true],
 ["2026-10-08",84.83,5,30000,160,"갱신","26.10~28.10",true],
-["2026-10-16",84.83,4,88000,0,"신규","26.12~28.12",null]
+["2026-10-16",84.83,4,88000,0,"신규","26.12~28.12",null],
+["2026-10-21",76.38,4,45000,90,"갱신","26.10~28.10",null]
 ]}}

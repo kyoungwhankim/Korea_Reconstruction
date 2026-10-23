@@ -1,5 +1,5 @@
 {"id":"11680100051423",
-"name":"현대10차(201,202동)",
+"name":"압구정 현대(10,13,14차)",
 "basis":"단지",
 "by_area":[{"area":108,"pyeong":32.7,"jeonse_n":9,"wolse_n":1,"jeonse_median":85000,"jeonse_min":48000,"jeonse_max":100000,"jeonse_latest":90500,"jeonse_latest_date":"2026-10-02","wolse_deposit_median":75000,"wolse_monthly_median":14},{"area":152,"pyeong":46.0,"jeonse_n":4,"wolse_n":1,"jeonse_median":192000,"jeonse_min":90000,"jeonse_max":200000,"jeonse_latest":195000,"jeonse_latest_date":"2026-06-13","wolse_deposit_median":10000,"wolse_monthly_median":570}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

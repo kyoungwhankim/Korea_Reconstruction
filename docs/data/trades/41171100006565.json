@@ -1,7 +1,7 @@
 {"id":"41171100006565",
 "name":"대우아파트",
 "basis":"단지",
-"by_area":[{"area":72,"pyeong":21.8,"n":16,"median":44600,"min":40300,"max":46000,"latest_price":43500,"latest_date":"2026-09-23","latest_floor":7,"jeonse_n":9,"wolse_n":1,"jeonse_median":33000,"jeonse_min":27000,"jeonse_max":35000,"jeonse_latest":35000,"jeonse_latest_date":"2026-09-04","jeonse_ratio":74.0,"wolse_deposit_median":5000,"wolse_monthly_median":70},{"area":84,"pyeong":25.4,"n":13,"median":49800,"min":35500,"max":52000,"latest_price":49000,"latest_date":"2026-08-31","latest_floor":14,"jeonse_n":9,"wolse_n":2,"jeonse_median":35000,"jeonse_min":28000,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-09-05","jeonse_ratio":70.3,"wolse_deposit_median":22500,"wolse_monthly_median":47}],
+"by_area":[{"area":72,"pyeong":21.8,"n":17,"median":44800,"min":40300,"max":46000,"latest_price":45500,"latest_date":"2026-10-14","latest_floor":4,"jeonse_n":9,"wolse_n":1,"jeonse_median":33000,"jeonse_min":27000,"jeonse_max":35000,"jeonse_latest":35000,"jeonse_latest_date":"2026-09-04","jeonse_ratio":73.7,"wolse_deposit_median":5000,"wolse_monthly_median":70},{"area":84,"pyeong":25.4,"n":13,"median":49800,"min":35500,"max":52000,"latest_price":49000,"latest_date":"2026-08-31","latest_floor":14,"jeonse_n":9,"wolse_n":2,"jeonse_median":35000,"jeonse_min":28000,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-09-05","jeonse_ratio":70.3,"wolse_deposit_median":22500,"wolse_monthly_median":47}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-06",84.14,12,17100,null,null,1991],
 ["2006-01-19",84.46,3,17300,null,null,1991],
@@ -537,7 +537,8 @@
 ["2026-08-22",72.39,5,45800,null,"중개거래",1991],
 ["2026-08-31",84.14,14,49000,null,"중개거래",1991],
 ["2026-09-06",72.39,10,44000,null,"중개거래",1991],
-["2026-09-23",72.39,7,43500,null,"중개거래",1991]
+["2026-09-23",72.39,7,43500,null,"중개거래",1991],
+["2026-10-14",72.39,4,45500,null,"중개거래",1991]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-22",72.39,14,27000,0,"갱신","25.12~27.12",null],

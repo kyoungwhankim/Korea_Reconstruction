@@ -1,7 +1,7 @@
 {"id":"28177100005499",
 "name":"용현동아아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":11,"median":17300,"min":15000,"max":20850,"latest_price":15000,"latest_date":"2026-10-12","latest_floor":15,"jeonse_n":2,"wolse_n":7,"jeonse_median":17000,"jeonse_min":17000,"jeonse_max":17000,"jeonse_latest":17000,"jeonse_latest_date":"2026-07-04","jeonse_ratio":98.3,"wolse_deposit_median":2000,"wolse_monthly_median":80}],
+"by_area":[{"area":85,"pyeong":25.7,"n":12,"median":17300,"min":15000,"max":20850,"latest_price":18700,"latest_date":"2026-10-22","latest_floor":8,"jeonse_n":2,"wolse_n":7,"jeonse_median":17000,"jeonse_min":17000,"jeonse_max":17000,"jeonse_latest":17000,"jeonse_latest_date":"2026-07-04","jeonse_ratio":98.3,"wolse_deposit_median":2000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-01",84.56,6,9400,null,null,1990],
 ["2006-03-01",84.56,5,9500,null,null,1990],
@@ -471,7 +471,8 @@
 ["2026-07-01",84.56,10,17300,"2","중개거래",1990],
 ["2026-08-11",84.56,1,15500,null,"중개거래",1990],
 ["2026-08-31",84.56,1,15500,"1","중개거래",1990],
-["2026-10-12",84.56,15,15000,null,"직거래",1990]
+["2026-10-12",84.56,15,15000,null,"직거래",1990],
+["2026-10-22",84.56,8,18700,null,"직거래",1990]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-12-10",84.56,5,2000,80,"신규","25.12~27.12",null],

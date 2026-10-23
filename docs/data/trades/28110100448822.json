@@ -1,7 +1,7 @@
 {"id":"28110100448822",
 "name":"뉴코아아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":7,"median":12500,"min":12000,"max":13000,"latest_price":12700,"latest_date":"2026-04-11","latest_floor":7,"jeonse_n":4,"wolse_n":1,"jeonse_median":10750,"jeonse_min":10000,"jeonse_max":13000,"jeonse_latest":13000,"jeonse_latest_date":"2026-06-18","jeonse_ratio":86.0,"wolse_deposit_median":1000,"wolse_monthly_median":60}],
+"by_area":[{"area":60,"pyeong":18.1,"n":7,"median":12500,"min":12000,"max":13000,"latest_price":12700,"latest_date":"2026-04-11","latest_floor":7,"jeonse_n":5,"wolse_n":1,"jeonse_median":11000,"jeonse_min":10000,"jeonse_max":13000,"jeonse_latest":12000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":88.0,"wolse_deposit_median":1000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2013-02-05",42.87,6,8700,null,null,1992],
 ["2013-02-05",42.87,9,8300,null,null,1992],
@@ -213,5 +213,6 @@
 ["2026-03-07",60.0,9,10000,0,"신규","26.04~28.04",null],
 ["2026-06-18",60.0,8,11000,0,"갱신","26.06~26.09",true],
 ["2026-06-18",60.0,8,13000,0,"갱신","26.06~26.09",true],
-["2026-08-10",60.0,6,1000,60,"신규","26.10~28.10",null]
+["2026-08-10",60.0,6,1000,60,"신규","26.10~28.10",null],
+["2026-10-19",60.0,9,12000,0,"갱신","26.12~28.12",null]
 ]}}

@@ -1,5 +1,5 @@
 {"id":"28177100005544",
-"name":"대동2아파트",
+"name":"학익대동6차아파트",
 "basis":"단지",
 "by_area":[{"area":44,"pyeong":13.3,"n":2,"median":9500,"min":8000,"max":11000,"latest_price":11000,"latest_date":"2026-05-02","latest_floor":1,"jeonse_n":1,"wolse_n":1,"jeonse_median":6000,"jeonse_min":6000,"jeonse_max":6000,"jeonse_latest":6000,"jeonse_latest_date":"2026-01-10","jeonse_ratio":63.2,"wolse_deposit_median":1000,"wolse_monthly_median":35},{"area":50,"pyeong":15.1,"jeonse_n":1,"wolse_n":0,"jeonse_median":6000,"jeonse_min":6000,"jeonse_max":6000,"jeonse_latest":6000,"jeonse_latest_date":"2025-11-15"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,7 +1,7 @@
 {"id":"11680100001480",
 "name":"동익아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":3,"wolse_n":2,"jeonse_median":68000,"jeonse_min":54000,"jeonse_max":71000,"jeonse_latest":71000,"jeonse_latest_date":"2026-10-10","wolse_deposit_median":22500,"wolse_monthly_median":150},{"area":84,"pyeong":25.4,"n":2,"median":246750,"min":243500,"max":250000,"latest_price":250000,"latest_date":"2026-01-31","latest_floor":12,"jeonse_n":15,"wolse_n":11,"jeonse_median":80000,"jeonse_min":66900,"jeonse_max":92000,"jeonse_latest":80000,"jeonse_latest_date":"2026-08-22","jeonse_ratio":32.4,"wolse_deposit_median":40000,"wolse_monthly_median":125}],
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":3,"wolse_n":2,"jeonse_median":68000,"jeonse_min":54000,"jeonse_max":71000,"jeonse_latest":71000,"jeonse_latest_date":"2026-10-10","wolse_deposit_median":22500,"wolse_monthly_median":150},{"area":84,"pyeong":25.4,"n":2,"median":246750,"min":243500,"max":250000,"latest_price":250000,"latest_date":"2026-01-31","latest_floor":12,"jeonse_n":16,"wolse_n":11,"jeonse_median":80000,"jeonse_min":66900,"jeonse_max":92000,"jeonse_latest":80000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":32.4,"wolse_deposit_median":40000,"wolse_monthly_median":125}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-20",84.46,9,57000,null,null,1993],
 ["2006-02-21",84.46,14,54300,null,null,1993],
@@ -316,5 +316,6 @@
 ["2026-09-19",84.46,3,50000,125,"갱신","26.10~28.10",true],
 ["2026-10-07",84.46,11,69000,45,"갱신","26.12~28.12",null],
 ["2026-10-10",60.01,15,71000,0,"신규","26.12~28.12",null],
-["2026-10-13",84.46,13,20000,235,"갱신","26.10~28.10",true]
+["2026-10-13",84.46,13,20000,235,"갱신","26.10~28.10",true],
+["2026-10-19",84.46,5,80000,0,"신규","27.02~29.02",null]
 ]}}

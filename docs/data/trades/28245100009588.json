@@ -1,5 +1,5 @@
 {"id":"28245100009588",
-"name":"현대1아파트",
+"name":"효성1차 현대 아파트",
 "basis":"단지",
 "by_area":[{"area":71,"pyeong":21.5,"n":5,"median":26300,"min":26000,"max":28250,"latest_price":26000,"latest_date":"2026-10-01","latest_floor":16,"jeonse_n":4,"wolse_n":1,"jeonse_median":21000,"jeonse_min":19400,"jeonse_max":22000,"jeonse_latest":19400,"jeonse_latest_date":"2026-09-03","jeonse_ratio":79.8,"wolse_deposit_median":3000,"wolse_monthly_median":80},{"area":85,"pyeong":25.7,"n":14,"median":30000,"min":26400,"max":33000,"latest_price":30000,"latest_date":"2026-08-16","latest_floor":6,"jeonse_n":13,"wolse_n":2,"jeonse_median":23000,"jeonse_min":20000,"jeonse_max":25000,"jeonse_latest":22000,"jeonse_latest_date":"2026-09-16","jeonse_ratio":76.7,"wolse_deposit_median":4000,"wolse_monthly_median":90},{"area":130,"pyeong":39.3,"n":2,"median":40875,"min":39000,"max":42750,"latest_price":42750,"latest_date":"2026-02-24","latest_floor":17}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

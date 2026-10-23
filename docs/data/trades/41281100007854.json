@@ -1,5 +1,5 @@
 {"id":"41281100007854",
-"name":"소만마을9단지아파트",
+"name":"행신소만9단지부영",
 "basis":"단지",
 "by_area":[{"area":44,"pyeong":13.3,"n":55,"median":25200,"min":19000,"max":28700,"latest_price":23000,"latest_date":"2026-10-17","latest_floor":2,"jeonse_n":59,"wolse_n":54,"jeonse_median":21000,"jeonse_min":13500,"jeonse_max":23600,"jeonse_latest":16400,"jeonse_latest_date":"2026-10-14","jeonse_ratio":83.3,"wolse_deposit_median":2000,"wolse_monthly_median":79}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

@@ -1,7 +1,7 @@
 {"id":"인천-서해구-롯데우람",
 "name":"롯데우람A",
 "basis":"준공 후 신축",
-"by_area":[{"area":59,"pyeong":17.8,"jeonse_n":1,"wolse_n":4,"jeonse_median":25000,"jeonse_min":25000,"jeonse_max":25000,"jeonse_latest":25000,"jeonse_latest_date":"2026-06-12","wolse_deposit_median":3000,"wolse_monthly_median":120},{"area":60,"pyeong":18.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3000,"wolse_monthly_median":120},{"area":74,"pyeong":22.4,"jeonse_n":1,"wolse_n":0,"jeonse_median":28500,"jeonse_min":28500,"jeonse_max":28500,"jeonse_latest":28500,"jeonse_latest_date":"2026-09-13"},{"area":85,"pyeong":25.7,"jeonse_n":1,"wolse_n":1,"jeonse_median":34000,"jeonse_min":34000,"jeonse_max":34000,"jeonse_latest":34000,"jeonse_latest_date":"2026-09-21","wolse_deposit_median":4000,"wolse_monthly_median":135}],
+"by_area":[{"area":59,"pyeong":17.8,"jeonse_n":2,"wolse_n":4,"jeonse_median":27200,"jeonse_min":25000,"jeonse_max":29400,"jeonse_latest":29400,"jeonse_latest_date":"2026-10-21","wolse_deposit_median":3000,"wolse_monthly_median":120},{"area":60,"pyeong":18.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":3000,"wolse_monthly_median":120},{"area":74,"pyeong":22.4,"jeonse_n":1,"wolse_n":0,"jeonse_median":28500,"jeonse_min":28500,"jeonse_max":28500,"jeonse_latest":28500,"jeonse_latest_date":"2026-09-13"},{"area":85,"pyeong":25.7,"jeonse_n":1,"wolse_n":1,"jeonse_median":34000,"jeonse_min":34000,"jeonse_max":34000,"jeonse_latest":34000,"jeonse_latest_date":"2026-09-21","wolse_deposit_median":4000,"wolse_monthly_median":135}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-03",52.65,3,7500,null,null,1985],
 ["2006-02-23",52.65,3,7500,null,null,1985],
@@ -356,7 +356,8 @@
 ["2026-06-12",59.35,8,25000,0,"신규","26.07~28.06",null],
 ["2026-09-07",59.35,16,3000,130,"신규","26.11~28.11",null],
 ["2026-09-13",74.43,11,28500,0,"갱신","26.12~28.12",null],
-["2026-09-21",84.88,6,34000,0,"신규","26.11~28.11",null]
+["2026-09-21",84.88,6,34000,0,"신규","26.11~28.11",null],
+["2026-10-21",59.35,22,29400,0,"갱신","26.12~28.12",true]
 ]},
 "silv":{"cols":["date","area","floor","price","kind","type"],"rows":[
 ["2024-06-18",59.57,9,40200,"분양권","중개거래"],

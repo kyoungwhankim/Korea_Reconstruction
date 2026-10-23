@@ -1,7 +1,7 @@
 {"id":"서울-노원구-상계주공5",
 "name":"상계주공5단지",
 "basis":"기존 단지",
-"by_area":[{"area":32,"pyeong":9.7,"n":3,"median":68000,"min":65000,"max":69000,"latest_price":65000,"latest_date":"2026-08-17","latest_floor":5,"jeonse_n":24,"wolse_n":89,"jeonse_median":10000,"jeonse_min":8000,"jeonse_max":12000,"jeonse_latest":10500,"jeonse_latest_date":"2026-10-06","jeonse_ratio":14.7,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"by_area":[{"area":32,"pyeong":9.7,"n":4,"median":66500,"min":64000,"max":69000,"latest_price":64000,"latest_date":"2026-09-30","latest_floor":5,"jeonse_n":24,"wolse_n":89,"jeonse_median":10000,"jeonse_min":8000,"jeonse_max":12000,"jeonse_latest":10500,"jeonse_latest_date":"2026-10-06","jeonse_ratio":15.0,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-12",31.98,1,11350,null,null,1987],
 ["2006-01-17",31.98,5,12300,null,null,1987],
@@ -1018,7 +1018,8 @@
 ["2025-10-15",31.98,2,35000,"513","직거래",1987],
 ["2025-12-22",31.98,1,69000,"506","중개거래",1987],
 ["2026-06-08",31.98,3,68000,"514","중개거래",1987],
-["2026-08-17",31.98,5,65000,null,"중개거래",1987]
+["2026-08-17",31.98,5,65000,null,"중개거래",1987],
+["2026-09-30",31.98,5,64000,null,"중개거래",1987]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-03",31.98,3,1000,50,"신규","25.11~27.11",null],

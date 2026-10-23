@@ -1,5 +1,5 @@
 {"id":"41281100007860",
-"name":"장미아파트(가,나동)",
+"name":"능곡장미7차",
 "basis":"단지",
 "by_area":[{"area":72,"pyeong":21.8,"n":2,"median":24850,"min":23700,"max":26000,"latest_price":26000,"latest_date":"2026-01-25","latest_floor":9},{"area":76,"pyeong":23.0,"n":2,"median":21100,"min":20000,"max":22200,"latest_price":22200,"latest_date":"2026-06-10","latest_floor":11,"jeonse_n":2,"wolse_n":1,"jeonse_median":21337,"jeonse_min":18675,"jeonse_max":24000,"jeonse_latest":24000,"jeonse_latest_date":"2026-08-15","jeonse_ratio":101.1,"wolse_deposit_median":0,"wolse_monthly_median":50},{"area":79,"pyeong":23.9,"n":2,"median":30400,"min":29500,"max":31300,"latest_price":31300,"latest_date":"2026-07-14","latest_floor":13,"jeonse_n":3,"wolse_n":2,"jeonse_median":23000,"jeonse_min":22000,"jeonse_max":24670,"jeonse_latest":24670,"jeonse_latest_date":"2026-06-01","jeonse_ratio":75.7,"wolse_deposit_median":3500,"wolse_monthly_median":82}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

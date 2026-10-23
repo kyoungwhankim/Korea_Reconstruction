@@ -1,7 +1,7 @@
 {"id":"41285100008016",
 "name":"백마마을3(금호)",
 "basis":"단지",
-"by_area":[{"area":42,"pyeong":12.7,"n":7,"median":24500,"min":22000,"max":27500,"latest_price":23500,"latest_date":"2026-09-15","latest_floor":8,"jeonse_n":9,"wolse_n":15,"jeonse_median":19950,"jeonse_min":17356,"jeonse_max":20000,"jeonse_latest":19950,"jeonse_latest_date":"2026-08-27","jeonse_ratio":81.4,"wolse_deposit_median":2000,"wolse_monthly_median":75},{"area":84,"pyeong":25.4,"n":19,"median":56300,"min":52900,"max":60500,"latest_price":54800,"latest_date":"2026-10-17","latest_floor":13,"jeonse_n":18,"wolse_n":5,"jeonse_median":42500,"jeonse_min":36700,"jeonse_max":46500,"jeonse_latest":46000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":75.5,"wolse_deposit_median":6000,"wolse_monthly_median":135}],
+"by_area":[{"area":42,"pyeong":12.7,"n":7,"median":24500,"min":22000,"max":27500,"latest_price":23500,"latest_date":"2026-09-15","latest_floor":8,"jeonse_n":9,"wolse_n":15,"jeonse_median":19950,"jeonse_min":17356,"jeonse_max":20000,"jeonse_latest":19950,"jeonse_latest_date":"2026-08-27","jeonse_ratio":81.4,"wolse_deposit_median":2000,"wolse_monthly_median":75},{"area":84,"pyeong":25.4,"n":20,"median":56300,"min":52800,"max":60500,"latest_price":54800,"latest_date":"2026-10-17","latest_floor":13,"jeonse_n":18,"wolse_n":5,"jeonse_median":42500,"jeonse_min":36700,"jeonse_max":46500,"jeonse_latest":46000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":75.5,"wolse_deposit_median":6000,"wolse_monthly_median":135}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-06",83.77,2,28600,null,null,1995],
 ["2006-01-14",41.85,14,9700,null,null,1995],
@@ -634,6 +634,7 @@
 ["2026-09-03",41.85,13,24800,null,"중개거래",1995],
 ["2026-09-15",41.85,8,23500,"302","중개거래",1995],
 ["2026-10-14",83.77,15,58500,null,"중개거래",1995],
+["2026-10-17",83.77,4,52800,null,"중개거래",1995],
 ["2026-10-17",83.77,13,54800,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

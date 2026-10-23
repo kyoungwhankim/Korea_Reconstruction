@@ -1,7 +1,7 @@
 {"id":"경기-의왕-장미",
 "name":"장미아파트",
 "basis":"기존 단지",
-"by_area":[{"area":50,"pyeong":15.1,"n":12,"median":27950,"min":26300,"max":29900,"latest_price":29900,"latest_date":"2026-10-05","latest_floor":6,"jeonse_n":45,"wolse_n":26,"jeonse_median":19000,"jeonse_min":15000,"jeonse_max":23000,"jeonse_latest":20000,"jeonse_latest_date":"2026-10-18","jeonse_ratio":68.0,"wolse_deposit_median":2000,"wolse_monthly_median":65}],
+"by_area":[{"area":50,"pyeong":15.1,"n":12,"median":27950,"min":26300,"max":29900,"latest_price":29900,"latest_date":"2026-10-05","latest_floor":6,"jeonse_n":45,"wolse_n":27,"jeonse_median":19000,"jeonse_min":15000,"jeonse_max":23000,"jeonse_latest":20000,"jeonse_latest_date":"2026-10-18","jeonse_ratio":68.0,"wolse_deposit_median":2000,"wolse_monthly_median":65}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-11",49.95,6,7900,null,null,1995],
 ["2006-01-23",49.95,4,8000,null,null,1995],
@@ -1027,5 +1027,6 @@
 ["2026-10-05",49.95,8,21630,0,"갱신","26.10~28.04",true],
 ["2026-10-05",49.95,8,21630,0,"갱신","26.10~28.04",true],
 ["2026-10-14",49.95,2,19950,0,"갱신","26.10~28.10",true],
-["2026-10-18",49.95,3,20000,0,"신규","27.01~29.01",null]
+["2026-10-18",49.95,3,20000,0,"신규","27.01~29.01",null],
+["2026-10-21",49.95,6,14000,40,"신규","26.11~28.11",null]
 ]}}

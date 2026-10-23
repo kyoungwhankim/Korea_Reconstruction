@@ -1,7 +1,7 @@
 {"id":"11350100002479",
 "name":"미도아파트",
 "basis":"단지",
-"by_area":[{"area":88,"pyeong":26.6,"n":15,"median":82000,"min":75000,"max":88700,"latest_price":83500,"latest_date":"2026-09-03","latest_floor":8,"jeonse_n":17,"wolse_n":7,"jeonse_median":44000,"jeonse_min":23000,"jeonse_max":50000,"jeonse_latest":47000,"jeonse_latest_date":"2026-07-20","jeonse_ratio":53.7,"wolse_deposit_median":18500,"wolse_monthly_median":100}],
+"by_area":[{"area":88,"pyeong":26.6,"n":15,"median":82000,"min":75000,"max":88700,"latest_price":83500,"latest_date":"2026-09-03","latest_floor":8,"jeonse_n":17,"wolse_n":8,"jeonse_median":44000,"jeonse_min":23000,"jeonse_max":50000,"jeonse_latest":47000,"jeonse_latest_date":"2026-07-20","jeonse_ratio":53.7,"wolse_deposit_median":18250,"wolse_monthly_median":101}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-11",87.57,13,28700,null,null,1988],
 ["2006-02-16",87.57,6,28000,null,null,1988],
@@ -443,5 +443,6 @@
 ["2026-06-25",87.57,11,40000,0,"갱신","26.06~28.06",null],
 ["2026-07-01",87.57,13,20000,75,"갱신","26.07~28.07",null],
 ["2026-07-20",87.57,3,47000,0,"갱신","26.08~28.08",true],
-["2026-08-26",87.57,4,20000,100,"갱신","26.09~28.09",true]
+["2026-08-26",87.57,4,20000,100,"갱신","26.09~28.09",true],
+["2026-10-21",87.57,4,15000,103,"갱신","26.10~28.10",true]
 ]}}

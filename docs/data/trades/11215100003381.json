@@ -1,5 +1,5 @@
 {"id":"11215100003381",
-"name":"삼성광장2아파트",
+"name":"광장삼성1,2차",
 "basis":"단지",
 "by_area":[{"area":59,"pyeong":17.8,"n":3,"median":141000,"min":94000,"max":160000,"latest_price":94000,"latest_date":"2026-07-22","latest_floor":7,"jeonse_n":3,"wolse_n":8,"jeonse_median":45000,"jeonse_min":42000,"jeonse_max":55000,"jeonse_latest":45000,"jeonse_latest_date":"2026-03-21","jeonse_ratio":31.9,"wolse_deposit_median":23125,"wolse_monthly_median":101},{"area":69,"pyeong":20.9,"n":1,"median":165000,"min":165000,"max":165000,"latest_price":165000,"latest_date":"2025-12-10","latest_floor":13,"jeonse_n":2,"wolse_n":3,"jeonse_median":61375,"jeonse_min":57750,"jeonse_max":65000,"jeonse_latest":57750,"jeonse_latest_date":"2026-04-10","jeonse_ratio":37.2,"wolse_deposit_median":35000,"wolse_monthly_median":120},{"area":85,"pyeong":25.7,"jeonse_n":2,"wolse_n":1,"jeonse_median":55750,"jeonse_min":47000,"jeonse_max":64500,"jeonse_latest":64500,"jeonse_latest_date":"2026-06-03","wolse_deposit_median":8370,"wolse_monthly_median":147}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

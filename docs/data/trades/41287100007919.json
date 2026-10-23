@@ -1,7 +1,7 @@
 {"id":"41287100007919",
 "name":"후곡마을(주공)",
 "basis":"단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":26,"median":29650,"min":25000,"max":34500,"latest_price":27500,"latest_date":"2026-10-19","latest_floor":2,"jeonse_n":68,"wolse_n":19,"jeonse_median":23000,"jeonse_min":17850,"jeonse_max":27900,"jeonse_latest":25000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":77.6,"wolse_deposit_median":3000,"wolse_monthly_median":90},{"area":68,"pyeong":20.6,"n":62,"median":34000,"min":28000,"max":39000,"latest_price":33000,"latest_date":"2026-10-17","latest_floor":3,"jeonse_n":122,"wolse_n":46,"jeonse_median":26000,"jeonse_min":16800,"jeonse_max":30000,"jeonse_latest":26000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":76.5,"wolse_deposit_median":3000,"wolse_monthly_median":100}],
+"by_area":[{"area":59,"pyeong":17.8,"n":26,"median":29650,"min":25000,"max":34500,"latest_price":27500,"latest_date":"2026-10-19","latest_floor":2,"jeonse_n":68,"wolse_n":19,"jeonse_median":23000,"jeonse_min":17850,"jeonse_max":27900,"jeonse_latest":25000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":77.6,"wolse_deposit_median":3000,"wolse_monthly_median":90},{"area":68,"pyeong":20.6,"n":62,"median":34000,"min":28000,"max":39000,"latest_price":33000,"latest_date":"2026-10-17","latest_floor":3,"jeonse_n":123,"wolse_n":46,"jeonse_median":26000,"jeonse_min":16800,"jeonse_max":30000,"jeonse_latest":29000,"jeonse_latest_date":"2026-10-22","jeonse_ratio":76.5,"wolse_deposit_median":3000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-09",68.13,9,14500,null,null,1995],
 ["2006-01-24",59.31,5,11900,null,null,1995],
@@ -2373,5 +2373,6 @@
 ["2026-10-13",59.31,6,21000,0,"신규","26.11~28.11",null],
 ["2026-10-17",68.13,14,26000,0,"신규","26.12~28.12",null],
 ["2026-10-17",68.13,14,26000,0,"신규","26.12~28.12",null],
-["2026-10-19",59.31,7,25000,0,"신규","26.12~28.12",null]
+["2026-10-19",59.31,7,25000,0,"신규","26.12~28.12",null],
+["2026-10-22",68.13,15,29000,0,"갱신","26.12~28.12",null]
 ]}}

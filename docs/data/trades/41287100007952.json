@@ -1,7 +1,7 @@
 {"id":"41287100007952",
 "name":"주엽강선마을11단지태영",
 "basis":"단지",
-"by_area":[{"area":42,"pyeong":12.7,"n":28,"median":19125,"min":18400,"max":22500,"latest_price":22000,"latest_date":"2026-10-13","latest_floor":8,"jeonse_n":22,"wolse_n":32,"jeonse_median":17000,"jeonse_min":14500,"jeonse_max":19000,"jeonse_latest":17500,"jeonse_latest_date":"2026-10-12","jeonse_ratio":88.9,"wolse_deposit_median":1000,"wolse_monthly_median":70}],
+"by_area":[{"area":42,"pyeong":12.7,"n":28,"median":19125,"min":18400,"max":22500,"latest_price":22000,"latest_date":"2026-10-13","latest_floor":8,"jeonse_n":23,"wolse_n":32,"jeonse_median":17000,"jeonse_min":14500,"jeonse_max":19000,"jeonse_latest":15000,"jeonse_latest_date":"2026-10-22","jeonse_ratio":88.9,"wolse_deposit_median":1000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",41.85,16,7300,null,null,1994],
 ["2006-02-10",41.85,16,7500,null,null,1994],
@@ -693,5 +693,6 @@
 ["2026-10-02",41.85,18,17500,0,"갱신","26.10~28.10",null],
 ["2026-10-12",41.85,7,1000,80,"신규","26.10~28.10",null],
 ["2026-10-12",41.85,22,17500,0,"갱신","26.11~28.11",true],
-["2026-10-15",41.85,20,1000,78,"신규","26.11~28.11",null]
+["2026-10-15",41.85,20,1000,78,"신규","26.11~28.11",null],
+["2026-10-22",41.85,23,15000,0,"신규","27.01~29.01",null]
 ]}}

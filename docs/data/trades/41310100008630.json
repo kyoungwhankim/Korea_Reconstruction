@@ -1,5 +1,5 @@
 {"id":"41310100008630",
-"name":"한성아파트",
+"name":"교문한성1차",
 "basis":"단지",
 "by_area":[{"area":72,"pyeong":21.8,"n":12,"median":72350,"min":49000,"max":85000,"latest_price":84700,"latest_date":"2026-06-22","latest_floor":3,"jeonse_n":22,"wolse_n":15,"jeonse_median":30000,"jeonse_min":21000,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-10-12","jeonse_ratio":41.5,"wolse_deposit_median":10000,"wolse_monthly_median":80},{"area":85,"pyeong":25.7,"n":12,"median":79750,"min":55000,"max":86800,"latest_price":55000,"latest_date":"2026-04-17","latest_floor":5,"jeonse_n":24,"wolse_n":10,"jeonse_median":36725,"jeonse_min":23000,"jeonse_max":42500,"jeonse_latest":25700,"jeonse_latest_date":"2026-10-09","jeonse_ratio":46.1,"wolse_deposit_median":11500,"wolse_monthly_median":87}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

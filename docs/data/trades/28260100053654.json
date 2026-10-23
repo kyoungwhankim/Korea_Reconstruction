@@ -1,7 +1,7 @@
 {"id":"28260100053654",
 "name":"효정아파트",
 "basis":"단지",
-"by_area":[{"area":49,"pyeong":14.8,"n":5,"median":14500,"min":11000,"max":15000,"latest_price":14500,"latest_date":"2026-07-16","latest_floor":1,"jeonse_n":5,"wolse_n":2,"jeonse_median":12000,"jeonse_min":9500,"jeonse_max":12000,"jeonse_latest":11000,"jeonse_latest_date":"2026-10-07","jeonse_ratio":82.8,"wolse_deposit_median":1250,"wolse_monthly_median":50}],
+"by_area":[{"area":49,"pyeong":14.8,"n":5,"median":14500,"min":11000,"max":15000,"latest_price":14500,"latest_date":"2026-07-16","latest_floor":1,"jeonse_n":4,"wolse_n":2,"jeonse_median":11500,"jeonse_min":9500,"jeonse_max":12000,"jeonse_latest":11000,"jeonse_latest_date":"2026-10-07","jeonse_ratio":79.3,"wolse_deposit_median":1250,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-26",49.38,1,6500,null,null,1987],
 ["2006-02-04",49.38,5,6000,null,null,1987],
@@ -172,7 +172,6 @@
 ["2026-03-05",49.38,5,500,55,"신규","26.03~28.03",null],
 ["2026-03-26",49.38,5,9500,0,"신규","26.04~28.04",null],
 ["2026-08-05",49.38,4,12000,0,"신규","26.09~28.09",null],
-["2026-08-06",49.38,1,12000,0,"신규","26.10~28.10",null],
 ["2026-09-29",49.38,3,12000,0,"신규","26.10~28.10",null],
 ["2026-10-07",49.38,3,11000,0,"신규","26.11~28.11",null]
 ]}}

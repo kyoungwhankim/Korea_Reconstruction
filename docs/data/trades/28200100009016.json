@@ -1,5 +1,5 @@
 {"id":"28200100009016",
-"name":"광명아파트",
+"name":"만수 광명14차 아파트",
 "basis":"단지",
 "by_area":[{"area":75,"pyeong":22.7,"n":4,"median":24950,"min":18000,"max":25500,"latest_price":25100,"latest_date":"2026-10-05","latest_floor":10,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":80},{"area":84,"pyeong":25.4,"n":20,"median":28650,"min":25000,"max":30200,"latest_price":29000,"latest_date":"2026-09-30","latest_floor":10,"jeonse_n":10,"wolse_n":3,"jeonse_median":22000,"jeonse_min":20000,"jeonse_max":24000,"jeonse_latest":23000,"jeonse_latest_date":"2026-07-13","jeonse_ratio":76.8,"wolse_deposit_median":3000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
@@ -941,7 +941,7 @@
 ["2026-06-07",84.38,7,28800,"103","중개거래",1991],
 ["2026-06-23",84.38,6,27800,"105","중개거래",1991],
 ["2026-07-31",84.38,11,29000,null,"중개거래",1991],
-["2026-08-14",84.38,13,28500,null,"중개거래",1991],
+["2026-08-14",84.38,13,28500,"106","중개거래",1991],
 ["2026-08-23",84.38,12,27000,null,"중개거래",1991],
 ["2026-09-11",84.38,11,28000,null,"중개거래",1991],
 ["2026-09-30",84.38,10,29000,null,"중개거래",1991],

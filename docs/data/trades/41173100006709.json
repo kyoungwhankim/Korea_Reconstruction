@@ -1,7 +1,7 @@
 {"id":"41173100006709",
 "name":"꿈마을동아아파트",
 "basis":"단지",
-"by_area":[{"area":102,"pyeong":30.9,"n":2,"median":151500,"min":150000,"max":153000,"latest_price":150000,"latest_date":"2026-03-24","latest_floor":3,"jeonse_n":13,"wolse_n":3,"jeonse_median":67000,"jeonse_min":54800,"jeonse_max":110000,"jeonse_latest":60000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":44.2,"wolse_deposit_median":45000,"wolse_monthly_median":60},{"area":130,"pyeong":39.3,"n":2,"median":171250,"min":161000,"max":181500,"latest_price":181500,"latest_date":"2026-08-14","latest_floor":22,"jeonse_n":12,"wolse_n":5,"jeonse_median":75800,"jeonse_min":58000,"jeonse_max":80000,"jeonse_latest":77000,"jeonse_latest_date":"2026-10-10","jeonse_ratio":44.3,"wolse_deposit_median":55000,"wolse_monthly_median":70}],
+"by_area":[{"area":102,"pyeong":30.9,"n":2,"median":151500,"min":150000,"max":153000,"latest_price":150000,"latest_date":"2026-03-24","latest_floor":3,"jeonse_n":13,"wolse_n":3,"jeonse_median":67000,"jeonse_min":54800,"jeonse_max":110000,"jeonse_latest":60000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":44.2,"wolse_deposit_median":45000,"wolse_monthly_median":60},{"area":130,"pyeong":39.3,"n":2,"median":171250,"min":161000,"max":181500,"latest_price":181500,"latest_date":"2026-08-14","latest_floor":22,"jeonse_n":13,"wolse_n":5,"jeonse_median":76600,"jeonse_min":58000,"jeonse_max":80000,"jeonse_latest":77000,"jeonse_latest_date":"2026-10-10","jeonse_ratio":44.7,"wolse_deposit_median":55000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-14",130.08,22,85000,null,null,1994],
 ["2006-03-16",101.99,11,54500,null,null,1994],
@@ -330,6 +330,7 @@
 ["2026-07-24",130.08,3,76600,0,"갱신","26.08~28.08",true],
 ["2026-08-21",101.99,16,50000,30,"갱신","26.08~28.08",null],
 ["2026-09-30",101.99,1,57000,0,"신규","26.12~28.12",null],
+["2026-10-02",130.08,5,78000,0,"갱신","26.12~28.12",true],
 ["2026-10-08",130.08,13,75000,0,"신규","27.01~29.01",null],
 ["2026-10-10",130.08,5,77000,0,"신규","27.01~29.01",null],
 ["2026-10-20",101.99,15,60000,0,"갱신","27.01~29.01",null]

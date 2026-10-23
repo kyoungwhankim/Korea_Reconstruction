@@ -1,7 +1,7 @@
 {"id":"11200100000275",
 "name":"강변금호타운",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":3,"median":285000,"min":270000,"max":290000,"latest_price":290000,"latest_date":"2026-07-11","latest_floor":8,"jeonse_n":5,"wolse_n":2,"jeonse_median":38000,"jeonse_min":30870,"jeonse_max":43000,"jeonse_latest":38000,"jeonse_latest_date":"2026-09-02","jeonse_ratio":13.3,"wolse_deposit_median":6500,"wolse_monthly_median":125},{"area":84,"pyeong":25.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":40000,"wolse_monthly_median":40},{"area":85,"pyeong":25.7,"jeonse_n":1,"wolse_n":1,"jeonse_median":31500,"jeonse_min":31500,"jeonse_max":31500,"jeonse_latest":31500,"jeonse_latest_date":"2026-05-15","wolse_deposit_median":20000,"wolse_monthly_median":120}],
+"by_area":[{"area":60,"pyeong":18.1,"n":3,"median":285000,"min":270000,"max":290000,"latest_price":290000,"latest_date":"2026-07-11","latest_floor":8,"jeonse_n":6,"wolse_n":2,"jeonse_median":38000,"jeonse_min":30870,"jeonse_max":43000,"jeonse_latest":37000,"jeonse_latest_date":"2026-09-21","jeonse_ratio":13.3,"wolse_deposit_median":6500,"wolse_monthly_median":125},{"area":84,"pyeong":25.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":40000,"wolse_monthly_median":40},{"area":85,"pyeong":25.7,"jeonse_n":1,"wolse_n":1,"jeonse_median":31500,"jeonse_min":31500,"jeonse_max":31500,"jeonse_latest":31500,"jeonse_latest_date":"2026-05-15","wolse_deposit_median":20000,"wolse_monthly_median":120}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-23",59.67,4,23000,null,null,1994],
 ["2006-04-10",59.94,11,25700,null,null,1994],
@@ -113,5 +113,6 @@
 ["2026-05-15",84.96,9,31500,0,"갱신","26.06~28.06",true],
 ["2026-09-02",59.67,1,38000,0,"갱신","26.10~28.10",null],
 ["2026-09-18",84.96,4,20000,120,"신규","26.10~28.10",null],
+["2026-09-21",59.67,7,37000,0,"신규","26.11~28.11",null],
 ["2026-10-03",59.67,9,10000,120,"신규","26.10~28.10",null]
 ]}}

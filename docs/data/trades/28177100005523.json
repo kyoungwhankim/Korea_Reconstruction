@@ -1,7 +1,7 @@
 {"id":"28177100005523",
 "name":"대동(919-0)",
 "basis":"단지",
-"by_area":[{"area":51,"pyeong":15.4,"n":1,"median":8900,"min":8900,"max":8900,"latest_price":8900,"latest_date":"2026-02-25","latest_floor":5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":35}],
+"by_area":[{"area":51,"pyeong":15.4,"n":2,"median":8250,"min":7600,"max":8900,"latest_price":7600,"latest_date":"2026-10-19","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":35}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-06-05",59.52,3,6500,null,null,1983],
 ["2006-06-22",50.88,4,6000,null,null,1983],
@@ -66,7 +66,8 @@
 ["2024-06-17",59.52,3,10000,"가","중개거래",1983],
 ["2025-06-06",50.88,1,6600,"나","중개거래",1983],
 ["2025-07-28",50.88,1,9800,"나","중개거래",1983],
-["2026-02-25",50.88,5,8900,"나","중개거래",1983]
+["2026-02-25",50.88,5,8900,"나","중개거래",1983],
+["2026-10-19",50.88,1,7600,null,"중개거래",1983]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-01-08",50.88,5,500,35,"신규","26.01~27.01",null]

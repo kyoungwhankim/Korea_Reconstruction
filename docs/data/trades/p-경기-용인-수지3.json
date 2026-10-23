@@ -1,7 +1,7 @@
 {"id":"경기-용인-수지3",
 "name":"수지3",
 "basis":"기존 단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":3,"median":96500,"min":83000,"max":104000,"latest_price":96500,"latest_date":"2026-08-08","latest_floor":3,"jeonse_n":21,"wolse_n":7,"jeonse_median":45000,"jeonse_min":32000,"jeonse_max":50000,"jeonse_latest":42000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":46.6,"wolse_deposit_median":15000,"wolse_monthly_median":120},{"area":74,"pyeong":22.4,"n":2,"median":106500,"min":93000,"max":120000,"latest_price":120000,"latest_date":"2026-09-19","latest_floor":17,"jeonse_n":16,"wolse_n":5,"jeonse_median":48500,"jeonse_min":37000,"jeonse_max":56000,"jeonse_latest":42000,"jeonse_latest_date":"2026-10-10","jeonse_ratio":45.5,"wolse_deposit_median":5000,"wolse_monthly_median":111}],
+"by_area":[{"area":60,"pyeong":18.1,"n":3,"median":96500,"min":83000,"max":104000,"latest_price":96500,"latest_date":"2026-08-08","latest_floor":3,"jeonse_n":21,"wolse_n":7,"jeonse_median":45000,"jeonse_min":32000,"jeonse_max":50000,"jeonse_latest":42000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":46.6,"wolse_deposit_median":15000,"wolse_monthly_median":120},{"area":74,"pyeong":22.4,"n":2,"median":106500,"min":93000,"max":120000,"latest_price":120000,"latest_date":"2026-09-19","latest_floor":17,"jeonse_n":16,"wolse_n":6,"jeonse_median":48500,"jeonse_min":37000,"jeonse_max":56000,"jeonse_latest":42000,"jeonse_latest_date":"2026-10-10","jeonse_ratio":45.5,"wolse_deposit_median":7500,"wolse_monthly_median":123}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-19",60.0,15,18900,null,null,1995],
 ["2006-02-09",60.0,7,19100,null,null,1995],
@@ -728,5 +728,6 @@
 ["2026-09-15",60.0,7,50000,0,"신규","26.11~28.11",null],
 ["2026-09-29",74.13,15,53000,0,"신규","27.01~29.01",null],
 ["2026-10-10",74.13,1,42000,0,"갱신","26.12~28.12",true],
-["2026-10-16",60.0,2,42000,0,"갱신","26.11~28.11",true]
+["2026-10-16",60.0,2,42000,0,"갱신","26.11~28.11",true],
+["2026-10-17",74.13,5,10000,160,"신규","27.01~29.01",null]
 ]}}

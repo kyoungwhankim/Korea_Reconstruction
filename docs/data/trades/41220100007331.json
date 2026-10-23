@@ -1,5 +1,5 @@
 {"id":"41220100007331",
-"name":"삼익아파트",
+"name":"송탄삼익2차아파트",
 "basis":"단지",
 "by_area":[{"area":67,"pyeong":20.3,"n":9,"median":14000,"min":13500,"max":16100,"latest_price":14000,"latest_date":"2026-09-09","latest_floor":4,"jeonse_n":6,"wolse_n":2,"jeonse_median":13000,"jeonse_min":12000,"jeonse_max":14000,"jeonse_latest":13000,"jeonse_latest_date":"2026-04-15","jeonse_ratio":92.9,"wolse_deposit_median":1000,"wolse_monthly_median":75},{"area":85,"pyeong":25.7,"n":2,"median":21800,"min":21000,"max":22600,"latest_price":21000,"latest_date":"2026-07-14","latest_floor":6,"jeonse_n":2,"wolse_n":2,"jeonse_median":13500,"jeonse_min":13000,"jeonse_max":14000,"jeonse_latest":13000,"jeonse_latest_date":"2026-02-12","jeonse_ratio":61.9,"wolse_deposit_median":750,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

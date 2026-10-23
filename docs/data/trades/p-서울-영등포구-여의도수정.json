@@ -1,7 +1,7 @@
 {"id":"서울-영등포구-여의도수정",
 "name":"여의도수정아파트",
 "basis":"기존 단지",
-"by_area":[{"area":75,"pyeong":22.7,"n":5,"median":240000,"min":228000,"max":253000,"latest_price":240000,"latest_date":"2026-08-13","latest_floor":7,"jeonse_n":6,"wolse_n":9,"jeonse_median":49500,"jeonse_min":30000,"jeonse_max":58000,"jeonse_latest":30000,"jeonse_latest_date":"2026-08-22","jeonse_ratio":20.6,"wolse_deposit_median":15000,"wolse_monthly_median":165},{"area":151,"pyeong":45.7,"n":4,"median":278500,"min":275000,"max":298000,"latest_price":277000,"latest_date":"2026-09-16","latest_floor":15,"jeonse_n":17,"wolse_n":7,"jeonse_median":84000,"jeonse_min":35000,"jeonse_max":140000,"jeonse_latest":83000,"jeonse_latest_date":"2026-10-12","jeonse_ratio":30.2,"wolse_deposit_median":20000,"wolse_monthly_median":260}],
+"by_area":[{"area":75,"pyeong":22.7,"n":5,"median":240000,"min":228000,"max":253000,"latest_price":240000,"latest_date":"2026-08-13","latest_floor":7,"jeonse_n":7,"wolse_n":9,"jeonse_median":54000,"jeonse_min":30000,"jeonse_max":75000,"jeonse_latest":75000,"jeonse_latest_date":"2026-10-22","jeonse_ratio":22.5,"wolse_deposit_median":15000,"wolse_monthly_median":165},{"area":151,"pyeong":45.7,"n":4,"median":278500,"min":275000,"max":298000,"latest_price":277000,"latest_date":"2026-09-16","latest_floor":15,"jeonse_n":17,"wolse_n":7,"jeonse_median":84000,"jeonse_min":35000,"jeonse_max":140000,"jeonse_latest":83000,"jeonse_latest_date":"2026-10-12","jeonse_ratio":30.2,"wolse_deposit_median":20000,"wolse_monthly_median":260}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-11-03",74.55,5,69000,null,null,1976],
 ["2006-11-11",150.65,9,130000,null,null,1976],
@@ -261,5 +261,6 @@
 ["2026-09-11",150.65,1,7000,400,"신규","26.12~29.12",null],
 ["2026-09-23",150.65,7,105000,42,"갱신","26.10~28.10",true],
 ["2026-09-28",150.65,14,85000,0,"갱신","26.10~29.10",null],
-["2026-10-12",150.65,2,83000,0,"갱신","26.10~28.10",true]
+["2026-10-12",150.65,2,83000,0,"갱신","26.10~28.10",true],
+["2026-10-22",74.55,14,75000,0,"신규","26.11~28.11",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"41133100006187",
 "name":"성지아파트",
 "basis":"단지",
-"by_area":[{"area":36,"pyeong":10.9,"n":2,"median":28500,"min":28000,"max":29000,"latest_price":29000,"latest_date":"2026-06-23","latest_floor":4},{"area":38,"pyeong":11.5,"n":1,"median":31000,"min":31000,"max":31000,"latest_price":31000,"latest_date":"2026-07-11","latest_floor":5},{"area":40,"pyeong":12.1,"n":2,"median":34750,"min":34500,"max":35000,"latest_price":35000,"latest_date":"2026-10-01","latest_floor":2}],
+"by_area":[{"area":36,"pyeong":10.9,"n":2,"median":28500,"min":28000,"max":29000,"latest_price":29000,"latest_date":"2026-06-23","latest_floor":4},{"area":38,"pyeong":11.5,"n":2,"median":29500,"min":28000,"max":31000,"latest_price":28000,"latest_date":"2026-10-19","latest_floor":2},{"area":40,"pyeong":12.1,"n":2,"median":34750,"min":34500,"max":35000,"latest_price":35000,"latest_date":"2026-10-01","latest_floor":2}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-10",38.25,1,7500,null,null,1987],
 ["2006-01-19",38.25,5,7950,null,null,1987],
@@ -667,7 +667,8 @@
 ["2026-06-23",35.64,4,29000,"108","중개거래",1987],
 ["2026-07-11",38.25,5,31000,"106","중개거래",1987],
 ["2026-08-17",39.63,4,34500,"103","중개거래",1987],
-["2026-10-01",39.63,2,35000,null,"중개거래",1987]
+["2026-10-01",39.63,2,35000,null,"중개거래",1987],
+["2026-10-19",38.25,2,28000,null,"중개거래",1987]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ]}}

@@ -1,7 +1,7 @@
 {"id":"11710100002344",
 "name":"현대3차아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":23,"median":119500,"min":94700,"max":139200,"latest_price":139200,"latest_date":"2026-08-14","latest_floor":14,"jeonse_n":10,"wolse_n":9,"jeonse_median":56500,"jeonse_min":41327,"jeonse_max":65000,"jeonse_latest":58800,"jeonse_latest_date":"2026-09-19","jeonse_ratio":47.3,"wolse_deposit_median":20000,"wolse_monthly_median":90}],
+"by_area":[{"area":85,"pyeong":25.7,"n":23,"median":119500,"min":94700,"max":139200,"latest_price":139200,"latest_date":"2026-08-14","latest_floor":14,"jeonse_n":10,"wolse_n":10,"jeonse_median":56500,"jeonse_min":41327,"jeonse_max":65000,"jeonse_latest":58800,"jeonse_latest_date":"2026-09-19","jeonse_ratio":47.3,"wolse_deposit_median":25000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-06-10",84.94,1,39500,null,null,1993],
 ["2006-09-04",84.94,11,42000,null,null,1993],
@@ -247,5 +247,6 @@
 ["2026-07-31",84.94,4,40000,70,"신규","26.09~28.09",null],
 ["2026-09-04",84.94,5,42000,130,"신규","26.12~28.12",null],
 ["2026-09-16",84.94,11,41327,0,"갱신","26.09~28.09",true],
-["2026-09-19",84.94,10,58800,0,"갱신","26.11~28.11",null]
+["2026-09-19",84.94,10,58800,0,"갱신","26.11~28.11",null],
+["2026-10-13",84.94,14,30000,110,"갱신","26.12~28.12",true]
 ]}}

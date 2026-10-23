@@ -1,7 +1,7 @@
 {"id":"41500100008247",
 "name":"신세계아파트",
 "basis":"단지",
-"by_area":[{"area":38,"pyeong":11.5,"n":5,"median":5000,"min":4400,"max":6200,"latest_price":5000,"latest_date":"2026-10-07","latest_floor":2,"jeonse_n":2,"wolse_n":5,"jeonse_median":2500,"jeonse_min":2000,"jeonse_max":3000,"jeonse_latest":3000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":50.0,"wolse_deposit_median":500,"wolse_monthly_median":40}],
+"by_area":[{"area":38,"pyeong":11.5,"n":6,"median":4750,"min":3900,"max":6200,"latest_price":3900,"latest_date":"2026-10-16","latest_floor":5,"jeonse_n":2,"wolse_n":5,"jeonse_median":2500,"jeonse_min":2000,"jeonse_max":3000,"jeonse_latest":3000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":52.6,"wolse_deposit_median":500,"wolse_monthly_median":40}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-04-05",38.5,5,1700,null,null,1989],
 ["2006-04-05",77.0,1,2280,null,null,1989],
@@ -131,7 +131,8 @@
 ["2026-06-05",38.5,2,6200,"2","직거래",1989],
 ["2026-08-22",38.5,2,5000,"2","직거래",1989],
 ["2026-09-29",38.5,2,4500,null,"직거래",1989],
-["2026-10-07",38.5,2,5000,"2","직거래",1989]
+["2026-10-07",38.5,2,5000,"2","직거래",1989],
+["2026-10-16",38.5,5,3900,null,"중개거래",1989]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-12-06",38.5,2,500,40,"신규","26.01~28.01",null],

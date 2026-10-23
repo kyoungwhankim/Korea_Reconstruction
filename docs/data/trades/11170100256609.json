@@ -1,7 +1,7 @@
 {"id":"11170100256609",
 "name":"태성1아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":1,"median":88000,"min":88000,"max":88000,"latest_price":88000,"latest_date":"2026-05-18","latest_floor":1,"jeonse_n":5,"wolse_n":3,"jeonse_median":32000,"jeonse_min":30000,"jeonse_max":37800,"jeonse_latest":37800,"jeonse_latest_date":"2026-07-02","jeonse_ratio":36.4,"wolse_deposit_median":10000,"wolse_monthly_median":70}],
+"by_area":[{"area":60,"pyeong":18.1,"n":1,"median":88000,"min":88000,"max":88000,"latest_price":88000,"latest_date":"2026-05-18","latest_floor":1,"jeonse_n":6,"wolse_n":3,"jeonse_median":33500,"jeonse_min":30000,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":38.1,"wolse_deposit_median":10000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-23",59.95,2,20000,null,null,1975],
 ["2006-03-31",59.95,1,19000,null,null,1975],
@@ -67,5 +67,6 @@
 ["2026-03-30",59.95,2,30000,0,"갱신","26.04~28.04",null],
 ["2026-04-27",59.95,1,30000,0,"갱신","26.05~28.05",null],
 ["2026-06-17",59.95,1,0,200,"신규","26.06~27.06",null],
-["2026-07-02",59.95,1,37800,0,"갱신","26.07~28.07",null]
+["2026-07-02",59.95,1,37800,0,"갱신","26.07~28.07",null],
+["2026-10-21",59.95,4,40000,0,"신규","26.12~28.12",null]
 ]}}
