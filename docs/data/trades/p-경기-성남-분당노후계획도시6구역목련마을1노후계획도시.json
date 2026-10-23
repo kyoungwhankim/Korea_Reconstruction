@@ -1,0 +1,9 @@
+{"id":"경기-성남-분당노후계획도시6구역목련마을1노후계획도시",
+"name":"분당 노후계획도시 6구역(목련마을1) 노후계획도시",
+"basis":"기존 단지",
+"by_area":[{"area":31,"pyeong":9.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2083,"wolse_monthly_median":15}],
+"sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
+]},
+"rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-02-26",31.32,1,2083,15,"갱신","26.03~28.02",null]
+]}}
