@@ -1,5 +1,5 @@
 {"id":"11260100002461",
-"name":"화성.두산아파트",
+"name":"신내8단지두산화성",
 "basis":"단지",
 "by_area":[{"area":67,"pyeong":20.3,"n":24,"median":63950,"min":45200,"max":76000,"latest_price":74000,"latest_date":"2026-09-01","latest_floor":6,"jeonse_n":13,"wolse_n":7,"jeonse_median":38800,"jeonse_min":36750,"jeonse_max":50000,"jeonse_latest":45000,"jeonse_latest_date":"2026-07-25","jeonse_ratio":60.7,"wolse_deposit_median":5000,"wolse_monthly_median":130},{"area":85,"pyeong":25.7,"n":8,"median":77750,"min":73000,"max":84300,"latest_price":84300,"latest_date":"2026-06-17","latest_floor":11,"jeonse_n":7,"wolse_n":5,"jeonse_median":45000,"jeonse_min":35000,"jeonse_max":55000,"jeonse_latest":55000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":57.9,"wolse_deposit_median":40000,"wolse_monthly_median":20}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

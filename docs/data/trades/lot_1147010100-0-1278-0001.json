@@ -1,5 +1,5 @@
 {"id":"lot:1147010100-0-1278-0001",
-"name":"목동삼성아파트",
+"name":"신정삼성SH임대",
 "basis":"지번",
 "by_area":[{"area":33,"pyeong":10.0,"jeonse_n":0,"wolse_n":7,"wolse_deposit_median":874,"wolse_monthly_median":11}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
