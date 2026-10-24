@@ -1,7 +1,7 @@
 {"id":"41370100253992",
 "name":"무궁화아파트",
 "basis":"단지",
-"by_area":[{"area":73,"pyeong":22.1,"n":2,"median":14375,"min":14000,"max":14750,"latest_price":14750,"latest_date":"2026-07-09","latest_floor":5,"jeonse_n":4,"wolse_n":0,"jeonse_median":10175,"jeonse_min":8000,"jeonse_max":10500,"jeonse_latest":8000,"jeonse_latest_date":"2026-09-04","jeonse_ratio":70.8}],
+"by_area":[{"area":71,"pyeong":21.5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":40},{"area":73,"pyeong":22.1,"n":2,"median":14375,"min":14000,"max":14750,"latest_price":14750,"latest_date":"2026-07-09","latest_floor":5,"jeonse_n":4,"wolse_n":0,"jeonse_median":10175,"jeonse_min":8000,"jeonse_max":10500,"jeonse_latest":8000,"jeonse_latest_date":"2026-09-04","jeonse_ratio":70.8}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-11-30",72.54,4,4000,null,null,1981],
 ["2007-03-29",72.54,1,7000,null,null,1981],
@@ -77,5 +77,6 @@
 ["2025-12-14",72.54,2,10500,0,"갱신","26.02~28.02",true],
 ["2025-12-14",72.54,2,10500,0,"갱신","26.02~28.02",true],
 ["2026-03-09",72.54,2,9850,0,"신규","26.04~28.04",null],
-["2026-09-04",72.54,5,8000,0,"신규","26.10~28.10",null]
+["2026-09-04",72.54,5,8000,0,"신규","26.10~28.10",null],
+["2026-09-30",70.98,5,500,40,"신규","26.10~28.10",null]
 ]}}

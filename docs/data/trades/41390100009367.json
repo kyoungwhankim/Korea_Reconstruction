@@ -1,7 +1,7 @@
 {"id":"41390100009367",
 "name":"시화두산아파트",
 "basis":"단지",
-"by_area":[{"area":50,"pyeong":15.1,"n":26,"median":19500,"min":15000,"max":23000,"latest_price":20000,"latest_date":"2026-09-16","latest_floor":1,"jeonse_n":14,"wolse_n":23,"jeonse_median":15000,"jeonse_min":13540,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":76.9,"wolse_deposit_median":1000,"wolse_monthly_median":75},{"area":60,"pyeong":18.1,"n":11,"median":26900,"min":25000,"max":28300,"latest_price":28300,"latest_date":"2026-09-16","latest_floor":4,"jeonse_n":6,"wolse_n":12,"jeonse_median":19000,"jeonse_min":17850,"jeonse_max":20000,"jeonse_latest":20000,"jeonse_latest_date":"2026-06-13","jeonse_ratio":70.6,"wolse_deposit_median":2000,"wolse_monthly_median":81}],
+"by_area":[{"area":50,"pyeong":15.1,"n":26,"median":19500,"min":15000,"max":23000,"latest_price":20000,"latest_date":"2026-09-16","latest_floor":1,"jeonse_n":14,"wolse_n":23,"jeonse_median":15000,"jeonse_min":13540,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":76.9,"wolse_deposit_median":1000,"wolse_monthly_median":75},{"area":60,"pyeong":18.1,"n":11,"median":26900,"min":25000,"max":28300,"latest_price":28300,"latest_date":"2026-09-16","latest_floor":4,"jeonse_n":6,"wolse_n":13,"jeonse_median":19000,"jeonse_min":17850,"jeonse_max":20000,"jeonse_latest":20000,"jeonse_latest_date":"2026-06-13","jeonse_ratio":70.6,"wolse_deposit_median":2000,"wolse_monthly_median":82}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",59.97,1,7200,null,null,1996],
 ["2006-01-16",59.97,7,7700,null,null,1996],
@@ -1788,5 +1788,6 @@
 ["2026-09-11",50.03,4,18000,0,"갱신","26.09~28.09",null],
 ["2026-09-21",50.03,3,1000,75,"갱신","26.10~28.09",null],
 ["2026-10-05",50.03,3,2000,80,"신규","26.10~28.10",null],
-["2026-10-09",50.03,3,1500,75,"신규","26.12~28.12",null]
+["2026-10-09",50.03,3,1500,75,"신규","26.12~28.12",null],
+["2026-10-17",59.97,7,2000,90,"신규","26.12~28.12",null]
 ]}}

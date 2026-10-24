@@ -1,7 +1,7 @@
 {"id":"11440100053618",
 "name":"성산시영(대우)",
 "basis":"단지",
-"by_area":[{"area":50,"pyeong":15.1,"n":20,"median":142750,"min":91200,"max":153850,"latest_price":140500,"latest_date":"2026-09-23","latest_floor":1,"jeonse_n":224,"wolse_n":113,"jeonse_median":30000,"jeonse_min":17000,"jeonse_max":38000,"jeonse_latest":31500,"jeonse_latest_date":"2026-10-16","jeonse_ratio":21.0,"wolse_deposit_median":5000,"wolse_monthly_median":90}],
+"by_area":[{"area":50,"pyeong":15.1,"n":20,"median":142750,"min":91200,"max":153850,"latest_price":140500,"latest_date":"2026-09-23","latest_floor":1,"jeonse_n":225,"wolse_n":114,"jeonse_median":30000,"jeonse_min":17000,"jeonse_max":39000,"jeonse_latest":39000,"jeonse_latest_date":"2026-10-22","jeonse_ratio":21.0,"wolse_deposit_median":5000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-10",50.03,6,23000,null,null,1986],
 ["2006-01-12",50.03,12,23400,null,null,1986],
@@ -1515,5 +1515,7 @@
 ["2026-10-14",50.03,4,34000,20,"신규","26.11~28.11",null],
 ["2026-10-14",50.03,4,34000,20,"신규","26.11~28.11",null],
 ["2026-10-15",50.03,6,2000,110,"갱신","26.10~27.07",null],
-["2026-10-16",50.03,2,31500,0,"갱신","26.11~28.11",null]
+["2026-10-16",50.03,2,31500,0,"갱신","26.11~28.11",null],
+["2026-10-22",50.03,13,39000,0,"신규","26.12~28.12",null],
+["2026-10-22",50.03,14,3000,116,"갱신","26.10~28.10",null]
 ]}}

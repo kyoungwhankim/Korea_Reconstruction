@@ -1,7 +1,7 @@
 {"id":"41410100007534",
 "name":"가야주공5단지3차",
 "basis":"단지",
-"by_area":[{"area":43,"pyeong":13.0,"n":45,"median":20800,"min":17000,"max":24700,"latest_price":24700,"latest_date":"2026-10-15","latest_floor":15,"jeonse_n":36,"wolse_n":16,"jeonse_median":16000,"jeonse_min":11000,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":76.9,"wolse_deposit_median":1000,"wolse_monthly_median":67}],
+"by_area":[{"area":43,"pyeong":13.0,"n":45,"median":20800,"min":17000,"max":24700,"latest_price":24700,"latest_date":"2026-10-15","latest_floor":15,"jeonse_n":36,"wolse_n":17,"jeonse_median":16000,"jeonse_min":11000,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":76.9,"wolse_deposit_median":1000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-08",42.75,16,7500,null,null,1993],
 ["2006-02-05",42.75,4,7400,null,null,1993],
@@ -1265,6 +1265,7 @@
 ["2026-09-29",42.75,9,1000,75,"신규","26.10~28.10",null],
 ["2026-10-01",42.75,13,12600,0,null,null,null],
 ["2026-10-14",42.75,17,16500,0,"신규","26.12~28.12",null],
+["2026-10-15",42.75,10,1000,75,"신규","26.10~28.10",null],
 ["2026-10-17",42.75,24,18000,0,"신규","26.11~28.11",null],
 ["2026-10-20",42.75,7,5000,59,"갱신","26.10~28.10",true]
 ]}}

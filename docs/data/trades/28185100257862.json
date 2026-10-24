@@ -1,7 +1,7 @@
 {"id":"28185100257862",
 "name":"청학아파트",
 "basis":null,
-"by_area":[{"area":39,"pyeong":11.8,"jeonse_n":51,"wolse_n":0,"jeonse_median":4115,"jeonse_min":3999,"jeonse_max":7187,"jeonse_latest":6260,"jeonse_latest_date":"2026-10-13"},{"area":45,"pyeong":13.6,"jeonse_n":48,"wolse_n":0,"jeonse_median":4847,"jeonse_min":4711,"jeonse_max":7513,"jeonse_latest":4847,"jeonse_latest_date":"2026-09-28"}],
+"by_area":[{"area":39,"pyeong":11.8,"jeonse_n":51,"wolse_n":0,"jeonse_median":4115,"jeonse_min":3999,"jeonse_max":7187,"jeonse_latest":6260,"jeonse_latest_date":"2026-10-13"},{"area":45,"pyeong":13.6,"jeonse_n":49,"wolse_n":0,"jeonse_median":4847,"jeonse_min":4711,"jeonse_max":7513,"jeonse_latest":4847,"jeonse_latest_date":"2026-10-23"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
@@ -103,5 +103,6 @@
 ["2026-09-28",45.36,6,4847,0,"갱신","26.10~28.09",null],
 ["2026-09-29",38.52,2,4115,0,"갱신","26.10~28.09",null],
 ["2026-09-29",38.52,8,4115,0,"갱신","26.10~28.09",null],
-["2026-10-13",38.52,10,6260,0,"갱신","26.12~28.11",null]
+["2026-10-13",38.52,10,6260,0,"갱신","26.12~28.11",null],
+["2026-10-23",45.36,4,4847,0,"갱신","26.11~28.10",null]
 ]}}

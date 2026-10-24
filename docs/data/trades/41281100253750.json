@@ -1,7 +1,7 @@
 {"id":"41281100253750",
 "name":"능곡샘터2단지임대",
 "basis":"지번 공통(동 미상)",
-"by_area":[{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":11,"wolse_deposit_median":3066,"wolse_monthly_median":12},{"area":50,"pyeong":15.1,"n":2,"median":30750,"min":30500,"max":31000,"latest_price":30500,"latest_date":"2026-09-12","latest_floor":4},{"area":60,"pyeong":18.1,"n":20,"median":35150,"min":31500,"max":38500,"latest_price":34500,"latest_date":"2026-10-18","latest_floor":20}],
+"by_area":[{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":11,"wolse_deposit_median":3066,"wolse_monthly_median":12},{"area":50,"pyeong":15.1,"n":1,"median":30500,"min":30500,"max":30500,"latest_price":30500,"latest_date":"2026-09-12","latest_floor":4},{"area":60,"pyeong":18.1,"n":20,"median":35150,"min":31500,"max":38500,"latest_price":34500,"latest_date":"2026-10-18","latest_floor":20}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-10",49.97,7,11000,null,null,1996],
 ["2006-01-13",59.56,10,11300,null,null,1996],
@@ -3451,7 +3451,6 @@
 ["2026-07-06",59.93,13,38500,null,"중개거래",1996],
 ["2026-08-01",59.56,4,34000,null,"중개거래",1996],
 ["2026-08-04",59.56,8,35800,null,"중개거래",1996],
-["2026-08-07",49.96,17,31000,null,"중개거래",1996],
 ["2026-08-16",59.93,14,36500,null,"중개거래",1996],
 ["2026-08-19",59.97,12,35000,null,"중개거래",1996],
 ["2026-08-19",59.98,13,35300,null,"중개거래",1996],

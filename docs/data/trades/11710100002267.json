@@ -1,7 +1,7 @@
 {"id":"11710100002267",
 "name":"한신1아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":8,"median":159750,"min":154000,"max":173000,"latest_price":173000,"latest_date":"2026-08-14","latest_floor":11,"jeonse_n":16,"wolse_n":5,"jeonse_median":65000,"jeonse_min":54408,"jeonse_max":88000,"jeonse_latest":88000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":40.7,"wolse_deposit_median":37500,"wolse_monthly_median":87}],
+"by_area":[{"area":85,"pyeong":25.7,"n":8,"median":159750,"min":154000,"max":173000,"latest_price":173000,"latest_date":"2026-08-14","latest_floor":11,"jeonse_n":18,"wolse_n":5,"jeonse_median":65000,"jeonse_min":54408,"jeonse_max":88000,"jeonse_latest":68600,"jeonse_latest_date":"2026-10-22","jeonse_ratio":40.7,"wolse_deposit_median":37500,"wolse_monthly_median":87}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-07-08",84.51,13,54700,null,null,1993],
 ["2006-08-26",84.51,5,53000,null,null,1993],
@@ -243,5 +243,7 @@
 ["2026-07-23",84.51,9,50000,40,"갱신","26.07~28.07",null],
 ["2026-08-21",84.51,1,67200,0,"갱신","26.09~28.09",true],
 ["2026-08-24",84.51,12,40000,100,"갱신","26.10~28.03",null],
-["2026-10-02",84.53,13,88000,0,"신규","26.11~28.11",null]
+["2026-09-05",84.51,4,54408,0,"신규","26.11~28.11",null],
+["2026-10-02",84.53,13,88000,0,"신규","26.11~28.11",null],
+["2026-10-22",84.53,14,68600,0,"갱신","27.01~29.01",true]
 ]}}

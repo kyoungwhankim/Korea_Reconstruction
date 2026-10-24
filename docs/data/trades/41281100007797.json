@@ -1,7 +1,7 @@
 {"id":"41281100007797",
 "name":"달빛마을2단지(라이프)",
 "basis":"단지",
-"by_area":[{"area":50,"pyeong":15.1,"n":62,"median":26550,"min":21000,"max":30000,"latest_price":27800,"latest_date":"2026-10-16","latest_floor":12,"jeonse_n":40,"wolse_n":29,"jeonse_median":20545,"jeonse_min":12830,"jeonse_max":23600,"jeonse_latest":22000,"jeonse_latest_date":"2026-09-18","jeonse_ratio":77.4,"wolse_deposit_median":2000,"wolse_monthly_median":75},{"area":60,"pyeong":18.1,"n":11,"median":34000,"min":32000,"max":37000,"latest_price":35500,"latest_date":"2026-09-02","latest_floor":11,"jeonse_n":20,"wolse_n":14,"jeonse_median":26055,"jeonse_min":16590,"jeonse_max":30000,"jeonse_latest":26000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":76.6,"wolse_deposit_median":3000,"wolse_monthly_median":100}],
+"by_area":[{"area":50,"pyeong":15.1,"n":62,"median":26550,"min":21000,"max":30000,"latest_price":27800,"latest_date":"2026-10-16","latest_floor":12,"jeonse_n":41,"wolse_n":29,"jeonse_median":20790,"jeonse_min":12830,"jeonse_max":23600,"jeonse_latest":21000,"jeonse_latest_date":"2026-10-23","jeonse_ratio":78.3,"wolse_deposit_median":2000,"wolse_monthly_median":75},{"area":60,"pyeong":18.1,"n":11,"median":34000,"min":32000,"max":37000,"latest_price":35500,"latest_date":"2026-09-02","latest_floor":11,"jeonse_n":20,"wolse_n":14,"jeonse_median":26055,"jeonse_min":16590,"jeonse_max":30000,"jeonse_latest":26000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":76.6,"wolse_deposit_median":3000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-02",59.97,14,13850,null,null,1996],
 ["2006-01-15",49.95,8,8000,null,null,1996],
@@ -2479,5 +2479,6 @@
 ["2026-10-07",49.95,3,2000,90,"신규","26.10~28.10",null],
 ["2026-10-15",59.97,9,0,120,"갱신","26.11~28.11",null],
 ["2026-10-17",59.97,19,27000,0,"갱신","26.10~28.10",null],
-["2026-10-20",59.97,7,26000,0,"갱신","26.12~28.12",true]
+["2026-10-20",59.97,7,26000,0,"갱신","26.12~28.12",true],
+["2026-10-23",49.95,7,21000,0,"갱신","26.11~28.11",true]
 ]}}

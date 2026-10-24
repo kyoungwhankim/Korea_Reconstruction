@@ -1,7 +1,7 @@
 {"id":"28245100009476",
 "name":"신명진달래2아파트",
 "basis":"단지",
-"by_area":[{"area":40,"pyeong":12.1,"n":3,"median":10000,"min":8200,"max":12500,"latest_price":10000,"latest_date":"2026-06-09","latest_floor":4,"jeonse_n":11,"wolse_n":7,"jeonse_median":8000,"jeonse_min":6000,"jeonse_max":10000,"jeonse_latest":9000,"jeonse_latest_date":"2026-09-22","jeonse_ratio":80.0,"wolse_deposit_median":1000,"wolse_monthly_median":40},{"area":48,"pyeong":14.5,"n":1,"median":15450,"min":15450,"max":15450,"latest_price":15450,"latest_date":"2026-10-06","latest_floor":1,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"by_area":[{"area":40,"pyeong":12.1,"n":3,"median":10000,"min":8200,"max":12500,"latest_price":10000,"latest_date":"2026-06-09","latest_floor":4,"jeonse_n":11,"wolse_n":7,"jeonse_median":8000,"jeonse_min":6000,"jeonse_max":10000,"jeonse_latest":9000,"jeonse_latest_date":"2026-09-22","jeonse_ratio":80.0,"wolse_deposit_median":1000,"wolse_monthly_median":40},{"area":48,"pyeong":14.5,"n":1,"median":15450,"min":15450,"max":15450,"latest_price":15450,"latest_date":"2026-10-06","latest_floor":1,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-06",39.91,6,4100,null,null,1989],
 ["2006-02-18",39.91,1,4450,null,null,1989],
@@ -298,5 +298,6 @@
 ["2026-06-17",39.91,5,8000,0,"신규","26.07~28.07",null],
 ["2026-07-08",39.91,6,8000,0,"신규","26.09~28.08",null],
 ["2026-09-22",39.91,4,9000,0,"신규","26.10~28.10",null],
-["2026-09-22",39.91,6,500,35,"신규","26.10~28.10",null]
+["2026-09-22",39.91,6,500,35,"신규","26.10~28.10",null],
+["2026-09-30",47.79,1,1000,50,"신규","26.11~28.11",null]
 ]}}

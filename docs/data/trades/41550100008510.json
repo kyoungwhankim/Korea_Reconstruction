@@ -1,7 +1,7 @@
 {"id":"41550100008510",
 "name":"옥산주공2단지",
 "basis":"단지",
-"by_area":[{"area":39,"pyeong":11.8,"n":8,"median":9200,"min":8500,"max":10000,"latest_price":9300,"latest_date":"2026-09-22","latest_floor":4,"jeonse_n":19,"wolse_n":40,"jeonse_median":7000,"jeonse_min":4000,"jeonse_max":8000,"jeonse_latest":8000,"jeonse_latest_date":"2026-09-22","jeonse_ratio":76.1,"wolse_deposit_median":500,"wolse_monthly_median":40},{"area":47,"pyeong":14.2,"jeonse_n":9,"wolse_n":6,"jeonse_median":8000,"jeonse_min":6000,"jeonse_max":8950,"jeonse_latest":8000,"jeonse_latest_date":"2026-09-18","wolse_deposit_median":500,"wolse_monthly_median":50}],
+"by_area":[{"area":39,"pyeong":11.8,"n":8,"median":9200,"min":8500,"max":10000,"latest_price":9300,"latest_date":"2026-09-22","latest_floor":4,"jeonse_n":19,"wolse_n":41,"jeonse_median":7000,"jeonse_min":4000,"jeonse_max":8000,"jeonse_latest":8000,"jeonse_latest_date":"2026-09-22","jeonse_ratio":76.1,"wolse_deposit_median":500,"wolse_monthly_median":40},{"area":47,"pyeong":14.2,"jeonse_n":9,"wolse_n":6,"jeonse_median":8000,"jeonse_min":6000,"jeonse_max":8950,"jeonse_latest":8000,"jeonse_latest_date":"2026-09-18","wolse_deposit_median":500,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-20",38.52,1,5000,null,null,1988],
 ["2006-02-01",47.25,1,6000,null,null,1988],
@@ -607,5 +607,6 @@
 ["2026-09-29",38.52,2,500,40,"신규","26.10~28.09",null],
 ["2026-09-30",38.52,5,500,40,"신규","26.09~28.09",null],
 ["2026-10-02",38.52,4,500,50,"신규","26.10~28.10",null],
+["2026-10-03",38.52,3,500,50,"신규","26.12~28.12",null],
 ["2026-10-17",38.52,1,1000,40,"신규","26.11~28.11",null]
 ]}}

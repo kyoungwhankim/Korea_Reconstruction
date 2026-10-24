@@ -1,7 +1,7 @@
 {"id":"41220100007258",
 "name":"문화아파트",
 "basis":"단지",
-"by_area":[{"area":50,"pyeong":15.1,"n":22,"median":12600,"min":9000,"max":14500,"latest_price":12000,"latest_date":"2026-10-20","latest_floor":8,"jeonse_n":24,"wolse_n":37,"jeonse_median":11500,"jeonse_min":6300,"jeonse_max":12500,"jeonse_latest":11200,"jeonse_latest_date":"2026-10-15","jeonse_ratio":91.3,"wolse_deposit_median":1000,"wolse_monthly_median":55}],
+"by_area":[{"area":50,"pyeong":15.1,"n":22,"median":12600,"min":9000,"max":14500,"latest_price":12000,"latest_date":"2026-10-20","latest_floor":8,"jeonse_n":24,"wolse_n":38,"jeonse_median":11500,"jeonse_min":6300,"jeonse_max":12500,"jeonse_latest":11200,"jeonse_latest_date":"2026-10-15","jeonse_ratio":91.3,"wolse_deposit_median":1000,"wolse_monthly_median":55}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-03",49.86,9,6500,null,null,1994],
 ["2006-01-30",49.86,8,6600,null,null,1994],
@@ -732,6 +732,7 @@
 ["2026-09-11",49.86,6,11250,0,"신규","26.10~28.10",null],
 ["2026-09-14",49.86,5,1000,65,"신규","26.10~28.10",null],
 ["2026-09-17",49.86,3,11250,0,"신규","26.10~28.10",null],
+["2026-09-18",49.86,5,1000,60,"신규","26.10~28.10",null],
 ["2026-09-22",49.86,3,11200,0,"신규","27.03~29.03",null],
 ["2026-10-15",49.86,8,11200,0,"신규","26.11~28.11",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"11440100000790",
 "name":"성산시영(유원)",
 "basis":"단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":7,"median":164000,"min":153000,"max":168000,"latest_price":164000,"latest_date":"2026-07-13","latest_floor":7,"jeonse_n":157,"wolse_n":77,"jeonse_median":37000,"jeonse_min":10000,"jeonse_max":50000,"jeonse_latest":37000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":22.6,"wolse_deposit_median":5000,"wolse_monthly_median":120}],
+"by_area":[{"area":59,"pyeong":17.8,"n":7,"median":164000,"min":153000,"max":168000,"latest_price":164000,"latest_date":"2026-07-13","latest_floor":7,"jeonse_n":157,"wolse_n":78,"jeonse_median":37000,"jeonse_min":10000,"jeonse_max":50000,"jeonse_latest":37000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":22.6,"wolse_deposit_median":5000,"wolse_monthly_median":120}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-13",59.43,2,30000,null,null,1986],
 ["2006-01-16",59.43,12,32000,null,null,1986],
@@ -1206,6 +1206,7 @@
 ["2026-10-01",59.43,7,42000,0,"신규","26.12~28.12",null],
 ["2026-10-03",59.43,6,3000,137,"갱신","26.12~28.12",true],
 ["2026-10-08",59.43,6,35000,0,"신규","26.11~28.11",null],
+["2026-10-08",59.43,13,5000,120,"신규","26.12~28.12",null],
 ["2026-10-08",59.43,13,36000,0,"갱신","26.11~28.11",true],
 ["2026-10-09",59.43,10,38500,0,"갱신","26.10~28.10",true],
 ["2026-10-10",59.43,3,5000,145,"신규","26.11~28.11",null],

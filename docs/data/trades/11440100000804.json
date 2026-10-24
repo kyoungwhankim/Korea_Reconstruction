@@ -1,7 +1,7 @@
 {"id":"11440100000804",
 "name":"DMC마포청구아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":16,"median":111900,"min":101000,"max":120000,"latest_price":119000,"latest_date":"2026-07-26","latest_floor":15,"jeonse_n":26,"wolse_n":9,"jeonse_median":57000,"jeonse_min":28500,"jeonse_max":66000,"jeonse_latest":55000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":50.9,"wolse_deposit_median":35000,"wolse_monthly_median":70}],
+"by_area":[{"area":85,"pyeong":25.7,"n":16,"median":111900,"min":101000,"max":120000,"latest_price":119000,"latest_date":"2026-07-26","latest_floor":15,"jeonse_n":27,"wolse_n":9,"jeonse_median":57000,"jeonse_min":28500,"jeonse_max":66000,"jeonse_latest":57000,"jeonse_latest_date":"2026-10-23","jeonse_ratio":50.9,"wolse_deposit_median":35000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-20",84.9,15,33700,null,null,1994],
 ["2006-03-04",84.9,19,32800,null,null,1994],
@@ -361,5 +361,6 @@
 ["2026-07-25",84.6,2,60000,0,"신규","26.10~28.10",null],
 ["2026-07-25",84.9,20,55000,10,"갱신","26.08~28.08",true],
 ["2026-08-15",84.9,3,57000,0,"갱신","26.10~28.10",true],
-["2026-10-16",84.9,4,55000,0,"갱신","26.10~28.10",null]
+["2026-10-16",84.9,4,55000,0,"갱신","26.10~28.10",null],
+["2026-10-23",84.9,12,57000,0,"갱신","26.11~28.11",true]
 ]}}

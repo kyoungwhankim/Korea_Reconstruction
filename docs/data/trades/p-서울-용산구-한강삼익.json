@@ -1,7 +1,7 @@
 {"id":"서울-용산구-한강삼익",
 "name":"한강삼익아파트",
 "basis":"기존 단지",
-"by_area":[{"area":104,"pyeong":31.5,"jeonse_n":2,"wolse_n":0,"jeonse_median":67000,"jeonse_min":67000,"jeonse_max":67000,"jeonse_latest":67000,"jeonse_latest_date":"2026-01-16"},{"area":105,"pyeong":31.8,"n":7,"median":260000,"min":250000,"max":280000,"latest_price":255000,"latest_date":"2026-05-23","latest_floor":4,"jeonse_n":19,"wolse_n":9,"jeonse_median":60000,"jeonse_min":40000,"jeonse_max":70000,"jeonse_latest":52500,"jeonse_latest_date":"2026-10-03","jeonse_ratio":23.1,"wolse_deposit_median":10000,"wolse_monthly_median":100},{"area":145,"pyeong":43.9,"n":2,"median":345000,"min":340000,"max":350000,"latest_price":340000,"latest_date":"2026-04-24","latest_floor":12,"jeonse_n":3,"wolse_n":5,"jeonse_median":65000,"jeonse_min":63000,"jeonse_max":73000,"jeonse_latest":73000,"jeonse_latest_date":"2026-08-25","jeonse_ratio":18.8,"wolse_deposit_median":20000,"wolse_monthly_median":220}],
+"by_area":[{"area":104,"pyeong":31.5,"jeonse_n":2,"wolse_n":0,"jeonse_median":67000,"jeonse_min":67000,"jeonse_max":67000,"jeonse_latest":67000,"jeonse_latest_date":"2026-01-16"},{"area":105,"pyeong":31.8,"n":7,"median":260000,"min":250000,"max":280000,"latest_price":255000,"latest_date":"2026-05-23","latest_floor":4,"jeonse_n":20,"wolse_n":9,"jeonse_median":60000,"jeonse_min":40000,"jeonse_max":70000,"jeonse_latest":57750,"jeonse_latest_date":"2026-10-23","jeonse_ratio":23.1,"wolse_deposit_median":10000,"wolse_monthly_median":100},{"area":145,"pyeong":43.9,"n":2,"median":345000,"min":340000,"max":350000,"latest_price":340000,"latest_date":"2026-04-24","latest_floor":12,"jeonse_n":4,"wolse_n":5,"jeonse_median":69000,"jeonse_min":63000,"jeonse_max":90000,"jeonse_latest":90000,"jeonse_latest_date":"2026-09-27","jeonse_ratio":20.0,"wolse_deposit_median":20000,"wolse_monthly_median":220}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-06-03",104.86,11,82500,null,null,1979],
 ["2006-09-14",105.36,1,73000,null,null,1979],
@@ -224,6 +224,8 @@
 ["2026-07-22",104.86,6,50000,0,"갱신","26.07~28.07",null],
 ["2026-07-23",104.86,7,10000,250,"신규","26.08~28.08",null],
 ["2026-08-25",145.19,7,73000,0,"갱신","26.09~28.09",null],
+["2026-09-27",145.26,5,90000,0,"신규","27.02~29.02",null],
 ["2026-10-01",104.86,10,70000,0,"신규","26.11~28.11",null],
-["2026-10-03",104.86,8,52500,0,"갱신","26.10~28.10",true]
+["2026-10-03",104.86,8,52500,0,"갱신","26.10~28.10",true],
+["2026-10-23",104.86,8,57750,0,"갱신","26.11~27.11",true]
 ]}}

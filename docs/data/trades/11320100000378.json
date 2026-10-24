@@ -1,7 +1,7 @@
 {"id":"11320100000378",
 "name":"성원아파트",
 "basis":"단지",
-"by_area":[{"area":72,"pyeong":21.8,"n":7,"median":51500,"min":44700,"max":54000,"latest_price":52000,"latest_date":"2026-10-13","latest_floor":11,"jeonse_n":1,"wolse_n":3,"jeonse_median":31500,"jeonse_min":31500,"jeonse_max":31500,"jeonse_latest":31500,"jeonse_latest_date":"2026-09-29","jeonse_ratio":61.2,"wolse_deposit_median":5000,"wolse_monthly_median":120},{"area":85,"pyeong":25.7,"n":10,"median":53250,"min":48000,"max":62800,"latest_price":52900,"latest_date":"2026-09-03","latest_floor":4,"jeonse_n":14,"wolse_n":5,"jeonse_median":34500,"jeonse_min":31500,"jeonse_max":42000,"jeonse_latest":42000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":64.8,"wolse_deposit_median":27300,"wolse_monthly_median":60}],
+"by_area":[{"area":72,"pyeong":21.8,"n":7,"median":51500,"min":44700,"max":54000,"latest_price":52000,"latest_date":"2026-10-13","latest_floor":11,"jeonse_n":1,"wolse_n":3,"jeonse_median":31500,"jeonse_min":31500,"jeonse_max":31500,"jeonse_latest":31500,"jeonse_latest_date":"2026-09-29","jeonse_ratio":61.2,"wolse_deposit_median":5000,"wolse_monthly_median":120},{"area":85,"pyeong":25.7,"n":10,"median":53250,"min":48000,"max":62800,"latest_price":52900,"latest_date":"2026-09-03","latest_floor":4,"jeonse_n":14,"wolse_n":6,"jeonse_median":34500,"jeonse_min":31500,"jeonse_max":42000,"jeonse_latest":42000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":64.8,"wolse_deposit_median":23650,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-03",71.78,13,12950,null,null,1989],
 ["2006-02-04",84.98,1,14000,null,null,1989],
@@ -507,5 +507,6 @@
 ["2026-09-19",71.78,11,5000,130,"신규","26.10~28.10",null],
 ["2026-09-29",71.78,6,31500,0,"갱신","26.09~28.09",true],
 ["2026-10-07",84.98,2,33800,0,"신규","26.11~28.11",null],
-["2026-10-16",84.98,5,42000,0,"신규","26.11~28.11",null]
+["2026-10-16",84.98,5,42000,0,"신규","26.11~28.11",null],
+["2026-10-22",84.98,10,20000,100,"신규","26.11~28.11",null]
 ]}}

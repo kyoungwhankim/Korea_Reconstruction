@@ -1,7 +1,7 @@
 {"id":"41173100053550",
 "name":"초원마을세경아파트",
 "basis":"단지",
-"by_area":[{"area":50,"pyeong":15.1,"n":61,"median":70900,"min":54000,"max":90000,"latest_price":87700,"latest_date":"2026-09-23","latest_floor":6,"jeonse_n":115,"wolse_n":47,"jeonse_median":32500,"jeonse_min":20000,"jeonse_max":57900,"jeonse_latest":29400,"jeonse_latest_date":"2026-10-17","jeonse_ratio":45.8,"wolse_deposit_median":4000,"wolse_monthly_median":105}],
+"by_area":[{"area":50,"pyeong":15.1,"n":61,"median":70900,"min":54000,"max":90000,"latest_price":87700,"latest_date":"2026-09-23","latest_floor":6,"jeonse_n":115,"wolse_n":48,"jeonse_median":32500,"jeonse_min":20000,"jeonse_max":57900,"jeonse_latest":29400,"jeonse_latest_date":"2026-10-17","jeonse_ratio":45.8,"wolse_deposit_median":4000,"wolse_monthly_median":102}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-13",49.68,6,14200,null,null,1996],
 ["2006-01-13",49.68,18,14000,null,null,1996],
@@ -1571,6 +1571,7 @@
 ["2026-08-28",49.68,11,12000,100,"신규","26.11~28.11",null],
 ["2026-08-31",49.68,15,36000,0,"신규","26.11~28.11",null],
 ["2026-09-05",49.68,1,31000,10,"신규","26.10~28.10",null],
+["2026-09-05",49.68,1,31000,10,"신규","26.11~28.11",null],
 ["2026-09-05",49.68,1,31000,10,"신규","26.11~28.11",null],
 ["2026-09-08",49.68,7,57900,0,"신규","26.09~26.11",null],
 ["2026-09-12",49.68,13,36500,0,"신규","26.11~28.11",null],

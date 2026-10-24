@@ -1,7 +1,7 @@
 {"id":"11215100003457",
 "name":"삼민아파트",
 "basis":"단지",
-"by_area":[{"area":73,"pyeong":22.1,"n":1,"median":58000,"min":58000,"max":58000,"latest_price":58000,"latest_date":"2026-06-16","latest_floor":6},{"area":74,"pyeong":22.4,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":29150,"wolse_monthly_median":42},{"area":90,"pyeong":27.2,"n":1,"median":89000,"min":89000,"max":89000,"latest_price":89000,"latest_date":"2026-09-07","latest_floor":1}],
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":30000,"wolse_monthly_median":15},{"area":73,"pyeong":22.1,"n":1,"median":58000,"min":58000,"max":58000,"latest_price":58000,"latest_date":"2026-06-16","latest_floor":6},{"area":74,"pyeong":22.4,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":29150,"wolse_monthly_median":42},{"area":90,"pyeong":27.2,"n":1,"median":89000,"min":89000,"max":89000,"latest_price":89000,"latest_date":"2026-09-07","latest_floor":1}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-04-25",73.44,6,16300,null,null,1995],
 ["2006-06-13",73.56,4,18000,null,null,1995],
@@ -37,5 +37,6 @@
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-01",73.5,5,39300,5,"신규","26.01~28.01",null],
-["2026-01-17",73.56,4,19000,80,"갱신","26.03~28.03",null]
+["2026-01-17",73.56,4,19000,80,"갱신","26.03~28.03",null],
+["2026-10-21",59.94,4,30000,15,"갱신","26.11~28.11",true]
 ]}}

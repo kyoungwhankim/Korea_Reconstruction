@@ -1,7 +1,7 @@
 {"id":"11500100001756",
 "name":"삼성하나로아파트",
 "basis":"단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":7,"median":79500,"min":70500,"max":90000,"latest_price":90000,"latest_date":"2026-10-10","latest_floor":11,"jeonse_n":5,"wolse_n":1,"jeonse_median":33570,"jeonse_min":32000,"jeonse_max":53000,"jeonse_latest":32000,"jeonse_latest_date":"2026-09-18","jeonse_ratio":42.2,"wolse_deposit_median":20000,"wolse_monthly_median":77},{"area":85,"pyeong":25.7,"n":9,"median":89000,"min":82000,"max":93000,"latest_price":93000,"latest_date":"2026-05-29","latest_floor":12,"jeonse_n":2,"wolse_n":0,"jeonse_median":49700,"jeonse_min":48000,"jeonse_max":51400,"jeonse_latest":51400,"jeonse_latest_date":"2026-05-23","jeonse_ratio":55.8}],
+"by_area":[{"area":59,"pyeong":17.8,"n":7,"median":79500,"min":70500,"max":90000,"latest_price":90000,"latest_date":"2026-10-10","latest_floor":11,"jeonse_n":5,"wolse_n":1,"jeonse_median":33570,"jeonse_min":32000,"jeonse_max":53000,"jeonse_latest":32000,"jeonse_latest_date":"2026-09-18","jeonse_ratio":42.2,"wolse_deposit_median":20000,"wolse_monthly_median":77},{"area":85,"pyeong":25.7,"n":10,"median":90000,"min":82000,"max":108000,"latest_price":108000,"latest_date":"2026-10-14","latest_floor":11,"jeonse_n":2,"wolse_n":0,"jeonse_median":49700,"jeonse_min":48000,"jeonse_max":51400,"jeonse_latest":51400,"jeonse_latest_date":"2026-05-23","jeonse_ratio":55.2}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-12",84.78,5,22000,null,null,1994],
 ["2006-01-31",84.78,12,21900,null,null,1994],
@@ -271,7 +271,8 @@
 ["2026-07-17",59.26,9,87500,"101","중개거래",1994],
 ["2026-07-30",59.26,14,87000,"101","중개거래",1994],
 ["2026-08-08",59.26,1,79500,"101","중개거래",1994],
-["2026-10-10",59.26,11,90000,null,"중개거래",1994]
+["2026-10-10",59.26,11,90000,null,"중개거래",1994],
+["2026-10-14",84.78,11,108000,null,"중개거래",1994]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-01-13",59.26,7,20000,77,"갱신","26.02~28.02",true],

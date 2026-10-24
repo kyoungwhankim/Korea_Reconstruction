@@ -1,7 +1,7 @@
 {"id":"41390100009310",
 "name":"서능1차(101~103동)",
 "basis":"단지",
-"by_area":[{"area":46,"pyeong":13.9,"n":12,"median":10950,"min":8500,"max":12800,"latest_price":9800,"latest_date":"2026-10-19","latest_floor":1,"jeonse_n":8,"wolse_n":16,"jeonse_median":7000,"jeonse_min":4300,"jeonse_max":10000,"jeonse_latest":7000,"jeonse_latest_date":"2026-09-15","jeonse_ratio":63.9,"wolse_deposit_median":1000,"wolse_monthly_median":41},{"area":54,"pyeong":16.3,"jeonse_n":1,"wolse_n":1,"jeonse_median":5200,"jeonse_min":5200,"jeonse_max":5200,"jeonse_latest":5200,"jeonse_latest_date":"2025-12-06","wolse_deposit_median":3000,"wolse_monthly_median":40}],
+"by_area":[{"area":46,"pyeong":13.9,"n":12,"median":10950,"min":8500,"max":12800,"latest_price":9800,"latest_date":"2026-10-19","latest_floor":1,"jeonse_n":9,"wolse_n":16,"jeonse_median":7000,"jeonse_min":4300,"jeonse_max":10000,"jeonse_latest":7000,"jeonse_latest_date":"2026-10-13","jeonse_ratio":63.9,"wolse_deposit_median":1000,"wolse_monthly_median":41},{"area":54,"pyeong":16.3,"jeonse_n":1,"wolse_n":1,"jeonse_median":5200,"jeonse_min":5200,"jeonse_max":5200,"jeonse_latest":5200,"jeonse_latest_date":"2025-12-06","wolse_deposit_median":3000,"wolse_monthly_median":40}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-20",45.66,4,4400,null,null,1991],
 ["2006-05-20",45.66,2,4100,null,null,1991],
@@ -336,5 +336,6 @@
 ["2026-08-25",45.66,1,1000,42,"신규","26.08~28.08",null],
 ["2026-08-26",45.66,5,500,40,"신규","26.08~28.08",null],
 ["2026-09-07",45.66,1,1000,40,"신규","26.10~28.10",null],
-["2026-09-15",45.66,3,7000,0,"신규","26.11~28.11",null]
+["2026-09-15",45.66,3,7000,0,"신규","26.11~28.11",null],
+["2026-10-13",45.66,3,7000,0,"신규","26.10~28.10",null]
 ]}}

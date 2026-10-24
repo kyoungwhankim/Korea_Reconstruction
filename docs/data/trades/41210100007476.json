@@ -1,7 +1,7 @@
 {"id":"41210100007476",
 "name":"하안현대아파트",
 "basis":"단지",
-"by_area":[{"area":53,"pyeong":16.0,"n":8,"median":40250,"min":36000,"max":47000,"latest_price":47000,"latest_date":"2026-06-22","latest_floor":4,"jeonse_n":2,"wolse_n":1,"jeonse_median":28900,"jeonse_min":27800,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-09-14","jeonse_ratio":71.8,"wolse_deposit_median":15000,"wolse_monthly_median":40},{"area":85,"pyeong":25.7,"n":11,"median":55000,"min":49500,"max":59000,"latest_price":58000,"latest_date":"2026-06-12","latest_floor":3,"jeonse_n":5,"wolse_n":2,"jeonse_median":38000,"jeonse_min":30000,"jeonse_max":41000,"jeonse_latest":38000,"jeonse_latest_date":"2026-07-08","jeonse_ratio":69.1,"wolse_deposit_median":18500,"wolse_monthly_median":87}],
+"by_area":[{"area":53,"pyeong":16.0,"n":8,"median":40250,"min":36000,"max":47000,"latest_price":47000,"latest_date":"2026-06-22","latest_floor":4,"jeonse_n":2,"wolse_n":2,"jeonse_median":28900,"jeonse_min":27800,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-09-14","jeonse_ratio":71.8,"wolse_deposit_median":8500,"wolse_monthly_median":67},{"area":85,"pyeong":25.7,"n":11,"median":55000,"min":49500,"max":59000,"latest_price":58000,"latest_date":"2026-06-12","latest_floor":3,"jeonse_n":5,"wolse_n":2,"jeonse_median":38000,"jeonse_min":30000,"jeonse_max":41000,"jeonse_latest":38000,"jeonse_latest_date":"2026-07-08","jeonse_ratio":69.1,"wolse_deposit_median":18500,"wolse_monthly_median":87}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-13",52.7,6,13500,null,null,1995],
 ["2006-04-03",52.7,6,11700,null,null,1995],
@@ -433,5 +433,6 @@
 ["2026-07-08",84.9,14,38000,0,"신규","26.08~28.08",null],
 ["2026-07-08",84.9,14,38000,0,"신규","26.08~28.08",null],
 ["2026-09-14",52.7,13,30000,0,"신규","26.11~28.11",null],
+["2026-10-13",52.7,12,2000,95,"갱신","26.12~28.12",true],
 ["2026-10-22",52.7,4,15000,40,"신규","27.01~29.01",null]
 ]}}

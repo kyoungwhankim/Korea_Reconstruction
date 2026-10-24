@@ -1,7 +1,7 @@
 {"id":"경기-의왕-인스빌",
 "name":"인스빌아파트",
 "basis":"기존 단지",
-"by_area":[{"area":102,"pyeong":30.9,"n":8,"median":59000,"min":40000,"max":62000,"latest_price":62000,"latest_date":"2026-07-22","latest_floor":5,"jeonse_n":3,"wolse_n":5,"jeonse_median":41000,"jeonse_min":35000,"jeonse_max":43000,"jeonse_latest":43000,"jeonse_latest_date":"2026-09-18","jeonse_ratio":69.5,"wolse_deposit_median":5000,"wolse_monthly_median":100},{"area":135,"pyeong":40.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":15000,"wolse_monthly_median":140}],
+"by_area":[{"area":102,"pyeong":30.9,"n":8,"median":59000,"min":40000,"max":62000,"latest_price":62000,"latest_date":"2026-07-22","latest_floor":5,"jeonse_n":3,"wolse_n":6,"jeonse_median":41000,"jeonse_min":35000,"jeonse_max":43000,"jeonse_latest":43000,"jeonse_latest_date":"2026-09-18","jeonse_ratio":69.5,"wolse_deposit_median":5000,"wolse_monthly_median":95},{"area":135,"pyeong":40.8,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":15000,"wolse_monthly_median":140}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-07",101.95,12,26700,null,null,1994],
 ["2006-02-14",134.67,15,36700,null,null,1994],
@@ -231,5 +231,6 @@
 ["2026-05-29",101.95,1,5000,77,"갱신","26.07~27.07",null],
 ["2026-06-30",134.67,10,15000,140,"신규","26.07~28.07",null],
 ["2026-07-02",101.95,1,5000,77,"갱신","26.07~27.07",null],
-["2026-09-18",101.95,2,43000,0,"신규","26.10~28.10",null]
+["2026-09-18",101.95,2,43000,0,"신규","26.10~28.10",null],
+["2026-10-06",101.95,3,20000,90,"신규","26.11~28.11",null]
 ]}}

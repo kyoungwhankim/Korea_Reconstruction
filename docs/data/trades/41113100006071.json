@@ -1,7 +1,7 @@
 {"id":"41113100006071",
 "name":"권선삼성아파트",
 "basis":"단지",
-"by_area":[{"area":49,"pyeong":14.8,"n":32,"median":29500,"min":19000,"max":36400,"latest_price":36400,"latest_date":"2026-10-07","latest_floor":3,"jeonse_n":54,"wolse_n":51,"jeonse_median":19000,"jeonse_min":16300,"jeonse_max":23000,"jeonse_latest":21000,"jeonse_latest_date":"2026-10-03","jeonse_ratio":64.4,"wolse_deposit_median":2000,"wolse_monthly_median":70}],
+"by_area":[{"area":49,"pyeong":14.8,"n":32,"median":29500,"min":19000,"max":36400,"latest_price":36400,"latest_date":"2026-10-07","latest_floor":3,"jeonse_n":54,"wolse_n":52,"jeonse_median":19000,"jeonse_min":16300,"jeonse_max":23000,"jeonse_latest":21000,"jeonse_latest_date":"2026-10-03","jeonse_ratio":64.4,"wolse_deposit_median":2000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",49.14,4,9300,null,null,1993],
 ["2006-01-09",49.14,5,9450,null,null,1993],
@@ -1210,5 +1210,6 @@
 ["2026-09-29",49.14,7,18000,5,"갱신","26.10~28.10",true],
 ["2026-10-01",49.14,7,16300,0,"신규","26.10~28.09",null],
 ["2026-10-01",49.14,10,19500,0,"갱신","26.10~28.10",true],
-["2026-10-03",49.14,6,21000,0,"신규","26.11~28.11",null]
+["2026-10-03",49.14,6,21000,0,"신규","26.11~28.11",null],
+["2026-10-22",49.14,7,2000,80,"신규","26.12~28.12",null]
 ]}}

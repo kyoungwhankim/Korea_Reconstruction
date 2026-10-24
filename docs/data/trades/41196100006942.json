@@ -1,7 +1,7 @@
 {"id":"41196100006942",
 "name":"삼일아파트",
 "basis":"단지",
-"by_area":[{"area":38,"pyeong":11.5,"n":2,"median":10000,"min":10000,"max":10000,"latest_price":10000,"latest_date":"2026-10-08","latest_floor":2,"jeonse_n":1,"wolse_n":0,"jeonse_median":9450,"jeonse_min":9450,"jeonse_max":9450,"jeonse_latest":9450,"jeonse_latest_date":"2026-02-12","jeonse_ratio":94.5},{"area":41,"pyeong":12.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":40},{"area":44,"pyeong":13.3,"n":1,"median":13000,"min":13000,"max":13000,"latest_price":13000,"latest_date":"2026-05-20","latest_floor":4}],
+"by_area":[{"area":38,"pyeong":11.5,"n":2,"median":10000,"min":10000,"max":10000,"latest_price":10000,"latest_date":"2026-10-08","latest_floor":2,"jeonse_n":1,"wolse_n":0,"jeonse_median":9450,"jeonse_min":9450,"jeonse_max":9450,"jeonse_latest":9450,"jeonse_latest_date":"2026-02-12","jeonse_ratio":94.5},{"area":41,"pyeong":12.4,"n":1,"median":12074,"min":12074,"max":12074,"latest_price":12074,"latest_date":"2026-10-20","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":40},{"area":44,"pyeong":13.3,"n":1,"median":13000,"min":13000,"max":13000,"latest_price":13000,"latest_date":"2026-05-20","latest_floor":4}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-09-04",37.89,2,4850,null,null,1989],
 ["2006-11-15",40.68,1,6100,null,null,1989],
@@ -53,7 +53,8 @@
 ["2024-07-17",40.68,3,12500,null,"중개거래",1989],
 ["2026-05-20",44.4,4,13000,null,"직거래",1989],
 ["2026-10-03",37.89,4,10000,null,"중개거래",1989],
-["2026-10-08",37.89,2,10000,null,"중개거래",1989]
+["2026-10-08",37.89,2,10000,null,"중개거래",1989],
+["2026-10-20",40.68,1,12074,null,"직거래",1989]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-12",40.68,2,500,40,"신규","25.11~26.07",null],

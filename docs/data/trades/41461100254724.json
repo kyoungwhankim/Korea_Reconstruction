@@ -1,7 +1,7 @@
 {"id":"41461100254724",
 "name":"조양아파트(6차)",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":4,"median":15150,"min":13000,"max":16200,"latest_price":16200,"latest_date":"2026-10-03","latest_floor":7,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":2000,"wolse_monthly_median":50},{"area":85,"pyeong":25.7,"n":1,"median":16000,"min":16000,"max":16000,"latest_price":16000,"latest_date":"2026-09-15","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":65}],
+"by_area":[{"area":60,"pyeong":18.1,"n":4,"median":15150,"min":13000,"max":16200,"latest_price":16200,"latest_date":"2026-10-03","latest_floor":7,"jeonse_n":1,"wolse_n":3,"jeonse_median":9500,"jeonse_min":9500,"jeonse_max":9500,"jeonse_latest":9500,"jeonse_latest_date":"2026-10-20","jeonse_ratio":62.7,"wolse_deposit_median":2000,"wolse_monthly_median":50},{"area":85,"pyeong":25.7,"n":1,"median":16000,"min":16000,"max":16000,"latest_price":16000,"latest_date":"2026-09-15","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":65}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-05-18",59.79,8,6300,null,null,1995],
 ["2006-08-16",59.79,3,6500,null,null,1995],
@@ -114,5 +114,6 @@
 ["2025-12-05",84.62,8,2000,65,"신규","26.01~28.01",null],
 ["2026-01-17",59.79,10,2000,50,"신규","26.01~28.01",null],
 ["2026-01-17",59.79,11,2000,50,"신규","26.01~28.01",null],
-["2026-03-18",59.79,4,1000,55,"신규","26.05~28.05",null]
+["2026-03-18",59.79,4,1000,55,"신규","26.05~28.05",null],
+["2026-10-20",59.79,1,9500,0,"신규","27.01~29.01",null]
 ]}}

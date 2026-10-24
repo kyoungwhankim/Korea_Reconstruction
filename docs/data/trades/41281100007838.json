@@ -1,7 +1,7 @@
 {"id":"41281100007838",
 "name":"무원마을(라이프)",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":12,"median":49700,"min":42000,"max":54500,"latest_price":54000,"latest_date":"2026-10-16","latest_floor":8,"jeonse_n":9,"wolse_n":7,"jeonse_median":36000,"jeonse_min":29400,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":72.4,"wolse_deposit_median":10000,"wolse_monthly_median":100}],
+"by_area":[{"area":85,"pyeong":25.7,"n":13,"median":49900,"min":42000,"max":54500,"latest_price":54000,"latest_date":"2026-10-16","latest_floor":8,"jeonse_n":9,"wolse_n":7,"jeonse_median":36000,"jeonse_min":29400,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":72.1,"wolse_deposit_median":10000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-21",84.99,15,21500,null,null,1994],
 ["2006-03-01",84.99,12,22000,null,null,1994],
@@ -448,6 +448,7 @@
 ["2026-07-22",84.99,4,49500,null,"중개거래",1994],
 ["2026-09-05",84.99,13,53000,null,"중개거래",1994],
 ["2026-10-03",84.99,10,48800,null,"중개거래",1994],
+["2026-10-14",84.99,13,51000,null,"중개거래",1994],
 ["2026-10-16",84.99,8,54000,null,"중개거래",1994]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

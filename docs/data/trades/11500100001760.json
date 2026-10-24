@@ -1,7 +1,7 @@
 {"id":"11500100001760",
 "name":"삼천리아파트",
 "basis":"단지",
-"by_area":[{"area":75,"pyeong":22.7,"jeonse_n":1,"wolse_n":0,"jeonse_median":35000,"jeonse_min":35000,"jeonse_max":35000,"jeonse_latest":35000,"jeonse_latest_date":"2026-05-23"},{"area":85,"pyeong":25.7,"n":4,"median":117000,"min":102000,"max":122000,"latest_price":122000,"latest_date":"2026-06-15","latest_floor":5,"jeonse_n":3,"wolse_n":1,"jeonse_median":40740,"jeonse_min":39900,"jeonse_max":48300,"jeonse_latest":40740,"jeonse_latest_date":"2026-09-01","jeonse_ratio":34.8,"wolse_deposit_median":35000,"wolse_monthly_median":42}],
+"by_area":[{"area":75,"pyeong":22.7,"jeonse_n":1,"wolse_n":0,"jeonse_median":35000,"jeonse_min":35000,"jeonse_max":35000,"jeonse_latest":35000,"jeonse_latest_date":"2026-05-23"},{"area":85,"pyeong":25.7,"n":5,"median":117000,"min":102000,"max":134500,"latest_price":134500,"latest_date":"2026-09-30","latest_floor":6,"jeonse_n":3,"wolse_n":1,"jeonse_median":40740,"jeonse_min":39900,"jeonse_max":48300,"jeonse_latest":40740,"jeonse_latest_date":"2026-09-01","jeonse_ratio":34.8,"wolse_deposit_median":35000,"wolse_monthly_median":42}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-10",74.52,11,21400,null,null,1992],
 ["2006-04-26",84.99,2,22000,null,null,1992],
@@ -44,7 +44,8 @@
 ["2026-02-06",84.99,9,102000,null,"중개거래",1992],
 ["2026-04-23",84.99,11,117000,null,"중개거래",1992],
 ["2026-05-29",84.99,1,117000,null,"중개거래",1992],
-["2026-06-15",84.99,5,122000,null,"중개거래",1992]
+["2026-06-15",84.99,5,122000,null,"중개거래",1992],
+["2026-09-30",84.99,6,134500,null,"중개거래",1992]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-27",84.99,9,39900,0,"갱신","25.12~27.12",true],

@@ -1,7 +1,7 @@
 {"id":"경기-의왕-무궁화",
 "name":"무궁화아파트",
 "basis":"기존 단지",
-"by_area":[{"area":50,"pyeong":15.1,"n":3,"median":27000,"min":27000,"max":28500,"latest_price":27000,"latest_date":"2026-07-17","latest_floor":5},{"area":85,"pyeong":25.7,"n":11,"median":38900,"min":30000,"max":43000,"latest_price":41000,"latest_date":"2026-10-02","latest_floor":9,"jeonse_n":13,"wolse_n":0,"jeonse_median":29000,"jeonse_min":25000,"jeonse_max":35000,"jeonse_latest":25000,"jeonse_latest_date":"2026-09-01","jeonse_ratio":74.6}],
+"by_area":[{"area":50,"pyeong":15.1,"n":3,"median":27000,"min":27000,"max":28500,"latest_price":27000,"latest_date":"2026-07-17","latest_floor":5},{"area":85,"pyeong":25.7,"n":12,"median":39250,"min":30000,"max":43000,"latest_price":42800,"latest_date":"2026-10-02","latest_floor":6,"jeonse_n":13,"wolse_n":0,"jeonse_median":29000,"jeonse_min":25000,"jeonse_max":35000,"jeonse_latest":25000,"jeonse_latest_date":"2026-09-01","jeonse_ratio":73.9}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",49.8,9,10000,null,null,1995],
 ["2006-01-11",84.98,4,16920,null,null,1995],
@@ -378,6 +378,7 @@
 ["2026-07-17",49.8,5,27000,"102","중개거래",1995],
 ["2026-07-31",84.98,6,43000,"103","중개거래",1995],
 ["2026-08-18",84.98,4,42000,null,"중개거래",1995],
+["2026-10-02",84.98,6,42800,null,"중개거래",1995],
 ["2026-10-02",84.98,9,41000,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

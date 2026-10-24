@@ -1,7 +1,7 @@
 {"id":"11320100000373",
 "name":"대웅아파트",
 "basis":"단지",
-"by_area":[{"area":45,"pyeong":13.6,"n":2,"median":24600,"min":23000,"max":26200,"latest_price":26200,"latest_date":"2026-08-31","latest_floor":4,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":1500,"wolse_monthly_median":60},{"area":52,"pyeong":15.7,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":6500,"wolse_monthly_median":40},{"area":56,"pyeong":16.9,"n":1,"median":28500,"min":28500,"max":28500,"latest_price":28500,"latest_date":"2026-05-04","latest_floor":3,"jeonse_n":4,"wolse_n":7,"jeonse_median":16500,"jeonse_min":14000,"jeonse_max":18000,"jeonse_latest":17500,"jeonse_latest_date":"2026-08-29","jeonse_ratio":57.9,"wolse_deposit_median":2000,"wolse_monthly_median":70}],
+"by_area":[{"area":45,"pyeong":13.6,"n":3,"median":26200,"min":23000,"max":27900,"latest_price":27900,"latest_date":"2026-10-07","latest_floor":2,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":1500,"wolse_monthly_median":60},{"area":52,"pyeong":15.7,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":6500,"wolse_monthly_median":40},{"area":56,"pyeong":16.9,"n":1,"median":28500,"min":28500,"max":28500,"latest_price":28500,"latest_date":"2026-05-04","latest_floor":3,"jeonse_n":4,"wolse_n":7,"jeonse_median":16500,"jeonse_min":14000,"jeonse_max":18000,"jeonse_latest":17500,"jeonse_latest_date":"2026-08-29","jeonse_ratio":57.9,"wolse_deposit_median":2000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-10",52.02,5,9250,null,null,1989],
 ["2006-02-21",55.5,4,10650,null,null,1989],
@@ -146,7 +146,8 @@
 ["2025-06-12",52.02,1,26000,"1","중개거래",1989],
 ["2025-12-04",44.82,2,23000,"2","중개거래",1989],
 ["2026-05-04",55.5,3,28500,"3","중개거래",1989],
-["2026-08-31",44.82,4,26200,"2","중개거래",1989]
+["2026-08-31",44.82,4,26200,"2","중개거래",1989],
+["2026-10-07",44.82,2,27900,null,"중개거래",1989]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-12",55.5,5,2000,57,"신규","25.12~27.12",null],

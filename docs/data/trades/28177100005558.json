@@ -1,7 +1,7 @@
 {"id":"28177100005558",
 "name":"영남아파트",
 "basis":"단지",
-"by_area":[{"area":46,"pyeong":13.9,"n":2,"median":11000,"min":10000,"max":12000,"latest_price":10000,"latest_date":"2026-05-23","latest_floor":5,"jeonse_n":2,"wolse_n":8,"jeonse_median":8750,"jeonse_min":8500,"jeonse_max":9000,"jeonse_latest":8500,"jeonse_latest_date":"2025-12-27","jeonse_ratio":79.5,"wolse_deposit_median":1000,"wolse_monthly_median":45},{"area":51,"pyeong":15.4,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1000,"wolse_monthly_median":57},{"area":54,"pyeong":16.3,"n":6,"median":10850,"min":9500,"max":11600,"latest_price":11600,"latest_date":"2026-10-07","latest_floor":6,"jeonse_n":10,"wolse_n":7,"jeonse_median":9850,"jeonse_min":7000,"jeonse_max":11500,"jeonse_latest":10500,"jeonse_latest_date":"2026-09-14","jeonse_ratio":90.8,"wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":71,"pyeong":21.5,"n":1,"median":18000,"min":18000,"max":18000,"latest_price":18000,"latest_date":"2025-11-01","latest_floor":3}],
+"by_area":[{"area":46,"pyeong":13.9,"n":2,"median":11000,"min":10000,"max":12000,"latest_price":10000,"latest_date":"2026-05-23","latest_floor":5,"jeonse_n":2,"wolse_n":8,"jeonse_median":8750,"jeonse_min":8500,"jeonse_max":9000,"jeonse_latest":8500,"jeonse_latest_date":"2025-12-27","jeonse_ratio":79.5,"wolse_deposit_median":1000,"wolse_monthly_median":45},{"area":51,"pyeong":15.4,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":1000,"wolse_monthly_median":60},{"area":54,"pyeong":16.3,"n":6,"median":10850,"min":9500,"max":11600,"latest_price":11600,"latest_date":"2026-10-07","latest_floor":6,"jeonse_n":10,"wolse_n":7,"jeonse_median":9850,"jeonse_min":7000,"jeonse_max":11500,"jeonse_latest":10500,"jeonse_latest_date":"2026-09-14","jeonse_ratio":90.8,"wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":71,"pyeong":21.5,"n":1,"median":18000,"min":18000,"max":18000,"latest_price":18000,"latest_date":"2025-11-01","latest_floor":3}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-16",54.27,6,6300,null,null,1989],
 ["2006-02-10",54.27,6,5500,null,null,1989],
@@ -589,5 +589,6 @@
 ["2026-09-09",46.01,2,8500,5,"신규","26.11~28.10",null],
 ["2026-09-14",54.27,4,10500,0,"신규","26.11~28.11",null],
 ["2026-10-01",46.01,2,500,50,"갱신","26.10~28.10",true],
+["2026-10-07",51.12,2,1000,60,"신규","26.12~28.12",null],
 ["2026-10-14",51.12,2,1000,55,"신규","26.11~28.11",null]
 ]}}

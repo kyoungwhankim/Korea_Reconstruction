@@ -1,7 +1,7 @@
 {"id":"41370100007383",
 "name":"태영아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":7,"median":16700,"min":15500,"max":19250,"latest_price":19250,"latest_date":"2026-10-03","latest_floor":12,"jeonse_n":4,"wolse_n":2,"jeonse_median":14000,"jeonse_min":13500,"jeonse_max":14000,"jeonse_latest":14000,"jeonse_latest_date":"2026-04-04","jeonse_ratio":83.8,"wolse_deposit_median":2500,"wolse_monthly_median":75},{"area":85,"pyeong":25.7,"n":5,"median":23500,"min":20000,"max":24500,"latest_price":20000,"latest_date":"2026-07-29","latest_floor":19,"jeonse_n":6,"wolse_n":0,"jeonse_median":18000,"jeonse_min":15750,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-05-15","jeonse_ratio":76.6}],
+"by_area":[{"area":60,"pyeong":18.1,"n":7,"median":16700,"min":15500,"max":19250,"latest_price":19250,"latest_date":"2026-10-03","latest_floor":12,"jeonse_n":4,"wolse_n":2,"jeonse_median":14000,"jeonse_min":13500,"jeonse_max":14000,"jeonse_latest":14000,"jeonse_latest_date":"2026-04-04","jeonse_ratio":83.8,"wolse_deposit_median":2500,"wolse_monthly_median":75},{"area":85,"pyeong":25.7,"n":5,"median":23500,"min":20000,"max":24500,"latest_price":20000,"latest_date":"2026-07-29","latest_floor":19,"jeonse_n":7,"wolse_n":0,"jeonse_median":18000,"jeonse_min":15000,"jeonse_max":18000,"jeonse_latest":15000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":76.6}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-21",59.97,20,8700,null,null,1996],
 ["2006-04-09",59.97,2,8200,null,null,1996],
@@ -611,5 +611,6 @@
 ["2026-04-04",59.97,7,14000,0,"신규","26.05~28.05",null],
 ["2026-04-04",59.97,10,3000,70,"신규","26.04~27.07",null],
 ["2026-05-15",84.97,12,18000,0,"신규","26.06~28.06",null],
-["2026-06-25",59.97,19,2000,80,"신규","26.06~28.06",null]
+["2026-06-25",59.97,19,2000,80,"신규","26.06~28.06",null],
+["2026-10-16",84.97,5,15000,0,"신규","26.11~28.11",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"41220100007336",
 "name":"화영그린아파트",
 "basis":"단지",
-"by_area":[{"area":54,"pyeong":16.3,"n":3,"median":8800,"min":8500,"max":10500,"latest_price":8500,"latest_date":"2026-08-08","latest_floor":2},{"area":60,"pyeong":18.1,"n":2,"median":8425,"min":8300,"max":8550,"latest_price":8550,"latest_date":"2026-01-06","latest_floor":1,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":750,"wolse_monthly_median":47}],
+"by_area":[{"area":54,"pyeong":16.3,"n":3,"median":8800,"min":8500,"max":10500,"latest_price":8500,"latest_date":"2026-08-08","latest_floor":2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":200,"wolse_monthly_median":30},{"area":60,"pyeong":18.1,"n":2,"median":8425,"min":8300,"max":8550,"latest_price":8550,"latest_date":"2026-01-06","latest_floor":1,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":750,"wolse_monthly_median":47}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-09",59.88,1,4250,null,null,1995],
 ["2006-04-20",54.27,4,4030,null,null,1995],
@@ -217,5 +217,6 @@
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-01-05",59.88,5,500,50,"신규","26.03~28.03",null],
-["2026-05-01",59.88,3,1000,45,"신규","26.05~28.05",null]
+["2026-05-01",59.88,3,1000,45,"신규","26.05~28.05",null],
+["2026-10-12",54.27,5,200,30,"신규","26.10~28.10",null]
 ]}}

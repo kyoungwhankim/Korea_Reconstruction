@@ -1,7 +1,7 @@
 {"id":"28177100005561",
 "name":"장미2아파트",
 "basis":"단지",
-"by_area":[{"area":47,"pyeong":14.2,"n":4,"median":17250,"min":16000,"max":18000,"latest_price":16000,"latest_date":"2026-07-30","latest_floor":1,"jeonse_n":3,"wolse_n":1,"jeonse_median":9500,"jeonse_min":9000,"jeonse_max":12000,"jeonse_latest":9000,"jeonse_latest_date":"2026-09-30","jeonse_ratio":55.1,"wolse_deposit_median":1000,"wolse_monthly_median":40}],
+"by_area":[{"area":47,"pyeong":14.2,"n":4,"median":17250,"min":16000,"max":18000,"latest_price":16000,"latest_date":"2026-07-30","latest_floor":1,"jeonse_n":3,"wolse_n":2,"jeonse_median":9500,"jeonse_min":9000,"jeonse_max":12000,"jeonse_latest":9000,"jeonse_latest_date":"2026-09-30","jeonse_ratio":55.1,"wolse_deposit_median":1000,"wolse_monthly_median":45}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-12",46.89,2,9750,null,null,1988],
 ["2006-02-27",46.89,2,6000,null,null,1988],
@@ -52,5 +52,6 @@
 ["2025-12-04",46.89,1,12000,0,"신규","26.01~28.01",null],
 ["2025-12-17",46.89,5,1000,40,"신규","25.12~27.12",null],
 ["2026-04-09",46.89,3,9500,0,"신규","26.05~28.05",null],
-["2026-09-30",46.89,4,9000,0,"신규","26.10~28.10",null]
+["2026-09-30",46.89,4,9000,0,"신규","26.10~28.10",null],
+["2026-10-12",46.89,3,1000,50,"신규","26.10~28.10",null]
 ]}}

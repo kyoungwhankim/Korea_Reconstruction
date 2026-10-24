@@ -1,7 +1,7 @@
 {"id":"41173100006703",
 "name":"꿈마을금호아파트",
 "basis":"단지",
-"by_area":[{"area":102,"pyeong":30.9,"jeonse_n":5,"wolse_n":3,"jeonse_median":80000,"jeonse_min":73000,"jeonse_max":90000,"jeonse_latest":80000,"jeonse_latest_date":"2026-10-16","wolse_deposit_median":40000,"wolse_monthly_median":170},{"area":134,"pyeong":40.5,"n":4,"median":178000,"min":176000,"max":184500,"latest_price":184500,"latest_date":"2026-07-10","latest_floor":10,"jeonse_n":5,"wolse_n":8,"jeonse_median":88000,"jeonse_min":80600,"jeonse_max":100000,"jeonse_latest":100000,"jeonse_latest_date":"2026-05-27","jeonse_ratio":49.4,"wolse_deposit_median":50000,"wolse_monthly_median":150}],
+"by_area":[{"area":102,"pyeong":30.9,"jeonse_n":6,"wolse_n":3,"jeonse_median":81000,"jeonse_min":73000,"jeonse_max":90000,"jeonse_latest":85000,"jeonse_latest_date":"2026-10-23","wolse_deposit_median":40000,"wolse_monthly_median":170},{"area":134,"pyeong":40.5,"n":4,"median":178000,"min":176000,"max":184500,"latest_price":184500,"latest_date":"2026-07-10","latest_floor":10,"jeonse_n":5,"wolse_n":8,"jeonse_median":88000,"jeonse_min":80600,"jeonse_max":100000,"jeonse_latest":100000,"jeonse_latest_date":"2026-05-27","jeonse_ratio":49.4,"wolse_deposit_median":50000,"wolse_monthly_median":150}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-06",101.97,11,63000,null,null,1993],
 ["2006-04-18",133.59,4,92000,null,null,1993],
@@ -291,5 +291,6 @@
 ["2026-05-19",101.97,5,90000,0,"신규","26.08~28.08",null],
 ["2026-05-27",133.59,8,100000,0,"갱신","26.05~28.05",null],
 ["2026-06-20",101.97,1,25000,210,"신규","26.08~28.08",null],
-["2026-10-16",101.97,4,80000,0,"신규","27.01~29.01",null]
+["2026-10-16",101.97,4,80000,0,"신규","27.01~29.01",null],
+["2026-10-23",101.97,6,85000,0,"신규","27.02~29.02",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"11620100002123",
 "name":"복권아파트",
 "basis":"단지",
-"by_area":[{"area":48,"pyeong":14.5,"n":1,"median":31000,"min":31000,"max":31000,"latest_price":31000,"latest_date":"2026-08-23","latest_floor":3,"jeonse_n":7,"wolse_n":4,"jeonse_median":20000,"jeonse_min":17000,"jeonse_max":23000,"jeonse_latest":19900,"jeonse_latest_date":"2026-10-17","jeonse_ratio":64.5,"wolse_deposit_median":8000,"wolse_monthly_median":50}],
+"by_area":[{"area":48,"pyeong":14.5,"n":2,"median":30500,"min":30000,"max":31000,"latest_price":30000,"latest_date":"2026-10-21","latest_floor":3,"jeonse_n":7,"wolse_n":4,"jeonse_median":20000,"jeonse_min":17000,"jeonse_max":23000,"jeonse_latest":19900,"jeonse_latest_date":"2026-10-17","jeonse_ratio":65.6,"wolse_deposit_median":8000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-24",47.61,3,8500,null,null,1971],
 ["2006-02-24",47.61,3,8500,null,null,1971],
@@ -149,7 +149,8 @@
 ["2025-04-29",47.61,5,27500,"제1호동","중개거래",1971],
 ["2025-05-20",47.61,5,30000,"제3호동","중개거래",1971],
 ["2025-10-16",47.61,5,30000,"제1호동","중개거래",1971],
-["2026-08-23",47.61,3,31000,null,"중개거래",1971]
+["2026-08-23",47.61,3,31000,null,"중개거래",1971],
+["2026-10-21",47.61,3,30000,null,"중개거래",1971]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-29",47.61,1,23000,0,"신규","26.01~28.01",null],

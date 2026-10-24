@@ -1,7 +1,7 @@
 {"id":"41271100008854",
 "name":"주공2단지",
 "basis":"단지",
-"by_area":[{"area":50,"pyeong":15.1,"n":35,"median":24000,"min":20000,"max":28000,"latest_price":24500,"latest_date":"2026-10-03","latest_floor":15,"jeonse_n":63,"wolse_n":28,"jeonse_median":15000,"jeonse_min":1800,"jeonse_max":18000,"jeonse_latest":17000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":62.5,"wolse_deposit_median":2000,"wolse_monthly_median":60}],
+"by_area":[{"area":50,"pyeong":15.1,"n":35,"median":24000,"min":20000,"max":28000,"latest_price":24500,"latest_date":"2026-10-03","latest_floor":15,"jeonse_n":64,"wolse_n":28,"jeonse_median":15000,"jeonse_min":1800,"jeonse_max":18000,"jeonse_latest":17000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":62.5,"wolse_deposit_median":2000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",49.77,2,7000,null,null,1994],
 ["2006-01-07",49.77,2,7300,null,null,1994],
@@ -1346,5 +1346,6 @@
 ["2026-09-30",49.77,15,16500,0,"신규","26.10~28.10",null],
 ["2026-10-02",49.77,10,16500,0,"신규","26.11~28.11",null],
 ["2026-10-08",49.77,10,12720,0,"신규","26.10~28.10",null],
-["2026-10-15",49.77,8,17000,0,"신규","26.12~28.12",null]
+["2026-10-15",49.77,8,17000,0,"신규","26.12~28.12",null],
+["2026-10-20",49.77,10,17000,0,"신규","26.11~28.11",null]
 ]}}

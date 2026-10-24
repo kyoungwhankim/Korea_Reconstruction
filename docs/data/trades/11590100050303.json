@@ -1,7 +1,7 @@
 {"id":"11590100050303",
 "name":"대방현대1차",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":4,"median":118250,"min":113000,"max":126000,"latest_price":118500,"latest_date":"2026-05-14","latest_floor":14,"jeonse_n":5,"wolse_n":2,"jeonse_median":46000,"jeonse_min":40241,"jeonse_max":50000,"jeonse_latest":40241,"jeonse_latest_date":"2026-09-13","jeonse_ratio":38.9,"wolse_deposit_median":3500,"wolse_monthly_median":193},{"area":85,"pyeong":25.7,"n":14,"median":135500,"min":113000,"max":148000,"latest_price":145500,"latest_date":"2026-07-21","latest_floor":1,"jeonse_n":19,"wolse_n":13,"jeonse_median":70000,"jeonse_min":52200,"jeonse_max":83000,"jeonse_latest":70000,"jeonse_latest_date":"2026-10-18","jeonse_ratio":51.7,"wolse_deposit_median":30000,"wolse_monthly_median":129}],
+"by_area":[{"area":60,"pyeong":18.1,"n":4,"median":118250,"min":113000,"max":126000,"latest_price":118500,"latest_date":"2026-05-14","latest_floor":14,"jeonse_n":5,"wolse_n":2,"jeonse_median":46000,"jeonse_min":40241,"jeonse_max":50000,"jeonse_latest":40241,"jeonse_latest_date":"2026-09-13","jeonse_ratio":38.9,"wolse_deposit_median":3500,"wolse_monthly_median":193},{"area":85,"pyeong":25.7,"n":14,"median":135500,"min":113000,"max":148000,"latest_price":145500,"latest_date":"2026-07-21","latest_floor":1,"jeonse_n":20,"wolse_n":13,"jeonse_median":68000,"jeonse_min":52200,"jeonse_max":83000,"jeonse_latest":57000,"jeonse_latest_date":"2026-10-22","jeonse_ratio":50.2,"wolse_deposit_median":30000,"wolse_monthly_median":129}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-28",84.96,2,29500,null,null,1994],
 ["2006-02-06",59.84,14,22300,null,null,1994],
@@ -514,5 +514,6 @@
 ["2026-09-13",59.84,5,40241,0,"신규","26.11~28.11",null],
 ["2026-09-30",84.96,15,30000,135,"신규","26.12~28.12",null],
 ["2026-10-16",84.96,4,60900,0,"갱신","26.10~28.10",true],
-["2026-10-18",84.96,3,70000,0,"갱신","26.10~28.10",null]
+["2026-10-18",84.96,3,70000,0,"갱신","26.10~28.10",null],
+["2026-10-22",84.96,12,57000,0,"갱신","27.02~29.02",true]
 ]}}

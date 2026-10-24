@@ -1,7 +1,7 @@
 {"id":"11680120064718",
 "name":"SH공사대치1단지",
 "basis":"지번 공통(동 미상)",
-"by_area":[{"area":25,"pyeong":7.6,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1597,"wolse_monthly_median":7},{"area":33,"pyeong":10.0,"n":1,"median":147000,"min":147000,"max":147000,"latest_price":147000,"latest_date":"2026-10-14","latest_floor":14},{"area":40,"pyeong":12.1,"n":2,"median":171000,"min":165000,"max":177000,"latest_price":165000,"latest_date":"2026-09-10","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":267,"wolse_monthly_median":7},{"area":50,"pyeong":15.1,"n":4,"median":203750,"min":193000,"max":207000,"latest_price":207000,"latest_date":"2026-09-28","latest_floor":14},{"area":51,"pyeong":15.4,"n":3,"median":207000,"min":205000,"max":210000,"latest_price":210000,"latest_date":"2026-10-06","latest_floor":9},{"area":60,"pyeong":18.1,"n":2,"median":200500,"min":164000,"max":237000,"latest_price":237000,"latest_date":"2026-09-01","latest_floor":12}],
+"by_area":[{"area":25,"pyeong":7.6,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1597,"wolse_monthly_median":7},{"area":33,"pyeong":10.0,"n":1,"median":147000,"min":147000,"max":147000,"latest_price":147000,"latest_date":"2026-10-14","latest_floor":14},{"area":40,"pyeong":12.1,"n":2,"median":171000,"min":165000,"max":177000,"latest_price":165000,"latest_date":"2026-09-10","latest_floor":1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":267,"wolse_monthly_median":7},{"area":50,"pyeong":15.1,"n":4,"median":204000,"min":202000,"max":207000,"latest_price":202500,"latest_date":"2026-10-06","latest_floor":9},{"area":51,"pyeong":15.4,"n":3,"median":207000,"min":205000,"max":210000,"latest_price":210000,"latest_date":"2026-10-06","latest_floor":9},{"area":60,"pyeong":18.1,"n":2,"median":200500,"min":164000,"max":237000,"latest_price":237000,"latest_date":"2026-09-01","latest_floor":12}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-03",33.18,1,15900,null,null,1992],
 ["2006-01-07",39.53,5,24800,null,null,1992],
@@ -2621,10 +2621,10 @@
 ["2026-07-30",49.86,2,205500,null,"중개거래",1992],
 ["2026-07-31",60.0,3,164000,null,"직거래",1992],
 ["2026-08-22",51.12,6,205000,null,"중개거래",1992],
-["2026-08-28",49.86,15,193000,null,"중개거래",1992],
 ["2026-09-01",60.0,12,237000,null,"중개거래",1992],
 ["2026-09-10",39.53,1,165000,null,"중개거래",1992],
 ["2026-09-28",49.86,14,207000,null,"중개거래",1992],
+["2026-10-06",49.86,9,202500,null,"중개거래",1992],
 ["2026-10-06",51.12,9,210000,null,"중개거래",1992],
 ["2026-10-14",33.18,14,147000,null,"중개거래",1992]
 ]},

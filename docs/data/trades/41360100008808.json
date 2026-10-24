@@ -1,7 +1,7 @@
 {"id":"41360100008808",
 "name":"진주(1차)",
 "basis":"단지",
-"by_area":[{"area":40,"pyeong":12.1,"n":9,"median":9700,"min":7700,"max":11690,"latest_price":11690,"latest_date":"2026-10-07","latest_floor":1,"jeonse_n":16,"wolse_n":27,"jeonse_median":7719,"jeonse_min":5000,"jeonse_max":8775,"jeonse_latest":7700,"jeonse_latest_date":"2026-09-28","jeonse_ratio":79.6,"wolse_deposit_median":500,"wolse_monthly_median":45}],
+"by_area":[{"area":40,"pyeong":12.1,"n":10,"median":9750,"min":7700,"max":11690,"latest_price":10900,"latest_date":"2026-10-18","latest_floor":2,"jeonse_n":16,"wolse_n":27,"jeonse_median":7719,"jeonse_min":5000,"jeonse_max":8775,"jeonse_latest":7700,"jeonse_latest_date":"2026-09-28","jeonse_ratio":79.2,"wolse_deposit_median":500,"wolse_monthly_median":45}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-04-12",39.96,1,4000,null,null,1988],
 ["2006-04-20",39.96,5,3790,null,null,1988],
@@ -426,7 +426,8 @@
 ["2026-06-09",39.96,2,9800,"1","중개거래",1988],
 ["2026-08-22",39.96,3,10100,"1","직거래",1988],
 ["2026-08-30",39.96,5,7900,"3","중개거래",1988],
-["2026-10-07",39.96,1,11690,"3","중개거래",1988]
+["2026-10-07",39.96,1,11690,"3","중개거래",1988],
+["2026-10-18",39.96,2,10900,null,"중개거래",1988]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-03",39.96,3,7000,0,"신규","25.11~27.11",null],
