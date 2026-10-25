@@ -1,8 +1,8 @@
 [
  {
-  "changed_at": "2026-10-24",
-  "content_hash": "85f32177e443a95714b58f8fe2c4c0a2d32be2aa",
-  "fingerprint": "25b128333964c3a46cf0b1e0478f7bfc581f8e96",
+  "changed_at": "2026-10-25",
+  "content_hash": "da09b4ec611852a092f57d98f44f982a26c23d2f",
+  "fingerprint": "299328b778b5002bc6892c5f32ddd238c8bac23a",
   "name": "auto_projects.csv"
  },
  {
@@ -12,9 +12,9 @@
   "name": "manual_projects.csv"
  },
  {
-  "changed_at": "2026-10-24",
-  "content_hash": "534ef008688123d9806ebf71381f461be6daac3b",
-  "fingerprint": "526818c18059f4b63c900b5357b0439396a56c40",
+  "changed_at": "2026-10-25",
+  "content_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+  "fingerprint": "9e8f73ff5208232f135c3fa6b1245b0553db4e8b",
   "name": "notice_projects.csv"
  },
  {
@@ -48,8 +48,8 @@
   "name": "서울시_서울플랜+정비사업현황(OA-23112)"
  },
  {
-  "changed_at": "2026-10-24",
-  "content_hash": "e2d2c95d17a279279f6e6e89d72d70a0b12d655b",
+  "changed_at": "2026-10-25",
+  "content_hash": "447683f95abf821e76b7edb1b05cd62446441667",
   "fingerprint": null,
   "name": "서울시_정비사업정보몽땅_사업현황"
  },

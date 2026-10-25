@@ -1,7 +1,7 @@
 {"id":"41500100008213",
 "name":"고려중리아파트",
 "basis":"단지",
-"by_area":[{"area":71,"pyeong":21.5,"n":1,"median":14600,"min":14600,"max":14600,"latest_price":14600,"latest_date":"2026-04-06","latest_floor":5},{"area":85,"pyeong":25.7,"n":1,"median":15000,"min":15000,"max":15000,"latest_price":15000,"latest_date":"2026-07-01","latest_floor":11,"jeonse_n":2,"wolse_n":2,"jeonse_median":12500,"jeonse_min":12000,"jeonse_max":13000,"jeonse_latest":12000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":83.3,"wolse_deposit_median":2000,"wolse_monthly_median":65},{"area":114,"pyeong":34.5,"n":1,"median":18300,"min":18300,"max":18300,"latest_price":18300,"latest_date":"2026-07-11","latest_floor":5}],
+"by_area":[{"area":71,"pyeong":21.5,"n":1,"median":14600,"min":14600,"max":14600,"latest_price":14600,"latest_date":"2026-04-06","latest_floor":5},{"area":85,"pyeong":25.7,"n":1,"median":15000,"min":15000,"max":15000,"latest_price":15000,"latest_date":"2026-07-01","latest_floor":11,"jeonse_n":2,"wolse_n":2,"jeonse_median":12500,"jeonse_min":12000,"jeonse_max":13000,"jeonse_latest":12000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":83.3,"wolse_deposit_median":2000,"wolse_monthly_median":65},{"area":114,"pyeong":34.5,"n":2,"median":16900,"min":15500,"max":18300,"latest_price":15500,"latest_date":"2026-09-28","latest_floor":2}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-01",59.76,3,5300,null,null,1992],
 ["2006-08-15",84.84,13,5200,null,null,1992],
@@ -90,7 +90,8 @@
 ["2025-07-24",59.76,3,14400,"B","직거래",1992],
 ["2026-04-06",71.28,5,14600,"B","중개거래",1992],
 ["2026-07-01",84.84,11,15000,"A","중개거래",1992],
-["2026-07-11",114.4,5,18300,"A","중개거래",1992]
+["2026-07-11",114.4,5,18300,"A","중개거래",1992],
+["2026-09-28",114.4,2,15500,null,"직거래",1992]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-01-25",84.84,6,1000,70,"신규","26.02~27.02",null],

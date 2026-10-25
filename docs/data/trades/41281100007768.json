@@ -1,5 +1,5 @@
 {"id":"41281100007768",
-"name":"신원당(동문1)",
+"name":"성사어울림마을1단지동문",
 "basis":"단지",
 "by_area":[{"area":63,"pyeong":19.1,"n":10,"median":34500,"min":28000,"max":36700,"latest_price":34300,"latest_date":"2026-10-20","latest_floor":13,"jeonse_n":17,"wolse_n":8,"jeonse_median":27000,"jeonse_min":22500,"jeonse_max":31200,"jeonse_latest":25000,"jeonse_latest_date":"2026-09-22","jeonse_ratio":78.3,"wolse_deposit_median":2750,"wolse_monthly_median":95},{"area":84,"pyeong":25.4,"n":2,"median":44125,"min":43750,"max":44500,"latest_price":44500,"latest_date":"2026-10-14","latest_floor":2,"jeonse_n":3,"wolse_n":1,"jeonse_median":32000,"jeonse_min":29000,"jeonse_max":35000,"jeonse_latest":35000,"jeonse_latest_date":"2026-07-06","jeonse_ratio":72.5,"wolse_deposit_median":3000,"wolse_monthly_median":130}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

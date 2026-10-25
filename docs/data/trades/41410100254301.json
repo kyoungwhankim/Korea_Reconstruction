@@ -1,5 +1,5 @@
 {"id":"41410100254301",
-"name":"가야주공5단지(임대)",
+"name":"가야주공5단지2차(임대)",
 "basis":null,
 "by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":818,"wolse_monthly_median":11},{"area":32,"pyeong":9.7,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":1629,"wolse_monthly_median":12}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

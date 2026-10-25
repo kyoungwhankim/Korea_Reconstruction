@@ -1,5 +1,5 @@
 {"id":"41570100008566",
-"name":"길훈아파트",
+"name":"풍무장릉마을길훈1차",
 "basis":"단지",
 "by_area":[{"area":60,"pyeong":18.1,"n":11,"median":16500,"min":12000,"max":18500,"latest_price":18000,"latest_date":"2026-09-03","latest_floor":6,"jeonse_n":9,"wolse_n":2,"jeonse_median":13500,"jeonse_min":12000,"jeonse_max":13500,"jeonse_latest":13000,"jeonse_latest_date":"2026-09-18","jeonse_ratio":81.8,"wolse_deposit_median":1500,"wolse_monthly_median":57},{"area":85,"pyeong":25.7,"n":5,"median":22000,"min":20000,"max":23000,"latest_price":23000,"latest_date":"2026-07-24","latest_floor":4,"jeonse_n":2,"wolse_n":2,"jeonse_median":18250,"jeonse_min":17500,"jeonse_max":19000,"jeonse_latest":19000,"jeonse_latest_date":"2026-08-11","jeonse_ratio":83.0,"wolse_deposit_median":2000,"wolse_monthly_median":69},{"area":136,"pyeong":41.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":2000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

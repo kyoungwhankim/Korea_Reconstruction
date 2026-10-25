@@ -1,5 +1,5 @@
 {"id":"41410100007593",
-"name":"적성아파트",
+"name":"적성8차(경기도 군포시 금정동 744 적성아파트)",
 "basis":"단지",
 "by_area":[{"area":44,"pyeong":13.3,"n":4,"median":18500,"min":15000,"max":20000,"latest_price":17800,"latest_date":"2026-09-11","latest_floor":2,"jeonse_n":3,"wolse_n":3,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":12075,"jeonse_latest":12075,"jeonse_latest_date":"2026-10-13","jeonse_ratio":54.1,"wolse_deposit_median":1000,"wolse_monthly_median":58},{"area":46,"pyeong":13.9,"n":2,"median":18950,"min":17500,"max":20400,"latest_price":20400,"latest_date":"2026-10-14","latest_floor":2,"jeonse_n":8,"wolse_n":0,"jeonse_median":13000,"jeonse_min":12000,"jeonse_max":16500,"jeonse_latest":13100,"jeonse_latest_date":"2026-06-27","jeonse_ratio":68.6}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

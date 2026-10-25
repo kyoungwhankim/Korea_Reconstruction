@@ -1,5 +1,5 @@
 {"id":"41410100007563",
-"name":"주몽2-10아파트",
+"name":"산본10 주몽2차",
 "basis":"단지",
 "by_area":[{"area":38,"pyeong":11.5,"n":14,"median":24950,"min":21000,"max":28900,"latest_price":26700,"latest_date":"2026-10-09","latest_floor":2,"jeonse_n":14,"wolse_n":8,"jeonse_median":17000,"jeonse_min":15500,"jeonse_max":19950,"jeonse_latest":17000,"jeonse_latest_date":"2026-09-30","jeonse_ratio":68.1,"wolse_deposit_median":2000,"wolse_monthly_median":70},{"area":43,"pyeong":13.0,"n":33,"median":28000,"min":24000,"max":30500,"latest_price":27300,"latest_date":"2026-10-08","latest_floor":25,"jeonse_n":26,"wolse_n":18,"jeonse_median":19250,"jeonse_min":13000,"jeonse_max":21500,"jeonse_latest":18000,"jeonse_latest_date":"2026-09-21","jeonse_ratio":68.8,"wolse_deposit_median":2000,"wolse_monthly_median":75},{"area":50,"pyeong":15.1,"n":30,"median":35500,"min":31000,"max":45000,"latest_price":45000,"latest_date":"2026-08-12","latest_floor":5,"jeonse_n":35,"wolse_n":8,"jeonse_median":23500,"jeonse_min":19950,"jeonse_max":28000,"jeonse_latest":20000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":66.2,"wolse_deposit_median":3500,"wolse_monthly_median":92}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[

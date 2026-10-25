@@ -1,5 +1,5 @@
 {"id":"41410100007597",
-"name":"퇴계주공3단지(360~368동)",
+"name":"퇴계주공3단지2차(360~368동)",
 "basis":"단지",
 "by_area":[{"area":38,"pyeong":11.5,"n":53,"median":24800,"min":21000,"max":32500,"latest_price":32500,"latest_date":"2026-10-17","latest_floor":5,"jeonse_n":51,"wolse_n":30,"jeonse_median":17800,"jeonse_min":13000,"jeonse_max":21000,"jeonse_latest":17000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":71.8,"wolse_deposit_median":1750,"wolse_monthly_median":65},{"area":40,"pyeong":12.1,"n":45,"median":26000,"min":19500,"max":35500,"latest_price":35000,"latest_date":"2026-10-17","latest_floor":5,"jeonse_n":46,"wolse_n":27,"jeonse_median":19000,"jeonse_min":15750,"jeonse_max":22000,"jeonse_latest":18900,"jeonse_latest_date":"2026-10-07","jeonse_ratio":73.1,"wolse_deposit_median":2000,"wolse_monthly_median":75}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
