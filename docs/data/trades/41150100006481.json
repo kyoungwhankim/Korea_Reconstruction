@@ -1,7 +1,7 @@
 {"id":"41150100006481",
 "name":"벽산아파트",
 "basis":"단지",
-"by_area":[{"area":72,"pyeong":21.8,"n":3,"median":24500,"min":23400,"max":26400,"latest_price":26400,"latest_date":"2026-05-20","latest_floor":11,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":2500,"wolse_monthly_median":87},{"area":85,"pyeong":25.7,"n":5,"median":25900,"min":23000,"max":26000,"latest_price":25900,"latest_date":"2026-06-30","latest_floor":2,"jeonse_n":5,"wolse_n":1,"jeonse_median":22100,"jeonse_min":21000,"jeonse_max":24000,"jeonse_latest":24000,"jeonse_latest_date":"2026-07-11","jeonse_ratio":85.3,"wolse_deposit_median":2000,"wolse_monthly_median":130}],
+"by_area":[{"area":72,"pyeong":21.8,"n":3,"median":24500,"min":23400,"max":26400,"latest_price":26400,"latest_date":"2026-05-20","latest_floor":11,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":2500,"wolse_monthly_median":87},{"area":85,"pyeong":25.7,"n":6,"median":25950,"min":23000,"max":27000,"latest_price":27000,"latest_date":"2026-08-18","latest_floor":15,"jeonse_n":5,"wolse_n":1,"jeonse_median":22100,"jeonse_min":21000,"jeonse_max":24000,"jeonse_latest":24000,"jeonse_latest_date":"2026-07-11","jeonse_ratio":85.2,"wolse_deposit_median":2000,"wolse_monthly_median":130}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2023-02-28",84.63,4,30500,"6","중개거래",1993],
 ["2023-04-09",72.09,9,26000,"7","중개거래",1993],
@@ -40,7 +40,8 @@
 ["2026-04-27",84.63,7,26000,"6","중개거래",1993],
 ["2026-05-13",84.63,17,23000,"5","중개거래",1993],
 ["2026-05-20",72.09,11,26400,"7","중개거래",1993],
-["2026-06-30",84.63,2,25900,"5","중개거래",1993]
+["2026-06-30",84.63,2,25900,"5","중개거래",1993],
+["2026-08-18",84.63,15,27000,"5","중개거래",1993]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-13",72.09,16,2000,85,"갱신","25.11~27.11",true],
