@@ -1,7 +1,7 @@
 {"id":"41390100009297",
 "name":"연희아파트",
 "basis":"단지",
-"by_area":[{"area":45,"pyeong":13.6,"n":2,"median":14600,"min":14500,"max":14700,"latest_price":14500,"latest_date":"2026-06-30","latest_floor":1,"jeonse_n":4,"wolse_n":8,"jeonse_median":8000,"jeonse_min":7000,"jeonse_max":10000,"jeonse_latest":9000,"jeonse_latest_date":"2026-09-30","jeonse_ratio":54.8,"wolse_deposit_median":750,"wolse_monthly_median":42}],
+"by_area":[{"area":45,"pyeong":13.6,"n":2,"median":14600,"min":14500,"max":14700,"latest_price":14500,"latest_date":"2026-06-30","latest_floor":1,"jeonse_n":5,"wolse_n":8,"jeonse_median":9000,"jeonse_min":7000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-10-23","jeonse_ratio":61.6,"wolse_deposit_median":750,"wolse_monthly_median":42}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-10",44.73,2,6000,null,null,1986],
 ["2006-04-09",44.73,2,4980,null,null,1986],
@@ -168,5 +168,6 @@
 ["2026-07-20",44.73,5,500,35,"신규","26.07~27.07",null],
 ["2026-08-27",44.73,3,1000,45,"신규","26.11~28.11",null],
 ["2026-09-13",44.73,3,500,45,"신규","26.09~28.09",null],
-["2026-09-30",44.73,2,9000,0,"신규","26.11~28.11",null]
+["2026-09-30",44.73,2,9000,0,"신규","26.11~28.11",null],
+["2026-10-23",44.73,3,10000,0,"신규","26.10~28.10",null]
 ]}}

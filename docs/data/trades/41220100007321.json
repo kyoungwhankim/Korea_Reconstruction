@@ -1,7 +1,7 @@
 {"id":"41220100007321",
 "name":"아주아파트",
 "basis":"단지",
-"by_area":[{"area":52,"pyeong":15.7,"n":2,"median":11750,"min":10500,"max":13000,"latest_price":10500,"latest_date":"2026-06-24","latest_floor":10},{"area":57,"pyeong":17.2,"n":2,"median":10750,"min":10000,"max":11500,"latest_price":10000,"latest_date":"2026-07-25","latest_floor":8,"jeonse_n":2,"wolse_n":1,"jeonse_median":11500,"jeonse_min":11000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-07-23","jeonse_ratio":107.0,"wolse_deposit_median":1000,"wolse_monthly_median":55},{"area":60,"pyeong":18.1,"n":23,"median":14700,"min":12000,"max":18200,"latest_price":15000,"latest_date":"2026-09-30","latest_floor":3,"jeonse_n":17,"wolse_n":23,"jeonse_median":13000,"jeonse_min":11500,"jeonse_max":15800,"jeonse_latest":13500,"jeonse_latest_date":"2026-09-05","jeonse_ratio":88.4,"wolse_deposit_median":1000,"wolse_monthly_median":65}],
+"by_area":[{"area":52,"pyeong":15.7,"n":2,"median":11750,"min":10500,"max":13000,"latest_price":10500,"latest_date":"2026-06-24","latest_floor":10},{"area":57,"pyeong":17.2,"n":2,"median":10750,"min":10000,"max":11500,"latest_price":10000,"latest_date":"2026-07-25","latest_floor":8,"jeonse_n":2,"wolse_n":1,"jeonse_median":11500,"jeonse_min":11000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-07-23","jeonse_ratio":107.0,"wolse_deposit_median":1000,"wolse_monthly_median":55},{"area":60,"pyeong":18.1,"n":25,"median":14700,"min":12000,"max":18200,"latest_price":16700,"latest_date":"2026-10-26","latest_floor":9,"jeonse_n":17,"wolse_n":23,"jeonse_median":13000,"jeonse_min":11500,"jeonse_max":15800,"jeonse_latest":13500,"jeonse_latest_date":"2026-09-05","jeonse_ratio":88.4,"wolse_deposit_median":1000,"wolse_monthly_median":65}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-03",59.95,7,6500,null,null,1994],
 ["2006-01-04",59.95,9,8500,null,null,1994],
@@ -992,7 +992,9 @@
 ["2026-07-27",59.95,8,14600,"105","중개거래",1994],
 ["2026-08-03",59.95,3,14700,"102","중개거래",1994],
 ["2026-09-01",59.95,3,14500,"103","중개거래",1994],
-["2026-09-30",59.95,3,15000,null,"중개거래",1994]
+["2026-09-30",59.95,3,15000,null,"중개거래",1994],
+["2026-10-11",59.95,5,14800,null,"중개거래",1994],
+["2026-10-26",59.95,9,16700,null,"직거래",1994]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-12",59.95,2,13900,0,"신규","25.12~27.12",null],

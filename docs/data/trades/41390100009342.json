@@ -1,7 +1,7 @@
 {"id":"41390100009342",
 "name":"아주5차아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":2,"median":19900,"min":19800,"max":20000,"latest_price":20000,"latest_date":"2026-06-12","latest_floor":8,"jeonse_n":4,"wolse_n":1,"jeonse_median":16750,"jeonse_min":14500,"jeonse_max":17500,"jeonse_latest":16000,"jeonse_latest_date":"2026-07-16","jeonse_ratio":84.2,"wolse_deposit_median":2000,"wolse_monthly_median":70}],
+"by_area":[{"area":60,"pyeong":18.1,"n":2,"median":19900,"min":19800,"max":20000,"latest_price":20000,"latest_date":"2026-06-12","latest_floor":8,"jeonse_n":5,"wolse_n":1,"jeonse_median":16000,"jeonse_min":14500,"jeonse_max":17500,"jeonse_latest":16000,"jeonse_latest_date":"2026-10-23","jeonse_ratio":80.4,"wolse_deposit_median":2000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-08",59.93,6,8700,null,null,1994],
 ["2006-02-23",59.93,3,8200,null,null,1994],
@@ -188,5 +188,6 @@
 ["2025-11-25",59.93,9,2000,70,"신규","25.11~27.11",null],
 ["2025-12-12",59.93,1,17500,0,null,null,null],
 ["2025-12-12",59.93,1,17500,0,"신규","25.12~26.03",null],
-["2026-07-16",59.93,6,16000,0,"신규","26.10~28.10",null]
+["2026-07-16",59.93,6,16000,0,"신규","26.10~28.10",null],
+["2026-10-23",59.93,11,16000,0,"신규","27.01~29.01",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"41287100007969",
 "name":"문촌7단지사회복지관",
 "basis":"단지",
-"by_area":[{"area":43,"pyeong":13.0,"n":8,"median":25500,"min":18500,"max":27000,"latest_price":23000,"latest_date":"2026-10-08","latest_floor":5,"jeonse_n":29,"wolse_n":19,"jeonse_median":17000,"jeonse_min":13000,"jeonse_max":20000,"jeonse_latest":20000,"jeonse_latest_date":"2026-09-15","jeonse_ratio":66.7,"wolse_deposit_median":2000,"wolse_monthly_median":70},{"area":50,"pyeong":15.1,"n":13,"median":30000,"min":29000,"max":32000,"latest_price":30400,"latest_date":"2026-07-28","latest_floor":14,"jeonse_n":38,"wolse_n":19,"jeonse_median":19350,"jeonse_min":15000,"jeonse_max":23000,"jeonse_latest":21000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":64.5,"wolse_deposit_median":2000,"wolse_monthly_median":74}],
+"by_area":[{"area":43,"pyeong":13.0,"n":8,"median":25500,"min":18500,"max":27000,"latest_price":23000,"latest_date":"2026-10-08","latest_floor":5,"jeonse_n":29,"wolse_n":20,"jeonse_median":17000,"jeonse_min":13000,"jeonse_max":20000,"jeonse_latest":20000,"jeonse_latest_date":"2026-09-15","jeonse_ratio":66.7,"wolse_deposit_median":2000,"wolse_monthly_median":70},{"area":50,"pyeong":15.1,"n":13,"median":30000,"min":29000,"max":32000,"latest_price":30400,"latest_date":"2026-07-28","latest_floor":14,"jeonse_n":38,"wolse_n":19,"jeonse_median":19350,"jeonse_min":15000,"jeonse_max":23000,"jeonse_latest":21000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":64.5,"wolse_deposit_median":2000,"wolse_monthly_median":74}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-14",42.75,5,8500,null,null,1995],
 ["2006-01-19",42.75,18,8500,null,null,1995],
@@ -979,5 +979,6 @@
 ["2026-09-30",49.69,9,20475,0,"갱신","26.11~28.11",true],
 ["2026-10-02",49.69,9,21000,0,"갱신","26.11~28.11",true],
 ["2026-10-16",49.69,10,4000,75,"갱신","26.10~28.06",null],
-["2026-10-21",42.75,2,2000,80,"신규","26.10~28.10",null]
+["2026-10-21",42.75,2,2000,80,"신규","26.10~28.10",null],
+["2026-10-25",42.75,11,2000,60,"신규","26.11~28.11",null]
 ]}}

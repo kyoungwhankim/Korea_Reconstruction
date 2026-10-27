@@ -1,7 +1,7 @@
 {"id":"41113100006070",
 "name":"보성,유원아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":76,"median":34800,"min":18350,"max":43400,"latest_price":43300,"latest_date":"2026-10-20","latest_floor":12,"jeonse_n":91,"wolse_n":32,"jeonse_median":24150,"jeonse_min":16800,"jeonse_max":32000,"jeonse_latest":32000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":69.4,"wolse_deposit_median":3000,"wolse_monthly_median":95}],
+"by_area":[{"area":60,"pyeong":18.1,"n":76,"median":34800,"min":18350,"max":43400,"latest_price":43300,"latest_date":"2026-10-20","latest_floor":12,"jeonse_n":92,"wolse_n":32,"jeonse_median":24325,"jeonse_min":16800,"jeonse_max":32000,"jeonse_latest":25200,"jeonse_latest_date":"2026-10-26","jeonse_ratio":69.9,"wolse_deposit_median":3000,"wolse_monthly_median":95}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-03",60.0,4,11950,null,null,1996],
 ["2006-01-09",60.0,4,12000,null,null,1996],
@@ -2148,5 +2148,6 @@
 ["2026-09-24",59.76,7,28000,0,"신규","26.11~28.11",null],
 ["2026-10-02",59.76,5,20170,0,"갱신","26.10~28.10",null],
 ["2026-10-08",60.0,6,28000,0,"신규","26.10~28.10",null],
-["2026-10-19",59.76,10,32000,0,"신규","27.01~29.01",null]
+["2026-10-19",59.76,10,32000,0,"신규","27.01~29.01",null],
+["2026-10-26",60.0,9,25200,0,"갱신","26.10~28.03",true]
 ]}}

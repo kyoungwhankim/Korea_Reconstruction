@@ -1,7 +1,7 @@
 {"id":"11530100050283",
 "name":"우성2아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":12,"median":120500,"min":92000,"max":126500,"latest_price":126000,"latest_date":"2026-09-07","latest_floor":6,"jeonse_n":12,"wolse_n":8,"jeonse_median":57500,"jeonse_min":49350,"jeonse_max":65000,"jeonse_latest":62000,"jeonse_latest_date":"2026-08-25","jeonse_ratio":47.7,"wolse_deposit_median":41000,"wolse_monthly_median":22}],
+"by_area":[{"area":85,"pyeong":25.7,"n":13,"median":122000,"min":92000,"max":126500,"latest_price":126500,"latest_date":"2026-10-08","latest_floor":9,"jeonse_n":12,"wolse_n":8,"jeonse_median":57500,"jeonse_min":49350,"jeonse_max":65000,"jeonse_latest":62000,"jeonse_latest_date":"2026-08-25","jeonse_ratio":47.1,"wolse_deposit_median":41000,"wolse_monthly_median":22}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-06",84.94,3,24000,null,null,1996],
 ["2006-03-25",84.82,7,30000,null,null,1996],
@@ -197,7 +197,8 @@
 ["2026-07-08",84.82,5,122000,null,"중개거래",1996],
 ["2026-08-10",84.82,11,126000,null,"중개거래",1996],
 ["2026-08-27",84.82,14,126500,null,"중개거래",1996],
-["2026-09-07",84.82,6,126000,null,"중개거래",1996]
+["2026-09-07",84.82,6,126000,null,"중개거래",1996],
+["2026-10-08",84.82,9,126500,null,"중개거래",1996]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-19",84.82,10,45000,20,"신규","26.02~27.02",null],

@@ -1,7 +1,7 @@
 {"id":"경기-평택-지산2",
 "name":"지산2",
 "basis":"기존 단지",
-"by_area":[{"area":50,"pyeong":15.1,"n":4,"median":11750,"min":10700,"max":12900,"latest_price":12000,"latest_date":"2026-09-07","latest_floor":6,"jeonse_n":6,"wolse_n":10,"jeonse_median":10750,"jeonse_min":9000,"jeonse_max":11200,"jeonse_latest":11000,"jeonse_latest_date":"2026-08-26","jeonse_ratio":91.5,"wolse_deposit_median":750,"wolse_monthly_median":44},{"area":60,"pyeong":18.1,"n":3,"median":12500,"min":11200,"max":13500,"latest_price":13500,"latest_date":"2026-08-31","latest_floor":5,"jeonse_n":3,"wolse_n":2,"jeonse_median":12500,"jeonse_min":12000,"jeonse_max":13000,"jeonse_latest":12500,"jeonse_latest_date":"2026-06-08","jeonse_ratio":100.0,"wolse_deposit_median":6550,"wolse_monthly_median":32}],
+"by_area":[{"area":50,"pyeong":15.1,"n":4,"median":11750,"min":10700,"max":12900,"latest_price":12000,"latest_date":"2026-09-07","latest_floor":6,"jeonse_n":6,"wolse_n":10,"jeonse_median":10750,"jeonse_min":9000,"jeonse_max":11200,"jeonse_latest":11000,"jeonse_latest_date":"2026-08-26","jeonse_ratio":91.5,"wolse_deposit_median":750,"wolse_monthly_median":44},{"area":60,"pyeong":18.1,"n":4,"median":11850,"min":10000,"max":13500,"latest_price":10000,"latest_date":"2026-10-24","latest_floor":2,"jeonse_n":3,"wolse_n":2,"jeonse_median":12500,"jeonse_min":12000,"jeonse_max":13000,"jeonse_latest":12500,"jeonse_latest_date":"2026-06-08","jeonse_ratio":105.5,"wolse_deposit_median":6550,"wolse_monthly_median":32}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-04",59.94,3,6450,null,null,1992],
 ["2006-02-04",50.46,5,5200,null,null,1992],
@@ -499,7 +499,8 @@
 ["2026-05-18",50.46,3,11500,"101","중개거래",1992],
 ["2026-06-06",50.46,2,12900,"101","중개거래",1992],
 ["2026-08-31",59.94,5,13500,null,"중개거래",1992],
-["2026-09-07",50.46,6,12000,"101","중개거래",1992]
+["2026-09-07",50.46,6,12000,"101","중개거래",1992],
+["2026-10-24",59.94,2,10000,null,"중개거래",1992]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-05",59.94,9,12000,0,"신규","25.12~27.12",null],

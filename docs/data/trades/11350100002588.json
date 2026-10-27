@@ -1,7 +1,7 @@
 {"id":"11350100002588",
 "name":"주공7단지",
 "basis":"단지",
-"by_area":[{"area":44,"pyeong":13.3,"n":32,"median":38250,"min":34500,"max":43300,"latest_price":41900,"latest_date":"2026-09-22","latest_floor":3,"jeonse_n":59,"wolse_n":61,"jeonse_median":20000,"jeonse_min":14700,"jeonse_max":31500,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":52.3,"wolse_deposit_median":1000,"wolse_monthly_median":85}],
+"by_area":[{"area":44,"pyeong":13.3,"n":33,"median":38500,"min":34500,"max":46000,"latest_price":46000,"latest_date":"2026-10-12","latest_floor":5,"jeonse_n":59,"wolse_n":61,"jeonse_median":20000,"jeonse_min":14700,"jeonse_max":31500,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":51.9,"wolse_deposit_median":1000,"wolse_monthly_median":85}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-20",44.1,8,8500,null,null,1993],
 ["2006-03-03",44.1,13,8700,null,null,1993],
@@ -858,7 +858,8 @@
 ["2026-07-09",44.1,14,40000,null,"중개거래",1993],
 ["2026-08-01",44.1,2,43000,"702","중개거래",1993],
 ["2026-09-05",44.1,9,43300,null,"중개거래",1993],
-["2026-09-22",44.1,3,41900,null,"중개거래",1993]
+["2026-09-22",44.1,3,41900,null,"중개거래",1993],
+["2026-10-12",44.1,5,46000,null,"중개거래",1993]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-01",44.1,1,500,100,"신규","25.11~26.02",null],

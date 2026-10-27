@@ -1,7 +1,7 @@
 {"id":"11500100001757",
 "name":"삼성한마음아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":8,"median":97400,"min":92800,"max":104500,"latest_price":102000,"latest_date":"2026-08-11","latest_floor":11,"jeonse_n":11,"wolse_n":11,"jeonse_median":51000,"jeonse_min":36400,"jeonse_max":53000,"jeonse_latest":36400,"jeonse_latest_date":"2026-10-08","jeonse_ratio":52.4,"wolse_deposit_median":20000,"wolse_monthly_median":100},{"area":85,"pyeong":25.7,"n":5,"median":96000,"min":69000,"max":108000,"latest_price":69000,"latest_date":"2026-06-27","latest_floor":2,"jeonse_n":6,"wolse_n":2,"jeonse_median":52237,"jeonse_min":45000,"jeonse_max":60000,"jeonse_latest":51975,"jeonse_latest_date":"2026-08-21","jeonse_ratio":54.4,"wolse_deposit_median":38500,"wolse_monthly_median":61}],
+"by_area":[{"area":60,"pyeong":18.1,"n":8,"median":97400,"min":92800,"max":104500,"latest_price":102000,"latest_date":"2026-08-11","latest_floor":11,"jeonse_n":11,"wolse_n":11,"jeonse_median":51000,"jeonse_min":36400,"jeonse_max":53000,"jeonse_latest":36400,"jeonse_latest_date":"2026-10-08","jeonse_ratio":52.4,"wolse_deposit_median":20000,"wolse_monthly_median":100},{"area":85,"pyeong":25.7,"n":5,"median":96000,"min":69000,"max":108000,"latest_price":69000,"latest_date":"2026-06-27","latest_floor":2,"jeonse_n":7,"wolse_n":2,"jeonse_median":52500,"jeonse_min":45000,"jeonse_max":60000,"jeonse_latest":57500,"jeonse_latest_date":"2026-10-10","jeonse_ratio":54.7,"wolse_deposit_median":38500,"wolse_monthly_median":61}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",59.94,6,18900,null,null,1995],
 ["2006-01-18",84.87,15,27300,null,null,1995],
@@ -421,5 +421,6 @@
 ["2026-09-18",59.94,1,40000,10,"갱신","26.09~28.09",true],
 ["2026-10-03",59.94,7,53000,0,"신규","26.12~28.12",null],
 ["2026-10-03",59.94,7,53000,0,"신규","26.12~28.12",null],
-["2026-10-08",59.94,11,36400,0,"갱신","26.11~28.11",null]
+["2026-10-08",59.94,11,36400,0,"갱신","26.11~28.11",null],
+["2026-10-10",84.87,4,57500,0,"갱신","26.11~28.11",true]
 ]}}

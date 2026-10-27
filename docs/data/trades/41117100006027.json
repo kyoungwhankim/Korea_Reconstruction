@@ -1,7 +1,7 @@
 {"id":"41117100006027",
 "name":"백자아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":2,"median":39850,"min":39500,"max":40200,"latest_price":40200,"latest_date":"2026-08-27","latest_floor":1,"jeonse_n":9,"wolse_n":8,"jeonse_median":18000,"jeonse_min":8200,"jeonse_max":22000,"jeonse_latest":18900,"jeonse_latest_date":"2026-10-16","jeonse_ratio":45.2,"wolse_deposit_median":14000,"wolse_monthly_median":24}],
+"by_area":[{"area":60,"pyeong":18.1,"n":2,"median":39850,"min":39500,"max":40200,"latest_price":40200,"latest_date":"2026-08-27","latest_floor":1,"jeonse_n":9,"wolse_n":9,"jeonse_median":18000,"jeonse_min":8200,"jeonse_max":22000,"jeonse_latest":18900,"jeonse_latest_date":"2026-10-16","jeonse_ratio":45.2,"wolse_deposit_median":13000,"wolse_monthly_median":29}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-06",59.88,5,10350,null,null,1994],
 ["2006-03-02",59.88,4,10800,null,null,1994],
@@ -172,5 +172,6 @@
 ["2026-09-09",59.88,1,18000,10,"신규","26.09~28.09",null],
 ["2026-09-09",59.88,1,18000,10,"신규","26.09~28.09",null],
 ["2026-10-13",59.88,2,22000,0,"갱신","26.10~28.10",true],
-["2026-10-16",59.88,4,18900,0,"갱신","26.12~28.12",true]
+["2026-10-16",59.88,4,18900,0,"갱신","26.12~28.12",true],
+["2026-10-21",59.88,1,13000,45,"갱신","26.12~28.12",null]
 ]}}

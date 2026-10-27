@@ -1,7 +1,7 @@
 {"id":"11650100002900",
 "name":"한신상가아파트",
 "basis":"단지",
-"by_area":[{"area":107,"pyeong":32.4,"jeonse_n":1,"wolse_n":1,"jeonse_median":50000,"jeonse_min":50000,"jeonse_max":50000,"jeonse_latest":50000,"jeonse_latest_date":"2026-03-18","wolse_deposit_median":10000,"wolse_monthly_median":200},{"area":156,"pyeong":47.2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":50000,"wolse_monthly_median":80}],
+"by_area":[{"area":107,"pyeong":32.4,"jeonse_n":1,"wolse_n":1,"jeonse_median":50000,"jeonse_min":50000,"jeonse_max":50000,"jeonse_latest":50000,"jeonse_latest_date":"2026-03-18","wolse_deposit_median":10000,"wolse_monthly_median":200},{"area":112,"pyeong":33.9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":15000,"wolse_monthly_median":200},{"area":156,"pyeong":47.2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":50000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2007-10-26",95.07,2,65000,null,null,1974],
 ["2008-01-18",95.07,4,67500,null,null,1974],
@@ -34,5 +34,6 @@
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-03-18",106.58,4,50000,0,"갱신","26.03~28.03",null],
 ["2026-04-14",156.33,5,50000,80,"신규","26.07~28.07",null],
-["2026-06-24",106.58,5,10000,200,"신규","26.08~29.03",null]
+["2026-06-24",106.58,5,10000,200,"신규","26.08~29.03",null],
+["2026-09-07",112.03,5,15000,200,"신규","26.10~28.10",null]
 ]}}

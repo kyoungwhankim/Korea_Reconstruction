@@ -1,7 +1,7 @@
 {"id":"서울-서초구-우면한라",
 "name":"우면한라아파트",
 "basis":"기존 단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":14,"median":155750,"min":145000,"max":164000,"latest_price":164000,"latest_date":"2026-08-21","latest_floor":4,"jeonse_n":29,"wolse_n":20,"jeonse_median":47250,"jeonse_min":36000,"jeonse_max":57000,"jeonse_latest":44000,"jeonse_latest_date":"2026-09-16","jeonse_ratio":30.3,"wolse_deposit_median":30000,"wolse_monthly_median":83}],
+"by_area":[{"area":60,"pyeong":18.1,"n":14,"median":155750,"min":145000,"max":164000,"latest_price":164000,"latest_date":"2026-08-21","latest_floor":4,"jeonse_n":29,"wolse_n":21,"jeonse_median":47250,"jeonse_min":36000,"jeonse_max":57000,"jeonse_latest":44000,"jeonse_latest_date":"2026-09-16","jeonse_ratio":30.3,"wolse_deposit_median":30000,"wolse_monthly_median":83}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-04",59.98,3,40000,null,null,1994],
 ["2006-01-10",59.98,2,40000,null,null,1994],
@@ -292,5 +292,6 @@
 ["2026-09-16",59.98,6,44000,0,"갱신","26.09~28.09",true],
 ["2026-09-17",59.98,2,50000,20,"신규","26.11~28.11",null],
 ["2026-10-02",59.98,4,3000,189,"갱신","26.11~28.11",true],
-["2026-10-19",59.98,6,30000,100,"신규","26.12~28.12",null]
+["2026-10-19",59.98,6,30000,100,"신규","26.12~28.12",null],
+["2026-10-24",59.98,6,30000,100,"신규","26.12~28.12",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"11350100002597",
 "name":"중계청구3차",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":34,"median":135000,"min":115000,"max":143000,"latest_price":136000,"latest_date":"2026-09-22","latest_floor":1,"jeonse_n":71,"wolse_n":27,"jeonse_median":76500,"jeonse_min":65000,"jeonse_max":86000,"jeonse_latest":85000,"jeonse_latest_date":"2026-10-07","jeonse_ratio":56.7,"wolse_deposit_median":30000,"wolse_monthly_median":178}],
+"by_area":[{"area":85,"pyeong":25.7,"n":34,"median":135000,"min":115000,"max":143000,"latest_price":136000,"latest_date":"2026-09-22","latest_floor":1,"jeonse_n":71,"wolse_n":28,"jeonse_median":76500,"jeonse_min":65000,"jeonse_max":86000,"jeonse_latest":85000,"jeonse_latest_date":"2026-10-07","jeonse_ratio":56.7,"wolse_deposit_median":30000,"wolse_monthly_median":178}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-04",84.77,14,34800,null,null,1996],
 ["2006-01-18",84.77,9,33200,null,null,1996],
@@ -1066,5 +1066,6 @@
 ["2026-09-05",84.77,15,68250,42,"갱신","26.10~28.10",true],
 ["2026-09-11",84.77,10,29900,200,"신규","26.11~28.11",null],
 ["2026-09-12",84.77,9,77500,0,"갱신","26.10~28.10",true],
-["2026-10-07",84.77,1,85000,0,"신규","27.01~29.01",null]
+["2026-10-07",84.77,1,85000,0,"신규","27.01~29.01",null],
+["2026-10-24",84.77,11,10000,243,"갱신","26.12~28.12",true]
 ]}}

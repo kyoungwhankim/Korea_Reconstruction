@@ -1,7 +1,7 @@
 {"id":"41410100007595",
 "name":"주공2단지",
 "basis":"단지",
-"by_area":[{"area":41,"pyeong":12.4,"n":15,"median":31500,"min":29500,"max":37900,"latest_price":37900,"latest_date":"2026-09-18","latest_floor":9,"jeonse_n":17,"wolse_n":10,"jeonse_median":21000,"jeonse_min":18900,"jeonse_max":24000,"jeonse_latest":22000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":66.7,"wolse_deposit_median":2000,"wolse_monthly_median":81},{"area":52,"pyeong":15.7,"n":34,"median":40000,"min":31000,"max":55500,"latest_price":50000,"latest_date":"2026-10-07","latest_floor":17,"jeonse_n":36,"wolse_n":15,"jeonse_median":27000,"jeonse_min":20000,"jeonse_max":32000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":67.5,"wolse_deposit_median":2000,"wolse_monthly_median":100}],
+"by_area":[{"area":41,"pyeong":12.4,"n":15,"median":31500,"min":29500,"max":37900,"latest_price":37900,"latest_date":"2026-09-18","latest_floor":9,"jeonse_n":17,"wolse_n":10,"jeonse_median":21000,"jeonse_min":18900,"jeonse_max":24000,"jeonse_latest":22000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":66.7,"wolse_deposit_median":2000,"wolse_monthly_median":81},{"area":52,"pyeong":15.7,"n":34,"median":40000,"min":31000,"max":55500,"latest_price":50000,"latest_date":"2026-10-07","latest_floor":17,"jeonse_n":37,"wolse_n":15,"jeonse_median":27000,"jeonse_min":20000,"jeonse_max":32000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":67.5,"wolse_deposit_median":2000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-14",51.59,18,11500,null,null,1993],
 ["2006-03-16",51.59,18,10900,null,null,1993],
@@ -878,5 +878,6 @@
 ["2026-09-11",51.59,8,29000,0,"갱신","26.09~28.09",null],
 ["2026-09-18",51.59,3,26000,0,"갱신","26.10~28.10",true],
 ["2026-10-15",51.59,12,3000,120,"신규","26.11~28.11",null],
-["2026-10-19",51.59,5,30000,0,"갱신","26.10~28.10",null]
+["2026-10-19",51.59,5,30000,0,"갱신","26.10~28.10",null],
+["2026-10-24",51.59,10,30000,0,"신규","26.12~28.12",null]
 ]}}

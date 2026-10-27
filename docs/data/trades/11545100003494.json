@@ -1,7 +1,7 @@
 {"id":"11545100003494",
 "name":"한신아파트",
 "basis":"단지",
-"by_area":[{"area":89,"pyeong":26.9,"n":38,"median":66900,"min":55000,"max":75000,"latest_price":75000,"latest_date":"2026-08-28","latest_floor":5,"jeonse_n":39,"wolse_n":14,"jeonse_median":43000,"jeonse_min":29000,"jeonse_max":55000,"jeonse_latest":55000,"jeonse_latest_date":"2026-10-06","jeonse_ratio":64.3,"wolse_deposit_median":27500,"wolse_monthly_median":68},{"area":130,"pyeong":39.3,"n":16,"median":80500,"min":73000,"max":89500,"latest_price":81000,"latest_date":"2026-10-01","latest_floor":9,"jeonse_n":7,"wolse_n":5,"jeonse_median":50000,"jeonse_min":42500,"jeonse_max":60000,"jeonse_latest":60000,"jeonse_latest_date":"2026-06-12","jeonse_ratio":62.1,"wolse_deposit_median":45000,"wolse_monthly_median":25}],
+"by_area":[{"area":89,"pyeong":26.9,"n":38,"median":66900,"min":55000,"max":75000,"latest_price":75000,"latest_date":"2026-08-28","latest_floor":5,"jeonse_n":39,"wolse_n":14,"jeonse_median":43000,"jeonse_min":29000,"jeonse_max":55000,"jeonse_latest":55000,"jeonse_latest_date":"2026-10-06","jeonse_ratio":64.3,"wolse_deposit_median":27500,"wolse_monthly_median":68},{"area":130,"pyeong":39.3,"n":16,"median":80500,"min":73000,"max":89500,"latest_price":81000,"latest_date":"2026-10-01","latest_floor":9,"jeonse_n":8,"wolse_n":5,"jeonse_median":50000,"jeonse_min":42500,"jeonse_max":60000,"jeonse_latest":60000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":62.1,"wolse_deposit_median":45000,"wolse_monthly_median":25}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-08",89.46,5,22500,null,null,1991],
 ["2006-01-15",89.46,10,23300,null,null,1991],
@@ -1025,5 +1025,6 @@
 ["2026-09-28",89.46,20,42000,0,"갱신","26.09~27.09",true],
 ["2026-09-29",89.46,9,10000,130,"신규","26.10~28.10",null],
 ["2026-10-03",89.46,22,46000,0,"갱신","26.10~28.10",true],
-["2026-10-06",89.46,6,55000,0,"신규","26.12~28.12",null]
+["2026-10-06",89.46,6,55000,0,"신규","26.12~28.12",null],
+["2026-10-24",129.66,9,60000,0,"갱신","26.11~28.11",null]
 ]}}

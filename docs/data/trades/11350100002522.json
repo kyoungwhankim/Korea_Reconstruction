@@ -1,7 +1,7 @@
 {"id":"11350100002522",
 "name":"한양아파트",
 "basis":"단지",
-"by_area":[{"area":87,"pyeong":26.3,"n":18,"median":75900,"min":69200,"max":94500,"latest_price":92000,"latest_date":"2026-09-18","latest_floor":10,"jeonse_n":25,"wolse_n":4,"jeonse_median":43000,"jeonse_min":36000,"jeonse_max":60000,"jeonse_latest":36700,"jeonse_latest_date":"2026-10-17","jeonse_ratio":56.7,"wolse_deposit_median":27500,"wolse_monthly_median":101},{"area":108,"pyeong":32.7,"jeonse_n":2,"wolse_n":0,"jeonse_median":48750,"jeonse_min":44500,"jeonse_max":53000,"jeonse_latest":44500,"jeonse_latest_date":"2026-02-20"}],
+"by_area":[{"area":87,"pyeong":26.3,"n":18,"median":75900,"min":69200,"max":94500,"latest_price":92000,"latest_date":"2026-09-18","latest_floor":10,"jeonse_n":26,"wolse_n":4,"jeonse_median":42500,"jeonse_min":30450,"jeonse_max":60000,"jeonse_latest":36700,"jeonse_latest_date":"2026-10-17","jeonse_ratio":56.0,"wolse_deposit_median":27500,"wolse_monthly_median":101},{"area":108,"pyeong":32.7,"jeonse_n":2,"wolse_n":0,"jeonse_median":48750,"jeonse_min":44500,"jeonse_max":53000,"jeonse_latest":44500,"jeonse_latest_date":"2026-02-20"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-24",86.62,8,27800,null,null,1988],
 ["2006-03-11",86.62,13,22500,null,null,1988],
@@ -353,6 +353,7 @@
 ["2026-08-14",86.62,3,42000,0,"갱신","26.09~28.09",true],
 ["2026-09-04",86.62,1,45000,0,"갱신","26.09~28.09",null],
 ["2026-09-10",87.49,2,45000,0,"갱신","26.10~28.10",true],
+["2026-09-11",86.62,1,30450,0,"갱신","26.09~28.09",true],
 ["2026-09-14",87.49,11,41300,0,"갱신","26.10~28.10",true],
 ["2026-09-23",86.62,2,47250,0,"갱신","26.10~28.10",true],
 ["2026-10-06",86.62,2,50000,0,"갱신","26.10~28.10",null],

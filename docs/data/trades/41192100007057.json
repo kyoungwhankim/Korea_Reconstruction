@@ -1,7 +1,7 @@
 {"id":"41192100007057",
 "name":"무지개마을(동신)",
 "basis":"단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":6,"median":47500,"min":45000,"max":52500,"latest_price":52500,"latest_date":"2026-04-16","latest_floor":5},{"area":85,"pyeong":25.7,"n":26,"median":62000,"min":51000,"max":72500,"latest_price":64000,"latest_date":"2026-09-04","latest_floor":9,"jeonse_n":9,"wolse_n":8,"jeonse_median":43000,"jeonse_min":36750,"jeonse_max":50000,"jeonse_latest":50000,"jeonse_latest_date":"2026-07-28","jeonse_ratio":69.4,"wolse_deposit_median":7250,"wolse_monthly_median":140}],
+"by_area":[{"area":59,"pyeong":17.8,"n":6,"median":47500,"min":45000,"max":52500,"latest_price":52500,"latest_date":"2026-04-16","latest_floor":5},{"area":85,"pyeong":25.7,"n":27,"median":62500,"min":51000,"max":72500,"latest_price":67000,"latest_date":"2026-10-24","latest_floor":22,"jeonse_n":9,"wolse_n":8,"jeonse_median":43000,"jeonse_min":36750,"jeonse_max":50000,"jeonse_latest":50000,"jeonse_latest_date":"2026-07-28","jeonse_ratio":68.8,"wolse_deposit_median":7250,"wolse_monthly_median":140}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-12",84.6,6,20000,null,null,1993],
 ["2006-01-15",84.6,2,20000,null,null,1993],
@@ -620,7 +620,8 @@
 ["2026-07-21",84.6,12,59800,"1205","중개거래",1993],
 ["2026-08-20",84.6,9,67000,null,"중개거래",1993],
 ["2026-08-27",84.6,10,68500,null,"중개거래",1993],
-["2026-09-04",84.6,9,64000,null,"중개거래",1993]
+["2026-09-04",84.6,9,64000,null,"중개거래",1993],
+["2026-10-24",84.6,22,67000,null,"중개거래",1993]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-17",84.6,9,44000,0,"갱신","26.02~28.02",null],

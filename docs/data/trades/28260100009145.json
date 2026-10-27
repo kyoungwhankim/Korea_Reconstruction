@@ -1,7 +1,7 @@
 {"id":"28260100009145",
 "name":"신광(485)",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":2,"median":17200,"min":16200,"max":18200,"latest_price":18200,"latest_date":"2026-09-21","latest_floor":15,"jeonse_n":3,"wolse_n":2,"jeonse_median":13500,"jeonse_min":13500,"jeonse_max":14000,"jeonse_latest":14000,"jeonse_latest_date":"2026-01-17","jeonse_ratio":78.5,"wolse_deposit_median":2000,"wolse_monthly_median":60}],
+"by_area":[{"area":60,"pyeong":18.1,"n":3,"median":18200,"min":16200,"max":18800,"latest_price":18800,"latest_date":"2026-10-03","latest_floor":16,"jeonse_n":3,"wolse_n":2,"jeonse_median":13500,"jeonse_min":13500,"jeonse_max":14000,"jeonse_latest":14000,"jeonse_latest_date":"2026-01-17","jeonse_ratio":74.2,"wolse_deposit_median":2000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-01",59.73,3,8350,null,null,1995],
 ["2006-02-08",59.73,12,7850,null,null,1995],
@@ -156,7 +156,8 @@
 ["2025-03-23",59.73,3,17000,null,"중개거래",1995],
 ["2025-08-27",59.73,11,18200,null,"중개거래",1995],
 ["2026-02-23",59.73,7,16200,null,"중개거래",1995],
-["2026-09-21",59.73,15,18200,null,"중개거래",1995]
+["2026-09-21",59.73,15,18200,null,"중개거래",1995],
+["2026-10-03",59.73,16,18800,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-12-05",59.73,6,2000,60,"신규","26.02~28.02",null],

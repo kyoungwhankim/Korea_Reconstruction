@@ -1,7 +1,7 @@
 {"id":"11350100002574",
 "name":"중계무지개아파트",
 "basis":"단지",
-"by_area":[{"area":40,"pyeong":12.1,"n":64,"median":44750,"min":25400,"max":58000,"latest_price":56800,"latest_date":"2026-10-06","latest_floor":10,"jeonse_n":66,"wolse_n":60,"jeonse_median":21000,"jeonse_min":16170,"jeonse_max":30000,"jeonse_latest":16800,"jeonse_latest_date":"2026-10-13","jeonse_ratio":46.9,"wolse_deposit_median":2000,"wolse_monthly_median":82},{"area":50,"pyeong":15.1,"n":55,"median":60000,"min":42000,"max":71000,"latest_price":70000,"latest_date":"2026-10-03","latest_floor":15,"jeonse_n":92,"wolse_n":44,"jeonse_median":28000,"jeonse_min":15000,"jeonse_max":37000,"jeonse_latest":37000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":46.7,"wolse_deposit_median":3000,"wolse_monthly_median":100},{"area":59,"pyeong":17.8,"n":23,"median":68500,"min":55000,"max":77000,"latest_price":77000,"latest_date":"2026-09-23","latest_floor":15,"jeonse_n":28,"wolse_n":20,"jeonse_median":30450,"jeonse_min":23100,"jeonse_max":45000,"jeonse_latest":40000,"jeonse_latest_date":"2026-10-10","jeonse_ratio":44.5,"wolse_deposit_median":5000,"wolse_monthly_median":110}],
+"by_area":[{"area":40,"pyeong":12.1,"n":65,"median":45000,"min":25400,"max":58000,"latest_price":56800,"latest_date":"2026-10-06","latest_floor":10,"jeonse_n":68,"wolse_n":62,"jeonse_median":21000,"jeonse_min":16170,"jeonse_max":30000,"jeonse_latest":22000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":46.7,"wolse_deposit_median":2000,"wolse_monthly_median":84},{"area":50,"pyeong":15.1,"n":55,"median":60000,"min":42000,"max":71000,"latest_price":70000,"latest_date":"2026-10-03","latest_floor":15,"jeonse_n":93,"wolse_n":45,"jeonse_median":28000,"jeonse_min":15000,"jeonse_max":37000,"jeonse_latest":32000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":46.7,"wolse_deposit_median":3000,"wolse_monthly_median":100},{"area":59,"pyeong":17.8,"n":23,"median":68500,"min":55000,"max":77000,"latest_price":77000,"latest_date":"2026-09-23","latest_floor":15,"jeonse_n":28,"wolse_n":20,"jeonse_median":30450,"jeonse_min":23100,"jeonse_max":45000,"jeonse_latest":40000,"jeonse_latest_date":"2026-10-10","jeonse_ratio":44.5,"wolse_deposit_median":5000,"wolse_monthly_median":110}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-04",49.54,10,10400,null,null,1991],
 ["2006-01-07",39.96,12,8000,null,null,1991],
@@ -3159,6 +3159,7 @@
 ["2026-09-12",49.54,11,71000,null,"중개거래",1991],
 ["2026-09-23",59.26,15,77000,null,"중개거래",1991],
 ["2026-10-03",49.89,15,70000,null,"중개거래",1991],
+["2026-10-06",39.82,4,54000,null,"중개거래",1991],
 ["2026-10-06",39.96,10,56800,null,"중개거래",1991]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
@@ -3447,6 +3448,7 @@
 ["2026-09-06",39.96,9,25000,0,"갱신","26.10~28.10",null],
 ["2026-09-08",39.82,1,1000,100,"신규","26.09~28.09",null],
 ["2026-09-08",59.26,4,3000,150,"신규","26.11~28.11",null],
+["2026-09-09",39.82,5,2000,105,"신규","26.10~28.10",null],
 ["2026-09-10",39.96,8,3000,90,"신규","26.10~28.10",null],
 ["2026-09-11",49.54,7,13000,85,"신규","26.09~28.09",null],
 ["2026-09-12",39.82,6,4000,85,"신규","26.10~28.10",null],
@@ -3458,6 +3460,7 @@
 ["2026-09-22",59.26,7,28000,0,"갱신","26.10~28.10",true],
 ["2026-09-24",49.54,6,35000,0,"갱신","26.09~28.09",null],
 ["2026-09-30",39.82,1,18000,0,"갱신","26.10~28.10",null],
+["2026-09-30",39.96,7,25000,0,"갱신","26.10~28.10",null],
 ["2026-09-30",49.54,1,20830,0,"갱신","26.10~26.11",null],
 ["2026-10-01",39.82,6,20000,25,"신규","26.10~28.10",null],
 ["2026-10-01",59.26,3,29400,0,"갱신","26.12~28.12",true],
@@ -3471,5 +3474,9 @@
 ["2026-10-13",39.82,1,16800,0,"갱신","26.11~28.11",true],
 ["2026-10-15",49.89,3,28350,35,"갱신","26.12~28.12",null],
 ["2026-10-15",49.89,14,37000,0,"신규","27.01~29.01",null],
-["2026-10-21",49.54,5,2000,130,"갱신","26.12~28.12",null]
+["2026-10-17",39.82,12,22000,0,"갱신","26.12~28.12",null],
+["2026-10-17",39.96,8,5000,100,"신규","26.12~28.12",null],
+["2026-10-21",49.54,5,2000,130,"갱신","26.12~28.12",null],
+["2026-10-23",49.54,13,23000,60,"신규","27.01~29.01",null],
+["2026-10-24",49.54,13,32000,0,"갱신","27.02~29.02",null]
 ]}}

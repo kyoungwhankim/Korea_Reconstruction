@@ -1,7 +1,7 @@
 {"id":"11650100003152",
 "name":"동고아파트",
 "basis":"단지",
-"by_area":[{"area":77,"pyeong":23.3,"n":4,"median":135000,"min":80000,"max":167500,"latest_price":120000,"latest_date":"2026-09-10","latest_floor":9,"jeonse_n":19,"wolse_n":14,"jeonse_median":63000,"jeonse_min":50700,"jeonse_max":74000,"jeonse_latest":63000,"jeonse_latest_date":"2026-10-18","jeonse_ratio":46.7,"wolse_deposit_median":25000,"wolse_monthly_median":130},{"area":85,"pyeong":25.7,"n":6,"median":154000,"min":115000,"max":176000,"latest_price":176000,"latest_date":"2026-09-12","latest_floor":14,"jeonse_n":5,"wolse_n":5,"jeonse_median":73500,"jeonse_min":68000,"jeonse_max":80000,"jeonse_latest":80000,"jeonse_latest_date":"2026-08-15","jeonse_ratio":47.7,"wolse_deposit_median":50000,"wolse_monthly_median":93}],
+"by_area":[{"area":77,"pyeong":23.3,"n":4,"median":135000,"min":80000,"max":167500,"latest_price":120000,"latest_date":"2026-09-10","latest_floor":9,"jeonse_n":20,"wolse_n":14,"jeonse_median":63500,"jeonse_min":50700,"jeonse_max":74000,"jeonse_latest":65100,"jeonse_latest_date":"2026-10-24","jeonse_ratio":47.0,"wolse_deposit_median":25000,"wolse_monthly_median":130},{"area":85,"pyeong":25.7,"n":6,"median":154000,"min":115000,"max":176000,"latest_price":176000,"latest_date":"2026-09-12","latest_floor":14,"jeonse_n":5,"wolse_n":5,"jeonse_median":73500,"jeonse_min":68000,"jeonse_max":80000,"jeonse_latest":80000,"jeonse_latest_date":"2026-08-15","jeonse_ratio":47.7,"wolse_deposit_median":50000,"wolse_monthly_median":93}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-04",77.14,12,56000,null,null,1995],
 ["2006-03-07",77.14,14,56000,null,null,1995],
@@ -366,5 +366,6 @@
 ["2026-08-29",77.14,13,20000,150,"신규","26.10~27.10",null],
 ["2026-09-19",77.14,11,74000,0,"신규","26.11~28.11",null],
 ["2026-10-03",77.14,8,64000,0,"갱신","26.10~28.10",true],
-["2026-10-18",77.14,7,63000,0,"갱신","26.10~28.10",true]
+["2026-10-18",77.14,7,63000,0,"갱신","26.10~28.10",true],
+["2026-10-24",77.14,6,65100,0,"갱신","26.10~28.10",true]
 ]}}

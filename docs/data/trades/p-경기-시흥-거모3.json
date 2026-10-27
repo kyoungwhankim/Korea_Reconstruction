@@ -1,7 +1,7 @@
 {"id":"경기-시흥-거모3",
 "name":"거모3",
 "basis":"기존 단지",
-"by_area":[{"area":43,"pyeong":13.0,"n":5,"median":11700,"min":11500,"max":12100,"latest_price":11500,"latest_date":"2026-10-13","latest_floor":2,"jeonse_n":5,"wolse_n":14,"jeonse_median":6000,"jeonse_min":2000,"jeonse_max":7000,"jeonse_latest":6000,"jeonse_latest_date":"2026-10-18","jeonse_ratio":51.3,"wolse_deposit_median":200,"wolse_monthly_median":25}],
+"by_area":[{"area":43,"pyeong":13.0,"n":6,"median":11600,"min":11000,"max":12100,"latest_price":11000,"latest_date":"2026-10-23","latest_floor":1,"jeonse_n":5,"wolse_n":14,"jeonse_median":6000,"jeonse_min":2000,"jeonse_max":7000,"jeonse_latest":6000,"jeonse_latest_date":"2026-10-18","jeonse_ratio":51.7,"wolse_deposit_median":200,"wolse_monthly_median":25}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-11",42.72,4,4950,null,null,1988],
 ["2006-02-13",42.72,2,4800,null,null,1988],
@@ -600,7 +600,8 @@
 ["2026-01-31",42.72,1,12100,"7동","중개거래",1988],
 ["2026-02-10",42.72,4,11700,"7동","중개거래",1988],
 ["2026-03-21",42.72,1,11500,"3동","중개거래",1988],
-["2026-10-13",42.72,2,11500,"3동","중개거래",1988]
+["2026-10-13",42.72,2,11500,"3동","중개거래",1988],
+["2026-10-23",42.72,1,11000,null,"직거래",1988]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-13",42.72,2,200,30,"신규","25.11~27.11",null],

@@ -1,7 +1,7 @@
 {"id":"11215100003399",
 "name":"구의현대6단지아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":7,"median":187000,"min":177000,"max":208000,"latest_price":196000,"latest_date":"2026-07-27","latest_floor":17,"jeonse_n":31,"wolse_n":16,"jeonse_median":75000,"jeonse_min":60000,"jeonse_max":90000,"jeonse_latest":83000,"jeonse_latest_date":"2026-10-13","jeonse_ratio":40.1,"wolse_deposit_median":32500,"wolse_monthly_median":160}],
+"by_area":[{"area":85,"pyeong":25.7,"n":7,"median":187000,"min":177000,"max":208000,"latest_price":196000,"latest_date":"2026-07-27","latest_floor":17,"jeonse_n":31,"wolse_n":17,"jeonse_median":75000,"jeonse_min":60000,"jeonse_max":90000,"jeonse_latest":83000,"jeonse_latest_date":"2026-10-13","jeonse_ratio":40.1,"wolse_deposit_median":30000,"wolse_monthly_median":160}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-04",84.92,7,44500,null,null,1994],
 ["2006-03-06",84.92,9,43000,null,null,1994],
@@ -372,5 +372,6 @@
 ["2026-09-29",84.92,10,30000,172,"갱신","26.11~28.11",null],
 ["2026-09-29",84.92,10,30000,172,"갱신","26.11~28.11",null],
 ["2026-09-30",84.92,15,10000,250,"갱신","26.10~28.10",null],
+["2026-10-08",84.92,10,30000,172,"갱신","26.11~28.11",true],
 ["2026-10-13",84.92,14,83000,0,"갱신","26.10~28.10",null]
 ]}}

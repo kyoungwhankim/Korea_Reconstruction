@@ -1,7 +1,7 @@
 {"id":"41281100007825",
 "name":"은빛마을5단지(삼익주택)",
 "basis":"단지",
-"by_area":[{"area":101,"pyeong":30.6,"n":4,"median":51900,"min":42000,"max":56000,"latest_price":50000,"latest_date":"2026-10-19","latest_floor":5,"jeonse_n":2,"wolse_n":1,"jeonse_median":42500,"jeonse_min":40000,"jeonse_max":45000,"jeonse_latest":45000,"jeonse_latest_date":"2026-08-10","jeonse_ratio":81.9,"wolse_deposit_median":3000,"wolse_monthly_median":150},{"area":135,"pyeong":40.8,"n":7,"median":55500,"min":53500,"max":59000,"latest_price":57000,"latest_date":"2026-09-03","latest_floor":6,"jeonse_n":13,"wolse_n":3,"jeonse_median":43000,"jeonse_min":40000,"jeonse_max":46000,"jeonse_latest":40000,"jeonse_latest_date":"2026-08-28","jeonse_ratio":77.5,"wolse_deposit_median":4000,"wolse_monthly_median":153},{"area":165,"pyeong":49.9,"n":1,"median":62000,"min":62000,"max":62000,"latest_price":62000,"latest_date":"2026-07-09","latest_floor":5}],
+"by_area":[{"area":101,"pyeong":30.6,"n":4,"median":51900,"min":42000,"max":56000,"latest_price":50000,"latest_date":"2026-10-19","latest_floor":5,"jeonse_n":3,"wolse_n":1,"jeonse_median":45000,"jeonse_min":40000,"jeonse_max":45000,"jeonse_latest":45000,"jeonse_latest_date":"2026-10-12","jeonse_ratio":86.7,"wolse_deposit_median":3000,"wolse_monthly_median":150},{"area":135,"pyeong":40.8,"n":7,"median":55500,"min":53500,"max":59000,"latest_price":57000,"latest_date":"2026-09-03","latest_floor":6,"jeonse_n":13,"wolse_n":3,"jeonse_median":43000,"jeonse_min":40000,"jeonse_max":46000,"jeonse_latest":40000,"jeonse_latest_date":"2026-08-28","jeonse_ratio":77.5,"wolse_deposit_median":4000,"wolse_monthly_median":153},{"area":165,"pyeong":49.9,"n":1,"median":62000,"min":62000,"max":62000,"latest_price":62000,"latest_date":"2026-07-09","latest_floor":5}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-23",101.35,15,29000,null,null,1995],
 ["2006-02-06",164.95,14,51500,null,null,1995],
@@ -342,5 +342,6 @@
 ["2026-07-30",134.83,3,40000,0,"신규","26.08~28.08",null],
 ["2026-08-10",101.35,11,45000,0,"신규","26.10~28.10",null],
 ["2026-08-28",134.83,3,40000,0,"신규","26.08~28.08",null],
-["2026-09-01",101.35,7,3000,150,"신규","26.10~28.10",null]
+["2026-09-01",101.35,7,3000,150,"신규","26.10~28.10",null],
+["2026-10-12",101.35,5,45000,0,"신규","26.12~28.12",null]
 ]}}

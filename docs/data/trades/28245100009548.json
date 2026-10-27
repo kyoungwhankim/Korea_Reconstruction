@@ -1,7 +1,7 @@
 {"id":"28245100009548",
 "name":"한오아파트",
 "basis":"단지",
-"by_area":[{"area":33,"pyeong":10.0,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":500,"wolse_monthly_median":30},{"area":39,"pyeong":11.8,"n":3,"median":18000,"min":14100,"max":18500,"latest_price":18500,"latest_date":"2026-09-19","latest_floor":2,"jeonse_n":2,"wolse_n":4,"jeonse_median":9500,"jeonse_min":9000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-07-03","jeonse_ratio":52.8,"wolse_deposit_median":550,"wolse_monthly_median":50}],
+"by_area":[{"area":33,"pyeong":10.0,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":500,"wolse_monthly_median":30},{"area":39,"pyeong":11.8,"n":3,"median":18000,"min":14100,"max":18500,"latest_price":18500,"latest_date":"2026-09-19","latest_floor":2,"jeonse_n":3,"wolse_n":4,"jeonse_median":9000,"jeonse_min":9000,"jeonse_max":10000,"jeonse_latest":9000,"jeonse_latest_date":"2026-10-23","jeonse_ratio":50.0,"wolse_deposit_median":550,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-25",33.48,3,5100,null,null,1987],
 ["2006-01-25",33.48,5,4320,null,null,1987],
@@ -124,5 +124,6 @@
 ["2026-04-23",38.61,1,9000,0,"신규","26.04~28.04",null],
 ["2026-05-15",38.61,4,600,50,"신규","26.06~28.06",null],
 ["2026-07-03",38.61,1,10000,0,"신규","26.07~28.07",null],
-["2026-08-27",33.48,5,500,30,"신규","26.08~28.08",null]
+["2026-08-27",33.48,5,500,30,"신규","26.08~28.08",null],
+["2026-10-23",38.61,1,9000,0,"신규","26.12~28.12",null]
 ]}}

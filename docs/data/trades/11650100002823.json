@@ -1,7 +1,7 @@
 {"id":"11650100002823",
 "name":"훼미리아파트",
 "basis":"단지",
-"by_area":[{"area":84,"pyeong":25.4,"jeonse_n":2,"wolse_n":1,"jeonse_median":73550,"jeonse_min":72100,"jeonse_max":75000,"jeonse_latest":72100,"jeonse_latest_date":"2025-12-15","wolse_deposit_median":90000,"wolse_monthly_median":45},{"area":85,"pyeong":25.7,"n":1,"median":290000,"min":290000,"max":290000,"latest_price":290000,"latest_date":"2026-03-30","latest_floor":11,"jeonse_n":17,"wolse_n":19,"jeonse_median":75000,"jeonse_min":66000,"jeonse_max":100000,"jeonse_latest":70300,"jeonse_latest_date":"2026-06-24","jeonse_ratio":25.9,"wolse_deposit_median":20000,"wolse_monthly_median":210}],
+"by_area":[{"area":84,"pyeong":25.4,"jeonse_n":2,"wolse_n":1,"jeonse_median":73550,"jeonse_min":72100,"jeonse_max":75000,"jeonse_latest":72100,"jeonse_latest_date":"2025-12-15","wolse_deposit_median":90000,"wolse_monthly_median":45},{"area":85,"pyeong":25.7,"n":1,"median":290000,"min":290000,"max":290000,"latest_price":290000,"latest_date":"2026-03-30","latest_floor":11,"jeonse_n":18,"wolse_n":19,"jeonse_median":76350,"jeonse_min":66000,"jeonse_max":100000,"jeonse_latest":95000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":26.3,"wolse_deposit_median":20000,"wolse_monthly_median":210}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",84.83,18,62000,null,null,1992],
 ["2006-03-02",84.69,4,61800,null,null,1992],
@@ -291,5 +291,6 @@
 ["2026-06-29",84.9,14,20000,300,"신규","26.09~28.09",null],
 ["2026-07-13",84.69,18,5000,250,"갱신","26.07~28.07",null],
 ["2026-07-21",84.83,11,80000,40,"신규","26.09~28.09",null],
-["2026-10-21",84.83,4,10000,340,"신규","26.11~28.11",null]
+["2026-10-21",84.83,4,10000,340,"신규","26.11~28.11",null],
+["2026-10-24",84.9,13,95000,0,"갱신","26.12~28.12",null]
 ]}}

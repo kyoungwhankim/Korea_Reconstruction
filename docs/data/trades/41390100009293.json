@@ -1,7 +1,7 @@
 {"id":"41390100009293",
 "name":"산호아파트",
 "basis":"단지",
-"by_area":[{"area":49,"pyeong":14.8,"n":5,"median":18000,"min":17000,"max":20500,"latest_price":17000,"latest_date":"2026-08-05","latest_floor":3,"jeonse_n":5,"wolse_n":3,"jeonse_median":11000,"jeonse_min":7500,"jeonse_max":13000,"jeonse_latest":10000,"jeonse_latest_date":"2026-10-01","jeonse_ratio":61.1,"wolse_deposit_median":3000,"wolse_monthly_median":45},{"area":51,"pyeong":15.4,"jeonse_n":4,"wolse_n":4,"jeonse_median":11750,"jeonse_min":9450,"jeonse_max":12500,"jeonse_latest":9450,"jeonse_latest_date":"2026-06-15","wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":75,"pyeong":22.7,"n":1,"median":20800,"min":20800,"max":20800,"latest_price":20800,"latest_date":"2026-04-25","latest_floor":5}],
+"by_area":[{"area":49,"pyeong":14.8,"n":5,"median":18000,"min":17000,"max":20500,"latest_price":17000,"latest_date":"2026-08-05","latest_floor":3,"jeonse_n":5,"wolse_n":4,"jeonse_median":11000,"jeonse_min":7500,"jeonse_max":13000,"jeonse_latest":10000,"jeonse_latest_date":"2026-10-01","jeonse_ratio":61.1,"wolse_deposit_median":2000,"wolse_monthly_median":49},{"area":51,"pyeong":15.4,"jeonse_n":4,"wolse_n":4,"jeonse_median":11750,"jeonse_min":9450,"jeonse_max":12500,"jeonse_latest":9450,"jeonse_latest_date":"2026-06-15","wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":75,"pyeong":22.7,"n":1,"median":20800,"min":20800,"max":20800,"latest_price":20800,"latest_date":"2026-04-25","latest_floor":5}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-05-27",49.22,3,6800,null,null,1989],
 ["2006-07-24",49.22,2,6850,null,null,1989],
@@ -161,5 +161,6 @@
 ["2026-07-30",49.22,2,11000,0,"신규","26.09~28.09",null],
 ["2026-07-30",49.22,2,11000,0,"신규","26.09~28.09",null],
 ["2026-10-01",49.22,2,10000,0,"갱신","26.10~28.10",null],
-["2026-10-08",51.02,2,1000,65,"신규","26.11~28.11",null]
+["2026-10-08",51.02,2,1000,65,"신규","26.11~28.11",null],
+["2026-10-13",49.22,2,1000,60,"신규","26.12~28.12",null]
 ]}}

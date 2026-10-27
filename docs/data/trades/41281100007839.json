@@ -1,7 +1,7 @@
 {"id":"41281100007839",
 "name":"행신무원마을1단지부영",
 "basis":"단지",
-"by_area":[{"area":69,"pyeong":20.9,"n":40,"median":40390,"min":36000,"max":46800,"latest_price":46500,"latest_date":"2026-10-16","latest_floor":7,"jeonse_n":47,"wolse_n":19,"jeonse_median":31500,"jeonse_min":12000,"jeonse_max":35000,"jeonse_latest":32550,"jeonse_latest_date":"2026-08-14","jeonse_ratio":78.0,"wolse_deposit_median":5000,"wolse_monthly_median":105}],
+"by_area":[{"area":69,"pyeong":20.9,"n":40,"median":40390,"min":36000,"max":46800,"latest_price":46500,"latest_date":"2026-10-16","latest_floor":7,"jeonse_n":49,"wolse_n":19,"jeonse_median":31500,"jeonse_min":12000,"jeonse_max":35000,"jeonse_latest":32000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":78.0,"wolse_deposit_median":5000,"wolse_monthly_median":105}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",68.98,14,15800,null,null,1995],
 ["2006-01-09",68.98,7,15400,null,null,1995],
@@ -1020,5 +1020,7 @@
 ["2026-08-14",68.98,9,32550,0,"갱신","26.09~28.09",true],
 ["2026-08-30",68.98,7,20000,60,"신규","26.10~28.10",null],
 ["2026-09-04",68.98,7,3000,145,"신규","26.11~28.11",null],
-["2026-09-09",68.98,7,4800,130,"신규","26.10~28.10",null]
+["2026-09-09",68.98,7,4800,130,"신규","26.10~28.10",null],
+["2026-10-24",68.98,2,29400,0,"갱신","26.11~28.03",true],
+["2026-10-24",68.98,14,32000,0,"신규","26.12~28.12",null]
 ]}}

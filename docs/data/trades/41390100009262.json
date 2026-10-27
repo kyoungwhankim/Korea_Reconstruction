@@ -1,7 +1,7 @@
 {"id":"41390100009262",
 "name":"제성아파트",
 "basis":"단지",
-"by_area":[{"area":38,"pyeong":11.5,"n":2,"median":8600,"min":7200,"max":10000,"latest_price":10000,"latest_date":"2026-10-09","latest_floor":3,"jeonse_n":0,"wolse_n":4,"wolse_deposit_median":750,"wolse_monthly_median":32}],
+"by_area":[{"area":38,"pyeong":11.5,"n":2,"median":8600,"min":7200,"max":10000,"latest_price":10000,"latest_date":"2026-10-09","latest_floor":3,"jeonse_n":1,"wolse_n":4,"jeonse_median":3000,"jeonse_min":3000,"jeonse_max":3000,"jeonse_latest":3000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":34.9,"wolse_deposit_median":750,"wolse_monthly_median":32}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-23",37.8,4,4250,null,null,1987],
 ["2006-05-02",37.8,2,4300,null,null,1987],
@@ -103,5 +103,6 @@
 ["2026-04-21",37.8,4,1000,35,"신규","26.04~28.04",null],
 ["2026-06-29",37.8,2,300,30,"신규","26.06~27.06",null],
 ["2026-07-22",37.8,4,500,35,"신규","26.07~28.07",null],
-["2026-10-06",37.8,5,1500,20,"신규","26.10~28.10",null]
+["2026-10-06",37.8,5,1500,20,"신규","26.10~28.10",null],
+["2026-10-15",37.8,5,3000,0,"신규","26.10~28.10",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"28260100009222",
 "name":"연진아파트",
 "basis":"단지",
-"by_area":[{"area":51,"pyeong":15.4,"n":2,"median":11150,"min":10800,"max":11500,"latest_price":11500,"latest_date":"2026-02-02","latest_floor":1,"jeonse_n":2,"wolse_n":3,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-06-12","jeonse_ratio":89.7,"wolse_deposit_median":1000,"wolse_monthly_median":55},{"area":57,"pyeong":17.2,"n":1,"median":11000,"min":11000,"max":11000,"latest_price":11000,"latest_date":"2025-12-27","latest_floor":1}],
+"by_area":[{"area":51,"pyeong":15.4,"n":3,"median":11500,"min":10800,"max":12300,"latest_price":12300,"latest_date":"2026-08-25","latest_floor":4,"jeonse_n":2,"wolse_n":3,"jeonse_median":10000,"jeonse_min":10000,"jeonse_max":10000,"jeonse_latest":10000,"jeonse_latest_date":"2026-06-12","jeonse_ratio":87.0,"wolse_deposit_median":1000,"wolse_monthly_median":55},{"area":57,"pyeong":17.2,"n":1,"median":11000,"min":11000,"max":11000,"latest_price":11000,"latest_date":"2025-12-27","latest_floor":1}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-01",51.3,1,6000,null,null,1991],
 ["2006-03-17",57.2,6,4300,null,null,1991],
@@ -91,7 +91,8 @@
 ["2025-02-08",51.3,2,12500,"103","중개거래",1991],
 ["2025-12-23",51.3,3,10800,"103","중개거래",1991],
 ["2025-12-27",57.2,1,11000,"101","중개거래",1991],
-["2026-02-02",51.3,1,11500,"102","직거래",1991]
+["2026-02-02",51.3,1,11500,"102","직거래",1991],
+["2026-08-25",51.3,4,12300,"103","중개거래",1991]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-04",51.3,5,10000,0,"신규","25.12~27.12",null],

@@ -1,7 +1,7 @@
 {"id":"41287100008057",
 "name":"탄현마을8단지동성",
 "basis":"단지",
-"by_area":[{"area":102,"pyeong":30.9,"n":23,"median":31900,"min":27500,"max":36000,"latest_price":32000,"latest_date":"2026-09-20","latest_floor":13,"jeonse_n":21,"wolse_n":17,"jeonse_median":28000,"jeonse_min":25000,"jeonse_max":29000,"jeonse_latest":28800,"jeonse_latest_date":"2026-09-10","jeonse_ratio":87.8,"wolse_deposit_median":3000,"wolse_monthly_median":120},{"area":122,"pyeong":36.9,"jeonse_n":5,"wolse_n":2,"jeonse_median":35000,"jeonse_min":30000,"jeonse_max":36000,"jeonse_latest":35000,"jeonse_latest_date":"2026-07-27","wolse_deposit_median":3500,"wolse_monthly_median":140}],
+"by_area":[{"area":102,"pyeong":30.9,"n":23,"median":31900,"min":27500,"max":36000,"latest_price":32000,"latest_date":"2026-09-20","latest_floor":13,"jeonse_n":22,"wolse_n":17,"jeonse_median":28000,"jeonse_min":25000,"jeonse_max":29000,"jeonse_latest":28000,"jeonse_latest_date":"2026-10-23","jeonse_ratio":87.8,"wolse_deposit_median":3000,"wolse_monthly_median":120},{"area":122,"pyeong":36.9,"jeonse_n":5,"wolse_n":2,"jeonse_median":35000,"jeonse_min":30000,"jeonse_max":36000,"jeonse_latest":35000,"jeonse_latest_date":"2026-07-27","wolse_deposit_median":3500,"wolse_monthly_median":140}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",101.85,5,24300,null,null,1994],
 ["2006-01-13",101.91,13,24500,null,null,1994],
@@ -685,5 +685,6 @@
 ["2026-08-21",101.85,15,28500,0,"신규","26.11~28.11",null],
 ["2026-09-05",101.85,5,28800,0,"신규","26.11~28.11",null],
 ["2026-09-10",101.85,6,28000,0,"신규","26.10~28.11",null],
-["2026-09-10",101.85,7,28800,0,"신규","26.12~28.12",null]
+["2026-09-10",101.85,7,28800,0,"신규","26.12~28.12",null],
+["2026-10-23",101.91,5,28000,0,"신규","26.12~28.12",null]
 ]}}

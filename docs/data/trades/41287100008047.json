@@ -1,7 +1,7 @@
 {"id":"41287100008047",
 "name":"신영아파트",
 "basis":"단지",
-"by_area":[{"area":42,"pyeong":12.7,"jeonse_n":1,"wolse_n":2,"jeonse_median":12000,"jeonse_min":12000,"jeonse_max":12000,"jeonse_latest":12000,"jeonse_latest_date":"2026-05-19","wolse_deposit_median":1500,"wolse_monthly_median":47},{"area":48,"pyeong":14.5,"jeonse_n":1,"wolse_n":4,"jeonse_median":12300,"jeonse_min":12300,"jeonse_max":12300,"jeonse_latest":12300,"jeonse_latest_date":"2025-12-11","wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"by_area":[{"area":42,"pyeong":12.7,"jeonse_n":2,"wolse_n":2,"jeonse_median":10000,"jeonse_min":8000,"jeonse_max":12000,"jeonse_latest":8000,"jeonse_latest_date":"2026-10-21","wolse_deposit_median":1500,"wolse_monthly_median":47},{"area":48,"pyeong":14.5,"jeonse_n":1,"wolse_n":4,"jeonse_median":12300,"jeonse_min":12300,"jeonse_max":12300,"jeonse_latest":12300,"jeonse_latest_date":"2025-12-11","wolse_deposit_median":1000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-05-15",42.12,4,4970,null,null,1987],
 ["2006-07-18",42.12,3,5300,null,null,1987],
@@ -199,5 +199,6 @@
 ["2026-03-28",48.36,5,500,45,"갱신","26.04~28.04",null],
 ["2026-05-12",48.36,4,1000,55,"신규","26.06~28.06",null],
 ["2026-05-19",42.12,2,12000,0,"갱신","26.05~28.05",null],
-["2026-07-24",48.36,1,1000,45,"신규","26.07~28.07",null]
+["2026-07-24",48.36,1,1000,45,"신규","26.07~28.07",null],
+["2026-10-21",42.12,5,8000,0,"신규","26.12~28.12",null]
 ]}}

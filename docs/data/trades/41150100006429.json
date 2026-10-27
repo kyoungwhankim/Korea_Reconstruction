@@ -1,7 +1,7 @@
 {"id":"41150100006429",
 "name":"동화아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":13,"median":19200,"min":17800,"max":20500,"latest_price":19200,"latest_date":"2026-10-16","latest_floor":20,"jeonse_n":8,"wolse_n":7,"jeonse_median":15750,"jeonse_min":15100,"jeonse_max":17000,"jeonse_latest":15500,"jeonse_latest_date":"2026-05-25","jeonse_ratio":82.0,"wolse_deposit_median":2000,"wolse_monthly_median":80},{"area":85,"pyeong":25.7,"n":6,"median":30000,"min":28000,"max":30700,"latest_price":30700,"latest_date":"2026-09-21","latest_floor":14,"jeonse_n":7,"wolse_n":4,"jeonse_median":24000,"jeonse_min":20450,"jeonse_max":26000,"jeonse_latest":26000,"jeonse_latest_date":"2026-09-02","jeonse_ratio":80.0,"wolse_deposit_median":7500,"wolse_monthly_median":75}],
+"by_area":[{"area":60,"pyeong":18.1,"n":13,"median":19200,"min":17800,"max":20500,"latest_price":19200,"latest_date":"2026-10-16","latest_floor":20,"jeonse_n":8,"wolse_n":8,"jeonse_median":15750,"jeonse_min":15100,"jeonse_max":17000,"jeonse_latest":15500,"jeonse_latest_date":"2026-05-25","jeonse_ratio":82.0,"wolse_deposit_median":2000,"wolse_monthly_median":80},{"area":85,"pyeong":25.7,"n":6,"median":30000,"min":28000,"max":30700,"latest_price":30700,"latest_date":"2026-09-21","latest_floor":14,"jeonse_n":7,"wolse_n":4,"jeonse_median":24000,"jeonse_min":20450,"jeonse_max":26000,"jeonse_latest":26000,"jeonse_latest_date":"2026-09-02","jeonse_ratio":80.0,"wolse_deposit_median":7500,"wolse_monthly_median":75}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-02",59.89,2,7400,null,null,1995],
 ["2006-01-09",84.58,21,10200,null,null,1995],
@@ -640,5 +640,6 @@
 ["2026-07-21",84.58,20,26000,0,"신규","26.07~28.07",null],
 ["2026-09-02",84.58,2,23000,0,"신규","26.11~28.11",null],
 ["2026-09-02",84.58,15,26000,0,"신규","26.11~28.11",null],
-["2026-09-09",59.89,5,2000,85,"신규","26.11~28.11",null]
+["2026-09-09",59.89,5,2000,85,"신규","26.11~28.11",null],
+["2026-09-29",59.89,6,4000,65,"신규","26.10~28.08",null]
 ]}}

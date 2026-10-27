@@ -1,7 +1,7 @@
 {"id":"11410100000527",
 "name":"현대그린아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":18,"median":69600,"min":63500,"max":85000,"latest_price":85000,"latest_date":"2026-08-29","latest_floor":9,"jeonse_n":8,"wolse_n":3,"jeonse_median":48750,"jeonse_min":40000,"jeonse_max":53000,"jeonse_latest":45500,"jeonse_latest_date":"2026-08-20","jeonse_ratio":70.0,"wolse_deposit_median":5200,"wolse_monthly_median":137}],
+"by_area":[{"area":85,"pyeong":25.7,"n":18,"median":69600,"min":63500,"max":85000,"latest_price":85000,"latest_date":"2026-08-29","latest_floor":9,"jeonse_n":8,"wolse_n":4,"jeonse_median":48750,"jeonse_min":40000,"jeonse_max":53000,"jeonse_latest":45500,"jeonse_latest_date":"2026-08-20","jeonse_ratio":70.0,"wolse_deposit_median":5225,"wolse_monthly_median":143}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-07",84.96,6,20000,null,null,1996],
 ["2006-02-28",84.96,8,22900,null,null,1996],
@@ -252,5 +252,6 @@
 ["2026-06-22",84.96,5,49500,0,"갱신","26.08~28.08",true],
 ["2026-08-04",84.96,13,53000,0,"신규","26.11~28.11",null],
 ["2026-08-20",84.96,12,45500,0,"갱신","26.08~28.08",null],
-["2026-09-16",84.96,1,5250,137,"갱신","26.11~28.11",true]
+["2026-09-16",84.96,1,5250,137,"갱신","26.11~28.11",true],
+["2026-10-26",84.96,14,10000,160,"신규","27.01~29.01",null]
 ]}}

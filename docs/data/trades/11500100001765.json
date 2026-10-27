@@ -1,7 +1,7 @@
 {"id":"11500100001765",
 "name":"염창2차우성아파트",
 "basis":"단지",
-"by_area":[{"area":66,"pyeong":20.0,"n":2,"median":96850,"min":76200,"max":117500,"latest_price":117500,"latest_date":"2026-09-10","latest_floor":6,"jeonse_n":8,"wolse_n":1,"jeonse_median":42000,"jeonse_min":33000,"jeonse_max":43000,"jeonse_latest":43000,"jeonse_latest_date":"2026-08-20","jeonse_ratio":43.4,"wolse_deposit_median":27000,"wolse_monthly_median":40},{"area":85,"pyeong":25.7,"n":9,"median":114500,"min":100000,"max":132500,"latest_price":132500,"latest_date":"2026-09-09","latest_floor":9,"jeonse_n":14,"wolse_n":5,"jeonse_median":50000,"jeonse_min":45000,"jeonse_max":63000,"jeonse_latest":47000,"jeonse_latest_date":"2026-08-06","jeonse_ratio":43.7,"wolse_deposit_median":35000,"wolse_monthly_median":30}],
+"by_area":[{"area":66,"pyeong":20.0,"n":2,"median":96850,"min":76200,"max":117500,"latest_price":117500,"latest_date":"2026-09-10","latest_floor":6,"jeonse_n":8,"wolse_n":1,"jeonse_median":42000,"jeonse_min":33000,"jeonse_max":43000,"jeonse_latest":43000,"jeonse_latest_date":"2026-08-20","jeonse_ratio":43.4,"wolse_deposit_median":27000,"wolse_monthly_median":40},{"area":85,"pyeong":25.7,"n":9,"median":114500,"min":100000,"max":132500,"latest_price":132500,"latest_date":"2026-09-09","latest_floor":9,"jeonse_n":15,"wolse_n":5,"jeonse_median":50000,"jeonse_min":44520,"jeonse_max":63000,"jeonse_latest":44520,"jeonse_latest_date":"2026-10-23","jeonse_ratio":43.7,"wolse_deposit_median":35000,"wolse_monthly_median":30}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-11",84.7,5,20800,null,null,1992],
 ["2006-01-24",84.7,2,19900,null,null,1992],
@@ -205,5 +205,6 @@
 ["2026-08-06",84.7,10,47000,0,"갱신","26.09~28.09",null],
 ["2026-08-20",65.88,8,43000,0,"신규","26.10~28.10",null],
 ["2026-09-02",65.88,2,27000,40,"갱신","26.12~28.12",null],
-["2026-09-12",84.7,1,46000,10,"갱신","26.11~28.11",null]
+["2026-09-12",84.7,1,46000,10,"갱신","26.11~28.11",null],
+["2026-10-23",84.7,2,44520,0,"갱신","26.12~28.12",true]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"41480100007695",
 "name":"문산주공아파트",
 "basis":"단지",
-"by_area":[{"area":43,"pyeong":13.0,"n":7,"median":6400,"min":5400,"max":7200,"latest_price":5400,"latest_date":"2026-08-30","latest_floor":5,"jeonse_n":2,"wolse_n":5,"jeonse_median":3350,"jeonse_min":3200,"jeonse_max":3500,"jeonse_latest":3500,"jeonse_latest_date":"2026-01-22","jeonse_ratio":52.3,"wolse_deposit_median":300,"wolse_monthly_median":25}],
+"by_area":[{"area":43,"pyeong":13.0,"n":7,"median":6400,"min":5400,"max":7200,"latest_price":5400,"latest_date":"2026-08-30","latest_floor":5,"jeonse_n":2,"wolse_n":6,"jeonse_median":3350,"jeonse_min":3200,"jeonse_max":3500,"jeonse_latest":3500,"jeonse_latest_date":"2026-01-22","jeonse_ratio":52.3,"wolse_deposit_median":300,"wolse_monthly_median":25}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-02",43.31,1,6900,null,null,1980],
 ["2006-03-03",43.31,5,7000,null,null,1980],
@@ -390,5 +390,6 @@
 ["2026-01-24",43.31,4,300,25,"신규","26.02~28.02",null],
 ["2026-02-27",43.31,1,300,25,"신규","26.04~27.04",null],
 ["2026-03-30",43.31,1,300,30,"신규","26.04~27.04",null],
-["2026-04-28",43.31,2,300,25,"신규","26.04~27.04",null]
+["2026-04-28",43.31,2,300,25,"신규","26.04~27.04",null],
+["2026-10-01",43.31,1,300,15,"신규","26.10~28.10",null]
 ]}}

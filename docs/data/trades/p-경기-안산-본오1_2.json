@@ -1,7 +1,7 @@
 {"id":"경기-안산-본오1_2",
 "name":"본오1,2차",
 "basis":"기존 단지",
-"by_area":[{"area":46,"pyeong":13.9,"n":28,"median":15400,"min":13400,"max":16500,"latest_price":16000,"latest_date":"2026-10-14","latest_floor":9,"jeonse_n":29,"wolse_n":18,"jeonse_median":12900,"jeonse_min":10000,"jeonse_max":15000,"jeonse_latest":12900,"jeonse_latest_date":"2026-09-23","jeonse_ratio":83.8,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"by_area":[{"area":46,"pyeong":13.9,"n":28,"median":15400,"min":13400,"max":16500,"latest_price":16000,"latest_date":"2026-10-14","latest_floor":9,"jeonse_n":30,"wolse_n":18,"jeonse_median":12950,"jeonse_min":10000,"jeonse_max":15000,"jeonse_latest":13500,"jeonse_latest_date":"2026-10-24","jeonse_ratio":84.1,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-02",46.05,13,6000,null,null,1994],
 ["2006-02-18",46.05,10,6300,null,null,1994],
@@ -974,5 +974,6 @@
 ["2026-08-15",46.05,13,13800,0,"신규","26.08~28.08",null],
 ["2026-08-27",46.05,15,12400,0,"신규","26.10~28.10",null],
 ["2026-09-11",46.05,7,1000,50,"신규","26.10~28.10",null],
-["2026-09-23",46.05,11,12900,0,"신규","26.10~28.10",null]
+["2026-09-23",46.05,11,12900,0,"신규","26.10~28.10",null],
+["2026-10-24",46.05,8,13500,0,"신규","26.11~28.11",null]
 ]}}

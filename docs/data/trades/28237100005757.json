@@ -1,7 +1,7 @@
 {"id":"28237100005757",
 "name":"하나아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":16,"median":37700,"min":30200,"max":41800,"latest_price":39750,"latest_date":"2026-09-28","latest_floor":17,"jeonse_n":22,"wolse_n":7,"jeonse_median":27650,"jeonse_min":23000,"jeonse_max":31000,"jeonse_latest":30000,"jeonse_latest_date":"2026-09-17","jeonse_ratio":73.3,"wolse_deposit_median":3000,"wolse_monthly_median":105}],
+"by_area":[{"area":85,"pyeong":25.7,"n":16,"median":37700,"min":30200,"max":41800,"latest_price":39750,"latest_date":"2026-09-28","latest_floor":17,"jeonse_n":22,"wolse_n":8,"jeonse_median":27650,"jeonse_min":23000,"jeonse_max":31000,"jeonse_latest":30000,"jeonse_latest_date":"2026-09-17","jeonse_ratio":73.3,"wolse_deposit_median":3000,"wolse_monthly_median":105}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",84.75,14,16400,null,null,1992],
 ["2006-01-11",84.75,3,14300,null,null,1992],
@@ -680,5 +680,6 @@
 ["2026-08-22",84.75,5,30000,0,"신규","26.10~28.10",null],
 ["2026-09-17",84.75,3,30000,0,"신규","26.11~28.11",null],
 ["2026-10-12",84.75,17,3000,130,"신규","26.12~28.12",null],
-["2026-10-21",84.75,7,15000,65,"신규","26.12~28.12",null]
+["2026-10-21",84.75,7,15000,65,"신규","26.12~28.12",null],
+["2026-10-22",84.75,7,1000,120,"신규","26.10~27.04",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"41461100254436",
 "name":"에버랜드아파트",
 "basis":"단지",
-"by_area":[{"area":53,"pyeong":16.0,"n":3,"median":17500,"min":17000,"max":18000,"latest_price":18000,"latest_date":"2026-08-15","latest_floor":4,"jeonse_n":0,"wolse_n":4,"wolse_deposit_median":1000,"wolse_monthly_median":82}],
+"by_area":[{"area":53,"pyeong":16.0,"n":3,"median":17500,"min":17000,"max":18000,"latest_price":18000,"latest_date":"2026-08-15","latest_floor":4,"jeonse_n":0,"wolse_n":5,"wolse_deposit_median":1000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-31",52.8,3,7400,null,null,1990],
 ["2006-04-26",52.8,4,7000,null,null,1990],
@@ -77,5 +77,6 @@
 ["2026-01-13",52.8,2,1000,80,"신규","26.01~28.01",null],
 ["2026-08-21",52.8,2,1000,85,"신규","26.09~28.09",null],
 ["2026-08-21",52.8,2,1000,85,"신규","26.09~28.09",null],
-["2026-10-03",52.8,5,3000,65,"신규","26.10~28.10",null]
+["2026-10-03",52.8,5,3000,65,"신규","26.10~28.10",null],
+["2026-10-10",52.8,5,2000,70,"신규","26.11~28.11",null]
 ]}}

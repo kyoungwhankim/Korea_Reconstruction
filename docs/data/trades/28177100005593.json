@@ -1,7 +1,7 @@
 {"id":"28177100005593",
 "name":"미도아파트",
 "basis":"단지",
-"by_area":[{"area":41,"pyeong":12.4,"jeonse_n":1,"wolse_n":1,"jeonse_median":6000,"jeonse_min":6000,"jeonse_max":6000,"jeonse_latest":6000,"jeonse_latest_date":"2026-06-24","wolse_deposit_median":500,"wolse_monthly_median":40},{"area":66,"pyeong":20.0,"jeonse_n":2,"wolse_n":3,"jeonse_median":10000,"jeonse_min":7000,"jeonse_max":13000,"jeonse_latest":13000,"jeonse_latest_date":"2026-08-04","wolse_deposit_median":1000,"wolse_monthly_median":60}],
+"by_area":[{"area":41,"pyeong":12.4,"jeonse_n":1,"wolse_n":1,"jeonse_median":6000,"jeonse_min":6000,"jeonse_max":6000,"jeonse_latest":6000,"jeonse_latest_date":"2026-06-24","wolse_deposit_median":500,"wolse_monthly_median":40},{"area":66,"pyeong":20.0,"n":2,"median":15615,"min":15600,"max":15630,"latest_price":15630,"latest_date":"2026-10-26","latest_floor":4,"jeonse_n":2,"wolse_n":3,"jeonse_median":10000,"jeonse_min":7000,"jeonse_max":13000,"jeonse_latest":13000,"jeonse_latest_date":"2026-08-04","jeonse_ratio":64.0,"wolse_deposit_median":1000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-01",66.09,5,9300,null,null,1984],
 ["2006-03-08",66.09,2,10450,null,null,1984],
@@ -167,7 +167,9 @@
 ["2024-07-25",66.09,3,16850,"3","중개거래",1984],
 ["2025-02-28",66.09,4,16000,"2","직거래",1984],
 ["2025-10-27",66.09,4,16500,"1","중개거래",1984],
-["2025-10-31",66.09,3,15000,"2","중개거래",1984]
+["2025-10-31",66.09,3,15000,"2","중개거래",1984],
+["2026-10-26",66.09,1,15600,null,"직거래",1984],
+["2026-10-26",66.09,4,15630,null,"직거래",1984]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-14",66.09,4,2000,60,"신규","25.11~26.05",null],

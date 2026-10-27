@@ -1,7 +1,7 @@
 {"id":"경기-안성-아양주공1",
 "name":"아양주공 1단지 아파트",
 "basis":"기존 단지",
-"by_area":[{"area":40,"pyeong":12.1,"n":31,"median":9400,"min":7000,"max":11500,"latest_price":11500,"latest_date":"2026-10-17","latest_floor":3,"jeonse_n":33,"wolse_n":86,"jeonse_median":8000,"jeonse_min":5000,"jeonse_max":10000,"jeonse_latest":9000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":85.1,"wolse_deposit_median":500,"wolse_monthly_median":50},{"area":47,"pyeong":14.2,"n":2,"median":11100,"min":9700,"max":12500,"latest_price":9700,"latest_date":"2026-09-14","latest_floor":6,"jeonse_n":11,"wolse_n":20,"jeonse_median":8000,"jeonse_min":4000,"jeonse_max":10000,"jeonse_latest":4000,"jeonse_latest_date":"2026-09-01","jeonse_ratio":72.1,"wolse_deposit_median":500,"wolse_monthly_median":52}],
+"by_area":[{"area":40,"pyeong":12.1,"n":32,"median":9200,"min":7000,"max":11500,"latest_price":8000,"latest_date":"2026-10-24","latest_floor":1,"jeonse_n":33,"wolse_n":89,"jeonse_median":8000,"jeonse_min":5000,"jeonse_max":10000,"jeonse_latest":9000,"jeonse_latest_date":"2026-10-15","jeonse_ratio":87.0,"wolse_deposit_median":500,"wolse_monthly_median":50},{"area":47,"pyeong":14.2,"n":2,"median":11100,"min":9700,"max":12500,"latest_price":9700,"latest_date":"2026-09-14","latest_floor":6,"jeonse_n":11,"wolse_n":20,"jeonse_median":8000,"jeonse_min":4000,"jeonse_max":10000,"jeonse_latest":4000,"jeonse_latest_date":"2026-09-01","jeonse_ratio":72.1,"wolse_deposit_median":500,"wolse_monthly_median":52}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",39.61,2,5900,null,null,1991],
 ["2006-01-05",46.99,1,5800,null,null,1991],
@@ -1166,7 +1166,8 @@
 ["2026-09-14",46.99,6,9700,"107","중개거래",1991],
 ["2026-09-22",39.61,6,7500,"110","직거래",1991],
 ["2026-10-12",40.0,6,7000,"102","중개거래",1991],
-["2026-10-17",40.0,3,11500,null,"중개거래",1991]
+["2026-10-17",40.0,3,11500,null,"중개거래",1991],
+["2026-10-24",40.0,1,8000,null,"중개거래",1991]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-01",39.61,6,300,30,"신규","25.11~27.11",null],
@@ -1311,6 +1312,7 @@
 ["2026-09-24",46.99,2,500,55,"신규","26.10~28.09",null],
 ["2026-09-26",40.0,1,500,55,"신규","26.10~28.10",null],
 ["2026-09-28",40.0,2,8000,0,"신규","26.11~28.11",null],
+["2026-09-29",39.61,1,500,55,"신규","26.10~28.10",null],
 ["2026-09-30",40.0,5,600,50,"신규","26.10~28.10",null],
 ["2026-10-02",39.61,4,500,60,"신규","26.10~28.10",null],
 ["2026-10-03",39.61,1,500,60,"신규","26.10~28.10",null],
@@ -1318,5 +1320,7 @@
 ["2026-10-07",39.61,3,500,50,"신규","26.10~28.10",null],
 ["2026-10-09",39.61,3,500,50,"신규","26.11~28.11",null],
 ["2026-10-15",39.61,3,9000,0,"신규","26.11~28.11",null],
-["2026-10-22",39.61,4,300,40,"갱신","26.11~28.10",null]
+["2026-10-22",39.61,4,300,40,"갱신","26.11~28.10",null],
+["2026-10-22",40.0,6,1000,40,"신규","26.10~27.10",null],
+["2026-10-23",40.0,1,500,60,"신규","26.10~28.10",null]
 ]}}

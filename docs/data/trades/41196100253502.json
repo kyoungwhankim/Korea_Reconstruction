@@ -1,7 +1,7 @@
 {"id":"41196100253502",
 "name":"적성-1아파트",
 "basis":"단지",
-"by_area":[{"area":54,"pyeong":16.3,"n":2,"median":17500,"min":17000,"max":18000,"latest_price":17000,"latest_date":"2026-10-06","latest_floor":2,"jeonse_n":1,"wolse_n":0,"jeonse_median":5000,"jeonse_min":5000,"jeonse_max":5000,"jeonse_latest":5000,"jeonse_latest_date":"2026-01-02","jeonse_ratio":28.6}],
+"by_area":[{"area":42,"pyeong":12.7,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":47},{"area":54,"pyeong":16.3,"n":2,"median":17500,"min":17000,"max":18000,"latest_price":17000,"latest_date":"2026-10-06","latest_floor":2,"jeonse_n":1,"wolse_n":0,"jeonse_median":5000,"jeonse_min":5000,"jeonse_max":5000,"jeonse_latest":5000,"jeonse_latest_date":"2026-01-02","jeonse_ratio":28.6}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-13",42.12,4,5900,null,null,1989],
 ["2006-03-04",42.12,2,4600,null,null,1989],
@@ -67,5 +67,6 @@
 ["2026-10-06",53.88,2,17000,null,"중개거래",1989]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
-["2026-01-02",53.88,4,5000,0,"갱신","26.01~26.09",null]
+["2026-01-02",53.88,4,5000,0,"갱신","26.01~26.09",null],
+["2026-10-23",42.12,4,1000,47,"갱신","26.11~28.11",null]
 ]}}

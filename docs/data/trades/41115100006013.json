@@ -1,7 +1,7 @@
 {"id":"41115100006013",
 "name":"신반포수원(한신)",
 "basis":"단지",
-"by_area":[{"area":42,"pyeong":12.7,"n":10,"median":19600,"min":16800,"max":23500,"latest_price":20000,"latest_date":"2026-10-22","latest_floor":9},{"area":53,"pyeong":16.0,"n":6,"median":24000,"min":23500,"max":24700,"latest_price":24625,"latest_date":"2026-08-29","latest_floor":12},{"area":55,"pyeong":16.6,"n":1,"median":20500,"min":20500,"max":20500,"latest_price":20500,"latest_date":"2026-06-13","latest_floor":7},{"area":60,"pyeong":18.1,"n":1,"median":26000,"min":26000,"max":26000,"latest_price":26000,"latest_date":"2026-08-31","latest_floor":3},{"area":83,"pyeong":25.1,"n":2,"median":38150,"min":36300,"max":40000,"latest_price":36300,"latest_date":"2026-10-14","latest_floor":3}],
+"by_area":[{"area":42,"pyeong":12.7,"n":11,"median":19800,"min":16800,"max":25000,"latest_price":25000,"latest_date":"2026-10-22","latest_floor":4},{"area":53,"pyeong":16.0,"n":7,"median":24000,"min":23500,"max":25800,"latest_price":25800,"latest_date":"2026-10-22","latest_floor":12},{"area":55,"pyeong":16.6,"n":1,"median":20500,"min":20500,"max":20500,"latest_price":20500,"latest_date":"2026-06-13","latest_floor":7},{"area":60,"pyeong":18.1,"n":1,"median":26000,"min":26000,"max":26000,"latest_price":26000,"latest_date":"2026-08-31","latest_floor":3},{"area":83,"pyeong":25.1,"n":2,"median":38150,"min":36300,"max":40000,"latest_price":36300,"latest_date":"2026-10-14","latest_floor":3}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",52.69,8,8500,null,null,1980],
 ["2006-01-09",55.27,9,9000,null,null,1980],
@@ -1906,7 +1906,9 @@
 ["2026-09-28",41.72,5,18000,null,"직거래",1980],
 ["2026-10-14",41.85,1,23500,null,"중개거래",1980],
 ["2026-10-14",82.71,3,36300,null,"중개거래",1980],
-["2026-10-22",41.85,9,20000,null,"중개거래",1980]
+["2026-10-22",41.85,9,20000,null,"중개거래",1980],
+["2026-10-22",42.17,4,25000,null,"중개거래",1980],
+["2026-10-22",52.68,12,25800,null,"중개거래",1980]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ]}}

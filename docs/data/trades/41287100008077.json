@@ -1,7 +1,7 @@
 {"id":"41287100008077",
 "name":"성저마을3단지풍림아파트",
 "basis":"단지",
-"by_area":[{"area":45,"pyeong":13.6,"n":16,"median":29300,"min":26000,"max":32000,"latest_price":28000,"latest_date":"2026-09-28","latest_floor":10,"jeonse_n":22,"wolse_n":25,"jeonse_median":21000,"jeonse_min":19000,"jeonse_max":23000,"jeonse_latest":22000,"jeonse_latest_date":"2026-08-17","jeonse_ratio":71.7,"wolse_deposit_median":3000,"wolse_monthly_median":80},{"area":84,"pyeong":25.4,"n":6,"median":51250,"min":49500,"max":56800,"latest_price":49500,"latest_date":"2026-10-06","latest_floor":12,"jeonse_n":25,"wolse_n":9,"jeonse_median":32500,"jeonse_min":27500,"jeonse_max":38000,"jeonse_latest":30500,"jeonse_latest_date":"2026-08-31","jeonse_ratio":63.4,"wolse_deposit_median":8000,"wolse_monthly_median":110}],
+"by_area":[{"area":45,"pyeong":13.6,"n":16,"median":29300,"min":26000,"max":32000,"latest_price":28000,"latest_date":"2026-09-28","latest_floor":10,"jeonse_n":22,"wolse_n":26,"jeonse_median":21000,"jeonse_min":19000,"jeonse_max":23000,"jeonse_latest":22000,"jeonse_latest_date":"2026-08-17","jeonse_ratio":71.7,"wolse_deposit_median":3000,"wolse_monthly_median":80},{"area":84,"pyeong":25.4,"n":6,"median":51250,"min":49500,"max":56800,"latest_price":49500,"latest_date":"2026-10-06","latest_floor":12,"jeonse_n":25,"wolse_n":9,"jeonse_median":32500,"jeonse_min":27500,"jeonse_max":38000,"jeonse_latest":30500,"jeonse_latest_date":"2026-08-31","jeonse_ratio":63.4,"wolse_deposit_median":8000,"wolse_monthly_median":110}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",45.36,11,10300,null,null,1996],
 ["2006-01-30",45.36,9,10000,null,null,1996],
@@ -764,5 +764,6 @@
 ["2026-09-03",45.36,4,10000,60,"신규","26.10~28.09",null],
 ["2026-09-30",45.36,6,13000,50,"신규","26.11~28.11",null],
 ["2026-10-08",83.7,4,5000,138,"갱신","26.10~28.10",true],
+["2026-10-15",45.36,1,5000,47,"갱신","26.11~28.11",true],
 ["2026-10-18",45.36,10,13000,44,"갱신","26.11~28.11",true]
 ]}}

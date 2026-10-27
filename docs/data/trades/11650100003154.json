@@ -1,7 +1,7 @@
 {"id":"11650100003154",
 "name":"코오롱아파트",
 "basis":"단지",
-"by_area":[{"area":52,"pyeong":15.7,"n":13,"median":160000,"min":138000,"max":171000,"latest_price":150000,"latest_date":"2026-09-23","latest_floor":3,"jeonse_n":46,"wolse_n":27,"jeonse_median":51425,"jeonse_min":38000,"jeonse_max":65000,"jeonse_latest":62000,"jeonse_latest_date":"2026-10-03","jeonse_ratio":32.1,"wolse_deposit_median":15000,"wolse_monthly_median":133}],
+"by_area":[{"area":52,"pyeong":15.7,"n":13,"median":160000,"min":138000,"max":171000,"latest_price":150000,"latest_date":"2026-09-23","latest_floor":3,"jeonse_n":46,"wolse_n":28,"jeonse_median":51425,"jeonse_min":38000,"jeonse_max":65000,"jeonse_latest":62000,"jeonse_latest_date":"2026-10-03","jeonse_ratio":32.1,"wolse_deposit_median":12500,"wolse_monthly_median":134}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-21",52.47,4,32000,null,null,1994],
 ["2006-01-23",52.47,5,32900,null,null,1994],
@@ -386,5 +386,6 @@
 ["2026-09-15",52.47,2,15000,135,"갱신","26.11~28.11",true],
 ["2026-09-16",52.47,5,25000,120,"신규","26.11~28.11",null],
 ["2026-10-03",52.47,6,62000,0,"신규","26.12~28.12",null],
-["2026-10-06",52.47,2,39000,50,"갱신","26.11~28.11",null]
+["2026-10-06",52.47,2,39000,50,"갱신","26.11~28.11",null],
+["2026-10-26",52.47,4,3000,220,"신규","26.11~28.11",null]
 ]}}

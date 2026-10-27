@@ -1,7 +1,7 @@
 {"id":"41150100253191",
 "name":"장암2단지주공아파트",
 "basis":null,
-"by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":5,"wolse_deposit_median":275,"wolse_monthly_median":5},{"area":31,"pyeong":9.4,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":318,"wolse_monthly_median":6}],
+"by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":6,"wolse_deposit_median":275,"wolse_monthly_median":5},{"area":31,"pyeong":9.4,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":318,"wolse_monthly_median":6}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
@@ -11,5 +11,6 @@
 ["2026-06-08",26.37,5,53,6,"갱신","26.07~28.06",null],
 ["2026-06-29",26.37,2,275,5,"신규","26.06~28.07",null],
 ["2026-07-28",26.37,5,280,6,"신규","26.07~28.08",null],
-["2026-08-20",26.37,9,275,5,"갱신","26.09~28.08",null]
+["2026-08-20",26.37,9,275,5,"갱신","26.09~28.08",null],
+["2026-09-18",26.37,5,280,6,"신규","26.09~28.10",null]
 ]}}

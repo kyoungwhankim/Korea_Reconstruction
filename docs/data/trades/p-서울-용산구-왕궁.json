@@ -1,7 +1,7 @@
 {"id":"서울-용산구-왕궁",
 "name":"왕궁아파트",
 "basis":"기존 단지",
-"by_area":[{"area":102,"pyeong":30.9,"n":1,"median":330000,"min":330000,"max":330000,"latest_price":330000,"latest_date":"2025-12-03","latest_floor":4,"jeonse_n":23,"wolse_n":9,"jeonse_median":60000,"jeonse_min":43000,"jeonse_max":75000,"jeonse_latest":67000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":18.2,"wolse_deposit_median":24000,"wolse_monthly_median":110}],
+"by_area":[{"area":102,"pyeong":30.9,"n":1,"median":330000,"min":330000,"max":330000,"latest_price":330000,"latest_date":"2025-12-03","latest_floor":4,"jeonse_n":24,"wolse_n":9,"jeonse_median":60000,"jeonse_min":43000,"jeonse_max":75000,"jeonse_latest":63000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":18.2,"wolse_deposit_median":24000,"wolse_monthly_median":110}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-04-21",102.48,1,95000,null,null,1974],
 ["2006-07-14",102.48,4,92900,null,null,1974],
@@ -223,5 +223,6 @@
 ["2026-07-29",102.48,4,70000,0,"신규","26.09~28.09",null],
 ["2026-08-26",102.48,3,73500,0,"갱신","26.10~28.10",true],
 ["2026-09-12",102.48,5,52500,0,"갱신","26.10~28.10",true],
-["2026-10-08",102.48,1,67000,0,"갱신","26.10~28.10",null]
+["2026-10-08",102.48,1,67000,0,"갱신","26.10~28.10",null],
+["2026-10-24",102.48,4,63000,0,"갱신","26.10~28.10",true]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"11350100002601",
 "name":"현대그룹중계동주택조합2차(아)",
 "basis":"단지",
-"by_area":[{"area":84,"pyeong":25.4,"jeonse_n":4,"wolse_n":0,"jeonse_median":43250,"jeonse_min":38850,"jeonse_max":55000,"jeonse_latest":55000,"jeonse_latest_date":"2026-10-22"},{"area":85,"pyeong":25.7,"n":9,"median":62000,"min":49000,"max":65000,"latest_price":62000,"latest_date":"2026-07-30","latest_floor":6,"jeonse_n":4,"wolse_n":3,"jeonse_median":38850,"jeonse_min":37000,"jeonse_max":40000,"jeonse_latest":39900,"jeonse_latest_date":"2026-08-08","jeonse_ratio":62.7,"wolse_deposit_median":10000,"wolse_monthly_median":125}],
+"by_area":[{"area":84,"pyeong":25.4,"n":1,"median":66000,"min":66000,"max":66000,"latest_price":66000,"latest_date":"2026-09-30","latest_floor":3,"jeonse_n":4,"wolse_n":0,"jeonse_median":43250,"jeonse_min":38850,"jeonse_max":55000,"jeonse_latest":55000,"jeonse_latest_date":"2026-10-22","jeonse_ratio":65.5},{"area":85,"pyeong":25.7,"n":9,"median":62000,"min":49000,"max":65000,"latest_price":62000,"latest_date":"2026-07-30","latest_floor":6,"jeonse_n":4,"wolse_n":3,"jeonse_median":38850,"jeonse_min":37000,"jeonse_max":40000,"jeonse_latest":39900,"jeonse_latest_date":"2026-08-08","jeonse_ratio":62.7,"wolse_deposit_median":10000,"wolse_monthly_median":125}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-22",84.87,5,24900,null,null,1993],
 ["2006-05-13",84.3,5,25500,null,null,1993],
@@ -146,7 +146,8 @@
 ["2026-05-30",84.96,8,64000,"114","중개거래",1993],
 ["2026-06-29",84.78,9,59700,"115","중개거래",1993],
 ["2026-07-08",84.78,4,61400,"115","중개거래",1993],
-["2026-07-30",84.69,6,62000,"115","중개거래",1993]
+["2026-07-30",84.69,6,62000,"115","중개거래",1993],
+["2026-09-30",84.3,3,66000,null,"중개거래",1993]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-17",84.96,7,30000,80,"신규","26.01~28.01",null],

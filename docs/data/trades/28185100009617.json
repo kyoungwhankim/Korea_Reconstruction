@@ -1,7 +1,7 @@
 {"id":"28185100009617",
 "name":"연수1차 현대 아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":33,"median":50500,"min":31200,"max":55000,"latest_price":54000,"latest_date":"2026-10-18","latest_floor":4,"jeonse_n":54,"wolse_n":27,"jeonse_median":26100,"jeonse_min":22000,"jeonse_max":30500,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":51.7,"wolse_deposit_median":3000,"wolse_monthly_median":120}],
+"by_area":[{"area":85,"pyeong":25.7,"n":33,"median":50500,"min":31200,"max":55000,"latest_price":54000,"latest_date":"2026-10-18","latest_floor":4,"jeonse_n":55,"wolse_n":27,"jeonse_median":26200,"jeonse_min":22000,"jeonse_max":30500,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-25","jeonse_ratio":51.9,"wolse_deposit_median":3000,"wolse_monthly_median":120}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-04",84.97,1,16800,null,null,1993],
 ["2006-01-14",84.97,4,18200,null,null,1993],
@@ -1114,5 +1114,6 @@
 ["2026-10-09",84.97,4,3000,135,"신규","26.12~28.11",null],
 ["2026-10-09",84.97,8,2000,120,"갱신","26.10~28.10",null],
 ["2026-10-19",84.97,8,25200,0,"갱신","26.12~28.12",true],
-["2026-10-19",84.97,8,30000,0,"신규","26.11~28.11",null]
+["2026-10-19",84.97,8,30000,0,"신규","26.11~28.11",null],
+["2026-10-25",84.97,5,30000,0,"신규","26.12~28.12",null]
 ]}}

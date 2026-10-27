@@ -1,7 +1,7 @@
 {"id":"41550100008512",
 "name":"아양주공2단지",
 "basis":"단지",
-"by_area":[{"area":43,"pyeong":13.0,"n":21,"median":10800,"min":8000,"max":13000,"latest_price":10300,"latest_date":"2026-10-21","latest_floor":2,"jeonse_n":5,"wolse_n":63,"jeonse_median":9900,"jeonse_min":8500,"jeonse_max":10500,"jeonse_latest":10000,"jeonse_latest_date":"2026-10-14","jeonse_ratio":91.7,"wolse_deposit_median":500,"wolse_monthly_median":55},{"area":49,"pyeong":14.8,"n":7,"median":11500,"min":10000,"max":13500,"latest_price":11500,"latest_date":"2026-09-21","latest_floor":10,"jeonse_n":6,"wolse_n":12,"jeonse_median":9250,"jeonse_min":3000,"jeonse_max":10500,"jeonse_latest":10500,"jeonse_latest_date":"2026-05-09","jeonse_ratio":80.4,"wolse_deposit_median":500,"wolse_monthly_median":60}],
+"by_area":[{"area":43,"pyeong":13.0,"n":21,"median":10800,"min":8000,"max":13000,"latest_price":10300,"latest_date":"2026-10-21","latest_floor":2,"jeonse_n":5,"wolse_n":64,"jeonse_median":9900,"jeonse_min":8500,"jeonse_max":10500,"jeonse_latest":10000,"jeonse_latest_date":"2026-10-14","jeonse_ratio":91.7,"wolse_deposit_median":500,"wolse_monthly_median":55},{"area":49,"pyeong":14.8,"n":7,"median":11500,"min":10000,"max":13500,"latest_price":11500,"latest_date":"2026-09-21","latest_floor":10,"jeonse_n":6,"wolse_n":12,"jeonse_median":9250,"jeonse_min":3000,"jeonse_max":10500,"jeonse_latest":10500,"jeonse_latest_date":"2026-05-09","jeonse_ratio":80.4,"wolse_deposit_median":500,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-16",42.9,13,6000,null,null,1995],
 ["2006-02-15",49.44,5,6750,null,null,1995],
@@ -1066,6 +1066,7 @@
 ["2026-09-18",42.9,10,500,65,"신규","26.09~28.09",null],
 ["2026-09-28",42.9,9,1000,65,"갱신","26.09~28.09",null],
 ["2026-09-28",42.9,11,500,65,"신규","26.10~28.10",null],
+["2026-09-30",42.9,8,500,50,"신규","26.10~28.09",null],
 ["2026-10-02",42.9,11,500,60,"신규","26.10~28.10",null],
 ["2026-10-02",49.44,10,1000,60,"신규","26.10~28.10",null],
 ["2026-10-09",49.44,9,500,60,"신규","26.10~28.10",null],

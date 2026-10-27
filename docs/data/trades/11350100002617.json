@@ -1,7 +1,7 @@
 {"id":"11350100002617",
 "name":"성북맨션",
 "basis":"단지",
-"by_area":[{"area":65,"pyeong":19.7,"n":5,"median":55000,"min":30800,"max":59000,"latest_price":59000,"latest_date":"2026-09-22","latest_floor":2,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":3000,"wolse_monthly_median":70},{"area":66,"pyeong":20.0,"jeonse_n":1,"wolse_n":0,"jeonse_median":15400,"jeonse_min":15400,"jeonse_max":15400,"jeonse_latest":15400,"jeonse_latest_date":"2026-06-17"}],
+"by_area":[{"area":65,"pyeong":19.7,"n":6,"median":52750,"min":30800,"max":59000,"latest_price":48000,"latest_date":"2026-09-29","latest_floor":5,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":3000,"wolse_monthly_median":70},{"area":66,"pyeong":20.0,"jeonse_n":1,"wolse_n":0,"jeonse_median":15400,"jeonse_min":15400,"jeonse_max":15400,"jeonse_latest":15400,"jeonse_latest_date":"2026-06-17"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-04-18",65.35,1,10000,null,null,1976],
 ["2006-05-11",65.35,1,10600,null,null,1976],
@@ -127,7 +127,8 @@
 ["2026-02-24",65.35,3,30800,"다","중개거래",1976],
 ["2026-03-16",65.35,1,50500,"다","중개거래",1976],
 ["2026-07-10",65.35,3,57800,"나","중개거래",1976],
-["2026-09-22",65.35,2,59000,null,"중개거래",1976]
+["2026-09-22",65.35,2,59000,null,"중개거래",1976],
+["2026-09-29",65.35,5,48000,null,"중개거래",1976]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-01-28",65.35,1,2000,70,"신규","26.02~28.02",null],

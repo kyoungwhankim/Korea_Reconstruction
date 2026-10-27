@@ -1,7 +1,7 @@
 {"id":"11500100001799",
 "name":"등촌8단지주공아파트",
 "basis":"단지",
-"by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":290,"wolse_monthly_median":6},{"area":42,"pyeong":12.7,"n":40,"median":68750,"min":44000,"max":84000,"latest_price":82000,"latest_date":"2026-10-10","latest_floor":8,"jeonse_n":41,"wolse_n":47,"jeonse_median":29000,"jeonse_min":20900,"jeonse_max":35000,"jeonse_latest":28000,"jeonse_latest_date":"2026-10-07","jeonse_ratio":42.2,"wolse_deposit_median":3000,"wolse_monthly_median":100}],
+"by_area":[{"area":26,"pyeong":7.9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":290,"wolse_monthly_median":6},{"area":42,"pyeong":12.7,"n":40,"median":68750,"min":44000,"max":84000,"latest_price":82000,"latest_date":"2026-10-10","latest_floor":8,"jeonse_n":41,"wolse_n":48,"jeonse_median":29000,"jeonse_min":20900,"jeonse_max":35000,"jeonse_latest":28000,"jeonse_latest_date":"2026-10-07","jeonse_ratio":42.2,"wolse_deposit_median":3000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-25",41.85,12,11700,null,null,1994],
 ["2006-02-02",41.85,3,11200,null,null,1994],
@@ -802,6 +802,7 @@
 ["2026-08-29",41.85,15,33000,0,"신규","26.10~28.10",null],
 ["2026-09-03",41.85,13,2000,130,"신규","26.10~28.10",null],
 ["2026-09-11",41.85,1,30000,0,"신규","26.11~28.11",null],
+["2026-09-12",41.85,15,3000,100,"신규","26.10~28.10",null],
 ["2026-09-16",41.85,2,5000,100,"신규","26.10~28.10",null],
 ["2026-09-30",41.85,10,2000,88,"갱신","26.12~28.12",null],
 ["2026-10-05",41.85,12,35000,0,"신규","26.12~28.11",null],

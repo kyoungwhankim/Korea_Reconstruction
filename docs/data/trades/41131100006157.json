@@ -1,7 +1,7 @@
 {"id":"41131100006157",
 "name":"청구아파트",
 "basis":"단지",
-"by_area":[{"area":63,"pyeong":19.1,"n":3,"median":75000,"min":72500,"max":82000,"latest_price":75000,"latest_date":"2026-05-11","latest_floor":2,"jeonse_n":2,"wolse_n":2,"jeonse_median":30000,"jeonse_min":15000,"jeonse_max":45000,"jeonse_latest":45000,"jeonse_latest_date":"2026-09-04","jeonse_ratio":40.0,"wolse_deposit_median":30000,"wolse_monthly_median":62},{"area":85,"pyeong":25.7,"n":14,"median":87500,"min":75000,"max":95000,"latest_price":95000,"latest_date":"2026-08-08","latest_floor":2,"jeonse_n":23,"wolse_n":4,"jeonse_median":44000,"jeonse_min":36750,"jeonse_max":55000,"jeonse_latest":55000,"jeonse_latest_date":"2026-09-29","jeonse_ratio":50.3,"wolse_deposit_median":27500,"wolse_monthly_median":70}],
+"by_area":[{"area":63,"pyeong":19.1,"n":3,"median":75000,"min":72500,"max":82000,"latest_price":75000,"latest_date":"2026-05-11","latest_floor":2,"jeonse_n":2,"wolse_n":2,"jeonse_median":30000,"jeonse_min":15000,"jeonse_max":45000,"jeonse_latest":45000,"jeonse_latest_date":"2026-09-04","jeonse_ratio":40.0,"wolse_deposit_median":30000,"wolse_monthly_median":62},{"area":85,"pyeong":25.7,"n":14,"median":87500,"min":75000,"max":95000,"latest_price":95000,"latest_date":"2026-08-08","latest_floor":2,"jeonse_n":23,"wolse_n":5,"jeonse_median":44000,"jeonse_min":36750,"jeonse_max":55000,"jeonse_latest":55000,"jeonse_latest_date":"2026-09-29","jeonse_ratio":50.3,"wolse_deposit_median":15000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-08",84.99,15,25000,null,null,1994],
 ["2006-03-16",84.99,11,26000,null,null,1994],
@@ -449,5 +449,6 @@
 ["2026-09-04",63.45,5,45000,0,"신규","26.10~28.10",null],
 ["2026-09-28",84.94,5,46000,0,"갱신","26.11~28.11",null],
 ["2026-09-29",84.99,9,55000,0,"신규","26.12~28.12",null],
-["2026-10-17",63.45,12,20000,115,"신규","26.12~28.12",null]
+["2026-10-17",63.45,12,20000,115,"신규","26.12~28.12",null],
+["2026-10-24",84.99,15,5000,170,"신규","26.12~28.12",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"11590120029694",
 "name":"현대(관악)",
 "basis":"단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":9,"median":100300,"min":96000,"max":107500,"latest_price":107500,"latest_date":"2026-10-06","latest_floor":3,"jeonse_n":10,"wolse_n":3,"jeonse_median":44750,"jeonse_min":24000,"jeonse_max":48000,"jeonse_latest":45000,"jeonse_latest_date":"2026-10-13","jeonse_ratio":44.6,"wolse_deposit_median":35000,"wolse_monthly_median":30},{"area":85,"pyeong":25.7,"n":14,"median":114000,"min":89500,"max":124000,"latest_price":124000,"latest_date":"2026-10-08","latest_floor":4,"jeonse_n":21,"wolse_n":15,"jeonse_median":51500,"jeonse_min":39900,"jeonse_max":56000,"jeonse_latest":51450,"jeonse_latest_date":"2026-09-12","jeonse_ratio":45.2,"wolse_deposit_median":30000,"wolse_monthly_median":80}],
+"by_area":[{"area":59,"pyeong":17.8,"n":9,"median":100300,"min":96000,"max":107500,"latest_price":107500,"latest_date":"2026-10-06","latest_floor":3,"jeonse_n":10,"wolse_n":3,"jeonse_median":44750,"jeonse_min":24000,"jeonse_max":48000,"jeonse_latest":45000,"jeonse_latest_date":"2026-10-13","jeonse_ratio":44.6,"wolse_deposit_median":35000,"wolse_monthly_median":30},{"area":85,"pyeong":25.7,"n":14,"median":114000,"min":89500,"max":124000,"latest_price":124000,"latest_date":"2026-10-08","latest_floor":4,"jeonse_n":22,"wolse_n":15,"jeonse_median":51750,"jeonse_min":39900,"jeonse_max":57200,"jeonse_latest":57200,"jeonse_latest_date":"2026-10-21","jeonse_ratio":45.4,"wolse_deposit_median":30000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-22",84.78,6,26270,null,null,1992],
 ["2006-01-27",84.78,11,25000,null,null,1992],
@@ -507,5 +507,6 @@
 ["2026-09-07",84.78,2,52500,0,"갱신","26.09~28.09",true],
 ["2026-09-12",84.78,2,51450,0,"갱신","26.10~28.10",true],
 ["2026-09-18",58.59,4,44500,0,"신규","26.11~28.11",null],
-["2026-10-13",58.59,1,45000,0,"신규","26.11~28.11",null]
+["2026-10-13",58.59,1,45000,0,"신규","26.11~28.11",null],
+["2026-10-21",84.78,2,57200,0,"갱신","27.01~29.01",null]
 ]}}

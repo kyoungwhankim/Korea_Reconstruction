@@ -1,7 +1,7 @@
 {"id":"41173100006722",
 "name":"향촌롯데아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":8,"median":100750,"min":63300,"max":110900,"latest_price":110900,"latest_date":"2026-10-02","latest_floor":13,"jeonse_n":17,"wolse_n":15,"jeonse_median":49000,"jeonse_min":35000,"jeonse_max":58000,"jeonse_latest":40900,"jeonse_latest_date":"2026-10-09","jeonse_ratio":48.6,"wolse_deposit_median":15000,"wolse_monthly_median":138},{"area":85,"pyeong":25.7,"n":19,"median":139000,"min":126500,"max":152500,"latest_price":152500,"latest_date":"2026-07-14","latest_floor":15,"jeonse_n":22,"wolse_n":6,"jeonse_median":74250,"jeonse_min":63200,"jeonse_max":87000,"jeonse_latest":87000,"jeonse_latest_date":"2026-10-07","jeonse_ratio":53.4,"wolse_deposit_median":40000,"wolse_monthly_median":155}],
+"by_area":[{"area":60,"pyeong":18.1,"n":8,"median":100750,"min":63300,"max":110900,"latest_price":110900,"latest_date":"2026-10-02","latest_floor":13,"jeonse_n":17,"wolse_n":15,"jeonse_median":49000,"jeonse_min":35000,"jeonse_max":58000,"jeonse_latest":40900,"jeonse_latest_date":"2026-10-09","jeonse_ratio":48.6,"wolse_deposit_median":15000,"wolse_monthly_median":138},{"area":85,"pyeong":25.7,"n":19,"median":139000,"min":126500,"max":152500,"latest_price":152500,"latest_date":"2026-07-14","latest_floor":15,"jeonse_n":22,"wolse_n":7,"jeonse_median":74250,"jeonse_min":63200,"jeonse_max":87000,"jeonse_latest":87000,"jeonse_latest_date":"2026-10-07","jeonse_ratio":53.4,"wolse_deposit_median":40000,"wolse_monthly_median":150}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-11",59.76,8,27700,null,null,1993],
 ["2006-01-12",59.76,1,22000,null,null,1993],
@@ -752,5 +752,6 @@
 ["2026-09-12",59.76,6,30000,37,"신규","26.10~28.10",null],
 ["2026-09-15",59.76,4,51000,0,"신규","26.11~29.02",null],
 ["2026-10-07",84.84,13,87000,0,"신규","27.02~29.02",null],
-["2026-10-09",59.76,1,40900,0,"갱신","26.10~28.10",true]
+["2026-10-09",59.76,1,40900,0,"갱신","26.10~28.10",true],
+["2026-10-24",84.84,9,54000,110,"신규","27.01~29.01",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"41287100050254",
 "name":"탄현마을3단지부영",
 "basis":"단지",
-"by_area":[{"area":47,"pyeong":14.2,"n":18,"median":20400,"min":18300,"max":23000,"latest_price":18300,"latest_date":"2026-10-05","latest_floor":1,"jeonse_n":34,"wolse_n":44,"jeonse_median":16950,"jeonse_min":15200,"jeonse_max":18900,"jeonse_latest":18000,"jeonse_latest_date":"2026-10-11","jeonse_ratio":83.1,"wolse_deposit_median":1000,"wolse_monthly_median":70}],
+"by_area":[{"area":47,"pyeong":14.2,"n":18,"median":20400,"min":18300,"max":23000,"latest_price":18300,"latest_date":"2026-10-05","latest_floor":1,"jeonse_n":35,"wolse_n":44,"jeonse_median":17000,"jeonse_min":15200,"jeonse_max":18900,"jeonse_latest":17500,"jeonse_latest_date":"2026-10-24","jeonse_ratio":83.3,"wolse_deposit_median":1000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-06",46.58,14,8400,null,null,1995],
 ["2006-01-11",46.58,6,8250,null,null,1995],
@@ -1069,5 +1069,6 @@
 ["2026-09-22",46.58,8,18000,0,"신규","26.12~28.12",null],
 ["2026-09-29",46.58,7,4000,65,"갱신","26.11~28.11",null],
 ["2026-10-03",46.58,3,16900,0,"갱신","26.10~28.10",true],
-["2026-10-11",46.58,6,18000,0,"갱신","26.12~28.12",true]
+["2026-10-11",46.58,6,18000,0,"갱신","26.12~28.12",true],
+["2026-10-24",46.58,3,17500,0,"신규","26.12~28.12",null]
 ]}}

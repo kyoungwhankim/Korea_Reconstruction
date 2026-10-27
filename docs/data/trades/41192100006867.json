@@ -1,7 +1,7 @@
 {"id":"41192100006867",
 "name":"한도아파트2차",
 "basis":"단지",
-"by_area":[{"area":44,"pyeong":13.3,"jeonse_n":1,"wolse_n":11,"jeonse_median":9500,"jeonse_min":9500,"jeonse_max":9500,"jeonse_latest":9500,"jeonse_latest_date":"2026-08-14","wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":70,"pyeong":21.2,"jeonse_n":3,"wolse_n":2,"jeonse_median":18000,"jeonse_min":18000,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-02-27","wolse_deposit_median":3500,"wolse_monthly_median":52}],
+"by_area":[{"area":44,"pyeong":13.3,"jeonse_n":1,"wolse_n":12,"jeonse_median":9500,"jeonse_min":9500,"jeonse_max":9500,"jeonse_latest":9500,"jeonse_latest_date":"2026-08-14","wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":70,"pyeong":21.2,"jeonse_n":3,"wolse_n":2,"jeonse_median":18000,"jeonse_min":18000,"jeonse_max":18000,"jeonse_latest":18000,"jeonse_latest_date":"2026-02-27","wolse_deposit_median":3500,"wolse_monthly_median":52}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-01",70.14,4,14000,null,null,1986],
 ["2006-04-10",70.14,3,13950,null,null,1986],
@@ -202,5 +202,6 @@
 ["2026-06-10",44.17,2,5000,35,"신규","26.07~28.07",null],
 ["2026-06-13",44.17,2,1500,57,"갱신","26.06~27.12",null],
 ["2026-08-14",44.17,3,9500,0,"신규","26.10~28.10",null],
-["2026-08-14",44.17,4,1000,50,"신규","26.10~28.10",null]
+["2026-08-14",44.17,4,1000,50,"신규","26.10~28.10",null],
+["2026-10-26",44.17,2,1000,55,"신규","26.12~27.12",null]
 ]}}

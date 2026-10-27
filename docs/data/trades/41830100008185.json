@@ -1,7 +1,7 @@
 {"id":"41830100008185",
 "name":"금광2차 아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":3,"wolse_n":3,"jeonse_median":15000,"jeonse_min":14000,"jeonse_max":15000,"jeonse_latest":15000,"jeonse_latest_date":"2026-09-17","wolse_deposit_median":2000,"wolse_monthly_median":65},{"area":91,"pyeong":27.5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":5000,"wolse_monthly_median":90},{"area":104,"pyeong":31.5,"n":1,"median":23000,"min":23000,"max":23000,"latest_price":23000,"latest_date":"2026-07-02","latest_floor":8}],
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":4,"wolse_n":3,"jeonse_median":15000,"jeonse_min":14000,"jeonse_max":15000,"jeonse_latest":15000,"jeonse_latest_date":"2026-09-17","wolse_deposit_median":2000,"wolse_monthly_median":65},{"area":91,"pyeong":27.5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":5000,"wolse_monthly_median":90},{"area":104,"pyeong":31.5,"n":1,"median":23000,"min":23000,"max":23000,"latest_price":23000,"latest_date":"2026-07-02","latest_floor":8}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-06",59.65,8,9300,null,null,1995],
 ["2006-03-07",59.65,13,9300,null,null,1995],
@@ -143,5 +143,6 @@
 ["2026-06-04",59.65,13,15000,0,"신규","26.08~28.08",null],
 ["2026-06-22",59.65,1,14000,0,"신규","26.08~28.08",null],
 ["2026-07-08",59.65,7,10000,17,"갱신","26.07~28.05",true],
+["2026-09-17",59.65,7,15000,0,"신규","26.11~28.11",null],
 ["2026-09-17",59.65,7,15000,0,"신규","26.11~28.11",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"41287100007950",
 "name":"주엽강선마을13단지뉴서울",
 "basis":"단지",
-"by_area":[{"area":40,"pyeong":12.1,"n":8,"median":19400,"min":16000,"max":22000,"latest_price":19000,"latest_date":"2026-09-07","latest_floor":18,"jeonse_n":16,"wolse_n":25,"jeonse_median":16500,"jeonse_min":9000,"jeonse_max":17000,"jeonse_latest":16500,"jeonse_latest_date":"2026-10-10","jeonse_ratio":85.1,"wolse_deposit_median":1500,"wolse_monthly_median":70}],
+"by_area":[{"area":40,"pyeong":12.1,"n":9,"median":19500,"min":16000,"max":22000,"latest_price":19500,"latest_date":"2026-10-24","latest_floor":15,"jeonse_n":16,"wolse_n":25,"jeonse_median":16500,"jeonse_min":9000,"jeonse_max":17000,"jeonse_latest":16500,"jeonse_latest_date":"2026-10-10","jeonse_ratio":84.6,"wolse_deposit_median":1500,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",40.32,5,6700,null,null,1995],
 ["2006-01-12",40.32,10,6840,null,null,1995],
@@ -512,7 +512,8 @@
 ["2026-05-28",40.32,19,19300,"1302","중개거래",1995],
 ["2026-06-05",40.32,23,19500,"1301","중개거래",1995],
 ["2026-06-09",40.32,15,22000,"1302","중개거래",1995],
-["2026-09-07",40.32,18,19000,null,"중개거래",1995]
+["2026-09-07",40.32,18,19000,null,"중개거래",1995],
+["2026-10-24",40.32,15,19500,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-06",40.32,19,16000,0,"신규","25.12~27.12",null],

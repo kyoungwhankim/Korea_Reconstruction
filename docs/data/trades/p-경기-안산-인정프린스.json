@@ -1,7 +1,7 @@
 {"id":"경기-안산-인정프린스",
 "name":"인정프린스아파트",
 "basis":"기존 단지",
-"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":39,"wolse_n":8,"jeonse_median":15540,"jeonse_min":15540,"jeonse_max":30000,"jeonse_latest":15540,"jeonse_latest_date":"2026-09-14","wolse_deposit_median":3000,"wolse_monthly_median":100},{"area":76,"pyeong":23.0,"jeonse_n":2,"wolse_n":5,"jeonse_median":34500,"jeonse_min":34000,"jeonse_max":35000,"jeonse_latest":34000,"jeonse_latest_date":"2026-05-06","wolse_deposit_median":3000,"wolse_monthly_median":140},{"area":80,"pyeong":24.2,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":5000,"wolse_monthly_median":125}],
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":39,"wolse_n":8,"jeonse_median":15540,"jeonse_min":15540,"jeonse_max":30000,"jeonse_latest":15540,"jeonse_latest_date":"2026-09-14","wolse_deposit_median":3000,"wolse_monthly_median":100},{"area":76,"pyeong":23.0,"jeonse_n":3,"wolse_n":5,"jeonse_median":34000,"jeonse_min":34000,"jeonse_max":35000,"jeonse_latest":34000,"jeonse_latest_date":"2026-10-14","wolse_deposit_median":3000,"wolse_monthly_median":140},{"area":80,"pyeong":24.2,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":5000,"wolse_monthly_median":125}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",40.44,4,5200,null,null,1990],
 ["2006-01-16",81.27,4,11000,null,null,1990],
@@ -766,7 +766,8 @@
 ["2026-08-20",76.0,13,4000,140,"신규","26.10~28.10",null],
 ["2026-08-29",59.95,17,30000,0,"신규","26.12~28.12",null],
 ["2026-09-13",59.95,6,3000,100,"신규","26.10~28.09",null],
-["2026-09-14",59.8,26,15540,0,"신규","26.09~28.11",null]
+["2026-09-14",59.8,26,15540,0,"신규","26.09~28.11",null],
+["2026-10-14",76.0,20,34000,0,"신규","26.12~28.12",null]
 ]},
 "silv":{"cols":["date","area","floor","price","kind","type"],"rows":[
 ["2024-02-22",59.95,6,35550,"입주권","중개거래"],

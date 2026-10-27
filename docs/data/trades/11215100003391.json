@@ -1,7 +1,7 @@
 {"id":"11215100003391",
 "name":"광장현대8단지",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":4,"median":223000,"min":210000,"max":228000,"latest_price":228000,"latest_date":"2026-04-10","latest_floor":20,"jeonse_n":24,"wolse_n":5,"jeonse_median":80900,"jeonse_min":20000,"jeonse_max":105000,"jeonse_latest":86100,"jeonse_latest_date":"2026-10-22","jeonse_ratio":36.3,"wolse_deposit_median":30000,"wolse_monthly_median":230}],
+"by_area":[{"area":85,"pyeong":25.7,"n":4,"median":223000,"min":210000,"max":228000,"latest_price":228000,"latest_date":"2026-04-10","latest_floor":20,"jeonse_n":24,"wolse_n":6,"jeonse_median":80900,"jeonse_min":20000,"jeonse_max":105000,"jeonse_latest":86100,"jeonse_latest_date":"2026-10-22","jeonse_ratio":36.3,"wolse_deposit_median":30000,"wolse_monthly_median":220}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-16",84.92,1,37800,null,null,1995],
 ["2006-01-22",84.92,3,38500,null,null,1995],
@@ -357,5 +357,6 @@
 ["2026-08-22",84.92,21,50000,180,"신규","26.09~28.09",null],
 ["2026-09-05",84.92,17,95000,0,"신규","26.10~28.10",null],
 ["2026-10-02",84.92,23,92000,0,"신규","26.12~28.12",null],
-["2026-10-22",84.92,17,86100,0,"갱신","27.03~29.03",true]
+["2026-10-22",84.92,17,86100,0,"갱신","27.03~29.03",true],
+["2026-10-24",84.92,9,25000,205,"갱신","26.12~28.12",null]
 ]}}

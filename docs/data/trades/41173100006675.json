@@ -1,7 +1,7 @@
 {"id":"41173100006675",
 "name":"덕원맨숀6차아파트",
 "basis":"단지",
-"by_area":[{"area":51,"pyeong":15.4,"jeonse_n":2,"wolse_n":1,"jeonse_median":19000,"jeonse_min":18000,"jeonse_max":20000,"jeonse_latest":18000,"jeonse_latest_date":"2026-03-09","wolse_deposit_median":1000,"wolse_monthly_median":90},{"area":52,"pyeong":15.7,"jeonse_n":1,"wolse_n":0,"jeonse_median":17000,"jeonse_min":17000,"jeonse_max":17000,"jeonse_latest":17000,"jeonse_latest_date":"2026-10-01"}],
+"by_area":[{"area":51,"pyeong":15.4,"jeonse_n":2,"wolse_n":2,"jeonse_median":19000,"jeonse_min":18000,"jeonse_max":20000,"jeonse_latest":18000,"jeonse_latest_date":"2026-03-09","wolse_deposit_median":1750,"wolse_monthly_median":80},{"area":52,"pyeong":15.7,"jeonse_n":1,"wolse_n":0,"jeonse_median":17000,"jeonse_min":17000,"jeonse_max":17000,"jeonse_latest":17000,"jeonse_latest_date":"2026-10-01"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-06-19",51.08,2,9300,null,null,1986],
 ["2006-07-05",58.48,1,11500,null,null,1986],
@@ -53,5 +53,6 @@
 ["2025-11-11",51.08,2,20000,0,"신규","25.12~27.12",null],
 ["2026-03-09",51.08,5,18000,0,"갱신","26.04~28.04",null],
 ["2026-06-27",51.08,1,1000,90,"신규","26.08~28.08",null],
-["2026-10-01",51.66,3,17000,0,"갱신","26.11~28.11",null]
+["2026-10-01",51.66,3,17000,0,"갱신","26.11~28.11",null],
+["2026-10-12",51.08,1,2500,70,"신규","26.11~28.11",null]
 ]}}

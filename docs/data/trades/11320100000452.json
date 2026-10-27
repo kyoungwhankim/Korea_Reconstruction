@@ -1,7 +1,7 @@
 {"id":"11320100000452",
 "name":"유원도봉아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":10,"median":50000,"min":47000,"max":55500,"latest_price":55500,"latest_date":"2026-10-15","latest_floor":5,"jeonse_n":9,"wolse_n":4,"jeonse_median":31000,"jeonse_min":23000,"jeonse_max":40000,"jeonse_latest":31000,"jeonse_latest_date":"2026-08-03","jeonse_ratio":62.0,"wolse_deposit_median":5000,"wolse_monthly_median":100}],
+"by_area":[{"area":85,"pyeong":25.7,"n":11,"median":49500,"min":36000,"max":55500,"latest_price":36000,"latest_date":"2026-10-23","latest_floor":2,"jeonse_n":9,"wolse_n":4,"jeonse_median":31000,"jeonse_min":23000,"jeonse_max":40000,"jeonse_latest":31000,"jeonse_latest_date":"2026-08-03","jeonse_ratio":62.6,"wolse_deposit_median":5000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-02",84.93,11,17300,null,null,1990],
 ["2006-03-28",84.93,7,16500,null,null,1990],
@@ -210,7 +210,8 @@
 ["2026-04-16",84.93,2,50500,"3","중개거래",1990],
 ["2026-05-20",84.93,9,49500,"3","중개거래",1990],
 ["2026-09-22",84.93,7,51200,null,"중개거래",1990],
-["2026-10-15",84.93,5,55500,null,"중개거래",1990]
+["2026-10-15",84.93,5,55500,null,"중개거래",1990],
+["2026-10-23",84.93,2,36000,null,"중개거래",1990]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-15",84.93,9,23000,0,"갱신","25.12~27.12",true],

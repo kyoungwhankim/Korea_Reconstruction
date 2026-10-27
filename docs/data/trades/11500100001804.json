@@ -1,7 +1,7 @@
 {"id":"11500100001804",
 "name":"등촌현대1차(한마음)",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":4,"median":82400,"min":72500,"max":85000,"latest_price":85000,"latest_date":"2026-07-11","latest_floor":6,"jeonse_n":5,"wolse_n":1,"jeonse_median":50400,"jeonse_min":46000,"jeonse_max":55000,"jeonse_latest":52000,"jeonse_latest_date":"2026-07-04","jeonse_ratio":61.2,"wolse_deposit_median":52000,"wolse_monthly_median":50}],
+"by_area":[{"area":85,"pyeong":25.7,"n":4,"median":82400,"min":72500,"max":85000,"latest_price":85000,"latest_date":"2026-07-11","latest_floor":6,"jeonse_n":6,"wolse_n":1,"jeonse_median":50200,"jeonse_min":46000,"jeonse_max":55000,"jeonse_latest":50000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":60.9,"wolse_deposit_median":52000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-15",84.62,4,21000,null,null,1995],
 ["2006-02-19",84.62,5,24250,null,null,1995],
@@ -157,5 +157,6 @@
 ["2026-02-11",84.62,13,46000,0,"갱신","26.02~28.03",null],
 ["2026-05-09",84.62,17,52000,50,"신규","26.07~28.07",null],
 ["2026-05-28",84.55,10,50400,0,"갱신","26.07~28.07",null],
-["2026-07-04",84.62,5,52000,0,"신규","26.09~28.09",null]
+["2026-07-04",84.62,5,52000,0,"신규","26.09~28.09",null],
+["2026-10-24",84.62,10,50000,0,"갱신","26.12~28.12",true]
 ]}}

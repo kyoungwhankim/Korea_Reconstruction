@@ -1,7 +1,7 @@
 {"id":"11320100000449",
 "name":"서울가든아파트",
 "basis":"단지",
-"by_area":[{"area":75,"pyeong":22.7,"n":14,"median":42000,"min":39500,"max":48000,"latest_price":43500,"latest_date":"2026-10-09","latest_floor":3,"jeonse_n":10,"wolse_n":1,"jeonse_median":31750,"jeonse_min":29000,"jeonse_max":35000,"jeonse_latest":32000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":75.6,"wolse_deposit_median":25000,"wolse_monthly_median":40}],
+"by_area":[{"area":75,"pyeong":22.7,"n":15,"median":42500,"min":39500,"max":48000,"latest_price":44000,"latest_date":"2026-10-18","latest_floor":6,"jeonse_n":10,"wolse_n":1,"jeonse_median":31750,"jeonse_min":29000,"jeonse_max":35000,"jeonse_latest":32000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":74.7,"wolse_deposit_median":25000,"wolse_monthly_median":40}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-10",75.33,1,13700,null,null,1987],
 ["2006-01-26",75.33,9,15000,null,null,1987],
@@ -339,7 +339,8 @@
 ["2026-06-24",75.33,4,40800,"1","중개거래",1987],
 ["2026-08-05",75.33,11,48000,null,"중개거래",1987],
 ["2026-10-08",75.33,11,40000,null,"중개거래",1987],
-["2026-10-09",75.33,3,43500,null,"중개거래",1987]
+["2026-10-09",75.33,3,43500,null,"중개거래",1987],
+["2026-10-18",75.33,6,44000,null,"중개거래",1987]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-12-15",75.33,1,32000,0,"신규","26.02~28.02",null],

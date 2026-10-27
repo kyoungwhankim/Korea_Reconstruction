@@ -1,7 +1,7 @@
 {"id":"11470120033287",
 "name":"양천아파트",
 "basis":null,
-"by_area":[{"area":34,"pyeong":10.3,"jeonse_n":0,"wolse_n":98,"wolse_deposit_median":900,"wolse_monthly_median":11},{"area":39,"pyeong":11.8,"jeonse_n":6,"wolse_n":77,"jeonse_median":3446,"jeonse_min":3434,"jeonse_max":3446,"jeonse_latest":3446,"jeonse_latest_date":"2025-12-14","wolse_deposit_median":1054,"wolse_monthly_median":13}],
+"by_area":[{"area":34,"pyeong":10.3,"jeonse_n":0,"wolse_n":99,"wolse_deposit_median":900,"wolse_monthly_median":11},{"area":39,"pyeong":11.8,"jeonse_n":6,"wolse_n":78,"jeonse_median":3446,"jeonse_min":3434,"jeonse_max":3446,"jeonse_latest":3446,"jeonse_latest_date":"2025-12-14","wolse_deposit_median":1054,"wolse_monthly_median":13}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
@@ -165,6 +165,7 @@
 ["2026-09-07",39.2,9,1049,13,"신규","26.09~28.11",null],
 ["2026-09-07",39.2,9,2481,5,"신규","26.09~28.11",null],
 ["2026-09-07",39.2,12,1049,13,"신규","26.09~28.11",null],
+["2026-09-07",39.2,12,2481,5,"신규","26.09~28.11",null],
 ["2026-09-07",39.36,1,1054,13,"신규","26.09~28.11",null],
 ["2026-09-07",39.36,4,421,15,"신규","26.09~28.11",null],
 ["2026-09-07",39.36,4,1054,13,"신규","26.09~28.11",null],
@@ -185,5 +186,6 @@
 ["2026-10-14",33.62,6,2047,4,"갱신","26.11~28.10",null],
 ["2026-10-14",33.62,9,2047,4,"갱신","26.11~28.10",null],
 ["2026-10-14",33.62,15,2220,7,"갱신","26.11~28.10",null],
-["2026-10-14",39.36,12,2397,5,"갱신","26.11~28.10",null]
+["2026-10-14",39.36,12,2397,5,"갱신","26.11~28.10",null],
+["2026-10-26",33.62,15,2047,4,"갱신","26.11~28.10",null]
 ]}}

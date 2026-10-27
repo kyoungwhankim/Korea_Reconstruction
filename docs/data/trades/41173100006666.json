@@ -1,7 +1,7 @@
 {"id":"41173100006666",
 "name":"공작럭키아파트",
 "basis":"단지",
-"by_area":[{"area":50,"pyeong":15.1,"n":71,"median":63500,"min":30500,"max":80000,"latest_price":80000,"latest_date":"2026-10-12","latest_floor":14,"jeonse_n":72,"wolse_n":37,"jeonse_median":30000,"jeonse_min":20000,"jeonse_max":36000,"jeonse_latest":27300,"jeonse_latest_date":"2026-10-08","jeonse_ratio":47.2,"wolse_deposit_median":5000,"wolse_monthly_median":91}],
+"by_area":[{"area":50,"pyeong":15.1,"n":71,"median":63500,"min":30500,"max":80000,"latest_price":80000,"latest_date":"2026-10-12","latest_floor":14,"jeonse_n":72,"wolse_n":38,"jeonse_median":30000,"jeonse_min":20000,"jeonse_max":36000,"jeonse_latest":27300,"jeonse_latest_date":"2026-10-08","jeonse_ratio":47.2,"wolse_deposit_median":5000,"wolse_monthly_median":93}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-12",49.8,12,13500,null,null,1993],
 ["2006-01-14",49.8,9,11800,null,null,1993],
@@ -1380,6 +1380,7 @@
 ["2026-09-20",49.8,4,24000,0,"갱신","26.11~28.11",true],
 ["2026-09-21",49.8,15,25000,55,"신규","26.11~28.11",null],
 ["2026-09-27",49.8,14,2000,125,"신규","26.11~28.11",null],
+["2026-10-05",49.8,17,3000,130,"신규","26.11~28.11",null],
 ["2026-10-08",49.8,13,27300,0,"갱신","26.10~28.10",true],
 ["2026-10-09",49.8,1,3000,120,"신규","26.11~28.11",null],
 ["2026-10-14",49.8,11,5000,95,"갱신","26.10~28.10",true]

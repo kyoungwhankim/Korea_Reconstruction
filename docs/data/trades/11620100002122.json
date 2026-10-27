@@ -1,7 +1,7 @@
 {"id":"11620100002122",
 "name":"보라매삼성아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":32,"median":105500,"min":66740,"max":121000,"latest_price":110000,"latest_date":"2026-07-20","latest_floor":15,"jeonse_n":33,"wolse_n":17,"jeonse_median":57500,"jeonse_min":25000,"jeonse_max":65000,"jeonse_latest":65000,"jeonse_latest_date":"2026-10-22","jeonse_ratio":54.5,"wolse_deposit_median":35000,"wolse_monthly_median":95}],
+"by_area":[{"area":85,"pyeong":25.7,"n":32,"median":105500,"min":66740,"max":121000,"latest_price":110000,"latest_date":"2026-07-20","latest_floor":15,"jeonse_n":34,"wolse_n":17,"jeonse_median":56650,"jeonse_min":25000,"jeonse_max":65000,"jeonse_latest":55700,"jeonse_latest_date":"2026-10-24","jeonse_ratio":53.7,"wolse_deposit_median":35000,"wolse_monthly_median":95}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-10",84.84,6,30700,null,null,1996],
 ["2006-01-25",84.84,5,26100,null,null,1996],
@@ -615,5 +615,6 @@
 ["2026-09-13",84.84,7,58000,0,"갱신","26.11~28.11",null],
 ["2026-09-16",84.84,9,40000,100,"신규","26.11~28.11",null],
 ["2026-09-30",84.78,3,20000,180,"신규","26.11~28.11",null],
-["2026-10-22",84.84,14,65000,0,"신규","27.01~29.01",null]
+["2026-10-22",84.84,14,65000,0,"신규","27.01~29.01",null],
+["2026-10-24",84.84,13,55700,0,"갱신","26.11~28.11",true]
 ]}}

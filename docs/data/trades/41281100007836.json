@@ -1,7 +1,7 @@
 {"id":"41281100007836",
 "name":"행신무원마을3단지동신아파트",
 "basis":"단지",
-"by_area":[{"area":102,"pyeong":30.9,"n":8,"median":59250,"min":56000,"max":62500,"latest_price":59900,"latest_date":"2026-10-16","latest_floor":9,"jeonse_n":12,"wolse_n":4,"jeonse_median":45500,"jeonse_min":35500,"jeonse_max":50000,"jeonse_latest":47000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":76.8,"wolse_deposit_median":8500,"wolse_monthly_median":160},{"area":135,"pyeong":40.8,"n":3,"median":58800,"min":58500,"max":64500,"latest_price":58500,"latest_date":"2026-08-31","latest_floor":15,"jeonse_n":1,"wolse_n":1,"jeonse_median":52000,"jeonse_min":52000,"jeonse_max":52000,"jeonse_latest":52000,"jeonse_latest_date":"2026-08-05","jeonse_ratio":88.4,"wolse_deposit_median":10000,"wolse_monthly_median":180}],
+"by_area":[{"area":102,"pyeong":30.9,"n":8,"median":59250,"min":56000,"max":62500,"latest_price":59900,"latest_date":"2026-10-16","latest_floor":9,"jeonse_n":12,"wolse_n":5,"jeonse_median":45500,"jeonse_min":35500,"jeonse_max":50000,"jeonse_latest":47000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":76.8,"wolse_deposit_median":10000,"wolse_monthly_median":160},{"area":135,"pyeong":40.8,"n":3,"median":58800,"min":58500,"max":64500,"latest_price":58500,"latest_date":"2026-08-31","latest_floor":15,"jeonse_n":1,"wolse_n":1,"jeonse_median":52000,"jeonse_min":52000,"jeonse_max":52000,"jeonse_latest":52000,"jeonse_latest_date":"2026-08-05","jeonse_ratio":88.4,"wolse_deposit_median":10000,"wolse_monthly_median":180}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-13",101.73,3,29800,null,null,1994],
 ["2006-01-22",101.73,7,30000,null,null,1994],
@@ -328,5 +328,6 @@
 ["2026-06-15",101.73,11,10000,160,"신규","26.09~27.09",null],
 ["2026-08-05",134.88,8,52000,0,"갱신","26.08~27.08",true],
 ["2026-08-26",101.73,2,47000,0,"신규","26.11~28.11",null],
-["2026-10-02",101.73,15,47000,0,"신규","26.12~28.12",null]
+["2026-10-02",101.73,15,47000,0,"신규","26.12~28.12",null],
+["2026-10-23",101.73,8,10000,170,"신규","27.01~29.01",null]
 ]}}
