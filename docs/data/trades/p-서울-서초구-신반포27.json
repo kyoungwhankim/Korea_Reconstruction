@@ -1,7 +1,7 @@
 {"id":"서울-서초구-신반포27",
 "name":"신반포27차",
 "basis":"기존 단지",
-"by_area":[{"area":53,"pyeong":16.0,"n":4,"median":274500,"min":268000,"max":320000,"latest_price":270000,"latest_date":"2026-04-21","latest_floor":9,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":80}],
+"by_area":[{"area":53,"pyeong":16.0,"n":5,"median":270000,"min":250000,"max":320000,"latest_price":250000,"latest_date":"2026-10-05","latest_floor":2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-10-13",53.46,3,38060,null,null,1985],
 ["2006-10-14",53.46,10,38000,null,null,1985],
@@ -128,7 +128,8 @@
 ["2025-11-06",53.46,12,320000,"351","중개거래",1985],
 ["2025-12-22",53.46,12,268000,"351","중개거래",1985],
 ["2026-01-29",53.46,5,279000,"351","중개거래",1985],
-["2026-04-21",53.46,9,270000,"351","중개거래",1985]
+["2026-04-21",53.46,9,270000,"351","중개거래",1985],
+["2026-10-05",53.46,2,250000,null,"중개거래",1985]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-22",53.46,4,1000,80,"신규","25.11~26.02",null]

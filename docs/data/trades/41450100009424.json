@@ -1,7 +1,7 @@
 {"id":"41450100009424",
 "name":"백조현대아파트",
 "basis":"단지",
-"by_area":[{"area":50,"pyeong":15.1,"n":75,"median":58000,"min":45500,"max":65000,"latest_price":62500,"latest_date":"2026-10-20","latest_floor":3,"jeonse_n":58,"wolse_n":34,"jeonse_median":33550,"jeonse_min":23000,"jeonse_max":44000,"jeonse_latest":34000,"jeonse_latest_date":"2026-10-01","jeonse_ratio":57.8,"wolse_deposit_median":8500,"wolse_monthly_median":86}],
+"by_area":[{"area":50,"pyeong":15.1,"n":76,"median":58000,"min":45500,"max":65000,"latest_price":62500,"latest_date":"2026-10-20","latest_floor":3,"jeonse_n":58,"wolse_n":34,"jeonse_median":33550,"jeonse_min":23000,"jeonse_max":44000,"jeonse_latest":34000,"jeonse_latest_date":"2026-10-01","jeonse_ratio":57.8,"wolse_deposit_median":8500,"wolse_monthly_median":86}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-10",49.98,17,13300,null,null,1994],
 ["2006-01-20",49.98,9,14200,null,null,1994],
@@ -1452,6 +1452,7 @@
 ["2026-09-17",49.98,3,64500,null,"중개거래",1994],
 ["2026-10-06",49.98,9,62500,null,"중개거래",1994],
 ["2026-10-10",49.98,6,63500,null,"중개거래",1994],
+["2026-10-10",49.98,10,62500,null,"중개거래",1994],
 ["2026-10-12",49.98,8,65000,null,"중개거래",1994],
 ["2026-10-20",49.98,3,62500,null,"중개거래",1994]
 ]},

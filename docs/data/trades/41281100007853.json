@@ -1,7 +1,7 @@
 {"id":"41281100007853",
 "name":"행신소만1단지부영",
 "basis":"단지",
-"by_area":[{"area":45,"pyeong":13.6,"n":47,"median":25450,"min":22000,"max":27500,"latest_price":23000,"latest_date":"2026-10-13","latest_floor":4,"jeonse_n":76,"wolse_n":47,"jeonse_median":21000,"jeonse_min":16286,"jeonse_max":24000,"jeonse_latest":19500,"jeonse_latest_date":"2026-10-22","jeonse_ratio":82.5,"wolse_deposit_median":2000,"wolse_monthly_median":80}],
+"by_area":[{"area":45,"pyeong":13.6,"n":48,"median":25475,"min":22000,"max":27500,"latest_price":25900,"latest_date":"2026-10-26","latest_floor":13,"jeonse_n":76,"wolse_n":47,"jeonse_median":21000,"jeonse_min":16286,"jeonse_max":24000,"jeonse_latest":19500,"jeonse_latest_date":"2026-10-22","jeonse_ratio":82.4,"wolse_deposit_median":2000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-14",45.48,15,7800,null,null,1995],
 ["2006-01-16",45.48,5,8300,null,null,1995],
@@ -1381,7 +1381,8 @@
 ["2026-09-02",45.48,6,25200,null,"중개거래",1995],
 ["2026-09-05",45.48,3,25500,null,"중개거래",1995],
 ["2026-09-05",45.48,9,27000,null,"중개거래",1995],
-["2026-10-13",45.48,4,23000,null,"직거래",1995]
+["2026-10-13",45.48,4,23000,null,"직거래",1995],
+["2026-10-26",45.48,13,25900,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-13",45.48,15,22000,0,"신규","25.12~27.12",null],

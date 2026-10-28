@@ -1,7 +1,7 @@
 {"id":"41430100007662",
 "name":"인덕원삼호아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":25,"median":113500,"min":98600,"max":121000,"latest_price":115000,"latest_date":"2026-10-07","latest_floor":13,"jeonse_n":58,"wolse_n":16,"jeonse_median":41000,"jeonse_min":29000,"jeonse_max":55000,"jeonse_latest":45000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":36.1,"wolse_deposit_median":13012,"wolse_monthly_median":99},{"area":127,"pyeong":38.4,"n":1,"median":139800,"min":139800,"max":139800,"latest_price":139800,"latest_date":"2026-04-28","latest_floor":3,"jeonse_n":3,"wolse_n":0,"jeonse_median":50000,"jeonse_min":50000,"jeonse_max":55000,"jeonse_latest":50000,"jeonse_latest_date":"2026-09-04","jeonse_ratio":35.8}],
+"by_area":[{"area":84,"pyeong":25.4,"jeonse_n":1,"wolse_n":0,"jeonse_median":35700,"jeonse_min":35700,"jeonse_max":35700,"jeonse_latest":35700,"jeonse_latest_date":"2026-10-13"},{"area":85,"pyeong":25.7,"n":25,"median":113500,"min":98600,"max":121000,"latest_price":115000,"latest_date":"2026-10-07","latest_floor":13,"jeonse_n":58,"wolse_n":16,"jeonse_median":41000,"jeonse_min":29000,"jeonse_max":55000,"jeonse_latest":45000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":36.1,"wolse_deposit_median":13012,"wolse_monthly_median":99},{"area":127,"pyeong":38.4,"n":1,"median":139800,"min":139800,"max":139800,"latest_price":139800,"latest_date":"2026-04-28","latest_floor":3,"jeonse_n":3,"wolse_n":0,"jeonse_median":50000,"jeonse_min":50000,"jeonse_max":55000,"jeonse_latest":50000,"jeonse_latest_date":"2026-09-04","jeonse_ratio":35.8}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-19",84.99,14,34500,null,null,1991],
 ["2006-03-22",84.99,14,35500,null,null,1991],
@@ -731,5 +731,6 @@
 ["2026-09-14",84.99,12,55000,0,"신규","26.10~28.10",null],
 ["2026-09-22",84.99,7,50000,0,"신규","26.12~28.12",null],
 ["2026-10-08",84.99,9,47000,0,"갱신","26.10~28.10",null],
+["2026-10-13",84.0,15,35700,0,null,null,null],
 ["2026-10-19",84.99,4,45000,0,"갱신","26.10~27.10",null]
 ]}}

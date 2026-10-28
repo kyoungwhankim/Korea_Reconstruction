@@ -1,7 +1,7 @@
 {"id":"11590100001125",
 "name":"제일아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":17,"median":120000,"min":102500,"max":127000,"latest_price":127000,"latest_date":"2026-10-13","latest_floor":7,"jeonse_n":30,"wolse_n":21,"jeonse_median":42000,"jeonse_min":32000,"jeonse_max":59500,"jeonse_latest":48000,"jeonse_latest_date":"2026-10-18","jeonse_ratio":35.0,"wolse_deposit_median":30000,"wolse_monthly_median":45}],
+"by_area":[{"area":60,"pyeong":18.1,"n":17,"median":120000,"min":102500,"max":127000,"latest_price":127000,"latest_date":"2026-10-13","latest_floor":7,"jeonse_n":31,"wolse_n":21,"jeonse_median":42000,"jeonse_min":32000,"jeonse_max":59500,"jeonse_latest":48000,"jeonse_latest_date":"2026-10-18","jeonse_ratio":35.0,"wolse_deposit_median":30000,"wolse_monthly_median":45}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-09",60.03,8,20000,null,null,1987],
 ["2006-01-16",60.03,5,20300,null,null,1987],
@@ -356,6 +356,7 @@
 ["2026-10-01",60.03,2,46000,0,"신규","26.12~28.12",null],
 ["2026-10-06",60.03,2,44000,0,"신규","27.01~29.01",null],
 ["2026-10-07",60.03,9,40000,45,"신규","26.11~28.11",null],
+["2026-10-09",60.03,2,46000,0,"신규","26.12~28.12",null],
 ["2026-10-09",60.03,7,10000,165,"신규","26.12~28.12",null],
 ["2026-10-18",60.03,8,48000,0,"신규","26.12~28.12",null]
 ]}}

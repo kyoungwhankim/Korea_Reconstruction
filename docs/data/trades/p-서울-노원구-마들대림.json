@@ -1,7 +1,7 @@
 {"id":"서울-노원구-마들대림",
 "name":"마들대림아파트",
 "basis":"기존 단지",
-"by_area":[{"area":93,"pyeong":28.1,"n":4,"median":94500,"min":86000,"max":98400,"latest_price":97000,"latest_date":"2026-07-17","latest_floor":14,"jeonse_n":15,"wolse_n":7,"jeonse_median":46200,"jeonse_min":38000,"jeonse_max":55000,"jeonse_latest":55000,"jeonse_latest_date":"2026-07-14","jeonse_ratio":48.9,"wolse_deposit_median":20000,"wolse_monthly_median":120},{"area":94,"pyeong":28.4,"n":5,"median":82700,"min":62000,"max":99700,"latest_price":62000,"latest_date":"2026-06-17","latest_floor":14,"jeonse_n":14,"wolse_n":5,"jeonse_median":43150,"jeonse_min":34650,"jeonse_max":50000,"jeonse_latest":40000,"jeonse_latest_date":"2026-10-09","jeonse_ratio":52.2,"wolse_deposit_median":25000,"wolse_monthly_median":60}],
+"by_area":[{"area":93,"pyeong":28.1,"n":5,"median":92000,"min":86000,"max":98400,"latest_price":92000,"latest_date":"2026-10-03","latest_floor":10,"jeonse_n":15,"wolse_n":7,"jeonse_median":46200,"jeonse_min":38000,"jeonse_max":55000,"jeonse_latest":55000,"jeonse_latest_date":"2026-07-14","jeonse_ratio":50.2,"wolse_deposit_median":20000,"wolse_monthly_median":120},{"area":94,"pyeong":28.4,"n":5,"median":82700,"min":62000,"max":99700,"latest_price":62000,"latest_date":"2026-06-17","latest_floor":14,"jeonse_n":14,"wolse_n":5,"jeonse_median":43150,"jeonse_min":34650,"jeonse_max":50000,"jeonse_latest":40000,"jeonse_latest_date":"2026-10-09","jeonse_ratio":52.2,"wolse_deposit_median":25000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-18",93.13,4,33000,null,null,1988],
 ["2006-03-12",93.13,14,33800,null,null,1988],
@@ -269,7 +269,8 @@
 ["2026-04-04",93.75,2,99700,"1","중개거래",1988],
 ["2026-06-17",93.75,14,62000,null,"중개거래",1988],
 ["2026-06-25",93.13,13,98400,"2","중개거래",1988],
-["2026-07-17",93.13,14,97000,null,"중개거래",1988]
+["2026-07-17",93.13,14,97000,null,"중개거래",1988],
+["2026-10-03",93.13,10,92000,null,"중개거래",1988]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-10",93.75,3,42000,0,"갱신","25.11~27.11",true],

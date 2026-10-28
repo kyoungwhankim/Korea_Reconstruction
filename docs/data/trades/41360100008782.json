@@ -1,7 +1,7 @@
 {"id":"41360100008782",
 "name":"주공1단지",
 "basis":"단지",
-"by_area":[{"area":38,"pyeong":11.5,"n":7,"median":25000,"min":23900,"max":29800,"latest_price":29800,"latest_date":"2026-10-02","latest_floor":15,"jeonse_n":9,"wolse_n":5,"jeonse_median":18900,"jeonse_min":11000,"jeonse_max":22000,"jeonse_latest":18900,"jeonse_latest_date":"2026-10-07","jeonse_ratio":75.6,"wolse_deposit_median":2000,"wolse_monthly_median":70},{"area":58,"pyeong":17.5,"n":58,"median":32000,"min":25000,"max":40000,"latest_price":38500,"latest_date":"2026-10-19","latest_floor":15,"jeonse_n":62,"wolse_n":46,"jeonse_median":23300,"jeonse_min":11000,"jeonse_max":30000,"jeonse_latest":21000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":72.8,"wolse_deposit_median":4500,"wolse_monthly_median":75}],
+"by_area":[{"area":38,"pyeong":11.5,"n":7,"median":25000,"min":23900,"max":29800,"latest_price":29800,"latest_date":"2026-10-02","latest_floor":15,"jeonse_n":10,"wolse_n":5,"jeonse_median":18625,"jeonse_min":11000,"jeonse_max":22000,"jeonse_latest":17850,"jeonse_latest_date":"2026-10-27","jeonse_ratio":74.5,"wolse_deposit_median":2000,"wolse_monthly_median":70},{"area":58,"pyeong":17.5,"n":58,"median":32000,"min":25000,"max":40000,"latest_price":38500,"latest_date":"2026-10-19","latest_floor":15,"jeonse_n":62,"wolse_n":46,"jeonse_median":23300,"jeonse_min":11000,"jeonse_max":30000,"jeonse_latest":21000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":72.8,"wolse_deposit_median":4500,"wolse_monthly_median":75}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-02",37.67,6,8700,null,null,1996],
 ["2006-01-24",58.14,4,11300,null,null,1996],
@@ -1562,5 +1562,6 @@
 ["2026-10-02",58.14,8,21000,0,"갱신","26.10~28.10",true],
 ["2026-10-06",37.67,7,20000,0,"신규","26.11~28.11",null],
 ["2026-10-07",37.67,14,18900,0,"갱신","26.12~28.12",null],
-["2026-10-14",58.14,14,2000,84,"갱신","26.11~28.11",true]
+["2026-10-14",58.14,14,2000,84,"갱신","26.11~28.11",true],
+["2026-10-27",37.67,1,17850,0,"갱신","26.11~28.11",true]
 ]}}

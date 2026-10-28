@@ -1,7 +1,7 @@
 {"id":"41135100006389",
 "name":"무지개(8단지)(제일)",
 "basis":"단지",
-"by_area":[{"area":102,"pyeong":30.9,"jeonse_n":5,"wolse_n":1,"jeonse_median":55500,"jeonse_min":50000,"jeonse_max":57000,"jeonse_latest":55500,"jeonse_latest_date":"2026-10-15","wolse_deposit_median":5000,"wolse_monthly_median":150},{"area":134,"pyeong":40.5,"n":1,"median":125000,"min":125000,"max":125000,"latest_price":125000,"latest_date":"2025-12-23","latest_floor":1,"jeonse_n":3,"wolse_n":3,"jeonse_median":63000,"jeonse_min":55000,"jeonse_max":73500,"jeonse_latest":73500,"jeonse_latest_date":"2026-01-10","jeonse_ratio":50.4,"wolse_deposit_median":25000,"wolse_monthly_median":33}],
+"by_area":[{"area":102,"pyeong":30.9,"jeonse_n":6,"wolse_n":1,"jeonse_median":55250,"jeonse_min":20000,"jeonse_max":57000,"jeonse_latest":55500,"jeonse_latest_date":"2026-10-15","wolse_deposit_median":5000,"wolse_monthly_median":150},{"area":134,"pyeong":40.5,"n":1,"median":125000,"min":125000,"max":125000,"latest_price":125000,"latest_date":"2025-12-23","latest_floor":1,"jeonse_n":3,"wolse_n":3,"jeonse_median":63000,"jeonse_min":55000,"jeonse_max":73500,"jeonse_latest":73500,"jeonse_latest_date":"2026-01-10","jeonse_ratio":50.4,"wolse_deposit_median":25000,"wolse_monthly_median":33}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-04-04",134.46,8,78000,null,null,1995],
 ["2006-04-18",101.91,13,59900,null,null,1995],
@@ -154,5 +154,6 @@
 ["2026-01-19",101.91,12,56000,0,"신규","26.03~28.03",null],
 ["2026-02-11",101.91,11,57000,0,"갱신","26.02~28.02",true],
 ["2026-09-10",134.46,18,25000,33,"갱신","26.10~28.10",true],
+["2026-10-14",101.91,3,20000,0,"신규","26.12~28.12",null],
 ["2026-10-15",101.91,3,55500,0,"갱신","26.10~28.10",true]
 ]}}

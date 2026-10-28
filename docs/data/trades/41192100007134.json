@@ -1,7 +1,7 @@
 {"id":"41192100007134",
 "name":"상동한아름2차",
 "basis":"단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":26,"median":37600,"min":34000,"max":42500,"latest_price":42500,"latest_date":"2026-10-15","latest_floor":15,"jeonse_n":26,"wolse_n":3,"jeonse_median":28100,"jeonse_min":22000,"jeonse_max":33000,"jeonse_latest":28350,"jeonse_latest_date":"2026-09-28","jeonse_ratio":74.7,"wolse_deposit_median":5000,"wolse_monthly_median":100},{"area":85,"pyeong":25.7,"n":61,"median":53000,"min":45000,"max":58800,"latest_price":57000,"latest_date":"2026-10-20","latest_floor":18,"jeonse_n":32,"wolse_n":17,"jeonse_median":38000,"jeonse_min":30000,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-09-14","jeonse_ratio":71.7,"wolse_deposit_median":5000,"wolse_monthly_median":130}],
+"by_area":[{"area":59,"pyeong":17.8,"n":26,"median":37600,"min":34000,"max":42500,"latest_price":42500,"latest_date":"2026-10-15","latest_floor":15,"jeonse_n":27,"wolse_n":3,"jeonse_median":28200,"jeonse_min":22000,"jeonse_max":33000,"jeonse_latest":29000,"jeonse_latest_date":"2026-10-27","jeonse_ratio":75.0,"wolse_deposit_median":5000,"wolse_monthly_median":100},{"area":85,"pyeong":25.7,"n":61,"median":53000,"min":45000,"max":58800,"latest_price":57000,"latest_date":"2026-10-20","latest_floor":18,"jeonse_n":32,"wolse_n":17,"jeonse_median":38000,"jeonse_min":30000,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-09-14","jeonse_ratio":71.7,"wolse_deposit_median":5000,"wolse_monthly_median":130}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-12",84.87,9,20000,null,null,1994],
 ["2006-01-15",84.87,17,22000,null,null,1994],
@@ -1577,5 +1577,6 @@
 ["2026-10-13",84.87,15,25000,60,"신규","26.12~28.12",null],
 ["2026-10-19",59.4,1,5000,80,"신규","26.11~28.11",null],
 ["2026-10-22",84.87,3,5000,145,"갱신","26.10~28.10",true],
-["2026-10-23",84.87,13,5000,170,"신규","27.01~29.01",null]
+["2026-10-23",84.87,13,5000,170,"신규","27.01~29.01",null],
+["2026-10-27",59.4,6,29000,0,"갱신","26.10~28.10",null]
 ]}}

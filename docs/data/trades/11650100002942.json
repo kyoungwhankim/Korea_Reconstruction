@@ -1,7 +1,7 @@
 {"id":"11650100002942",
 "name":"대우(효령)",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"jeonse_n":21,"wolse_n":12,"jeonse_median":80000,"jeonse_min":66000,"jeonse_max":88000,"jeonse_latest":83000,"jeonse_latest_date":"2026-09-19","wolse_deposit_median":50000,"wolse_monthly_median":100}],
+"by_area":[{"area":85,"pyeong":25.7,"jeonse_n":21,"wolse_n":13,"jeonse_median":80000,"jeonse_min":66000,"jeonse_max":88000,"jeonse_latest":83000,"jeonse_latest_date":"2026-09-19","wolse_deposit_median":50000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-12",84.91,13,55000,null,null,1992],
 ["2006-01-13",84.93,2,48800,null,null,1992],
@@ -307,5 +307,6 @@
 ["2026-08-29",84.91,3,88000,0,"신규","26.10~28.10",null],
 ["2026-09-09",84.92,9,80000,0,"신규","26.11~28.11",null],
 ["2026-09-19",84.91,1,83000,0,"신규","26.11~28.11",null],
-["2026-10-03",84.91,2,80000,5,"갱신","26.11~28.11",null]
+["2026-10-03",84.91,2,80000,5,"갱신","26.11~28.11",null],
+["2026-10-27",84.91,4,30000,159,"갱신","26.12~27.12",null]
 ]}}

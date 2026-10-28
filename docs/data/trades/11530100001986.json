@@ -1,7 +1,7 @@
 {"id":"11530100001986",
 "name":"신도림현대아파트",
 "basis":"단지",
-"by_area":[{"area":80,"pyeong":24.2,"n":24,"median":105400,"min":86500,"max":120000,"latest_price":120000,"latest_date":"2026-08-19","latest_floor":11,"jeonse_n":34,"wolse_n":14,"jeonse_median":51225,"jeonse_min":42000,"jeonse_max":63000,"jeonse_latest":63000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":48.6,"wolse_deposit_median":17500,"wolse_monthly_median":133}],
+"by_area":[{"area":80,"pyeong":24.2,"n":25,"median":107500,"min":86500,"max":120000,"latest_price":113000,"latest_date":"2026-10-26","latest_floor":2,"jeonse_n":34,"wolse_n":14,"jeonse_median":51225,"jeonse_min":42000,"jeonse_max":63000,"jeonse_latest":63000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":47.7,"wolse_deposit_median":17500,"wolse_monthly_median":133}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-20",80.01,20,24500,null,null,1994],
 ["2006-02-08",80.01,12,24500,null,null,1994],
@@ -498,7 +498,8 @@
 ["2026-07-16",80.01,15,119500,null,"중개거래",1994],
 ["2026-08-02",80.01,17,112400,"101","중개거래",1994],
 ["2026-08-19",80.01,11,114500,null,"중개거래",1994],
-["2026-08-19",80.01,11,120000,null,"중개거래",1994]
+["2026-08-19",80.01,11,120000,null,"중개거래",1994],
+["2026-10-26",80.01,2,113000,null,"중개거래",1994]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-08",80.01,1,50000,0,null,null,null],

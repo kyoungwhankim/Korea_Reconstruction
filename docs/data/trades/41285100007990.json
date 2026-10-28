@@ -1,7 +1,7 @@
 {"id":"41285100007990",
 "name":"백석백송마을1단지삼부",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":9,"median":46900,"min":42000,"max":50300,"latest_price":50300,"latest_date":"2026-08-07","latest_floor":8,"jeonse_n":14,"wolse_n":3,"jeonse_median":37500,"jeonse_min":29400,"jeonse_max":42000,"jeonse_latest":38000,"jeonse_latest_date":"2026-08-31","jeonse_ratio":80.0,"wolse_deposit_median":15000,"wolse_monthly_median":70}],
+"by_area":[{"area":84,"pyeong":25.4,"jeonse_n":1,"wolse_n":0,"jeonse_median":39500,"jeonse_min":39500,"jeonse_max":39500,"jeonse_latest":39500,"jeonse_latest_date":"2026-10-09"},{"area":85,"pyeong":25.7,"n":9,"median":46900,"min":42000,"max":50300,"latest_price":50300,"latest_date":"2026-08-07","latest_floor":8,"jeonse_n":14,"wolse_n":3,"jeonse_median":37500,"jeonse_min":29400,"jeonse_max":42000,"jeonse_latest":38000,"jeonse_latest_date":"2026-08-31","jeonse_ratio":80.0,"wolse_deposit_median":15000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-04",84.99,15,25000,null,null,1993],
 ["2006-01-27",84.99,3,23800,null,null,1993],
@@ -300,5 +300,6 @@
 ["2026-06-12",84.99,10,36000,0,"신규","26.09~28.09",null],
 ["2026-08-31",84.99,9,37500,0,"갱신","26.09~28.09",true],
 ["2026-08-31",84.99,9,37500,0,"갱신","26.09~28.09",true],
-["2026-08-31",84.99,9,38000,0,"갱신","26.09~28.09",true]
+["2026-08-31",84.99,9,38000,0,"갱신","26.09~28.09",true],
+["2026-10-09",84.0,11,39500,0,null,null,null]
 ]}}

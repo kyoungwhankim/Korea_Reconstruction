@@ -1,7 +1,7 @@
 {"id":"28260100009151",
 "name":"태산아파트",
 "basis":"단지",
-"by_area":[{"area":37,"pyeong":11.2,"n":3,"median":12800,"min":10300,"max":13000,"latest_price":10300,"latest_date":"2026-09-11","latest_floor":3,"jeonse_n":7,"wolse_n":5,"jeonse_median":10000,"jeonse_min":7400,"jeonse_max":11000,"jeonse_latest":10000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":78.1,"wolse_deposit_median":500,"wolse_monthly_median":40}],
+"by_area":[{"area":37,"pyeong":11.2,"n":3,"median":12800,"min":10300,"max":13000,"latest_price":10300,"latest_date":"2026-09-11","latest_floor":3,"jeonse_n":7,"wolse_n":6,"jeonse_median":10000,"jeonse_min":7400,"jeonse_max":11000,"jeonse_latest":10000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":78.1,"wolse_deposit_median":500,"wolse_monthly_median":40}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-07",36.52,5,3400,null,null,1989],
 ["2006-04-03",36.52,3,3600,null,null,1989],
@@ -258,5 +258,6 @@
 ["2026-05-19",36.52,3,500,40,"신규","26.05~28.05",null],
 ["2026-07-31",36.52,6,8000,0,"신규","26.09~28.08",null],
 ["2026-08-01",36.52,4,500,45,"신규","26.08~28.08",null],
-["2026-09-11",36.52,5,10000,0,"갱신","26.09~28.09",true]
+["2026-09-11",36.52,5,10000,0,"갱신","26.09~28.09",true],
+["2026-10-14",36.52,6,500,40,"신규","26.11~28.11",null]
 ]}}

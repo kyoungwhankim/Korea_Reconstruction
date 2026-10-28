@@ -1,7 +1,7 @@
 {"id":"11500100001933",
 "name":"마곡나루경남아파트",
 "basis":"단지",
-"by_area":[{"area":84,"pyeong":25.4,"n":8,"median":94500,"min":85300,"max":105000,"latest_price":105000,"latest_date":"2026-09-05","latest_floor":9,"jeonse_n":4,"wolse_n":3,"jeonse_median":51150,"jeonse_min":50000,"jeonse_max":54600,"jeonse_latest":50000,"jeonse_latest_date":"2026-06-11","jeonse_ratio":54.1,"wolse_deposit_median":33000,"wolse_monthly_median":60},{"area":85,"pyeong":25.7,"n":2,"median":91850,"min":88700,"max":95000,"latest_price":95000,"latest_date":"2026-07-28","latest_floor":10,"jeonse_n":4,"wolse_n":0,"jeonse_median":55500,"jeonse_min":55000,"jeonse_max":57000,"jeonse_latest":56000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":60.4}],
+"by_area":[{"area":84,"pyeong":25.4,"n":8,"median":94500,"min":85300,"max":105000,"latest_price":105000,"latest_date":"2026-09-05","latest_floor":9,"jeonse_n":5,"wolse_n":3,"jeonse_median":52300,"jeonse_min":50000,"jeonse_max":61000,"jeonse_latest":61000,"jeonse_latest_date":"2026-10-14","jeonse_ratio":55.3,"wolse_deposit_median":33000,"wolse_monthly_median":60},{"area":85,"pyeong":25.7,"n":2,"median":91850,"min":88700,"max":95000,"latest_price":95000,"latest_date":"2026-07-28","latest_floor":10,"jeonse_n":4,"wolse_n":0,"jeonse_median":55500,"jeonse_min":55000,"jeonse_max":57000,"jeonse_latest":56000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":60.4}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-20",84.29,5,22900,null,null,1991],
 ["2006-03-13",84.29,10,20000,null,null,1991],
@@ -163,5 +163,6 @@
 ["2026-06-11",84.29,8,50000,0,"갱신","26.06~28.06",null],
 ["2026-06-26",84.29,2,40000,45,"갱신","26.11~28.11",true],
 ["2026-07-21",84.99,6,57000,0,"갱신","26.09~28.09",true],
+["2026-10-14",84.0,4,61000,0,null,null,null],
 ["2026-10-21",84.99,2,56000,0,"갱신","26.10~28.10",null]
 ]}}

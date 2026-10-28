@@ -1,7 +1,7 @@
 {"id":"41194100006847",
 "name":"풍림아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":31,"median":40000,"min":38000,"max":44800,"latest_price":38500,"latest_date":"2026-10-16","latest_floor":5,"jeonse_n":16,"wolse_n":4,"jeonse_median":34000,"jeonse_min":24000,"jeonse_max":36500,"jeonse_latest":36500,"jeonse_latest_date":"2026-10-16","jeonse_ratio":85.0,"wolse_deposit_median":4000,"wolse_monthly_median":100}],
+"by_area":[{"area":85,"pyeong":25.7,"n":32,"median":40000,"min":38000,"max":44800,"latest_price":42500,"latest_date":"2026-10-24","latest_floor":12,"jeonse_n":16,"wolse_n":4,"jeonse_median":34000,"jeonse_min":24000,"jeonse_max":36500,"jeonse_latest":36500,"jeonse_latest_date":"2026-10-16","jeonse_ratio":85.0,"wolse_deposit_median":4000,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-25",84.77,4,18700,null,null,1996],
 ["2006-02-03",84.77,19,18600,null,null,1996],
@@ -777,7 +777,8 @@
 ["2026-08-19",84.77,6,40000,null,"중개거래",1996],
 ["2026-08-26",84.77,12,42500,null,"중개거래",1996],
 ["2026-09-10",84.77,6,40000,null,"중개거래",1996],
-["2026-10-16",84.77,5,38500,null,"중개거래",1996]
+["2026-10-16",84.77,5,38500,null,"중개거래",1996],
+["2026-10-24",84.77,12,42500,null,"중개거래",1996]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-12-24",84.77,11,4000,100,"신규","26.02~28.02",null],

@@ -1,7 +1,7 @@
 {"id":"41285100007999",
 "name":"흰돌마을(국제)",
 "basis":"단지",
-"by_area":[{"area":50,"pyeong":15.1,"n":3,"median":37000,"min":36000,"max":37000,"latest_price":37000,"latest_date":"2026-05-31","latest_floor":9,"jeonse_n":6,"wolse_n":2,"jeonse_median":26500,"jeonse_min":24150,"jeonse_max":27500,"jeonse_latest":27000,"jeonse_latest_date":"2026-07-11","jeonse_ratio":71.6,"wolse_deposit_median":12000,"wolse_monthly_median":60},{"area":69,"pyeong":20.9,"n":4,"median":47500,"min":45000,"max":48700,"latest_price":47500,"latest_date":"2026-09-02","latest_floor":2,"jeonse_n":3,"wolse_n":2,"jeonse_median":33000,"jeonse_min":28000,"jeonse_max":33000,"jeonse_latest":33000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":69.5,"wolse_deposit_median":6500,"wolse_monthly_median":105},{"area":85,"pyeong":25.7,"n":1,"median":62500,"min":62500,"max":62500,"latest_price":62500,"latest_date":"2026-03-14","latest_floor":11,"jeonse_n":5,"wolse_n":2,"jeonse_median":38500,"jeonse_min":36000,"jeonse_max":39000,"jeonse_latest":38500,"jeonse_latest_date":"2026-07-28","jeonse_ratio":61.6,"wolse_deposit_median":4000,"wolse_monthly_median":152}],
+"by_area":[{"area":50,"pyeong":15.1,"n":3,"median":37000,"min":36000,"max":37000,"latest_price":37000,"latest_date":"2026-05-31","latest_floor":9,"jeonse_n":6,"wolse_n":2,"jeonse_median":26500,"jeonse_min":24150,"jeonse_max":27500,"jeonse_latest":27000,"jeonse_latest_date":"2026-07-11","jeonse_ratio":71.6,"wolse_deposit_median":12000,"wolse_monthly_median":60},{"area":69,"pyeong":20.9,"n":4,"median":47500,"min":45000,"max":48700,"latest_price":47500,"latest_date":"2026-09-02","latest_floor":2,"jeonse_n":4,"wolse_n":2,"jeonse_median":33000,"jeonse_min":28000,"jeonse_max":33000,"jeonse_latest":33000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":69.5,"wolse_deposit_median":6500,"wolse_monthly_median":105},{"area":85,"pyeong":25.7,"n":1,"median":62500,"min":62500,"max":62500,"latest_price":62500,"latest_date":"2026-03-14","latest_floor":11,"jeonse_n":5,"wolse_n":2,"jeonse_median":38500,"jeonse_min":36000,"jeonse_max":39000,"jeonse_latest":38500,"jeonse_latest_date":"2026-07-28","jeonse_ratio":61.6,"wolse_deposit_median":4000,"wolse_monthly_median":152}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-23",84.69,1,21950,null,null,1994],
 ["2006-01-27",84.69,4,24800,null,null,1994],
@@ -310,5 +310,6 @@
 ["2026-07-07",84.69,7,3000,155,"갱신","26.08~28.08",true],
 ["2026-07-11",49.5,13,27000,0,"갱신","26.09~28.09",null],
 ["2026-07-28",84.69,8,38500,0,"신규","26.09~28.09",null],
+["2026-10-21",69.0,7,33000,0,null,null,null],
 ["2026-10-21",69.09,7,33000,0,"신규","26.12~28.12",null]
 ]}}

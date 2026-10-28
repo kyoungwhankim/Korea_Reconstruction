@@ -1,7 +1,7 @@
 {"id":"41194100006846",
 "name":"소새울역청구아파트",
 "basis":"단지",
-"by_area":[{"area":101,"pyeong":30.6,"n":2,"median":56000,"min":55000,"max":57000,"latest_price":55000,"latest_date":"2026-10-05","latest_floor":10},{"area":135,"pyeong":40.8,"n":5,"median":52000,"min":50000,"max":57000,"latest_price":52000,"latest_date":"2026-09-19","latest_floor":15,"jeonse_n":2,"wolse_n":0,"jeonse_median":40000,"jeonse_min":40000,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-01-13","jeonse_ratio":76.9}],
+"by_area":[{"area":101,"pyeong":30.6,"n":2,"median":56000,"min":55000,"max":57000,"latest_price":55000,"latest_date":"2026-10-05","latest_floor":10},{"area":135,"pyeong":40.8,"n":6,"median":53500,"min":50000,"max":57000,"latest_price":55000,"latest_date":"2026-10-24","latest_floor":11,"jeonse_n":2,"wolse_n":0,"jeonse_median":40000,"jeonse_min":40000,"jeonse_max":40000,"jeonse_latest":40000,"jeonse_latest_date":"2026-01-13","jeonse_ratio":74.8}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-20",134.55,6,27500,null,null,1995],
 ["2006-03-01",134.55,8,30000,null,null,1995],
@@ -197,7 +197,8 @@
 ["2026-07-10",101.27,11,57000,"101","중개거래",1995],
 ["2026-08-26",134.55,11,56000,null,"중개거래",1995],
 ["2026-09-19",134.55,15,52000,null,"중개거래",1995],
-["2026-10-05",101.27,10,55000,null,"중개거래",1995]
+["2026-10-05",101.27,10,55000,null,"중개거래",1995],
+["2026-10-24",134.55,11,55000,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-01-13",134.55,3,40000,0,"신규","26.04~28.04",null],

@@ -1,7 +1,7 @@
 {"id":"28200100008970",
 "name":"광명(606-13)",
 "basis":"단지",
-"by_area":[{"area":47,"pyeong":14.2,"n":2,"median":12000,"min":12000,"max":12000,"latest_price":12000,"latest_date":"2026-05-08","latest_floor":1,"jeonse_n":1,"wolse_n":1,"jeonse_median":7500,"jeonse_min":7500,"jeonse_max":7500,"jeonse_latest":7500,"jeonse_latest_date":"2026-10-05","jeonse_ratio":62.5,"wolse_deposit_median":500,"wolse_monthly_median":40},{"area":58,"pyeong":17.5,"n":1,"median":10000,"min":10000,"max":10000,"latest_price":10000,"latest_date":"2026-05-08","latest_floor":5}],
+"by_area":[{"area":47,"pyeong":14.2,"n":2,"median":12000,"min":12000,"max":12000,"latest_price":12000,"latest_date":"2026-05-08","latest_floor":1,"jeonse_n":1,"wolse_n":1,"jeonse_median":7500,"jeonse_min":7500,"jeonse_max":7500,"jeonse_latest":7500,"jeonse_latest_date":"2026-10-05","jeonse_ratio":62.5,"wolse_deposit_median":500,"wolse_monthly_median":40},{"area":58,"pyeong":17.5,"n":2,"median":11250,"min":10000,"max":12500,"latest_price":12500,"latest_date":"2026-10-15","latest_floor":2}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-15",46.74,2,7370,null,null,1985],
 ["2006-05-25",57.89,4,9000,null,null,1985],
@@ -53,7 +53,8 @@
 ["2025-04-27",56.46,4,15000,null,"중개거래",1985],
 ["2026-02-03",46.74,1,12000,null,"중개거래",1985],
 ["2026-05-08",46.74,1,12000,null,"중개거래",1985],
-["2026-05-08",57.89,5,10000,null,"중개거래",1985]
+["2026-05-08",57.89,5,10000,null,"중개거래",1985],
+["2026-10-15",57.89,2,12500,null,"중개거래",1985]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-14",46.74,5,500,40,"신규","25.11~27.11",null],

@@ -1,7 +1,7 @@
 {"id":"28177100005600",
 "name":"삼영(20-14)",
 "basis":"단지",
-"by_area":[{"area":56,"pyeong":16.9,"n":1,"median":14100,"min":14100,"max":14100,"latest_price":14100,"latest_date":"2026-06-08","latest_floor":3,"jeonse_n":1,"wolse_n":3,"jeonse_median":8500,"jeonse_min":8500,"jeonse_max":8500,"jeonse_latest":8500,"jeonse_latest_date":"2026-04-28","jeonse_ratio":60.3,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"by_area":[{"area":56,"pyeong":16.9,"n":1,"median":14100,"min":14100,"max":14100,"latest_price":14100,"latest_date":"2026-06-08","latest_floor":3,"jeonse_n":1,"wolse_n":3,"jeonse_median":8500,"jeonse_min":8500,"jeonse_max":8500,"jeonse_latest":8500,"jeonse_latest_date":"2026-04-28","jeonse_ratio":60.3,"wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":58,"pyeong":17.5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":1000,"wolse_monthly_median":55}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-04-17",56.4,3,7350,null,null,1981],
 ["2006-07-01",56.4,2,7400,null,null,1981],
@@ -49,5 +49,6 @@
 ["2026-04-28",56.4,1,8500,0,"갱신","26.05~28.05",null],
 ["2026-05-19",56.4,5,1000,50,"신규","26.06~28.06",null],
 ["2026-07-04",56.4,5,1000,50,"신규","26.08~28.07",null],
-["2026-09-14",56.4,5,1000,65,"신규","26.09~28.09",null]
+["2026-09-14",56.4,5,1000,65,"신규","26.09~28.09",null],
+["2026-10-02",58.21,5,1000,55,"신규","26.10~28.10",null]
 ]}}

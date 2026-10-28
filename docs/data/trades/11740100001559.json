@@ -1,7 +1,7 @@
 {"id":"11740100001559",
 "name":"배재현대아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":7,"median":145000,"min":141000,"max":156000,"latest_price":145000,"latest_date":"2026-07-29","latest_floor":10,"jeonse_n":19,"wolse_n":11,"jeonse_median":50000,"jeonse_min":43000,"jeonse_max":62000,"jeonse_latest":55000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":34.5,"wolse_deposit_median":20000,"wolse_monthly_median":120},{"area":85,"pyeong":25.7,"n":4,"median":171750,"min":167500,"max":182000,"latest_price":182000,"latest_date":"2026-06-10","latest_floor":7,"jeonse_n":18,"wolse_n":11,"jeonse_median":67100,"jeonse_min":53000,"jeonse_max":85000,"jeonse_latest":63000,"jeonse_latest_date":"2026-09-22","jeonse_ratio":39.1,"wolse_deposit_median":40000,"wolse_monthly_median":91}],
+"by_area":[{"area":60,"pyeong":18.1,"n":7,"median":145000,"min":141000,"max":156000,"latest_price":145000,"latest_date":"2026-07-29","latest_floor":10,"jeonse_n":20,"wolse_n":11,"jeonse_median":52500,"jeonse_min":43000,"jeonse_max":62000,"jeonse_latest":55000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":36.2,"wolse_deposit_median":20000,"wolse_monthly_median":120},{"area":85,"pyeong":25.7,"n":4,"median":171750,"min":167500,"max":182000,"latest_price":182000,"latest_date":"2026-06-10","latest_floor":7,"jeonse_n":18,"wolse_n":11,"jeonse_median":67100,"jeonse_min":53000,"jeonse_max":85000,"jeonse_latest":63000,"jeonse_latest_date":"2026-09-22","jeonse_ratio":39.1,"wolse_deposit_median":40000,"wolse_monthly_median":91}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-16",59.94,11,26000,null,null,1995],
 ["2006-02-20",59.94,14,29000,null,null,1995],
@@ -716,5 +716,6 @@
 ["2026-09-10",59.94,19,62000,0,"신규","26.11~28.11",null],
 ["2026-09-22",84.9,10,63000,0,"갱신","26.09~28.09",true],
 ["2026-10-15",59.94,1,45000,0,"갱신","26.10~27.03",true],
-["2026-10-17",59.94,11,55000,0,"갱신","26.10~28.10",null]
+["2026-10-17",59.94,11,55000,0,"갱신","26.10~28.10",null],
+["2026-10-24",59.94,9,55000,0,"신규","26.12~28.12",null]
 ]}}

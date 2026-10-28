@@ -1,7 +1,7 @@
 {"id":"11410100000527",
 "name":"현대그린아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":18,"median":69600,"min":63500,"max":85000,"latest_price":85000,"latest_date":"2026-08-29","latest_floor":9,"jeonse_n":8,"wolse_n":4,"jeonse_median":48750,"jeonse_min":40000,"jeonse_max":53000,"jeonse_latest":45500,"jeonse_latest_date":"2026-08-20","jeonse_ratio":70.0,"wolse_deposit_median":5225,"wolse_monthly_median":143}],
+"by_area":[{"area":85,"pyeong":25.7,"n":19,"median":69700,"min":63500,"max":85000,"latest_price":84000,"latest_date":"2026-10-03","latest_floor":15,"jeonse_n":8,"wolse_n":4,"jeonse_median":48750,"jeonse_min":40000,"jeonse_max":53000,"jeonse_latest":45500,"jeonse_latest_date":"2026-08-20","jeonse_ratio":69.9,"wolse_deposit_median":5225,"wolse_monthly_median":143}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-07",84.96,6,20000,null,null,1996],
 ["2006-02-28",84.96,8,22900,null,null,1996],
@@ -239,7 +239,8 @@
 ["2026-06-27",84.96,8,74800,"101","중개거래",1996],
 ["2026-07-21",84.96,13,75000,"102","중개거래",1996],
 ["2026-08-03",84.96,1,68900,"101","중개거래",1996],
-["2026-08-29",84.96,9,85000,null,"중개거래",1996]
+["2026-08-29",84.96,9,85000,null,"중개거래",1996],
+["2026-10-03",84.96,15,84000,null,"중개거래",1996]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-17",84.96,14,4000,150,"신규","26.01~28.01",null],

@@ -1,7 +1,7 @@
 {"id":"41463100008466",
 "name":"구갈한성2차",
 "basis":"단지",
-"by_area":[{"area":48,"pyeong":14.5,"n":32,"median":50350,"min":33000,"max":64000,"latest_price":64000,"latest_date":"2026-09-12","latest_floor":4,"jeonse_n":53,"wolse_n":36,"jeonse_median":20000,"jeonse_min":12000,"jeonse_max":24000,"jeonse_latest":21000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":39.7,"wolse_deposit_median":2000,"wolse_monthly_median":80}],
+"by_area":[{"area":47,"pyeong":14.2,"jeonse_n":1,"wolse_n":0,"jeonse_median":23000,"jeonse_min":23000,"jeonse_max":23000,"jeonse_latest":23000,"jeonse_latest_date":"2026-10-17"},{"area":48,"pyeong":14.5,"n":32,"median":50350,"min":33000,"max":64000,"latest_price":64000,"latest_date":"2026-09-12","latest_floor":4,"jeonse_n":53,"wolse_n":37,"jeonse_median":20000,"jeonse_min":12000,"jeonse_max":24000,"jeonse_latest":21000,"jeonse_latest_date":"2026-10-02","jeonse_ratio":39.7,"wolse_deposit_median":2000,"wolse_monthly_median":80}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-21",47.5,5,12000,null,null,1993],
 ["2006-01-21",47.83,4,12700,null,null,1993],
@@ -573,6 +573,8 @@
 ["2026-10-02",47.5,6,21000,0,"신규","26.11~28.11",null],
 ["2026-10-03",47.5,4,1500,55,"신규","26.10~28.10",null],
 ["2026-10-03",47.83,3,3000,100,"신규","26.12~28.12",null],
+["2026-10-03",47.83,4,20000,10,"신규","26.10~28.10",null],
 ["2026-10-04",47.83,1,2000,85,"신규","26.10~28.10",null],
-["2026-10-08",47.83,4,2000,90,"신규","26.12~28.12",null]
+["2026-10-08",47.83,4,2000,90,"신규","26.12~28.12",null],
+["2026-10-17",47.0,2,23000,0,null,null,null]
 ]}}

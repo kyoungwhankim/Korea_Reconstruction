@@ -1,7 +1,7 @@
 {"id":"서울-노원구-태릉우성",
 "name":"태릉우성아파트",
 "basis":"기존 단지",
-"by_area":[{"area":67,"pyeong":20.3,"n":16,"median":73350,"min":65000,"max":85000,"latest_price":83000,"latest_date":"2026-10-02","latest_floor":4,"jeonse_n":16,"wolse_n":14,"jeonse_median":35000,"jeonse_min":30000,"jeonse_max":38000,"jeonse_latest":38000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":47.7,"wolse_deposit_median":7000,"wolse_monthly_median":84},{"area":85,"pyeong":25.7,"n":17,"median":85000,"min":79000,"max":92500,"latest_price":87000,"latest_date":"2026-09-12","latest_floor":5,"jeonse_n":18,"wolse_n":0,"jeonse_median":39500,"jeonse_min":33000,"jeonse_max":45000,"jeonse_latest":43000,"jeonse_latest_date":"2026-08-23","jeonse_ratio":46.5}],
+"by_area":[{"area":67,"pyeong":20.3,"n":16,"median":73350,"min":65000,"max":85000,"latest_price":83000,"latest_date":"2026-10-02","latest_floor":4,"jeonse_n":16,"wolse_n":14,"jeonse_median":35000,"jeonse_min":30000,"jeonse_max":38000,"jeonse_latest":38000,"jeonse_latest_date":"2026-10-17","jeonse_ratio":47.7,"wolse_deposit_median":7000,"wolse_monthly_median":84},{"area":85,"pyeong":25.7,"n":18,"median":85125,"min":79000,"max":92500,"latest_price":85500,"latest_date":"2026-10-01","latest_floor":2,"jeonse_n":18,"wolse_n":0,"jeonse_median":39500,"jeonse_min":33000,"jeonse_max":45000,"jeonse_latest":43000,"jeonse_latest_date":"2026-08-23","jeonse_ratio":46.4}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-24",84.97,9,26700,null,null,1985],
 ["2006-02-18",66.87,9,21000,null,null,1985],
@@ -408,6 +408,7 @@
 ["2026-09-19",66.87,1,77000,null,"중개거래",1985],
 ["2026-09-23",66.87,1,80500,null,"중개거래",1985],
 ["2026-09-30",66.87,6,85000,null,"중개거래",1985],
+["2026-10-01",84.97,2,85500,null,"중개거래",1985],
 ["2026-10-02",66.87,4,83000,null,"중개거래",1985]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

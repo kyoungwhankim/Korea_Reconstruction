@@ -1,7 +1,7 @@
 {"id":"서울-강동구-천호3",
 "name":"천호3",
 "basis":"준공 후 신축",
-"by_area":[{"area":48,"pyeong":14.5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":50000,"wolse_monthly_median":40},{"area":60,"pyeong":18.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":35000,"wolse_monthly_median":160},{"area":75,"pyeong":22.7,"jeonse_n":3,"wolse_n":0,"jeonse_median":85000,"jeonse_min":79000,"jeonse_max":85000,"jeonse_latest":85000,"jeonse_latest_date":"2026-03-02"},{"area":85,"pyeong":25.7,"jeonse_n":1,"wolse_n":1,"jeonse_median":87000,"jeonse_min":87000,"jeonse_max":87000,"jeonse_latest":87000,"jeonse_latest_date":"2026-04-25","wolse_deposit_median":30000,"wolse_monthly_median":400}],
+"by_area":[{"area":48,"pyeong":14.5,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":50000,"wolse_monthly_median":40},{"area":60,"pyeong":18.1,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":35000,"wolse_monthly_median":160},{"area":75,"pyeong":22.7,"jeonse_n":3,"wolse_n":0,"jeonse_median":85000,"jeonse_min":79000,"jeonse_max":85000,"jeonse_latest":85000,"jeonse_latest_date":"2026-03-02"},{"area":84,"pyeong":25.4,"jeonse_n":1,"wolse_n":0,"jeonse_median":110000,"jeonse_min":110000,"jeonse_max":110000,"jeonse_latest":110000,"jeonse_latest_date":"2026-10-09"},{"area":85,"pyeong":25.7,"jeonse_n":1,"wolse_n":1,"jeonse_median":87000,"jeonse_min":87000,"jeonse_max":87000,"jeonse_latest":87000,"jeonse_latest_date":"2026-04-25","wolse_deposit_median":30000,"wolse_monthly_median":400}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
@@ -11,7 +11,8 @@
 ["2026-02-28",74.71,14,85000,0,null,null,null],
 ["2026-03-02",74.84,13,85000,0,null,null,null],
 ["2026-04-22",84.75,11,30000,400,"신규","26.05~28.05",null],
-["2026-04-25",84.75,3,87000,0,null,null,null]
+["2026-04-25",84.75,3,87000,0,null,null,null],
+["2026-10-09",84.0,19,110000,0,null,null,null]
 ]},
 "silv":{"cols":["date","area","floor","price","kind","type"],"rows":[
 ["2024-01-12",84.75,11,126000,"입주권","중개거래"],

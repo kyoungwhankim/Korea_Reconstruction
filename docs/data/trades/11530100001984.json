@@ -1,7 +1,7 @@
 {"id":"11530100001984",
 "name":"성락아파트",
 "basis":"단지",
-"by_area":[{"area":57,"pyeong":17.2,"n":8,"median":38750,"min":37500,"max":41400,"latest_price":39000,"latest_date":"2026-10-07","latest_floor":10,"jeonse_n":9,"wolse_n":2,"jeonse_median":28000,"jeonse_min":14000,"jeonse_max":33000,"jeonse_latest":33000,"jeonse_latest_date":"2026-09-17","jeonse_ratio":72.3,"wolse_deposit_median":11350,"wolse_monthly_median":49},{"area":63,"pyeong":19.1,"n":1,"median":44000,"min":44000,"max":44000,"latest_price":44000,"latest_date":"2026-06-01","latest_floor":8}],
+"by_area":[{"area":57,"pyeong":17.2,"n":7,"median":38500,"min":37500,"max":41400,"latest_price":37800,"latest_date":"2026-08-27","latest_floor":10,"jeonse_n":9,"wolse_n":2,"jeonse_median":28000,"jeonse_min":14000,"jeonse_max":33000,"jeonse_latest":33000,"jeonse_latest_date":"2026-09-17","jeonse_ratio":72.7,"wolse_deposit_median":11350,"wolse_monthly_median":49},{"area":63,"pyeong":19.1,"n":1,"median":44000,"min":44000,"max":44000,"latest_price":44000,"latest_date":"2026-06-01","latest_floor":8}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-04-22",57.33,5,12250,null,null,1988],
 ["2006-09-04",57.33,1,10550,null,null,1988],
@@ -119,8 +119,7 @@
 ["2026-06-24",57.33,7,41400,"가","중개거래",1988],
 ["2026-06-28",57.33,9,37500,"가","중개거래",1988],
 ["2026-07-14",57.33,8,39500,"가","중개거래",1988],
-["2026-08-27",57.33,10,37800,null,"중개거래",1988],
-["2026-10-07",57.33,10,39000,null,"직거래",1988]
+["2026-08-27",57.33,10,37800,null,"중개거래",1988]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-12-19",57.33,1,3000,85,"신규","26.01~28.02",null],

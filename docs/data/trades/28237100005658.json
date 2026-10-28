@@ -1,7 +1,7 @@
 {"id":"28237100005658",
 "name":"수정아파트",
 "basis":"단지",
-"by_area":[{"area":55,"pyeong":16.6,"n":1,"median":15000,"min":15000,"max":15000,"latest_price":15000,"latest_date":"2026-04-24","latest_floor":4},{"area":56,"pyeong":16.9,"n":2,"median":13100,"min":11900,"max":14300,"latest_price":14300,"latest_date":"2026-09-15","latest_floor":3,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":850,"wolse_monthly_median":62}],
+"by_area":[{"area":55,"pyeong":16.6,"n":1,"median":15000,"min":15000,"max":15000,"latest_price":15000,"latest_date":"2026-04-24","latest_floor":4},{"area":56,"pyeong":16.9,"n":2,"median":13100,"min":11900,"max":14300,"latest_price":14300,"latest_date":"2026-09-15","latest_floor":3,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":1000,"wolse_monthly_median":55}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2007-02-26",55.89,4,8800,null,null,1985],
 ["2007-03-03",55.89,2,9000,null,null,1985],
@@ -39,5 +39,6 @@
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-12-02",55.89,5,700,50,"신규","25.12~27.12",null],
-["2026-10-24",55.89,2,1000,75,"신규","26.10~28.10",null]
+["2026-10-24",55.89,2,1000,75,"신규","26.10~28.10",null],
+["2026-10-26",55.89,3,3000,55,"신규","26.11~28.11",null]
 ]}}

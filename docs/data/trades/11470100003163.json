@@ -1,7 +1,7 @@
 {"id":"11470100003163",
 "name":"목동대림2차",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":3,"median":188000,"min":169000,"max":190000,"latest_price":190000,"latest_date":"2026-07-12","latest_floor":17,"jeonse_n":25,"wolse_n":9,"jeonse_median":79000,"jeonse_min":70000,"jeonse_max":95000,"jeonse_latest":89000,"jeonse_latest_date":"2026-09-29","jeonse_ratio":42.0,"wolse_deposit_median":50000,"wolse_monthly_median":100}],
+"by_area":[{"area":85,"pyeong":25.7,"n":3,"median":188000,"min":169000,"max":190000,"latest_price":190000,"latest_date":"2026-07-12","latest_floor":17,"jeonse_n":25,"wolse_n":10,"jeonse_median":79000,"jeonse_min":70000,"jeonse_max":95000,"jeonse_latest":89000,"jeonse_latest_date":"2026-09-29","jeonse_ratio":42.0,"wolse_deposit_median":50000,"wolse_monthly_median":110}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-04",84.82,20,39000,null,null,1994],
 ["2006-03-25",84.82,3,45000,null,null,1994],
@@ -225,6 +225,7 @@
 ["2026-07-28",84.82,1,80000,0,"갱신","26.10~27.10",null],
 ["2026-08-22",84.82,12,86000,0,"갱신","26.09~28.09",true],
 ["2026-09-01",84.82,8,95000,0,"신규","26.11~28.11",null],
+["2026-09-10",84.82,5,50000,120,"갱신","26.10~28.10",null],
 ["2026-09-29",84.82,5,89000,0,"신규","26.10~28.10",null],
 ["2026-09-29",84.82,19,70000,78,null,null,null],
 ["2026-10-14",84.82,2,25000,300,"신규","26.12~29.12",null]

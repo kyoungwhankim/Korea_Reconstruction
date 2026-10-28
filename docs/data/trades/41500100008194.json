@@ -1,7 +1,7 @@
 {"id":"41500100008194",
 "name":"대호2차아파트",
 "basis":"단지",
-"by_area":[{"area":75,"pyeong":22.7,"n":2,"median":14450,"min":12000,"max":16900,"latest_price":16900,"latest_date":"2026-04-24","latest_floor":15,"jeonse_n":2,"wolse_n":1,"jeonse_median":12500,"jeonse_min":12000,"jeonse_max":13000,"jeonse_latest":13000,"jeonse_latest_date":"2026-04-14","jeonse_ratio":86.5,"wolse_deposit_median":2000,"wolse_monthly_median":70}],
+"by_area":[{"area":75,"pyeong":22.7,"n":2,"median":14450,"min":12000,"max":16900,"latest_price":16900,"latest_date":"2026-04-24","latest_floor":15,"jeonse_n":2,"wolse_n":2,"jeonse_median":12500,"jeonse_min":12000,"jeonse_max":13000,"jeonse_latest":13000,"jeonse_latest_date":"2026-04-14","jeonse_ratio":86.5,"wolse_deposit_median":2000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-25",74.58,15,7200,null,null,1993],
 ["2006-04-06",74.58,1,7500,null,null,1993],
@@ -147,5 +147,6 @@
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-03-28",74.58,8,12000,0,"신규","26.04~28.04",null],
 ["2026-04-14",74.58,8,13000,0,"신규","26.05~28.05",null],
-["2026-05-17",74.58,1,2000,70,"신규","26.05~28.05",null]
+["2026-05-17",74.58,1,2000,70,"신규","26.05~28.05",null],
+["2026-10-24",74.58,2,2000,70,"신규","26.11~27.11",null]
 ]}}

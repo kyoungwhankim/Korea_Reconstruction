@@ -1,7 +1,7 @@
 {"id":"11380100000600",
 "name":"동익파크1차아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":6,"median":47000,"min":45000,"max":49000,"latest_price":48500,"latest_date":"2026-08-05","latest_floor":12,"jeonse_n":5,"wolse_n":0,"jeonse_median":35500,"jeonse_min":33000,"jeonse_max":36000,"jeonse_latest":33000,"jeonse_latest_date":"2026-09-15","jeonse_ratio":75.5}],
+"by_area":[{"area":85,"pyeong":25.7,"n":7,"median":47500,"min":45000,"max":49000,"latest_price":49000,"latest_date":"2026-10-16","latest_floor":2,"jeonse_n":5,"wolse_n":0,"jeonse_median":35500,"jeonse_min":33000,"jeonse_max":36000,"jeonse_latest":33000,"jeonse_latest_date":"2026-09-15","jeonse_ratio":74.7}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-26",84.98,7,19700,null,null,1991],
 ["2006-04-25",84.98,8,18600,null,null,1991],
@@ -126,7 +126,8 @@
 ["2026-06-12",84.98,13,49000,null,"중개거래",1991],
 ["2026-06-29",84.98,7,46500,null,"중개거래",1991],
 ["2026-07-25",84.98,2,45700,null,"중개거래",1991],
-["2026-08-05",84.98,12,48500,null,"중개거래",1991]
+["2026-08-05",84.98,12,48500,null,"중개거래",1991],
+["2026-10-16",84.98,2,49000,null,"중개거래",1991]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-02-10",84.98,5,35500,0,"신규","26.04~28.04",null],

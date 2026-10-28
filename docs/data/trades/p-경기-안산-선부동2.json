@@ -1,7 +1,7 @@
 {"id":"경기-안산-선부동2",
 "name":"선부동2",
 "basis":"준공 후 신축",
-"by_area":[{"area":59,"pyeong":17.8,"jeonse_n":0,"wolse_n":3,"wolse_deposit_median":3000,"wolse_monthly_median":120},{"area":60,"pyeong":18.1,"n":2,"median":42600,"min":42500,"max":42700,"latest_price":42500,"latest_date":"2026-09-30","latest_floor":18,"jeonse_n":17,"wolse_n":12,"jeonse_median":28000,"jeonse_min":25200,"jeonse_max":32000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-06","jeonse_ratio":65.7,"wolse_deposit_median":3000,"wolse_monthly_median":117},{"area":85,"pyeong":25.7,"n":1,"median":55000,"min":55000,"max":55000,"latest_price":55000,"latest_date":"2026-08-01","latest_floor":18,"jeonse_n":8,"wolse_n":11,"jeonse_median":34500,"jeonse_min":30500,"jeonse_max":35000,"jeonse_latest":32550,"jeonse_latest_date":"2026-07-22","jeonse_ratio":62.7,"wolse_deposit_median":4000,"wolse_monthly_median":140}],
+"by_area":[{"area":59,"pyeong":17.8,"jeonse_n":2,"wolse_n":3,"jeonse_median":18565,"jeonse_min":18565,"jeonse_max":18565,"jeonse_latest":18565,"jeonse_latest_date":"2026-10-27","wolse_deposit_median":3000,"wolse_monthly_median":120},{"area":60,"pyeong":18.1,"n":2,"median":42600,"min":42500,"max":42700,"latest_price":42500,"latest_date":"2026-09-30","latest_floor":18,"jeonse_n":17,"wolse_n":12,"jeonse_median":28000,"jeonse_min":25200,"jeonse_max":32000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-06","jeonse_ratio":65.7,"wolse_deposit_median":3000,"wolse_monthly_median":117},{"area":85,"pyeong":25.7,"n":1,"median":55000,"min":55000,"max":55000,"latest_price":55000,"latest_date":"2026-08-01","latest_floor":18,"jeonse_n":8,"wolse_n":11,"jeonse_median":34500,"jeonse_min":30500,"jeonse_max":35000,"jeonse_latest":32550,"jeonse_latest_date":"2026-07-22","jeonse_ratio":62.7,"wolse_deposit_median":4000,"wolse_monthly_median":140}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2026-06-17",59.93,8,42700,"103","중개거래",2024],
 ["2026-08-01",84.74,18,55000,null,"중개거래",2024],
@@ -58,7 +58,9 @@
 ["2026-07-11",59.41,20,3000,120,"신규","26.09~28.09",null],
 ["2026-07-22",84.74,8,32550,0,"갱신","26.08~28.08",true],
 ["2026-10-06",59.93,7,30000,0,"신규","26.11~28.11",null],
-["2026-10-15",84.74,25,3000,140,"갱신","26.10~28.10",true]
+["2026-10-15",84.74,25,3000,140,"갱신","26.10~28.10",true],
+["2026-10-21",59.42,23,18565,0,"갱신","26.12~28.11",null],
+["2026-10-27",59.42,17,18565,0,"갱신","26.12~28.11",null]
 ]},
 "silv":{"cols":["date","area","floor","price","kind","type"],"rows":[
 ["2023-12-16",59.93,12,41310,"분양권","중개거래"],

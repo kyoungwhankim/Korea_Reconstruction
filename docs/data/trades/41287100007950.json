@@ -1,7 +1,7 @@
 {"id":"41287100007950",
 "name":"주엽강선마을13단지뉴서울",
 "basis":"단지",
-"by_area":[{"area":40,"pyeong":12.1,"n":9,"median":19500,"min":16000,"max":22000,"latest_price":19500,"latest_date":"2026-10-24","latest_floor":15,"jeonse_n":16,"wolse_n":25,"jeonse_median":16500,"jeonse_min":9000,"jeonse_max":17000,"jeonse_latest":16500,"jeonse_latest_date":"2026-10-10","jeonse_ratio":84.6,"wolse_deposit_median":1500,"wolse_monthly_median":70}],
+"by_area":[{"area":40,"pyeong":12.1,"n":9,"median":19500,"min":16000,"max":22000,"latest_price":19500,"latest_date":"2026-10-24","latest_floor":15,"jeonse_n":17,"wolse_n":25,"jeonse_median":16500,"jeonse_min":9000,"jeonse_max":17000,"jeonse_latest":16500,"jeonse_latest_date":"2026-10-26","jeonse_ratio":84.6,"wolse_deposit_median":1500,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",40.32,5,6700,null,null,1995],
 ["2006-01-12",40.32,10,6840,null,null,1995],
@@ -556,5 +556,6 @@
 ["2026-09-15",40.32,6,12000,25,"신규","26.10~28.10",null],
 ["2026-09-15",40.32,10,1000,75,"신규","26.10~28.10",null],
 ["2026-09-28",40.32,17,1000,90,"신규","26.10~28.10",null],
-["2026-10-10",40.32,5,16500,0,"신규","26.10~28.10",null]
+["2026-10-10",40.32,5,16500,0,"신규","26.10~28.10",null],
+["2026-10-26",40.32,5,16500,0,"신규","26.12~28.12",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"11530100001983",
 "name":"새솔금호아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":6,"median":50650,"min":49000,"max":52500,"latest_price":50500,"latest_date":"2026-08-29","latest_floor":14,"jeonse_n":2,"wolse_n":3,"jeonse_median":34000,"jeonse_min":33000,"jeonse_max":35000,"jeonse_latest":35000,"jeonse_latest_date":"2025-12-31","jeonse_ratio":67.1,"wolse_deposit_median":5000,"wolse_monthly_median":130},{"area":85,"pyeong":25.7,"n":6,"median":63000,"min":62000,"max":64400,"latest_price":64400,"latest_date":"2026-09-07","latest_floor":8,"jeonse_n":2,"wolse_n":3,"jeonse_median":41850,"jeonse_min":38700,"jeonse_max":45000,"jeonse_latest":38700,"jeonse_latest_date":"2026-04-04","jeonse_ratio":66.4,"wolse_deposit_median":35000,"wolse_monthly_median":28}],
+"by_area":[{"area":60,"pyeong":18.1,"n":6,"median":50650,"min":49000,"max":52500,"latest_price":50500,"latest_date":"2026-08-29","latest_floor":14,"jeonse_n":3,"wolse_n":3,"jeonse_median":35000,"jeonse_min":33000,"jeonse_max":36750,"jeonse_latest":36750,"jeonse_latest_date":"2026-10-08","jeonse_ratio":69.1,"wolse_deposit_median":5000,"wolse_monthly_median":130},{"area":85,"pyeong":25.7,"n":6,"median":63000,"min":62000,"max":64400,"latest_price":64400,"latest_date":"2026-09-07","latest_floor":8,"jeonse_n":2,"wolse_n":3,"jeonse_median":41850,"jeonse_min":38700,"jeonse_max":45000,"jeonse_latest":38700,"jeonse_latest_date":"2026-04-04","jeonse_ratio":66.4,"wolse_deposit_median":35000,"wolse_monthly_median":28}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-11",84.89,3,19700,null,null,1996],
 ["2006-02-26",59.9,10,14300,null,null,1996],
@@ -380,5 +380,6 @@
 ["2026-05-30",59.9,10,10000,100,"신규","26.08~28.08",null],
 ["2026-07-10",59.9,14,5000,130,"신규","26.09~28.09",null],
 ["2026-07-10",59.9,14,5000,130,"신규","26.09~28.09",null],
-["2026-07-18",84.89,12,46000,10,"갱신","26.08~28.08",true]
+["2026-07-18",84.89,12,46000,10,"갱신","26.08~28.08",true],
+["2026-10-08",59.9,13,36750,0,"갱신","26.11~28.11",true]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"서울-노원구-하계한신동성",
 "name":"하계한신동성아파트",
 "basis":"기존 단지",
-"by_area":[{"area":112,"pyeong":33.9,"n":8,"median":99750,"min":65000,"max":104500,"latest_price":103000,"latest_date":"2026-07-08","latest_floor":10,"jeonse_n":13,"wolse_n":5,"jeonse_median":59000,"jeonse_min":49150,"jeonse_max":70000,"jeonse_latest":68250,"jeonse_latest_date":"2026-08-21","jeonse_ratio":59.1,"wolse_deposit_median":42000,"wolse_monthly_median":140},{"area":138,"pyeong":41.7,"n":9,"median":107300,"min":85500,"max":115000,"latest_price":115000,"latest_date":"2026-09-14","latest_floor":4,"jeonse_n":7,"wolse_n":6,"jeonse_median":63000,"jeonse_min":58800,"jeonse_max":80000,"jeonse_latest":63000,"jeonse_latest_date":"2026-09-04","jeonse_ratio":58.7,"wolse_deposit_median":40000,"wolse_monthly_median":145}],
+"by_area":[{"area":112,"pyeong":33.9,"n":8,"median":99750,"min":65000,"max":104500,"latest_price":103000,"latest_date":"2026-07-08","latest_floor":10,"jeonse_n":13,"wolse_n":6,"jeonse_median":59000,"jeonse_min":49150,"jeonse_max":70000,"jeonse_latest":68250,"jeonse_latest_date":"2026-08-21","jeonse_ratio":59.1,"wolse_deposit_median":43500,"wolse_monthly_median":112},{"area":138,"pyeong":41.7,"n":9,"median":107300,"min":85500,"max":115000,"latest_price":115000,"latest_date":"2026-09-14","latest_floor":4,"jeonse_n":7,"wolse_n":6,"jeonse_median":63000,"jeonse_min":58800,"jeonse_max":80000,"jeonse_latest":63000,"jeonse_latest_date":"2026-09-04","jeonse_ratio":58.7,"wolse_deposit_median":40000,"wolse_monthly_median":145}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-04",112.24,13,47000,null,null,1993],
 ["2006-03-17",138.29,6,52000,null,null,1993],
@@ -481,5 +481,6 @@
 ["2026-08-31",112.24,13,60000,30,"신규","26.11~28.11",null],
 ["2026-09-04",138.29,6,63000,0,"갱신","26.09~28.09",null],
 ["2026-09-12",138.29,14,40000,180,"신규","26.10~28.10",null],
-["2026-09-12",138.29,14,40000,180,"신규","26.10~28.10",null]
+["2026-09-12",138.29,14,40000,180,"신규","26.10~28.10",null],
+["2026-10-26",112.24,7,50000,50,"갱신","26.11~28.11",true]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"28177100005576",
 "name":"주안 광명8차 아파트",
 "basis":"단지",
-"by_area":[{"area":44,"pyeong":13.3,"n":4,"median":10650,"min":10300,"max":11500,"latest_price":10800,"latest_date":"2026-08-26","latest_floor":4,"jeonse_n":4,"wolse_n":3,"jeonse_median":8900,"jeonse_min":8000,"jeonse_max":10500,"jeonse_latest":8000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":83.6,"wolse_deposit_median":1000,"wolse_monthly_median":50},{"area":49,"pyeong":14.8,"n":12,"median":12850,"min":9700,"max":15600,"latest_price":12000,"latest_date":"2026-08-19","latest_floor":4,"jeonse_n":8,"wolse_n":12,"jeonse_median":11000,"jeonse_min":9000,"jeonse_max":12000,"jeonse_latest":11000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":85.6,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"by_area":[{"area":44,"pyeong":13.3,"n":4,"median":10650,"min":10300,"max":11500,"latest_price":10800,"latest_date":"2026-08-26","latest_floor":4,"jeonse_n":4,"wolse_n":4,"jeonse_median":8900,"jeonse_min":8000,"jeonse_max":10500,"jeonse_latest":8000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":83.6,"wolse_deposit_median":1000,"wolse_monthly_median":45},{"area":49,"pyeong":14.8,"n":12,"median":12850,"min":9700,"max":15600,"latest_price":12000,"latest_date":"2026-08-19","latest_floor":4,"jeonse_n":8,"wolse_n":12,"jeonse_median":11000,"jeonse_min":9000,"jeonse_max":12000,"jeonse_latest":11000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":85.6,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-27",48.6,5,6700,null,null,1988],
 ["2006-02-15",48.6,5,6700,null,null,1988],
@@ -660,5 +660,6 @@
 ["2026-09-10",48.6,5,10800,0,"신규","26.11~28.11",null],
 ["2026-09-11",44.19,6,8000,0,"신규","26.10~28.10",null],
 ["2026-09-28",48.6,2,11000,0,"신규","26.10~28.10",null],
-["2026-10-19",48.6,4,11000,0,"신규","26.11~28.11",null]
+["2026-10-19",48.6,4,11000,0,"신규","26.11~28.11",null],
+["2026-10-24",44.19,5,1000,40,"신규","26.11~28.11",null]
 ]}}

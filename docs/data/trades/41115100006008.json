@@ -1,7 +1,7 @@
 {"id":"41115100006008",
 "name":"인계 선경2차 아파트",
 "basis":"단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":2,"median":26750,"min":25000,"max":28500,"latest_price":25000,"latest_date":"2026-06-15","latest_floor":4,"jeonse_n":4,"wolse_n":6,"jeonse_median":17000,"jeonse_min":17000,"jeonse_max":25000,"jeonse_latest":17000,"jeonse_latest_date":"2026-03-24","jeonse_ratio":63.6,"wolse_deposit_median":2000,"wolse_monthly_median":88},{"area":85,"pyeong":25.7,"jeonse_n":1,"wolse_n":0,"jeonse_median":30100,"jeonse_min":30100,"jeonse_max":30100,"jeonse_latest":30100,"jeonse_latest_date":"2026-03-17"}],
+"by_area":[{"area":59,"pyeong":17.8,"n":2,"median":26750,"min":25000,"max":28500,"latest_price":25000,"latest_date":"2026-06-15","latest_floor":4,"jeonse_n":4,"wolse_n":6,"jeonse_median":17000,"jeonse_min":17000,"jeonse_max":25000,"jeonse_latest":17000,"jeonse_latest_date":"2026-03-24","jeonse_ratio":63.6,"wolse_deposit_median":2000,"wolse_monthly_median":88},{"area":85,"pyeong":25.7,"jeonse_n":2,"wolse_n":0,"jeonse_median":30050,"jeonse_min":30000,"jeonse_max":30100,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-26"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-03",59.34,5,9800,null,null,1994],
 ["2006-03-23",59.34,3,10000,null,null,1994],
@@ -175,5 +175,6 @@
 ["2026-04-04",59.34,9,2000,87,"갱신","26.04~28.04",null],
 ["2026-04-05",59.34,2,1335,74,"갱신","26.05~27.05",null],
 ["2026-04-27",59.34,7,2000,90,"신규","26.06~28.06",null],
-["2026-06-16",59.34,4,2000,90,"신규","26.09~28.09",null]
+["2026-06-16",59.34,4,2000,90,"신규","26.09~28.09",null],
+["2026-10-26",84.92,9,30000,0,"갱신","26.10~28.10",null]
 ]}}

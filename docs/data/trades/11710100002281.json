@@ -1,7 +1,7 @@
 {"id":"11710100002281",
 "name":"문정시영아파트",
 "basis":"단지",
-"by_area":[{"area":26,"pyeong":7.9,"n":22,"median":70000,"min":57000,"max":77800,"latest_price":75500,"latest_date":"2026-09-01","latest_floor":5,"jeonse_n":3,"wolse_n":27,"jeonse_median":15000,"jeonse_min":13000,"jeonse_max":17000,"jeonse_latest":17000,"jeonse_latest_date":"2026-06-27","jeonse_ratio":21.4,"wolse_deposit_median":1000,"wolse_monthly_median":60},{"area":35,"pyeong":10.6,"n":34,"median":83000,"min":69800,"max":93000,"latest_price":90000,"latest_date":"2026-09-29","latest_floor":3,"jeonse_n":19,"wolse_n":26,"jeonse_median":18000,"jeonse_min":14000,"jeonse_max":20000,"jeonse_latest":14000,"jeonse_latest_date":"2026-10-09","jeonse_ratio":21.7,"wolse_deposit_median":1000,"wolse_monthly_median":77},{"area":40,"pyeong":12.1,"n":68,"median":102400,"min":50000,"max":125000,"latest_price":123000,"latest_date":"2026-10-03","latest_floor":11,"jeonse_n":71,"wolse_n":49,"jeonse_median":25000,"jeonse_min":18375,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":24.4,"wolse_deposit_median":3100,"wolse_monthly_median":95},{"area":46,"pyeong":13.9,"n":20,"median":109750,"min":92000,"max":137000,"latest_price":92500,"latest_date":"2026-10-15","latest_floor":7,"jeonse_n":35,"wolse_n":28,"jeonse_median":28000,"jeonse_min":17850,"jeonse_max":33000,"jeonse_latest":32000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":25.5,"wolse_deposit_median":6000,"wolse_monthly_median":89}],
+"by_area":[{"area":26,"pyeong":7.9,"n":24,"median":70000,"min":57000,"max":78700,"latest_price":78700,"latest_date":"2026-10-24","latest_floor":9,"jeonse_n":3,"wolse_n":27,"jeonse_median":15000,"jeonse_min":13000,"jeonse_max":17000,"jeonse_latest":17000,"jeonse_latest_date":"2026-06-27","jeonse_ratio":21.4,"wolse_deposit_median":1000,"wolse_monthly_median":60},{"area":35,"pyeong":10.6,"n":34,"median":83000,"min":69800,"max":93000,"latest_price":90000,"latest_date":"2026-09-29","latest_floor":3,"jeonse_n":19,"wolse_n":27,"jeonse_median":18000,"jeonse_min":14000,"jeonse_max":20000,"jeonse_latest":14000,"jeonse_latest_date":"2026-10-09","jeonse_ratio":21.7,"wolse_deposit_median":1000,"wolse_monthly_median":75},{"area":40,"pyeong":12.1,"n":68,"median":102400,"min":50000,"max":125000,"latest_price":123000,"latest_date":"2026-10-03","latest_floor":11,"jeonse_n":71,"wolse_n":49,"jeonse_median":25000,"jeonse_min":18375,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":24.4,"wolse_deposit_median":3100,"wolse_monthly_median":95},{"area":46,"pyeong":13.9,"n":20,"median":109750,"min":92000,"max":137000,"latest_price":92500,"latest_date":"2026-10-15","latest_floor":7,"jeonse_n":35,"wolse_n":28,"jeonse_median":28000,"jeonse_min":17850,"jeonse_max":33000,"jeonse_latest":32000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":25.5,"wolse_deposit_median":6000,"wolse_monthly_median":89}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-08",39.69,5,19250,null,null,1989],
 ["2006-01-13",39.69,12,19500,null,null,1989],
@@ -2088,7 +2088,9 @@
 ["2026-09-27",39.69,6,119000,null,"중개거래",1989],
 ["2026-09-29",35.46,3,90000,null,"중개거래",1989],
 ["2026-10-03",39.69,11,123000,null,"중개거래",1989],
-["2026-10-15",46.26,7,92500,null,"중개거래",1989]
+["2026-10-15",46.26,7,92500,null,"중개거래",1989],
+["2026-10-24",25.65,9,78700,null,"중개거래",1989],
+["2026-10-24",25.65,14,78000,null,"중개거래",1989]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-01",39.69,13,3000,110,"신규","25.11~27.11",null],
@@ -2347,6 +2349,7 @@
 ["2026-10-21",35.46,12,1000,74,"갱신","26.11~28.11",true],
 ["2026-10-21",46.26,3,32000,0,"신규","27.01~29.01",null],
 ["2026-10-23",25.65,9,1000,56,"갱신","26.11~28.10",true],
+["2026-10-24",35.46,12,1000,74,"갱신","26.11~28.11",true],
 ["2026-10-24",35.46,12,1000,74,"갱신","26.11~28.11",true],
 ["2026-10-24",39.69,12,30000,0,"신규","26.12~28.12",null]
 ]}}

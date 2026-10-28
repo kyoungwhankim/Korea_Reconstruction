@@ -1,7 +1,7 @@
 {"id":"11680100051427",
 "name":"현대14차(203,204,205,206동)",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":9,"median":585000,"min":500000,"max":660000,"latest_price":586000,"latest_date":"2026-07-11","latest_floor":6,"jeonse_n":20,"wolse_n":16,"jeonse_median":97250,"jeonse_min":67200,"jeonse_max":120000,"jeonse_latest":105000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":16.6,"wolse_deposit_median":34650,"wolse_monthly_median":228}],
+"by_area":[{"area":85,"pyeong":25.7,"n":9,"median":585000,"min":500000,"max":660000,"latest_price":586000,"latest_date":"2026-07-11","latest_floor":6,"jeonse_n":20,"wolse_n":17,"jeonse_median":97250,"jeonse_min":67200,"jeonse_max":120000,"jeonse_latest":105000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":16.6,"wolse_deposit_median":39300,"wolse_monthly_median":217}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-16",84.94,1,114000,null,null,1987],
 ["2006-04-01",84.98,8,134000,null,null,1987],
@@ -295,5 +295,6 @@
 ["2026-09-15",84.98,2,80000,0,"갱신","26.09~27.09",null],
 ["2026-09-15",84.98,2,100000,0,"신규","26.11~28.11",null],
 ["2026-09-30",84.98,10,94500,0,"갱신","26.10~28.10",true],
-["2026-10-16",84.94,3,105000,0,"신규","26.12~28.12",null]
+["2026-10-16",84.94,3,105000,0,"신규","26.12~28.12",null],
+["2026-10-24",84.98,11,80000,80,"신규","26.10~28.10",null]
 ]}}

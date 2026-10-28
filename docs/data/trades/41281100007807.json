@@ -1,7 +1,7 @@
 {"id":"41281100007807",
 "name":"별빛마을9단지",
 "basis":"단지",
-"by_area":[{"area":70,"pyeong":21.2,"n":5,"median":49500,"min":44500,"max":52000,"latest_price":49500,"latest_date":"2026-09-05","latest_floor":11,"jeonse_n":3,"wolse_n":1,"jeonse_median":32000,"jeonse_min":31360,"jeonse_max":34000,"jeonse_latest":31360,"jeonse_latest_date":"2026-10-24","jeonse_ratio":64.6,"wolse_deposit_median":35000,"wolse_monthly_median":20},{"area":85,"pyeong":25.7,"n":18,"median":57850,"min":34000,"max":60000,"latest_price":59200,"latest_date":"2026-10-05","latest_floor":12,"jeonse_n":16,"wolse_n":8,"jeonse_median":39500,"jeonse_min":31500,"jeonse_max":45000,"jeonse_latest":41000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":68.3,"wolse_deposit_median":8500,"wolse_monthly_median":115}],
+"by_area":[{"area":70,"pyeong":21.2,"n":5,"median":49500,"min":44500,"max":52000,"latest_price":49500,"latest_date":"2026-09-05","latest_floor":11,"jeonse_n":3,"wolse_n":1,"jeonse_median":32000,"jeonse_min":31360,"jeonse_max":34000,"jeonse_latest":31360,"jeonse_latest_date":"2026-10-24","jeonse_ratio":64.6,"wolse_deposit_median":35000,"wolse_monthly_median":20},{"area":85,"pyeong":25.7,"n":18,"median":57850,"min":34000,"max":60000,"latest_price":59200,"latest_date":"2026-10-05","latest_floor":12,"jeonse_n":17,"wolse_n":8,"jeonse_median":40000,"jeonse_min":31500,"jeonse_max":45000,"jeonse_latest":43000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":69.1,"wolse_deposit_median":8500,"wolse_monthly_median":115}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",84.93,11,23800,null,null,1995],
 ["2006-01-21",84.93,16,22700,null,null,1995],
@@ -556,5 +556,6 @@
 ["2026-09-18",70.2,3,32000,0,"갱신","26.09~28.09",true],
 ["2026-10-05",84.93,15,44000,0,"신규","26.12~28.12",null],
 ["2026-10-20",84.93,7,41000,0,"갱신","26.11~27.01",true],
+["2026-10-20",84.93,7,43000,0,"신규","27.01~29.01",null],
 ["2026-10-24",70.2,7,31360,0,"갱신","26.11~28.11",true]
 ]}}

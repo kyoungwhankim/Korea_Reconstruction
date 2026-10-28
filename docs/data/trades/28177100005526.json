@@ -1,7 +1,7 @@
 {"id":"28177100005526",
 "name":"동원아파트",
 "basis":"단지",
-"by_area":[{"area":47,"pyeong":14.2,"n":7,"median":12500,"min":11000,"max":14200,"latest_price":11000,"latest_date":"2026-09-22","latest_floor":5,"jeonse_n":16,"wolse_n":13,"jeonse_median":10000,"jeonse_min":6000,"jeonse_max":11500,"jeonse_latest":10000,"jeonse_latest_date":"2026-09-21","jeonse_ratio":80.0,"wolse_deposit_median":500,"wolse_monthly_median":45}],
+"by_area":[{"area":47,"pyeong":14.2,"n":7,"median":12500,"min":11000,"max":14200,"latest_price":11000,"latest_date":"2026-09-22","latest_floor":5,"jeonse_n":16,"wolse_n":14,"jeonse_median":10000,"jeonse_min":6000,"jeonse_max":11500,"jeonse_latest":10000,"jeonse_latest_date":"2026-09-21","jeonse_ratio":80.0,"wolse_deposit_median":500,"wolse_monthly_median":45}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-02",47.07,2,7300,null,null,1987],
 ["2006-01-17",47.07,2,7000,null,null,1987],
@@ -473,5 +473,6 @@
 ["2026-07-26",47.07,5,10000,0,"신규","26.09~28.09",null],
 ["2026-08-28",47.07,3,11000,0,"신규","26.09~28.09",null],
 ["2026-09-16",47.07,2,10000,0,"신규","26.10~28.10",null],
+["2026-09-18",47.01,5,500,40,"신규","26.10~28.10",null],
 ["2026-09-21",47.07,5,10000,0,"신규","26.12~28.12",null]
 ]}}

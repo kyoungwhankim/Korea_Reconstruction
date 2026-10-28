@@ -1,7 +1,7 @@
 {"id":"11200100000283",
 "name":"청구강변1아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":2,"median":291500,"min":290000,"max":293000,"latest_price":290000,"latest_date":"2026-07-06","latest_floor":13,"jeonse_n":9,"wolse_n":1,"jeonse_median":36000,"jeonse_min":28300,"jeonse_max":50400,"jeonse_latest":50400,"jeonse_latest_date":"2026-09-02","jeonse_ratio":12.3,"wolse_deposit_median":3000,"wolse_monthly_median":105},{"area":85,"pyeong":25.7,"jeonse_n":12,"wolse_n":3,"jeonse_median":56500,"jeonse_min":34400,"jeonse_max":78000,"jeonse_latest":78000,"jeonse_latest_date":"2026-08-02","wolse_deposit_median":30000,"wolse_monthly_median":60}],
+"by_area":[{"area":60,"pyeong":18.1,"n":2,"median":291500,"min":290000,"max":293000,"latest_price":290000,"latest_date":"2026-07-06","latest_floor":13,"jeonse_n":9,"wolse_n":1,"jeonse_median":36000,"jeonse_min":28300,"jeonse_max":50400,"jeonse_latest":50400,"jeonse_latest_date":"2026-09-02","jeonse_ratio":12.3,"wolse_deposit_median":3000,"wolse_monthly_median":105},{"area":84,"pyeong":25.4,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":25000,"wolse_monthly_median":150},{"area":85,"pyeong":25.7,"jeonse_n":12,"wolse_n":3,"jeonse_median":56500,"jeonse_min":34400,"jeonse_max":78000,"jeonse_latest":78000,"jeonse_latest_date":"2026-08-02","wolse_deposit_median":30000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-12",59.94,6,27450,null,null,1994],
 ["2006-03-09",59.94,2,23300,null,null,1994],
@@ -208,5 +208,6 @@
 ["2026-07-16",84.87,9,60000,0,"신규","26.09~28.09",null],
 ["2026-08-02",84.87,14,78000,0,"신규","26.09~28.09",null],
 ["2026-09-02",59.94,9,50400,0,"갱신","26.11~28.11",true],
+["2026-10-12",84.0,3,25000,150,null,null,null],
 ["2026-10-12",84.96,3,25000,150,"신규","26.11~28.11",null]
 ]}}

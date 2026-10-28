@@ -1,7 +1,7 @@
 {"id":"11350100002548",
 "name":"청구아파트",
 "basis":"단지",
-"by_area":[{"area":71,"pyeong":21.5,"n":14,"median":75500,"min":74500,"max":93800,"latest_price":93800,"latest_date":"2026-10-01","latest_floor":14,"jeonse_n":21,"wolse_n":8,"jeonse_median":42000,"jeonse_min":33600,"jeonse_max":57000,"jeonse_latest":47000,"jeonse_latest_date":"2026-09-18","jeonse_ratio":55.6,"wolse_deposit_median":9000,"wolse_monthly_median":140},{"area":85,"pyeong":25.7,"n":18,"median":85500,"min":60000,"max":96500,"latest_price":96500,"latest_date":"2026-08-08","latest_floor":9,"jeonse_n":13,"wolse_n":10,"jeonse_median":47000,"jeonse_min":40000,"jeonse_max":60000,"jeonse_latest":60000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":55.0,"wolse_deposit_median":32000,"wolse_monthly_median":64}],
+"by_area":[{"area":71,"pyeong":21.5,"n":14,"median":75500,"min":74500,"max":93800,"latest_price":93800,"latest_date":"2026-10-01","latest_floor":14,"jeonse_n":22,"wolse_n":8,"jeonse_median":42000,"jeonse_min":33600,"jeonse_max":57000,"jeonse_latest":50000,"jeonse_latest_date":"2026-10-27","jeonse_ratio":55.6,"wolse_deposit_median":9000,"wolse_monthly_median":140},{"area":85,"pyeong":25.7,"n":18,"median":85500,"min":60000,"max":96500,"latest_price":96500,"latest_date":"2026-08-08","latest_floor":9,"jeonse_n":13,"wolse_n":10,"jeonse_median":47000,"jeonse_min":40000,"jeonse_max":60000,"jeonse_latest":60000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":55.0,"wolse_deposit_median":32000,"wolse_monthly_median":64}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-10",70.69,2,19250,null,null,1988],
 ["2006-01-10",70.69,14,21450,null,null,1988],
@@ -652,5 +652,6 @@
 ["2026-09-14",84.97,5,20000,140,"갱신","26.09~28.09",true],
 ["2026-09-18",70.69,10,47000,0,"신규","26.12~28.12",null],
 ["2026-10-11",84.97,4,52000,0,"갱신","26.10~28.10",true],
-["2026-10-24",84.97,2,60000,0,"신규","27.02~29.02",null]
+["2026-10-24",84.97,2,60000,0,"신규","27.02~29.02",null],
+["2026-10-27",70.69,11,50000,0,"갱신","27.02~29.03",null]
 ]}}

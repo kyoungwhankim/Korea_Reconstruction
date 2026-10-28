@@ -1,7 +1,7 @@
 {"id":"41111100005981",
 "name":"익주아파트",
 "basis":"단지",
-"by_area":[{"area":58,"pyeong":17.5,"n":2,"median":23350,"min":23000,"max":23700,"latest_price":23000,"latest_date":"2026-10-13","latest_floor":4}],
+"by_area":[{"area":58,"pyeong":17.5,"n":2,"median":23350,"min":23000,"max":23700,"latest_price":23000,"latest_date":"2026-10-13","latest_floor":4},{"area":72,"pyeong":21.8,"jeonse_n":1,"wolse_n":0,"jeonse_median":19000,"jeonse_min":19000,"jeonse_max":19000,"jeonse_latest":19000,"jeonse_latest_date":"2026-10-27"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-15",72.12,3,8400,null,null,1995],
 ["2006-02-09",58.28,8,6500,null,null,1995],
@@ -70,4 +70,5 @@
 ["2026-10-13",58.28,4,23000,null,"직거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
+["2026-10-27",72.12,9,19000,0,"신규","27.01~29.01",null]
 ]}}

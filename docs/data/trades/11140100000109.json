@@ -1,7 +1,7 @@
 {"id":"11140100000109",
 "name":"묵정아파트",
 "basis":"단지",
-"by_area":[{"area":52,"pyeong":15.7,"n":6,"median":50250,"min":44500,"max":57300,"latest_price":50500,"latest_date":"2026-07-27","latest_floor":3,"jeonse_n":8,"wolse_n":2,"jeonse_median":31000,"jeonse_min":29700,"jeonse_max":35000,"jeonse_latest":32000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":61.7,"wolse_deposit_median":7500,"wolse_monthly_median":125}],
+"by_area":[{"area":52,"pyeong":15.7,"n":6,"median":50250,"min":44500,"max":57300,"latest_price":50500,"latest_date":"2026-07-27","latest_floor":3,"jeonse_n":8,"wolse_n":3,"jeonse_median":31000,"jeonse_min":29700,"jeonse_max":35000,"jeonse_latest":32000,"jeonse_latest_date":"2026-10-08","jeonse_ratio":61.7,"wolse_deposit_median":5000,"wolse_monthly_median":140}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-11-09",52.46,9,13000,null,null,1981],
 ["2007-01-10",52.46,5,13250,null,null,1981],
@@ -117,5 +117,6 @@
 ["2026-04-23",52.46,7,29700,0,"갱신","26.04~28.04",true],
 ["2026-05-05",52.46,2,35000,0,"신규","26.07~28.07",null],
 ["2026-08-29",52.46,6,5000,140,"신규","26.11~28.10",null],
+["2026-09-17",52.46,8,3000,150,"신규","26.09~27.09",null],
 ["2026-10-08",52.46,3,32000,0,"신규","26.11~28.11",null]
 ]}}

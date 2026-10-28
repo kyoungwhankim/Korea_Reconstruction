@@ -1,7 +1,7 @@
 {"id":"11710100002367",
 "name":"잠실시그마타워아파트",
 "basis":"단지",
-"by_area":[{"area":155,"pyeong":46.9,"jeonse_n":1,"wolse_n":1,"jeonse_median":100000,"jeonse_min":100000,"jeonse_max":100000,"jeonse_latest":100000,"jeonse_latest_date":"2026-04-25","wolse_deposit_median":60000,"wolse_monthly_median":230},{"area":202,"pyeong":61.1,"n":1,"median":230000,"min":230000,"max":230000,"latest_price":230000,"latest_date":"2025-11-28","latest_floor":16},{"area":209,"pyeong":63.2,"jeonse_n":3,"wolse_n":0,"jeonse_median":180000,"jeonse_min":100000,"jeonse_max":180000,"jeonse_latest":100000,"jeonse_latest_date":"2026-05-08"}],
+"by_area":[{"area":155,"pyeong":46.9,"jeonse_n":1,"wolse_n":1,"jeonse_median":100000,"jeonse_min":100000,"jeonse_max":100000,"jeonse_latest":100000,"jeonse_latest_date":"2026-04-25","wolse_deposit_median":60000,"wolse_monthly_median":230},{"area":202,"pyeong":61.1,"n":1,"median":230000,"min":230000,"max":230000,"latest_price":230000,"latest_date":"2025-11-28","latest_floor":16},{"area":207,"pyeong":62.6,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":15000,"wolse_monthly_median":500},{"area":209,"pyeong":63.2,"jeonse_n":3,"wolse_n":0,"jeonse_median":180000,"jeonse_min":100000,"jeonse_max":180000,"jeonse_latest":100000,"jeonse_latest_date":"2026-05-08"}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2008-07-29",207.25,19,60000,null,null,1996],
 ["2008-11-14",208.56,19,130000,null,null,1996],
@@ -40,5 +40,6 @@
 ["2026-01-05",208.56,26,180000,0,"신규","26.03~28.03",null],
 ["2026-02-23",155.48,27,60000,230,"신규","26.02~28.02",null],
 ["2026-04-25",155.48,16,100000,0,"신규","26.07~28.07",null],
-["2026-05-08",208.72,14,100000,0,"신규","26.07~28.07",null]
+["2026-05-08",208.72,14,100000,0,"신규","26.07~28.07",null],
+["2026-10-19",207.25,14,15000,500,"신규","26.12~28.12",null]
 ]}}

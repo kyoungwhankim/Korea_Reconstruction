@@ -1,7 +1,7 @@
 {"id":"41281100007802",
 "name":"달빛마을3단지",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":33,"median":44300,"min":40000,"max":50000,"latest_price":48000,"latest_date":"2026-10-24","latest_floor":11,"jeonse_n":36,"wolse_n":16,"jeonse_median":37250,"jeonse_min":30000,"jeonse_max":40000,"jeonse_latest":33600,"jeonse_latest_date":"2026-10-26","jeonse_ratio":84.1,"wolse_deposit_median":5000,"wolse_monthly_median":115}],
+"by_area":[{"area":85,"pyeong":25.7,"n":34,"median":44250,"min":40000,"max":50000,"latest_price":48000,"latest_date":"2026-10-24","latest_floor":11,"jeonse_n":36,"wolse_n":16,"jeonse_median":37250,"jeonse_min":30000,"jeonse_max":40000,"jeonse_latest":33600,"jeonse_latest_date":"2026-10-26","jeonse_ratio":84.2,"wolse_deposit_median":5000,"wolse_monthly_median":115}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-23",84.87,6,18000,null,null,1995],
 ["2006-01-23",84.87,16,21000,null,null,1995],
@@ -943,6 +943,7 @@
 ["2026-09-15",84.87,5,44300,null,"중개거래",1995],
 ["2026-09-29",84.95,12,44800,null,"중개거래",1995],
 ["2026-10-05",84.95,2,44000,null,"중개거래",1995],
+["2026-10-21",84.87,5,44200,null,"중개거래",1995],
 ["2026-10-24",84.95,11,48000,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

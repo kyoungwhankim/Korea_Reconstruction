@@ -1,7 +1,7 @@
 {"id":"11110100000026",
 "name":"명륜아남1차",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":24,"median":117000,"min":103500,"max":129500,"latest_price":122500,"latest_date":"2026-09-21","latest_floor":15,"jeonse_n":29,"wolse_n":16,"jeonse_median":76000,"jeonse_min":52500,"jeonse_max":83000,"jeonse_latest":83000,"jeonse_latest_date":"2026-10-26","jeonse_ratio":65.0,"wolse_deposit_median":40000,"wolse_monthly_median":120}],
+"by_area":[{"area":85,"pyeong":25.7,"n":25,"median":115000,"min":103500,"max":129500,"latest_price":115000,"latest_date":"2026-10-01","latest_floor":9,"jeonse_n":29,"wolse_n":16,"jeonse_median":76000,"jeonse_min":52500,"jeonse_max":83000,"jeonse_latest":83000,"jeonse_latest_date":"2026-10-26","jeonse_ratio":66.1,"wolse_deposit_median":40000,"wolse_monthly_median":120}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-14",84.9,16,44000,null,null,1995],
 ["2006-02-16",84.9,11,41000,null,null,1995],
@@ -332,7 +332,8 @@
 ["2026-07-09",84.9,13,129500,"제101","중개거래",1995],
 ["2026-09-03",84.8,20,129500,"제101","중개거래",1995],
 ["2026-09-04",84.9,9,125000,null,"중개거래",1995],
-["2026-09-21",84.9,15,122500,null,"중개거래",1995]
+["2026-09-21",84.9,15,122500,null,"중개거래",1995],
+["2026-10-01",84.8,9,115000,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-02",84.9,11,50000,120,"신규","26.01~28.01",null],

@@ -1,7 +1,7 @@
 {"id":"28237100005688",
 "name":"산곡 우성4차 아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":6,"median":28750,"min":27500,"max":31200,"latest_price":31200,"latest_date":"2026-10-07","latest_floor":6,"jeonse_n":6,"wolse_n":1,"jeonse_median":25000,"jeonse_min":23000,"jeonse_max":26500,"jeonse_latest":26500,"jeonse_latest_date":"2026-10-16","jeonse_ratio":87.0,"wolse_deposit_median":0,"wolse_monthly_median":100},{"area":109,"pyeong":33.0,"n":4,"median":38250,"min":35000,"max":41500,"latest_price":38500,"latest_date":"2026-09-28","latest_floor":10,"jeonse_n":2,"wolse_n":0,"jeonse_median":27000,"jeonse_min":26000,"jeonse_max":28000,"jeonse_latest":26000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":70.6},{"area":136,"pyeong":41.1,"n":3,"median":38700,"min":34000,"max":40700,"latest_price":40700,"latest_date":"2026-06-18","latest_floor":13,"jeonse_n":1,"wolse_n":0,"jeonse_median":30000,"jeonse_min":30000,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-04-21","jeonse_ratio":77.5}],
+"by_area":[{"area":85,"pyeong":25.7,"n":6,"median":28750,"min":27500,"max":31200,"latest_price":31200,"latest_date":"2026-10-07","latest_floor":6,"jeonse_n":6,"wolse_n":1,"jeonse_median":25000,"jeonse_min":23000,"jeonse_max":26500,"jeonse_latest":26500,"jeonse_latest_date":"2026-10-16","jeonse_ratio":87.0,"wolse_deposit_median":0,"wolse_monthly_median":100},{"area":109,"pyeong":33.0,"n":5,"median":38000,"min":35000,"max":41500,"latest_price":35000,"latest_date":"2026-10-03","latest_floor":7,"jeonse_n":2,"wolse_n":0,"jeonse_median":27000,"jeonse_min":26000,"jeonse_max":28000,"jeonse_latest":26000,"jeonse_latest_date":"2026-10-20","jeonse_ratio":71.1},{"area":136,"pyeong":41.1,"n":3,"median":38700,"min":34000,"max":40700,"latest_price":40700,"latest_date":"2026-06-18","latest_floor":13,"jeonse_n":1,"wolse_n":0,"jeonse_median":30000,"jeonse_min":30000,"jeonse_max":30000,"jeonse_latest":30000,"jeonse_latest_date":"2026-04-21","jeonse_ratio":77.5}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-06",136.16,11,21500,null,null,1991],
 ["2006-02-04",84.97,8,12800,null,null,1991],
@@ -497,6 +497,7 @@
 ["2026-06-18",136.16,13,40700,"401","직거래",1991],
 ["2026-07-14",108.95,13,41500,null,"중개거래",1991],
 ["2026-09-28",108.95,10,38500,null,"직거래",1991],
+["2026-10-03",108.95,7,35000,null,"중개거래",1991],
 ["2026-10-07",84.97,6,31200,null,"중개거래",1991]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

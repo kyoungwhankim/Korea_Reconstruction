@@ -1,7 +1,7 @@
 {"id":"경기-광명-광명5동월드메르디앙",
 "name":"광명5동(월드메르디앙아파트)",
 "basis":"준공 후 신축",
-"by_area":[{"area":60,"pyeong":18.1,"n":14,"median":71900,"min":61500,"max":85000,"latest_price":85000,"latest_date":"2026-10-02","latest_floor":11,"jeonse_n":5,"wolse_n":1,"jeonse_median":39000,"jeonse_min":38000,"jeonse_max":42000,"jeonse_latest":42000,"jeonse_latest_date":"2026-03-31","jeonse_ratio":54.2,"wolse_deposit_median":23000,"wolse_monthly_median":55},{"area":85,"pyeong":25.7,"n":33,"median":72800,"min":63000,"max":89500,"latest_price":87900,"latest_date":"2026-09-14","latest_floor":3,"jeonse_n":17,"wolse_n":4,"jeonse_median":47000,"jeonse_min":40000,"jeonse_max":55000,"jeonse_latest":43500,"jeonse_latest_date":"2026-10-09","jeonse_ratio":64.6,"wolse_deposit_median":27500,"wolse_monthly_median":72}],
+"by_area":[{"area":60,"pyeong":18.1,"n":14,"median":71900,"min":61500,"max":85000,"latest_price":85000,"latest_date":"2026-10-02","latest_floor":11,"jeonse_n":5,"wolse_n":1,"jeonse_median":39000,"jeonse_min":38000,"jeonse_max":42000,"jeonse_latest":42000,"jeonse_latest_date":"2026-03-31","jeonse_ratio":54.2,"wolse_deposit_median":23000,"wolse_monthly_median":55},{"area":85,"pyeong":25.7,"n":34,"median":72900,"min":63000,"max":89500,"latest_price":89000,"latest_date":"2026-10-20","latest_floor":18,"jeonse_n":17,"wolse_n":4,"jeonse_median":47000,"jeonse_min":40000,"jeonse_max":55000,"jeonse_latest":43500,"jeonse_latest_date":"2026-10-09","jeonse_ratio":64.5,"wolse_deposit_median":27500,"wolse_monthly_median":72}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2007-06-26",59.7,12,24500,null,null,2007],
 ["2007-06-26",59.7,16,24200,null,null,2007],
@@ -844,7 +844,8 @@
 ["2026-08-27",84.83,6,89500,"102","중개거래",2007],
 ["2026-09-11",84.83,18,85000,null,"중개거래",2007],
 ["2026-09-14",84.83,3,87900,null,"중개거래",2007],
-["2026-10-02",59.7,11,85000,null,"중개거래",2007]
+["2026-10-02",59.7,11,85000,null,"중개거래",2007],
+["2026-10-20",84.83,18,89000,null,"중개거래",2007]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-04",59.7,13,23000,55,"신규","26.01~28.01",null],

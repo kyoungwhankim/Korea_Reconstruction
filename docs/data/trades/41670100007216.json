@@ -1,7 +1,7 @@
 {"id":"41670100007216",
 "name":"삼한강변아파트",
 "basis":"단지",
-"by_area":[{"area":52,"pyeong":15.7,"jeonse_n":1,"wolse_n":1,"jeonse_median":8200,"jeonse_min":8200,"jeonse_max":8200,"jeonse_latest":8200,"jeonse_latest_date":"2026-03-15","wolse_deposit_median":1000,"wolse_monthly_median":60},{"area":60,"pyeong":18.1,"n":1,"median":12800,"min":12800,"max":12800,"latest_price":12800,"latest_date":"2026-09-14","latest_floor":8,"jeonse_n":1,"wolse_n":0,"jeonse_median":8000,"jeonse_min":8000,"jeonse_max":8000,"jeonse_latest":8000,"jeonse_latest_date":"2026-03-24","jeonse_ratio":62.5},{"area":123,"pyeong":37.2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":5000,"wolse_monthly_median":40}],
+"by_area":[{"area":52,"pyeong":15.7,"jeonse_n":1,"wolse_n":1,"jeonse_median":8200,"jeonse_min":8200,"jeonse_max":8200,"jeonse_latest":8200,"jeonse_latest_date":"2026-03-15","wolse_deposit_median":1000,"wolse_monthly_median":60},{"area":60,"pyeong":18.1,"n":1,"median":12800,"min":12800,"max":12800,"latest_price":12800,"latest_date":"2026-09-14","latest_floor":8,"jeonse_n":1,"wolse_n":0,"jeonse_median":8000,"jeonse_min":8000,"jeonse_max":8000,"jeonse_latest":8000,"jeonse_latest_date":"2026-03-24","jeonse_ratio":62.5},{"area":123,"pyeong":37.2,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":8000,"wolse_monthly_median":25}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-20",122.59,4,9500,null,null,1993],
 ["2006-04-25",52.38,17,4400,null,null,1993],
@@ -97,5 +97,6 @@
 ["2026-01-28",122.59,15,5000,40,"신규","26.02~28.02",null],
 ["2026-03-09",52.38,16,1000,60,"신규","26.03~28.03",null],
 ["2026-03-15",52.38,16,8200,0,"신규","26.04~28.04",null],
-["2026-03-24",59.91,2,8000,0,"신규","26.04~28.04",null]
+["2026-03-24",59.91,2,8000,0,"신규","26.04~28.04",null],
+["2026-09-17",122.59,3,11000,10,"신규","26.11~28.11",null]
 ]}}

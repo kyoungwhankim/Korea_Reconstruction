@@ -1,7 +1,7 @@
 {"id":"41410100007581",
 "name":"무궁화(화성)",
 "basis":"단지",
-"by_area":[{"area":102,"pyeong":30.9,"n":11,"median":65500,"min":57900,"max":71250,"latest_price":71250,"latest_date":"2026-09-28","latest_floor":6,"jeonse_n":8,"wolse_n":1,"jeonse_median":48300,"jeonse_min":42000,"jeonse_max":55000,"jeonse_latest":47250,"jeonse_latest_date":"2026-10-16","jeonse_ratio":73.7,"wolse_deposit_median":38000,"wolse_monthly_median":23},{"area":135,"pyeong":40.8,"n":12,"median":67075,"min":61500,"max":73000,"latest_price":72300,"latest_date":"2026-09-29","latest_floor":11,"jeonse_n":9,"wolse_n":1,"jeonse_median":45000,"jeonse_min":43000,"jeonse_max":50000,"jeonse_latest":50000,"jeonse_latest_date":"2026-08-10","jeonse_ratio":67.1,"wolse_deposit_median":47000,"wolse_monthly_median":10}],
+"by_area":[{"area":102,"pyeong":30.9,"n":11,"median":65500,"min":57900,"max":71250,"latest_price":71250,"latest_date":"2026-09-28","latest_floor":6,"jeonse_n":8,"wolse_n":1,"jeonse_median":48300,"jeonse_min":42000,"jeonse_max":55000,"jeonse_latest":47250,"jeonse_latest_date":"2026-10-16","jeonse_ratio":73.7,"wolse_deposit_median":38000,"wolse_monthly_median":23},{"area":135,"pyeong":40.8,"n":12,"median":67075,"min":61500,"max":73000,"latest_price":72300,"latest_date":"2026-09-29","latest_floor":11,"jeonse_n":10,"wolse_n":1,"jeonse_median":45000,"jeonse_min":40000,"jeonse_max":50000,"jeonse_latest":40000,"jeonse_latest_date":"2026-10-27","jeonse_ratio":67.1,"wolse_deposit_median":47000,"wolse_monthly_median":10}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-27",134.74,9,45000,null,null,1992],
 ["2006-03-29",134.74,2,36000,null,null,1992],
@@ -366,5 +366,6 @@
 ["2026-08-10",134.74,3,50000,0,"갱신","26.11~28.10",null],
 ["2026-09-05",101.86,12,38000,23,"갱신","26.09~28.09",null],
 ["2026-09-18",101.86,10,52500,0,"갱신","26.11~28.11",true],
-["2026-10-16",101.86,1,47250,0,"갱신","26.10~28.10",true]
+["2026-10-16",101.86,1,47250,0,"갱신","26.10~28.10",true],
+["2026-10-27",134.74,14,40000,0,"신규","26.10~27.04",null]
 ]}}

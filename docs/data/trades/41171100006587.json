@@ -1,7 +1,7 @@
 {"id":"41171100006587",
 "name":"세림아파트",
 "basis":"단지",
-"by_area":[{"area":63,"pyeong":19.1,"n":2,"median":26150,"min":25800,"max":26500,"latest_price":26500,"latest_date":"2026-08-31","latest_floor":5,"jeonse_n":1,"wolse_n":0,"jeonse_median":15000,"jeonse_min":15000,"jeonse_max":15000,"jeonse_latest":15000,"jeonse_latest_date":"2026-05-01","jeonse_ratio":57.4},{"area":71,"pyeong":21.5,"n":1,"median":34800,"min":34800,"max":34800,"latest_price":34800,"latest_date":"2026-03-03","latest_floor":2,"jeonse_n":2,"wolse_n":0,"jeonse_median":22000,"jeonse_min":22000,"jeonse_max":22000,"jeonse_latest":22000,"jeonse_latest_date":"2026-04-10","jeonse_ratio":63.2}],
+"by_area":[{"area":63,"pyeong":19.1,"n":2,"median":26150,"min":25800,"max":26500,"latest_price":26500,"latest_date":"2026-08-31","latest_floor":5,"jeonse_n":2,"wolse_n":0,"jeonse_median":16750,"jeonse_min":15000,"jeonse_max":18500,"jeonse_latest":18500,"jeonse_latest_date":"2026-10-02","jeonse_ratio":64.1},{"area":71,"pyeong":21.5,"n":1,"median":34800,"min":34800,"max":34800,"latest_price":34800,"latest_date":"2026-03-03","latest_floor":2,"jeonse_n":2,"wolse_n":0,"jeonse_median":22000,"jeonse_min":22000,"jeonse_max":22000,"jeonse_latest":22000,"jeonse_latest_date":"2026-04-10","jeonse_ratio":63.2}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-05-14",70.98,4,14500,null,null,1983],
 ["2006-05-15",70.98,3,13500,null,null,1983],
@@ -81,5 +81,6 @@
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-04-10",70.98,5,22000,0,"신규","26.06~28.06",null],
 ["2026-04-10",70.98,5,22000,0,"신규","26.06~28.06",null],
-["2026-05-01",62.86,4,15000,0,"신규","26.06~28.06",null]
+["2026-05-01",62.86,4,15000,0,"신규","26.06~28.06",null],
+["2026-10-02",62.88,5,18500,0,"신규","26.11~28.11",null]
 ]}}
