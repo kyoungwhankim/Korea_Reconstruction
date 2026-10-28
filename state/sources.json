@@ -13,8 +13,8 @@
  },
  {
   "changed_at": "2026-10-28",
-  "content_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-  "fingerprint": "9e8f73ff5208232f135c3fa6b1245b0553db4e8b",
+  "content_hash": "534ef008688123d9806ebf71381f461be6daac3b",
+  "fingerprint": "526818c18059f4b63c900b5357b0439396a56c40",
   "name": "notice_projects.csv"
  },
  {
@@ -49,7 +49,7 @@
  },
  {
   "changed_at": "2026-10-28",
-  "content_hash": "8dda24f69a5138a00203394949f68648a556c264",
+  "content_hash": "2d013ab08f812dc0492c79b9c3c82265fd18b8bc",
   "fingerprint": null,
   "name": "서울시_정비사업정보몽땅_사업현황"
  },
