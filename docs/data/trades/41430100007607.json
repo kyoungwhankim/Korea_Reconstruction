@@ -1,7 +1,7 @@
 {"id":"41430100007607",
 "name":"삼신8차아파트",
 "basis":"단지",
-"by_area":[{"area":49,"pyeong":14.8,"n":3,"median":20000,"min":18000,"max":21000,"latest_price":18000,"latest_date":"2026-07-25","latest_floor":1,"jeonse_n":11,"wolse_n":7,"jeonse_median":12600,"jeonse_min":8820,"jeonse_max":14000,"jeonse_latest":14000,"jeonse_latest_date":"2026-07-13","jeonse_ratio":63.0,"wolse_deposit_median":1000,"wolse_monthly_median":40},{"area":52,"pyeong":15.7,"jeonse_n":2,"wolse_n":4,"jeonse_median":14500,"jeonse_min":14000,"jeonse_max":15000,"jeonse_latest":14000,"jeonse_latest_date":"2026-02-12","wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"by_area":[{"area":49,"pyeong":14.8,"n":5,"median":20000,"min":18000,"max":21000,"latest_price":19800,"latest_date":"2026-10-26","latest_floor":3,"jeonse_n":11,"wolse_n":7,"jeonse_median":12600,"jeonse_min":8820,"jeonse_max":14000,"jeonse_latest":14000,"jeonse_latest_date":"2026-07-13","jeonse_ratio":63.0,"wolse_deposit_median":1000,"wolse_monthly_median":40},{"area":52,"pyeong":15.7,"jeonse_n":2,"wolse_n":4,"jeonse_median":14500,"jeonse_min":14000,"jeonse_max":15000,"jeonse_latest":14000,"jeonse_latest_date":"2026-02-12","wolse_deposit_median":1000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-02",48.93,2,7250,null,null,1986],
 ["2006-01-19",48.93,3,7700,null,null,1986],
@@ -422,7 +422,9 @@
 ["2025-09-27",48.93,2,21000,"2","중개거래",1986],
 ["2026-04-22",48.93,2,21000,"1","중개거래",1986],
 ["2026-07-23",48.93,4,20000,"1","중개거래",1986],
-["2026-07-25",48.93,1,18000,"3","중개거래",1986]
+["2026-07-25",48.93,1,18000,"3","중개거래",1986],
+["2026-10-20",48.93,5,21000,null,"중개거래",1986],
+["2026-10-26",48.93,3,19800,null,"중개거래",1986]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-04",48.93,2,12600,0,"갱신","25.11~27.11",null],

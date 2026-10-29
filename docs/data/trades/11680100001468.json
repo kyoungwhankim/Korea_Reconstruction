@@ -1,7 +1,7 @@
 {"id":"11680100001468",
 "name":"상록수아파트",
 "basis":"단지",
-"by_area":[{"area":75,"pyeong":22.7,"n":5,"median":265000,"min":215000,"max":275000,"latest_price":274000,"latest_date":"2026-08-10","latest_floor":5,"jeonse_n":43,"wolse_n":33,"jeonse_median":75000,"jeonse_min":57000,"jeonse_max":85000,"jeonse_latest":75000,"jeonse_latest_date":"2026-10-27","jeonse_ratio":28.3,"wolse_deposit_median":45000,"wolse_monthly_median":120},{"area":85,"pyeong":25.7,"n":1,"median":325000,"min":325000,"max":325000,"latest_price":325000,"latest_date":"2026-01-30","latest_floor":2,"jeonse_n":23,"wolse_n":14,"jeonse_median":84000,"jeonse_min":71000,"jeonse_max":95000,"jeonse_latest":77000,"jeonse_latest_date":"2026-10-25","jeonse_ratio":25.8,"wolse_deposit_median":40000,"wolse_monthly_median":150}],
+"by_area":[{"area":75,"pyeong":22.7,"n":5,"median":265000,"min":215000,"max":275000,"latest_price":274000,"latest_date":"2026-08-10","latest_floor":5,"jeonse_n":44,"wolse_n":33,"jeonse_median":75000,"jeonse_min":57000,"jeonse_max":85000,"jeonse_latest":72000,"jeonse_latest_date":"2026-10-28","jeonse_ratio":28.3,"wolse_deposit_median":45000,"wolse_monthly_median":120},{"area":85,"pyeong":25.7,"n":1,"median":325000,"min":325000,"max":325000,"latest_price":325000,"latest_date":"2026-01-30","latest_floor":2,"jeonse_n":23,"wolse_n":14,"jeonse_median":84000,"jeonse_min":71000,"jeonse_max":95000,"jeonse_latest":77000,"jeonse_latest_date":"2026-10-25","jeonse_ratio":25.8,"wolse_deposit_median":40000,"wolse_monthly_median":150}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-09",74.54,4,64600,null,null,1993],
 ["2006-02-21",74.54,3,66900,null,null,1993],
@@ -572,5 +572,6 @@
 ["2026-10-03",74.54,5,70000,0,"신규","26.11~28.11",null],
 ["2026-10-24",74.54,1,60000,100,"신규","27.01~29.01",null],
 ["2026-10-25",84.95,5,77000,0,"신규","27.01~29.01",null],
-["2026-10-27",74.54,5,75000,0,"신규","27.01~29.01",null]
+["2026-10-27",74.54,5,75000,0,"신규","27.01~29.01",null],
+["2026-10-28",74.54,1,72000,0,"갱신","26.12~28.12",null]
 ]}}

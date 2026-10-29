@@ -1,7 +1,7 @@
 {"id":"경기-용인-수지12",
 "name":"수지12",
 "basis":"기존 단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":94,"median":80250,"min":62500,"max":87000,"latest_price":86800,"latest_date":"2026-10-16","latest_floor":11,"jeonse_n":39,"wolse_n":30,"jeonse_median":33000,"jeonse_min":28000,"jeonse_max":40000,"jeonse_latest":30000,"jeonse_latest_date":"2026-09-15","jeonse_ratio":41.1,"wolse_deposit_median":10000,"wolse_monthly_median":115}],
+"by_area":[{"area":60,"pyeong":18.1,"n":96,"median":80500,"min":62500,"max":88000,"latest_price":83000,"latest_date":"2026-10-27","latest_floor":12,"jeonse_n":39,"wolse_n":30,"jeonse_median":33000,"jeonse_min":28000,"jeonse_max":40000,"jeonse_latest":30000,"jeonse_latest_date":"2026-09-15","jeonse_ratio":41.0,"wolse_deposit_median":10000,"wolse_monthly_median":115}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-02",59.61,6,17000,null,null,1995],
 ["2006-01-03",59.61,11,16000,null,null,1995],
@@ -1212,7 +1212,9 @@
 ["2026-09-30",59.61,9,85000,null,"중개거래",1995],
 ["2026-10-06",59.61,5,83000,null,"중개거래",1995],
 ["2026-10-14",59.61,7,84000,null,"중개거래",1995],
-["2026-10-16",59.61,11,86800,null,"중개거래",1995]
+["2026-10-15",59.61,17,88000,null,"중개거래",1995],
+["2026-10-16",59.61,11,86800,null,"중개거래",1995],
+["2026-10-27",59.61,12,83000,null,"중개거래",1995]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-07",59.61,2,30000,0,"갱신","25.11~27.11",true],

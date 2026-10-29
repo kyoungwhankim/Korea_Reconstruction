@@ -1,7 +1,7 @@
 {"id":"41281100007809",
 "name":"화정별빛마을8단지부영",
 "basis":"단지",
-"by_area":[{"area":50,"pyeong":15.1,"n":74,"median":34000,"min":27000,"max":37000,"latest_price":35000,"latest_date":"2026-10-27","latest_floor":14,"jeonse_n":128,"wolse_n":70,"jeonse_median":23050,"jeonse_min":18600,"jeonse_max":28000,"jeonse_latest":22000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":67.8,"wolse_deposit_median":2000,"wolse_monthly_median":85},{"area":60,"pyeong":18.1,"n":23,"median":43500,"min":41000,"max":46500,"latest_price":45250,"latest_date":"2026-10-16","latest_floor":15,"jeonse_n":22,"wolse_n":13,"jeonse_median":29750,"jeonse_min":24600,"jeonse_max":32000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":68.4,"wolse_deposit_median":8000,"wolse_monthly_median":90}],
+"by_area":[{"area":50,"pyeong":15.1,"n":74,"median":34000,"min":27000,"max":37000,"latest_price":35000,"latest_date":"2026-10-27","latest_floor":14,"jeonse_n":129,"wolse_n":70,"jeonse_median":23000,"jeonse_min":18600,"jeonse_max":28000,"jeonse_latest":19950,"jeonse_latest_date":"2026-10-26","jeonse_ratio":67.6,"wolse_deposit_median":2000,"wolse_monthly_median":85},{"area":60,"pyeong":18.1,"n":23,"median":43500,"min":41000,"max":46500,"latest_price":45250,"latest_date":"2026-10-16","latest_floor":15,"jeonse_n":22,"wolse_n":13,"jeonse_median":29750,"jeonse_min":24600,"jeonse_max":32000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":68.4,"wolse_deposit_median":8000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-14",50.0,1,9800,null,null,1995],
 ["2006-01-16",50.0,14,10000,null,null,1995],
@@ -2373,5 +2373,6 @@
 ["2026-10-19",50.0,1,22000,0,"신규","26.12~28.12",null],
 ["2026-10-21",50.0,12,24000,0,"신규","26.12~28.12",null],
 ["2026-10-21",60.0,3,30000,0,"갱신","26.10~28.10",true],
-["2026-10-24",50.0,4,22000,0,"갱신","26.11~28.10",true]
+["2026-10-24",50.0,4,22000,0,"갱신","26.11~28.10",true],
+["2026-10-26",50.0,16,19950,0,"갱신","27.03~29.03",true]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"11350100002611",
 "name":"미륭아파트",
 "basis":"단지",
-"by_area":[{"area":51,"pyeong":15.4,"n":45,"median":93500,"min":51000,"max":106000,"latest_price":102500,"latest_date":"2026-10-07","latest_floor":12,"jeonse_n":105,"wolse_n":82,"jeonse_median":25000,"jeonse_min":14500,"jeonse_max":35000,"jeonse_latest":29000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":26.7,"wolse_deposit_median":2000,"wolse_monthly_median":83}],
+"by_area":[{"area":51,"pyeong":15.4,"n":45,"median":93500,"min":51000,"max":106000,"latest_price":102500,"latest_date":"2026-10-07","latest_floor":12,"jeonse_n":106,"wolse_n":82,"jeonse_median":25000,"jeonse_min":14500,"jeonse_max":35000,"jeonse_latest":29000,"jeonse_latest_date":"2026-10-24","jeonse_ratio":26.7,"wolse_deposit_median":2000,"wolse_monthly_median":83}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",51.48,12,12700,null,null,1986],
 ["2006-01-12",51.48,14,12500,null,null,1986],
@@ -1232,5 +1232,6 @@
 ["2026-10-16",51.48,14,34000,0,"신규","26.12~28.12",null],
 ["2026-10-19",51.48,8,27850,0,"갱신","26.12~28.12",null],
 ["2026-10-19",51.48,12,1000,74,"갱신","26.11~28.11",true],
+["2026-10-21",51.48,4,19400,0,"갱신","26.11~27.11",true],
 ["2026-10-24",51.48,9,29000,0,"신규","27.01~29.01",null]
 ]}}

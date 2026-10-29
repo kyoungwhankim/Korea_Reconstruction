@@ -1,7 +1,7 @@
 {"id":"41360100008687",
 "name":"인정프린스아파트",
 "basis":"단지",
-"by_area":[{"area":49,"pyeong":14.8,"n":10,"median":15250,"min":13000,"max":16300,"latest_price":15000,"latest_date":"2026-10-24","latest_floor":4,"jeonse_n":8,"wolse_n":0,"jeonse_median":12550,"jeonse_min":5000,"jeonse_max":13000,"jeonse_latest":12600,"jeonse_latest_date":"2026-09-22","jeonse_ratio":82.3},{"area":59,"pyeong":17.8,"n":5,"median":17200,"min":17000,"max":19200,"latest_price":19200,"latest_date":"2026-09-28","latest_floor":1,"jeonse_n":3,"wolse_n":0,"jeonse_median":13000,"jeonse_min":8000,"jeonse_max":14000,"jeonse_latest":13000,"jeonse_latest_date":"2026-06-01","jeonse_ratio":75.6}],
+"by_area":[{"area":49,"pyeong":14.8,"n":11,"median":15000,"min":13000,"max":16300,"latest_price":13400,"latest_date":"2026-10-28","latest_floor":5,"jeonse_n":8,"wolse_n":0,"jeonse_median":12550,"jeonse_min":5000,"jeonse_max":13000,"jeonse_latest":12600,"jeonse_latest_date":"2026-09-22","jeonse_ratio":83.7},{"area":59,"pyeong":17.8,"n":5,"median":17200,"min":17000,"max":19200,"latest_price":19200,"latest_date":"2026-09-28","latest_floor":1,"jeonse_n":3,"wolse_n":0,"jeonse_median":13000,"jeonse_min":8000,"jeonse_max":14000,"jeonse_latest":13000,"jeonse_latest_date":"2026-06-01","jeonse_ratio":75.6}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-18",49.08,3,6900,null,null,1986],
 ["2006-03-20",49.08,5,6550,null,null,1986],
@@ -253,7 +253,8 @@
 ["2026-09-05",49.08,5,14300,null,"중개거래",1986],
 ["2026-09-28",58.93,1,19200,"101","중개거래",1986],
 ["2026-10-06",49.08,1,14800,null,"중개거래",1986],
-["2026-10-24",49.08,4,15000,null,"중개거래",1986]
+["2026-10-24",49.08,4,15000,null,"중개거래",1986],
+["2026-10-28",49.08,5,13400,null,"직거래",1986]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-04",49.08,3,13000,0,"신규","25.12~27.12",null],

@@ -1,7 +1,7 @@
 {"id":"28200100009019",
 "name":"만수뉴서울아파트",
 "basis":"단지",
-"by_area":[{"area":35,"pyeong":10.6,"n":69,"median":10700,"min":8000,"max":15800,"latest_price":10050,"latest_date":"2026-10-24","latest_floor":15,"jeonse_n":50,"wolse_n":138,"jeonse_median":9000,"jeonse_min":7350,"jeonse_max":10000,"jeonse_latest":9600,"jeonse_latest_date":"2026-09-30","jeonse_ratio":84.1,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
+"by_area":[{"area":35,"pyeong":10.6,"n":69,"median":10700,"min":8000,"max":15800,"latest_price":10050,"latest_date":"2026-10-24","latest_floor":15,"jeonse_n":50,"wolse_n":139,"jeonse_median":9000,"jeonse_min":7350,"jeonse_max":10000,"jeonse_latest":9600,"jeonse_latest_date":"2026-09-30","jeonse_ratio":84.1,"wolse_deposit_median":1000,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-10",34.65,14,4630,null,null,1992],
 ["2006-01-19",34.65,1,4500,null,null,1992],
@@ -2897,5 +2897,6 @@
 ["2026-09-21",34.65,8,9560,0,"신규","26.11~28.11",null],
 ["2026-09-30",34.65,11,9600,0,"신규","26.10~28.10",null],
 ["2026-10-04",34.65,4,1000,60,"신규","26.10~28.10",null],
-["2026-10-13",34.65,7,1000,50,"신규","26.11~28.11",null]
+["2026-10-13",34.65,7,1000,50,"신규","26.11~28.11",null],
+["2026-10-26",34.65,2,1000,50,"신규","26.11~28.11",null]
 ]}}

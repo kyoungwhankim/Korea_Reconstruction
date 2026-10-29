@@ -1,7 +1,7 @@
 {"id":"41173100006713",
 "name":"초원성원아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":11,"wolse_n":4,"jeonse_median":42000,"jeonse_min":34650,"jeonse_max":53000,"jeonse_latest":40950,"jeonse_latest_date":"2026-10-09","wolse_deposit_median":24900,"wolse_monthly_median":60},{"area":85,"pyeong":25.7,"n":13,"median":104000,"min":98800,"max":116000,"latest_price":116000,"latest_date":"2026-07-31","latest_floor":6,"jeonse_n":16,"wolse_n":3,"jeonse_median":58000,"jeonse_min":33600,"jeonse_max":77000,"jeonse_latest":62000,"jeonse_latest_date":"2026-09-05","jeonse_ratio":55.8,"wolse_deposit_median":2200,"wolse_monthly_median":138}],
+"by_area":[{"area":60,"pyeong":18.1,"jeonse_n":11,"wolse_n":4,"jeonse_median":42000,"jeonse_min":34650,"jeonse_max":53000,"jeonse_latest":40950,"jeonse_latest_date":"2026-10-09","wolse_deposit_median":24900,"wolse_monthly_median":60},{"area":85,"pyeong":25.7,"n":13,"median":104000,"min":98800,"max":116000,"latest_price":116000,"latest_date":"2026-07-31","latest_floor":6,"jeonse_n":16,"wolse_n":4,"jeonse_median":58000,"jeonse_min":33600,"jeonse_max":77000,"jeonse_latest":62000,"jeonse_latest_date":"2026-09-05","jeonse_ratio":55.8,"wolse_deposit_median":21100,"wolse_monthly_median":119}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-21",59.94,1,22800,null,null,1992],
 ["2006-02-24",59.94,9,26000,null,null,1992],
@@ -506,6 +506,7 @@
 ["2026-07-31",84.99,6,40000,80,"갱신","26.09~27.01",null],
 ["2026-09-05",84.99,20,62000,0,"갱신","26.10~28.10",null],
 ["2026-09-30",59.94,8,19800,80,null,null,null],
+["2026-10-01",84.99,8,50000,100,"신규","26.11~28.11",null],
 ["2026-10-09",59.94,11,40950,0,"갱신","26.12~28.12",true],
 ["2026-10-09",59.94,12,15000,180,"신규","26.10~28.10",null]
 ]}}

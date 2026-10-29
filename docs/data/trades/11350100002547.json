@@ -1,7 +1,7 @@
 {"id":"11350100002547",
 "name":"우성아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":6,"median":119500,"min":116700,"max":125000,"latest_price":125000,"latest_date":"2026-07-22","latest_floor":11,"jeonse_n":19,"wolse_n":14,"jeonse_median":50000,"jeonse_min":44100,"jeonse_max":73000,"jeonse_latest":73000,"jeonse_latest_date":"2026-08-22","jeonse_ratio":41.8,"wolse_deposit_median":37750,"wolse_monthly_median":90},{"area":127,"pyeong":38.4,"n":11,"median":133500,"min":103000,"max":143500,"latest_price":143500,"latest_date":"2026-07-13","latest_floor":13,"jeonse_n":15,"wolse_n":2,"jeonse_median":65000,"jeonse_min":54600,"jeonse_max":87000,"jeonse_latest":68250,"jeonse_latest_date":"2026-10-02","jeonse_ratio":48.7,"wolse_deposit_median":15000,"wolse_monthly_median":184}],
+"by_area":[{"area":85,"pyeong":25.7,"n":6,"median":119500,"min":116700,"max":125000,"latest_price":125000,"latest_date":"2026-07-22","latest_floor":11,"jeonse_n":19,"wolse_n":15,"jeonse_median":50000,"jeonse_min":44100,"jeonse_max":73000,"jeonse_latest":73000,"jeonse_latest_date":"2026-08-22","jeonse_ratio":41.8,"wolse_deposit_median":36500,"wolse_monthly_median":100},{"area":127,"pyeong":38.4,"n":11,"median":133500,"min":103000,"max":143500,"latest_price":143500,"latest_date":"2026-07-13","latest_floor":13,"jeonse_n":15,"wolse_n":2,"jeonse_median":65000,"jeonse_min":54600,"jeonse_max":87000,"jeonse_latest":68250,"jeonse_latest_date":"2026-10-02","jeonse_ratio":48.7,"wolse_deposit_median":15000,"wolse_monthly_median":184}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-03",84.91,4,22500,null,null,1988],
 ["2006-02-07",127.22,3,41800,null,null,1988],
@@ -605,5 +605,6 @@
 ["2026-09-12",84.91,1,36500,50,"갱신","26.10~27.12",null],
 ["2026-10-01",84.91,9,5010,190,"갱신","27.01~29.01",true],
 ["2026-10-02",127.22,14,68250,0,"갱신","26.11~28.11",true],
-["2026-10-10",84.91,3,43000,35,"갱신","26.10~28.10",null]
+["2026-10-10",84.91,3,43000,35,"갱신","26.10~28.10",null],
+["2026-10-28",84.91,7,15000,100,"갱신","26.10~28.10",null]
 ]}}

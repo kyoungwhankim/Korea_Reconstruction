@@ -1,7 +1,7 @@
 {"id":"41150100006480",
 "name":"신곡동신아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":10,"median":33150,"min":30200,"max":39000,"latest_price":30200,"latest_date":"2026-10-05","latest_floor":2,"jeonse_n":11,"wolse_n":5,"jeonse_median":23000,"jeonse_min":20000,"jeonse_max":25000,"jeonse_latest":20000,"jeonse_latest_date":"2026-10-12","jeonse_ratio":69.4,"wolse_deposit_median":2000,"wolse_monthly_median":90}],
+"by_area":[{"area":85,"pyeong":25.7,"n":11,"median":33000,"min":30200,"max":39000,"latest_price":30200,"latest_date":"2026-10-05","latest_floor":2,"jeonse_n":11,"wolse_n":5,"jeonse_median":23000,"jeonse_min":20000,"jeonse_max":25000,"jeonse_latest":20000,"jeonse_latest_date":"2026-10-12","jeonse_ratio":69.7,"wolse_deposit_median":2000,"wolse_monthly_median":90}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-26",84.6,15,10350,null,null,1993],
 ["2006-04-03",84.6,5,11500,null,null,1993],
@@ -436,6 +436,7 @@
 ["2026-07-16",84.6,3,32800,null,"중개거래",1993],
 ["2026-08-07",84.6,5,37000,null,"중개거래",1993],
 ["2026-09-18",84.6,12,35500,null,"중개거래",1993],
+["2026-10-04",84.6,6,33000,null,"중개거래",1993],
 ["2026-10-05",84.6,2,30200,null,"중개거래",1993]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

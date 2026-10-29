@@ -1,7 +1,7 @@
 {"id":"11500112046074",
 "name":"가양도시개발9-1단지아파트",
 "basis":null,
-"by_area":[{"area":34,"pyeong":10.3,"jeonse_n":1,"wolse_n":36,"jeonse_median":2838,"jeonse_min":2838,"jeonse_max":2838,"jeonse_latest":2838,"jeonse_latest_date":"2025-11-10","wolse_deposit_median":738,"wolse_monthly_median":10},{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":19,"wolse_deposit_median":852,"wolse_monthly_median":13},{"area":50,"pyeong":15.1,"jeonse_n":0,"wolse_n":7,"wolse_deposit_median":1062,"wolse_monthly_median":16}],
+"by_area":[{"area":34,"pyeong":10.3,"jeonse_n":1,"wolse_n":37,"jeonse_median":2838,"jeonse_min":2838,"jeonse_max":2838,"jeonse_latest":2838,"jeonse_latest_date":"2025-11-10","wolse_deposit_median":738,"wolse_monthly_median":10},{"area":40,"pyeong":12.1,"jeonse_n":0,"wolse_n":19,"wolse_deposit_median":852,"wolse_monthly_median":13},{"area":50,"pyeong":15.1,"jeonse_n":0,"wolse_n":7,"wolse_deposit_median":1062,"wolse_monthly_median":16}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
@@ -67,5 +67,6 @@
 ["2026-10-08",34.44,2,711,10,"갱신","26.11~28.10",null],
 ["2026-10-09",34.44,12,1925,5,"갱신","26.11~28.10",null],
 ["2026-10-16",34.44,3,711,11,"갱신","26.11~28.10",null],
-["2026-10-26",34.44,2,711,10,"갱신","26.11~28.10",null]
+["2026-10-26",34.44,2,711,10,"갱신","26.11~28.10",null],
+["2026-10-28",34.44,3,711,11,"갱신","26.11~28.10",null]
 ]}}

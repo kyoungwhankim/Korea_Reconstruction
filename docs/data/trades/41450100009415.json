@@ -1,7 +1,7 @@
 {"id":"41450100009415",
 "name":"덕풍현대아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":18,"median":50000,"min":45000,"max":63000,"latest_price":59000,"latest_date":"2026-08-15","latest_floor":2,"jeonse_n":10,"wolse_n":6,"jeonse_median":34500,"jeonse_min":28350,"jeonse_max":38000,"jeonse_latest":28350,"jeonse_latest_date":"2026-09-05","jeonse_ratio":69.0,"wolse_deposit_median":25000,"wolse_monthly_median":39},{"area":85,"pyeong":25.7,"n":12,"median":61150,"min":51700,"max":64500,"latest_price":63300,"latest_date":"2026-10-11","latest_floor":11,"jeonse_n":16,"wolse_n":7,"jeonse_median":42950,"jeonse_min":23000,"jeonse_max":48000,"jeonse_latest":42900,"jeonse_latest_date":"2026-10-06","jeonse_ratio":70.2,"wolse_deposit_median":26000,"wolse_monthly_median":70}],
+"by_area":[{"area":60,"pyeong":18.1,"n":18,"median":50000,"min":45000,"max":63000,"latest_price":59000,"latest_date":"2026-08-15","latest_floor":2,"jeonse_n":10,"wolse_n":7,"jeonse_median":34500,"jeonse_min":28350,"jeonse_max":38000,"jeonse_latest":28350,"jeonse_latest_date":"2026-09-05","jeonse_ratio":69.0,"wolse_deposit_median":25000,"wolse_monthly_median":48},{"area":85,"pyeong":25.7,"n":12,"median":61150,"min":51700,"max":64500,"latest_price":63300,"latest_date":"2026-10-11","latest_floor":11,"jeonse_n":16,"wolse_n":7,"jeonse_median":42950,"jeonse_min":23000,"jeonse_max":48000,"jeonse_latest":42900,"jeonse_latest_date":"2026-10-06","jeonse_ratio":70.2,"wolse_deposit_median":26000,"wolse_monthly_median":70}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",84.81,7,18500,null,null,1995],
 ["2006-01-11",84.81,11,20000,null,null,1995],
@@ -723,5 +723,6 @@
 ["2026-09-05",59.91,1,28350,0,"갱신","26.09~28.09",true],
 ["2026-09-05",59.91,1,28350,0,"갱신","26.09~28.09",true],
 ["2026-09-17",59.91,18,3000,170,"신규","26.11~28.11",null],
-["2026-10-06",84.81,16,42900,0,"갱신","26.10~28.10",null]
+["2026-10-06",84.81,16,42900,0,"갱신","26.10~28.10",null],
+["2026-10-24",59.91,1,25000,85,"신규","26.12~28.12",null]
 ]}}

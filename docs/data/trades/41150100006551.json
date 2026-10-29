@@ -1,7 +1,7 @@
 {"id":"41150100006551",
 "name":"청솔아파트",
 "basis":"단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":3,"median":14000,"min":13700,"max":16000,"latest_price":16000,"latest_date":"2026-04-29","latest_floor":6,"jeonse_n":3,"wolse_n":4,"jeonse_median":12000,"jeonse_min":9000,"jeonse_max":12700,"jeonse_latest":12000,"jeonse_latest_date":"2026-05-14","jeonse_ratio":85.7,"wolse_deposit_median":2000,"wolse_monthly_median":55}],
+"by_area":[{"area":59,"pyeong":17.8,"n":4,"median":14150,"min":13700,"max":16000,"latest_price":14300,"latest_date":"2026-10-15","latest_floor":9,"jeonse_n":3,"wolse_n":4,"jeonse_median":12000,"jeonse_min":9000,"jeonse_max":12700,"jeonse_latest":12000,"jeonse_latest_date":"2026-05-14","jeonse_ratio":84.8,"wolse_deposit_median":2000,"wolse_monthly_median":55}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-04-06",59.0,7,6550,null,null,1993],
 ["2006-05-22",59.0,6,6500,null,null,1993],
@@ -102,7 +102,8 @@
 ["2025-09-05",59.0,9,16500,null,"직거래",1993],
 ["2026-02-25",59.0,9,13700,null,"중개거래",1993],
 ["2026-04-25",59.0,7,14000,null,"중개거래",1993],
-["2026-04-29",59.0,6,16000,null,"직거래",1993]
+["2026-04-29",59.0,6,16000,null,"직거래",1993],
+["2026-10-15",59.0,9,14300,null,"중개거래",1993]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-24",59.0,12,9000,0,"갱신","26.02~28.02",true],

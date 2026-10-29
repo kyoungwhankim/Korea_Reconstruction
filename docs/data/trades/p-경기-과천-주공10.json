@@ -1,7 +1,7 @@
 {"id":"경기-과천-주공10",
 "name":"주공10단지구역",
 "basis":"기존 단지",
-"by_area":[{"area":105,"pyeong":31.8,"jeonse_n":10,"wolse_n":4,"jeonse_median":57500,"jeonse_min":35000,"jeonse_max":70300,"jeonse_latest":50000,"jeonse_latest_date":"2026-08-26","wolse_deposit_median":27500,"wolse_monthly_median":97},{"area":124,"pyeong":37.5,"n":1,"median":300000,"min":300000,"max":300000,"latest_price":300000,"latest_date":"2026-05-23","latest_floor":1,"jeonse_n":30,"wolse_n":8,"jeonse_median":61500,"jeonse_min":50000,"jeonse_max":86100,"jeonse_latest":65000,"jeonse_latest_date":"2026-10-22","jeonse_ratio":20.5,"wolse_deposit_median":28500,"wolse_monthly_median":110}],
+"by_area":[{"area":105,"pyeong":31.8,"jeonse_n":10,"wolse_n":4,"jeonse_median":57500,"jeonse_min":35000,"jeonse_max":70300,"jeonse_latest":50000,"jeonse_latest_date":"2026-08-26","wolse_deposit_median":27500,"wolse_monthly_median":97},{"area":124,"pyeong":37.5,"n":1,"median":300000,"min":300000,"max":300000,"latest_price":300000,"latest_date":"2026-05-23","latest_floor":1,"jeonse_n":31,"wolse_n":8,"jeonse_median":60000,"jeonse_min":50000,"jeonse_max":86100,"jeonse_latest":65000,"jeonse_latest_date":"2026-10-22","jeonse_ratio":20.0,"wolse_deposit_median":28500,"wolse_monthly_median":110}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-06",124.45,1,113000,null,null,1984],
 ["2006-05-22",105.27,5,118300,null,null,1984],
@@ -306,5 +306,6 @@
 ["2026-09-20",124.45,5,50000,0,"신규","26.12~28.12",null],
 ["2026-10-01",124.45,4,5000,180,"신규","26.10~28.10",null],
 ["2026-10-02",124.45,2,86100,0,"갱신","26.10~28.10",null],
+["2026-10-09",124.45,4,57000,0,"갱신","26.11~28.11",true],
 ["2026-10-22",124.45,4,65000,0,"신규","26.12~28.12",null]
 ]}}

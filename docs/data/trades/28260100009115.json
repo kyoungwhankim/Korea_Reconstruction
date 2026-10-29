@@ -1,7 +1,7 @@
 {"id":"28260100009115",
 "name":"한성아파트",
 "basis":"단지",
-"by_area":[{"area":55,"pyeong":16.6,"n":5,"median":14500,"min":12000,"max":15000,"latest_price":14000,"latest_date":"2026-08-26","latest_floor":6,"jeonse_n":1,"wolse_n":7,"jeonse_median":6000,"jeonse_min":6000,"jeonse_max":6000,"jeonse_latest":6000,"jeonse_latest_date":"2026-05-30","jeonse_ratio":41.4,"wolse_deposit_median":500,"wolse_monthly_median":50}],
+"by_area":[{"area":55,"pyeong":16.6,"n":6,"median":14250,"min":12000,"max":15000,"latest_price":13000,"latest_date":"2026-10-28","latest_floor":6,"jeonse_n":1,"wolse_n":7,"jeonse_median":6000,"jeonse_min":6000,"jeonse_max":6000,"jeonse_latest":6000,"jeonse_latest_date":"2026-05-30","jeonse_ratio":42.1,"wolse_deposit_median":500,"wolse_monthly_median":50}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-21",54.61,3,6100,null,null,1992],
 ["2006-01-25",54.61,6,5650,null,null,1992],
@@ -184,7 +184,8 @@
 ["2026-03-10",54.61,3,12000,"나","중개거래",1992],
 ["2026-04-03",54.61,1,14500,"가","중개거래",1992],
 ["2026-08-07",54.61,1,14500,"나","중개거래",1992],
-["2026-08-26",54.61,6,14000,"가","중개거래",1992]
+["2026-08-26",54.61,6,14000,"가","중개거래",1992],
+["2026-10-28",54.61,6,13000,null,"직거래",1992]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-07",54.61,1,300,50,"신규","25.11~27.11",null],

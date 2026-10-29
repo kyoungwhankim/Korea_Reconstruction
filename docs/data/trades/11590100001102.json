@@ -1,7 +1,7 @@
 {"id":"11590100001102",
 "name":"극동강변아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":1,"median":144000,"min":144000,"max":144000,"latest_price":144000,"latest_date":"2026-06-06","latest_floor":6,"jeonse_n":13,"wolse_n":3,"jeonse_median":50000,"jeonse_min":42000,"jeonse_max":54000,"jeonse_latest":53000,"jeonse_latest_date":"2026-07-01","jeonse_ratio":34.7,"wolse_deposit_median":38100,"wolse_monthly_median":10}],
+"by_area":[{"area":85,"pyeong":25.7,"n":1,"median":144000,"min":144000,"max":144000,"latest_price":144000,"latest_date":"2026-06-06","latest_floor":6,"jeonse_n":14,"wolse_n":3,"jeonse_median":48750,"jeonse_min":42000,"jeonse_max":54000,"jeonse_latest":43000,"jeonse_latest_date":"2026-10-28","jeonse_ratio":33.9,"wolse_deposit_median":38100,"wolse_monthly_median":10}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-19",84.73,5,30200,null,null,1992],
 ["2006-06-02",84.73,6,35250,null,null,1992],
@@ -121,5 +121,6 @@
 ["2026-05-16",84.73,1,42000,0,"갱신","26.06~28.06",null],
 ["2026-05-26",84.73,2,47000,0,"신규","26.05~28.05",null],
 ["2026-06-22",84.73,1,38100,7,"갱신","26.07~28.07",true],
-["2026-07-01",84.73,8,53000,0,"갱신","26.07~28.07",null]
+["2026-07-01",84.73,8,53000,0,"갱신","26.07~28.07",null],
+["2026-10-28",84.73,10,43000,0,"갱신","26.12~28.12",null]
 ]}}

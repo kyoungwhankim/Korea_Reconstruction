@@ -1,7 +1,7 @@
 {"id":"11560100001019",
 "name":"유원문래아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":2,"median":99750,"min":99000,"max":100500,"latest_price":100500,"latest_date":"2026-02-25","latest_floor":5,"jeonse_n":5,"wolse_n":2,"jeonse_median":57000,"jeonse_min":57000,"jeonse_max":68000,"jeonse_latest":68000,"jeonse_latest_date":"2026-07-30","jeonse_ratio":57.1,"wolse_deposit_median":17625,"wolse_monthly_median":154}],
+"by_area":[{"area":85,"pyeong":25.7,"n":2,"median":99750,"min":99000,"max":100500,"latest_price":100500,"latest_date":"2026-02-25","latest_floor":5,"jeonse_n":6,"wolse_n":2,"jeonse_median":60000,"jeonse_min":57000,"jeonse_max":68000,"jeonse_latest":65000,"jeonse_latest_date":"2026-10-27","jeonse_ratio":60.2,"wolse_deposit_median":17625,"wolse_monthly_median":154}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-06",84.98,1,19500,null,null,1991],
 ["2006-03-06",84.98,14,24000,null,null,1991],
@@ -130,5 +130,6 @@
 ["2026-04-03",84.98,3,57000,0,"신규","26.06~28.06",null],
 ["2026-05-13",84.98,2,63000,0,"신규","26.08~28.08",null],
 ["2026-06-06",84.98,4,5250,189,"갱신","26.07~28.07",null],
-["2026-07-30",84.98,2,68000,0,"신규","26.09~28.09",null]
+["2026-07-30",84.98,2,68000,0,"신규","26.09~28.09",null],
+["2026-10-27",84.98,10,65000,0,"신규","26.12~28.12",null]
 ]}}

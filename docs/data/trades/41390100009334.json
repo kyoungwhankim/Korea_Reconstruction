@@ -1,7 +1,7 @@
 {"id":"41390100009334",
 "name":"녹원아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":8,"median":21700,"min":19000,"max":23000,"latest_price":23000,"latest_date":"2026-09-07","latest_floor":11,"jeonse_n":3,"wolse_n":0,"jeonse_median":16000,"jeonse_min":15000,"jeonse_max":17000,"jeonse_latest":16000,"jeonse_latest_date":"2026-07-14","jeonse_ratio":73.7}],
+"by_area":[{"area":85,"pyeong":25.7,"n":9,"median":21700,"min":19000,"max":23000,"latest_price":19000,"latest_date":"2026-10-25","latest_floor":6,"jeonse_n":3,"wolse_n":0,"jeonse_median":16000,"jeonse_min":15000,"jeonse_max":17000,"jeonse_latest":16000,"jeonse_latest_date":"2026-07-14","jeonse_ratio":73.7}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-16",84.99,12,9500,null,null,1992],
 ["2006-03-28",84.99,6,8800,null,null,1992],
@@ -210,7 +210,8 @@
 ["2026-07-13",84.99,1,19000,"2","직거래",1992],
 ["2026-07-31",84.99,8,20300,null,"중개거래",1992],
 ["2026-08-12",84.99,1,21000,"2","중개거래",1992],
-["2026-09-07",84.99,11,23000,"1","중개거래",1992]
+["2026-09-07",84.99,11,23000,"1","중개거래",1992],
+["2026-10-25",84.99,6,19000,null,"중개거래",1992]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-03-07",84.99,10,15000,0,"신규","26.04~28.04",null],

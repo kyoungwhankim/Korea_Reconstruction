@@ -1,7 +1,7 @@
 {"id":"28185100009601",
 "name":"동춘마을아파트",
 "basis":"단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":40,"median":25350,"min":21000,"max":28150,"latest_price":27400,"latest_date":"2026-10-23","latest_floor":3,"jeonse_n":48,"wolse_n":38,"jeonse_median":17000,"jeonse_min":3000,"jeonse_max":20000,"jeonse_latest":17000,"jeonse_latest_date":"2026-10-06","jeonse_ratio":67.1,"wolse_deposit_median":2000,"wolse_monthly_median":75}],
+"by_area":[{"area":59,"pyeong":17.8,"n":41,"median":25300,"min":21000,"max":28150,"latest_price":27400,"latest_date":"2026-10-23","latest_floor":3,"jeonse_n":48,"wolse_n":39,"jeonse_median":17000,"jeonse_min":3000,"jeonse_max":20000,"jeonse_latest":17000,"jeonse_latest_date":"2026-10-06","jeonse_ratio":67.2,"wolse_deposit_median":2000,"wolse_monthly_median":75}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-09",59.36,3,10900,null,null,1994],
 ["2006-01-09",59.36,4,10900,null,null,1994],
@@ -1241,6 +1241,7 @@
 ["2026-09-23",59.36,3,27500,"211","중개거래",1994],
 ["2026-10-08",59.3,3,25000,"202","직거래",1994],
 ["2026-10-12",59.3,5,24800,null,"중개거래",1994],
+["2026-10-20",59.3,1,25000,null,"중개거래",1994],
 ["2026-10-23",59.3,3,27400,null,"중개거래",1994]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
@@ -1329,5 +1330,6 @@
 ["2026-10-06",59.3,5,17000,0,"신규","26.11~28.11",null],
 ["2026-10-06",59.36,5,17000,0,"신규","26.11~28.11",null],
 ["2026-10-06",59.36,5,17000,0,"신규","26.11~28.11",null],
-["2026-10-07",59.36,3,2000,75,"갱신","26.10~28.10",true]
+["2026-10-07",59.36,3,2000,75,"갱신","26.10~28.10",true],
+["2026-10-09",59.3,4,2000,80,"갱신","26.10~28.10",null]
 ]}}

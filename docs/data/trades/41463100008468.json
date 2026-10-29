@@ -1,7 +1,7 @@
 {"id":"41463100008468",
 "name":"풍림고층아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":15,"median":32800,"min":31000,"max":38000,"latest_price":38000,"latest_date":"2026-08-28","latest_floor":14,"jeonse_n":0,"wolse_n":4,"wolse_deposit_median":11000,"wolse_monthly_median":72},{"area":79,"pyeong":23.9,"n":4,"median":41250,"min":41000,"max":42700,"latest_price":42700,"latest_date":"2026-06-26","latest_floor":19},{"area":84,"pyeong":25.4,"n":4,"median":43000,"min":41000,"max":45000,"latest_price":45000,"latest_date":"2026-06-15","latest_floor":4,"jeonse_n":1,"wolse_n":0,"jeonse_median":26250,"jeonse_min":26250,"jeonse_max":26250,"jeonse_latest":26250,"jeonse_latest_date":"2026-02-27","jeonse_ratio":61.0}],
+"by_area":[{"area":60,"pyeong":18.1,"n":15,"median":32800,"min":31000,"max":38000,"latest_price":38000,"latest_date":"2026-08-28","latest_floor":14,"jeonse_n":0,"wolse_n":5,"wolse_deposit_median":5000,"wolse_monthly_median":100},{"area":79,"pyeong":23.9,"n":4,"median":41250,"min":41000,"max":42700,"latest_price":42700,"latest_date":"2026-06-26","latest_floor":19},{"area":84,"pyeong":25.4,"n":4,"median":43000,"min":41000,"max":45000,"latest_price":45000,"latest_date":"2026-06-15","latest_floor":4,"jeonse_n":1,"wolse_n":0,"jeonse_median":26250,"jeonse_min":26250,"jeonse_max":26250,"jeonse_latest":26250,"jeonse_latest_date":"2026-02-27","jeonse_ratio":61.0}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-20",59.94,5,10500,null,null,1996],
 ["2006-01-20",59.94,18,10000,null,null,1996],
@@ -297,5 +297,6 @@
 ["2026-02-27",84.21,2,26250,0,"갱신","26.04~28.04",true],
 ["2026-05-05",59.94,13,21000,3,"갱신","26.05~28.05",true],
 ["2026-06-03",59.94,18,3000,120,"신규","26.07~28.07",null],
-["2026-10-11",59.94,18,19000,45,"갱신","26.12~28.12",null]
+["2026-10-11",59.94,18,19000,45,"갱신","26.12~28.12",null],
+["2026-10-16",59.94,19,5000,110,"신규","27.01~27.10",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"28200100009020",
 "name":"담방마을아파트",
 "basis":"단지",
-"by_area":[{"area":46,"pyeong":13.9,"n":25,"median":13400,"min":10500,"max":17000,"latest_price":13300,"latest_date":"2026-10-16","latest_floor":3,"jeonse_n":31,"wolse_n":20,"jeonse_median":12500,"jeonse_min":11000,"jeonse_max":12600,"jeonse_latest":12600,"jeonse_latest_date":"2026-10-16","jeonse_ratio":93.3,"wolse_deposit_median":2000,"wolse_monthly_median":50},{"area":50,"pyeong":15.1,"n":27,"median":16000,"min":13800,"max":20400,"latest_price":15250,"latest_date":"2026-10-26","latest_floor":13,"jeonse_n":14,"wolse_n":22,"jeonse_median":13200,"jeonse_min":12070,"jeonse_max":14500,"jeonse_latest":13000,"jeonse_latest_date":"2026-08-08","jeonse_ratio":82.5,"wolse_deposit_median":2000,"wolse_monthly_median":60}],
+"by_area":[{"area":46,"pyeong":13.9,"n":26,"median":13450,"min":10500,"max":17000,"latest_price":14500,"latest_date":"2026-10-23","latest_floor":13,"jeonse_n":31,"wolse_n":20,"jeonse_median":12500,"jeonse_min":11000,"jeonse_max":12600,"jeonse_latest":12600,"jeonse_latest_date":"2026-10-16","jeonse_ratio":92.9,"wolse_deposit_median":2000,"wolse_monthly_median":50},{"area":50,"pyeong":15.1,"n":27,"median":16000,"min":13800,"max":20400,"latest_price":15250,"latest_date":"2026-10-26","latest_floor":13,"jeonse_n":14,"wolse_n":22,"jeonse_median":13200,"jeonse_min":12070,"jeonse_max":14500,"jeonse_latest":13000,"jeonse_latest_date":"2026-08-08","jeonse_ratio":82.5,"wolse_deposit_median":2000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-05",49.72,12,7300,null,null,1994],
 ["2006-02-08",49.72,1,6830,null,null,1994],
@@ -2140,6 +2140,7 @@
 ["2026-09-08",46.12,9,13000,"102","중개거래",1994],
 ["2026-09-08",49.72,1,13800,"103","중개거래",1994],
 ["2026-10-16",45.76,3,13300,null,"중개거래",1994],
+["2026-10-23",45.76,13,14500,null,"중개거래",1994],
 ["2026-10-25",49.72,4,14800,null,"중개거래",1994],
 ["2026-10-26",49.72,13,15250,null,"중개거래",1994]
 ]},

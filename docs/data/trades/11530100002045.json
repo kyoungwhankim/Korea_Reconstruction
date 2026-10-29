@@ -1,7 +1,7 @@
 {"id":"11530100002045",
 "name":"건영아파트",
 "basis":"단지",
-"by_area":[{"area":62,"pyeong":18.8,"n":1,"median":38500,"min":38500,"max":38500,"latest_price":38500,"latest_date":"2026-05-18","latest_floor":13},{"area":84,"pyeong":25.4,"n":5,"median":46000,"min":43000,"max":48500,"latest_price":46000,"latest_date":"2026-09-09","latest_floor":5,"jeonse_n":4,"wolse_n":2,"jeonse_median":28000,"jeonse_min":22000,"jeonse_max":35000,"jeonse_latest":35000,"jeonse_latest_date":"2026-09-18","jeonse_ratio":60.9,"wolse_deposit_median":21675,"wolse_monthly_median":60}],
+"by_area":[{"area":62,"pyeong":18.8,"n":1,"median":38500,"min":38500,"max":38500,"latest_price":38500,"latest_date":"2026-05-18","latest_floor":13},{"area":84,"pyeong":25.4,"n":5,"median":46000,"min":43000,"max":48500,"latest_price":46000,"latest_date":"2026-09-09","latest_floor":5,"jeonse_n":4,"wolse_n":2,"jeonse_median":28000,"jeonse_min":22000,"jeonse_max":35000,"jeonse_latest":35000,"jeonse_latest_date":"2026-09-18","jeonse_ratio":60.9,"wolse_deposit_median":21675,"wolse_monthly_median":60},{"area":85,"pyeong":25.7,"n":1,"median":47000,"min":47000,"max":47000,"latest_price":47000,"latest_date":"2026-10-13","latest_floor":8}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-30",84.41,18,15450,null,null,1994],
 ["2006-04-27",84.41,13,15800,null,null,1994],
@@ -178,7 +178,8 @@
 ["2026-04-30",84.41,8,44800,"101","중개거래",1994],
 ["2026-05-18",62.23,13,38500,"102","중개거래",1994],
 ["2026-05-26",84.41,1,43000,"101","중개거래",1994],
-["2026-09-09",84.41,5,46000,null,"중개거래",1994]
+["2026-09-09",84.41,5,46000,null,"중개거래",1994],
+["2026-10-13",84.73,8,47000,null,"중개거래",1994]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-15",84.41,10,22000,0,"갱신","25.11~27.11",null],

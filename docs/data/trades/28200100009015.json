@@ -1,7 +1,7 @@
 {"id":"28200100009015",
 "name":"공작(3-73)",
 "basis":"단지",
-"by_area":[{"area":39,"pyeong":11.8,"n":3,"median":7800,"min":7800,"max":8000,"latest_price":7800,"latest_date":"2026-10-10","latest_floor":1,"jeonse_n":3,"wolse_n":3,"jeonse_median":6000,"jeonse_min":5500,"jeonse_max":7000,"jeonse_latest":6000,"jeonse_latest_date":"2026-06-01","jeonse_ratio":76.9,"wolse_deposit_median":1000,"wolse_monthly_median":45},{"area":57,"pyeong":17.2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":45}],
+"by_area":[{"area":39,"pyeong":11.8,"n":4,"median":7900,"min":7800,"max":8300,"latest_price":7800,"latest_date":"2026-10-10","latest_floor":1,"jeonse_n":3,"wolse_n":3,"jeonse_median":6000,"jeonse_min":5500,"jeonse_max":7000,"jeonse_latest":6000,"jeonse_latest_date":"2026-06-01","jeonse_ratio":75.9,"wolse_deposit_median":1000,"wolse_monthly_median":45},{"area":57,"pyeong":17.2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":500,"wolse_monthly_median":45}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-27",39.29,4,4550,null,null,1989],
 ["2006-06-02",39.29,5,4200,null,null,1989],
@@ -174,6 +174,7 @@
 ["2025-08-16",39.29,2,9500,"가","중개거래",1989],
 ["2026-01-01",39.29,1,8000,"가","직거래",1989],
 ["2026-04-15",39.29,1,7800,"가","중개거래",1989],
+["2026-09-30",39.29,2,8300,null,"중개거래",1989],
 ["2026-10-10",39.29,1,7800,"가","중개거래",1989]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

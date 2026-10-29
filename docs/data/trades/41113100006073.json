@@ -1,7 +1,7 @@
 {"id":"41113100006073",
 "name":"삼천리권선2차아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":49,"median":33000,"min":28000,"max":40000,"latest_price":34000,"latest_date":"2026-10-26","latest_floor":7,"jeonse_n":38,"wolse_n":13,"jeonse_median":24050,"jeonse_min":20000,"jeonse_max":30000,"jeonse_latest":24000,"jeonse_latest_date":"2026-10-25","jeonse_ratio":72.9,"wolse_deposit_median":3000,"wolse_monthly_median":100}],
+"by_area":[{"area":60,"pyeong":18.1,"n":49,"median":33000,"min":28000,"max":40000,"latest_price":34000,"latest_date":"2026-10-26","latest_floor":7,"jeonse_n":39,"wolse_n":14,"jeonse_median":24100,"jeonse_min":20000,"jeonse_max":30000,"jeonse_latest":24000,"jeonse_latest_date":"2026-10-25","jeonse_ratio":73.0,"wolse_deposit_median":3000,"wolse_monthly_median":97}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",59.95,7,11900,null,null,1996],
 ["2006-01-13",59.95,8,11500,null,null,1996],
@@ -939,7 +939,9 @@
 ["2026-08-26",59.95,8,2000,84,"신규","26.09~28.09",null],
 ["2026-09-14",59.95,9,30000,0,"신규","26.11~28.11",null],
 ["2026-09-20",59.95,8,25200,0,"갱신","26.10~28.10",true],
+["2026-09-24",59.95,4,26000,0,"갱신","26.11~28.11",true],
 ["2026-09-27",59.95,4,26000,0,"갱신","26.11~28.11",true],
 ["2026-10-20",59.95,9,28500,0,"갱신","26.11~28.11",null],
-["2026-10-25",59.95,7,24000,0,"갱신","27.02~29.02",true]
+["2026-10-25",59.95,7,24000,0,"갱신","27.02~29.02",true],
+["2026-10-26",59.95,10,3000,89,"갱신","27.01~29.01",true]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"11260100002467",
 "name":"성원아파트",
 "basis":"단지",
-"by_area":[{"area":84,"pyeong":25.4,"n":51,"median":65000,"min":59900,"max":82000,"latest_price":80000,"latest_date":"2026-10-07","latest_floor":11,"jeonse_n":31,"wolse_n":11,"jeonse_median":42500,"jeonse_min":35000,"jeonse_max":55000,"jeonse_latest":41800,"jeonse_latest_date":"2026-10-20","jeonse_ratio":65.4,"wolse_deposit_median":10000,"wolse_monthly_median":100},{"area":85,"pyeong":25.7,"n":5,"median":68000,"min":63000,"max":82900,"latest_price":82900,"latest_date":"2026-10-02","latest_floor":14,"jeonse_n":5,"wolse_n":1,"jeonse_median":40000,"jeonse_min":39900,"jeonse_max":53000,"jeonse_latest":53000,"jeonse_latest_date":"2026-07-25","jeonse_ratio":58.8,"wolse_deposit_median":32000,"wolse_monthly_median":90}],
+"by_area":[{"area":84,"pyeong":25.4,"n":51,"median":65000,"min":59900,"max":82000,"latest_price":80000,"latest_date":"2026-10-07","latest_floor":11,"jeonse_n":31,"wolse_n":11,"jeonse_median":42500,"jeonse_min":35000,"jeonse_max":55000,"jeonse_latest":41800,"jeonse_latest_date":"2026-10-20","jeonse_ratio":65.4,"wolse_deposit_median":10000,"wolse_monthly_median":100},{"area":85,"pyeong":25.7,"n":5,"median":68000,"min":63000,"max":82900,"latest_price":82900,"latest_date":"2026-10-02","latest_floor":14,"jeonse_n":5,"wolse_n":2,"jeonse_median":40000,"jeonse_min":39900,"jeonse_max":53000,"jeonse_latest":53000,"jeonse_latest_date":"2026-07-25","jeonse_ratio":58.8,"wolse_deposit_median":36000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-04",84.4,4,17600,null,null,1994],
 ["2006-02-05",84.91,6,19000,null,null,1994],
@@ -1064,5 +1064,6 @@
 ["2026-09-10",84.4,16,55000,0,"신규","26.11~28.11",null],
 ["2026-09-11",84.4,13,40000,35,"신규","26.11~28.11",null],
 ["2026-10-16",84.32,24,38000,0,"갱신","26.11~28.11",true],
-["2026-10-20",84.32,18,41800,0,"갱신","26.10~28.10",null]
+["2026-10-20",84.32,18,41800,0,"갱신","26.10~28.10",null],
+["2026-10-26",84.91,11,40000,30,"신규","27.02~29.02",null]
 ]}}

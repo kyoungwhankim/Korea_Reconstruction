@@ -1,7 +1,7 @@
 {"id":"서울-강남구-압구정한양7",
 "name":"압구정한양7차아파트",
 "basis":"기존 단지",
-"by_area":[{"area":106,"pyeong":32.1,"n":1,"median":545000,"min":545000,"max":545000,"latest_price":545000,"latest_date":"2026-01-20","latest_floor":3,"jeonse_n":14,"wolse_n":7,"jeonse_median":80000,"jeonse_min":65000,"jeonse_max":90000,"jeonse_latest":84000,"jeonse_latest_date":"2026-08-31","jeonse_ratio":14.7,"wolse_deposit_median":10000,"wolse_monthly_median":260},{"area":110,"pyeong":33.3,"jeonse_n":5,"wolse_n":1,"jeonse_median":85000,"jeonse_min":65000,"jeonse_max":85000,"jeonse_latest":65000,"jeonse_latest_date":"2026-07-15","wolse_deposit_median":10000,"wolse_monthly_median":300},{"area":138,"pyeong":41.7,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":67000,"wolse_monthly_median":240}],
+"by_area":[{"area":106,"pyeong":32.1,"n":1,"median":545000,"min":545000,"max":545000,"latest_price":545000,"latest_date":"2026-01-20","latest_floor":3,"jeonse_n":14,"wolse_n":7,"jeonse_median":80000,"jeonse_min":65000,"jeonse_max":90000,"jeonse_latest":84000,"jeonse_latest_date":"2026-08-31","jeonse_ratio":14.7,"wolse_deposit_median":10000,"wolse_monthly_median":260},{"area":110,"pyeong":33.3,"jeonse_n":5,"wolse_n":1,"jeonse_median":85000,"jeonse_min":65000,"jeonse_max":85000,"jeonse_latest":65000,"jeonse_latest_date":"2026-07-15","wolse_deposit_median":10000,"wolse_monthly_median":300},{"area":138,"pyeong":41.7,"jeonse_n":1,"wolse_n":1,"jeonse_median":157500,"jeonse_min":157500,"jeonse_max":157500,"jeonse_latest":157500,"jeonse_latest_date":"2026-10-28","wolse_deposit_median":67000,"wolse_monthly_median":240}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-04-04",106.22,4,123000,null,null,1981],
 ["2006-06-23",106.22,11,124500,null,null,1981],
@@ -158,5 +158,6 @@
 ["2026-07-15",110.25,1,65000,0,"갱신","26.09~28.09",null],
 ["2026-07-23",106.22,2,78000,0,"갱신","26.08~28.08",true],
 ["2026-08-31",106.22,7,84000,0,"갱신","26.09~28.09",null],
-["2026-09-08",106.22,10,80000,40,"신규","26.10~28.10",null]
+["2026-09-08",106.22,10,80000,40,"신규","26.10~28.10",null],
+["2026-10-28",137.55,12,157500,0,"갱신","26.12~28.12",true]
 ]}}

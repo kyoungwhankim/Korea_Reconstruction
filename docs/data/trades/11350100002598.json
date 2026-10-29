@@ -1,7 +1,7 @@
 {"id":"11350100002598",
 "name":"중계현대3차",
 "basis":"단지",
-"by_area":[{"area":66,"pyeong":20.0,"n":8,"median":60750,"min":39300,"max":65000,"latest_price":65000,"latest_date":"2026-09-09","latest_floor":9,"jeonse_n":13,"wolse_n":0,"jeonse_median":39000,"jeonse_min":30000,"jeonse_max":45000,"jeonse_latest":31400,"jeonse_latest_date":"2026-05-19","jeonse_ratio":64.2},{"area":84,"pyeong":25.4,"n":3,"median":81000,"min":76500,"max":81300,"latest_price":81300,"latest_date":"2026-09-05","latest_floor":4,"jeonse_n":3,"wolse_n":2,"jeonse_median":51000,"jeonse_min":45000,"jeonse_max":60000,"jeonse_latest":51000,"jeonse_latest_date":"2026-06-15","jeonse_ratio":63.0,"wolse_deposit_median":25000,"wolse_monthly_median":150}],
+"by_area":[{"area":66,"pyeong":20.0,"n":8,"median":60750,"min":39300,"max":65000,"latest_price":65000,"latest_date":"2026-09-09","latest_floor":9,"jeonse_n":13,"wolse_n":0,"jeonse_median":39000,"jeonse_min":30000,"jeonse_max":45000,"jeonse_latest":31400,"jeonse_latest_date":"2026-05-19","jeonse_ratio":64.2},{"area":84,"pyeong":25.4,"n":4,"median":81150,"min":76500,"max":83000,"latest_price":83000,"latest_date":"2026-10-02","latest_floor":7,"jeonse_n":3,"wolse_n":2,"jeonse_median":51000,"jeonse_min":45000,"jeonse_max":60000,"jeonse_latest":51000,"jeonse_latest_date":"2026-06-15","jeonse_ratio":62.8,"wolse_deposit_median":25000,"wolse_monthly_median":150}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-02",84.35,9,26300,null,null,1992],
 ["2006-02-13",84.35,11,26000,null,null,1992],
@@ -171,7 +171,8 @@
 ["2026-08-14",84.35,1,76500,"101","중개거래",1992],
 ["2026-08-21",66.47,3,64000,null,"중개거래",1992],
 ["2026-09-05",84.35,4,81300,null,"중개거래",1992],
-["2026-09-09",66.47,9,65000,null,"중개거래",1992]
+["2026-09-09",66.47,9,65000,null,"중개거래",1992],
+["2026-10-02",84.35,7,83000,null,"중개거래",1992]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-07",84.35,2,60000,0,"신규","26.01~28.01",null],

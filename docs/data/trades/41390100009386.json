@@ -1,7 +1,7 @@
 {"id":"41390100009386",
 "name":"시화영남1차",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":12,"median":24200,"min":18500,"max":26200,"latest_price":23800,"latest_date":"2026-09-08","latest_floor":3,"jeonse_n":16,"wolse_n":13,"jeonse_median":19500,"jeonse_min":14500,"jeonse_max":22000,"jeonse_latest":20000,"jeonse_latest_date":"2026-09-14","jeonse_ratio":80.6,"wolse_deposit_median":2000,"wolse_monthly_median":70}],
+"by_area":[{"area":60,"pyeong":18.1,"n":13,"median":24000,"min":18500,"max":26200,"latest_price":23500,"latest_date":"2026-10-27","latest_floor":3,"jeonse_n":16,"wolse_n":14,"jeonse_median":19500,"jeonse_min":14500,"jeonse_max":22000,"jeonse_latest":20000,"jeonse_latest_date":"2026-09-14","jeonse_ratio":81.2,"wolse_deposit_median":2000,"wolse_monthly_median":72}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-06",59.91,1,7400,null,null,1996],
 ["2006-02-10",59.98,3,8000,null,null,1996],
@@ -594,7 +594,8 @@
 ["2026-06-08",59.91,9,24400,"101","중개거래",1996],
 ["2026-06-20",59.98,3,20300,"107","중개거래",1996],
 ["2026-08-14",59.91,8,24700,null,"중개거래",1996],
-["2026-09-08",59.91,3,23800,null,"중개거래",1996]
+["2026-09-08",59.91,3,23800,null,"중개거래",1996],
+["2026-10-27",59.98,3,23500,null,"중개거래",1996]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-13",59.91,7,22000,0,null,null,null],
@@ -625,5 +626,6 @@
 ["2026-08-04",59.98,1,2000,80,"신규","26.09~28.09",null],
 ["2026-08-10",59.98,1,2000,80,"신규","26.10~28.10",null],
 ["2026-09-14",59.91,2,2000,95,"신규","26.11~27.06",null],
-["2026-09-14",59.91,4,20000,0,"신규","26.10~28.10",null]
+["2026-09-14",59.91,4,20000,0,"신규","26.10~28.10",null],
+["2026-10-15",59.91,3,2000,80,"갱신","26.10~28.10",null]
 ]}}

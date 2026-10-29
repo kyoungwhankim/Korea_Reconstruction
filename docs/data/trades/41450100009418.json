@@ -1,7 +1,7 @@
 {"id":"41450100009418",
 "name":"꿈동산신안아파트",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":56,"median":82100,"min":50700,"max":95500,"latest_price":95500,"latest_date":"2026-10-24","latest_floor":11,"jeonse_n":82,"wolse_n":42,"jeonse_median":47625,"jeonse_min":29000,"jeonse_max":65000,"jeonse_latest":60000,"jeonse_latest_date":"2026-10-06","jeonse_ratio":58.0,"wolse_deposit_median":25500,"wolse_monthly_median":82}],
+"by_area":[{"area":85,"pyeong":25.7,"n":57,"median":82000,"min":50700,"max":95500,"latest_price":95500,"latest_date":"2026-10-24","latest_floor":11,"jeonse_n":82,"wolse_n":42,"jeonse_median":47625,"jeonse_min":29000,"jeonse_max":65000,"jeonse_latest":60000,"jeonse_latest_date":"2026-10-06","jeonse_ratio":58.1,"wolse_deposit_median":25500,"wolse_monthly_median":82}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-05",84.97,8,24950,null,null,1994],
 ["2006-01-09",84.97,12,25200,null,null,1994],
@@ -1944,6 +1944,7 @@
 ["2026-08-16",84.89,11,92000,"411","중개거래",1994],
 ["2026-08-21",84.97,18,94500,null,"중개거래",1994],
 ["2026-09-19",84.97,8,89500,null,"중개거래",1994],
+["2026-09-30",84.97,6,80000,null,"중개거래",1994],
 ["2026-10-24",84.89,11,95500,null,"중개거래",1994]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[

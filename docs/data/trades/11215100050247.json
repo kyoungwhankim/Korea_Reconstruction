@@ -1,7 +1,7 @@
 {"id":"11215100050247",
 "name":"중곡아파트2단지",
 "basis":"단지",
-"by_area":[{"area":56,"pyeong":16.9,"n":12,"median":61750,"min":47000,"max":65000,"latest_price":65000,"latest_date":"2026-08-28","latest_floor":1,"jeonse_n":5,"wolse_n":7,"jeonse_median":18000,"jeonse_min":15000,"jeonse_max":22000,"jeonse_latest":22000,"jeonse_latest_date":"2026-08-07","jeonse_ratio":29.1,"wolse_deposit_median":5000,"wolse_monthly_median":60}],
+"by_area":[{"area":56,"pyeong":16.9,"n":13,"median":61800,"min":47000,"max":70000,"latest_price":70000,"latest_date":"2026-10-05","latest_floor":3,"jeonse_n":5,"wolse_n":7,"jeonse_median":18000,"jeonse_min":15000,"jeonse_max":22000,"jeonse_latest":22000,"jeonse_latest_date":"2026-08-07","jeonse_ratio":29.1,"wolse_deposit_median":5000,"wolse_monthly_median":60}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-09",55.87,5,15000,null,null,1976],
 ["2006-04-11",55.87,5,15700,null,null,1976],
@@ -162,7 +162,8 @@
 ["2026-06-18",55.87,3,62000,"7","중개거래",1976],
 ["2026-06-23",55.87,4,62000,"6","중개거래",1976],
 ["2026-07-08",55.87,3,65000,"5","중개거래",1976],
-["2026-08-28",55.87,1,65000,"7","중개거래",1976]
+["2026-08-28",55.87,1,65000,"7","중개거래",1976],
+["2026-10-05",55.87,3,70000,null,"중개거래",1976]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-03",55.9,4,20000,0,"신규","25.11~27.11",null],

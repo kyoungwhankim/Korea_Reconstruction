@@ -1,7 +1,7 @@
 {"id":"11710100002343",
 "name":"거여현대2차",
 "basis":"단지",
-"by_area":[{"area":83,"pyeong":25.1,"n":11,"median":120000,"min":88000,"max":141000,"latest_price":135000,"latest_date":"2026-07-28","latest_floor":2,"jeonse_n":13,"wolse_n":16,"jeonse_median":54000,"jeonse_min":16000,"jeonse_max":70000,"jeonse_latest":45000,"jeonse_latest_date":"2026-08-08","jeonse_ratio":45.0,"wolse_deposit_median":12500,"wolse_monthly_median":113}],
+"by_area":[{"area":83,"pyeong":25.1,"n":11,"median":120000,"min":88000,"max":141000,"latest_price":135000,"latest_date":"2026-07-28","latest_floor":2,"jeonse_n":13,"wolse_n":17,"jeonse_median":54000,"jeonse_min":16000,"jeonse_max":70000,"jeonse_latest":45000,"jeonse_latest_date":"2026-08-08","jeonse_ratio":45.0,"wolse_deposit_median":15000,"wolse_monthly_median":106}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-17",82.96,3,42000,null,null,1992],
 ["2006-03-30",82.96,3,44000,null,null,1992],
@@ -198,5 +198,6 @@
 ["2026-08-01",82.96,7,70000,0,"신규","26.10~28.10",null],
 ["2026-08-08",82.96,2,45000,0,"갱신","26.08~27.02",null],
 ["2026-09-17",82.96,2,10000,30,"신규","26.10~28.10",null],
-["2026-09-28",82.96,9,5000,250,"신규","26.10~28.10",null]
+["2026-09-28",82.96,9,5000,250,"신규","26.10~28.10",null],
+["2026-10-28",82.96,3,40000,100,"신규","26.12~28.12",null]
 ]}}

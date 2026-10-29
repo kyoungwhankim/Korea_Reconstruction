@@ -1,7 +1,7 @@
 {"id":"41610100008114",
 "name":"동보아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":22,"median":26750,"min":24000,"max":29500,"latest_price":27500,"latest_date":"2026-10-17","latest_floor":9,"jeonse_n":4,"wolse_n":2,"jeonse_median":21000,"jeonse_min":20000,"jeonse_max":22000,"jeonse_latest":22000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":78.5,"wolse_deposit_median":4000,"wolse_monthly_median":75},{"area":85,"pyeong":25.7,"n":26,"median":31900,"min":28800,"max":36000,"latest_price":31000,"latest_date":"2026-10-24","latest_floor":18,"jeonse_n":5,"wolse_n":2,"jeonse_median":26500,"jeonse_min":21000,"jeonse_max":29000,"jeonse_latest":21000,"jeonse_latest_date":"2026-10-01","jeonse_ratio":83.1,"wolse_deposit_median":6500,"wolse_monthly_median":79}],
+"by_area":[{"area":60,"pyeong":18.1,"n":22,"median":26750,"min":24000,"max":29500,"latest_price":27500,"latest_date":"2026-10-17","latest_floor":9,"jeonse_n":4,"wolse_n":2,"jeonse_median":21000,"jeonse_min":20000,"jeonse_max":22000,"jeonse_latest":22000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":78.5,"wolse_deposit_median":4000,"wolse_monthly_median":75},{"area":85,"pyeong":25.7,"n":27,"median":31800,"min":28500,"max":36000,"latest_price":31000,"latest_date":"2026-10-24","latest_floor":18,"jeonse_n":5,"wolse_n":2,"jeonse_median":26500,"jeonse_min":21000,"jeonse_max":29000,"jeonse_latest":21000,"jeonse_latest_date":"2026-10-01","jeonse_ratio":83.3,"wolse_deposit_median":6500,"wolse_monthly_median":79}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-13",84.91,4,14500,null,null,1996],
 ["2006-01-14",84.91,16,13800,null,null,1996],
@@ -971,12 +971,13 @@
 ["2026-07-08",84.91,19,32000,"104","중개거래",1996],
 ["2026-07-10",84.91,11,30000,"102","중개거래",1996],
 ["2026-07-27",59.84,17,26000,null,"중개거래",1996],
-["2026-08-16",59.84,6,25800,null,"중개거래",1996],
+["2026-08-16",59.84,6,25800,"101","중개거래",1996],
 ["2026-08-29",59.84,1,25500,null,"중개거래",1996],
 ["2026-09-01",84.91,6,31800,null,"중개거래",1996],
 ["2026-09-02",59.84,6,26500,"104","중개거래",1996],
 ["2026-10-09",84.91,20,34500,null,"중개거래",1996],
 ["2026-10-13",84.91,5,33000,null,"중개거래",1996],
+["2026-10-13",84.91,8,28500,null,"중개거래",1996],
 ["2026-10-17",59.84,9,27500,null,"중개거래",1996],
 ["2026-10-24",84.91,18,31000,null,"중개거래",1996]
 ]},

@@ -1,7 +1,7 @@
 {"id":"서울-영등포구-여의도삼익",
 "name":"여의도삼익아파트",
 "basis":"기존 단지",
-"by_area":[{"area":123,"pyeong":37.2,"n":6,"median":290000,"min":289000,"max":320000,"latest_price":290000,"latest_date":"2026-09-11","latest_floor":6,"jeonse_n":22,"wolse_n":13,"jeonse_median":83500,"jeonse_min":68200,"jeonse_max":115000,"jeonse_latest":105000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":28.8,"wolse_deposit_median":51500,"wolse_monthly_median":130}],
+"by_area":[{"area":123,"pyeong":37.2,"n":6,"median":290000,"min":289000,"max":320000,"latest_price":290000,"latest_date":"2026-09-11","latest_floor":6,"jeonse_n":22,"wolse_n":15,"jeonse_median":83500,"jeonse_min":68200,"jeonse_max":115000,"jeonse_latest":105000,"jeonse_latest_date":"2026-09-11","jeonse_ratio":28.8,"wolse_deposit_median":55000,"wolse_monthly_median":130}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-06-03",123.27,11,85000,null,null,1974],
 ["2006-09-27",123.27,12,82000,null,null,1974],
@@ -230,5 +230,7 @@
 ["2026-08-25",123.27,1,100000,0,"신규","26.12~28.12",null],
 ["2026-09-11",123.27,6,105000,0,"신규","26.12~28.12",null],
 ["2026-09-12",123.27,5,75000,140,"신규","27.01~29.01",null],
-["2026-09-21",123.27,10,60000,130,"갱신","26.09~28.09",null]
+["2026-09-21",123.27,10,60000,130,"갱신","26.09~28.09",null],
+["2026-10-01",123.27,1,90000,65,"신규","26.12~28.12",null],
+["2026-10-28",122.78,12,71000,50,"갱신","27.02~29.02",null]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"11500100001783",
 "name":"부영아파트",
 "basis":"단지",
-"by_area":[{"area":81,"pyeong":24.5,"n":71,"median":104800,"min":55500,"max":128000,"latest_price":112000,"latest_date":"2026-09-20","latest_floor":12,"jeonse_n":41,"wolse_n":22,"jeonse_median":42500,"jeonse_min":35000,"jeonse_max":55000,"jeonse_latest":42000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":40.6,"wolse_deposit_median":10000,"wolse_monthly_median":124}],
+"by_area":[{"area":80,"pyeong":24.2,"jeonse_n":0,"wolse_n":1,"wolse_deposit_median":5000,"wolse_monthly_median":150},{"area":81,"pyeong":24.5,"n":71,"median":104800,"min":55500,"max":128000,"latest_price":112000,"latest_date":"2026-09-20","latest_floor":12,"jeonse_n":41,"wolse_n":23,"jeonse_median":42500,"jeonse_min":35000,"jeonse_max":55000,"jeonse_latest":42000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":40.6,"wolse_deposit_median":10000,"wolse_monthly_median":128}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-12",80.64,9,28500,null,null,1994],
 ["2006-01-14",80.64,4,28650,null,null,1994],
@@ -735,5 +735,7 @@
 ["2026-09-15",80.64,11,42000,0,"신규","27.01~29.01",null],
 ["2026-10-07",80.64,12,35000,0,"신규","27.01~29.01",null],
 ["2026-10-08",80.64,14,38000,0,"갱신","26.12~27.02",null],
-["2026-10-21",80.64,1,42000,0,"갱신","26.12~27.08",null]
+["2026-10-14",80.64,2,10000,150,"신규","26.11~28.11",null],
+["2026-10-21",80.64,1,42000,0,"갱신","26.12~27.08",null],
+["2026-10-25",80.0,1,5000,150,null,null,null]
 ]}}

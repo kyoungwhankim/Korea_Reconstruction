@@ -1,7 +1,7 @@
 {"id":"41670100007220",
 "name":"반석아파트",
 "basis":"단지",
-"by_area":[],
+"by_area":[{"area":103,"pyeong":31.2,"n":1,"median":13800,"min":13800,"max":13800,"latest_price":13800,"latest_date":"2026-10-20","latest_floor":1}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-27",82.56,5,6000,null,null,1989],
 ["2006-04-01",61.68,4,5500,null,null,1989],
@@ -27,7 +27,8 @@
 ["2017-09-29",61.68,1,12000,null,null,1989],
 ["2018-02-13",78.6,4,11000,null,null,1989],
 ["2021-08-27",61.68,5,10200,null,null,1989],
-["2021-09-27",80.4,5,12150,null,null,1989]
+["2021-09-27",80.4,5,12150,null,null,1989],
+["2026-10-20",102.76,1,13800,null,"중개거래",1989]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ]}}

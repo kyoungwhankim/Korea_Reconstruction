@@ -1,7 +1,7 @@
 {"id":"41173100006652",
 "name":"은하수신성아파트",
 "basis":"단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":5,"median":81000,"min":65000,"max":86000,"latest_price":86000,"latest_date":"2026-05-30","latest_floor":10,"jeonse_n":9,"wolse_n":3,"jeonse_median":40200,"jeonse_min":35700,"jeonse_max":57000,"jeonse_latest":45000,"jeonse_latest_date":"2026-10-10","jeonse_ratio":49.6,"wolse_deposit_median":5000,"wolse_monthly_median":115},{"area":85,"pyeong":25.7,"n":19,"median":109000,"min":65000,"max":128000,"latest_price":128000,"latest_date":"2026-09-23","latest_floor":7,"jeonse_n":16,"wolse_n":3,"jeonse_median":52750,"jeonse_min":43800,"jeonse_max":60000,"jeonse_latest":47250,"jeonse_latest_date":"2026-10-17","jeonse_ratio":48.4,"wolse_deposit_median":10000,"wolse_monthly_median":170}],
+"by_area":[{"area":60,"pyeong":18.1,"n":5,"median":81000,"min":65000,"max":86000,"latest_price":86000,"latest_date":"2026-05-30","latest_floor":10,"jeonse_n":10,"wolse_n":3,"jeonse_median":40100,"jeonse_min":35700,"jeonse_max":57000,"jeonse_latest":36000,"jeonse_latest_date":"2026-10-23","jeonse_ratio":49.5,"wolse_deposit_median":5000,"wolse_monthly_median":115},{"area":85,"pyeong":25.7,"n":19,"median":109000,"min":65000,"max":128000,"latest_price":128000,"latest_date":"2026-09-23","latest_floor":7,"jeonse_n":16,"wolse_n":3,"jeonse_median":52750,"jeonse_min":43800,"jeonse_max":60000,"jeonse_latest":47250,"jeonse_latest_date":"2026-10-17","jeonse_ratio":48.4,"wolse_deposit_median":10000,"wolse_monthly_median":170}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",84.6,6,39450,null,null,1992],
 ["2006-01-14",59.9,16,24500,null,null,1992],
@@ -529,5 +529,6 @@
 ["2026-09-09",84.6,17,30000,115,"신규","26.11~28.11",null],
 ["2026-10-10",59.9,6,45000,0,"갱신","26.11~28.11",null],
 ["2026-10-13",84.6,13,45000,0,"갱신","26.12~28.12",true],
-["2026-10-17",84.6,18,47250,0,"신규","26.10~28.10",null]
+["2026-10-17",84.6,18,47250,0,"신규","26.10~28.10",null],
+["2026-10-23",59.9,3,36000,0,"갱신","26.10~27.10",true]
 ]}}

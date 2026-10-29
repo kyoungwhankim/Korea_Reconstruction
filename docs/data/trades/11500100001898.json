@@ -1,7 +1,7 @@
 {"id":"11500100001898",
 "name":"한강타운",
 "basis":"단지",
-"by_area":[{"area":85,"pyeong":25.7,"n":18,"median":131750,"min":112000,"max":145000,"latest_price":141000,"latest_date":"2026-09-21","latest_floor":12,"jeonse_n":83,"wolse_n":43,"jeonse_median":55000,"jeonse_min":39500,"jeonse_max":70000,"jeonse_latest":65000,"jeonse_latest_date":"2026-10-22","jeonse_ratio":41.7,"wolse_deposit_median":20000,"wolse_monthly_median":150}],
+"by_area":[{"area":85,"pyeong":25.7,"n":18,"median":131750,"min":112000,"max":145000,"latest_price":141000,"latest_date":"2026-09-21","latest_floor":12,"jeonse_n":84,"wolse_n":43,"jeonse_median":55000,"jeonse_min":39500,"jeonse_max":70000,"jeonse_latest":57750,"jeonse_latest_date":"2026-10-28","jeonse_ratio":41.7,"wolse_deposit_median":20000,"wolse_monthly_median":150}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-14",84.99,2,29500,null,null,1993],
 ["2006-01-14",84.99,10,31200,null,null,1993],
@@ -941,5 +941,6 @@
 ["2026-10-07",84.99,11,39500,0,"갱신","26.10~28.10",true],
 ["2026-10-10",84.99,2,64000,0,"신규","26.12~28.12",null],
 ["2026-10-11",84.99,7,35000,120,"신규","26.12~28.12",null],
-["2026-10-22",84.99,6,65000,0,"신규","26.12~28.12",null]
+["2026-10-22",84.99,6,65000,0,"신규","26.12~28.12",null],
+["2026-10-28",84.99,15,57750,0,"갱신","26.11~28.11",true]
 ]}}

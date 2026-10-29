@@ -1,7 +1,7 @@
 {"id":"28110100005436",
 "name":"누리타워아파트",
 "basis":"단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":2,"median":12250,"min":11500,"max":13000,"latest_price":11500,"latest_date":"2026-08-24","latest_floor":25},{"area":96,"pyeong":29.0,"n":1,"median":18500,"min":18500,"max":18500,"latest_price":18500,"latest_date":"2026-06-10","latest_floor":19,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":2000,"wolse_monthly_median":95}],
+"by_area":[{"area":59,"pyeong":17.8,"n":2,"median":12250,"min":11500,"max":13000,"latest_price":11500,"latest_date":"2026-08-24","latest_floor":25},{"area":85,"pyeong":25.7,"n":1,"median":17000,"min":17000,"max":17000,"latest_price":17000,"latest_date":"2026-10-23","latest_floor":11},{"area":96,"pyeong":29.0,"n":1,"median":18500,"min":18500,"max":18500,"latest_price":18500,"latest_date":"2026-06-10","latest_floor":19,"jeonse_n":0,"wolse_n":2,"wolse_deposit_median":2000,"wolse_monthly_median":95}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-10-18",84.69,18,11000,null,null,1994],
 ["2006-11-07",95.79,20,12400,null,null,1994],
@@ -122,7 +122,8 @@
 ["2025-03-22",59.16,14,13000,null,"중개거래",1994],
 ["2026-03-26",59.16,25,13000,null,"중개거래",1994],
 ["2026-06-10",95.79,19,18500,null,"중개거래",1994],
-["2026-08-24",59.16,25,11500,null,"중개거래",1994]
+["2026-08-24",59.16,25,11500,null,"중개거래",1994],
+["2026-10-23",84.69,11,17000,null,"중개거래",1994]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2026-08-18",95.79,19,3000,110,"신규","26.08~28.08",null],

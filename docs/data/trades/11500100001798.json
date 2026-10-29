@@ -1,7 +1,7 @@
 {"id":"11500100001798",
 "name":"주공5단지",
 "basis":"단지",
-"by_area":[{"area":38,"pyeong":11.5,"n":13,"median":68500,"min":48000,"max":85000,"latest_price":85000,"latest_date":"2026-10-05","latest_floor":10,"jeonse_n":31,"wolse_n":20,"jeonse_median":32000,"jeonse_min":20800,"jeonse_max":40000,"jeonse_latest":27400,"jeonse_latest_date":"2026-09-02","jeonse_ratio":46.7,"wolse_deposit_median":5000,"wolse_monthly_median":74},{"area":58,"pyeong":17.5,"n":48,"median":98250,"min":75000,"max":116000,"latest_price":115000,"latest_date":"2026-10-02","latest_floor":11,"jeonse_n":69,"wolse_n":33,"jeonse_median":44100,"jeonse_min":31500,"jeonse_max":55000,"jeonse_latest":48000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":44.9,"wolse_deposit_median":15000,"wolse_monthly_median":100}],
+"by_area":[{"area":38,"pyeong":11.5,"n":13,"median":68500,"min":48000,"max":85000,"latest_price":85000,"latest_date":"2026-10-05","latest_floor":10,"jeonse_n":31,"wolse_n":20,"jeonse_median":32000,"jeonse_min":20800,"jeonse_max":40000,"jeonse_latest":27400,"jeonse_latest_date":"2026-09-02","jeonse_ratio":46.7,"wolse_deposit_median":5000,"wolse_monthly_median":74},{"area":58,"pyeong":17.5,"n":48,"median":98250,"min":75000,"max":116000,"latest_price":115000,"latest_date":"2026-10-02","latest_floor":11,"jeonse_n":69,"wolse_n":34,"jeonse_median":44100,"jeonse_min":31500,"jeonse_max":55000,"jeonse_latest":48000,"jeonse_latest_date":"2026-10-16","jeonse_ratio":44.9,"wolse_deposit_median":16500,"wolse_monthly_median":100}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-09",37.67,2,11000,null,null,1995],
 ["2006-01-10",37.67,5,11000,null,null,1995],
@@ -1540,5 +1540,6 @@
 ["2026-10-02",58.14,10,50000,0,"신규","26.12~28.12",null],
 ["2026-10-10",58.14,8,43500,0,"갱신","27.02~29.02",true],
 ["2026-10-16",58.14,12,48000,0,"신규","27.01~29.01",null],
-["2026-10-23",58.14,15,25000,36,"갱신","26.10~28.10",true]
+["2026-10-23",58.14,15,25000,36,"갱신","26.10~28.10",true],
+["2026-10-24",58.14,8,30450,20,"갱신","27.01~29.01",true]
 ]}}

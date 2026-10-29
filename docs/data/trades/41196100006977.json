@@ -1,7 +1,7 @@
 {"id":"41196100006977",
 "name":"동문미도(327-7)",
 "basis":"단지",
-"by_area":[{"area":51,"pyeong":15.4,"jeonse_n":5,"wolse_n":4,"jeonse_median":14000,"jeonse_min":9870,"jeonse_max":14000,"jeonse_latest":14000,"jeonse_latest_date":"2026-05-21","wolse_deposit_median":2000,"wolse_monthly_median":60},{"area":59,"pyeong":17.8,"n":3,"median":22500,"min":22500,"max":23000,"latest_price":22500,"latest_date":"2026-06-06","latest_floor":2,"jeonse_n":1,"wolse_n":1,"jeonse_median":15000,"jeonse_min":15000,"jeonse_max":15000,"jeonse_latest":15000,"jeonse_latest_date":"2026-04-09","jeonse_ratio":66.7,"wolse_deposit_median":16000,"wolse_monthly_median":10}],
+"by_area":[{"area":51,"pyeong":15.4,"jeonse_n":7,"wolse_n":4,"jeonse_median":13000,"jeonse_min":9870,"jeonse_max":14000,"jeonse_latest":12900,"jeonse_latest_date":"2026-10-27","wolse_deposit_median":2000,"wolse_monthly_median":60},{"area":59,"pyeong":17.8,"n":3,"median":22500,"min":22500,"max":23000,"latest_price":22500,"latest_date":"2026-06-06","latest_floor":2,"jeonse_n":1,"wolse_n":1,"jeonse_median":15000,"jeonse_min":15000,"jeonse_max":15000,"jeonse_latest":15000,"jeonse_latest_date":"2026-04-09","jeonse_ratio":66.7,"wolse_deposit_median":16000,"wolse_monthly_median":10}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-09",59.4,4,8900,null,null,1989],
 ["2006-08-13",56.88,2,9500,null,null,1989],
@@ -244,5 +244,7 @@
 ["2026-04-19",51.3,3,2000,65,"신규","26.05~28.05",null],
 ["2026-05-05",51.3,1,9870,0,"갱신","26.06~28.05",null],
 ["2026-05-21",51.3,5,14000,0,"신규","26.08~28.08",null],
-["2026-06-20",51.3,3,2000,60,"신규","26.08~28.08",null]
+["2026-06-20",51.3,3,2000,60,"신규","26.08~28.08",null],
+["2026-10-27",51.3,5,12900,0,"신규","26.12~28.12",null],
+["2026-10-27",51.3,5,12900,0,"신규","26.12~28.12",null]
 ]}}

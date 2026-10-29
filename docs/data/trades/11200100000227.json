@@ -1,7 +1,7 @@
 {"id":"11200100000227",
 "name":"중앙하이츠아파트",
 "basis":"단지",
-"by_area":[{"area":72,"pyeong":21.8,"n":11,"median":85000,"min":75000,"max":94500,"latest_price":94500,"latest_date":"2026-07-23","latest_floor":6,"jeonse_n":14,"wolse_n":9,"jeonse_median":46750,"jeonse_min":40000,"jeonse_max":56000,"jeonse_latest":50000,"jeonse_latest_date":"2026-10-14","jeonse_ratio":55.0,"wolse_deposit_median":10000,"wolse_monthly_median":116}],
+"by_area":[{"area":72,"pyeong":21.8,"n":12,"median":86250,"min":75000,"max":106000,"latest_price":106000,"latest_date":"2026-10-14","latest_floor":11,"jeonse_n":14,"wolse_n":9,"jeonse_median":46750,"jeonse_min":40000,"jeonse_max":56000,"jeonse_latest":50000,"jeonse_latest_date":"2026-10-14","jeonse_ratio":54.2,"wolse_deposit_median":10000,"wolse_monthly_median":116}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-02-08",71.85,12,19600,null,null,1989],
 ["2006-03-08",71.85,13,19500,null,null,1989],
@@ -243,7 +243,8 @@
 ["2026-06-02",71.85,11,85000,"101","중개거래",1989],
 ["2026-06-08",71.85,3,87500,"102","중개거래",1989],
 ["2026-06-20",71.85,3,91800,"101","중개거래",1989],
-["2026-07-23",71.85,6,94500,"101","중개거래",1989]
+["2026-07-23",71.85,6,94500,"101","중개거래",1989],
+["2026-10-14",71.85,11,106000,null,"중개거래",1989]
 ]},
 "rents":{"cols":["date","area","floor","deposit","monthly","contract","term","renewal"],"rows":[
 ["2025-11-01",71.85,1,40950,0,"갱신","26.02~28.02",null],

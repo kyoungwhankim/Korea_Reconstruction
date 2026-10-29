@@ -1,7 +1,7 @@
 {"id":"서울-서초구-반포미도2",
 "name":"반포미도2차",
 "basis":"기존 단지",
-"by_area":[{"area":59,"pyeong":17.8,"n":3,"median":268000,"min":265000,"max":280000,"latest_price":268000,"latest_date":"2026-05-16","latest_floor":6,"jeonse_n":10,"wolse_n":5,"jeonse_median":65625,"jeonse_min":53300,"jeonse_max":73000,"jeonse_latest":68250,"jeonse_latest_date":"2026-09-10","jeonse_ratio":24.5,"wolse_deposit_median":33000,"wolse_monthly_median":116},{"area":71,"pyeong":21.5,"n":8,"median":300000,"min":286000,"max":321000,"latest_price":315000,"latest_date":"2026-07-13","latest_floor":7,"jeonse_n":32,"wolse_n":18,"jeonse_median":69125,"jeonse_min":50000,"jeonse_max":80000,"jeonse_latest":70000,"jeonse_latest_date":"2026-09-19","jeonse_ratio":23.0,"wolse_deposit_median":32500,"wolse_monthly_median":157}],
+"by_area":[{"area":59,"pyeong":17.8,"n":3,"median":268000,"min":265000,"max":280000,"latest_price":268000,"latest_date":"2026-05-16","latest_floor":6,"jeonse_n":10,"wolse_n":5,"jeonse_median":65625,"jeonse_min":53300,"jeonse_max":73000,"jeonse_latest":68250,"jeonse_latest_date":"2026-09-10","jeonse_ratio":24.5,"wolse_deposit_median":33000,"wolse_monthly_median":116},{"area":71,"pyeong":21.5,"n":8,"median":300000,"min":286000,"max":321000,"latest_price":315000,"latest_date":"2026-07-13","latest_floor":7,"jeonse_n":33,"wolse_n":18,"jeonse_median":68250,"jeonse_min":50000,"jeonse_max":80000,"jeonse_latest":63662,"jeonse_latest_date":"2026-10-23","jeonse_ratio":22.8,"wolse_deposit_median":32500,"wolse_monthly_median":157}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",71.49,12,50000,null,null,1989],
 ["2006-03-02",59.07,12,40000,null,null,1989],
@@ -471,5 +471,6 @@
 ["2026-08-29",71.49,12,78000,0,"신규","26.10~28.10",null],
 ["2026-09-10",59.07,5,68250,0,"갱신","26.09~28.09",true],
 ["2026-09-19",71.49,12,70000,0,"갱신","26.10~28.10",null],
-["2026-10-01",59.07,5,35000,60,"신규","26.10~28.09",null]
+["2026-10-01",59.07,5,35000,60,"신규","26.10~28.09",null],
+["2026-10-23",71.49,4,63662,0,"갱신","26.12~28.12",true]
 ]}}

@@ -1,7 +1,7 @@
 {"id":"11470100003310",
 "name":"현대아파트",
 "basis":"단지",
-"by_area":[{"area":84,"pyeong":25.4,"jeonse_n":1,"wolse_n":0,"jeonse_median":63000,"jeonse_min":63000,"jeonse_max":63000,"jeonse_latest":63000,"jeonse_latest_date":"2026-02-04"},{"area":85,"pyeong":25.7,"n":9,"median":141000,"min":124500,"max":146500,"latest_price":141000,"latest_date":"2026-08-14","latest_floor":20,"jeonse_n":25,"wolse_n":3,"jeonse_median":66000,"jeonse_min":56500,"jeonse_max":75000,"jeonse_latest":71000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":46.8,"wolse_deposit_median":10000,"wolse_monthly_median":135}],
+"by_area":[{"area":84,"pyeong":25.4,"jeonse_n":1,"wolse_n":0,"jeonse_median":63000,"jeonse_min":63000,"jeonse_max":63000,"jeonse_latest":63000,"jeonse_latest_date":"2026-02-04"},{"area":85,"pyeong":25.7,"n":9,"median":141000,"min":124500,"max":146500,"latest_price":141000,"latest_date":"2026-08-14","latest_floor":20,"jeonse_n":26,"wolse_n":3,"jeonse_median":66600,"jeonse_min":56500,"jeonse_max":75000,"jeonse_latest":71000,"jeonse_latest_date":"2026-10-19","jeonse_ratio":47.2,"wolse_deposit_median":10000,"wolse_monthly_median":135}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-01",84.84,8,29000,null,null,1995],
 ["2006-03-22",84.84,1,30000,null,null,1995],
@@ -247,6 +247,7 @@
 ["2026-08-02",84.84,10,65000,0,"신규","26.09~28.09",null],
 ["2026-08-11",84.84,4,65000,0,"갱신","26.10~29.01",null],
 ["2026-08-12",84.84,7,68200,0,"갱신","26.08~28.08",true],
+["2026-08-18",84.84,16,73000,0,"신규","26.11~28.11",null],
 ["2026-08-18",84.84,16,73000,0,"신규","26.11~28.11",null],
 ["2026-08-29",84.84,2,60500,0,"갱신","26.08~28.08",true],
 ["2026-09-19",84.84,6,75000,0,"신규","26.11~28.11",null],

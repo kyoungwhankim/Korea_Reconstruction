@@ -1,7 +1,7 @@
 {"id":"경기-용인-수지1",
 "name":"수지1",
 "basis":"기존 단지",
-"by_area":[{"area":60,"pyeong":18.1,"n":26,"median":89250,"min":63000,"max":96500,"latest_price":96500,"latest_date":"2026-10-02","latest_floor":7,"jeonse_n":156,"wolse_n":94,"jeonse_median":35500,"jeonse_min":20832,"jeonse_max":48000,"jeonse_latest":41000,"jeonse_latest_date":"2026-10-21","jeonse_ratio":39.8,"wolse_deposit_median":10000,"wolse_monthly_median":102}],
+"by_area":[{"area":60,"pyeong":18.1,"n":26,"median":89250,"min":63000,"max":96500,"latest_price":96500,"latest_date":"2026-10-02","latest_floor":7,"jeonse_n":157,"wolse_n":94,"jeonse_median":35000,"jeonse_min":20832,"jeonse_max":48000,"jeonse_latest":30000,"jeonse_latest_date":"2026-10-28","jeonse_ratio":39.2,"wolse_deposit_median":10000,"wolse_monthly_median":102}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-01-07",59.76,9,14150,null,null,1994],
 ["2006-01-11",59.76,1,12500,null,null,1994],
@@ -2065,5 +2065,6 @@
 ["2026-10-13",59.76,8,10000,90,"갱신","26.10~28.10",null],
 ["2026-10-17",59.76,2,29000,0,"갱신","26.11~28.11",true],
 ["2026-10-20",59.76,15,10000,130,"신규","26.11~28.11",null],
-["2026-10-21",59.76,11,41000,0,"신규","26.12~28.12",null]
+["2026-10-21",59.76,11,41000,0,"신규","26.12~28.12",null],
+["2026-10-28",59.76,3,30000,0,"신규","26.10~28.10",null]
 ]}}

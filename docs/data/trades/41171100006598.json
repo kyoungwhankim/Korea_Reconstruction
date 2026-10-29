@@ -1,7 +1,7 @@
 {"id":"41171100006598",
 "name":"우성2(105동,106동)",
 "basis":"단지",
-"by_area":[{"area":52,"pyeong":15.7,"n":4,"median":27500,"min":25000,"max":29800,"latest_price":29500,"latest_date":"2026-09-28","latest_floor":3,"jeonse_n":0,"wolse_n":5,"wolse_deposit_median":2000,"wolse_monthly_median":60},{"area":66,"pyeong":20.0,"n":4,"median":32900,"min":21500,"max":34000,"latest_price":32800,"latest_date":"2026-06-10","latest_floor":4,"jeonse_n":2,"wolse_n":1,"jeonse_median":21000,"jeonse_min":21000,"jeonse_max":21000,"jeonse_latest":21000,"jeonse_latest_date":"2026-03-18","jeonse_ratio":63.8,"wolse_deposit_median":5000,"wolse_monthly_median":55}],
+"by_area":[{"area":52,"pyeong":15.7,"n":4,"median":27500,"min":25000,"max":29800,"latest_price":29500,"latest_date":"2026-09-28","latest_floor":3,"jeonse_n":0,"wolse_n":6,"wolse_deposit_median":2000,"wolse_monthly_median":60},{"area":66,"pyeong":20.0,"n":4,"median":32900,"min":21500,"max":34000,"latest_price":32800,"latest_date":"2026-06-10","latest_floor":4,"jeonse_n":2,"wolse_n":1,"jeonse_median":21000,"jeonse_min":21000,"jeonse_max":21000,"jeonse_latest":21000,"jeonse_latest_date":"2026-03-18","jeonse_ratio":63.8,"wolse_deposit_median":5000,"wolse_monthly_median":55}],
 "sales":{"cols":["date","area","floor","price","dong","type","built"],"rows":[
 ["2006-03-17",66.42,2,14750,null,null,1989],
 ["2006-03-21",66.42,2,14900,null,null,1989],
@@ -198,5 +198,6 @@
 ["2026-03-18",66.42,5,21000,0,"신규","26.04~28.04",null],
 ["2026-03-18",66.42,5,21000,0,"신규","26.04~28.04",null],
 ["2026-05-27",52.48,5,8000,35,"갱신","26.05~28.05",null],
-["2026-08-03",52.48,6,2000,60,"신규","26.09~28.09",null]
+["2026-08-03",52.48,6,2000,60,"신규","26.09~28.09",null],
+["2026-09-28",52.48,5,2000,60,"신규","26.10~28.10",null]
 ]}}
